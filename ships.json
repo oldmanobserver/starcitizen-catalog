@@ -1,0 +1,339 @@
+{
+  "_description": "Official Star Citizen vehicle list. Used for transcript correction and reference.",
+  "_updated": "2026-05-07",
+  "manufacturers": {
+    "Aegis Dynamics": {
+      "prefix": "Aegis",
+      "ships": [
+        {"name": "Aegis Avenger Stalker", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Avenger Titan", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Avenger Titan Renegade", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Avenger Warlock", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Eclipse", "size": "medium", "status": "flight-ready"},
+        {"name": "Aegis Gladius", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Gladius Valiant", "size": "small", "status": "flight-ready"},
+        {"name": "Aegis Hammerhead", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Idris-M", "size": "capital", "status": "flight-ready"},
+        {"name": "Aegis Idris-P", "size": "capital", "status": "flight-ready"},
+        {"name": "Aegis Javelin", "size": "capital", "status": "flight-ready"},
+        {"name": "Aegis Nautilus", "size": "large", "status": "in-concept"},
+        {"name": "Aegis Reclaimer", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Redeemer", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Retaliator Base", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Retaliator Bomber", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Sabre", "size": "medium", "status": "flight-ready"},
+        {"name": "Aegis Sabre Comet", "size": "medium", "status": "flight-ready"},
+        {"name": "Aegis Sabre Raven", "size": "medium", "status": "flight-ready"},
+        {"name": "Aegis Vanguard Harbinger", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Vanguard Hoplite", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Vanguard Sentinel", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Vanguard Warden", "size": "large", "status": "flight-ready"},
+        {"name": "Aegis Vulcan", "size": "medium", "status": "in-concept"},
+        {"name": "Aegis Tiburon", "size": "medium", "status": "in-concept", "notes": "DefenseCon 2956 reveal"}
+      ]
+    },
+    "Anvil Aerospace": {
+      "prefix": "Anvil",
+      "ships": [
+        {"name": "Anvil Arrow", "size": "small", "status": "flight-ready"},
+        {"name": "Anvil Ballista", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Anvil C8 Pisces", "size": "snub", "status": "flight-ready"},
+        {"name": "Anvil C8X Pisces Expedition", "size": "snub", "status": "flight-ready"},
+        {"name": "Anvil Carrack", "size": "large", "status": "flight-ready", "aliases": ["Carrick"]},
+        {"name": "Anvil Centurion", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Anvil Crucible", "size": "large", "status": "in-concept"},
+        {"name": "Anvil F7C Hornet Mk I", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7C Hornet Mk II", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7C-M Super Hornet Mk I", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7C-M Super Hornet Mk II", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7C-R Hornet Tracker Mk I", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7C-S Hornet Ghost Mk I", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil F7A Hornet Mk II", "size": "medium", "status": "flight-ready", "notes": "Military variant"},
+        {"name": "Anvil Gladiator", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil Hawk", "size": "small", "status": "flight-ready"},
+        {"name": "Anvil Hurricane", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil Liberator", "size": "large", "status": "flight-ready"},
+        {"name": "Anvil Spartan", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Anvil Terrapin", "size": "medium", "status": "flight-ready"},
+        {"name": "Anvil Valkyrie", "size": "large", "status": "flight-ready"},
+        {"name": "Anvil Odin", "size": "capital", "status": "in-concept", "aliases": ["Battlecruiser"], "notes": "Battle cruiser, DefenseCon 2956 concept debut, twice the size of a Javelin"}
+      ]
+    },
+    "Argo Astronautics": {
+      "prefix": "Argo",
+      "ships": [
+        {"name": "Argo ATLS", "size": "vehicle", "status": "flight-ready", "notes": "Mechanized utility suit"},
+        {"name": "Argo CSV-SM", "size": "small", "status": "flight-ready"},
+        {"name": "Argo MOLE", "size": "medium", "status": "flight-ready"},
+        {"name": "Argo MPUV-1C Cargo", "size": "snub", "status": "flight-ready"},
+        {"name": "Argo MPUV-1P Personnel", "size": "snub", "status": "flight-ready"},
+        {"name": "Argo RAFT", "size": "medium", "status": "flight-ready"},
+        {"name": "Argo SRV", "size": "medium", "status": "flight-ready"},
+        {"name": "Argo MOTH", "size": "small", "status": "flight-ready", "notes": "Refueling ship"}
+      ]
+    },
+    "Aopoa": {
+      "prefix": "Aopoa",
+      "ships": [
+        {"name": "Aopoa Khartu-Al", "size": "medium", "status": "flight-ready"},
+        {"name": "Aopoa Nox", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Aopoa Nox Kue", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Aopoa San'tok.yāi", "size": "medium", "status": "flight-ready"}
+      ]
+    },
+    "Banu": {
+      "prefix": "Banu",
+      "ships": [
+        {"name": "Banu Defender", "size": "medium", "status": "flight-ready"},
+        {"name": "Banu Merchantman", "size": "large", "status": "flight-ready", "aliases": ["BMM"]}
+      ]
+    },
+    "CNOU (Consolidated Outland)": {
+      "prefix": "CNOU",
+      "ships": [
+        {"name": "CNOU HoverQuad", "size": "vehicle", "status": "flight-ready"},
+        {"name": "CNOU Mustang Alpha", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Mustang Beta", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Mustang Gamma", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Mustang Delta", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Mustang Omega", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Nomad", "size": "small", "status": "flight-ready"},
+        {"name": "CNOU Pioneer", "size": "large", "status": "in-concept"}
+      ]
+    },
+    "Crusader Industries": {
+      "prefix": "Crusader",
+      "ships": [
+        {"name": "Crusader A2 Hercules Starlifter", "size": "large", "status": "flight-ready"},
+        {"name": "Crusader C2 Hercules Starlifter", "size": "large", "status": "flight-ready"},
+        {"name": "Crusader M2 Hercules Starlifter", "size": "large", "status": "flight-ready"},
+        {"name": "Crusader Ares Star Fighter Inferno", "size": "medium", "status": "flight-ready"},
+        {"name": "Crusader Ares Star Fighter Ion", "size": "medium", "status": "flight-ready"},
+        {"name": "Crusader Genesis Starliner", "size": "large", "status": "in-concept"},
+        {"name": "Crusader Intrepid", "size": "medium", "status": "in-concept"},
+        {"name": "Crusader Mercury Star Runner", "size": "medium", "status": "flight-ready", "aliases": ["MSR"]},
+        {"name": "Crusader Spirit A1", "size": "medium", "status": "flight-ready"},
+        {"name": "Crusader Spirit C1", "size": "medium", "status": "flight-ready"},
+        {"name": "Crusader Spirit E1", "size": "medium", "status": "flight-ready"}
+      ]
+    },
+    "Drake Interplanetary": {
+      "prefix": "Drake",
+      "ships": [
+        {"name": "Drake Buccaneer", "size": "small", "status": "flight-ready"},
+        {"name": "Drake Caterpillar", "size": "large", "status": "flight-ready", "aliases": ["Cat"]},
+        {"name": "Drake Corsair", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Cutlass Black", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Cutlass Blue", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Cutlass Red", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Cutlass Steel", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Cutter", "size": "small", "status": "flight-ready"},
+        {"name": "Drake Cutter Rambler", "size": "small", "status": "flight-ready"},
+        {"name": "Drake Cutter Scout", "size": "small", "status": "flight-ready"},
+        {"name": "Drake Dragonfly Black", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Drake Dragonfly Yellowjacket", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Drake Herald", "size": "small", "status": "flight-ready"},
+        {"name": "Drake Ironchad", "size": "large", "status": "flight-ready", "aliases": ["Fatterpillar"]},
+        {"name": "Drake Ironchad Assault", "size": "large", "status": "flight-ready"},
+        {"name": "Drake Kraken", "size": "capital", "status": "in-concept"},
+        {"name": "Drake Kraken Privateer", "size": "capital", "status": "in-concept"},
+        {"name": "Drake Mule", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Drake Vulture", "size": "medium", "status": "flight-ready"},
+        {"name": "Drake Pitbull", "size": "small", "status": "in-concept", "notes": "DefenseCon 2956 reveal"}
+      ]
+    },
+    "Esperia": {
+      "prefix": "Esperia",
+      "ships": [
+        {"name": "Esperia Blade", "size": "medium", "status": "flight-ready"},
+        {"name": "Esperia Glaive", "size": "medium", "status": "flight-ready"},
+        {"name": "Esperia Prowler", "size": "medium", "status": "flight-ready"},
+        {"name": "Esperia Talon", "size": "small", "status": "flight-ready"},
+        {"name": "Esperia Talon Shrike", "size": "small", "status": "flight-ready"}
+      ]
+    },
+    "Gatac": {
+      "prefix": "Gatac",
+      "ships": [
+        {"name": "Gatac Railen", "size": "large", "status": "flight-ready"},
+        {"name": "Gatac Syulen", "size": "medium", "status": "flight-ready"}
+      ]
+    },
+    "Greycat Industrial": {
+      "prefix": "Greycat",
+      "ships": [
+        {"name": "Greycat PTV", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Greycat ROC", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Greycat ROC-DS", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Greycat STV", "size": "vehicle", "status": "flight-ready"}
+      ]
+    },
+    "Kruger Intergalactic": {
+      "prefix": "Kruger",
+      "ships": [
+        {"name": "Kruger P-52 Merlin", "size": "snub", "status": "flight-ready"},
+        {"name": "Kruger P-72 Archimedes", "size": "snub", "status": "flight-ready"},
+        {"name": "Kruger P-72 Archimedes Emerald", "size": "snub", "status": "flight-ready"}
+      ]
+    },
+    "MISC (Musashi Industrial & Starflight Concern)": {
+      "prefix": "MISC",
+      "ships": [
+        {"name": "MISC Endeavor", "size": "large", "status": "in-concept"},
+        {"name": "MISC Expanse", "size": "large", "status": "flight-ready"},
+        {"name": "MISC Freelancer", "size": "medium", "status": "flight-ready"},
+        {"name": "MISC Freelancer DUR", "size": "medium", "status": "flight-ready"},
+        {"name": "MISC Freelancer MAX", "size": "medium", "status": "flight-ready"},
+        {"name": "MISC Freelancer MIS", "size": "medium", "status": "flight-ready"},
+        {"name": "MISC Fury", "size": "snub", "status": "flight-ready"},
+        {"name": "MISC Fury LX", "size": "snub", "status": "flight-ready"},
+        {"name": "MISC Fury MX", "size": "snub", "status": "flight-ready"},
+        {"name": "MISC Hull A", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Hull B", "size": "medium", "status": "flight-ready"},
+        {"name": "MISC Hull C", "size": "large", "status": "flight-ready"},
+        {"name": "MISC Hull D", "size": "large", "status": "in-concept"},
+        {"name": "MISC Hull E", "size": "large", "status": "in-concept"},
+        {"name": "MISC Odyssey", "size": "large", "status": "in-concept"},
+        {"name": "MISC Prospector", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Razor", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Razor EX", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Razor LX", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Reliant Kore", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Reliant Mako", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Reliant Sen", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Reliant Tana", "size": "small", "status": "flight-ready"},
+        {"name": "MISC Starfarer", "size": "large", "status": "flight-ready"},
+        {"name": "MISC Starfarer Gemini", "size": "large", "status": "flight-ready"},
+        {"name": "MISC Starlancer MAX", "size": "large", "status": "flight-ready"},
+        {"name": "MISC Starlancer TAC", "size": "large", "status": "flight-ready", "aliases": ["Starlancer Attack", "Starlancer Tac"]},
+        {"name": "MISC Starlite", "size": "medium", "status": "in-concept", "notes": "DefenseCon 2956 reveal"}
+      ]
+    },
+    "Origin Jumpworks": {
+      "prefix": "Origin",
+      "ships": [
+        {"name": "Origin 100i", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 125a", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 135c", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 300i", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 315p", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 325a", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 350r", "size": "small", "status": "flight-ready"},
+        {"name": "Origin 400i", "size": "medium", "status": "flight-ready"},
+        {"name": "Origin 600i Explorer", "size": "large", "status": "flight-ready"},
+        {"name": "Origin 600i Touring", "size": "large", "status": "flight-ready"},
+        {"name": "Origin 85X", "size": "snub", "status": "flight-ready"},
+        {"name": "Origin 890 Jump", "size": "large", "status": "flight-ready", "aliases": ["890J"]},
+        {"name": "Origin G12", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin G12a", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin G12r", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin M50", "size": "small", "status": "flight-ready"},
+        {"name": "Origin X1", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin X1 Force", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin X1 Velocity", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Origin M80", "size": "medium", "status": "in-concept", "notes": "DefenseCon 2956 reveal"}
+      ]
+    },
+    "RSI (Roberts Space Industries)": {
+      "prefix": "RSI",
+      "ships": [
+        {"name": "RSI Aurora CL", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Aurora ES", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Aurora LN", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Aurora LX", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Aurora MR", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Aurora Mk II", "size": "small", "status": "flight-ready"},
+        {"name": "RSI Bengal", "size": "capital", "status": "in-development", "notes": "Carrier, NPC only"},
+        {"name": "RSI Constellation Andromeda", "size": "large", "status": "flight-ready"},
+        {"name": "RSI Constellation Aquila", "size": "large", "status": "flight-ready"},
+        {"name": "RSI Constellation Phoenix", "size": "large", "status": "flight-ready"},
+        {"name": "RSI Constellation Taurus", "size": "large", "status": "flight-ready"},
+        {"name": "RSI Galaxy", "size": "large", "status": "flight-ready"},
+        {"name": "RSI Hermes", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Lynx", "size": "vehicle", "status": "in-concept"},
+        {"name": "RSI Mantis", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Orion", "size": "capital", "status": "in-concept"},
+        {"name": "RSI Polaris", "size": "capital", "status": "flight-ready"},
+        {"name": "RSI Scorpius", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Scorpius Antares", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Ursa", "size": "vehicle", "status": "flight-ready"},
+        {"name": "RSI Ursa Medivac", "size": "vehicle", "status": "flight-ready"},
+        {"name": "RSI Zeus Mk II CL", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Zeus Mk II ES", "size": "medium", "status": "flight-ready"},
+        {"name": "RSI Zeus Mk II MR", "size": "medium", "status": "flight-ready"}
+      ]
+    },
+    "Tumbril": {
+      "prefix": "Tumbril",
+      "ships": [
+        {"name": "Tumbril Cyclone", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Cyclone AA", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Cyclone MT", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Cyclone RC", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Cyclone RN", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Cyclone TR", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Nova", "size": "vehicle", "status": "flight-ready", "notes": "Tank"},
+        {"name": "Tumbril Ranger CV", "size": "vehicle", "status": "in-concept"},
+        {"name": "Tumbril Ranger RC", "size": "vehicle", "status": "in-concept"},
+        {"name": "Tumbril Ranger TR", "size": "vehicle", "status": "in-concept"},
+        {"name": "Tumbril Storm", "size": "vehicle", "status": "flight-ready"},
+        {"name": "Tumbril Storm AA", "size": "vehicle", "status": "flight-ready"}
+      ]
+    },
+    "Vanduul": {
+      "prefix": "Vanduul",
+      "ships": [
+        {"name": "Vanduul Blade", "size": "medium", "status": "npc", "notes": "Esperia produces the player replica"},
+        {"name": "Vanduul Driller", "size": "capital", "status": "npc"},
+        {"name": "Vanduul Glaive", "size": "medium", "status": "npc", "notes": "Esperia produces the player replica"},
+        {"name": "Vanduul Hunter", "size": "large", "status": "npc"},
+        {"name": "Vanduul Mauler", "size": "capital", "status": "npc"},
+        {"name": "Vanduul Scythe", "size": "medium", "status": "npc"},
+        {"name": "Vanduul Stinger", "size": "medium", "status": "npc"},
+        {"name": "Vanduul Void", "size": "large", "status": "npc"}
+      ]
+    },
+    "Apex": {
+      "prefix": "Apex",
+      "ships": [
+        {"name": "Apex Sandworm", "size": "large", "status": "in-development", "notes": "Giant worm, teased in ISC Alpha 4.8 Patch Report"}
+      ]
+    }
+  },
+  "transcript_corrections": {
+    "_description": "Maps common transcript misheard/misspelled names to their correct official names",
+    "Starlancer Attack": "MISC Starlancer TAC",
+    "Starlancer Tac": "MISC Starlancer TAC",
+    "Carrick": "Anvil Carrack",
+    "Iron Chad": "Drake Ironchad",
+    "Iron Chad Assault": "Drake Ironchad Assault",
+    "Ironclad": "Drake Ironchad",
+    "Ironclad Assault": "Drake Ironchad Assault",
+    "Fatterpillar": "Drake Ironchad",
+    "fatterpillar": "Drake Ironchad",
+    "890 jump": "Origin 890 Jump",
+    "Starfare": "MISC Starfarer",
+    "Star Runner": "Crusader Mercury Star Runner",
+    "Merc Star Runner": "Crusader Mercury Star Runner",
+    "Merchantman": "Banu Merchantman",
+    "Hammerhead": "Aegis Hammerhead",
+    "Caterpillar": "Drake Caterpillar",
+    "Cat": "Drake Caterpillar",
+    "BMM": "Banu Merchantman",
+    "MSR": "Crusader Mercury Star Runner",
+    "Connie": "RSI Constellation Andromeda",
+    "Idris": "Aegis Idris-P",
+    "Javelin": "Aegis Javelin",
+    "Polaris": "RSI Polaris",
+    "Carrack": "Anvil Carrack",
+    "Sand Ballot Car": "Apex Sandworm",
+    "sand ballot car": "Apex Sandworm",
+    "Tibberon": "Aegis Tiburon",
+    "tibberon": "Aegis Tiburon",
+    "Starlight": "MISC Starlite",
+    "starlight": "MISC Starlite",
+    "Battlecruiser": "Anvil Odin",
+    "battlecruiser": "Anvil Odin",
+    "Battle Cruiser": "Anvil Odin"
+  }
+}
