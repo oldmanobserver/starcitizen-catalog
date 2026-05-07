@@ -15,7 +15,7 @@ import time
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import IpBlocked
 
-DELAY_BETWEEN_REQUESTS = 30
+DELAY_BETWEEN_REQUESTS = 300
 RATE_LIMIT_WAIT = 300
 MAX_RETRIES = 5
 
