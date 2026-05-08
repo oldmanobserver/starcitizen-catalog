@@ -296,7 +296,7 @@
     "Apex": {
       "prefix": "Apex",
       "ships": [
-        {"name": "Apex Sandworm", "size": "large", "status": "in-development", "notes": "Giant worm, teased in ISC Alpha 4.8 Patch Report"}
+        {"name": "Apex Sand Valakkar", "size": "large", "status": "in-development", "notes": "Giant worm, teased in ISC Alpha 4.8 Patch Report"}
       ]
     }
   },
@@ -326,8 +326,8 @@
     "Javelin": "Aegis Javelin",
     "Polaris": "RSI Polaris",
     "Carrack": "Anvil Carrack",
-    "Sand Ballot Car": "Apex Sandworm",
-    "sand ballot car": "Apex Sandworm",
+    "Sand Ballot Car": "Apex Sand Valakkar",
+    "sand ballot car": "Apex Sand Valakkar",
     "Tibberon": "Aegis Tiburon",
     "tibberon": "Aegis Tiburon",
     "Starlight": "MISC Starlite",
