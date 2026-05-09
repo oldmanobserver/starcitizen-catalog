@@ -1,0 +1,116 @@
+# Star Citizen - RSI YouTube Videos (2022)
+
+**Channel:** [Roberts Space Industries](https://www.youtube.com/@RobertsSpaceInd)
+**Total Videos:** 106
+**Last Updated:** 2026-05-08
+
+## Video List
+
+| # | Date | Title | Duration | Transcript |
+|---|------|-------|----------|------------|
+| 1 | 2022-12-15 | [Inside Star Citizen: Year in Review \| Fall 2022](https://www.youtube.com/watch?v=pewuW7zcM_A) | 12:00 | [transcript](transcripts/pewuW7zcM_A.md) |
+| 2 | 2022-12-09 | [Star Citizen Live: Master Modes](https://www.youtube.com/watch?v=v3JNtoMi_a4) | 59:06 | [transcript](transcripts/v3JNtoMi_a4.md) |
+| 3 | 2022-12-08 | [Reverberations & Applications \| Journey to 4.0](https://www.youtube.com/watch?v=gRJqnZOERPU) | 10:05 | [transcript](transcripts/gRJqnZOERPU.md) |
+| 4 | 2022-12-02 | [Star Citizen Live: Montreal Protocol](https://www.youtube.com/watch?v=99wHaVeDii0) | 56:13 | [transcript](transcripts/99wHaVeDii0.md) |
+| 5 | 2022-12-01 | [Inside Star Citizen: Finding the North Star \| Fall 2022](https://www.youtube.com/watch?v=n1Fjctpk2qU) | 12:28 | [transcript](transcripts/n1Fjctpk2qU.md) |
+| 6 | 2022-11-30 | [IAE 2952: Part 10](https://www.youtube.com/watch?v=wFDIW6W1wRc) | 1:25 | [transcript](transcripts/wFDIW6W1wRc.md) |
+| 7 | 2022-11-26 | [IAE 2952: Part 9](https://www.youtube.com/watch?v=LODrpwBoZe4) | 2:17 | [transcript](transcripts/LODrpwBoZe4.md) |
+| 8 | 2022-11-25 | [IAE 2952: Part 8](https://www.youtube.com/watch?v=u-ATmag0RJs) | 0:43 | [transcript](transcripts/u-ATmag0RJs.md) |
+| 9 | 2022-11-25 | [Star Citizen: Free To Play Until Nov 30th](https://www.youtube.com/watch?v=rGx1oxTxm-0) | 0:16 | [transcript](transcripts/rGx1oxTxm-0.md) |
+| 10 | 2022-11-24 | [Inside Star Citizen: Galaxy Class \| Fall 2022](https://www.youtube.com/watch?v=bpFmuF6jHEQ) | 10:52 | [transcript](transcripts/bpFmuF6jHEQ.md) |
+| 11 | 2022-11-24 | [IAE 2952: Part 7](https://www.youtube.com/watch?v=a6EPOK6jviw) | 1:03 | [transcript](transcripts/a6EPOK6jviw.md) |
+| 12 | 2022-11-23 | [IAE 2952: Part 6](https://www.youtube.com/watch?v=psL3uXknFnQ) | 0:57 | [transcript](transcripts/psL3uXknFnQ.md) |
+| 13 | 2022-11-22 | [IAE 2952: Part 5](https://www.youtube.com/watch?v=b3G34-lgGV8) | 1:49 | [transcript](transcripts/b3G34-lgGV8.md) |
+| 14 | 2022-11-21 | [IAE 2952: Part 4](https://www.youtube.com/watch?v=BcemmXgVvgk) | 1:01 | [transcript](transcripts/BcemmXgVvgk.md) |
+| 15 | 2022-11-20 | [IAE 2952: Part 3](https://www.youtube.com/watch?v=gRocgiC7BqE) | 1:05 | [transcript](transcripts/gRocgiC7BqE.md) |
+| 16 | 2022-11-19 | [IAE 2952: Part 2](https://www.youtube.com/watch?v=mkKwJ8gjn_k) | 0:44 | [transcript](transcripts/mkKwJ8gjn_k.md) |
+| 17 | 2022-11-18 | [Star Citizen Live: IAE 2952 Supertalk](https://www.youtube.com/watch?v=LhWOiw_5Pvg) | 1:19:13 | [transcript](transcripts/LhWOiw_5Pvg.md) |
+| 18 | 2022-11-18 | [Drake Corsair: Sail the Stars ASMR](https://www.youtube.com/watch?v=ZQV3HnBS9Jg) | 5:41 | [transcript](transcripts/ZQV3HnBS9Jg.md) |
+| 19 | 2022-11-18 | [IAE 2952: Part 1](https://www.youtube.com/watch?v=az5Z8ZT1xNM) | 3:39 | [transcript](transcripts/az5Z8ZT1xNM.md) |
+| 20 | 2022-11-17 | [Inside Star Citizen: A Cut Above \| Fall 2022](https://www.youtube.com/watch?v=zAS9RLqdweY) | 21:22 | [transcript](transcripts/zAS9RLqdweY.md) |
+| 21 | 2022-11-11 | [Star Citizen Live: Chasing Racing](https://www.youtube.com/watch?v=RF59BbN3JWM) | 1:02:04 | [transcript](transcripts/RF59BbN3JWM.md) |
+| 22 | 2022-11-10 | [Inside Star Citizen: Race Chase \| Fall 2022](https://www.youtube.com/watch?v=FHmx_YU3kB0) | 14:12 | [transcript](transcripts/FHmx_YU3kB0.md) |
+| 23 | 2022-11-03 | [Inside Star Citizen: The Cargo Show \| Fall 2022](https://www.youtube.com/watch?v=pSsWaTw4n8s) | 11:12 | [transcript](transcripts/pSsWaTw4n8s.md) |
+| 24 | 2022-10-28 | [Star Citizen Live: Mission Commission](https://www.youtube.com/watch?v=cI1jTRKvezw) | 58:23 | [transcript](transcripts/cI1jTRKvezw.md) |
+| 25 | 2022-10-28 | [IAE 2952. It’s Coming.](https://www.youtube.com/watch?v=41Q7uSF3ijU) | 0:24 | [transcript](transcripts/41Q7uSF3ijU.md) |
+| 26 | 2022-10-27 | [Inside Star Citizen: Further Underground \| Fall 2022](https://www.youtube.com/watch?v=-0cIaf3mPLw) | 18:44 | [transcript](transcripts/-0cIaf3mPLw.md) |
+| 27 | 2022-10-21 | [Star Citizen Live: Taking Flight](https://www.youtube.com/watch?v=7oAePxoHGk4) | 57:14 | [transcript](transcripts/7oAePxoHGk4.md) |
+| 28 | 2022-10-18 | [CitizenCon 2952: Star Citizen & Squadron 42 \| Partnered Development](https://www.youtube.com/watch?v=qIePh9tS-zg) | 2:17:00 | [transcript](transcripts/qIePh9tS-zg.md) |
+| 29 | 2022-10-14 | [CitizenCon 2952: Full Broadcast](https://www.youtube.com/watch?v=z-XotXbBXs4) | 5:28:10 | [transcript](transcripts/z-XotXbBXs4.md) |
+| 30 | 2022-10-08 | [CitizenCon 2952: Community Hub Reveal](https://www.youtube.com/watch?v=APTgdQzrSVM) | 4:51 | [transcript](transcripts/APTgdQzrSVM.md) |
+| 31 | 2022-10-08 | [Outlaw Lifestyle \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=gJ8OR49SIx8) | 3:21 | [transcript](transcripts/gJ8OR49SIx8.md) |
+| 32 | 2022-10-08 | [CitizenCon 2952: Talking Ship](https://www.youtube.com/watch?v=u4r2golEmyw) | 18:49 | [transcript](transcripts/u4r2golEmyw.md) |
+| 33 | 2022-10-08 | [Power Play \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=etMGxkmk2RE) | 16:54 | [transcript](transcripts/etMGxkmk2RE.md) |
+| 34 | 2022-10-08 | [Lorville Redux \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=8REar-q_tPY) | 9:25 | [transcript](transcripts/8REar-q_tPY.md) |
+| 35 | 2022-10-08 | [The Need For (Multiple) Speeds \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=Xnawhboh6ow) | 17:09 | [transcript](transcripts/Xnawhboh6ow.md) |
+| 36 | 2022-10-08 | [The New Underground \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=cXHY4Mg0Gkk) | 19:03 | [transcript](transcripts/cXHY4Mg0Gkk.md) |
+| 37 | 2022-10-08 | [Design Brief - Investigations \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=VMa_zCidFxM) | 10:51 | [transcript](transcripts/VMa_zCidFxM.md) |
+| 38 | 2022-10-08 | [Planetary Pyro \| Journey to 4.0 (CitizenCon 2952)](https://www.youtube.com/watch?v=FrJCleBD9zE) | 29:13 | [transcript](transcripts/FrJCleBD9zE.md) |
+| 39 | 2022-10-08 | [CitizenCon 2952: A Salute to Community](https://www.youtube.com/watch?v=g_pmulQu2Q4) | 3:02 | [transcript](transcripts/g_pmulQu2Q4.md) |
+| 40 | 2022-09-30 | [Star Citizen Live: The Bot Whisperer](https://www.youtube.com/watch?v=4Ok02j8cfPY) | 1:02:38 | [transcript](transcripts/4Ok02j8cfPY.md) |
+| 41 | 2022-09-29 | [Inside Star Citizen: Q3 Follow Up \| Summer 2022](https://www.youtube.com/watch?v=qx4LkFT6Yz8) | 15:08 | [transcript](transcripts/qx4LkFT6Yz8.md) |
+| 42 | 2022-09-23 | [Star Citizen Live: Out of Character](https://www.youtube.com/watch?v=Yc-6F1krvfw) | 57:51 | [transcript](transcripts/Yc-6F1krvfw.md) |
+| 43 | 2022-09-22 | [Inside Star Citizen: Occupation Localization \| Summer 2022](https://www.youtube.com/watch?v=3pVFG9oZmrc) | 11:08 | [transcript](transcripts/3pVFG9oZmrc.md) |
+| 44 | 2022-09-16 | [Star Citizen Live: Persistent Entity Streaming](https://www.youtube.com/watch?v=jXvIO8vJkgI) | 1:03:41 | [transcript](transcripts/jXvIO8vJkgI.md) |
+| 45 | 2022-09-15 | [Inside Star Citizen: Vulture Venture \| Summer 2022](https://www.youtube.com/watch?v=DFSvBqSlt9k) | 9:14 | [transcript](transcripts/DFSvBqSlt9k.md) |
+| 46 | 2022-09-09 | [Star Citizen Live: Narrative Team Q&A](https://www.youtube.com/watch?v=LlnDZfMOClU) | 1:06:42 | [transcript](transcripts/LlnDZfMOClU.md) |
+| 47 | 2022-09-08 | [Inside Star Citizen: Derelicts of Daymar \| Summer 2022](https://www.youtube.com/watch?v=GZcSshdtrTM) | 8:51 | [transcript](transcripts/GZcSshdtrTM.md) |
+| 48 | 2022-09-01 | [Inside Star Citizen: Persistence Existence \| Summer 2022](https://www.youtube.com/watch?v=1eQ17OMAXSQ) | 14:09 | [transcript](transcripts/1eQ17OMAXSQ.md) |
+| 49 | 2022-08-25 | [Inside Star Citizen: New Wave Caves \| Summer 2022](https://www.youtube.com/watch?v=E6BXHn3Bzfs) | 8:13 | [transcript](transcripts/E6BXHn3Bzfs.md) |
+| 50 | 2022-08-19 | [Star Citizen Live: All-Vehicles Q&A](https://www.youtube.com/watch?v=tR8MHGFum7E) | 1:04:21 | [transcript](transcripts/tR8MHGFum7E.md) |
+| 51 | 2022-08-18 | [Inside Star Citizen: Doing Time \| Summer 2022](https://www.youtube.com/watch?v=0hHrqSq9OZ8) | 9:06 | [transcript](transcripts/0hHrqSq9OZ8.md) |
+| 52 | 2022-08-15 | [Ship Showdown 2952: Ultimate Aerospace Smackdown](https://www.youtube.com/watch?v=S1GX3Rtj9Eg) | 0:37 | [transcript](transcripts/S1GX3Rtj9Eg.md) |
+| 53 | 2022-08-12 | [Star Citizen Live Gamedev: Star Kart Racing](https://www.youtube.com/watch?v=K4OGFEQ9HKI) | 1:04:46 | [transcript](transcripts/K4OGFEQ9HKI.md) |
+| 54 | 2022-08-11 | [Inside Star Citizen: Sprint Showdown \| Summer 2022](https://www.youtube.com/watch?v=BVGv4R3FBWs) | 11:11 | [transcript](transcripts/BVGv4R3FBWs.md) |
+| 55 | 2022-08-05 | [Star Citizen Live Gamedev: Making VFX](https://www.youtube.com/watch?v=khH5invHmLI) | 1:01:04 | [transcript](transcripts/khH5invHmLI.md) |
+| 56 | 2022-08-04 | [Inside Star Citizen: Star Kart Racing \| Summer 2022](https://www.youtube.com/watch?v=taA9h_A-2mY) | 8:06 | [transcript](transcripts/taA9h_A-2mY.md) |
+| 57 | 2022-07-28 | [Star Citizen: Siege of Orison](https://www.youtube.com/watch?v=C15alYGFjto) | 0:51 | [transcript](transcripts/C15alYGFjto.md) |
+| 58 | 2022-07-28 | [Star Citizen: Alpha 3.17.2](https://www.youtube.com/watch?v=eH0ppWX0TAc) | 0:55 | [transcript](transcripts/eH0ppWX0TAc.md) |
+| 59 | 2022-07-28 | [Inside Star Citizen: A Centurion Among Us \| Summer 2022](https://www.youtube.com/watch?v=MVtl2ErwpxI) | 11:02 | [transcript](transcripts/MVtl2ErwpxI.md) |
+| 60 | 2022-07-26 | [Battle of the Bricks: Star Citizen vs. EVE Online](https://www.youtube.com/watch?v=0RzZNgQH1nY) | 4:02:37 | [transcript](transcripts/0RzZNgQH1nY.md) |
+| 61 | 2022-07-15 | [Star Citizen Live: All About 3.17.2](https://www.youtube.com/watch?v=pgNjcYRqLgY) | 59:50 | [transcript](transcripts/pgNjcYRqLgY.md) |
+| 62 | 2022-07-08 | [Star Citizen Live Gamedev: Practical Interactable](https://www.youtube.com/watch?v=OWcBTDeDkYs) | 1:03:52 | [transcript](transcripts/OWcBTDeDkYs.md) |
+| 63 | 2022-07-01 | [Star Citizen Live: Audio Team Q&A](https://www.youtube.com/watch?v=BVSoIcd1I-w) | 1:04:32 | [transcript](transcripts/BVSoIcd1I-w.md) |
+| 64 | 2022-06-30 | [Inside Star Citizen: A Siege Upon Us \| Spring 2022](https://www.youtube.com/watch?v=jJrDFcUC7as) | 7:53 | [transcript](transcripts/jJrDFcUC7as.md) |
+| 65 | 2022-06-23 | [Inside Star Citizen: Second Life \| Spring 2022](https://www.youtube.com/watch?v=t9AshHwQUBQ) | 8:59 | [transcript](transcripts/t9AshHwQUBQ.md) |
+| 66 | 2022-06-17 | [Star Citizen Live Gamedev: Alien Week Doodletime](https://www.youtube.com/watch?v=ZgIRL9SnwZI) | 1:05:53 | [transcript](transcripts/ZgIRL9SnwZI.md) |
+| 67 | 2022-06-16 | [Inside Star Citizen: Inside the Merchantman \| Spring 2022](https://www.youtube.com/watch?v=YQQcNW--ptE) | 22:08 | [transcript](transcripts/YQQcNW--ptE.md) |
+| 68 | 2022-06-10 | [Star Citizen Live: Meet the Community Team](https://www.youtube.com/watch?v=U1XCecif6bQ) | 1:03:02 | [transcript](transcripts/U1XCecif6bQ.md) |
+| 69 | 2022-06-09 | [Inside Star Citizen: Nine Lives \| Spring 2022](https://www.youtube.com/watch?v=DZoFrhJauv4) | 8:48 | [transcript](transcripts/DZoFrhJauv4.md) |
+| 70 | 2022-06-02 | [Inside Star Citizen: Illicit Delivery \| Spring 2022](https://www.youtube.com/watch?v=r7KEb2ZlAgA) | 8:18 | [transcript](transcripts/r7KEb2ZlAgA.md) |
+| 71 | 2022-05-27 | [Star Citizen Live: Invictus All-Ships Q&A](https://www.youtube.com/watch?v=vRBY_u5aQXc) | 1:07:16 | [transcript](transcripts/vRBY_u5aQXc.md) |
+| 72 | 2022-05-26 | [Inside Star Citizen: Pack Mule \| Spring 2022](https://www.youtube.com/watch?v=UGRKdRcSk74) | 8:03 | [transcript](transcripts/UGRKdRcSk74.md) |
+| 73 | 2022-05-24 | [Star Citizen: RSI Scorpius - Combat Perfected](https://www.youtube.com/watch?v=jH-CL-ksQsk) | 0:38 | [transcript](transcripts/jH-CL-ksQsk.md) |
+| 74 | 2022-05-20 | [Star Citizen Live: AI Roundtable Q&A](https://www.youtube.com/watch?v=JKhBrT6fh7w) | 1:06:58 | [transcript](transcripts/JKhBrT6fh7w.md) |
+| 75 | 2022-05-20 | [Star Citizen: The 2952 Dunlow Derby](https://www.youtube.com/watch?v=5D9NtflRuQo) | 1:39 | [transcript](transcripts/5D9NtflRuQo.md) |
+| 76 | 2022-05-20 | [Invictus Launch Week 2952 - Celebrate Greatness](https://www.youtube.com/watch?v=Y4yXQdHzTj4) | 1:29 | [transcript](transcripts/Y4yXQdHzTj4.md) |
+| 77 | 2022-05-19 | [Inside Star Citizen: Unto the Breach \| Spring 2022](https://www.youtube.com/watch?v=gNdb4lApIgc) | 8:22 | [transcript](transcripts/gNdb4lApIgc.md) |
+| 78 | 2022-05-13 | [Star Citizen Live Gamedev: Derelict Outposts](https://www.youtube.com/watch?v=LcScCp5_uUc) | 1:04:09 | [transcript](transcripts/LcScCp5_uUc.md) |
+| 79 | 2022-05-12 | [Inside Star Citizen \| Oops, All Sprint Report III \| Spring 2022](https://www.youtube.com/watch?v=pMH2jXE5pfs) | 9:14 | [transcript](transcripts/pMH2jXE5pfs.md) |
+| 80 | 2022-05-06 | [Star Citizen Live: Engine & Graphics Q&A](https://www.youtube.com/watch?v=2tSoZJ0649s) | 1:03:11 | [transcript](transcripts/2tSoZJ0649s.md) |
+| 81 | 2022-05-05 | [Inside Star Citizen: Tools Time \| Spring 2022](https://www.youtube.com/watch?v=yjJcv-9krUQ) | 9:21 | [transcript](transcripts/yjJcv-9krUQ.md) |
+| 82 | 2022-05-05 | [Star Citizen: Invictus Launch Week 2952 Teaser](https://www.youtube.com/watch?v=ZJo9XDYUZRo) | 0:37 | [transcript](transcripts/ZJo9XDYUZRo.md) |
+| 83 | 2022-04-29 | [Star Citizen: Alpha 3.17 - Fueling Fortunes](https://www.youtube.com/watch?v=6dV4m9DwJxU) | 1:14 | [transcript](transcripts/6dV4m9DwJxU.md) |
+| 84 | 2022-04-29 | [Star Citizen Live Gamedev: Ruins of Home](https://www.youtube.com/watch?v=uLuA3AzH9mE) | 1:02:23 | [transcript](transcripts/uLuA3AzH9mE.md) |
+| 85 | 2022-04-28 | [Inside Star Citizen: Wear and Tear Affair \| Spring 2022](https://www.youtube.com/watch?v=Hhy5Ti0o7S8) | 12:20 | [transcript](transcripts/Hhy5Ti0o7S8.md) |
+| 86 | 2022-04-08 | [Star Citizen Live: Actor Feature Team Q&A](https://www.youtube.com/watch?v=5yspVZ_WMpQ) | 1:02:11 | [transcript](transcripts/5yspVZ_WMpQ.md) |
+| 87 | 2022-04-01 | [Star Citizen Live: A Complete Waste of an Hour](https://www.youtube.com/watch?v=_x1KxC4-QR8) | 1:17:00 | [transcript](transcripts/_x1KxC4-QR8.md) |
+| 88 | 2022-03-31 | [Inside Star Citizen: Expanse Glance \| Winter 2022](https://www.youtube.com/watch?v=cMYv4S-f3Co) | 15:02 | [transcript](transcripts/cMYv4S-f3Co.md) |
+| 89 | 2022-03-25 | [Star Citizen Live: EU PU Gameplay Feature Team](https://www.youtube.com/watch?v=SThXa1KZzSI) | 59:37 | [transcript](transcripts/SThXa1KZzSI.md) |
+| 90 | 2022-03-24 | [Inside Star Citizen: Player Experience \| Winter 2022](https://www.youtube.com/watch?v=jPx0MydrjTA) | 11:07 | [transcript](transcripts/jPx0MydrjTA.md) |
+| 91 | 2022-03-18 | [Star Citizen Live: All About Alpha 3.17](https://www.youtube.com/watch?v=tce8v0zzO_Q) | 1:02:08 | [transcript](transcripts/tce8v0zzO_Q.md) |
+| 92 | 2022-03-17 | [Inside Star Citizen: Favoring the Bold \| Winter 2022](https://www.youtube.com/watch?v=PFUYY7KkLUY) | 10:42 | [transcript](transcripts/PFUYY7KkLUY.md) |
+| 93 | 2022-03-11 | [Star Citizen Live: VFX Team Q&A](https://www.youtube.com/watch?v=G0lGntX9mXM) | 1:04:03 | [transcript](transcripts/G0lGntX9mXM.md) |
+| 94 | 2022-03-10 | [Inside Star Citizen: Hull of a Show \| Winter 2022](https://www.youtube.com/watch?v=8GvhA9e-B2Y) | 10:19 | [transcript](transcripts/8GvhA9e-B2Y.md) |
+| 95 | 2022-03-04 | [Star Citizen Live: Narrative Team Q&A](https://www.youtube.com/watch?v=do8ZUjGOm3k) | 1:00:59 | [transcript](transcripts/do8ZUjGOm3k.md) |
+| 96 | 2022-03-03 | [Inside Star Citizen: River Song \| Winter 2022](https://www.youtube.com/watch?v=pMxm82KnrBY) | 8:28 | [transcript](transcripts/pMxm82KnrBY.md) |
+| 97 | 2022-02-24 | [Inside Star Citizen: Off Camera \| Winter 2022](https://www.youtube.com/watch?v=J6dAvp2xqEI) | 11:06 | [transcript](transcripts/J6dAvp2xqEI.md) |
+| 98 | 2022-02-18 | [Star Citizen Live Gamedev: The Pyro Proposition](https://www.youtube.com/watch?v=XaBkIJbH3Pw) | 59:47 | [transcript](transcripts/XaBkIJbH3Pw.md) |
+| 99 | 2022-02-17 | [Inside Star Citizen: AI On the Move \| Winter 2022](https://www.youtube.com/watch?v=P3sXyeuScN8) | 8:08 | [transcript](transcripts/P3sXyeuScN8.md) |
+| 100 | 2022-02-11 | [Star Citizen Live: Planet Content Team Q&A](https://www.youtube.com/watch?v=Dp6FG1Eb1Qw) | 1:02:20 | [transcript](transcripts/Dp6FG1Eb1Qw.md) |
+| 101 | 2022-02-10 | [Inside Star Citizen: Sprint Stint \| Winter 2022](https://www.youtube.com/watch?v=-bGvkP3sQbU) | 10:39 | [transcript](transcripts/-bGvkP3sQbU.md) |
+| 102 | 2022-02-10 | [Star Citizen: Consolidated Outland HoverQuad](https://www.youtube.com/watch?v=Qrb-StrkUqk) | 0:53 | [transcript](transcripts/Qrb-StrkUqk.md) |
+| 103 | 2022-02-04 | [Star Citizen Live: Graphics Engineering Q&A](https://www.youtube.com/watch?v=vl4H73MWBn0) | 1:12:51 | [transcript](transcripts/vl4H73MWBn0.md) |
+| 104 | 2022-02-03 | [Inside Star Citizen: Fuel Injection \| Winter 2022](https://www.youtube.com/watch?v=agCAx2l38PQ) | 8:37 | [transcript](transcripts/agCAx2l38PQ.md) |
+| 105 | 2022-01-28 | [Star Citizen Live Gamedev: Dereliction Depiction](https://www.youtube.com/watch?v=dadtknsZPP8) | 1:02:38 | [transcript](transcripts/dadtknsZPP8.md) |
+| 106 | 2022-01-27 | [Inside Star Citizen: Duty of Dereliction \| Winter 2022](https://www.youtube.com/watch?v=RgmBWBldFZM) | 14:48 | [transcript](transcripts/RgmBWBldFZM.md) |
