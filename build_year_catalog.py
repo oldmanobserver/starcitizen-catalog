@@ -32,6 +32,17 @@ def format_duration(seconds):
     return f"{minutes}:{secs:02d}"
 
 
+def format_timestamp(seconds):
+    """Format seconds as [H:MM:SS] or [MM:SS] for transcript lines."""
+    total = int(seconds)
+    hours = total // 3600
+    minutes = (total % 3600) // 60
+    secs = total % 60
+    if hours > 0:
+        return f"[{hours}:{minutes:02d}:{secs:02d}]"
+    return f"[{minutes:02d}:{secs:02d}]"
+
+
 def format_date(date_str):
     if not date_str or len(date_str) != 8:
         return date_str or "unknown"
@@ -101,7 +112,8 @@ def download_transcripts(videos, transcript_dir):
                 for snippet in transcript.snippets:
                     text = snippet.text.strip()
                     if text:
-                        lines.append(text)
+                        ts = format_timestamp(snippet.start)
+                        lines.append(f"{ts} {text}")
 
                 with open(transcript_path, 'w', encoding='utf-8') as f:
                     f.write("\n".join(lines) + "\n")

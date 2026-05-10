@@ -33,12 +33,24 @@ def format_duration(seconds):
     return f"{minutes}:{secs:02d}"
 
 
+def format_vtt_timestamp(ts_str):
+    """Convert VTT timestamp (HH:MM:SS.mmm) to [H:MM:SS] or [MM:SS]."""
+    m = re.match(r'(\d+):(\d+):(\d+)', ts_str)
+    if not m:
+        return None
+    hours, minutes, secs = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if hours > 0:
+        return f"[{hours}:{minutes:02d}:{secs:02d}]"
+    return f"[{minutes:02d}:{secs:02d}]"
+
+
 def vtt_to_text(vtt_content):
-    """Extract plain text from VTT subtitle content."""
+    """Extract timestamped text from VTT subtitle content."""
     lines = []
+    current_ts = None
     for line in vtt_content.split('\n'):
         line = line.strip()
-        # Skip VTT headers, timestamps, and empty lines
+        # Skip VTT headers and empty lines
         if not line:
             continue
         if line.startswith('WEBVTT'):
@@ -46,14 +58,17 @@ def vtt_to_text(vtt_content):
         if line.startswith('Kind:') or line.startswith('Language:'):
             continue
         if '-->' in line:
+            # Parse start timestamp from "00:29:14.000 --> 00:29:23.000"
+            current_ts = format_vtt_timestamp(line.split('-->')[0].strip())
             continue
         if re.match(r'^\d+$', line):
             continue
         # Remove HTML tags
         text = re.sub(r'<[^>]+>', '', line)
         # Remove duplicate lines (VTT often repeats lines)
-        if text and (not lines or lines[-1] != text):
-            lines.append(text)
+        if text and (not lines or lines[-1].split('] ', 1)[-1] != text):
+            prefix = f"{current_ts} " if current_ts else ""
+            lines.append(f"{prefix}{text}")
     return lines
 
 
