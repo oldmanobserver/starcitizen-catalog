@@ -1,0 +1,35 @@
+# VERSEBUSTERS: What Do I Need to Play?
+
+**Video:** https://www.youtube.com/watch?v=rz9dEVNhqrk
+**Date:** 2016-02-05
+**Duration:** 1:20
+
+## Transcript
+
+Welcome to Versebusters, where we set
+your mind at ease by answering madeup
+letters about Star Citizen. Sandy,
+what's in the mailbag today? Well, Ben,
+Mrs. Pretend, Name of Potato, New York
+writes, I'm interested in Star Citizen,
+but I don't want to spend money on fish
+and ships. Can't I just buy a video
+game? Yes, you can. All anyone ever
+needs to play Star Citizen is the basic
+Aurora package available through the fly
+now button at the Robert Space
+Industries website. That's right. Every
+ship and item will be available to earn
+or collect in the finished game. Many
+backers provide extra support for
+development with concept ships, Voyager
+Direct items, and more. But all of these
+are entirely optional, and none of them
+will ever let players pay to win.
+Observe. Developer. Come here. Could you
+whip me up some sort of amazing super
+ship that will let me win every dog
+fight? I can make it worth your while.
+No, thank you. What about two or 20
+bucks? No.
+There you have it.

@@ -11,10 +11,19 @@ This workspace contains Star Citizen YouTube video transcripts. Auto-generated t
 3. Also check `ship_nicknames.md` for community nicknames and known aliases.
 4. When listing ships from a transcript, always present the **corrected official name**, and optionally note the transcript's original wording if it differs.
 
+## Video Linking
+
+When reporting on transcript content, **always include a clickable YouTube link** to the video. Build the link from the transcript:
+
+1. Each transcript file has a `**Video:**` header line with the full YouTube URL (format: `https://www.youtube.com/watch?v={id}`).
+2. If the `**Video:**` line is missing, construct the URL from the transcript filename: the filename (minus `.md`) is the YouTube video ID.
+3. **Timestamp linking:** Estimate the timestamp from the transcript line number. The transcript body starts after the metadata header (~line 9). Each transcript line is approximately 3 seconds of video. Append `&t={seconds}s` to the YouTube URL to link to the relevant section. For example, a 600i mention at transcript line 320 ≈ `(320 - 9) × 3 = 933s` → `&t=933s`.
+4. Always present the video title as a clickable link. When possible, provide a second timestamp link pointing to the relevant discussion segment.
+
 ## Workspace Structure
 
 - `ships.json` — Canonical ship/vehicle list with manufacturers, aliases, and transcript correction mappings
 - `ship_nicknames.md` — Community nicknames and common transcript errors
 - `{year}/videos.md` — Video catalog per year
-- `{year}/transcripts/*.md` — Individual video transcripts
-- `{year}/video_list_{year}.json` — Video metadata
+- `{year}/transcripts/*.md` — Individual video transcripts (include `**Video:**` URL and `**Date:**` in header)
+- `{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
