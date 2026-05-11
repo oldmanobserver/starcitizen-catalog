@@ -79,7 +79,7 @@ def save_progress(progress):
 def gather_all_videos(filter_year=None):
     """Collect all videos from all year folders."""
     videos = []
-    for year_dir in sorted(os.listdir('.')):
+    for year_dir in sorted(os.listdir('.'), reverse=True):
         if not os.path.isdir(year_dir) or not year_dir.isdigit():
             continue
         if filter_year and year_dir != filter_year:
@@ -89,6 +89,8 @@ def gather_all_videos(filter_year=None):
             continue
         with open(video_file, 'r', encoding='utf-8') as f:
             year_videos = json.load(f)
+        # Sort by upload_date descending within each year (newest first)
+        year_videos.sort(key=lambda v: v.get('upload_date', ''), reverse=True)
         for v in year_videos:
             v['_year'] = year_dir
         videos.extend(year_videos)
