@@ -198,8 +198,8 @@ def main():
                 json.dump(list(completed_ids), f)
             print(f"  [{i}/{total}] {success} ok, {failed} failed, {skipped} skipped")
 
-        # Rate limit: 1 second between downloads
-        time.sleep(1.0)
+        # 2.5 minutes between transcript downloads (avoid IP ban)
+        time.sleep(150)
 
     # Final save
     with open(PROGRESS_FILE, 'w') as f:

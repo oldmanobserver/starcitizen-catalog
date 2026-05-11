@@ -11,8 +11,8 @@ import time
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import IpBlocked
 
-DELAY_BETWEEN_REQUESTS = 30   # seconds between successful downloads
-RATE_LIMIT_WAIT = 300         # 5 minutes if we hit a 429
+DELAY_BETWEEN_REQUESTS = 150   # 2.5 minutes between transcript downloads (avoid IP ban)
+RATE_LIMIT_WAIT = 300          # 5 minutes if we hit a 429
 MAX_RETRIES = 5               # max retries per video on rate limit
 
 

@@ -27,3 +27,12 @@ When reporting on transcript content, **always include a clickable YouTube link*
 - `{year}/videos.md` — Video catalog per year
 - `{year}/transcripts/*.md` — Individual video transcripts (include `**Video:**` URL and `**Date:**` in header)
 - `{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
+
+## Rate Limiting
+
+**All transcript download scripts MUST wait 2.5 minutes (150 seconds) between each YouTube API request.** Shorter delays will trigger an IP ban. This applies to:
+- `build_year_catalog.py`, `build_2026_catalog.py`, `build_catalog.py`
+- `download_transcripts.py`, `redownload_all.py`
+- Any new script that fetches transcripts from YouTube
+
+The constant is `DELAY_BETWEEN_REQUESTS = 150`. Never reduce this value.

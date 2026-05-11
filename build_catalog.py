@@ -129,8 +129,8 @@ def download_transcripts(entries, transcript_dir):
             if i % 50 == 0:
                 print(f"  [{i}/{total}] Progress: {success} ok, {failed} failed, {skipped} skipped")
 
-        # Small delay to be respectful to YouTube
-        time.sleep(0.3)
+        # 2.5 minutes between transcript downloads (avoid IP ban)
+        time.sleep(150)
 
     # Final progress save
     with open(progress_file, 'w') as f:
