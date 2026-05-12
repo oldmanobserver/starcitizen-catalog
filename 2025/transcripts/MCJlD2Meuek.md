@@ -6,11 +6,11 @@
 
 ## Transcript
 
-ALPHA 4.3:
+[00:01] ALPHA 4.3:
 DARK TERRITORY
-What is this place?
-Hello?
-[screaming]
--Some things,
-are better left,
-buried.
+[00:20] What is this place?
+[00:30] Hello?
+[01:12] [screaming]
+[01:29] -Some things,
+[01:30] are better left,
+[01:31] buried.

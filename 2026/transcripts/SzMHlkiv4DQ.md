@@ -6,36 +6,36 @@
 
 ## Transcript
 
-It began with an idea.
-More than curiosity.
-More than a yearning.
-It was humanity's extraordinary instinct
+[00:00] It began with an idea.
+[00:02] More than curiosity.
+[00:04] More than a yearning.
+[00:06] It was humanity's extraordinary instinct
 as a species
-To look up,
-in search of a brighter future.
-That created Zeus
-and first carried us into space.
-There were no maps
+[00:10] To look up,
+[00:11] in search of a brighter future.
+[00:14] That created Zeus
+[00:17] and first carried us into space.
+[00:24] There were no maps
 for where we were headed.
-And there are still none today.
-Our path is lit not by certainty,
-but by boundless possibility.
-Our desire to learn all we can,
-In this universe we call home,
-And to carry that knowledge forward,
-So that each discovery we make,
-Inspires the next.
-And so,
-as we move onward through great unknowns,
-Ever connected to those wondrous first steps,
-That began our voyage so many years ago,
-Each evolution carries us forth
-On our infinite adventure to tomorrow.
-And now...
-I believe the future is just about ready.
-Let's take a look,
-shall we?
-From the Zeus to the Aurora,
-and beyond.
-Roberts Space Industries.
-Delivering the stars since 2075.
+[00:27] And there are still none today.
+[00:31] Our path is lit not by certainty,
+[00:35] but by boundless possibility.
+[00:39] Our desire to learn all we can,
+[00:42] In this universe we call home,
+[00:46] And to carry that knowledge forward,
+[00:49] So that each discovery we make,
+[00:52] Inspires the next.
+[00:55] And so,
+[00:56] as we move onward through great unknowns,
+[01:00] Ever connected to those wondrous first steps,
+[01:04] That began our voyage so many years ago,
+[01:08] Each evolution carries us forth
+[01:12] On our infinite adventure to tomorrow.
+[01:17] And now...
+[01:18] I believe the future is just about ready.
+[01:23] Let's take a look,
+[01:25] shall we?
+[01:38] From the Zeus to the Aurora,
+[01:41] and beyond.
+[01:47] Roberts Space Industries.
+[01:49] Delivering the stars since 2075.

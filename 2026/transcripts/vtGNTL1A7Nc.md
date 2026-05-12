@@ -6,215 +6,224 @@
 
 ## Transcript
 
-So the RSI Aurora is the quintessential
-starter Star Citizen ship.
->> For people that have been with the
-project a long time, it was one of the
-first ships that they saw.
->> So it gave you that first experience of
-boarding your own ship, exploring the
-interior, although limited, and then
-finally climbing into the pilot seat and
-then taking off for your first mission
-or exploration.
-Whilst the game has evolved over the
-last decade and we have learned a lot
-more about building spaceships in that
-time, we felt that now was the right
-time to go revisit the Aurora series.
-Doing a followup of the original Aurora
-is actually quite the task because you
-have to make sure that it's as beloved
-as the original.
-The MK 2 combines the classic DNA of the
-original MK1 Aurora and then brings it
-up to modern day standards in both in
-terms of visuals and gameplay loop.
-RSI tend to want to kind of push the
-boundaries a little bit. They want to
-look back and see what they've done in
-the past and what was successful, but
-they're not scared to really embrace new
-ideas.
-We've tried to keep the overall
-proportions and styling of the base
-Aurora with the MK2, but we just tried
-to sharpen it up.
->> It has a really angular style.
-It looks really sleek.
-Everything flows and it has a sort of
-layered armored look.
-The circular door is still there to
-enter the ship, but it's hidden by the
-newer layered RSI door designs.
-We've still got those really iconic four
-wings down the sides that give the ship
-its length.
->> There's also some doors that open up and
-they show the V talls underneath, which
-are these fans that help support the
-ship while it's changing uh
-trajectories.
-There's even a cool new feature where
-you can vault onto the top of the ship
-over the front canopy.
->> My favorite part of that entire ship is
-actually the back section
-has tons of detail that all lines up
-towards the center of the ship.
-Something we were keen to follow up with
-is some of the RSI ships have
-transforming states such as the
-Scorpius. We were playing with the idea
-of like, do we open the wings? Do we not
-open the wings? And as soon as we kind
-of started playing with the idea and
-seeing how it looked, it just felt
-natural.
-The base Aurora Mach 2 comes with four
-size two weapon hard points as well as
-four size two missile hard points, each
-defaulting to two size one missiles.
->> The guns are actually attached to what
-the wings are attached to. So when the
-wings pop off, the guns are still
-attached to the ship.
->> So if you lose your wings, you're not
-totally out of the fight.
->> No. So if you lose your wings, you'll
-lose your missiles and you'll lose the V
-tall if you lose the bottom wings.
->> When we were doing the original design
-for the MTO Aurora, one thing that came
-up was, do we want to do variants or do
-modules? In terms of production, a
-variant of a ship is actually a lot of
-work on our part. You have to redo
-modeling. You have to almost rethink the
-whole entire ship.
-The ship now instead of being a variant
-comes with two different modules.
->> And the advantage of modules is you buy
-one Aurora Mark II and forever in the
-future when upgrades happen to the ship,
-you can grab that module and then add it
-to your own ship. The TS module or what
-we internally refer to as the cargo
-module provides an additional 6SEU cargo
-on a drop lift which takes the whole
-cargo capacity of the Aurora M2 with it
-equipped to 8SE which is a pretty
-competitive in a starter ship. And then
-one of the big changes with the TS cargo
-module and the base Aurora is the cargo
-is held internally rather than under
-slung underneath. So it's more
-protected.
-So, it's great for somebody who's just
-getting started, who wants to do hauling
-missions before upgrading to something
-bigger like a Zeus.
->> Or you can either go with the defense
-module, which adds eight S2 missiles and
-also one S1 shield generator in the back
-of it.
->> So, if you add eight S2 missiles, you're
-much more lethal. And if you add another
-S1 shield, you're adding 50% more shield
-to your ship.
-So the player can decide whichever one
-suits their play style the most.
->> In the future, we can definitely foresee
-other modules coming along and anybody
-who has the Aurora Mark II now will be
-able to use those modules later on.
->> One of the kind of limiting factors of
-the MK1 was its overall size.
-With the MK 2, we built it more from the
-inside out. So we knew all the features
-that we wanted it to deliver.
->> You get in from the L of door on your
-left. You have the nice pilot seat.
-We have a nice view from there. We have
-a lot of glass. So we can really see
-space from pretty much everywhere. When
-you turn around you have two shelves for
-mission boxes, so you can take the ship
-to do missions. You have engineering
-screen with components below that. If
-you continue on the right, you have a
-suit locker and a weapon rack.
-And at the end of the ship, you have the
-bed with a lot of space compared to the
-first Aurora. When you lie down, you
-have a big screen on top of your head.
->> It's very enclosed, but it all has a
-very functional style to it. Everything
-like sort of feels like it should be
-where it is.
-The paints are awesome. We have a lot of
-cool options.
->> We have a solid black one. We have a
-bronze and green one. There's one tint
-that's iridescent that's inspired by an
-Aurora Borealis. I think that one came
-out really well.
-One of my favorite tents was inspired by
-an old video game that I grew up with
-that I loved. And I think when the
-players find it, they'll be doing some
-barrel rolls.
->> Alongside the MK2 Aurora, we also wanted
-to celebrate the Mark 1 Aurora. And for
-that reason, we decided to introduce a
-sixth special edition variant called the
-Aurora Mark 1 SE. So the MK1 Special
-Edition is really our sending off of the
-MK1. It's taking all of the the best
-elements from the different MK1 models
-that we do and combine them into one.
-So, it takes the improved cargo of the
-CL,
-the base level of the MR,
-the weapon loadout, and the intakes of
-the LN,
-and then the luxurious take of the LX
-seat. We also wanted to give it a really
-nice unique paint.
-We wanted to give it a nice update to
-the interior in terms of its materials
-and its colors.
-So, it kind of feels like a high-end
-sports model of of some of the cars you
-see out and about.
->> So, is the Mark 2 replacing the Mark 1?
->> No, it's not replacing it. So, you still
-get to keep all your Mark 1 Auroras. RSI
-just aren't manufactured anymore. Just
-like the Mark 1 Hornets, they're here to
-stay in game. They're still going to be
-supported. They're still going to have
-bug fixes. They're going to have any
-features that they don't support yet
-updated in time to support that. They're
-here to stay, but we hope they will turn
-into this classic car status within the
-universe.
-I'm very happy with the ship. The team
-did a great job.
->> It is clearly an Aurora but brought up
-to just kind of modern RSI visuals. I
-have a big background in creating the
-first levels of games. For me as a
-designer, I thought a lot about the new
-player coming on and having the ship be
-as welcoming as possible.
->> It's a great starter package. It's
-everything you could want to start the
-game with. But even if you have other
-ships, it's there as a sort of useful
-modular utility ship that you can just
-have as your second ship perhaps when
-your main ship is perhaps being claimed
-or damaged and you just want to get back
-out there.
+[00:00] So, the RSI Aurora is the quintessential
+[00:03] Star Citizen ship.
+[00:06] For the people that have been with the
+[00:07] project a long time, it was one of the
+[00:09] first ships that they saw.
+[00:11] So, it gave you that first experience of
+[00:13] boarding your own ship,
+[00:15] exploring the interior, although
+[00:16] limited, and then finally climbing into
+[00:19] the pilot seat and then taking off for
+[00:21] your first mission or exploration.
+[00:23] Whilst the game has evolved over the
+[00:25] last decade and we have learned a lot
+[00:27] more about building spaceships in that
+[00:28] time, we felt that now was the right
+[00:30] time to go revisit the Aurora series.
+[00:34] Doing a follow-up of the original Aurora
+[00:36] is actually quite the task because you
+[00:39] have to make sure that it's as beloved
+[00:41] as the original.
+[00:54] The Mark II combines the classic DNA of
+[00:56] the original Mark I Aurora and then
+[00:59] brings it up to modern day standards in
+[01:00] both in terms of visuals and gameplay
+[01:02] loop.
+[01:05] RSI tend to want to kind of push the
+[01:07] boundaries a little bit. They want to
+[01:08] look back and see what they've done in
+[01:10] the past and what was successful, but
+[01:12] they're not scared to really embrace new
+[01:13] ideas.
+[01:15] We've tried to keep the overall portions
+[01:19] and styling of the base Aurora with the
+[01:21] Mark
+[01:26] It has a really angular style.
+[01:29] It looks really sleek.
+[01:32] Everything flows
+[01:34] and it has a sort of layered armor look.
+[01:38] The second door is still there to enter
+[01:40] the ship, but it's hidden by the newer
+[01:42] layered RSI door designs.
+[01:47] We still got those really iconic four
+[01:49] wings down the sides that give the ship
+[01:51] its length.
+[01:54] There is also some doors that open up
+[01:56] and they show the VTOLs underneath,
+[01:58] which are these fans that help support
+[01:59] the ship while it's changing
+[02:02] trajectories.
+[02:03] There's even a cool new feature where
+[02:06] you can vault onto the top of the ship
+[02:08] over the front canopy.
+[02:11] My favorite part of that entire ship is
+[02:13] actually the back section.
+[02:16] It has tons of detail that all lines up
+[02:18] towards the center of the ship.
+[02:23] Something we were keen to follow up with
+[02:25] is some of the RSI ships have
+[02:27] transforming states such as the
+[02:30] Scorpius.
+[02:31] We were playing with the idea of like,
+[02:32] do we open the wings, do we not open the
+[02:34] wings? And as soon as we kind of start
+[02:36] playing with the idea and and seeing how
+[02:37] it looked, it just felt natural.
+[02:46] The P-72 comes with four size two weapon
+[02:48] hardpoints
+[02:50] as well as four size two missile
+[02:51] hardpoints, each defaulting to two size
+[02:54] one missiles.
+[02:55] The guns are actually attached to what
+[02:58] the wings are attached to. So, when the
+[03:00] wings pop off, the guns are still
+[03:02] attached to the ship. So, if you lose
+[03:03] your wings, you're not totally out of
+[03:05] the fight. No, so if you lose your
+[03:07] wings, you'll lose your missiles and
+[03:10] you'll lose the VTOL if you lose the
+[03:12] bottom wings.
+[03:18] When we were doing the original design
+[03:19] for the Mark II Aurora, one thing that
+[03:20] came up was, do we want to do variants
+[03:22] or do modules?
+[03:24] In terms of production, a variant of a
+[03:27] ship is actually a lot of work on our
+[03:29] part. You have to redo modeling, you
+[03:31] have to almost rethink the whole entire
+[03:33] ship.
+[03:36] The ship now, instead of being a
+[03:38] variant, comes with two different
+[03:41] modules. And the advantage of modules is
+[03:43] you buy one Aurora Mark II and forever
+[03:46] in the future, when upgrades happen to
+[03:48] the ship, you can grab that module and
+[03:51] then add it to your own ship.
+[03:53] The TS module, or what we internally
+[03:55] refer to as the cargo module, provides
+[03:57] an additional 6 SCU cargo on a drop
+[04:00] lift, which takes the whole cargo
+[04:02] capacity of the Aurora Mark II with it
+[04:04] equipped to 8 SCU, which is a pretty
+[04:05] competitive in a starter ship. And then
+[04:07] one of the big changes with the TS cargo
+[04:09] module on the base Aurora is the cargo
+[04:11] is held internally rather than under
+[04:13] slung underneath, so it's more
+[04:14] protected.
+[04:16] So, it's great for somebody who's just
+[04:17] getting started who wants to do hauling
+[04:20] missions before upgrading to something
+[04:22] bigger like a Zeus.
+[04:25] Or you can either go with a defense
+[04:29] module, which adds eight S2 missiles and
+[04:33] also one S1 shield generator in the back
+[04:36] of it. So, if you add eight S2 missiles,
+[04:38] you're much more lethal. And if you add
+[04:40] another S1 shield, you're adding 50%
+[04:43] more shield to your ship.
+[04:45] So, the player can decide whichever one
+[04:48] suits their play style the most. In the
+[04:51] future, we can definitely foresee other
+[04:54] modules coming along and anybody who has
+[04:56] the Aurora Mark II now will be able to
+[04:59] use those modules later on.
+[05:03] One of the kind of limiting factors of
+[05:04] the Mark I was its overall size.
+[05:09] With the Mark we built it more from the
+[05:11] inside out, so we knew all the features
+[05:13] that we wanted to deliver.
+[05:16] You get in from the elevator.
+[05:19] On your left, you have the nice pilot
+[05:21] seat.
+[05:25] We have a nice view from there. We have
+[05:27] a lot of glass, so we can really see
+[05:29] space from pretty much everywhere when
+[05:32] you turn around.
+[05:33] You have two shelves for mission boxes,
+[05:36] so you can take the ship to do missions.
+[05:39] You have engineering screen with
+[05:41] components below that.
+[05:43] If you continue on the right, you have a
+[05:45] suit locker and a weapon rack.
+[05:49] And at the end of the ship, you have the
+[05:50] bed
+[05:51] with a lot of space compared to the
+[05:53] first Aurora.
+[05:55] When you lie down, you have a big screen
+[05:57] on top of your head.
+[05:59] It's very enclosed, but it all has a
+[06:01] very functional style to it. Everything
+[06:04] like sort of feels like it should be
+[06:07] where it is.
+[06:10] The paints are awesome. We have a lot of
+[06:12] cool options.
+[06:14] We have a solid black one. We have a
+[06:16] bronze and green one. There's one tint
+[06:18] that's iridescent that's inspired by an
+[06:20] Aurora Borealis. I think that one came
+[06:22] out really well.
+[06:26] One of my favorite tints was inspired by
+[06:28] an old video game that I grew up with
+[06:29] that I loved. And I think when the
+[06:31] players find it, they'll be doing some
+[06:33] barrel rolls.
+[06:36] Alongside the Mark II Aurora, we also
+[06:38] want to celebrate the Mark I Aurora. And
+[06:40] for that reason, we decided to introduce
+[06:41] a sixth special edition variant called
+[06:43] the Aurora Mark I S.E.
+[06:46] So, the Mark I special edition is really
+[06:48] our sending off of the Mark I.
+[06:50] It's taking all of the the best elements
+[06:53] from the different Mark I models that we
+[06:55] do and combine them into one.
+[06:58] So, it takes the improved cargo of the
+[06:59] CL,
+[07:03] the base level of the MR,
+[07:07] the weapon loadout and the intakes of
+[07:09] the LN,
+[07:11] and then the luxurious take of the LX
+[07:13] seat.
+[07:15] We also wanted to give it a really nice
+[07:17] unique paint.
+[07:19] I wanted to give it a nice update to the
+[07:22] interior in terms of its materials and
+[07:23] its colors.
+[07:26] So, it kind of feels like a high-end
+[07:28] sports model of of some of the cars you
+[07:30] see out and about.
+[07:32] So, is the Mark II replacing the Mark I?
+[07:34] No, it's not replacing it. So, you still
+[07:36] get to keep all your Mark I Auroras. RSI
+[07:39] just aren't manufacturing them anymore.
+[07:40] Just like the Mark I Hornets, they're
+[07:42] here to stay in game. They're still
+[07:44] going to be supported. They're still
+[07:45] going to have bug fixes. They're going
+[07:46] to have any features that they don't
+[07:48] support yet updated in time to support
+[07:50] that. They're here to stay, but we hope
+[07:52] they will turn into this classic car
+[07:53] status within the universe.
+[07:56] I'm very happy with the ship. The team
+[07:58] did a great job.
+[08:00] It is clearly an Aurora, but brought up
+[08:04] to just kind of modern RSI visuals.
+[08:07] I have a big background in creating the
+[08:09] first levels of games.
+[08:12] For me as a designer, I thought a lot
+[08:14] about the new player coming on and
+[08:17] having the ship be as welcoming as
+[08:18] possible.
+[08:20] It's a great starter package. It's
+[08:22] everything you could want to start the
+[08:24] game with. But even if you have other
+[08:26] ships, it's there as a sort of useful
+[08:28] modular utility ship that you can just
+[08:30] have as your second ship perhaps when
+[08:32] your main ship is perhaps being claimed
+[08:34] or damaged and you just want to get back
+[08:36] out there.

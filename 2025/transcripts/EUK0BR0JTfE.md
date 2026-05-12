@@ -6,31 +6,31 @@
 
 ## Transcript
 
-Alone,
-we are worlds apart.
-But together,
-we are an empire.
-Formed by purpose.
-To live.
-To thrive.
-To fight.
-Our enemies adapt in the chaos.
-Threats are shifting and ever changing.
-And new challengers emerge
-To try us
-and tear us apart.
-Unpredictable are our battles.
-Unrelenting is our fight.
-But no matter the forces against us,
-we will prevail.
-We rise as one.
-And together,
-we hold our ground,
-With everything that we have.
-Now is the time
-to Unite in Purpose.
+[00:02] Alone,
+[00:05] we are worlds apart.
+[00:09] But together,
+[00:10] we are an empire.
+[00:12] Formed by purpose.
+[00:14] To live.
+[00:16] To thrive.
+[00:19] To fight.
+[00:23] Our enemies adapt in the chaos.
+[00:27] Threats are shifting and ever changing.
+[00:31] And new challengers emerge
+[00:34] To try us
+[00:36] and tear us apart.
+[00:42] Unpredictable are our battles.
+[00:45] Unrelenting is our fight.
+[00:48] But no matter the forces against us,
+[00:51] we will prevail.
+[00:54] We rise as one.
+[00:56] And together,
+[00:58] we hold our ground,
+[01:00] With everything that we have.
+[01:03] Now is the time
+[01:05] to Unite in Purpose.
 [INVICTUS LAUNCH WEEK]
-[INVICTUS LAUNCH WEEK]
-[ENLIST NOW]
+[01:08] [INVICTUS LAUNCH WEEK]
+[01:10] [ENLIST NOW]
 [MAY 15-MAY 27]
 [INVICTUS2955.COM]

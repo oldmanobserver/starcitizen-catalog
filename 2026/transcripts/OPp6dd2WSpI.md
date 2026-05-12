@@ -6,33 +6,33 @@
 
 ## Transcript
 
-[SSN News-flash Jingle]
-This is James Herriman
-with another SSN Newsflash.
-Reports continue to rush in
-following the
+[00:00] [SSN News-flash Jingle]
+[00:04] This is James Herriman
+[00:05] with another SSN Newsflash.
+[00:08] Reports continue to rush in
+[00:10] following the
 outbreak of a new and devastating
-disease set to overwhelm Levski.
-As cases of infection accelerate in Nyx,
-the UEE advises extreme caution
+[00:12] disease set to overwhelm Levski.
+[00:15] As cases of infection accelerate in Nyx,
+[00:17] the UEE advises extreme caution
 when traveling to the area.
-If you have had possible exposure
+[00:21] If you have had possible exposure
 to a faulty Gyson air filtration systems
-and are experiencing
+[00:26] and are experiencing
 any of the following symptoms,
-the UEE urges you to seek medical help
+[00:29] the UEE urges you to seek medical help
 immediately.
-These are;
-Headaches,
-depression,
-joint aches,
-chronic fatigue,
-and trouble breathing.
-As the death toll continues to climb,
-the People's Alliance have issued
+[00:33] These are;
+[00:34] Headaches,
+[00:34] depression,
+[00:35] joint aches,
+[00:36] chronic fatigue,
+[00:37] and trouble breathing.
+[00:38] As the death toll continues to climb,
+[00:41] the People's Alliance have issued
 a plea for volunteers to help
-Alliance Aid in managing 
+[00:44] Alliance Aid in managing 
 this spiraling situation.
-Until next time,
-this is James Herriman reporting.
-[SSN News-flash Jingle]
+[00:48] Until next time,
+[00:49] this is James Herriman reporting.
+[00:51] [SSN News-flash Jingle]

@@ -6,15 +6,15 @@
 
 ## Transcript
 
-Come.
-Warning. Fire detected.
-This morning fire detectives
-[music]
-starting
-[music]
->> [music]
->> cuz I
-love
-it for sure.
-Oh,
-[music]
+[00:19] Come.
+[00:33] Warning. Fire detected.
+[00:42] This morning fire detectives
+[00:49] [music]
+[00:52] starting
+[00:56] [music]
+[01:03] >> [music]
+[01:11] >> cuz I
+[01:14] love
+[01:17] it for sure.
+[01:28] Oh,
+[01:33] [music]

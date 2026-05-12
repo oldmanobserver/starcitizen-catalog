@@ -6,8 +6,8 @@
 
 ## Transcript
 
-[heavy metal music]
-[music fades]
-[psychedelic rock fades in]
-BREAK LOOSE.
+[00:00] [heavy metal music]
+[00:12] [music fades]
+[00:14] [psychedelic rock fades in]
+[02:10] BREAK LOOSE.
 FLY FREE.
