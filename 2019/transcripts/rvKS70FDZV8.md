@@ -6,32 +6,32 @@
 
 ## Transcript
 
-area 1829 49
-things were changing
-[Music]
-stealing and it was Ghats center of it
-all
-how do you go that's these yes
-and got the name on everybody's lips
-[Music]
-[Applause]
-never knew where Gatsby might head off
-to next
-that was fun
-no one dares sleep on the fear of
-missing something incredible Gatsby's
-world nothing is off-limits
-unless you are trying to crash the party
-[Music]
-[Applause]
-[Music]
-no matter where Gatsby may be off to
-next whatever mysterious port of call
-she's heading to
-[Music]
-the next time I see her
-[Applause]
-[Music]
-won't be soon enough
-[Music]
-you
+[00:01] area 1829 49
+[00:09] things were changing
+[00:11] [Music]
+[00:13] stealing and it was Ghats center of it
+[00:19] all
+[00:19] how do you go that's these yes
+[00:22] and got the name on everybody's lips
+[00:26] [Music]
+[00:32] [Applause]
+[00:33] never knew where Gatsby might head off
+[00:36] to next
+[00:37] that was fun
+[00:46] no one dares sleep on the fear of
+[00:49] missing something incredible Gatsby's
+[01:09] world nothing is off-limits
+[01:13] unless you are trying to crash the party
+[01:20] [Music]
+[01:24] [Applause]
+[01:27] [Music]
+[01:28] no matter where Gatsby may be off to
+[01:31] next whatever mysterious port of call
+[01:34] she's heading to
+[01:35] [Music]
+[01:40] the next time I see her
+[01:43] [Applause]
+[01:44] [Music]
+[01:45] won't be soon enough
+[01:51] [Music]
+[02:09] you
