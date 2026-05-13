@@ -6,13 +6,13 @@
 
 ## Transcript
 
-the origin 600 I has been called a
-symphony in motion channel to create the
-ultimate luxury and performance and at
-the heart of any orchestration lies the
-tonal center of the experience
-cultivating harmony resolution comfort
-when traveling the stars the journey is
-just as important as the destination the
-600 I touring edition from origin
-you
+[00:00] the origin 600 I has been called a
+[00:03] symphony in motion channel to create the
+[00:07] ultimate luxury and performance and at
+[00:11] the heart of any orchestration lies the
+[00:14] tonal center of the experience
+[00:16] cultivating harmony resolution comfort
+[00:20] when traveling the stars the journey is
+[00:24] just as important as the destination the
+[00:27] 600 I touring edition from origin
+[00:33] you
