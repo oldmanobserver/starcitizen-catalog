@@ -6,13 +6,13 @@
 
 ## Transcript
 
-♪ [music] ♪
-They say that some things
+[00:06] ♪ [music] ♪
+[00:19] They say that some things
 just don't go out of style.
-That the true classics never die.
-♪ [music] ♪
-Touring, exploration, combat,
+[00:25] That the true classics never die.
+[00:28] ♪ [music] ♪
+[00:37] Touring, exploration, combat,
 and now introducing long-haul freight.
-The all-new Robert Space Industries
+[00:45] The all-new Robert Space Industries
 Constellation Taurus.
-Still does it all.
+[00:51] Still does it all.

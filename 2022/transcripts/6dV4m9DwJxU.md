@@ -6,13 +6,13 @@
 
 ## Transcript
 
-[Music]
-good morning
-[Music]
-give it up
-[Music]
-hey make
-[Music]
-money yo yo yo
-[Music]
-you
+[00:00] [Music]
+[00:08] good morning
+[00:13] [Music]
+[00:28] give it up
+[00:29] [Music]
+[00:45] hey make
+[00:48] [Music]
+[00:56] money yo yo yo
+[01:02] [Music]
+[01:13] you

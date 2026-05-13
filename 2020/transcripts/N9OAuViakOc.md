@@ -6,14 +6,14 @@
 
 ## Transcript
 
-intergalactic aerospace expo
-2950 whitley's guide and me jax mccleary
-are here to take you through it all
-we're here on microtech going behind the
-scenes
-under the hood
-and deep undercover to bring you the
-galaxy's hottest chips from its coolest
-locale
-see if you can keep up
-you
+[00:00] intergalactic aerospace expo
+[00:03] 2950 whitley's guide and me jax mccleary
+[00:07] are here to take you through it all
+[00:09] we're here on microtech going behind the
+[00:12] scenes
+[00:13] under the hood
+[00:14] and deep undercover to bring you the
+[00:17] galaxy's hottest chips from its coolest
+[00:20] locale
+[00:22] see if you can keep up
+[00:32] you

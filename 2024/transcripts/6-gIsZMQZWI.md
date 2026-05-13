@@ -6,14 +6,14 @@
 
 ## Transcript
 
-[radio comms]
+[00:02] [radio comms]
 We're under fire, requesting air support!
--Roger that!
-[final descent radio call]
--SF95 you are clear to engage!
--Getting into position.
-Sabre Firebird
-AEGIS
+[00:06] -Roger that!
+[00:21] [final descent radio call]
+[00:33] -SF95 you are clear to engage!
+[00:36] -Getting into position.
+[00:50] Sabre Firebird
+[00:54] AEGIS
 DYNAMICS
-STAR CITIZEN
+[00:56] STAR CITIZEN
 PLAY.SC/FIREBIRD

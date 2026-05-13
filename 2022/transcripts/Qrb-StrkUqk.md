@@ -6,11 +6,11 @@
 
 ## Transcript
 
-♪ [music] ♪
-[phone beeps]
-- Hey.
+[00:01] ♪ [music] ♪
+[00:03] [phone beeps]
+[00:05] - Hey.
 Meet me at our spot.
-[vehicle powers on]
-BETTER TOGETHER
-2952 CORAMOR
+[00:13] [vehicle powers on]
+[00:42] BETTER TOGETHER
+[00:49] 2952 CORAMOR
 PLAY.SC/VALENTINESDAY

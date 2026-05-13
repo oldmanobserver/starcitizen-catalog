@@ -6,5 +6,5 @@
 
 ## Transcript
 
-Tony Z: You guys want us to hurry up or keep going?
-Crowd: Keep Going!
+[00:10] Tony Z: You guys want us to hurry up or keep going?
+[00:12] Crowd: Keep Going!

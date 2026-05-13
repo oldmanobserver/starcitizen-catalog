@@ -6,14 +6,14 @@
 
 ## Transcript
 
-[gusting wind]
-♪ ["Last Mistake (feat. Joseph Taylor)" by Rob Cass]  ♪
-RSI Presents
-R&R
-Rest & Roam
-Lynx
-RSI
+[00:01] [gusting wind]
+[00:15] ♪ ["Last Mistake (feat. Joseph Taylor)" by Rob Cass]  ♪
+[00:22] RSI Presents
+[00:25] R&R
+[00:28] Rest & Roam
+[00:36] Lynx
+[00:39] RSI
 Roberts Space Industries
-Lynx
-Star Citizen
+[02:44] Lynx
+[02:48] Star Citizen
 play.sc/rsilynx

@@ -6,15 +6,15 @@
 
 ## Transcript
 
-Every year, your ships compete to
+[00:07] Every year, your ships compete to
 become the best in show
-Phase 1
+[00:17] Phase 1
 Community Call
-Ship Showdown
+[00:22] Ship Showdown
 Get your ship in the top 16
-Phase 2
+[00:23] Phase 2
 Live showdown
-Head to head voting
-Ship Showdown returns
-Rally for your favorite ship for exclusive rewards
+[00:25] Head to head voting
+[00:27] Ship Showdown returns
+[00:33] Rally for your favorite ship for exclusive rewards
 Play.sc/shipshowdown

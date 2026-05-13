@@ -6,14 +6,14 @@
 
 ## Transcript
 
-[Music]
-you ever get the feeling you saw
-something that wasn't there in the
-corner of your eyes a light dance just
-out of frame blink H breathe and you've
-missed it there did you see it or was it
-just another trick of the
-light sometimes if you're lucky
-enough you might just catch light in a
-bottle the agis saber paragr catch it if
-you can
+[00:03] [Music]
+[00:07] you ever get the feeling you saw
+[00:08] something that wasn't there in the
+[00:10] corner of your eyes a light dance just
+[00:14] out of frame blink H breathe and you've
+[00:17] missed it there did you see it or was it
+[00:22] just another trick of the
+[00:25] light sometimes if you're lucky
+[00:27] enough you might just catch light in a
+[00:37] bottle the agis saber paragr catch it if
+[00:42] you can

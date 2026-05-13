@@ -6,30 +6,30 @@
 
 ## Transcript
 
-[Music]
-the universe
-is about new beginnings
-it's about asking the really big
-questions
-then taking that first step to an answer
-[Music]
-or supporting the people of the empire
-in times of crisis
-[Music]
-it's about doing what's right even in
-the face of
-impossible danger
-to shield our homes from the threats
-both
-outside and inside our board
-[Music]
-it's about living up to the proud
-tradition of this uniform
-and those who gave their lives for it
-[Music]
-so yes the universe is full
-of beginnings
-[Music]
-but no matter where our paths take us
-we all have our place in the fleet
-united in purpose
+[00:00] [Music]
+[00:11] the universe
+[00:13] is about new beginnings
+[00:24] it's about asking the really big
+[00:26] questions
+[00:28] then taking that first step to an answer
+[00:31] [Music]
+[00:35] or supporting the people of the empire
+[00:38] in times of crisis
+[00:44] [Music]
+[00:47] it's about doing what's right even in
+[00:50] the face of
+[00:51] impossible danger
+[00:58] to shield our homes from the threats
+[01:00] both
+[01:01] outside and inside our board
+[01:05] [Music]
+[01:08] it's about living up to the proud
+[01:10] tradition of this uniform
+[01:12] and those who gave their lives for it
+[01:17] [Music]
+[01:23] so yes the universe is full
+[01:27] of beginnings
+[01:29] [Music]
+[01:39] but no matter where our paths take us
+[01:44] we all have our place in the fleet
+[01:54] united in purpose

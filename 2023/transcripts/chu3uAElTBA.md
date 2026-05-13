@@ -6,9 +6,9 @@
 
 ## Transcript
 
-Discover the spirit of the Red Festival.
-Let each new journey lead
+[00:01] Discover the spirit of the Red Festival.
+[00:05] Let each new journey lead
 to health, wealth, and virtue.
-And, wherever the adventure takes you,
+[00:11] And, wherever the adventure takes you,
 may you find prosperity and good fortune.
-♪ [music] ♪
+[00:17] ♪ [music] ♪

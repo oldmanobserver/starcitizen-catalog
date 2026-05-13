@@ -6,25 +6,25 @@
 
 ## Transcript
 
-- [Jax] C'mon.
-[panting]
-Oh, my goodness.
-So, I kinda crashed my Cutter...
-well, Bob's Cutter.
-Don't tell Bob.
-Right into a racer and their trusty Cyclone RC.
-Yeah.
-Well, fortunately, the rest of competitors here agreed
+[00:00] - [Jax] C'mon.
+[00:02] [panting]
+[00:09] Oh, my goodness.
+[00:11] So, I kinda crashed my Cutter...
+[00:16] well, Bob's Cutter.
+[00:18] Don't tell Bob.
+[00:19] Right into a racer and their trusty Cyclone RC.
+[00:24] Yeah.
+[00:25] Well, fortunately, the rest of competitors here agreed
 not to murder me if I took the incapacitated racer's
-place in the upcoming heat.
-- 2...1...
-- Let's see if I can beat my
+[00:32] place in the upcoming heat.
+[00:34] - 2...1...
+[00:36] - Let's see if I can beat my
 time on the Tumbril test track.
-Here we go!
-Woohoo!
-[crash]
-Shit!
-Oof!
-I'm all right, I'm all right.
-Okay, nobody cares.
-[panting]
+[00:38] Here we go!
+[00:40] Woohoo!
+[00:43] [crash]
+[00:46] Shit!
+[00:47] Oof!
+[00:55] I'm all right, I'm all right.
+[00:57] Okay, nobody cares.
+[00:59] [panting]

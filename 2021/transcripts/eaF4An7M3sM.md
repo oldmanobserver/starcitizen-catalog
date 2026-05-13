@@ -6,10 +6,10 @@
 
 ## Transcript
 
-[Music]
-[Music]
-let's hope your execution matches your
-[Music]
-easier
-[Music]
-you
+[00:16] [Music]
+[00:27] [Music]
+[00:33] let's hope your execution matches your
+[00:37] [Music]
+[00:42] easier
+[00:45] [Music]
+[01:00] you

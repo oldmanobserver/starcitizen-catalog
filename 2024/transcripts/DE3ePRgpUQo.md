@@ -6,18 +6,18 @@
 
 ## Transcript
 
-I'm going to build a universe.
-It's a huge amount of work.
-I'm hoping that a lot of you
+[00:02] I'm going to build a universe.
+[00:04] It's a huge amount of work.
+[00:06] I'm hoping that a lot of you
 want to be in this universe because I do.
-Once the persistence and the
-server meshing is in play,
+[00:12] Once the persistence and the
+[00:14] server meshing is in play,
 that's the big development effort
-Where we're going in the future,
-we're going to need a bigger universe
+[00:25] Where we're going in the future,
+[00:26] we're going to need a bigger universe
 that you can just escape into.
-STAR CITIZEN ALPHA 4.0
+[01:18] STAR CITIZEN ALPHA 4.0
 DESTINATION: PYRO
-STAR CITIZEN ALPHA 4.0
+[03:12] STAR CITIZEN ALPHA 4.0
 DESTINATION PYRO
 NOW IN PREVIEW

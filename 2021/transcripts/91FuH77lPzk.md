@@ -6,11 +6,11 @@
 
 ## Transcript
 
-Just when you thought it was
+[00:05] Just when you thought it was
 safe to go back to microTech.
-Oh, not good, not good!
-Here.
-We.
-Go!
-[laughter]
-[laughter]
+[00:14] Oh, not good, not good!
+[00:20] Here.
+[00:21] We.
+[00:23] Go!
+[00:27] [laughter]
+[00:40] [laughter]

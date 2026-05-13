@@ -6,44 +6,44 @@
 
 ## Transcript
 
-Mirai assembled top racers from all around the Stanton
+[00:00] Mirai assembled top racers from all around the Stanton
 system to find out what drives them.
-You’re about to hear from real racers, not actors.
-Ever since I was a kid I wanted to go fast.
-It’s not about just a hairpin or two.
-It’s really about that sequence and finding the
+[00:06] You’re about to hear from real racers, not actors.
+[00:11] Ever since I was a kid I wanted to go fast.
+[00:16] It’s not about just a hairpin or two.
+[00:18] It’s really about that sequence and finding the
 potential of the thing I’m controlling.
-Being in the cockpit you start to forget what your
+[00:25] Being in the cockpit you start to forget what your
 body’s doing, you become one with the machine.
-Racing in general, I think it’s
+[00:30] Racing in general, I think it’s
 kind of becoming an art.
-You’ve got split decisions to make you got to be fast.
-Racing is one thing,
+[00:36] You’ve got split decisions to make you got to be fast.
+[00:44] Racing is one thing,
 but racing when you know your reputation is
-on the line, the money is on the line.
-You got something to actually bring home.
-That’s the races I gravitate toward,
+[00:47] on the line, the money is on the line.
+[00:49] You got something to actually bring home.
+[00:52] That’s the races I gravitate toward,
 the big ones, the high stakes.
-Racing is just as much as survival as being fast.
-What wins the race?
-It’s the pilot!
-It’s the ship!
-The ship.
-It is 100 percent the pilot.
-Always the ship.
-(Laughs) It’s definitely the pilot, man.
-You’re the one manoeuvring and moving it!
-The best pilots are so close in skill level that a
+[00:58] Racing is just as much as survival as being fast.
+[01:04] What wins the race?
+[01:05] It’s the pilot!
+[01:06] It’s the ship!
+[01:07] The ship.
+[01:08] It is 100 percent the pilot.
+[01:09] Always the ship.
+[01:10] (Laughs) It’s definitely the pilot, man.
+[01:12] You’re the one manoeuvring and moving it!
+[01:17] The best pilots are so close in skill level that a
 different ship can change the game.
-Ships are at the line, and you can feel the excitement!
-INTRODUCING
-FURY LX
-DRIVEN BY REAL RACERS
-BLACKMAZE, CRONCY, COR5AIR, SPLEN,
+[01:27] Ships are at the line, and you can feel the excitement!
+[01:33] INTRODUCING
+[01:34] FURY LX
+[01:35] DRIVEN BY REAL RACERS
+[01:36] BLACKMAZE, CRONCY, COR5AIR, SPLEN,
 CRUCIAN, ECHOBIT, DIPLOMAT
+[01:38] THE FUTURE OF PERFORMANCE
+[01:39] Only from Mirai
+[01:40] MIRAI
 THE FUTURE OF PERFORMANCE
-Only from Mirai
-MIRAI
-THE FUTURE OF PERFORMANCE
-STAR CITIZEN
+[01:42] STAR CITIZEN
 PLAY.SC/FURY

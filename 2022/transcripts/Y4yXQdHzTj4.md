@@ -6,14 +6,14 @@
 
 ## Transcript
 
-Greatness begins as a mere spark
-forged in conflict
-shaped by unity
-driven by progress
-It is strength, grit, triumph
-That greatness is in all of us
-standing together
-UNITED IN PURPOSE
+[00:03] Greatness begins as a mere spark
+[00:20] forged in conflict
+[00:32] shaped by unity
+[00:48] driven by progress
+[00:55] It is strength, grit, triumph
+[01:06] That greatness is in all of us
+[01:17] standing together
+[01:21] UNITED IN PURPOSE
 INVICTUS LAUNCH WEEK
-May 20 - May 31
+[01:25] May 20 - May 31
 INVICTUS2952.com

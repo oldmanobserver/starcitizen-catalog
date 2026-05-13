@@ -6,23 +6,23 @@
 
 ## Transcript
 
-- [Jax] Is it...
+[00:00] - [Jax] Is it...
 Is it on?
-- You guys!
-It was right where he said it was!
-- [muffled] Oh, ye of little faith.
-- And, to think, we tractored your little Drake ship
+[00:02] - You guys!
+[00:03] It was right where he said it was!
+[00:06] - [muffled] Oh, ye of little faith.
+[00:08] - And, to think, we tractored your little Drake ship
 here to kill you!
-- And eat you!
-[mumbling]
-- Well, guys, I— I do know my way around an 890.
-And, since your hideout's a derelict Origin superyacht,
+[00:12] - And eat you!
+[00:14] [mumbling]
+[00:16] - Well, guys, I— I do know my way around an 890.
+[00:20] And, since your hideout's a derelict Origin superyacht,
 I may as well take advantage, so...
-- C'mon, Jax, stay for a drink!
-- Oh, that's kind of you, really, it is kind,
+[00:25] - C'mon, Jax, stay for a drink!
+[00:29] - Oh, that's kind of you, really, it is kind,
 but I've gotta get back to Stanton,
-so— so I'll just say bye-bye.
-- But we'd love to have you...
+[00:32] so— so I'll just say bye-bye.
+[00:34] - But we'd love to have you...
 we'd love to have you for dinner!
-[laughs]
-- What did I say?
+[00:37] [laughs]
+[00:39] - What did I say?

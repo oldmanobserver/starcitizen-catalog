@@ -6,36 +6,36 @@
 
 ## Transcript
 
-- Hey, did you see the last transmission?
-- Has anyone seen Jimmy?
-- Where's Jimmy?
-- It was wild.
-I thought Jax was done for.
-- Is that McCleary?
+[00:00] - Hey, did you see the last transmission?
+[00:02] - Has anyone seen Jimmy?
+[00:03] - Where's Jimmy?
+[00:05] - It was wild.
+[00:06] I thought Jax was done for.
+[00:08] - Is that McCleary?
 - A new ship.
-- I tell you what, Jimmy.
-If you hadn't shown up when you did,
+[00:10] - I tell you what, Jimmy.
+[00:12] If you hadn't shown up when you did,
 I would have been dead.
-But, if Bob and the crew hadn't swooped in,
+[00:15] But, if Bob and the crew hadn't swooped in,
 we'd both be inkspots on the Ruin Station pavement.
-I owe both of you big time.
-- Don't mention it.
-Now, strap in, boys.
-It's a long way to the jump point.
-- Kill him!
+[00:21] I owe both of you big time.
+[00:24] - Don't mention it.
+[00:25] Now, strap in, boys.
+[00:26] It's a long way to the jump point.
+[00:28] - Kill him!
 No!
-- We need to get a crew out there.
-- Like an Apollo rescue team, or...?
-- No, a camera crew.
-- Ah, yeah, you're right.
-- This is just the format change we need.
-- Plenty of time, Jim,
+[00:31] - We need to get a crew out there.
+[00:35] - Like an Apollo rescue team, or...?
+[00:38] - No, a camera crew.
+[00:39] - Ah, yeah, you're right.
+[00:41] - This is just the format change we need.
+[00:44] - Plenty of time, Jim,
 for you and I to riff on ideas for next season, eh?
-And we could hit a couple of my favorite Pyro haunts on
+[00:48] And we could hit a couple of my favorite Pyro haunts on
 the way back.
-I could show you around,
+[00:51] I could show you around,
 introduce you to some of the locals.
-Yeah, I still can't believe you managed to find me by
+[00:56] Yeah, I still can't believe you managed to find me by
 tracking my transmissions.
-Oh, crap, not again!
-Bob!
+[01:01] Oh, crap, not again!
+[01:10] Bob!

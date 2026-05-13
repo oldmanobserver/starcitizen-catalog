@@ -6,27 +6,27 @@
 
 ## Transcript
 
-Star Citizen
+[00:00] Star Citizen
 Lasting Legacies Alpha 3.18
-[gunfire]
-[explosion]
-♪ [music] ♪
-Cargo System Refactor
-Persistent Entity Streaming
-Dawn of Salvage
-Secrets of Daymar
-Natural Wonders
-Kareah Reactivation
-[gunshots]
-[laughs]
-Security Post Kareah
+[00:03] [gunfire]
+[00:06] [explosion]
+[00:11] ♪ [music] ♪
+[00:21] Cargo System Refactor
+[00:28] Persistent Entity Streaming
+[00:42] Dawn of Salvage
+[00:47] Secrets of Daymar
+[00:58] Natural Wonders
+[01:04] Kareah Reactivation
+[01:10] [gunshots]
+[01:18] [laughs]
+[01:22] Security Post Kareah
 Evidence Storage Unit
-Prison Missions
-High Speed Thrills
-Persistent Entity Streaming, Cargo System Refactor,
+[01:28] Prison Missions
+[01:43] High Speed Thrills
+[01:55] Persistent Entity Streaming, Cargo System Refactor,
 Salvage, New Derelict Settlement,
-Sand Caves and Rivers, Security Post Kareah Update,
+[01:58] Sand Caves and Rivers, Security Post Kareah Update,
 Prison Gameplay, Racetracks, and more.
-Star Citizen
+[02:01] Star Citizen
 Lasting Legacies Alpha 3.18
-Playable now, play.sc/lastinglegacies
+[02:05] Playable now, play.sc/lastinglegacies

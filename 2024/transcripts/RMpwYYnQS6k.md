@@ -6,4 +6,4 @@
 
 ## Transcript
 
-BUILT FOR LIFE
+[01:30] BUILT FOR LIFE

@@ -6,11 +6,11 @@
 
 ## Transcript
 
-“True nobility is in being superior to your previous self.”
-[1980’s style rock music intro]
-RECRUITMENT CENTER
-RISE ABOVE
-HORNET MKII
-[ANVIL AEROSPACE]
-STAR CITIZEN
+[00:00] “True nobility is in being superior to your previous self.”
+[00:05] [1980’s style rock music intro]
+[00:58] RECRUITMENT CENTER
+[01:05] RISE ABOVE
+[01:07] HORNET MKII
+[01:09] [ANVIL AEROSPACE]
+[01:11] STAR CITIZEN
 PLAY.SC/HORNETMKII

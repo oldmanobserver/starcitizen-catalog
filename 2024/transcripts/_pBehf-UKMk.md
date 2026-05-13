@@ -6,16 +6,16 @@
 
 ## Transcript
 
-[Man screaming]
-You’re probably thinking I’m a goner.
-But the thing is...
-I’ve died a thousand times.
-‘Cause the Regen–
-Has always been the strategy.
-Let’s do this.
-[spaghetti western w/ hip-hop beat music]
-One more time?
-DIE TO FIGHT ANOTHER DAY
-URSA MEDIVAC
-STAR CITIZEN
+[00:00] [Man screaming]
+[00:02] You’re probably thinking I’m a goner.
+[00:09] But the thing is...
+[00:11] I’ve died a thousand times.
+[00:17] ‘Cause the Regen–
+[00:18] Has always been the strategy.
+[00:23] Let’s do this.
+[00:24] [spaghetti western w/ hip-hop beat music]
+[00:52] One more time?
+[00:55] DIE TO FIGHT ANOTHER DAY
+[00:57] URSA MEDIVAC
+[00:59] STAR CITIZEN
 PLAY.SC/MEDIVAC

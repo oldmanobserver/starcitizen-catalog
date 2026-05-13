@@ -6,12 +6,12 @@
 
 ## Transcript
 
-Join us for the biggest Whitley’s Guide IAE Special yet
+[00:00] Join us for the biggest Whitley’s Guide IAE Special yet
 with exclusive looks at all your
-favorite manufacturers, Drake CEO Anden Arden,
+[00:05] favorite manufacturers, Drake CEO Anden Arden,
 plus surprises and announcements you won’t wanna miss.
-We’ll see you there.
-Join us November 18.
+[00:14] We’ll see you there.
+[00:17] Join us November 18.
 IAE2952.COM
-In Memoriam
+[00:19] In Memoriam
 Jax McCleary

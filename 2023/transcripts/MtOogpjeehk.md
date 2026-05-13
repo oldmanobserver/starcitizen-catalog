@@ -6,23 +6,23 @@
 
 ## Transcript
 
-Star Citizen
-Tutorial Started: Tutorial - Your First Steps
+[00:00] Star Citizen
+[00:02] Tutorial Started: Tutorial - Your First Steps
 Press "Left Bracket" to Accept _____ Press "Right Bracket" to Decline.
-Improved New Player Experience
-New Salvage Missions
-Lorville City Upgrade
-Teasa Spaceport
-Active Loading Site Ahead
-Mining Gameplay
+[00:08] Improved New Player Experience
+[00:17] New Salvage Missions
+[00:26] Lorville City Upgrade
+[00:31] Teasa Spaceport
+[00:33] Active Loading Site Ahead
+[00:40] Mining Gameplay
 Improvements
-New Component
+[00:49] New Component
 Salvage Gameplay
-New PvP Event
+[00:55] New PvP Event
 At Ghost Hollow
-Celebrate Invictus Launch Week
+[01:09] Celebrate Invictus Launch Week
 May 19 - May 30
-Star Citizen
+[01:16] Star Citizen
 Call To Adventure Alpha 3.19
-Playable Now
+[01:16] Playable Now
 play.sc/calltoadventure

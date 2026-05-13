@@ -6,21 +6,21 @@
 
 ## Transcript
 
-IAE 2954
+[00:01] IAE 2954
 THE NEXT FRONTIER
 NOVEMBER 22
-IAE 2954
+[00:03] IAE 2954
 THE NEXT FRONTIER
 IAE2954.COM
-Welcome to IAE 2954!
-The biggest in-game spaceship convention in the Star Citizen universe.
-Every year, the Intergalactic Aerospace Expo invites players to explore the universe.
-You can dive in and play for free during the convention.
-Whether you’re into mining
-Hauling
-Bounty hunting
-Or something else entirely.
-Join the celebration!
-Check out the ships up close.
-Over 150 vehicles are free to fly during the convention.
-With a different ship manufacturer and lineup featured every day.
+[00:08] Welcome to IAE 2954!
+[00:10] The biggest in-game spaceship convention in the Star Citizen universe.
+[00:14] Every year, the Intergalactic Aerospace Expo invites players to explore the universe.
+[00:19] You can dive in and play for free during the convention.
+[00:22] Whether you’re into mining
+[00:23] Hauling
+[00:24] Bounty hunting
+[00:25] Or something else entirely.
+[00:27] Join the celebration!
+[00:29] Check out the ships up close.
+[00:31] Over 150 vehicles are free to fly during the convention.
+[00:35] With a different ship manufacturer and lineup featured every day.

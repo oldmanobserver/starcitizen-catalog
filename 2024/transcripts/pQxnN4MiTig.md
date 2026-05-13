@@ -6,22 +6,22 @@
 
 ## Transcript
 
-[thunder crash]
-[overlapping whispers]
+[00:00] [thunder crash]
+[00:07] [overlapping whispers]
 You think you can outrun me?
-The moment you ran
+[00:09] The moment you ran
 you sealed your fate.
-There won’t be a corner of the 
+[00:12] There won’t be a corner of the 
 universe you can hide in
-No shadow deep enough to swallow my fury.
-I will find you
-And I will cut you down 
+[00:14] No shadow deep enough to swallow my fury.
+[00:26] I will find you
+[00:27] And I will cut you down 
 where you stand.
-JUSTICE
-VENGEANCE
-FORGED WITH
-FURY
-MIRAI
--Only from Mirai
-STAR CITIZEN
+[00:51] JUSTICE
+[01:00] VENGEANCE
+[01:05] FORGED WITH
+[01:06] FURY
+[01:15] MIRAI
+[01:16] -Only from Mirai
+[01:18] STAR CITIZEN
 PLAY.SC/GUARDIAN

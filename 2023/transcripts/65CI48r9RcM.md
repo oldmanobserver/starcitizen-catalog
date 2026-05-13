@@ -6,9 +6,9 @@
 
 ## Transcript
 
-Prepare to join
-Invictus launch week
-Invictus Launch week
+[00:08] Prepare to join
+[00:23] Invictus launch week
+[00:47] Invictus Launch week
 United in Purpose
-May 19 - May 30
+[00:56] May 19 - May 30
 Invictus2953.com

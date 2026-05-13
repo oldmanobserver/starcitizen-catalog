@@ -6,14 +6,14 @@
 
 ## Transcript
 
-Through unforgiving lands
-Across the impossible expanse
-A mirage calls
-A distant oasis
-We chase what most consider myth
-Pursue an obsession
-That's what pushes us to greatness
-The oasis
-It's real
-The 400i by Origin Jumpworks
-♪ [music] ♪
+[00:05] Through unforgiving lands
+[00:10] Across the impossible expanse
+[00:14] A mirage calls
+[00:17] A distant oasis
+[00:25] We chase what most consider myth
+[00:32] Pursue an obsession
+[00:38] That's what pushes us to greatness
+[00:45] The oasis
+[00:49] It's real
+[01:02] The 400i by Origin Jumpworks
+[01:06] ♪ [music] ♪

@@ -6,26 +6,26 @@
 
 ## Transcript
 
-- [Jax] Whoa, whoa, whoa, no need to resort to
+[00:00] - [Jax] Whoa, whoa, whoa, no need to resort to
 fisticuffs to decide whose Aegis ship is the better.
-No, no, for crying out loud!
-Go get in your damn ships!
-Let's take it to the tarmac, shall we?
-All right then, friends, Gladius vs Sabre.
-Let's settle this thing once
+[00:06] No, no, for crying out loud!
+[00:09] Go get in your damn ships!
+[00:12] Let's take it to the tarmac, shall we?
+[00:16] All right then, friends, Gladius vs Sabre.
+[00:20] Let's settle this thing once
 and for all, sans violence!
-I mean I used to do this kinda
+[00:24] I mean I used to do this kinda
 thing on my show all the time.
-Are they ready?
-- This is bad idea!
-- Sounds good!
-See, we've arranged a tower of
+[00:27] Are they ready?
+[00:29] - This is bad idea!
+[00:32] - Sounds good!
+[00:34] See, we've arranged a tower of
 barrels for each ship to blast.
-Each ship has the standard factory loadout,
+[00:38] Each ship has the standard factory loadout,
 so let's see how that Gellenson Mantis
-GT-220—
+[00:44] GT-220—
 [explosion]
-- Whoa!
-Maybe I should get out of here.
-Where'd I put my Cutter?
-Oh, there it is!
+[00:47] - Whoa!
+[00:53] Maybe I should get out of here.
+[00:56] Where'd I put my Cutter?
+[00:57] Oh, there it is!

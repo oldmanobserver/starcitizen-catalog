@@ -6,26 +6,26 @@
 
 ## Transcript
 
-Are you tired of the pain of
+[00:05] Are you tired of the pain of
 the drudgery of the boring ship?
-Are you waiting for your lucky day?
-Well, helllooooo lucky Humans!
-It’s us, your average friendly Banu Souli specializing
+[00:09] Are you waiting for your lucky day?
+[00:12] Well, helllooooo lucky Humans!
+[00:15] It’s us, your average friendly Banu Souli specializing
 and excelling mightily in procuring and selling of many
-great and amazing ships!
-So many good ships from
+[00:22] great and amazing ships!
+[00:25] So many good ships from
 Alien worlds suitable for Humans.
-Don’t go there!
-We’ll bring them to you.
-Comfy Human seat!
-Not made of human...
-probably!
-Humans love breathing.
-Our ship's full of atmosphere, great for breathing!
-Your next great ship is waiting.
-We have it!
-It’s right here!
-Come on down TODAY!
-Voted “Friendliest Souli” three years subsequent –
-Davien IV Commercial Chamber.
+[00:29] Don’t go there!
+[00:30] We’ll bring them to you.
+[00:32] Comfy Human seat!
+[00:34] Not made of human...
+[00:35] probably!
+[00:36] Humans love breathing.
+[00:38] Our ship's full of atmosphere, great for breathing!
+[00:41] Your next great ship is waiting.
+[00:44] We have it!
+[00:45] It’s right here!
+[00:46] Come on down TODAY!
+[00:49] Voted “Friendliest Souli” three years subsequent –
+[00:52] Davien IV Commercial Chamber.
 STAR CITIZEN PLAY.SC/ALIENWEEK

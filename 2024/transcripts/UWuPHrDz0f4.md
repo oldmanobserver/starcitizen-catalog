@@ -6,27 +6,27 @@
 
 ## Transcript
 
-REPORTER: Violence continues as another civilian vessel
-has been ambushed just moments
+[00:03] REPORTER: Violence continues as another civilian vessel
+[00:06] has been ambushed just moments
 after leaving a station in the orbit of–
-CALL-IN GUEST: I’m saying we can't live like this Meryl!
-Under constant fear of outlaws killing our families and snatching up our kids.
-MERYL: Oh my.
-CALL-IN GUEST: And the proud citizens
+[00:10] CALL-IN GUEST: I’m saying we can't live like this Meryl!
+[00:12] Under constant fear of outlaws killing our families and snatching up our kids.
+[00:17] MERYL: Oh my.
+[00:17] CALL-IN GUEST: And the proud citizens
 that make up Frontier Fighters.
-We know, that
-unfortunately violence is all these freaks understand.
-MERYL: And how can you and the Frontier Fighters
-be sure the perpetrators of these attacks
+[00:20] We know, that
+[00:21] unfortunately violence is all these freaks understand.
+[00:32] MERYL: And how can you and the Frontier Fighters
+[00:34] be sure the perpetrators of these attacks
 are from the Pyro system?
-CALL-IN GUEST: Please Meryl! Who else could be capable of this
-heinous, primitive behavior?
-COMMENTATOR: Thanks for having me, Jim.
-And yes, our group is trying to make sure
+[00:38] CALL-IN GUEST: Please Meryl! Who else could be capable of this
+[00:41] heinous, primitive behavior?
+[00:48] COMMENTATOR: Thanks for having me, Jim.
+[00:50] And yes, our group is trying to make sure
 these recent attacks
-don't lead to unfair profiling
+[00:53] don't lead to unfair profiling
 of our neighbors in the next system over.
-When piracy gets really bad, extremist groups always rush to blame Pyro.
-Calling to shut down the jump point.
-Let us not paint the people of
+[00:57] When piracy gets really bad, extremist groups always rush to blame Pyro.
+[01:02] Calling to shut down the jump point.
+[01:05] Let us not paint the people of
 an entire system with too broad a brush!

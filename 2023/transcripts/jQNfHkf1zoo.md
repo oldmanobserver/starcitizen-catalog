@@ -6,20 +6,20 @@
 
 ## Transcript
 
-If you push something to its absolute limit...
-A body
-A weapon
-Gravity itself
-Does it break,
-Or does it break through?
-Power beyond expectation
-Class-defying maneuverability
-Transformative integration of Xi’an tech and design
-A revelation in short-range combat
-Unleash the FURY
-Fury MX
+[00:01] If you push something to its absolute limit...
+[00:05] A body
+[00:06] A weapon
+[00:08] Gravity itself
+[00:12] Does it break,
+[00:14] Or does it break through?
+[00:20] Power beyond expectation
+[00:24] Class-defying maneuverability
+[00:28] Transformative integration of Xi’an tech and design
+[00:32] A revelation in short-range combat
+[00:42] Unleash the FURY
+[00:45] Fury MX
 The Future of Performance
-Only from Mirai
+[00:47] Only from Mirai
 Mirai The Future of Performance
-Star Citizen
+[00:49] Star Citizen
 play.sc/fury

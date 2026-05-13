@@ -6,264 +6,264 @@
 
 ## Transcript
 
-♪ [music] ♪
-- [Dan] Hi, my name is Dan Trufin.
-I'm assistant director for PU Content,
+[00:00] ♪ [music] ♪
+[00:08] - [Dan] Hi, my name is Dan Trufin.
+[00:09] I'm assistant director for PU Content,
 and with Thorsten Leimann here today,
-we will be talking to you about something we think it
+[00:14] we will be talking to you about something we think it
 will change the way Star Citizen functions and works
-and how the players will play the game in the future.
-And that is resource management.
-♪ [music] ♪
-Resource management is the underlying system
+[00:21] and how the players will play the game in the future.
+[00:24] And that is resource management.
+[00:26] ♪ [music] ♪
+[00:34] Resource management is the underlying system
 that allows items to produce, consume,
-and store resources in the game.
-It is the digital representation of
+[00:41] and store resources in the game.
+[00:44] It is the digital representation of
 real-life cables, pipes, tanks, batteries,
-or anything like this that you can imagine.
-- [Thorsten] It's the foundation of the ships where you
+[00:50] or anything like this that you can imagine.
+[00:52] - [Thorsten] It's the foundation of the ships where you
 have certain resources like fuel and energy powering
-certain items on the ship, but it's also
+[00:59] certain items on the ship, but it's also
 the system that will lie below any
-station or any vehicle, anything that
+[01:05] station or any vehicle, anything that
 you can imagine in our universe that
-actually requires a certain type of resource.
-- Resource management is not just a
+[01:10] actually requires a certain type of resource.
+[01:13] - Resource management is not just a
 system that helps the ships function.
-It is a thing that's integral to the
+[01:17] It is a thing that's integral to the
 functionality of the entire universe.
-It will be the way surface outpost function,
+[01:21] It will be the way surface outpost function,
 underground facilities, space stations, landing zones.
-Everything in Star Citizen will
+[01:27] Everything in Star Citizen will
 function using resource management.
-- So, we will start with the smaller vehicles and the
+[01:31] - So, we will start with the smaller vehicles and the
 gameplay for those smaller vehicles is way more
-interesting than what we have right now.
-And from that, we can move on to like bigger ships.
-And finally, the capital ships will have a real purpose
+[01:36] interesting than what we have right now.
+[01:39] And from that, we can move on to like bigger ships.
+[01:44] And finally, the capital ships will have a real purpose
 in the world, and where it will have a real meaning
-that you have the multiple roles inside those ships.
-- It'll drastically increase the time to
+[01:50] that you have the multiple roles inside those ships.
+[01:54] - It'll drastically increase the time to
 kill for all vehicles in Star Citizen,
-and it'll encourage people to disable
+[01:58] and it'll encourage people to disable
 ships rather than destroy them.
-Missions like Siege of Orison will increase
+[02:03] Missions like Siege of Orison will increase
 in scope and scale up a lot more with the use
-of resource management as players will be able
+[02:09] of resource management as players will be able
 to cripple resources, change the way resources
-are distributed, cut power, cut certain
+[02:15] are distributed, cut power, cut certain
 fuel and critical parts in order
-to progress further in those missions.
-- We can suddenly scale a lot bigger
+[02:20] to progress further in those missions.
+[02:22] - We can suddenly scale a lot bigger
 than what we have right now.
-And the reasons are that we have more control
+[02:25] And the reasons are that we have more control
 over the powers of certain platforms there,
-and we can introduce some interesting
+[02:29] and we can introduce some interesting
 gameplay that facilitates these functionalities.
-- Resource management is going to open
+[02:34] - Resource management is going to open
 up the possibility of player structures,
-player-owned outposts on planet or stations in space
+[02:39] player-owned outposts on planet or stations in space
 where the player will have to manage resources,
-bring in fuel, do repairs, and this will
+[02:46] bring in fuel, do repairs, and this will
 not be something that only caters
-towards the engineer, this will be
+[02:51] towards the engineer, this will be
 something that is valuable for everyone
-in the world of Star Citizen.
-- Resource management will finally allow players to
+[02:54] in the world of Star Citizen.
+[02:55] - Resource management will finally allow players to
 build their own bases and their own homesteads,
-and actually, keep that loop engaging and fun.
-- And really, this is the main thing that
+[03:02] and actually, keep that loop engaging and fun.
+[03:05] - And really, this is the main thing that
 makes multicrew gameplay possible.
-We envision the players taking on roles
+[03:10] We envision the players taking on roles
 like engineer, mechanic, tactical officer.
-And while you have your engineer trying to maintain all
+[03:18] And while you have your engineer trying to maintain all
 the resources functioning and flowing perfectly and all
-the items in good operation, you will have
+[03:24] the items in good operation, you will have
 mechanics running throughout the ship
-trying to change fuses, repair various
+[03:29] trying to change fuses, repair various
 things that are broken down.
-You will have tactical officers moving shields from
+[03:33] You will have tactical officers moving shields from
 one side of the ship to another in order to counter
-whatever incoming damage you have.
-Obviously, the pilot is going to be doing his job,
+[03:38] whatever incoming damage you have.
+[03:40] Obviously, the pilot is going to be doing his job,
 trying to move the ship out of harm's way.
-The gunners are going to be taking out
+[03:45] The gunners are going to be taking out
 enemy incoming fighters or other ships.
-This is how we envision this entire ecosystem just
+[03:50] This is how we envision this entire ecosystem just
 coming together and providing what we hope is
-true multicrew gameplay.
-And for all of you out there that are waiting
+[03:56] true multicrew gameplay.
+[03:58] And for all of you out there that are waiting
 for the Idrises and Javelins and want to use
-these ships, this is a system that is going
+[04:04] these ships, this is a system that is going
 to make using those ships possible.
-So, all that said, this is a really important system
+[04:08] So, all that said, this is a really important system
 for Star Citizen, but let's dig into the details and
-see what exactly this is.
-♪ [music] ♪
-Resource management can be broken down into several
+[04:14] see what exactly this is.
+[04:17] ♪ [music] ♪
+[04:20] Resource management can be broken down into several
 key elements, power, energy, resources, life support,
-item maintenance, relay handling,
+[04:28] item maintenance, relay handling,
 access control, and gravity.
-So, let's start with power, energy, and resources.
-The players can choose to overload items in order
+[04:34] So, let's start with power, energy, and resources.
+[04:37] The players can choose to overload items in order
 to get more efficiency out of them at the risk
-of burning them out.
-They can also underload items to save some resources
+[04:42] of burning them out.
+[04:44] They can also underload items to save some resources
 if they don't need the full efficiency of an item.
-The players will have to pay attention to the
+[04:52] The players will have to pay attention to the
 balance of resources, power, fuel, coolant,
-heat generated in order to maintain a well-oiled and
+[04:57] heat generated in order to maintain a well-oiled and
 balanced ship, and overall, prioritizing certain items
-and their resource consumption.
-- Life support is the most important thing you have to
+[05:05] and their resource consumption.
+[05:07] - Life support is the most important thing you have to
 pay attention to in your ships now since atmosphere is
-finite in all the spaces that you might discover.
-And here, the life support system is a key factor.
-Here, the life support, you have to maintain it,
+[05:19] finite in all the spaces that you might discover.
+[05:23] And here, the life support system is a key factor.
+[05:26] Here, the life support, you have to maintain it,
 meaning you have to make sure that the consumables
-inside the life support generator are always there
+[05:33] inside the life support generator are always there
 to make sure that it can generate breathable
-atmosphere for you.
-Or the temperature is actually
+[05:40] atmosphere for you.
+[05:41] Or the temperature is actually
 increased to a human-livable factor,
-so you don't freeze to death or you are not cooked.
-- As part of item maintenance,
+[05:48] so you don't freeze to death or you are not cooked.
+[05:51] - As part of item maintenance,
 the player will be able to control items
-throughout the ship, turn them on, turn them off.
-They will be able to remove broken items and replace
+[05:58] throughout the ship, turn them on, turn them off.
+[06:00] They will be able to remove broken items and replace
 them with new items or sometimes dodgy items depending
-on their income.
-They will be able to control which
+[06:09] on their income.
+[06:11] They will be able to control which
 sub-items are installed in those items,
-either as fuses or sub-components that give
+[06:16] either as fuses or sub-components that give
 them various bonuses to that specific item.
-They will be able to repair gameplay and replace
+[06:23] They will be able to repair gameplay and replace
 broken fuses when the item stops working or
-takes enough damage.
-- Relay handling is the actual management part that
+[06:29] takes enough damage.
+[06:32] - Relay handling is the actual management part that
 you as the engineer on the ship has to do there.
-It's basically defining the circuits in the most
+[06:43] It's basically defining the circuits in the most
 effective way, especially for bigger ships.
-So, a relay is something that defines
+[06:51] So, a relay is something that defines
 which items are connected to each other.
-And what we want to achieve here is allowing you
+[06:58] And what we want to achieve here is allowing you
 to create the best possible outcome for your ship.
-- With access control, we're introducing ship roles.
-The captain will be able to assign
+[07:09] - With access control, we're introducing ship roles.
+[07:12] The captain will be able to assign
 certain roles to each of his crewmates.
-And for example, say one of the player becomes the
+[07:18] And for example, say one of the player becomes the
 engineers, the engineer would give them specific access
-to certain controls while the person that is the
+[07:25] to certain controls while the person that is the
 pilot will not have access to those controls.
-At the same time, a gunner will only have access
+[07:31] At the same time, a gunner will only have access
 to a specific gun or all the guns of the ship.
-- And finally, gravity.
-So gravity is the concept that you experienced
+[07:37] - And finally, gravity.
+[07:39] So gravity is the concept that you experienced
 already in every ship, so there's always a ground,
-there's always a down, there's always an up.
-And we would like to give you
+[07:47] there's always a down, there's always an up.
+[07:51] And we would like to give you
 some more control over that.
-So because it requires some energy and if you
+[07:54] So because it requires some energy and if you
 want to run your ship more energy efficient,
-we want you to allow to switch off gravity.
-Or there might be other use cases where a zero
+[08:00] we want you to allow to switch off gravity.
+[08:03] Or there might be other use cases where a zero
 gravity environment is more useful than another one.
-- So, if it wasn't clear by now, the scope of
+[08:10] - So, if it wasn't clear by now, the scope of
 resource management touches pretty much
-every aspect of life in Star Citizen.
-So, we're doing a lot of talking, but I bet what
+[08:15] every aspect of life in Star Citizen.
+[08:18] So, we're doing a lot of talking, but I bet what
 everyone would like to know is where are
-we with all of this right now?
-♪ [music] ♪
-Currently, we have working in-engine prototypes of
+[08:21] we with all of this right now?
+[08:24] ♪ [music] ♪
+[08:27] Currently, we have working in-engine prototypes of
 the following systems: power, gravity, life support,
-and the relay network.
-With the power system, we can
+[08:35] and the relay network.
+[08:36] With the power system, we can
 overpower and underpower items,
-we can set the priorities of item producers
+[08:40] we can set the priorities of item producers
 and consumers inside the ship,
-and we can set the path of resources inside
+[08:45] and we can set the path of resources inside
 the ship through the resource relay network.
-- And with the power system, we already can
+[08:53] - And with the power system, we already can
 distribute the base energy and base fuel
-throughout the ship so we can make sure that
+[08:59] throughout the ship so we can make sure that
 each item actually gets the resources they need.
-Creating your own resource path is basically defining
+[09:06] Creating your own resource path is basically defining
 the routes...or the most efficient routes all the
-resources have to take throughout your ship.
-♪ [music] ♪
-We can also demonstrate many aspects of
+[09:16] resources have to take throughout your ship.
+[09:20] ♪ [music] ♪
+[09:34] We can also demonstrate many aspects of
 the life support system, including making
-new players suffocate.
-♪ [music] ♪
-Fire expulsion.
-♪ [music] ♪
-Change the temperature in each room.
-♪ [music] ♪
-Making new players suffocate.
-♪ [music] ♪
-Venting and filling rooms with atmosphere.
-♪ [music] ♪
-And making players suffocate again.
-♪ [music] ♪
-- [Recorded Voice] Caution, target friendly.
-♪ [music] ♪
-- In the last year, we've made tremendous
+[09:38] new players suffocate.
+[09:40] ♪ [music] ♪
+[10:23] Fire expulsion.
+[10:24] ♪ [music] ♪
+[11:02] Change the temperature in each room.
+[11:04] ♪ [music] ♪
+[11:42] Making new players suffocate.
+[11:44] ♪ [music] ♪
+[11:58] Venting and filling rooms with atmosphere.
+[12:00] ♪ [music] ♪
+[12:36] And making players suffocate again.
+[12:39] ♪ [music] ♪
+[14:01] - [Recorded Voice] Caution, target friendly.
+[14:03] ♪ [music] ♪
+[14:07] - In the last year, we've made tremendous
 progress with the resource management system,
-but with a system that is this big and
+[14:11] but with a system that is this big and
 complex, we do not want to rush it,
-we want to just get it right and
+[14:15] we want to just get it right and
 get it right from the beginning.
-So, let's talk about what's next for
+[14:18] So, let's talk about what's next for
 the resource management system.
-♪ [music] ♪
-- As you can tell, resource management
+[14:22] ♪ [music] ♪
+[14:26] - As you can tell, resource management
 is a huge endeavor for us.
-- So like everything else, we'll
+[14:29] - So like everything else, we'll
 probably not get everything in the
-initial release, but this is what we're aiming for.
-- Interactable and accessible items on ships,
+[14:33] initial release, but this is what we're aiming for.
+[14:36] - Interactable and accessible items on ships,
 relay gameplay, changing fuses on the relays,
-resource balancing, defining control groups
+[14:44] resource balancing, defining control groups
 that will be accessible through the MFDs,
-allowing people to create presets for
+[14:51] allowing people to create presets for
 your resource network for each ship,
-an engineering UI with at least a list or schematic
+[14:56] an engineering UI with at least a list or schematic
 view of your ships, external engineering screen
-for ships, allowing engineers to define the tuning
+[15:05] for ships, allowing engineers to define the tuning
 parameters that can be accessed by the pilot with a
-press of a button like loading
+[15:11] press of a button like loading
 presets and creating presets.
-- And after the initial release,
+[15:15] - And after the initial release,
 everything else will fall into place
-with subsequent patches.
-♪ [music] ♪
-We started talking about resource
+[15:19] with subsequent patches.
+[15:21] ♪ [music] ♪
+[15:24] We started talking about resource
 management about two years ago.
-It is pretty much the evolution of what
+[15:30] It is pretty much the evolution of what
 used to be the old pipe system.
-And this has been an interesting journey.
-And finally, we're starting to see the fruits of our
+[15:34] And this has been an interesting journey.
+[15:39] And finally, we're starting to see the fruits of our
 labor and we're starting to see all the possibilities
-of gameplay that we can open
+[15:46] of gameplay that we can open
 up to the players in the future.
-It's exciting to work on something that's so central to
+[15:49] It's exciting to work on something that's so central to
 the world of Star Citizen and that can impact the
-gameplay of so many people, irrelevant
+[15:54] gameplay of so many people, irrelevant
 of what they choose to do in the world
-of Star Citizen.
-Resource management is the most exciting
+[15:59] of Star Citizen.
+[16:00] Resource management is the most exciting
 feature that I've ever worked with.
-It's such a groundbreaking feature that will
+[16:05] It's such a groundbreaking feature that will
 change the entire game from its core.
-I think we never had this opportunity to change the
+[16:15] I think we never had this opportunity to change the
 game into this direction where we are heading
-right now, where we will finally have all the tools in
+[16:22] right now, where we will finally have all the tools in
 place to actually allow meaningful multicrew gameplay
-and meaningful decisions for all the
+[16:31] and meaningful decisions for all the
 players where every decision counts.
-This is the stuff that makes me really proud
+[16:38] This is the stuff that makes me really proud
 of what we are working on right now.
-- Thank you for letting us share our progress with you.
-And we hope you're happy with all this
+[16:45] - Thank you for letting us share our progress with you.
+[16:48] And we hope you're happy with all this
 progress, and have a nice CitizenCon.

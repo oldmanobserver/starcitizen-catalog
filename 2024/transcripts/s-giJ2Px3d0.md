@@ -6,10 +6,10 @@
 
 ## Transcript
 
-You need help with that?
-Yeah, Right.
-ATLS
-ARGO
+[00:06] You need help with that?
+[00:08] Yeah, Right.
+[00:36] ATLS
+[00:39] ARGO
 ASTRONAUTICS
-STAR CITIZEN
+[00:40] STAR CITIZEN
 PLAY.SC/ATLS

@@ -6,33 +6,33 @@
 
 ## Transcript
 
-♪ [music] ♪
-- [Woman] Cut.
+[00:02] ♪ [music] ♪
+[00:21] - [Woman] Cut.
 Jimmy, we're rolling.
-You want a bucket?
+[00:24] You want a bucket?
 Nope?
-We're over here, Jimmy.
+[00:25] We're over here, Jimmy.
 Uh-huh.
-Eyes front.
+[00:27] Eyes front.
 Reset.
-♪ [music] ♪
-- [Jax] Ahh, I can't believe he's really doing it.
-♪ [music] ♪
-Haha, I still don't know how you're
+[00:32] ♪ [music] ♪
+[01:08] - [Jax] Ahh, I can't believe he's really doing it.
+[01:11] ♪ [music] ♪
+[02:13] Haha, I still don't know how you're
 going to pull this bit off solo.
-Likely kill yourself.
-Oh, my god, he's going to kill himself.
-♪ [music] ♪
-Hahahahahaha.
-Well, there you go, Jimmy.
-Now we're even for what happened in Goss.
-Okay, let's see what this cannon can
+[02:18] Likely kill yourself.
+[02:20] Oh, my god, he's going to kill himself.
+[02:24] ♪ [music] ♪
+[03:05] Hahahahahaha.
+[03:08] Well, there you go, Jimmy.
+[03:10] Now we're even for what happened in Goss.
+[03:13] Okay, let's see what this cannon can
 really do for a proper big finish.
-♪ [music] ♪
-- Oh, shit.
-And speaking of finish,
+[03:18] ♪ [music] ♪
+[03:23] - Oh, shit.
+[03:28] And speaking of finish,
 I think we better get out of here.
-What are you doing, Jimmy?
-Enjoying the view?
+[03:32] What are you doing, Jimmy?
+[03:34] Enjoying the view?
 We've got a show to finish.
-♪ [music] ♪
+[03:38] ♪ [music] ♪

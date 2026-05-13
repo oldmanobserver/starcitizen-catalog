@@ -6,10 +6,10 @@
 
 ## Transcript
 
-i always knew you were bad at times too
-and now you prove the point
-you looked at me one in one became
-[Music]
-because you took my hand
-[Music]
-you
+[00:00] i always knew you were bad at times too
+[00:04] and now you prove the point
+[00:07] you looked at me one in one became
+[00:17] [Music]
+[00:24] because you took my hand
+[00:30] [Music]
+[00:45] you

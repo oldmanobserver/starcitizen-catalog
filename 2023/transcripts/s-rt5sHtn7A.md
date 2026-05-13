@@ -6,28 +6,28 @@
 
 ## Transcript
 
-Star Citizen
+[00:00] Star Citizen
 Fully Loaded Alpha 3.20
-♪ [upbeat bass music] ♪
-King of Cargo:
+[00:06] ♪ [upbeat bass music] ♪
+[00:12] King of Cargo:
 Misc Hull C
-[hydraulics hissing]
-Arena Commander Revamp
-Multiplayer
+[00:15] [hydraulics hissing]
+[00:27] Arena Commander Revamp
+[00:33] Multiplayer
 Race Tracks
-New PVP Arena Battles
-[explosions]
-♪ [tranquil vintage music] ♪
-Expand Your Cargo Empire
-Seamlessly Across Worlds
-[explosions and gunfire]
-Explosive FPS Game Modes
-Mission: Salvage Cover Up
-PVP Dogfighting Skirmishes
-[lasers firing]
-Join Multiplayer Battles
-♪ [tranquil vintage music] ♪
-Star Citizen
+[00:38] New PVP Arena Battles
+[00:39] [explosions]
+[00:48] ♪ [tranquil vintage music] ♪
+[00:53] Expand Your Cargo Empire
+[01:00] Seamlessly Across Worlds
+[01:05] [explosions and gunfire]
+[01:11] Explosive FPS Game Modes
+[01:13] Mission: Salvage Cover Up
+[01:16] PVP Dogfighting Skirmishes
+[01:18] [lasers firing]
+[01:23] Join Multiplayer Battles
+[01:33] ♪ [tranquil vintage music] ♪
+[01:50] Star Citizen
 Fully Loaded Alpha 3.20
-Playable Now
+[01:53] Playable Now
 Play.SC/FullyLoaded

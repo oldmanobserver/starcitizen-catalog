@@ -6,5 +6,5 @@
 
 ## Transcript
 
-A captain proves their worth not by setting their sails, 
+[00:00] A captain proves their worth not by setting their sails, 
 but by steering through storms.

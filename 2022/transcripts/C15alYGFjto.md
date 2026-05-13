@@ -6,8 +6,8 @@
 
 ## Transcript
 
-here's the situation nine tails attacks
-these commercial platforms gather any
-gear you need and help us take them back
-[Music]
-you
+[00:15] here's the situation nine tails attacks
+[00:17] these commercial platforms gather any
+[00:19] gear you need and help us take them back
+[00:40] [Music]
+[00:50] you

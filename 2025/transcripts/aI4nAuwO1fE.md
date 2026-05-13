@@ -6,8 +6,8 @@
 
 ## Transcript
 
--You know I love you, right?
--Hm
-I know that you love this.
-[Swing jazz love song begins]
-IN IT TOGETHER
+[00:03] -You know I love you, right?
+[00:14] -Hm
+[00:15] I know that you love this.
+[00:18] [Swing jazz love song begins]
+[00:58] IN IT TOGETHER
