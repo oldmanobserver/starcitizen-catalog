@@ -6,1640 +6,1640 @@
 
 ## Transcript
 
-hi everybody welcome to another edition
-of star citizen live this time we're
-calling it building a vehicle experience
-I'm your host Jared had to be in weird
-we are here with two members of our
-newly established vehicle experience
-team mr. John crew and David Colson how
-you doing guys
-very good thanks good luck yeah you are
-back you're new here in LA yeah now you
-know folks who will follow the project
-for some time know that the beginning of
-every year is cemented with a number of
-planning weeks planning sessions so
-various teams come together they have
-their big 2020 planning session talk
-about talk about what we learned last
-year you know that well you know what
-lessons we can bring forward when we did
-right what we did wrong that's part of
-what we'll discuss here today and then
-of course we will get to answering
-questions from you guys that you backers
-and the viewers who are watching
-throughout the program if you want to
-submit questions to either John or David
-you can submit your questions by typing
-them into either the live twitch chat or
-our spectrum chat up on Robert space
-industries comm
-just please private your question with
-the word question in capital letters
-surrounded by brackets that's going to
-help our team pull it out from all the
-other conversations so right off the bat
-I want to talk about last year yeah for
-we get into the questions 2019 was a
-pretty big year for star citizen a lot
-of content a lot of new stuff come out a
-lot of changes to the flight experience
-no no this show is about vehicle
-experience but we'll start with the
-flight stuff here talk to me about your
-year here I was I was last year for the
-flights last year it was crazy I mean we
-launched a completely new flat model
-completely revamp flat model and that
-was a long time in the make that was yes
-that was a start in 2018 so we launched
-that and that was a huge learning
-experience especially because it kind of
-brought and renewed interests among the
-community to sort of chat about the
-flight experience and we learned a lot
-about the combat and flight in that
-whole process and then we also kind of
-went forward in the year with more
-improvements like we tried Harvard mode
-which ended up not being exactly what we
-wanted that you know
-we learned a lot in doing that and so
-the the subsequent changes that we've
-started to implement like proximity
-assist is like on the back of that
-learning riff that we've done with the
-community and so we think we're getting
-like better and better as time goes by
-and so hopefully in 2020 we can take all
-of that learning experience that we got
-last year from the community and you
-know make it even better thank you I've
-been - Jen yeah from a overall size 2019
-we sort of reorganized a lot of the
-vehicle vehicle teams we introduced
-pillar talk last year where we briefly
-talked about what the pillars are so the
-vehicle teams got their own pillar and
-it's essentially five teams within that
-vehicle pillar now and there's two Fitch
-vehicle feature teams there's two
-vehicle content teams and there's the
-new vehicle experience team and by
-putting them all together under one
-director myself and working with the
-other directors has enabled us to do a
-lot better planning in terms of this
-team's going to be working on this they
-gonna need some support from this team
-it ties into the content at this point
-and I at the start of the year it was it
-wasn't quite there but as we got towards
-the end of the year and into this year
-we're starting to try and deliver on
-ships with features coming with them
-maybe it's not the full feature but it's
-just a taste of it but it allows that
-ship to sort of work with that and then
-content wise we sort of delivered ships
-of all sizes last year which is a huge
-learning experience that we had the
-Archimedes which is one of the smallest
-if not the small ship in gain and then
-with the eight night jump which is 200
-odd meters bigger than the Archimedes so
-we'd learn a lot about those two
-different very different styles of
-making ships the defender as well was a
-big challenge last year in terms of
-learning alien styles which the first
-ship of an entirely new leadership of a
-new race or new manufacturer is always a
-tricky one and we learned a lot planning
-wise on how to accommodate that that's
-gone into the Prowler
-and then we'll go into the merchant as
-well let's go let's go back to what you
-said about hover mode dad yeah it might
-be a sword it might might be source but
-I don't know how you feel about it skin
-pocket
-I tend I tend to look at it we were
-talking about this a little bit before
-we started the show I tend to look at it
-as a huge win for the Union because
-while well the work on hover mode isn't
-in the game right now what what
-accomplished was it proved the entire
-concept of the shared development
-experience with star citizen we were
-able to develop a thing put it out into
-testing in an alpha state and not in the
-finished game State today you get the
-feedback finally find that find out what
-we didn't know you know images which is
-always a part of game development and
-then iterate and improve on that from
-there a changed course weren't necessary
-can take the parts that did work that we
-did like and move them forward with
-something like proximity assist I think
-it was a I think overall it was a
-tremendous victory an example of what
-works about the star Susan processes
-part of all of game development is like
-learning what the game is as your as
-your kind of getting closer and closer
-to the vision that you have in your head
-you end up making these decisions that
-are like hover mode when you do it and
-you realize oh that's actually taught me
-something about what this game is and
-maybe this isn't the right thing but it
-still means that you you've progressed
-closer to that goal right and on any
-other game no one would ever see these
-trials and relationships but in a way
-they had blocked in a box nobody talks
-about ever again and you only see the
-end result but because we're so open we
-you see all the horrible bits the bits
-that change the best that perhaps don't
-go the way people think they should go
-it's really like it's a rewarding
-experience because you get to see those
-things and we learn things as well and
-one of my favorite sayings is this is
-game development like game construction
-you know in a construction you have all
-the blueprints laid out you have all the
-engineering and it's all there and then
-it's basically a bunch of people not to
-dismiss construction or working
-instruction for years but they're
-basically following a plan every step of
-the way you
-from beginning to end everything is
-known and everything is done development
-is not construction development is
-discovering that which you want to do
-through trial and error through a
-process of elimination but yeah so it's
-really fun in this project as well that
-you know in previous projects when you
-go through that process you can end up
-in an echo chamber of you know thinking
-about things but in this project when
-you do stuff like color mode you have
-the community to like gauge how this
-feature works and what's wrong with it
-and so you don't end up with this like
-tunnel vision of you know looking at
-this feature and forgetting about every
-else and then before we get to the
-questions that follow up on something
-you said vehicle content teams and
-vehicle feature teams
-I just times store 10 cent version
-what's the difference between a feature
-team and a Content feature team is
-primarily programmers with design
-support and then we sort of dip into the
-other downstream teams like maybe we
-will be doing a feature like hover mode
-so Dave would be doing programmer I
-would have the design team retuning the
-ships we need tech art to help make the
-thrusters behave visually how we want
-content teams is primarily just to ship
-our team and design and then those same
-downstream teams making it so they're
-making the actual ships the feature
-teams are making the features that make
-the ships ships and then of course kind
-of outside the periphery you have the
-gameplay system designers who do doing
-things like mining yeah or salvaging
-their that are designed independently of
-the ships yes it's so the vehicle teams
-use those features that the other
-gameplay teams do so we have other teams
-like the actor team who are dealing with
-things like healing and body dragging
-and all that sort of stuff that not
-vehicle specific features but vehicles
-will use them mining yeah a good example
-of something so whilst the first
-instance of mining in started and was on
-a vehicle it was developed as a general
-system yes there was then expanded into
-handheld mining outside of the ship
-teams which is why at times we can find
-ourselves with ships that are have been
-fully developed and even released while
-the gameplay systems are
-still being developed but big sample
-would be that the reclaimer there's
-anywhere in Salvage you know so you were
-able to complete your work you know with
-the content of the vehicle future team
-building the ship and now it's it's it's
-with the gameplay teams in to develop
-salvaging all right so with that and
-then then are the newest addition we've
-had content teams we've had feature
-teams now we have an experienced team
-yeah so what's the goal of the
-experience team so it's called vehicle
-experience because it sort of covers
-everything about the vehicle experience
-it's not just limited to combat of how
-vehicles fight it's the whole living
-breathing aspect of experiencing sounds
-cliche but experiencing your ship
-because combats like a byproduct of a
-bunch of other features its byproducts
-of flying so if flying your ship doesn't
-feel good fighting in your ship doesn't
-feel good if interacting with things in
-your ship isn't good then flying your
-ship is going to be bad and then combats
-going to be bad so it's sort of a
-holistic look at all these features that
-tie together the vehicle experience and
-working on them so the first thing the
-vehicle experience team worked on was
-the new or improved camera systems which
-went out in 3/8 so we had a prototype of
-this years ago and it was like that's a
-really nice thing we've got other things
-to do at the time so it's sort of
-simulating how track i/o or other head
-look programs do when you're flying and
-you look into the turns like a racecar
-driver does and it was functionally it
-doesn't give you any benefit to on paper
-how ships behave it makes that
-experience much more realistic it makes
-it much more fun it doesn't look like
-there's just a 2d printout of a ship
-stuff on the screen it makes it feel
-like you you sort of you start feeding
-the ships are they have their characters
-to them it makes you have fun in the
-ships even though you're just flying
-around like you were in 37 as an extra
-layer to it a lot of vehicle experience
-here is about supporting feature team as
-well
-so when feature teams are working on a
-feature vehicle experienced team can
-provide guidance on how that feature
-might interact with other systems so
-that the whole experience stays
-consistent and you know along the lines
-that we want it to so with the
-housekeeping another way we are ready to
-start taking questions from the
-community as usual we put a thread up in
-spectrum earlier this week to collect
-questions from folks who maybe couldn't
-be here to watch us live it also allows
-our viewers to vote up which questions
-they wanted to see answered most the
-number one question that was appropriate
-for the show here what is the situation
-on landing aids such as radar and
-lighting so the main thing that we want
-with landing aids is the old radar like
-view of the landing pad that we had in
-like two point five I can't imagine one
-where yet they outline the the problem
-with that is that it's a really
-complicated piece of 3d UI and if you
-remember from the citizencon you I talk
-a lot of the UI tech is being revamped
-at the moment and one of the current
-focuses right now in January is 3d and
-so we're kind of working with them at
-the moment to add a lot more 3d elements
-to all of the UI HUDs FFTs etc and
-obviously one of those things is the
-landing UI so once that three DUI tech
-is developed a bit more we're going to
-come back and rebuild that learning aid
-and in that in combination with you know
-lights facing down or cameras that
-things down will help that whole
-experience the first thing we did with
-the new building blocks UI was the 2d
-because it's it's the easy side of it
-and we saw that in the citizencon
-demo where you had the elevator panels
-that were the actual buttons you
-interact with so that that would
-traditionally have been all flash which
-is great you make that one other way a
-panel you in another ship now you make
-another one
-it's duplicating all those building
-blocks it's just sort of inheriting of
-style sheets is a very simplistic way of
-doing it and then 3d is the next step so
-we do actually have some very
-primitive 3d support now but it's a
-whole different ballgame from rendering
-a cube to rendering one of our ships on
-it
-and when you mentioned lights and
-cameras I want to make sure that folks
-know those are things that we're
-exploring this is not a guarantee that
-every ship is going to have a camera
-system underneath it that's not what you
-were ten you to say just it's just we
-definitely know that there are ways to
-make landing easier yeah there's there's
-a lot of ships that they're lighting
-state is suboptimal and we want to go
-through and fix those so primarily you
-have the headlights that you can
-actually see where you're flying some of
-them are a bit too dim sum of they are
-broken those will get fixed and then
-we're going to look into having when
-you're in a landing mode you have
-landing lights that come on that show
-you like a real-life plane that show you
-a more illuminated area beneath you next
-question is how's it going with that
-whole are everything everything thanks
-jet
-so I'm gonna assume that's talking about
-physically based damage and armor that
-seems right so that is in production at
-the moment it's something that Chris is
-actually helping out on so it's gonna
-say didn't he check something in with
-there there's a switch or something you
-could turn it off yeah there's he's got
-a big fan others a local version of the
-code where at the moment we define mass
-by a value in the XML but how it's going
-to be is going to be defined off the
-actual vehicles model and materials so
-if we put from make a ship out of
-plastic material it will work out the
-volume and the mass of it from that
-based on the materials that apply so it
-will behave like a plastic ship versus
-someone like me putting 10 million tons
-in the XML so that's the groundwork for
-it so the ship will be physically
-weighted is the wrong term but there
-will be appropriately mast mast mast
-appropriately sort of designed and set
-up with all the materials so if it looks
-like metal it's going to weight like
-that if it looks like carbon fiber will
-be lighter so I have the same tensile
-stress
-just a measurement of the volume which
-is kind of what it's doing now is it's a
-volume plus the aterial it's and then so
-that ships aren't just one material so
-there's sort of various aspects so you
-might have a ship that's body is made of
-a really dense metal but it's wings are
-made of paper
-those will behave differently so when
-you shoot bits off it will not all just
-behave like oh this is 10% of the ship
-that's falling off so take 10% of the
-mass off it or go off like that all work
-out like that and then that drives into
-the next step which is penetration
-drives into Armour moving away from just
-removing hit points but sort of
-adjusting that the strength of the
-material all starts I have just you so
-you need the system where does the
-dynamic mass instead of and then you can
-start the system where are you
-physically based damaged yep it raises
-the start of the system is we need to
-work out what the ship is
-programmatically we because marking it
-all up is how we do it now and that's
-not sustainable or using sort of the
-desired end system at the moment we go
-left wing has 500 hit points right wing
-has 500 hit points left end wing has 100
-hit points we're gonna move to its the
-left wing is made of this material web
-sites where yes all right cool are you
-happy with the current flight well and
-we're not happier than we were you know
-that's for sure bits and pieces yes
-getting to where we we wanted to be but
-there's other areas that are definitely
-not so one of the things that's
-obviously a a well-known upcoming
-feature this year is the thruster
-efficiency curves no yeah that's all I
-can talk about is the thruster patients
-that's probably like the most the most
-explored feature that we're working on
-at the moment and part of that
-necessitates an aerodynamic like
-rebalance of the ships because that's
-one area that I think is suboptimal at
-the moment is the area max it's it's
-pretty cool and it's pretty good but
-especially when the thrusters are much
-weaker or not
-fear the ship behaves differently than
-it has done before because you know
-before the thrusters could overpower the
-air that acts and now they're not so
-able to do and so we're working a lot on
-both how the area tax is calculated how
-the drag is calculated and worked out on
-ships and stuff and that is that will
-hopefully improve that whole experience
-and then we're also adding jerk which is
-the next derivative after acceleration
-so that will make the ships a lot
-smoother and more dynamic feeling and
-let you know maybe not quite as rigid in
-their movements and that'll be something
-we we work on in the future and
-hopefully those two together will really
-make the ships feel a little bit more
-especially obviously the atmosphere and
-then in space they'll feel a bit more
-alive a little bit more interesting
-motion those two things are sort of what
-we're trying to get to the end goal what
-hover mode was trying to achieve in
-atmosphere but doing it a different way
-okay and the next question is literally
-about how thruster reduction in
-atmosphere didn't make it into three
-point eight and what your future plans
-are for plane
-so part of the reason why it didn't make
-it into three point eight is that it
-necessitated this aergon on exchange we
-did it and we played it and we were like
-okay the ship kind of flies a little
-wacky now in atmosphere so we need to go
-back and revisit how that aired and acts
-tough work we've also gone back and like
-expanded the feature of it so now the
-curves work like very individually on
-each thruster which makes the tuning a
-little bit more time-consuming to do
-what it means you can you know at some
-point in the future if we ever allow you
-to change the thrusters on a ship then
-you could have a different efficiency
-curve for example and that the ship
-would react to that let me give you a
-follow up here where do we want to go
-with that mysterious light like what's
-your vision of atmospheric flight in an
-ideal world whether we know how to get
-there whether we whether we've got all
-the tools now to do it or not that's not
-what the question is what do you want
-this to get to I want this to get to
-something that that feels more different
-like right now the atmospheric flight is
-space flesh but with this extra thing
-like pushing on your ship and we want it
-to get we want to get it to more like
-real plane how real planes fly but with
-differences that are caused by how
-spaceships are designed so you know for
-a lot of ships they're not very er than
-AK and so the way that they fly with
-pretty strong thrusters is still even if
-it was perfectly realistic it's still
-not how a plane would actually fly and
-we want to try and capture that so that
-if you fly other playing games that you
-have some experience with how planes fly
-you will realize that oh I can see how
-this is working but it's a whole
-different experience because of how this
-works and that's the experience
-that we want which is this like you know
-an interesting deep and an IKE model
-that is not that's something new that is
-that seems like it would be the most
-realistic outcome given the way the
-ships are designed realistic by today's
-standards but then nine hundred forty
-years advanced in the future they
-detected additional technology I say
-sirs but it's our guests yeah at what
-realistic flight might be like in nine
-hundred years that's that's really what
-it does nobody's flown a spaceship not
-using the feature in the atmosphere you
-can do with a modeling you want but and
-then of course with it I suppose with a
-way even something where you can see a
-drastic difference between flying and
-eclipse in an atmosphere and flying a
-reclaimer you know in an atmosphere
-next question can i reclaim our takeoff
-from the surface of de mar and reach
-orbit
-on its own Jared this feels like deja vu
-yes it will be able to moving on no fun
-no you know and if you don't all right
-after the release of the 300 series is
-the first customizable ships in star
-citizen what lessons did you learn and
-how
-we'll play them to the next customers
-so it was a really interesting
-experience I think for all the
-departments that are involved in it
-because it was a almost a cross company
-across every single studio that we have
-in cij and turbulent to pull it together
-deliver I don't think there's many
-features that star system has where it
-touches every single studio that has to
-pull together at night it's normally a
-couple studios and then one light
-support right but we're all working on
-at the same time so we learned a lot
-about across across studio across time
-zone communication and planning from
-that we learned a lot on the art side of
-the technical limits that we could do
-something we want to do was proper
-interior material customization and we
-didn't have the ability to do that so
-what we did was these these seats and
-beds that gave you that experience and
-we made the interior of the ships of
-respect all of those various
-combinations we tried all these
-interesting interactive props that they
-took a lot of time and I think they were
-actually one of the most popular bits of
-it what we thought was really popular
-would be the paint mm-hmm but they it
-wasn't as popular as other aspects that
-we'd done so we learned what people
-liked what the one who got a huge amount
-of feedback from the community on it in
-terms of manpower is sort of doing
-something to the extent of the 300 I
-again it's equivalent to another ship in
-the pipeline so when we choose to do
-another one you sort of have to very
-mind it it's it's that block of time
-it's not like a one-week toss knock out
-a few paint jobs and these items it is a
-lot of time and a lot of people that go
-into doing that presumably the second
-time would be faster more patient than
-the first time because the first time is
-always about all these lessons that have
-to be learned yet quite honestly the
-hard way yeah ayoung but I think most
-lessons in life if not game development
-are learning the hard way
-that's been my experience so you know
-that was that first time you know
-learning all these things the hard way
-discovering what we
-wanted to do what we could do what we
-couldn't do so it's evilly the second
-time would be more efficient you know
-it'd really be more efficient still
-though it's it's a pretty sizable yeah
-outlay it's not to say that we're not
-going to do it we absolutely are we're
-committed to we really like this idea I
-know Chris is behind it yeah it's just a
-matter of finding the right place the
-right time the right situation order
-we're definitely go plans to do more of
-it let's see let's look for the chat
-here will the new shield tech actually
-fix the holes in the ships yes it will
-the the new shield tech so previously we
-had a mesh that was every every part of
-the ship yeah has a duplicated expanded
-mesh that is what detects the shield so
-as you imagine ships have lots of parts
-it's easy for bits to not quite not a
-lot enough together so the way the new
-shield tech works is we have a thing
-called an SDF which is the same distance
-field it's a signed distance field and
-it will is a a sort of force field
-around the ship that encodes how far
-away at every point that point is from
-the ship and so using mash you could say
-say here's a bullet and then ask this
-SDF how far away you are from a surface
-on the ship and that's all calculated
-into like programmatically dynamically
-it's not a mesh and so it's much more
-reliable at figuring that ash and it's
-not going to have any holes because it's
-just programmatically generated from
-whatever the ship is chambers unless the
-ship has what was that yes yes I feel
-like we've we've heard about this sine
-distance field tech being used for
-shields for a while now but it's not
-currently in game I'm not asking you
-when I'm saying what is what's been the
-delet what what's been the delight
-what's been the struggle so sort of
-twofold there's the actual team's making
-use of these sign distance feels like
-the vehicle for each team will be
-working on making the old system old
-shield system used the new shield system
-sort of we've got bits and pieces done
-that's fine once we've done that then
-the VFX team have to essentially go and
-reauthorization
-all the ships because under memory you
-have the blue sort of splashy effect and
-you actually have hid effects come off
-it they need to because the old system
-uses something completely different
-anything else in getting they need to
-make a new shield hit effect that SDF so
-they've got to do all that but one of
-the biggest challenges is actually on
-the core engine side is this is a new
-file format that has to be baked into
-our existing assets the resource
-compiled when we're making the builds
-has to automatically do this but to do
-it
-someone needs to mark up what of the
-ship should be made so it's working out
-all these core pipelines for a tech
-artist has to go into the ship file and
-go
-the ship is these parts because if we
-just let the compiler go I'm gonna do
-everything in the ship it's going to be
-making SDS for like the buttons on the
-cockpit the joysticks it's just
-unnecessary time to do it and time to
-compile it and time to or harddrive
-space for actually building these things
-so we want to only use the exterior so
-someone has to go mark those up then we
-had to make it so the builds actually
-picked up that data generated it and
-then there's a little bit of work still
-to come there's not blocking as at the
-moment from progressing but a lot of our
-ships animate mm-hmm right so this build
-has to be just it has to be dynamically
-adjust to those things because the old
-system it was just a part attached to
-the wing so when the wing activates it
-it moved with it for free scientist ins
-feels don't do that another box and it's
-not just using signed distance fields
-for shields we only use on other things
-as well so that same sign distance field
-we'll use for atmospheric entry
-so at the moment when you come into an
-atmosphere you get the glowy stuff on
-the front of your ship if you went in
-backwards you still get the front beyond
-the friendship because it's just
-attached to your ship in that area and
-we could do one for every single area of
-the ship to account for that that's just
-a huge amount of work so sign distant
-field will allow us to play that effect
-on the appropriate face soon you're
-going best assume you go first
-last couple times I entered I wasn't
-getting in I'm like why isn't this
-working and then Mike Mikey goes you
-just aren't going fast enough oh my god
-when I sped up my region there wasn't at
-all its procedure on them or systemic
-rudder so that sounds like there's some
-prerequisite work that needs to be done
-yes the next question is actually about
-some pre workers at work that has
-already been done several of our ships
-with hatches like the freelancer
-constellation caterpillar have hatches
-built into them already
-when ship ship docking is implemented
-with these ports be compatible with each
-other or are we going to have to see a
-redesign to a standardized port so we do
-actually have to two standards for ports
-so we have the circuit ones that you see
-on a lot of ships those are two meter
-diameter so it's big enough for a player
-to just walk straight through we don't
-need to do any if the docking colors are
-on side to side you Alicia just be able
-to walk through them so any that a
-circular will be 2 meters diameter if
-they're not those ones will be changed
-there's I think there's one on the
-reclaimer that's like 1.8 or something
-like that so things like that will go
-and change and then we have the
-rectangular ones that you see the best
-example is the one on the front of the
-hammerhead in the mouth it's 4 meters by
-2 meters that's the larger capital ship
-standardized docking port so the address
-has them to javelin has them and Space
-Station support both of those for when
-we have docking in game we have these
-Lexia an airport jet bridge it goes out
-and on the end of it is a small round
-one and a large rectangular one so any
-ships were docking collars would be able
-to dock at any space station that has
-that and square peg round hole round
-once the round 1 square wants to square
-ones we don't really support a small
-ship with a round collar docking on to a
-larger square one because the larger
-square was probably gonna take half the
-ship inside it I'm trying to dot J I'm
-picturing the freelancer train it with a
-square over that circle the hatch trying
-to dock with the front of the hammerhead
-the square it's just gonna do to eat it
-half the top of the ship will be in
-there and it's not to send a future we
-might have like specialized docking
-boarding ships that do some funky to in
-one door
-those will be the exception rather than
-the rule so much of that works already
-been done this yet so ships were built
-or they were rebuilt previously do those
-metrics and turrets
-monitor access hatches they're also 2
-meter diameter so when turrets get blown
-off there's another way into your inner
-hatch yep let's see is it still allowed
-to allow players to paint their ships
-we're still alive I guess I guess it
-still planned
-yes our players still planned the the
-extent of it was still sort of going
-backwards and forwards on we actually
-had some discussions this week on it
-obviously the origin customizer we
-provided preset colors for that that is
-definitely something we're gonna do how
-far we let users customize the colors
-beyond that is still to be determined
-but what we do want to definitely do is
-letting users pick emblems or decals to
-go on their ships naming their ships
-obviously they have the serial numbers
-put on there and the emblems themselves
-will be from a pre-selected pool of
-things so let's try to think of a good
-example the Vanguard on its upper wings
-has like a 42 decal on it and it's 42 42
-and is 42 on the tail fins as well that
-would be a generic decal slot so when
-you go to a paint shopping game you go I
-won't change that from the default I
-want it to be big smiley face or star or
-something and then apply it to all of
-those things and I already see it in
-chat for those of you who remember very
-early conversations about the potential
-for uploading emblems or or eclipses
-this is not to say that that's not a
-possibility it's just that's not in the
-design that were that we're looking at
-right now but the future holds the
-future world you start with what we can
-do with what's internal with what we can
-provide you first and then we examine
-those possibilities afterwards having a
-nice pre-selected pool stops what we all
-know people will do
-yep it's not some problems this is let's
-see let's go back to the chat here
-[Music]
-altimeter altimeter
-maybe I'll turn coming going at some
-point yes coming at some point yes with
-the the HOD rework which we're still
-working on yeah okay what thought is
-being put towards the multi crew
-experience in terms of vehicle designs
-to encourage multi go play beyond just
-being glorified murder buses there's a
-few parts to this and one of them that
-were kind of focusing on more at the
-moment is the MFD screens because the
-MFD screens are obviously like a big
-part of how you interact with ships and
-so we're we're working on an MFT rework
-that will come in the future and part of
-that discussion is obviously how would
-how our MFDs gonna work with multi
-carrier and how what is that system for
-doing it so we're still kind of working
-through this but obviously we are
-exploring the options of like having
-unique MFDs for certain stations and
-ships or having like maybe some kind of
-permission system where you can allow a
-certain players and certain seats to
-control certain things about the ship
-because right now pretty much I think in
-a lot of ships when you sit down in the
-the pilot seat it takes MFD control away
-from the other seats yeah and so there
-isn't really any adequate multi crew
-gameplay there so that's the first part
-and then I think John the other part of
-multi crew is like more physical things
-that you can do in a ship with going
-back to the eloquently put murder bus we
-don't like murder but well we'll
-continue to have murder buses it's just
-we want more so yeah a lot of the multi
-crew stuff at the moment is purely
-because turrets are the best way of
-getting people in a ship and doing
-something the MOL expanded on that
-nicely so it's less lethal and we've
-seen people having huge amounts of fun
-together in a group communicating
-working together to get the best they
-can out of that ship so outside of the
-UI it's making sure the ships have sort
-of reasons to work together a big thing
-we're missing is the having the items
-inside the ships and having them be
-damageable and repairable because as
-soon as you have that in there's your
-engineer roll out the box and so that
-gives someone something to do the UI
-side helps pilots and co-pilots work
-together helps a captain control his
-crew hopefully navigators setting stuff
-or all requires the UI to work together
-because at the moment like you say when
-you send to see you grab control it's
-very binary the person that was in the
-other city doesn't know that they've
-lost control so they're trying to press
-the buttons nothing happens cuz the guy
-over here now can do that and they don't
-see they don't see what each other are
-doing so that's a big can honey look
-like a bug actually yeah I was using
-this panel two minutes ago and I come
-back to this panel they can't use it
-it's because somebody else has sent
-somebody other chair next especially if
-you're sucking somewhere away from the
-bridge like on the engineer station
-you're just happily moving power around
-it's like oh them seeing stuff happened
-and then someone just gets in the pilot
-seat they take control you're doing this
-it doesn't do anything anymore who do
-you plan to add aim assist Institute's
-aim assist they do actually have a small
-amount of like aim assist at the moment
-but it's it's not enough or sort of
-appropriate for what we're doing so we
-want to add gimble assist to turrets
-which will help sort of smooth out that
-turrets one of the tricky things to do
-because the ships are moving so quickly
-so one of the other things mythical
-experience is doing is trying to bring
-those combat ranges in at the moment
-sort of that was one of the goals with
-the new flight model was to sort of
-bring it in and we've been slowly
-working over the last year to try and do
-that
-we're aware people are fighting as close
-as we want them to which in turn makes
-turrets worse yeah because you can't see
-what you're trying to do
-see how they think gimbal assist on is
-it's not the ultimate solution it's one
-of the solutions to gain Tara's Bella
-Weaver we talked a little bit about that
-with Todd last week turrets are are in
-my three amigos joke I made last week ro
-Wabo that three three meals is a movie
-oh that you haven't you ABS yeah
-absolutely have not seen not even her
-love yeah have you not even hurt but
-turns have been a struggle for strips I
-don't think anybody I don't think that's
-a mystery to anybody we've got we've
-made a number of ruins we've made things
-better there were some improvements in
-three point eight and it's still not
-quite where we want when we talk about
-adding additional aim-assist
-because there is a little we do want to
-make sure that were that you know we're
-not taking the skill away it's like
-sources and which you know combat
-sources and should still be a skill
-based affair this is more about making
-people with let's just say my skill set
-which is on the lower end of space
-combat I don't also don't think that's a
-mystery to anybody who's played with me
-making that experience a little more
-enjoyable for me the people who don't
-focus on combat let's say that instead
-of saying that I suck I just don't focus
-on comedy especially turrets are very
-they're a very defensive thing subject
-so defensively but the majority of the
-time you're trying to stop someone from
-damaging your ship so you any help you
-have in that regards unless you're in a
-hammer and I shouldn't have a finally
-hammerhead is a very offensive turret
-the perfect murder
-Yeah right can we get a mouse wheel
-controlled speed limiter like on ships
-but for ground vehicles it would make
-speed control a lot easier with keyboard
-and mouse players that is an excellent
-idea and we're we're
-valuating ground vehicles as well at the
-moment there are another thing like
-Tourister yeah we know they're not where
-they need to be and it's something we're
-different all right but that that idea
-is really cool because yet it sort of
-unifies that controlled between space
-vehicles and on foot and ground vehicles
-so we'll add it to our pool of
-explorations yeah exactly our pool of
-explorations and ideas that will this
-touches on a really good point on the
-surface this seems like a good idea
-sitting here and hearing it I can't
-think of a reason why it would be a bad
-idea and we're not thinking about it
-music but that's why it's important to
-put these things through testing because
-it's all games but especially star
-citizen are a combination of myriad of
-game systems that are all working
-together and all interact on each other
-and standing on its own you know a you
-know on its own without any interactions
-that might work fine but with a dozen
-other systems that are at play inside a
-vehicle inside a ground vehicle it may
-cause unforeseen issues so it still
-needs to be explored it still needs to
-be tested it still needs to be vetted
-before we can sit here and say yeah
-we'll do it which is what we're not
-saying yeah we'll ground vehicles
-require to be refueled or recharged
-that's another thing to add to the idea
-of pod I think right now they have power
-plans they do have power plants which
-are currently sort of an infinite supply
-nuclear power plant which perfect ground
-vehicle just driving around your nuclear
-power plant in the back I think part of
-the issue right now is that places to
-refuel your ground vehicle or not like
-they're few and far between mm-hmm I can
-see in the future them having some cost
-so you can't just run them you to share
-perpetuity and it's probably not gonna
-be as harsh as the vehicles are because
-it's it's a lot easier to get say a star
-fairer to a stranded spaceship and give
-it some fuel than it is to hear some
-jerry cans and
-go trek across the deserts to reach
-every turneth let's see from the chat
-here
-have you considered climbing points for
-ships for parts of a ship where it would
-make sense ie the colors black side
-doors or bottom of the ladders so you
-can still get into a ship when things go
-awry so that's actually something I have
-to do once I get out of it is I'm gonna
-go over to tech arts desk because
-they've actually gone and done this on a
-few of the ships there are problems with
-that the current sort of ledge crab
-system we have doesn't do a check for
-what's at the end of the ledge so you
-can go let's say you've got the covers
-side doors that are open we've got a
-Ledge grab on there you go run up to
-your ship you delay to grab in great
-someone shuts the doors it's still going
-to try and make you do that no but you
-may it's probably gonna be a coin flip
-of do you just go straight through the
-doors or do you hit the doors and fall
-back out again so yeah it's something we
-want to do but we want to do it in a way
-that it's a bit smarter about it so if
-the doors are closed and you try and
-let's grab up don't just fall off rather
-than go through the whole state it's
-recording out as well that kind of an
-engineering decision that has meant that
-that check doesn't happen it's usually
-because of the trade-off like you know
-in a lot of situations in environments a
-check like that is not necessary and
-putting one in would be like a cost to
-performance that maybe is not worth it
-but in the particular case of a ship
-then maybe that cost is worth it or
-maybe there's another solution that you
-know isn't as expensive and there's the
-other aspect of that is like the doors
-not opening all the way down to the
-planet is another case of making rather
-than just be a canned animation is
-systemic or proceeded Lee open them to
-the point they hit the floor and then
-back off a tiny little bit so they lift
-the ship up so we tend to be safe on the
-amount we can do which as people will
-have seen when you start landing a
-really funny angles you've got one leg
-off the ground
-puts the ramps into this position so the
-two are sort of tied together they
-there's things we can do but that often
-they cause more problems and they solve
-and we need to be smarter about how we
-check
-it's literally the next question more
-often than not lamps and elevators never
-touch the ground leaving the players
-unable to climb back up into their ships
-or learn the vehicles yeah what are we
-doing basically just aim against me so I
-want to make sure your question got read
-will grab live bikes like the Dragonfly
-and NOx ever be able to travel at their
-former max ground speeds in the thick
-atmosphere like damar hurst and
-Microtech etc maybe yes however part of
-the reason why the speeds are lower now
-is because when we you know reevaluated
-the crowd live with the new flat model
-we decided that we wanted it to be sort
-of closer to the ground and a little bit
-more exciting like you know the old
-gravel of you ended up kind of riding
-over the rocks and videos more like
-flying love yeah being on a like a
-speeders we wanted it to be like done
-close to the ground
-you know stuff flying past beautiful
-speed but the problem with that is that
-there's a lot of obstacles say the word
-rocks there's a lot of rocks there's a
-lot of rock so in some situations is
-trees Jerry that's fair that's right but
-anyways yeah there's a lot of obstacles
-and so traveling super high speeds makes
-the gameplay just really annoying I just
-constantly hit things and you never get
-to those speeds anyway because you're
-hitting stuff yeah so that's why the
-speeds are lower but if for example we
-find a solution to making that less
-painful then yes we could potentially
-increase the speeds or maybe I don't
-know maybe there's some places on
-planets where there's not as many rocks
-and then we can let the speeds go higher
-it's all about trade-offs like we
-mentioned before there's we didn't just
-take it away because we want to there's
-there's reasons for doing that though
-they know the version 80 and there was
-similar to have car how cars have
-different you know drive modes you know
-you know like I'm going uphill or or
-when our if you're in a manual
-transmission dealing with like an
-off-road mode like an off-road mode
-off-road and when you're on the plains
-of a desert or whatever it's just sand
-or whatever it's okay let's open it up
-and mmm still rocks yeah would you like
-our rocks will we see the return of
-boost in wheeled ground vehicles I see
-we're discussing this yesterday and I
-think it's still there on some vehicles
-so it's gonna be a case of I don't think
-it went away intentionally it just may
-have broken on some vehicles suddenly
-cyclone a/c still has claims that come
-out with its exhausts don't ask how that
-works with a nuclear power plant but
-they do and it does go faster when you
-boost so it wasn't an antenna it wasn't
-an intentional thing and when I saw that
-question in the threads I went and
-checked as I still here so if it's
-broken in 3/8 then it's probably going
-to be fixed in 3 9 definitely I still
-like he running for ya ok let's go back
-to the chat here to will the so folks
-have seen the the patch notes for our
-like the cars ran on the PTU it says
-will the Cutlass Redman Bates but med
-beds work similarly to how the 890 jump
-med beds are in the PTU on its upcoming
-release some extra features more than
-eight nineties as well ok that's it safe
-those be kind of ok we got a thing
-there's a lot of messaging that's gonna
-come out in the next few days that
-explains everything
-you learn more about the colors red
-short order
-how is drag calculated for each ship
-currently they have weird values with
-some bricks being very aerodynamic while
-sleek ships and under are super slow we
-talked about that the question that just
-sets up how do we plan to improve this
-system I know we were talking about a
-box'll thing that's what I was I have a
-really good answer to this this is
-interesting to me I'm so currently what
-we do is we we box the lies the you
-said it was a really good answer
-you got to have more than that it's okay
-so we just don't usually have something
-it's like oh I've got a really good
-answer that really why would you set
-yourself up I think that we will judge
-the quality of this answer go ahead so
-we take the shape of the ship right we
-break it up into little cubes okay and
-then in each of the dominant directions
-will calculate the area of those Q's
-right okay so we get an idea for the
-surface area in different air flow
-directions and then we'll use that
-surface area to control how strong the
-drag is so for example if you're flying
-Gladius like this service area is like
-this little tiny section here it's like
-this the drag is significantly more cuz
-it's this huge section right that's what
-it does now but there's another bit
-that's complicating this which is that
-on a lot of ships the main thrusters are
-super super powerful and they can
-overpower the drag a lot of the time and
-so this is kind of what we wanted to do
-with that thrust efficiency curve thing
-is we've because we've reduced the
-strength of the thrusters the top speeds
-of the ships are now significantly lower
-because the drag was so high previously
-so now we can decrease the drag and make
-it more in line with what it should be
-because the thrusters are so much weaker
-and then it behaves a lot more correctly
-but there's an extra thing that we're
-exploring and we're just kind of in the
-early ideas of seeing if this would even
-work which is using the SDF tech that
-we're using on the shields to work out
-the shape of the ship so that
-instead of just having like a surface
-area in front of the ship we can use the
-SDF to figure out the actual shape so
-for example a wedge shape like this
-would behave differently to a shape
-that's like a flat wall like this and
-the SDF would give us that information
-and depending on how that exploration
-goes that could result in the shape of
-the ship mattering a lot more than it
-does now because you could have two
-surface areas that are the same but they
-have a different shape until they --have
-differently and that will make a huge
-difference
-assuming it works solid seven out of ten
-seven all right all right I'll give it
-to you I'll give it to you one off
-what's going on with them if these
-multiple ships have them bugging out
-losing the ability interact with them we
-touched on that yeah that's pretty much
-a similar answer so there are issues
-with MFDs that are not what we mentioned
-before which is that you know the the
-permission system is pretty simple so
-when someone sits in a seat you lose
-control of the aft that's one issue
-that's a huge issue comes up a lot but
-there are other issues you some
-usability is the big role in the hit
-because really you're forced into using
-a mouse and keyboard on them and we want
-a lever device you're using to use them
-and to use them quickly because there's
-nothing worse than trying to use a
-really finicky small interface in the
-heat of battle you know to do something
-and you go to drop your joystick get my
-mouse out so we want to be a lot more
-intuitive but still provide that same
-depth of information
-thank Jared we'll come back for the rest
-he live to talk about them after use at
-some point yes sir
-we got a lot a lot of stuff that we're
-exploring with that right now that's
-really exciting that you know there's
-there's loads of stuff we can do like I
-don't know saving the state of your MFDs
-and maybe customizing them navigating
-with a joystick all sorts it's about as
-low
-stuff that's really cool there's really
-loads of neat things that don't actually
-have anything to the functionality but
-help the experience of the ship as well
-and there at the moment when you get out
-the sieve so the frame you hit exit your
-screens go off yeah we'll be able to
-keep them on so which that means you
-they stay because when you go I was here
-so it looks like your ship turns off
-because where your screens go off right
-but keep them on other people who have
-to see what you're doing on your screens
-rather than just looking at someone
-mindlessly moving a blank screen around
-I will admit to being very confused the
-first time I got out of that I thought
-it about Auto powered off yeah and I was
-wrong can we get more organic let it
-over heat into the system slowly starts
-breaking instead of the current hold two
-seconds and then get an overheat timeout
-so yeah we chatted about this some time
-ago so right now the thruster is like
-having a safety feature where they'll
-turn off when you start to get
-uncomfortably hot in the same way that
-like up the CPU turns off and when it
-gets too hot but we had discussed the
-idea that you could optionally just not
-have that safety feature and push the
-thrusters to be hot and they'll be
-damaged they'll be worn they'll take
-physical damage and maybe they'll start
-to fail and misfire but you know you
-wanted that you get it yeah the sort of
-byproducts are they're quite short
-amounts that we have at the moment is
-you don't really notice the granularity
-of that I often if you trying to after
-burn out of atmosphere just go straight
-through the the warnings of thruster
-overheating straight into overheated
-start falling back you're still holding
-after burden you get caught in that it
-cools down enough to let you after burn
-again then you go straight back into the
-overeating so on top of all that stuff
-that Dave mentioned we're always looking
-at the tunings of these things maybe
-they're a bit too aggressive on some
-ships and we're always gonna sort of
-look and tweak them they're not all just
-two seconds maybe they need to be a
-little bit more in some ships it's very
-Kim they add some soft music to the
-background of these streamers
-that's from Molly hi Molly my we've
-actually we actually occasionally do
-music on the back under these rooms we
-usually do them under the ones where
-we're doing the creative stuff we're
-sitting in somebody's desk it's always
-kind of a crapshoot because depending on
-what what people are wearing when
-they're willing to it whether they're is
-it the mix is always hard to know we're
-not always the best with our audio mix I
-don't think that's a mystery either so
-sometimes it's just simpler to make sure
-that the words can be heard than trying
-to do music cuz we well we tried every
-once in a while we which we do to try to
-sleep squeeze some music under there
-also from the chat are the mass drivers
-intended to be that strong like they are
-now so mass drivers and Neutron cannons
-had a bit of a bug that I thought we'd
-actually fixed in three eighths in that
-they were doing more damage than they
-should have been certainly
-neutrons were doing that we see in the
-analytics when a weapon is broken
-because within a day or so everyone's
-going out and buying it and using it so
-they were definitely skipping the damage
-date incorrectly or double doubling up
-on damage and no then they're not
-supposed to be as effective as they are
-but they won't be if they're still bugs
-they won't be bugged in the next full
-release return I hear about the neutron
-reviews I think if they knew trying to
-send a greater from Howard the Duck
-which is another movie not seeing it I
-know you haven't seen it of course there
-has not seen most movies what types of
-things do you study to learn how to do
-additional flight improvements we study
-a lot of physics if I don't know how to
-say that in like a really exciting cool
-way and we we do a lot of research and
-we have a lot of contacts and that are
-real pilots and we sort of ask them a
-lot of questions and learn about their
-experiences and the sort of things that
-you maybe might not get
-like a textbook for physics or even like
-a manual for a plane and that stuff is
-kind of all brought together along with
-a bunch of other research to sort of get
-a picture both of the technical details
-and the like the experience of using the
-plane or jet fighter or something that
-we also use that information there's a
-lot of hands-on don't we go around fly
-spaceships
-let's go sounds like work but there's
-obviously a lot of games they do things
-differently so we're always looking at
-how other things do it and sometimes
-there's nice bits in there that that
-work nicely but I wouldn't work with
-star sets and so what about if we did
-things like this on top of all the
-research on top of all the simulation at
-the end of the day it's gonna be fun to
-play if it's not fun to play then
-nobody's going to play it it doesn't
-matter how realistic it is flat tires
-will that be a repair thing nickels you
-want five players is that what you're
-asking you want that as long as it's not
-like really annoying like imagine
-driving over de Mars getting a flat tire
-every 10 minutes all those rocks give me
-funny I say yeah there's nothing you
-could be really annoying and but
-assuming it's not and we could explore
-some yeah wheels wheels have damaged
-states at the moment they just sort of
-crumpled but part of the issue is
-because the physics is like this super
-systemic like moving tired physics
-Collider if you damage that Collider the
-physics can break down really quickly
-yeah and so we tend to keep them in a
-pretty good state a lot of the time to
-keep the simulation stable because if we
-don't do that it kind of can get out of
-control and maybe you just lose like one
-tire and it just becomes a nightmare
-it's just you know we had that a lot had
-the the tires on
-I think the cyclone you know came off if
-someone breezed on them and that just
-completely immobilized the cyclone you'd
-be driving along and a completely flat
-surface with no rocks and just a wheel
-would fall off gives you here like a one
-inch dip in the ground so we sort of not
-disabled it but made it become
-increasingly unlikely
-because just completely ruin the
-experience and you've got no way to get
-the vehicle back to repair it so yeah
-it's just like that okay so we are
-wrapping up here just a couple more
-questions will we ever be able to just
-burst out a multi-tool and actually
-physically repair our ships yeah that's
-that's that's always been the plan
-combination of multi-tool having a sort
-of a repair thing and physically going
-and getting sub items or entire
-replacement items in there just to sort
-of top-up the gaps
-it's a combination of all those things
-so maybe maybe it's not a motor so maybe
-there'll be a specific repair tool but
-there's that there's the swapping items
-sub item swapping the whole items what
-is the most effective way of giving
-feedback to the new vehicle experienced
-team so posting on spectrum and telling
-us about your your problems and your
-experiences is absolutely the most
-useful and very often I think people
-like to be helpful and so they tell us
-they give us suggestions about things
-that you know would make the game better
-they suggest solutions yes but without
-the problem we have to be able to
-implement a solution like that we need
-to understand the problem that you have
-and so if you help us in understanding
-the problem we can implement that
-solution and understand that solution
-much more effectively
-so yeah just post post on the forums and
-tell us about your experiences and the
-issues that you have and why maybe you
-think you're having those issues and you
-know help us empathize with your
-experience and then it'll be much easier
-for us plate relations also do surveys
-and sort of feedback reports with every
-patch cycle that goes to all the
-relevant people so we we see like the
-most common things that are happening
-and then it's working out the solutions
-from that so that those reports sort of
-aggregate all the problems okay so we
-get to see them but this is problems for
-everything so yeah talking in the forum
-spectrum
-you can collect it and for those
-experience reports those are run by a
-bear if I'm not mistaken so check those
-out I believe there's a special section
-on the suspension spectrum for those a
-special section on spectrum wow there's
-a lot I did it there's a special section
-on spectrum for those and of course when
-you're talking about showing the
-problems suggestion solutions always
-helpful always continue to that it's
-just being as details you can about the
-problems is generally more helpful
-because with a bunch of interrelated
-systems very often because of something
-you even if it seems obvious may not be
-the actual cause of that thing and so
-that can tend to lead us down the wrong
-path some of the best feedback i've ever
-seen is like here's this thing that is
-you know going wrong in gameplay here's
-five things that I think might fix that
-it looks like yes but just in case you
-weren't that creative something still
-explaining your problem being as
-detailed about it as you can
-being as dispassionate this is one of
-those situations where try to remove a
-motion out of it it just it just it just
-helps we do have a very passionate and
-dedicated fan base and that's tremendous
-and you want to keep that it's just in
-presenting feedback reports it's more
-clinical you can be about it tends to be
-the better finally last question what's
-your biggest lesson learned about
-vehicles from 2019 that you would take
-with you going forward it's the biggest
-one awesome it's hard question saved it
-for last I think for me the biggest
-lesson is in how to listen to the
-community about feedback this I feel
-like I've got off the back of the last
-question but it honestly is the most the
-most significant one learning how to
-interact with the community learning how
-to learning what is important to them is
-a skill that I got much better at in
-2019
-I think for me it's the the content side
-is something that we've already put into
-motion is working on ships with fewer
-people so we work on more ships but they
-run longer because in the past we've
-been guilty of putting a ton of people
-on a ship to just try and get it done
-and you're all working on top of each
-other trying to cram stuff in doctor's
-delivery yeah you get a you get the ship
-technically quicker but it's a
-significantly greater human cost on that
-size so it's taking a step back
-rather than having 10 people work on two
-ships it's having 10 people work on five
-ships so you work on it for a year
-instead of six months for a ship and
-that allows you to take it slower put
-more time and effort in if something
-goes wrong you've got longer to correct
-it rather than if someone was ill for a
-week that's a huge amount of time in a
-three-month schedule versus over a year
-it's something that is easily accounted
-for so people will see that in the the
-ship schedule over 20 20 is more ships
-less often so there'll be more in more
-in development at any one time that they
-they won't all be coming out like three
-or four in a patch there'll be spread
-out more what ships are coming out in
-2020 tell me hold them Carrick as usual
-keep your eye on the public road map for
-all the information about the ship
-related releases throughout the rest of
-the year
-John Dave thank you so much for flying
-all the way to California just to be
-here on this show I had no other
-responsibilities for those of you out in
-star citizen land they're packed south
-is this weekend we have a number of CIT
-developers from our austin studio that
-will be in attendance around town
-mingling so if you are in the San
-Antonio area and you see somebody in
-these incredibly stylish hoods hoodies
-that we didn't we didn't know much we
-didn't plan this be sure you stopped you
-stop him say hi say Jared sent you and
-I mean I should bother you and then just
-follow them around for five six hours
-they will really appreciate that there
-is also a bar status an event on
-Saturday night you can find out all the
-details at bar citizen SC assuming they
-haven't changed the URL since the last
-time I looked I really think it's been a
-while so check that out bar citizen
-tomorrow night it's at the Riverwalk
-beer garden it's there every year it's
-always the big the big event there every
-year so be sure to check that out we
-already said our goodbyes so for that
-I'm Jared Huckaby this has been star
-citizen live we'll see you next week
-everybody take
-thanks for watching for the latest and
-greatest in star citizen squadron 42 you
-can subscribe to our Channel or you can
-check out some of the other shows and
-you can also head to our website at
+[00:02] hi everybody welcome to another edition
+[00:04] of star citizen live this time we're
+[00:07] calling it building a vehicle experience
+[00:09] I'm your host Jared had to be in weird
+[00:11] we are here with two members of our
+[00:13] newly established vehicle experience
+[00:15] team mr. John crew and David Colson how
+[00:18] you doing guys
+[00:19] very good thanks good luck yeah you are
+[00:21] back you're new here in LA yeah now you
+[00:23] know folks who will follow the project
+[00:25] for some time know that the beginning of
+[00:27] every year is cemented with a number of
+[00:30] planning weeks planning sessions so
+[00:31] various teams come together they have
+[00:33] their big 2020 planning session talk
+[00:35] about talk about what we learned last
+[00:38] year you know that well you know what
+[00:40] lessons we can bring forward when we did
+[00:42] right what we did wrong that's part of
+[00:44] what we'll discuss here today and then
+[00:46] of course we will get to answering
+[00:48] questions from you guys that you backers
+[00:50] and the viewers who are watching
+[00:51] throughout the program if you want to
+[00:53] submit questions to either John or David
+[00:55] you can submit your questions by typing
+[00:57] them into either the live twitch chat or
+[00:59] our spectrum chat up on Robert space
+[01:01] industries comm
+[01:02] just please private your question with
+[01:04] the word question in capital letters
+[01:06] surrounded by brackets that's going to
+[01:08] help our team pull it out from all the
+[01:09] other conversations so right off the bat
+[01:12] I want to talk about last year yeah for
+[01:15] we get into the questions 2019 was a
+[01:17] pretty big year for star citizen a lot
+[01:19] of content a lot of new stuff come out a
+[01:21] lot of changes to the flight experience
+[01:24] no no this show is about vehicle
+[01:26] experience but we'll start with the
+[01:28] flight stuff here talk to me about your
+[01:30] year here I was I was last year for the
+[01:32] flights last year it was crazy I mean we
+[01:36] launched a completely new flat model
+[01:37] completely revamp flat model and that
+[01:42] was a long time in the make that was yes
+[01:43] that was a start in 2018 so we launched
+[01:47] that and that was a huge learning
+[01:48] experience especially because it kind of
+[01:51] brought and renewed interests among the
+[01:55] community to sort of chat about the
+[01:57] flight experience and we learned a lot
+[01:58] about the combat and flight in that
+[02:00] whole process and then we also kind of
+[02:03] went forward in the year with more
+[02:05] improvements like we tried Harvard mode
+[02:07] which ended up not being exactly what we
+[02:10] wanted that you know
+[02:10] we learned a lot in doing that and so
+[02:13] the the subsequent changes that we've
+[02:14] started to implement like proximity
+[02:16] assist is like on the back of that
+[02:18] learning riff that we've done with the
+[02:19] community and so we think we're getting
+[02:22] like better and better as time goes by
+[02:24] and so hopefully in 2020 we can take all
+[02:28] of that learning experience that we got
+[02:30] last year from the community and you
+[02:33] know make it even better thank you I've
+[02:36] been - Jen yeah from a overall size 2019
+[02:40] we sort of reorganized a lot of the
+[02:43] vehicle vehicle teams we introduced
+[02:46] pillar talk last year where we briefly
+[02:49] talked about what the pillars are so the
+[02:51] vehicle teams got their own pillar and
+[02:55] it's essentially five teams within that
+[02:58] vehicle pillar now and there's two Fitch
+[03:01] vehicle feature teams there's two
+[03:03] vehicle content teams and there's the
+[03:04] new vehicle experience team and by
+[03:07] putting them all together under one
+[03:08] director myself and working with the
+[03:10] other directors has enabled us to do a
+[03:13] lot better planning in terms of this
+[03:15] team's going to be working on this they
+[03:17] gonna need some support from this team
+[03:18] it ties into the content at this point
+[03:21] and I at the start of the year it was it
+[03:24] wasn't quite there but as we got towards
+[03:26] the end of the year and into this year
+[03:28] we're starting to try and deliver on
+[03:31] ships with features coming with them
+[03:34] maybe it's not the full feature but it's
+[03:35] just a taste of it but it allows that
+[03:37] ship to sort of work with that and then
+[03:40] content wise we sort of delivered ships
+[03:44] of all sizes last year which is a huge
+[03:46] learning experience that we had the
+[03:48] Archimedes which is one of the smallest
+[03:49] if not the small ship in gain and then
+[03:52] with the eight night jump which is 200
+[03:53] odd meters bigger than the Archimedes so
+[03:57] we'd learn a lot about those two
+[04:00] different very different styles of
+[04:01] making ships the defender as well was a
+[04:04] big challenge last year in terms of
+[04:06] learning alien styles which the first
+[04:10] ship of an entirely new leadership of a
+[04:11] new race or new manufacturer is always a
+[04:13] tricky one and we learned a lot planning
+[04:16] wise on how to accommodate that that's
+[04:18] gone into the Prowler
+[04:19] and then we'll go into the merchant as
+[04:21] well let's go let's go back to what you
+[04:25] said about hover mode dad yeah it might
+[04:29] be a sword it might might be source but
+[04:30] I don't know how you feel about it skin
+[04:32] pocket
+[04:32] I tend I tend to look at it we were
+[04:34] talking about this a little bit before
+[04:35] we started the show I tend to look at it
+[04:37] as a huge win for the Union because
+[04:39] while well the work on hover mode isn't
+[04:42] in the game right now what what
+[04:44] accomplished was it proved the entire
+[04:46] concept of the shared development
+[04:48] experience with star citizen we were
+[04:50] able to develop a thing put it out into
+[04:52] testing in an alpha state and not in the
+[04:55] finished game State today you get the
+[04:58] feedback finally find that find out what
+[05:00] we didn't know you know images which is
+[05:02] always a part of game development and
+[05:04] then iterate and improve on that from
+[05:06] there a changed course weren't necessary
+[05:09] can take the parts that did work that we
+[05:12] did like and move them forward with
+[05:13] something like proximity assist I think
+[05:15] it was a I think overall it was a
+[05:17] tremendous victory an example of what
+[05:20] works about the star Susan processes
+[05:22] part of all of game development is like
+[05:24] learning what the game is as your as
+[05:27] your kind of getting closer and closer
+[05:29] to the vision that you have in your head
+[05:31] you end up making these decisions that
+[05:33] are like hover mode when you do it and
+[05:36] you realize oh that's actually taught me
+[05:38] something about what this game is and
+[05:41] maybe this isn't the right thing but it
+[05:43] still means that you you've progressed
+[05:45] closer to that goal right and on any
+[05:48] other game no one would ever see these
+[05:50] trials and relationships but in a way
+[05:53] they had blocked in a box nobody talks
+[05:55] about ever again and you only see the
+[05:57] end result but because we're so open we
+[06:01] you see all the horrible bits the bits
+[06:03] that change the best that perhaps don't
+[06:06] go the way people think they should go
+[06:08] it's really like it's a rewarding
+[06:11] experience because you get to see those
+[06:12] things and we learn things as well and
+[06:15] one of my favorite sayings is this is
+[06:18] game development like game construction
+[06:20] you know in a construction you have all
+[06:21] the blueprints laid out you have all the
+[06:23] engineering and it's all there and then
+[06:25] it's basically a bunch of people not to
+[06:26] dismiss construction or working
+[06:28] instruction for years but they're
+[06:29] basically following a plan every step of
+[06:32] the way you
+[06:32] from beginning to end everything is
+[06:33] known and everything is done development
+[06:36] is not construction development is
+[06:38] discovering that which you want to do
+[06:40] through trial and error through a
+[06:41] process of elimination but yeah so it's
+[06:44] really fun in this project as well that
+[06:46] you know in previous projects when you
+[06:48] go through that process you can end up
+[06:49] in an echo chamber of you know thinking
+[06:52] about things but in this project when
+[06:54] you do stuff like color mode you have
+[06:56] the community to like gauge how this
+[06:59] feature works and what's wrong with it
+[07:01] and so you don't end up with this like
+[07:04] tunnel vision of you know looking at
+[07:06] this feature and forgetting about every
+[07:07] else and then before we get to the
+[07:09] questions that follow up on something
+[07:10] you said vehicle content teams and
+[07:13] vehicle feature teams
+[07:14] I just times store 10 cent version
+[07:18] what's the difference between a feature
+[07:19] team and a Content feature team is
+[07:21] primarily programmers with design
+[07:23] support and then we sort of dip into the
+[07:26] other downstream teams like maybe we
+[07:28] will be doing a feature like hover mode
+[07:31] so Dave would be doing programmer I
+[07:34] would have the design team retuning the
+[07:36] ships we need tech art to help make the
+[07:40] thrusters behave visually how we want
+[07:45] content teams is primarily just to ship
+[07:48] our team and design and then those same
+[07:50] downstream teams making it so they're
+[07:52] making the actual ships the feature
+[07:53] teams are making the features that make
+[07:55] the ships ships and then of course kind
+[07:58] of outside the periphery you have the
+[08:00] gameplay system designers who do doing
+[08:03] things like mining yeah or salvaging
+[08:05] their that are designed independently of
+[08:07] the ships yes it's so the vehicle teams
+[08:11] use those features that the other
+[08:12] gameplay teams do so we have other teams
+[08:14] like the actor team who are dealing with
+[08:16] things like healing and body dragging
+[08:19] and all that sort of stuff that not
+[08:22] vehicle specific features but vehicles
+[08:24] will use them mining yeah a good example
+[08:26] of something so whilst the first
+[08:28] instance of mining in started and was on
+[08:30] a vehicle it was developed as a general
+[08:32] system yes there was then expanded into
+[08:34] handheld mining outside of the ship
+[08:36] teams which is why at times we can find
+[08:38] ourselves with ships that are have been
+[08:41] fully developed and even released while
+[08:44] the gameplay systems are
+[08:46] still being developed but big sample
+[08:48] would be that the reclaimer there's
+[08:50] anywhere in Salvage you know so you were
+[08:52] able to complete your work you know with
+[08:53] the content of the vehicle future team
+[08:55] building the ship and now it's it's it's
+[08:57] with the gameplay teams in to develop
+[09:00] salvaging all right so with that and
+[09:03] then then are the newest addition we've
+[09:05] had content teams we've had feature
+[09:07] teams now we have an experienced team
+[09:09] yeah so what's the goal of the
+[09:10] experience team so it's called vehicle
+[09:13] experience because it sort of covers
+[09:14] everything about the vehicle experience
+[09:15] it's not just limited to combat of how
+[09:18] vehicles fight it's the whole living
+[09:21] breathing aspect of experiencing sounds
+[09:25] cliche but experiencing your ship
+[09:27] because combats like a byproduct of a
+[09:30] bunch of other features its byproducts
+[09:35] of flying so if flying your ship doesn't
+[09:36] feel good fighting in your ship doesn't
+[09:39] feel good if interacting with things in
+[09:42] your ship isn't good then flying your
+[09:44] ship is going to be bad and then combats
+[09:45] going to be bad so it's sort of a
+[09:48] holistic look at all these features that
+[09:50] tie together the vehicle experience and
+[09:53] working on them so the first thing the
+[09:55] vehicle experience team worked on was
+[09:56] the new or improved camera systems which
+[09:59] went out in 3/8 so we had a prototype of
+[10:03] this years ago and it was like that's a
+[10:05] really nice thing we've got other things
+[10:06] to do at the time so it's sort of
+[10:10] simulating how track i/o or other head
+[10:12] look programs do when you're flying and
+[10:14] you look into the turns like a racecar
+[10:17] driver does and it was functionally it
+[10:22] doesn't give you any benefit to on paper
+[10:25] how ships behave it makes that
+[10:28] experience much more realistic it makes
+[10:31] it much more fun it doesn't look like
+[10:33] there's just a 2d printout of a ship
+[10:35] stuff on the screen it makes it feel
+[10:37] like you you sort of you start feeding
+[10:40] the ships are they have their characters
+[10:42] to them it makes you have fun in the
+[10:44] ships even though you're just flying
+[10:45] around like you were in 37 as an extra
+[10:48] layer to it a lot of vehicle experience
+[10:50] here is about supporting feature team as
+[10:52] well
+[10:53] so when feature teams are working on a
+[10:55] feature vehicle experienced team can
+[10:57] provide guidance on how that feature
+[10:59] might interact with other systems so
+[11:01] that the whole experience stays
+[11:03] consistent and you know along the lines
+[11:07] that we want it to so with the
+[11:10] housekeeping another way we are ready to
+[11:12] start taking questions from the
+[11:14] community as usual we put a thread up in
+[11:16] spectrum earlier this week to collect
+[11:18] questions from folks who maybe couldn't
+[11:19] be here to watch us live it also allows
+[11:22] our viewers to vote up which questions
+[11:23] they wanted to see answered most the
+[11:26] number one question that was appropriate
+[11:28] for the show here what is the situation
+[11:30] on landing aids such as radar and
+[11:33] lighting so the main thing that we want
+[11:37] with landing aids is the old radar like
+[11:41] view of the landing pad that we had in
+[11:43] like two point five I can't imagine one
+[11:47] where yet they outline the the problem
+[11:53] with that is that it's a really
+[11:54] complicated piece of 3d UI and if you
+[11:56] remember from the citizencon you I talk
+[11:59] a lot of the UI tech is being revamped
+[12:01] at the moment and one of the current
+[12:03] focuses right now in January is 3d and
+[12:06] so we're kind of working with them at
+[12:08] the moment to add a lot more 3d elements
+[12:12] to all of the UI HUDs FFTs etc and
+[12:15] obviously one of those things is the
+[12:17] landing UI so once that three DUI tech
+[12:19] is developed a bit more we're going to
+[12:21] come back and rebuild that learning aid
+[12:23] and in that in combination with you know
+[12:27] lights facing down or cameras that
+[12:30] things down will help that whole
+[12:31] experience the first thing we did with
+[12:33] the new building blocks UI was the 2d
+[12:35] because it's it's the easy side of it
+[12:37] and we saw that in the citizencon
+[12:39] demo where you had the elevator panels
+[12:41] that were the actual buttons you
+[12:43] interact with so that that would
+[12:45] traditionally have been all flash which
+[12:48] is great you make that one other way a
+[12:50] panel you in another ship now you make
+[12:53] another one
+[12:53] it's duplicating all those building
+[12:55] blocks it's just sort of inheriting of
+[12:58] style sheets is a very simplistic way of
+[13:00] doing it and then 3d is the next step so
+[13:03] we do actually have some very
+[13:05] primitive 3d support now but it's a
+[13:08] whole different ballgame from rendering
+[13:09] a cube to rendering one of our ships on
+[13:12] it
+[13:13] and when you mentioned lights and
+[13:16] cameras I want to make sure that folks
+[13:19] know those are things that we're
+[13:20] exploring this is not a guarantee that
+[13:22] every ship is going to have a camera
+[13:23] system underneath it that's not what you
+[13:25] were ten you to say just it's just we
+[13:26] definitely know that there are ways to
+[13:28] make landing easier yeah there's there's
+[13:30] a lot of ships that they're lighting
+[13:33] state is suboptimal and we want to go
+[13:36] through and fix those so primarily you
+[13:39] have the headlights that you can
+[13:39] actually see where you're flying some of
+[13:41] them are a bit too dim sum of they are
+[13:42] broken those will get fixed and then
+[13:45] we're going to look into having when
+[13:48] you're in a landing mode you have
+[13:49] landing lights that come on that show
+[13:51] you like a real-life plane that show you
+[13:53] a more illuminated area beneath you next
+[13:59] question is how's it going with that
+[14:01] whole are everything everything thanks
+[14:07] jet
+[14:09] so I'm gonna assume that's talking about
+[14:12] physically based damage and armor that
+[14:14] seems right so that is in production at
+[14:16] the moment it's something that Chris is
+[14:18] actually helping out on so it's gonna
+[14:21] say didn't he check something in with
+[14:22] there there's a switch or something you
+[14:23] could turn it off yeah there's he's got
+[14:25] a big fan others a local version of the
+[14:28] code where at the moment we define mass
+[14:31] by a value in the XML but how it's going
+[14:34] to be is going to be defined off the
+[14:35] actual vehicles model and materials so
+[14:39] if we put from make a ship out of
+[14:41] plastic material it will work out the
+[14:44] volume and the mass of it from that
+[14:46] based on the materials that apply so it
+[14:47] will behave like a plastic ship versus
+[14:50] someone like me putting 10 million tons
+[14:52] in the XML so that's the groundwork for
+[14:57] it so the ship will be physically
+[15:00] weighted is the wrong term but there
+[15:03] will be appropriately mast mast mast
+[15:06] appropriately sort of designed and set
+[15:10] up with all the materials so if it looks
+[15:11] like metal it's going to weight like
+[15:13] that if it looks like carbon fiber will
+[15:15] be lighter so I have the same tensile
+[15:17] stress
+[15:17] just a measurement of the volume which
+[15:19] is kind of what it's doing now is it's a
+[15:20] volume plus the aterial it's and then so
+[15:25] that ships aren't just one material so
+[15:26] there's sort of various aspects so you
+[15:28] might have a ship that's body is made of
+[15:30] a really dense metal but it's wings are
+[15:32] made of paper
+[15:33] those will behave differently so when
+[15:35] you shoot bits off it will not all just
+[15:39] behave like oh this is 10% of the ship
+[15:42] that's falling off so take 10% of the
+[15:44] mass off it or go off like that all work
+[15:46] out like that and then that drives into
+[15:48] the next step which is penetration
+[15:50] drives into Armour moving away from just
+[15:54] removing hit points but sort of
+[15:56] adjusting that the strength of the
+[15:57] material all starts I have just you so
+[16:01] you need the system where does the
+[16:02] dynamic mass instead of and then you can
+[16:05] start the system where are you
+[16:06] physically based damaged yep it raises
+[16:08] the start of the system is we need to
+[16:11] work out what the ship is
+[16:12] programmatically we because marking it
+[16:14] all up is how we do it now and that's
+[16:15] not sustainable or using sort of the
+[16:18] desired end system at the moment we go
+[16:20] left wing has 500 hit points right wing
+[16:24] has 500 hit points left end wing has 100
+[16:27] hit points we're gonna move to its the
+[16:29] left wing is made of this material web
+[16:33] sites where yes all right cool are you
+[16:39] happy with the current flight well and
+[16:42] we're not happier than we were you know
+[16:44] that's for sure bits and pieces yes
+[16:48] getting to where we we wanted to be but
+[16:50] there's other areas that are definitely
+[16:51] not so one of the things that's
+[16:54] obviously a a well-known upcoming
+[16:56] feature this year is the thruster
+[16:59] efficiency curves no yeah that's all I
+[17:02] can talk about is the thruster patients
+[17:03] that's probably like the most the most
+[17:07] explored feature that we're working on
+[17:09] at the moment and part of that
+[17:11] necessitates an aerodynamic like
+[17:14] rebalance of the ships because that's
+[17:16] one area that I think is suboptimal at
+[17:18] the moment is the area max it's it's
+[17:22] pretty cool and it's pretty good but
+[17:24] especially when the thrusters are much
+[17:25] weaker or not
+[17:26] fear the ship behaves differently than
+[17:30] it has done before because you know
+[17:32] before the thrusters could overpower the
+[17:34] air that acts and now they're not so
+[17:36] able to do and so we're working a lot on
+[17:40] both how the area tax is calculated how
+[17:42] the drag is calculated and worked out on
+[17:44] ships and stuff and that is that will
+[17:48] hopefully improve that whole experience
+[17:50] and then we're also adding jerk which is
+[17:55] the next derivative after acceleration
+[17:58] so that will make the ships a lot
+[18:01] smoother and more dynamic feeling and
+[18:03] let you know maybe not quite as rigid in
+[18:05] their movements and that'll be something
+[18:09] we we work on in the future and
+[18:11] hopefully those two together will really
+[18:13] make the ships feel a little bit more
+[18:15] especially obviously the atmosphere and
+[18:17] then in space they'll feel a bit more
+[18:18] alive a little bit more interesting
+[18:20] motion those two things are sort of what
+[18:23] we're trying to get to the end goal what
+[18:26] hover mode was trying to achieve in
+[18:28] atmosphere but doing it a different way
+[18:31] okay and the next question is literally
+[18:33] about how thruster reduction in
+[18:35] atmosphere didn't make it into three
+[18:36] point eight and what your future plans
+[18:38] are for plane
+[18:40] so part of the reason why it didn't make
+[18:41] it into three point eight is that it
+[18:43] necessitated this aergon on exchange we
+[18:48] did it and we played it and we were like
+[18:49] okay the ship kind of flies a little
+[18:52] wacky now in atmosphere so we need to go
+[18:54] back and revisit how that aired and acts
+[18:56] tough work we've also gone back and like
+[18:58] expanded the feature of it so now the
+[19:00] curves work like very individually on
+[19:03] each thruster which makes the tuning a
+[19:06] little bit more time-consuming to do
+[19:08] what it means you can you know at some
+[19:10] point in the future if we ever allow you
+[19:12] to change the thrusters on a ship then
+[19:14] you could have a different efficiency
+[19:16] curve for example and that the ship
+[19:17] would react to that let me give you a
+[19:21] follow up here where do we want to go
+[19:23] with that mysterious light like what's
+[19:25] your vision of atmospheric flight in an
+[19:27] ideal world whether we know how to get
+[19:29] there whether we whether we've got all
+[19:31] the tools now to do it or not that's not
+[19:34] what the question is what do you want
+[19:36] this to get to I want this to get to
+[19:40] something that that feels more different
+[19:43] like right now the atmospheric flight is
+[19:45] space flesh but with this extra thing
+[19:48] like pushing on your ship and we want it
+[19:51] to get we want to get it to more like
+[19:55] real plane how real planes fly but with
+[19:59] differences that are caused by how
+[20:01] spaceships are designed so you know for
+[20:05] a lot of ships they're not very er than
+[20:07] AK and so the way that they fly with
+[20:09] pretty strong thrusters is still even if
+[20:12] it was perfectly realistic it's still
+[20:14] not how a plane would actually fly and
+[20:16] we want to try and capture that so that
+[20:18] if you fly other playing games that you
+[20:21] have some experience with how planes fly
+[20:22] you will realize that oh I can see how
+[20:26] this is working but it's a whole
+[20:27] different experience because of how this
+[20:29] works and that's the experience
+[20:30] that we want which is this like you know
+[20:33] an interesting deep and an IKE model
+[20:36] that is not that's something new that is
+[20:40] that seems like it would be the most
+[20:43] realistic outcome given the way the
+[20:48] ships are designed realistic by today's
+[20:50] standards but then nine hundred forty
+[20:52] years advanced in the future they
+[20:54] detected additional technology I say
+[20:56] sirs but it's our guests yeah at what
+[20:59] realistic flight might be like in nine
+[21:02] hundred years that's that's really what
+[21:03] it does nobody's flown a spaceship not
+[21:06] using the feature in the atmosphere you
+[21:09] can do with a modeling you want but and
+[21:11] then of course with it I suppose with a
+[21:13] way even something where you can see a
+[21:16] drastic difference between flying and
+[21:18] eclipse in an atmosphere and flying a
+[21:20] reclaimer you know in an atmosphere
+[21:24] next question can i reclaim our takeoff
+[21:28] from the surface of de mar and reach
+[21:30] orbit
+[21:31] on its own Jared this feels like deja vu
+[21:34] yes it will be able to moving on no fun
+[21:39] no you know and if you don't all right
+[21:44] after the release of the 300 series is
+[21:46] the first customizable ships in star
+[21:48] citizen what lessons did you learn and
+[21:50] how
+[21:51] we'll play them to the next customers
+[21:52] so it was a really interesting
+[21:57] experience I think for all the
+[21:58] departments that are involved in it
+[22:00] because it was a almost a cross company
+[22:03] across every single studio that we have
+[22:05] in cij and turbulent to pull it together
+[22:08] deliver I don't think there's many
+[22:09] features that star system has where it
+[22:12] touches every single studio that has to
+[22:16] pull together at night it's normally a
+[22:18] couple studios and then one light
+[22:19] support right but we're all working on
+[22:21] at the same time so we learned a lot
+[22:23] about across across studio across time
+[22:27] zone communication and planning from
+[22:29] that we learned a lot on the art side of
+[22:32] the technical limits that we could do
+[22:34] something we want to do was proper
+[22:38] interior material customization and we
+[22:41] didn't have the ability to do that so
+[22:42] what we did was these these seats and
+[22:45] beds that gave you that experience and
+[22:48] we made the interior of the ships of
+[22:50] respect all of those various
+[22:52] combinations we tried all these
+[22:56] interesting interactive props that they
+[22:58] took a lot of time and I think they were
+[23:01] actually one of the most popular bits of
+[23:04] it what we thought was really popular
+[23:05] would be the paint mm-hmm but they it
+[23:08] wasn't as popular as other aspects that
+[23:09] we'd done so we learned what people
+[23:13] liked what the one who got a huge amount
+[23:15] of feedback from the community on it in
+[23:17] terms of manpower is sort of doing
+[23:19] something to the extent of the 300 I
+[23:21] again it's equivalent to another ship in
+[23:23] the pipeline so when we choose to do
+[23:26] another one you sort of have to very
+[23:29] mind it it's it's that block of time
+[23:31] it's not like a one-week toss knock out
+[23:34] a few paint jobs and these items it is a
+[23:37] lot of time and a lot of people that go
+[23:38] into doing that presumably the second
+[23:42] time would be faster more patient than
+[23:44] the first time because the first time is
+[23:46] always about all these lessons that have
+[23:48] to be learned yet quite honestly the
+[23:49] hard way yeah ayoung but I think most
+[23:51] lessons in life if not game development
+[23:55] are learning the hard way
+[23:56] that's been my experience so you know
+[23:58] that was that first time you know
+[24:00] learning all these things the hard way
+[24:01] discovering what we
+[24:03] wanted to do what we could do what we
+[24:04] couldn't do so it's evilly the second
+[24:06] time would be more efficient you know
+[24:08] it'd really be more efficient still
+[24:10] though it's it's a pretty sizable yeah
+[24:12] outlay it's not to say that we're not
+[24:13] going to do it we absolutely are we're
+[24:14] committed to we really like this idea I
+[24:16] know Chris is behind it yeah it's just a
+[24:18] matter of finding the right place the
+[24:20] right time the right situation order
+[24:22] we're definitely go plans to do more of
+[24:24] it let's see let's look for the chat
+[24:29] here will the new shield tech actually
+[24:32] fix the holes in the ships yes it will
+[24:38] the the new shield tech so previously we
+[24:41] had a mesh that was every every part of
+[24:44] the ship yeah has a duplicated expanded
+[24:47] mesh that is what detects the shield so
+[24:50] as you imagine ships have lots of parts
+[24:52] it's easy for bits to not quite not a
+[24:55] lot enough together so the way the new
+[24:57] shield tech works is we have a thing
+[25:00] called an SDF which is the same distance
+[25:02] field it's a signed distance field and
+[25:04] it will is a a sort of force field
+[25:07] around the ship that encodes how far
+[25:09] away at every point that point is from
+[25:12] the ship and so using mash you could say
+[25:15] say here's a bullet and then ask this
+[25:18] SDF how far away you are from a surface
+[25:20] on the ship and that's all calculated
+[25:22] into like programmatically dynamically
+[25:24] it's not a mesh and so it's much more
+[25:27] reliable at figuring that ash and it's
+[25:30] not going to have any holes because it's
+[25:32] just programmatically generated from
+[25:33] whatever the ship is chambers unless the
+[25:35] ship has what was that yes yes I feel
+[25:41] like we've we've heard about this sine
+[25:42] distance field tech being used for
+[25:44] shields for a while now but it's not
+[25:46] currently in game I'm not asking you
+[25:48] when I'm saying what is what's been the
+[25:51] delet what what's been the delight
+[25:53] what's been the struggle so sort of
+[25:55] twofold there's the actual team's making
+[25:58] use of these sign distance feels like
+[25:59] the vehicle for each team will be
+[26:00] working on making the old system old
+[26:03] shield system used the new shield system
+[26:05] sort of we've got bits and pieces done
+[26:07] that's fine once we've done that then
+[26:09] the VFX team have to essentially go and
+[26:12] reauthorization
+[26:14] all the ships because under memory you
+[26:15] have the blue sort of splashy effect and
+[26:18] you actually have hid effects come off
+[26:19] it they need to because the old system
+[26:23] uses something completely different
+[26:24] anything else in getting they need to
+[26:26] make a new shield hit effect that SDF so
+[26:29] they've got to do all that but one of
+[26:31] the biggest challenges is actually on
+[26:32] the core engine side is this is a new
+[26:35] file format that has to be baked into
+[26:38] our existing assets the resource
+[26:42] compiled when we're making the builds
+[26:43] has to automatically do this but to do
+[26:46] it
+[26:47] someone needs to mark up what of the
+[26:48] ship should be made so it's working out
+[26:50] all these core pipelines for a tech
+[26:53] artist has to go into the ship file and
+[26:54] go
+[26:55] the ship is these parts because if we
+[26:58] just let the compiler go I'm gonna do
+[27:00] everything in the ship it's going to be
+[27:02] making SDS for like the buttons on the
+[27:04] cockpit the joysticks it's just
+[27:07] unnecessary time to do it and time to
+[27:10] compile it and time to or harddrive
+[27:13] space for actually building these things
+[27:15] so we want to only use the exterior so
+[27:17] someone has to go mark those up then we
+[27:19] had to make it so the builds actually
+[27:22] picked up that data generated it and
+[27:24] then there's a little bit of work still
+[27:27] to come there's not blocking as at the
+[27:29] moment from progressing but a lot of our
+[27:32] ships animate mm-hmm right so this build
+[27:35] has to be just it has to be dynamically
+[27:37] adjust to those things because the old
+[27:39] system it was just a part attached to
+[27:41] the wing so when the wing activates it
+[27:42] it moved with it for free scientist ins
+[27:45] feels don't do that another box and it's
+[27:48] not just using signed distance fields
+[27:50] for shields we only use on other things
+[27:53] as well so that same sign distance field
+[27:55] we'll use for atmospheric entry
+[27:57] so at the moment when you come into an
+[27:59] atmosphere you get the glowy stuff on
+[28:02] the front of your ship if you went in
+[28:03] backwards you still get the front beyond
+[28:06] the friendship because it's just
+[28:07] attached to your ship in that area and
+[28:09] we could do one for every single area of
+[28:12] the ship to account for that that's just
+[28:14] a huge amount of work so sign distant
+[28:16] field will allow us to play that effect
+[28:18] on the appropriate face soon you're
+[28:21] going best assume you go first
+[28:24] last couple times I entered I wasn't
+[28:26] getting in I'm like why isn't this
+[28:27] working and then Mike Mikey goes you
+[28:30] just aren't going fast enough oh my god
+[28:32] when I sped up my region there wasn't at
+[28:34] all its procedure on them or systemic
+[28:37] rudder so that sounds like there's some
+[28:40] prerequisite work that needs to be done
+[28:41] yes the next question is actually about
+[28:44] some pre workers at work that has
+[28:46] already been done several of our ships
+[28:48] with hatches like the freelancer
+[28:49] constellation caterpillar have hatches
+[28:53] built into them already
+[28:54] when ship ship docking is implemented
+[28:56] with these ports be compatible with each
+[28:57] other or are we going to have to see a
+[28:59] redesign to a standardized port so we do
+[29:02] actually have to two standards for ports
+[29:04] so we have the circuit ones that you see
+[29:07] on a lot of ships those are two meter
+[29:09] diameter so it's big enough for a player
+[29:10] to just walk straight through we don't
+[29:12] need to do any if the docking colors are
+[29:14] on side to side you Alicia just be able
+[29:16] to walk through them so any that a
+[29:18] circular will be 2 meters diameter if
+[29:20] they're not those ones will be changed
+[29:22] there's I think there's one on the
+[29:23] reclaimer that's like 1.8 or something
+[29:26] like that so things like that will go
+[29:29] and change and then we have the
+[29:30] rectangular ones that you see the best
+[29:32] example is the one on the front of the
+[29:34] hammerhead in the mouth it's 4 meters by
+[29:37] 2 meters that's the larger capital ship
+[29:40] standardized docking port so the address
+[29:42] has them to javelin has them and Space
+[29:45] Station support both of those for when
+[29:47] we have docking in game we have these
+[29:49] Lexia an airport jet bridge it goes out
+[29:52] and on the end of it is a small round
+[29:53] one and a large rectangular one so any
+[29:57] ships were docking collars would be able
+[29:58] to dock at any space station that has
+[30:00] that and square peg round hole round
+[30:05] once the round 1 square wants to square
+[30:06] ones we don't really support a small
+[30:10] ship with a round collar docking on to a
+[30:13] larger square one because the larger
+[30:15] square was probably gonna take half the
+[30:16] ship inside it I'm trying to dot J I'm
+[30:18] picturing the freelancer train it with a
+[30:20] square over that circle the hatch trying
+[30:23] to dock with the front of the hammerhead
+[30:25] the square it's just gonna do to eat it
+[30:27] half the top of the ship will be in
+[30:28] there and it's not to send a future we
+[30:30] might have like specialized docking
+[30:33] boarding ships that do some funky to in
+[30:36] one door
+[30:37] those will be the exception rather than
+[30:38] the rule so much of that works already
+[30:40] been done this yet so ships were built
+[30:42] or they were rebuilt previously do those
+[30:44] metrics and turrets
+[30:46] monitor access hatches they're also 2
+[30:48] meter diameter so when turrets get blown
+[30:50] off there's another way into your inner
+[30:53] hatch yep let's see is it still allowed
+[30:57] to allow players to paint their ships
+[31:00] we're still alive I guess I guess it
+[31:03] still planned
+[31:03] yes our players still planned the the
+[31:06] extent of it was still sort of going
+[31:08] backwards and forwards on we actually
+[31:10] had some discussions this week on it
+[31:12] obviously the origin customizer we
+[31:14] provided preset colors for that that is
+[31:20] definitely something we're gonna do how
+[31:23] far we let users customize the colors
+[31:24] beyond that is still to be determined
+[31:27] but what we do want to definitely do is
+[31:29] letting users pick emblems or decals to
+[31:32] go on their ships naming their ships
+[31:36] obviously they have the serial numbers
+[31:37] put on there and the emblems themselves
+[31:40] will be from a pre-selected pool of
+[31:42] things so let's try to think of a good
+[31:45] example the Vanguard on its upper wings
+[31:48] has like a 42 decal on it and it's 42 42
+[31:51] and is 42 on the tail fins as well that
+[31:53] would be a generic decal slot so when
+[31:56] you go to a paint shopping game you go I
+[31:59] won't change that from the default I
+[32:00] want it to be big smiley face or star or
+[32:03] something and then apply it to all of
+[32:05] those things and I already see it in
+[32:09] chat for those of you who remember very
+[32:12] early conversations about the potential
+[32:14] for uploading emblems or or eclipses
+[32:16] this is not to say that that's not a
+[32:18] possibility it's just that's not in the
+[32:19] design that were that we're looking at
+[32:21] right now but the future holds the
+[32:24] future world you start with what we can
+[32:27] do with what's internal with what we can
+[32:29] provide you first and then we examine
+[32:31] those possibilities afterwards having a
+[32:34] nice pre-selected pool stops what we all
+[32:38] know people will do
+[32:40] yep it's not some problems this is let's
+[32:44] see let's go back to the chat here
+[32:46] [Music]
+[32:48] altimeter altimeter
+[32:51] maybe I'll turn coming going at some
+[32:55] point yes coming at some point yes with
+[32:58] the the HOD rework which we're still
+[32:59] working on yeah okay what thought is
+[33:04] being put towards the multi crew
+[33:06] experience in terms of vehicle designs
+[33:08] to encourage multi go play beyond just
+[33:10] being glorified murder buses there's a
+[33:14] few parts to this and one of them that
+[33:16] were kind of focusing on more at the
+[33:18] moment is the MFD screens because the
+[33:22] MFD screens are obviously like a big
+[33:24] part of how you interact with ships and
+[33:26] so we're we're working on an MFT rework
+[33:30] that will come in the future and part of
+[33:33] that discussion is obviously how would
+[33:35] how our MFDs gonna work with multi
+[33:37] carrier and how what is that system for
+[33:39] doing it so we're still kind of working
+[33:41] through this but obviously we are
+[33:44] exploring the options of like having
+[33:46] unique MFDs for certain stations and
+[33:48] ships or having like maybe some kind of
+[33:51] permission system where you can allow a
+[33:53] certain players and certain seats to
+[33:55] control certain things about the ship
+[33:57] because right now pretty much I think in
+[34:00] a lot of ships when you sit down in the
+[34:02] the pilot seat it takes MFD control away
+[34:06] from the other seats yeah and so there
+[34:08] isn't really any adequate multi crew
+[34:10] gameplay there so that's the first part
+[34:13] and then I think John the other part of
+[34:16] multi crew is like more physical things
+[34:19] that you can do in a ship with going
+[34:21] back to the eloquently put murder bus we
+[34:25] don't like murder but well we'll
+[34:27] continue to have murder buses it's just
+[34:29] we want more so yeah a lot of the multi
+[34:32] crew stuff at the moment is purely
+[34:35] because turrets are the best way of
+[34:37] getting people in a ship and doing
+[34:38] something the MOL expanded on that
+[34:40] nicely so it's less lethal and we've
+[34:43] seen people having huge amounts of fun
+[34:45] together in a group communicating
+[34:48] working together to get the best they
+[34:52] can out of that ship so outside of the
+[34:54] UI it's making sure the ships have sort
+[34:57] of reasons to work together a big thing
+[34:59] we're missing is the having the items
+[35:01] inside the ships and having them be
+[35:04] damageable and repairable because as
+[35:06] soon as you have that in there's your
+[35:07] engineer roll out the box and so that
+[35:11] gives someone something to do the UI
+[35:13] side helps pilots and co-pilots work
+[35:16] together helps a captain control his
+[35:19] crew hopefully navigators setting stuff
+[35:22] or all requires the UI to work together
+[35:26] because at the moment like you say when
+[35:27] you send to see you grab control it's
+[35:30] very binary the person that was in the
+[35:32] other city doesn't know that they've
+[35:33] lost control so they're trying to press
+[35:35] the buttons nothing happens cuz the guy
+[35:37] over here now can do that and they don't
+[35:39] see they don't see what each other are
+[35:41] doing so that's a big can honey look
+[35:43] like a bug actually yeah I was using
+[35:45] this panel two minutes ago and I come
+[35:47] back to this panel they can't use it
+[35:48] it's because somebody else has sent
+[35:50] somebody other chair next especially if
+[35:52] you're sucking somewhere away from the
+[35:53] bridge like on the engineer station
+[35:55] you're just happily moving power around
+[35:57] it's like oh them seeing stuff happened
+[36:00] and then someone just gets in the pilot
+[36:01] seat they take control you're doing this
+[36:03] it doesn't do anything anymore who do
+[36:08] you plan to add aim assist Institute's
+[36:11] aim assist they do actually have a small
+[36:14] amount of like aim assist at the moment
+[36:16] but it's it's not enough or sort of
+[36:20] appropriate for what we're doing so we
+[36:23] want to add gimble assist to turrets
+[36:26] which will help sort of smooth out that
+[36:30] turrets one of the tricky things to do
+[36:33] because the ships are moving so quickly
+[36:35] so one of the other things mythical
+[36:38] experience is doing is trying to bring
+[36:39] those combat ranges in at the moment
+[36:41] sort of that was one of the goals with
+[36:42] the new flight model was to sort of
+[36:43] bring it in and we've been slowly
+[36:45] working over the last year to try and do
+[36:47] that
+[36:48] we're aware people are fighting as close
+[36:52] as we want them to which in turn makes
+[36:54] turrets worse yeah because you can't see
+[36:56] what you're trying to do
+[36:59] see how they think gimbal assist on is
+[37:01] it's not the ultimate solution it's one
+[37:03] of the solutions to gain Tara's Bella
+[37:06] Weaver we talked a little bit about that
+[37:09] with Todd last week turrets are are in
+[37:12] my three amigos joke I made last week ro
+[37:14] Wabo that three three meals is a movie
+[37:18] oh that you haven't you ABS yeah
+[37:20] absolutely have not seen not even her
+[37:23] love yeah have you not even hurt but
+[37:30] turns have been a struggle for strips I
+[37:32] don't think anybody I don't think that's
+[37:34] a mystery to anybody we've got we've
+[37:38] made a number of ruins we've made things
+[37:40] better there were some improvements in
+[37:41] three point eight and it's still not
+[37:42] quite where we want when we talk about
+[37:44] adding additional aim-assist
+[37:47] because there is a little we do want to
+[37:49] make sure that were that you know we're
+[37:51] not taking the skill away it's like
+[37:53] sources and which you know combat
+[37:55] sources and should still be a skill
+[37:56] based affair this is more about making
+[38:00] people with let's just say my skill set
+[38:03] which is on the lower end of space
+[38:06] combat I don't also don't think that's a
+[38:07] mystery to anybody who's played with me
+[38:09] making that experience a little more
+[38:11] enjoyable for me the people who don't
+[38:13] focus on combat let's say that instead
+[38:15] of saying that I suck I just don't focus
+[38:17] on comedy especially turrets are very
+[38:20] they're a very defensive thing subject
+[38:22] so defensively but the majority of the
+[38:24] time you're trying to stop someone from
+[38:27] damaging your ship so you any help you
+[38:30] have in that regards unless you're in a
+[38:33] hammer and I shouldn't have a finally
+[38:34] hammerhead is a very offensive turret
+[38:36] the perfect murder
+[38:39] Yeah right can we get a mouse wheel
+[38:45] controlled speed limiter like on ships
+[38:47] but for ground vehicles it would make
+[38:49] speed control a lot easier with keyboard
+[38:51] and mouse players that is an excellent
+[38:52] idea and we're we're
+[38:54] valuating ground vehicles as well at the
+[38:56] moment there are another thing like
+[38:58] Tourister yeah we know they're not where
+[39:01] they need to be and it's something we're
+[39:03] different all right but that that idea
+[39:05] is really cool because yet it sort of
+[39:07] unifies that controlled between space
+[39:09] vehicles and on foot and ground vehicles
+[39:11] so we'll add it to our pool of
+[39:14] explorations yeah exactly our pool of
+[39:16] explorations and ideas that will this
+[39:21] touches on a really good point on the
+[39:23] surface this seems like a good idea
+[39:25] sitting here and hearing it I can't
+[39:27] think of a reason why it would be a bad
+[39:29] idea and we're not thinking about it
+[39:30] music but that's why it's important to
+[39:32] put these things through testing because
+[39:33] it's all games but especially star
+[39:36] citizen are a combination of myriad of
+[39:39] game systems that are all working
+[39:41] together and all interact on each other
+[39:42] and standing on its own you know a you
+[39:46] know on its own without any interactions
+[39:47] that might work fine but with a dozen
+[39:50] other systems that are at play inside a
+[39:51] vehicle inside a ground vehicle it may
+[39:53] cause unforeseen issues so it still
+[39:56] needs to be explored it still needs to
+[39:57] be tested it still needs to be vetted
+[39:58] before we can sit here and say yeah
+[40:00] we'll do it which is what we're not
+[40:02] saying yeah we'll ground vehicles
+[40:08] require to be refueled or recharged
+[40:11] that's another thing to add to the idea
+[40:14] of pod I think right now they have power
+[40:17] plans they do have power plants which
+[40:18] are currently sort of an infinite supply
+[40:21] nuclear power plant which perfect ground
+[40:24] vehicle just driving around your nuclear
+[40:26] power plant in the back I think part of
+[40:28] the issue right now is that places to
+[40:30] refuel your ground vehicle or not like
+[40:34] they're few and far between mm-hmm I can
+[40:37] see in the future them having some cost
+[40:39] so you can't just run them you to share
+[40:41] perpetuity and it's probably not gonna
+[40:45] be as harsh as the vehicles are because
+[40:47] it's it's a lot easier to get say a star
+[40:49] fairer to a stranded spaceship and give
+[40:52] it some fuel than it is to hear some
+[40:55] jerry cans and
+[40:56] go trek across the deserts to reach
+[40:58] every turneth let's see from the chat
+[41:03] here
+[41:04] have you considered climbing points for
+[41:07] ships for parts of a ship where it would
+[41:09] make sense ie the colors black side
+[41:12] doors or bottom of the ladders so you
+[41:14] can still get into a ship when things go
+[41:16] awry so that's actually something I have
+[41:18] to do once I get out of it is I'm gonna
+[41:21] go over to tech arts desk because
+[41:22] they've actually gone and done this on a
+[41:24] few of the ships there are problems with
+[41:28] that the current sort of ledge crab
+[41:30] system we have doesn't do a check for
+[41:32] what's at the end of the ledge so you
+[41:37] can go let's say you've got the covers
+[41:39] side doors that are open we've got a
+[41:41] Ledge grab on there you go run up to
+[41:43] your ship you delay to grab in great
+[41:44] someone shuts the doors it's still going
+[41:47] to try and make you do that no but you
+[41:49] may it's probably gonna be a coin flip
+[41:51] of do you just go straight through the
+[41:53] doors or do you hit the doors and fall
+[41:55] back out again so yeah it's something we
+[41:57] want to do but we want to do it in a way
+[41:58] that it's a bit smarter about it so if
+[42:01] the doors are closed and you try and
+[42:02] let's grab up don't just fall off rather
+[42:05] than go through the whole state it's
+[42:07] recording out as well that kind of an
+[42:09] engineering decision that has meant that
+[42:11] that check doesn't happen it's usually
+[42:12] because of the trade-off like you know
+[42:15] in a lot of situations in environments a
+[42:17] check like that is not necessary and
+[42:19] putting one in would be like a cost to
+[42:22] performance that maybe is not worth it
+[42:23] but in the particular case of a ship
+[42:25] then maybe that cost is worth it or
+[42:27] maybe there's another solution that you
+[42:29] know isn't as expensive and there's the
+[42:32] other aspect of that is like the doors
+[42:34] not opening all the way down to the
+[42:35] planet is another case of making rather
+[42:39] than just be a canned animation is
+[42:40] systemic or proceeded Lee open them to
+[42:43] the point they hit the floor and then
+[42:46] back off a tiny little bit so they lift
+[42:48] the ship up so we tend to be safe on the
+[42:51] amount we can do which as people will
+[42:53] have seen when you start landing a
+[42:55] really funny angles you've got one leg
+[42:57] off the ground
+[42:57] puts the ramps into this position so the
+[43:01] two are sort of tied together they
+[43:02] there's things we can do but that often
+[43:04] they cause more problems and they solve
+[43:07] and we need to be smarter about how we
+[43:09] check
+[43:09] it's literally the next question more
+[43:11] often than not lamps and elevators never
+[43:13] touch the ground leaving the players
+[43:15] unable to climb back up into their ships
+[43:16] or learn the vehicles yeah what are we
+[43:18] doing basically just aim against me so I
+[43:21] want to make sure your question got read
+[43:24] will grab live bikes like the Dragonfly
+[43:27] and NOx ever be able to travel at their
+[43:29] former max ground speeds in the thick
+[43:32] atmosphere like damar hurst and
+[43:34] Microtech etc maybe yes however part of
+[43:39] the reason why the speeds are lower now
+[43:41] is because when we you know reevaluated
+[43:44] the crowd live with the new flat model
+[43:47] we decided that we wanted it to be sort
+[43:50] of closer to the ground and a little bit
+[43:52] more exciting like you know the old
+[43:54] gravel of you ended up kind of riding
+[43:56] over the rocks and videos more like
+[43:58] flying love yeah being on a like a
+[44:00] speeders we wanted it to be like done
+[44:02] close to the ground
+[44:03] you know stuff flying past beautiful
+[44:05] speed but the problem with that is that
+[44:08] there's a lot of obstacles say the word
+[44:12] rocks there's a lot of rocks there's a
+[44:15] lot of rock so in some situations is
+[44:17] trees Jerry that's fair that's right but
+[44:20] anyways yeah there's a lot of obstacles
+[44:21] and so traveling super high speeds makes
+[44:25] the gameplay just really annoying I just
+[44:27] constantly hit things and you never get
+[44:29] to those speeds anyway because you're
+[44:30] hitting stuff yeah so that's why the
+[44:33] speeds are lower but if for example we
+[44:36] find a solution to making that less
+[44:39] painful then yes we could potentially
+[44:42] increase the speeds or maybe I don't
+[44:46] know maybe there's some places on
+[44:47] planets where there's not as many rocks
+[44:49] and then we can let the speeds go higher
+[44:52] it's all about trade-offs like we
+[44:54] mentioned before there's we didn't just
+[44:57] take it away because we want to there's
+[44:59] there's reasons for doing that though
+[45:02] they know the version 80 and there was
+[45:04] similar to have car how cars have
+[45:07] different you know drive modes you know
+[45:09] you know like I'm going uphill or or
+[45:12] when our if you're in a manual
+[45:13] transmission dealing with like an
+[45:15] off-road mode like an off-road mode
+[45:17] off-road and when you're on the plains
+[45:20] of a desert or whatever it's just sand
+[45:22] or whatever it's okay let's open it up
+[45:23] and mmm still rocks yeah would you like
+[45:29] our rocks will we see the return of
+[45:33] boost in wheeled ground vehicles I see
+[45:39] we're discussing this yesterday and I
+[45:42] think it's still there on some vehicles
+[45:45] so it's gonna be a case of I don't think
+[45:48] it went away intentionally it just may
+[45:49] have broken on some vehicles suddenly
+[45:51] cyclone a/c still has claims that come
+[45:54] out with its exhausts don't ask how that
+[45:56] works with a nuclear power plant but
+[45:57] they do and it does go faster when you
+[46:00] boost so it wasn't an antenna it wasn't
+[46:04] an intentional thing and when I saw that
+[46:07] question in the threads I went and
+[46:08] checked as I still here so if it's
+[46:12] broken in 3/8 then it's probably going
+[46:14] to be fixed in 3 9 definitely I still
+[46:16] like he running for ya ok let's go back
+[46:21] to the chat here to will the so folks
+[46:26] have seen the the patch notes for our
+[46:29] like the cars ran on the PTU it says
+[46:32] will the Cutlass Redman Bates but med
+[46:34] beds work similarly to how the 890 jump
+[46:36] med beds are in the PTU on its upcoming
+[46:38] release some extra features more than
+[46:42] eight nineties as well ok that's it safe
+[46:46] those be kind of ok we got a thing
+[46:48] there's a lot of messaging that's gonna
+[46:50] come out in the next few days that
+[46:52] explains everything
+[46:55] you learn more about the colors red
+[46:58] short order
+[47:04] how is drag calculated for each ship
+[47:06] currently they have weird values with
+[47:08] some bricks being very aerodynamic while
+[47:10] sleek ships and under are super slow we
+[47:12] talked about that the question that just
+[47:15] sets up how do we plan to improve this
+[47:17] system I know we were talking about a
+[47:19] box'll thing that's what I was I have a
+[47:22] really good answer to this this is
+[47:23] interesting to me I'm so currently what
+[47:25] we do is we we box the lies the you
+[47:32] said it was a really good answer
+[47:33] you got to have more than that it's okay
+[47:35] so we just don't usually have something
+[47:36] it's like oh I've got a really good
+[47:37] answer that really why would you set
+[47:39] yourself up I think that we will judge
+[47:42] the quality of this answer go ahead so
+[47:45] we take the shape of the ship right we
+[47:47] break it up into little cubes okay and
+[47:49] then in each of the dominant directions
+[47:52] will calculate the area of those Q's
+[47:55] right okay so we get an idea for the
+[47:59] surface area in different air flow
+[48:01] directions and then we'll use that
+[48:02] surface area to control how strong the
+[48:05] drag is so for example if you're flying
+[48:07] Gladius like this service area is like
+[48:09] this little tiny section here it's like
+[48:11] this the drag is significantly more cuz
+[48:13] it's this huge section right that's what
+[48:15] it does now but there's another bit
+[48:19] that's complicating this which is that
+[48:20] on a lot of ships the main thrusters are
+[48:23] super super powerful and they can
+[48:26] overpower the drag a lot of the time and
+[48:29] so this is kind of what we wanted to do
+[48:31] with that thrust efficiency curve thing
+[48:33] is we've because we've reduced the
+[48:36] strength of the thrusters the top speeds
+[48:39] of the ships are now significantly lower
+[48:41] because the drag was so high previously
+[48:43] so now we can decrease the drag and make
+[48:47] it more in line with what it should be
+[48:49] because the thrusters are so much weaker
+[48:51] and then it behaves a lot more correctly
+[48:55] but there's an extra thing that we're
+[48:57] exploring and we're just kind of in the
+[49:00] early ideas of seeing if this would even
+[49:02] work which is using the SDF tech that
+[49:07] we're using on the shields to work out
+[49:09] the shape of the ship so that
+[49:12] instead of just having like a surface
+[49:14] area in front of the ship we can use the
+[49:16] SDF to figure out the actual shape so
+[49:19] for example a wedge shape like this
+[49:20] would behave differently to a shape
+[49:23] that's like a flat wall like this and
+[49:25] the SDF would give us that information
+[49:27] and depending on how that exploration
+[49:29] goes that could result in the shape of
+[49:32] the ship mattering a lot more than it
+[49:34] does now because you could have two
+[49:37] surface areas that are the same but they
+[49:38] have a different shape until they --have
+[49:40] differently and that will make a huge
+[49:43] difference
+[49:44] assuming it works solid seven out of ten
+[49:49] seven all right all right I'll give it
+[49:54] to you I'll give it to you one off
+[49:59] what's going on with them if these
+[50:01] multiple ships have them bugging out
+[50:03] losing the ability interact with them we
+[50:04] touched on that yeah that's pretty much
+[50:07] a similar answer so there are issues
+[50:09] with MFDs that are not what we mentioned
+[50:11] before which is that you know the the
+[50:14] permission system is pretty simple so
+[50:16] when someone sits in a seat you lose
+[50:18] control of the aft that's one issue
+[50:20] that's a huge issue comes up a lot but
+[50:22] there are other issues you some
+[50:24] usability is the big role in the hit
+[50:27] because really you're forced into using
+[50:29] a mouse and keyboard on them and we want
+[50:30] a lever device you're using to use them
+[50:32] and to use them quickly because there's
+[50:35] nothing worse than trying to use a
+[50:38] really finicky small interface in the
+[50:42] heat of battle you know to do something
+[50:44] and you go to drop your joystick get my
+[50:47] mouse out so we want to be a lot more
+[50:50] intuitive but still provide that same
+[50:51] depth of information
+[50:52] thank Jared we'll come back for the rest
+[50:54] he live to talk about them after use at
+[50:55] some point yes sir
+[50:57] we got a lot a lot of stuff that we're
+[50:58] exploring with that right now that's
+[51:00] really exciting that you know there's
+[51:04] there's loads of stuff we can do like I
+[51:05] don't know saving the state of your MFDs
+[51:08] and maybe customizing them navigating
+[51:12] with a joystick all sorts it's about as
+[51:14] low
+[51:14] stuff that's really cool there's really
+[51:15] loads of neat things that don't actually
+[51:17] have anything to the functionality but
+[51:19] help the experience of the ship as well
+[51:20] and there at the moment when you get out
+[51:23] the sieve so the frame you hit exit your
+[51:26] screens go off yeah we'll be able to
+[51:27] keep them on so which that means you
+[51:29] they stay because when you go I was here
+[51:31] so it looks like your ship turns off
+[51:32] because where your screens go off right
+[51:34] but keep them on other people who have
+[51:36] to see what you're doing on your screens
+[51:38] rather than just looking at someone
+[51:39] mindlessly moving a blank screen around
+[51:41] I will admit to being very confused the
+[51:44] first time I got out of that I thought
+[51:45] it about Auto powered off yeah and I was
+[51:47] wrong can we get more organic let it
+[51:52] over heat into the system slowly starts
+[51:54] breaking instead of the current hold two
+[51:56] seconds and then get an overheat timeout
+[51:58] so yeah we chatted about this some time
+[52:01] ago so right now the thruster is like
+[52:03] having a safety feature where they'll
+[52:04] turn off when you start to get
+[52:06] uncomfortably hot in the same way that
+[52:09] like up the CPU turns off and when it
+[52:11] gets too hot but we had discussed the
+[52:14] idea that you could optionally just not
+[52:17] have that safety feature and push the
+[52:20] thrusters to be hot and they'll be
+[52:23] damaged they'll be worn they'll take
+[52:25] physical damage and maybe they'll start
+[52:28] to fail and misfire but you know you
+[52:31] wanted that you get it yeah the sort of
+[52:35] byproducts are they're quite short
+[52:37] amounts that we have at the moment is
+[52:38] you don't really notice the granularity
+[52:40] of that I often if you trying to after
+[52:44] burn out of atmosphere just go straight
+[52:46] through the the warnings of thruster
+[52:48] overheating straight into overheated
+[52:50] start falling back you're still holding
+[52:52] after burden you get caught in that it
+[52:55] cools down enough to let you after burn
+[52:57] again then you go straight back into the
+[52:59] overeating so on top of all that stuff
+[53:03] that Dave mentioned we're always looking
+[53:05] at the tunings of these things maybe
+[53:07] they're a bit too aggressive on some
+[53:09] ships and we're always gonna sort of
+[53:11] look and tweak them they're not all just
+[53:14] two seconds maybe they need to be a
+[53:17] little bit more in some ships it's very
+[53:20] Kim they add some soft music to the
+[53:22] background of these streamers
+[53:23] that's from Molly hi Molly my we've
+[53:27] actually we actually occasionally do
+[53:28] music on the back under these rooms we
+[53:30] usually do them under the ones where
+[53:31] we're doing the creative stuff we're
+[53:32] sitting in somebody's desk it's always
+[53:34] kind of a crapshoot because depending on
+[53:36] what what people are wearing when
+[53:38] they're willing to it whether they're is
+[53:39] it the mix is always hard to know we're
+[53:41] not always the best with our audio mix I
+[53:43] don't think that's a mystery either so
+[53:46] sometimes it's just simpler to make sure
+[53:48] that the words can be heard than trying
+[53:49] to do music cuz we well we tried every
+[53:51] once in a while we which we do to try to
+[53:53] sleep squeeze some music under there
+[53:55] also from the chat are the mass drivers
+[53:58] intended to be that strong like they are
+[54:00] now so mass drivers and Neutron cannons
+[54:05] had a bit of a bug that I thought we'd
+[54:07] actually fixed in three eighths in that
+[54:10] they were doing more damage than they
+[54:13] should have been certainly
+[54:16] neutrons were doing that we see in the
+[54:19] analytics when a weapon is broken
+[54:21] because within a day or so everyone's
+[54:24] going out and buying it and using it so
+[54:27] they were definitely skipping the damage
+[54:30] date incorrectly or double doubling up
+[54:32] on damage and no then they're not
+[54:35] supposed to be as effective as they are
+[54:37] but they won't be if they're still bugs
+[54:42] they won't be bugged in the next full
+[54:44] release return I hear about the neutron
+[54:46] reviews I think if they knew trying to
+[54:47] send a greater from Howard the Duck
+[54:49] which is another movie not seeing it I
+[54:52] know you haven't seen it of course there
+[54:55] has not seen most movies what types of
+[54:59] things do you study to learn how to do
+[55:01] additional flight improvements we study
+[55:04] a lot of physics if I don't know how to
+[55:09] say that in like a really exciting cool
+[55:11] way and we we do a lot of research and
+[55:13] we have a lot of contacts and that are
+[55:16] real pilots and we sort of ask them a
+[55:20] lot of questions and learn about their
+[55:21] experiences and the sort of things that
+[55:23] you maybe might not get
+[55:25] like a textbook for physics or even like
+[55:28] a manual for a plane and that stuff is
+[55:31] kind of all brought together along with
+[55:34] a bunch of other research to sort of get
+[55:36] a picture both of the technical details
+[55:39] and the like the experience of using the
+[55:43] plane or jet fighter or something that
+[55:44] we also use that information there's a
+[55:46] lot of hands-on don't we go around fly
+[55:49] spaceships
+[55:49] let's go sounds like work but there's
+[55:54] obviously a lot of games they do things
+[55:55] differently so we're always looking at
+[55:58] how other things do it and sometimes
+[55:59] there's nice bits in there that that
+[56:01] work nicely but I wouldn't work with
+[56:02] star sets and so what about if we did
+[56:05] things like this on top of all the
+[56:07] research on top of all the simulation at
+[56:09] the end of the day it's gonna be fun to
+[56:11] play if it's not fun to play then
+[56:12] nobody's going to play it it doesn't
+[56:14] matter how realistic it is flat tires
+[56:19] will that be a repair thing nickels you
+[56:23] want five players is that what you're
+[56:26] asking you want that as long as it's not
+[56:28] like really annoying like imagine
+[56:30] driving over de Mars getting a flat tire
+[56:32] every 10 minutes all those rocks give me
+[56:34] funny I say yeah there's nothing you
+[56:36] could be really annoying and but
+[56:37] assuming it's not and we could explore
+[56:39] some yeah wheels wheels have damaged
+[56:41] states at the moment they just sort of
+[56:43] crumpled but part of the issue is
+[56:46] because the physics is like this super
+[56:48] systemic like moving tired physics
+[56:51] Collider if you damage that Collider the
+[56:54] physics can break down really quickly
+[56:56] yeah and so we tend to keep them in a
+[56:59] pretty good state a lot of the time to
+[57:01] keep the simulation stable because if we
+[57:04] don't do that it kind of can get out of
+[57:05] control and maybe you just lose like one
+[57:08] tire and it just becomes a nightmare
+[57:10] it's just you know we had that a lot had
+[57:13] the the tires on
+[57:15] I think the cyclone you know came off if
+[57:17] someone breezed on them and that just
+[57:19] completely immobilized the cyclone you'd
+[57:22] be driving along and a completely flat
+[57:23] surface with no rocks and just a wheel
+[57:27] would fall off gives you here like a one
+[57:29] inch dip in the ground so we sort of not
+[57:33] disabled it but made it become
+[57:34] increasingly unlikely
+[57:36] because just completely ruin the
+[57:37] experience and you've got no way to get
+[57:39] the vehicle back to repair it so yeah
+[57:40] it's just like that okay so we are
+[57:44] wrapping up here just a couple more
+[57:45] questions will we ever be able to just
+[57:49] burst out a multi-tool and actually
+[57:50] physically repair our ships yeah that's
+[57:54] that's that's always been the plan
+[57:56] combination of multi-tool having a sort
+[57:59] of a repair thing and physically going
+[58:00] and getting sub items or entire
+[58:04] replacement items in there just to sort
+[58:06] of top-up the gaps
+[58:08] it's a combination of all those things
+[58:09] so maybe maybe it's not a motor so maybe
+[58:12] there'll be a specific repair tool but
+[58:15] there's that there's the swapping items
+[58:17] sub item swapping the whole items what
+[58:21] is the most effective way of giving
+[58:23] feedback to the new vehicle experienced
+[58:25] team so posting on spectrum and telling
+[58:29] us about your your problems and your
+[58:31] experiences is absolutely the most
+[58:33] useful and very often I think people
+[58:36] like to be helpful and so they tell us
+[58:39] they give us suggestions about things
+[58:41] that you know would make the game better
+[58:42] they suggest solutions yes but without
+[58:45] the problem we have to be able to
+[58:47] implement a solution like that we need
+[58:49] to understand the problem that you have
+[58:52] and so if you help us in understanding
+[58:55] the problem we can implement that
+[58:58] solution and understand that solution
+[59:00] much more effectively
+[59:01] so yeah just post post on the forums and
+[59:04] tell us about your experiences and the
+[59:06] issues that you have and why maybe you
+[59:09] think you're having those issues and you
+[59:12] know help us empathize with your
+[59:13] experience and then it'll be much easier
+[59:16] for us plate relations also do surveys
+[59:19] and sort of feedback reports with every
+[59:22] patch cycle that goes to all the
+[59:24] relevant people so we we see like the
+[59:27] most common things that are happening
+[59:30] and then it's working out the solutions
+[59:34] from that so that those reports sort of
+[59:35] aggregate all the problems okay so we
+[59:37] get to see them but this is problems for
+[59:40] everything so yeah talking in the forum
+[59:43] spectrum
+[59:44] you can collect it and for those
+[59:47] experience reports those are run by a
+[59:49] bear if I'm not mistaken so check those
+[59:52] out I believe there's a special section
+[59:55] on the suspension spectrum for those a
+[59:56] special section on spectrum wow there's
+[59:58] a lot I did it there's a special section
+[1:00:04] on spectrum for those and of course when
+[1:00:06] you're talking about showing the
+[1:00:08] problems suggestion solutions always
+[1:00:11] helpful always continue to that it's
+[1:00:14] just being as details you can about the
+[1:00:16] problems is generally more helpful
+[1:00:17] because with a bunch of interrelated
+[1:00:19] systems very often because of something
+[1:00:23] you even if it seems obvious may not be
+[1:00:26] the actual cause of that thing and so
+[1:00:27] that can tend to lead us down the wrong
+[1:00:29] path some of the best feedback i've ever
+[1:00:31] seen is like here's this thing that is
+[1:00:34] you know going wrong in gameplay here's
+[1:00:36] five things that I think might fix that
+[1:00:38] it looks like yes but just in case you
+[1:00:43] weren't that creative something still
+[1:00:46] explaining your problem being as
+[1:00:48] detailed about it as you can
+[1:00:49] being as dispassionate this is one of
+[1:00:52] those situations where try to remove a
+[1:00:54] motion out of it it just it just it just
+[1:00:57] helps we do have a very passionate and
+[1:01:00] dedicated fan base and that's tremendous
+[1:01:01] and you want to keep that it's just in
+[1:01:03] presenting feedback reports it's more
+[1:01:06] clinical you can be about it tends to be
+[1:01:08] the better finally last question what's
+[1:01:12] your biggest lesson learned about
+[1:01:13] vehicles from 2019 that you would take
+[1:01:15] with you going forward it's the biggest
+[1:01:18] one awesome it's hard question saved it
+[1:01:21] for last I think for me the biggest
+[1:01:26] lesson is in how to listen to the
+[1:01:32] community about feedback this I feel
+[1:01:35] like I've got off the back of the last
+[1:01:36] question but it honestly is the most the
+[1:01:39] most significant one learning how to
+[1:01:42] interact with the community learning how
+[1:01:44] to learning what is important to them is
+[1:01:47] a skill that I got much better at in
+[1:01:50] 2019
+[1:01:53] I think for me it's the the content side
+[1:01:56] is something that we've already put into
+[1:01:59] motion is working on ships with fewer
+[1:02:04] people so we work on more ships but they
+[1:02:09] run longer because in the past we've
+[1:02:11] been guilty of putting a ton of people
+[1:02:14] on a ship to just try and get it done
+[1:02:16] and you're all working on top of each
+[1:02:18] other trying to cram stuff in doctor's
+[1:02:20] delivery yeah you get a you get the ship
+[1:02:22] technically quicker but it's a
+[1:02:25] significantly greater human cost on that
+[1:02:28] size so it's taking a step back
+[1:02:30] rather than having 10 people work on two
+[1:02:35] ships it's having 10 people work on five
+[1:02:37] ships so you work on it for a year
+[1:02:40] instead of six months for a ship and
+[1:02:42] that allows you to take it slower put
+[1:02:45] more time and effort in if something
+[1:02:46] goes wrong you've got longer to correct
+[1:02:48] it rather than if someone was ill for a
+[1:02:50] week that's a huge amount of time in a
+[1:02:53] three-month schedule versus over a year
+[1:02:56] it's something that is easily accounted
+[1:02:58] for so people will see that in the the
+[1:03:00] ship schedule over 20 20 is more ships
+[1:03:06] less often so there'll be more in more
+[1:03:09] in development at any one time that they
+[1:03:11] they won't all be coming out like three
+[1:03:13] or four in a patch there'll be spread
+[1:03:15] out more what ships are coming out in
+[1:03:17] 2020 tell me hold them Carrick as usual
+[1:03:22] keep your eye on the public road map for
+[1:03:24] all the information about the ship
+[1:03:26] related releases throughout the rest of
+[1:03:27] the year
+[1:03:29] John Dave thank you so much for flying
+[1:03:32] all the way to California just to be
+[1:03:34] here on this show I had no other
+[1:03:36] responsibilities for those of you out in
+[1:03:40] star citizen land they're packed south
+[1:03:43] is this weekend we have a number of CIT
+[1:03:46] developers from our austin studio that
+[1:03:47] will be in attendance around town
+[1:03:50] mingling so if you are in the San
+[1:03:52] Antonio area and you see somebody in
+[1:03:53] these incredibly stylish hoods hoodies
+[1:03:56] that we didn't we didn't know much we
+[1:03:57] didn't plan this be sure you stopped you
+[1:04:01] stop him say hi say Jared sent you and
+[1:04:05] I mean I should bother you and then just
+[1:04:06] follow them around for five six hours
+[1:04:09] they will really appreciate that there
+[1:04:11] is also a bar status an event on
+[1:04:12] Saturday night you can find out all the
+[1:04:15] details at bar citizen SC assuming they
+[1:04:18] haven't changed the URL since the last
+[1:04:20] time I looked I really think it's been a
+[1:04:21] while so check that out bar citizen
+[1:04:23] tomorrow night it's at the Riverwalk
+[1:04:26] beer garden it's there every year it's
+[1:04:28] always the big the big event there every
+[1:04:30] year so be sure to check that out we
+[1:04:33] already said our goodbyes so for that
+[1:04:34] I'm Jared Huckaby this has been star
+[1:04:36] citizen live we'll see you next week
+[1:04:38] everybody take
+[1:04:51] thanks for watching for the latest and
+[1:04:53] greatest in star citizen squadron 42 you
+[1:04:55] can subscribe to our Channel or you can
+[1:04:57] check out some of the other shows and
+[1:04:59] you can also head to our website at

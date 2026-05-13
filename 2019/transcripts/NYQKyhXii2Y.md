@@ -6,11 +6,11 @@
 
 ## Transcript
 
-out here you've got your crew and your
-ship the only thing that matters is
-getting the job done
-[Music]
-this is your workshop your playground
-your command center this is your multi
-operator laser extractor argo
-astronautics building your future
+[00:06] out here you've got your crew and your
+[00:10] ship the only thing that matters is
+[00:16] getting the job done
+[00:17] [Music]
+[00:20] this is your workshop your playground
+[00:25] your command center this is your multi
+[00:30] operator laser extractor argo
+[00:35] astronautics building your future
