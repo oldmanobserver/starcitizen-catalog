@@ -6,573 +6,573 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:06] Closed Captioning provided by the Imperial
 News Network.
-Chris Roberts (CR): Hello everyone.
-Welcome to another episode of 10 for the Chairman.
-For those of you who haven’t seen this before,
+[00:14] Chris Roberts (CR): Hello everyone.
+[00:19] Welcome to another episode of 10 for the Chairman.
+[00:22] For those of you who haven’t seen this before,
 this is where I answer 10 questions that have
-been put forward by the subscribers.
-The subscribers are a subset of our community
+[00:25] been put forward by the subscribers.
+[00:27] The subscribers are a subset of our community
 that contribute money every month to enable
-us to do all of our enhanced community content.
-So we thank you very much for that because
+[00:31] us to do all of our enhanced community content.
+[00:33] So we thank you very much for that because
 it really allows us to do a higher degree
-of content and pays for a lot of the community
+[00:37] of content and pays for a lot of the community
 staff and videographers and editors to allow
-us to put all the video shows we do every
+[00:43] us to put all the video shows we do every
 week and also do the extra amount of updates
-on our website and we have also for subscribers
+[00:49] on our website and we have also for subscribers
 as part of a perk for subscribing there’s
-a Jump Point magazine which is usually somewhere
+[00:56] a Jump Point magazine which is usually somewhere
 between 40 and 70 pages of behind the scenes
-material, how we build and design ships or
+[01:01] material, how we build and design ships or
 how we’re designing a game system or lore
-for the world or details about a system and
+[01:07] for the world or details about a system and
 also some fictional stories that we’ve published.
-It’s really a pretty cool read and it has
+[01:12] It’s really a pretty cool read and it has
 sort of I guess information a little sooner
-than we release to the general overall community
+[01:17] than we release to the general overall community
 so it’s kind of a perk for being a subscriber
-and then there’s also sort of flair that
+[01:23] and then there’s also sort of flair that
 we add to the hangar and some other areas
-in terms of well, thank you for being subscribers
+[01:28] in terms of well, thank you for being subscribers
 and helping us do all this other stuff so
-because of that I also try to answer 10 questions
+[01:34] because of that I also try to answer 10 questions
 put forward by the subscribers as the best
-of my ability that hopefully gives you a little
+[01:40] of my ability that hopefully gives you a little
 insight into where we’re heading or some
-of the ideas we have or answer some of the
+[01:44] of the ideas we have or answer some of the
 questions you guys would really like answered.
-So the first one comes from.
-[01:48] Furry Quandarys asks: It’s been
+[01:49] So the first one comes from.
+[01:51] [01:48] Furry Quandarys asks: It’s been
 stated that Squadron 42 is set a few years
-before the PU.
-So will S42 be set at the current-game year
+[01:56] before the PU.
+[01:58] So will S42 be set at the current-game year
 at the time of its release (ie 2946) and the
-PU ahead of the current year.
-Or S42 in the past and the PU in the current
+[02:05] PU ahead of the current year.
+[02:07] Or S42 in the past and the PU in the current
 year?
-Will episode 2 also be set before the PU?
-CR: I would think that in general we would
+[02:11] Will episode 2 also be set before the PU?
+[02:14] CR: I would think that in general we would
 set the Squadron 42 Episode 1, 2 and 3 would
-all be set before we start the PU timeline,
+[02:21] all be set before we start the PU timeline,
 I guess is the way to think of it.
-So, right now, we do this analogous, it used
+[02:27] So, right now, we do this analogous, it used
 to be 2942, now it’s 2946, so we would probably
-be setting Squadron 42 in 2942 and between
+[02:36] be setting Squadron 42 in 2942 and between
 there and when the PU would start.
-Squadron 42, 2942, works pretty well.
-[2:58] Zankyri asks: My ship has been boarded
+[02:45] Squadron 42, 2942, works pretty well.
+[02:49] [2:58] Zankyri asks: My ship has been boarded
 and I cut the gravity generator.
-Assuming I still have thrusters and potentially
+[02:53] Assuming I still have thrusters and potentially
 partial main engines.
-I wait until the boarders are inside the ship,
+[02:57] I wait until the boarders are inside the ship,
 my crew are strapped into crew seats and I
-use the thrusters/engines to generate G-force,
+[03:01] use the thrusters/engines to generate G-force,
 pitch, yaw, roll forward, speed, hard stop,
-rinse repeat.
-If I am able to generate even 25 m/sec potential
+[03:07] rinse repeat.
+[03:08] If I am able to generate even 25 m/sec potential
 boarding parties will be hitting walls at
-90 km/hour.Does the game have sufficient physics
+[03:13] 90 km/hour.Does the game have sufficient physics
 to handle this kind of damage implementation,
-and how effective would mag boots be in this
+[03:19] and how effective would mag boots be in this
 scenario?
-CR: So that’s definitely, a pretty detailed
+[03:23] CR: So that’s definitely, a pretty detailed
 question and approach.
-So what I will say is that the longer term
+[03:32] So what I will say is that the longer term
 plan for the interior grid physics is that
-we will simulate a certain amount of external
+[03:38] we will simulate a certain amount of external
 forces.
-So if a ship gets hit we’re planning to
+[03:42] So if a ship gets hit we’re planning to
 have a bit of that force propagate inside
-to the non strapped down or attached entities,
+[03:50] to the non strapped down or attached entities,
 one of which will be players.
-So you know that classic Star Wars shot where,
+[03:54] So you know that classic Star Wars shot where,
 or Star Trek really where the ship gets hit
-and everyone sort of staggers and braces themselves
+[04:00] and everyone sort of staggers and braces themselves
 against walls.
-That’s all stuff that long term we are planning
+[04:04] That’s all stuff that long term we are planning
 on doing.
-Part of what we’re doing with the physicalised
+[04:09] Part of what we’re doing with the physicalised
 EVA is some early stuff that will enable this
-combination of animation and procedural physical
+[04:15] combination of animation and procedural physical
 reaction to an environment.
-So we’ll definitely do some of that and
+[04:20] So we’ll definitely do some of that and
 the bigger ships also in terms of they have
-to do a hard turn then what would be probably
+[04:23] to do a hard turn then what would be probably
 do even though they have their own gravity
-generators, is that maybe the gravity field
+[04:28] generators, is that maybe the gravity field
 or whatever is slightly laggy for where the
-ship position is.
-So if you’re turning really fast so that
+[04:33] ship position is.
+[04:34] So if you’re turning really fast so that
 the gravity in stead of being straight down
-is there until it can move back there.
-You would have a little bit of this turning
+[04:38] is there until it can move back there.
+[04:41] You would have a little bit of this turning
 effect.
-You see it in classic Star Wars where it’s
+[04:44] You see it in classic Star Wars where it’s
 like, Empire Strikes Back “Take evasive
-action!”.
-The two, well actually three Star Destroyers
+[04:50] action!”.
+[04:51] The two, well actually three Star Destroyers
 all do this [gestures with hands] you’ll
-see people tilt on one of their bridges.
-We’ll try to do a bit of that, I don’t
+[04:54] see people tilt on one of their bridges.
+[04:59] We’ll try to do a bit of that, I don’t
 know if we’re going to do it to the point
-where you could generate that much force that
+[05:02] where you could generate that much force that
 you would, that is being described in this
-question.
-The idea will be it’s damped it wouldn’t
+[05:09] question.
+[05:10] The idea will be it’s damped it wouldn’t
 necessarily be full on, it would be a little
-bit of it would bleed into the interior physics
+[05:15] bit of it would bleed into the interior physics
 stuff.
-Now if you turned all the gravity off inside
+[05:18] Now if you turned all the gravity off inside
 the ship, then yes you would be in zero G
-and then as things move around you’re not
+[05:23] and then as things move around you’re not
 attached to anything then we would have to
-probably, would have to see how to do that,
+[05:29] probably, would have to see how to do that,
 because generally you would still be in the
-interior grid physics.
-So we would have to iterate through non attached
+[05:35] interior grid physics.
+[05:36] So we would have to iterate through non attached
 entities and essentially keep them in their
-relative place within the overall ship.
-So basically they would stay in the world
+[05:42] relative place within the overall ship.
+[05:44] So basically they would stay in the world
 frame reference while the ship itself would
-move around.
-We can definitely do that but that currently
+[05:48] move around.
+[05:50] We can definitely do that but that currently
 would require a little extra code.
-So I would say longer term that potentially
+[05:54] So I would say longer term that potentially
 will happen short term that’s not right
-on the immediate horizon for implementation.
-And if you had mag-boots that probably would
+[06:01] on the immediate horizon for implementation.
+[06:05] And if you had mag-boots that probably would
 secure you to something then you wouldn’t
-move around.
-[6:17] Heavy Metal asks: A while ago, before
+[06:09] move around.
+[06:10] [6:17] Heavy Metal asks: A while ago, before
 the baby PU, there was talk of a ‘Pirate
-Swarm’ much like Vanduul Swarm.
-I know in some way that is what we find at
+[06:15] Swarm’ much like Vanduul Swarm.
+[06:17] I know in some way that is what we find at
 the Com arrays in the PU but is there still
-a chance of getting that in Arena Commander?
-I would love to hone my skills and test weapons
+[06:23] a chance of getting that in Arena Commander?
+[06:24] I would love to hone my skills and test weapons
 on ships after other than Vanduul, and I would
-love to see the larger ships in solo play.
-So, Pirate Swarm essentially is what we got
+[06:28] love to see the larger ships in solo play.
+[06:31] So, Pirate Swarm essentially is what we got
 in Crusader.
-So, we were sort of building . . at the time
+[06:35] So, we were sort of building . . at the time
 when it was just Arena Commander, we want
-to change it around and have maybe some other
+[06:40] to change it around and have maybe some other
 modes to fight some other enemies.
-In reality the Crusader map, which is the
+[06:44] In reality the Crusader map, which is the
 mini PU map, which is really going to grow
-into the Stanton star system map, where we
+[06:48] into the Stanton star system map, where we
 sort of decided to put these different encounters
-whether it was with AI or you could find other
+[06:53] whether it was with AI or you could find other
 players to fight.
-And so that’s essentially where Pirate Swarm
+[06:57] And so that’s essentially where Pirate Swarm
 went.
-So, in the short term we are not really planning
+[07:00] So, in the short term we are not really planning
 on doing a lot of work on Arena Commander,
-because we really want to get the base game
+[07:03] because we really want to get the base game
 play and functionality into the proper large
-world map, the proper mini PU.
-Get the various rock, paper, scissors aspects,
+[07:08] world map, the proper mini PU.
+[07:11] Get the various rock, paper, scissors aspects,
 the various different professions, the various
-different forces in opposition, and the various
+[07:17] different forces in opposition, and the various
 mechanics that keep people aligned whether
-you’re good or bad or whatever.
-For us Arena Commander, now is a good place
+[07:22] you’re good or bad or whatever.
+[07:25] For us Arena Commander, now is a good place
 to test some of your dogfighting skills.Longer
-term we will add to it.
-We will probably add some more challenge modes
+[07:31] term we will add to it.
+[07:32] We will probably add some more challenge modes
 and definitely do better matchmaking and make
-that more of a competitive practice area.
-Of course we’ll do the same thing with Star
+[07:39] that more of a competitive practice area.
+[07:43] Of course we’ll do the same thing with Star
 Marine, but right now we really just sort
-of want to get everything into the mini PU
+[07:46] of want to get everything into the mini PU
 because that’s sort of our foundation for
-the overall game.
-Then things will trickle later on into features
+[07:50] the overall game.
+[07:52] Then things will trickle later on into features
 for Arena Commander or Star Marine, which
-are really meant to be ultimately training
+[07:58] are really meant to be ultimately training
 modes for you to train in certain aspects
-of the game.
-Potentially also to test your skills against
+[08:02] of the game.
+[08:04] Potentially also to test your skills against
 other players without having the same sort
-of risk you would have in the proper Persistent
+[08:08] of risk you would have in the proper Persistent
 Universe because it’s persistent.
-So if you lose things or die, you will lose
+[08:13] So if you lose things or die, you will lose
 them, whereas in Arena Commander or Star Marine
-you won't.
-[8:24] Zilch asks: How will reconnaissance
+[08:17] you won't.
+[08:18] [8:24] Zilch asks: How will reconnaissance
 work, aside from relaying information through
-chat?
-Will there be in-game methods for ships to
+[08:22] chat?
+[08:23] Will there be in-game methods for ships to
 mark targets either physically or electronically?
-Will there be any value in sending ships or
+[08:27] Will there be any value in sending ships or
 players as operatives in advance of an attacking
-force?
-CR: So, absolutely, yes, there will be in-game
+[08:31] force?
+[08:32] CR: So, absolutely, yes, there will be in-game
 methods for marking ships.
-I think I talked a long time ago and mentioned
+[08:35] I think I talked a long time ago and mentioned
 quite a few times about sort of the “person
-of interest”, and really “person of interest”,
+[08:41] of interest”, and really “person of interest”,
 “point of interest” kind of gameplay where
-you would sort of tag a ship or tag an individual
+[08:48] you would sort of tag a ship or tag an individual
 and you say “yes, I’m interested in them”.
-You could maybe say “Yes, I’m marking
+[08:53] You could maybe say “Yes, I’m marking
 this person for my friends to follow” or
-you are going to say “Yes, meet me at this
+[08:58] you are going to say “Yes, meet me at this
 location” and tag this location and beam
-it to your friends.
-So, definitely having someone out there sort
+[09:01] it to your friends.
+[09:02] So, definitely having someone out there sort
 of being sort of the eyes and relaying information
-to other players cooperatively would be a
+[09:07] to other players cooperatively would be a
 big part of gameplay and I think, you know,
-it will fall very much in line of what I think
+[09:13] it will fall very much in line of what I think
 makes Star Citizen special, ‘cause I really
-sort of feel, and it’s kind of cool watching
+[09:17] sort of feel, and it’s kind of cool watching
 you know, all the people streaming 2.1 and
-2.2 and videos people have made where you
+[09:23] 2.2 and videos people have made where you
 really, the –some of the coolest stuff is
-people working with each other to do things,
+[09:27] people working with each other to do things,
 you know.
-Helping each other out, rescuing someone,
+[09:30] Helping each other out, rescuing someone,
 you know, working in unison to fly a bigger
-ship, and of course I mention this all the
+[09:35] ship, and of course I mention this all the
 time, but those are things that are very high
-on the list to make sure, you know, all the
+[09:39] on the list to make sure, you know, all the
 full functionality is there for it ‘cause
-we’re still missing a bunch on the multi-crew
+[09:43] we’re still missing a bunch on the multi-crew
 functionality and the seats, and all the rest
-of stuff, which is being worked on as I speak.
-But ,you know, the cooperative nature of the
+[09:46] of stuff, which is being worked on as I speak.
+[09:48] But ,you know, the cooperative nature of the
 gameplay is really important for us, and obviously
-reconnaissance, and calling out targets, and
+[09:54] reconnaissance, and calling out targets, and
 all that would be part of it.
-[10:02] Darjanator asks: My question is about
+[09:57] [10:02] Darjanator asks: My question is about
 scripted non-hostile NPC encounters.
-In most games these animations are done with
+[10:03] In most games these animations are done with
 no regard to player position or actions, but
-you’ve said this will not be the case here.
-Can we expect NPCs to not just bump into us
+[10:07] you’ve said this will not be the case here.
+[10:08] Can we expect NPCs to not just bump into us
 if we get in their way during scripted animation?
-Will they use some other means to get around
+[10:14] Will they use some other means to get around
 us along their path or make us get our of
-their way (maybe based on their personality,
+[10:18] their way (maybe based on their personality,
 I.E try to squeeze past or ordering you to
-get the hell out of their way)?
-CR: That’s definitely something that is
+[10:23] get the hell out of their way)?
+[10:25] CR: That’s definitely something that is
 big on the list, it’s actually kind of a
-core feature to Squadron 42 which will also
+[10:29] core feature to Squadron 42 which will also
 be used in the Persistent Universe, but in
-general what’s going to happen is the encounters,
+[10:36] general what’s going to happen is the encounters,
 characters moving around, it’s not really
-going to be just some canned animation that
+[10:43] going to be just some canned animation that
 plays.
-What will happen is, AI will have all the
+[10:45] What will happen is, AI will have all the
 different fragments and pieces of various
-things the characters can do and then it sorts
+[10:50] things the characters can do and then it sorts
 of systematically plays them based on situation,
-y’know, where you are with respect to the
+[10:56] y’know, where you are with respect to the
 character, it can also adjust it’s look
-procedurally or his or her look procedurally
+[11:01] procedurally or his or her look procedurally
 on the NPC side.
-So if you get in the way then it’ll just
+[11:06] So if you get in the way then it’ll just
 sort of shift into locomotion to avoid you
-there will also be co-operative animations
+[11:12] there will also be co-operative animations
 for people trying to squeeze past you, so
-we’re really going to try to bring it a
+[11:16] we’re really going to try to bring it a
 little more life-like.
-I think Uncharted, y’know the videos for
+[11:18] I think Uncharted, y’know the videos for
 the new Uncharted 4 but, Uncharted does a
-really good job of this for some of the NPC
+[11:24] really good job of this for some of the NPC
 moving around with interactions.
-We definitely aiming to be there or better.
-[11:38] Corrin Avatan asks: In the recent
+[11:28] We definitely aiming to be there or better.
+[11:32] [11:38] Corrin Avatan asks: In the recent
 10 for the Chairman, there was mention of
-hacking a terminal to reduce wanted level.
-Given that in-universe, there is no FTL communication,
+[11:37] hacking a terminal to reduce wanted level.
+[11:39] Given that in-universe, there is no FTL communication,
 will there be instances where someone can
-commit a crime in one system, jump three systems
+[11:43] commit a crime in one system, jump three systems
 away, and the local police will scan them,
-but not realize they have a criminal, until
+[11:48] but not realize they have a criminal, until
 the next ‘Criminal Information’ update
-comes in via Herald or Reliant News Van?
-Yes.
-Absolutely, 100 percent.
-That is the design.
-So even though we recognise that players can
+[11:51] comes in via Herald or Reliant News Van?
+[11:54] Yes.
+[11:55] Absolutely, 100 percent.
+[11:56] That is the design.
+[11:57] So even though we recognise that players can
 talk to each other on TeamSpeak or Discord
-or in channel chat, and that’s basically
+[12:02] or in channel chat, and that’s basically
 instantaneous so it would be faster than light
-if you were talking to your buddy in another
+[12:07] if you were talking to your buddy in another
 system and we can’t block that because you
-can always just run an independent program,
+[12:11] can always just run an independent program,
 we will make sure that all the game systems
-themselves propagate properly in the game.
-So in terms of your wanted status in the game
+[12:15] themselves propagate properly in the game.
+[12:18] So in terms of your wanted status in the game
 or when you are transferring funds or transferring
-goods they will all have to move via locations,
+[12:22] goods they will all have to move via locations,
 to different things, as you would inside the
-physical setup of our game.
-So yes you could commit a crime, jump out
+[12:29] physical setup of our game.
+[12:31] So yes you could commit a crime, jump out
 of there and that may not have reached the
-system you’ve got to just yet.
-At some point it will, because the information
+[12:35] system you’ve got to just yet.
+[12:36] At some point it will, because the information
 will travel through the UEE Advocacy network
-and you’ll become wanted in that system,
+[12:41] and you’ll become wanted in that system,
 but you’ll maybe be able to “beat” the
-information.
-But that is also one of the reasons why an
+[12:45] information.
+[12:46] But that is also one of the reasons why an
 info-runner has a job because on the less
-structured systems like … so a more regulated
+[12:51] structured systems like … so a more regulated
 police system has a lot of communication satellites
-and information relays that are used to broadcast
+[12:58] and information relays that are used to broadcast
 stuff around and then send the little drones
-through jump points to the other system which
+[13:04] through jump points to the other system which
 then broadcasts stuff around but that’s
-in the structured infrastructure in the core
+[13:08] in the structured infrastructure in the core
 of the UEE system … the border ones you
-maybe won’t get that or it will only be
+[13:13] maybe won’t get that or it will only be
 in certain areas or patchy and so things like
-info-runners will be the courier that comes
+[13:18] info-runners will be the courier that comes
 and passes information.
-So that’s a good reason: maybe you don’t
+[13:25] So that’s a good reason: maybe you don’t
 want the message to get somewhere.
-Maybe someone does.
-So there’s cool gameplay that comes from
+[13:28] Maybe someone does.
+[13:30] So there’s cool gameplay that comes from
 that.
-And I think also I should mention that in
+[13:32] And I think also I should mention that in
 2.2 right now we already kind of have a little
-bit of this gameplay where you can adjust
+[13:38] bit of this gameplay where you can adjust
 your wanted level in Port Kareah and it adds
-a goal to be in Port Kareah.
-Also taking down or putting up the satellites
+[13:45] a goal to be in Port Kareah.
+[13:47] Also taking down or putting up the satellites
 basically enables whether there is coverage
-in that area.
-So whether you commit a criminal act or not,
+[13:52] in that area.
+[13:53] So whether you commit a criminal act or not,
 if the satellite’s down then you can do
-what you want, if it’s up and you shoot
+[13:56] what you want, if it’s up and you shoot
 someone that you shouldn’t shoot i.e. you
-shoot a lawful person, that isn’t wanted,
+[14:00] shoot a lawful person, that isn’t wanted,
 that doesn’t have a bounty on them, then
-you become wanted too.
-So that’s the very beginning fundamentals
+[14:07] you become wanted too.
+[14:09] So that’s the very beginning fundamentals
 of the mechanic that we’ll implement in
-the bigger system, that will have a lot more
+[14:14] the bigger system, that will have a lot more
 details and nuance to it.
-So what we have right now in 2.2 is the first
+[14:18] So what we have right now in 2.2 is the first
 iteration, which I think is cool because it
-provide some structure to the gameplay, but
+[14:22] provide some structure to the gameplay, but
 obviously it’s a crude first implementation.
-So for instance we kick you when you are killed
+[14:27] So for instance we kick you when you are killed
 at level five to be your big penalty from
-the server now that is not a long term plan
+[14:33] the server now that is not a long term plan
 at all.
-Long term what will happen is when, depending
+[14:36] Long term what will happen is when, depending
 on side of the law you fall in, when you essentially
-get killed, say when you become an outlaw
+[14:44] get killed, say when you become an outlaw
 you’ll probably respawn in an outlaw friendly
-area or planet or asteroid base or whatever.
-And at a certain wanted level when you get
+[14:49] area or planet or asteroid base or whatever.
+[14:52] And at a certain wanted level when you get
 killed you basically got captured and you’ll
-go to a prison.
-And then you’ll have to get out of the prison
+[14:57] go to a prison.
+[14:58] And then you’ll have to get out of the prison
 by escaping or just serving your time or bribing
-someone to come out it.
-So we’ll make it more immersive and organic
+[15:04] someone to come out it.
+[15:05] So we’ll make it more immersive and organic
 to the world but short term we needed … because
-we don’t have any way to pay people for
+[15:11] we don’t have any way to pay people for
 money in 2.2 and we don’t really have any
-sort of … there’s no persistence so we
+[15:15] sort of … there’s no persistence so we
 don’t really have penalties so we sort of
-use the penalty of either locking you in your
+[15:19] use the penalty of either locking you in your
 room for a little bit or kicking you from
-the server.
-But that is very short term.
-[15:33] PartyFruit asks: Will there be an
+[15:25] the server.
+[15:26] But that is very short term.
+[15:27] [15:33] PartyFruit asks: Will there be an
 achievement feature in the near future (or
-at least in the final game)?
-If so, would they award the players with anything
+[15:33] at least in the final game)?
+[15:34] If so, would they award the players with anything
 (such as weapons, in-game money, decals)?
-CR: Alright well so, a couple of things.
-Yes long term it’s definitely going to be
+[15:38] CR: Alright well so, a couple of things.
+[15:41] Yes long term it’s definitely going to be
 in the game but my goal for achievements isn’t
-so much the standard like Xbox goals or the
+[15:46] so much the standard like Xbox goals or the
 Steam goals.
-It’s more the you get in-game mementos.
-So you know you visit a location and you got
+[15:50] It’s more the you get in-game mementos.
+[15:53] So you know you visit a location and you got
 the snow globe from there.
-All those kind of silly things when you fly
+[15:57] All those kind of silly things when you fly
 to different cities you bring back little
-mementos.
-That definitely would be an achievement feature
+[16:02] mementos.
+[16:03] That definitely would be an achievement feature
 and you would unlock or get certain items
-for doing things.
-We have a simple thing right now, where you
+[16:07] for doing things.
+[16:09] We have a simple thing right now, where you
 kill a level five outlaw in the current 2.2
-build and you will get a laser rifle.
-Which is a short term kind of achievement
+[16:19] build and you will get a laser rifle.
+[16:21] Which is a short term kind of achievement
 thing that you can get.
-Of course that’s going to become much more
+[16:25] Of course that’s going to become much more
 sophisticated as things go on.
-But it will all be based on things that you
+[16:28] But it will all be based on things that you
 would get in the world and kind of holistic
-to the world if that makes sense, and not
+[16:34] to the world if that makes sense, and not
 be some thing on a scoreboard or not like
-a little trophy that you get.
-That’s the idea of the fish tank and all
+[16:38] a little trophy that you get.
+[16:40] That’s the idea of the fish tank and all
 those things you have in your hangar it’s
-to display your in-game achievements so to
+[16:44] to display your in-game achievements so to
 speak.
-[16:53] Talinon asks: I really want to know
+[16:48] [16:53] Talinon asks: I really want to know
 if there will be a place for people in Squadron
-42 and who don’t want to be part of the
+[16:53] 42 and who don’t want to be part of the
 FPS but yet still want to be part of the game?
-Fortunate to tell you, Talinon, that Squadron
+[16:59] Fortunate to tell you, Talinon, that Squadron
 42 has ship combat and FPS and it’s all
-sort of blended, so you run around on foot,
+[17:08] sort of blended, so you run around on foot,
 you run around flying ships, you basically
-fly a Star Pilot so primarily you are going
+[17:14] fly a Star Pilot so primarily you are going
 to be flying missions.
-But there will be cases where you land or
+[17:17] But there will be cases where you land or
 you have to EVA to explore a ship, or you’ll
-get stuck on a base or an asteroid thing,
+[17:22] get stuck on a base or an asteroid thing,
 and you’ll have to fight your way out.
-So it’s really a full seamless blend or
+[17:26] So it’s really a full seamless blend or
 running around on foot, flying ships, interacting
-with characters on the ship your based on
+[17:31] with characters on the ship your based on
 or on other locations.
-So I don't think there will be an option to
+[17:36] So I don't think there will be an option to
 not participate in FPS but do the other things
-in SQ42, it’s kind of a holistic experience.
-I think it’s gonna be fun, it’s gonna
+[17:41] in SQ42, it’s kind of a holistic experience.
+[17:43] I think it’s gonna be fun, it’s gonna
 be good.
-We’re obviously not going to make it where
+[17:45] We’re obviously not going to make it where
 you need to to be the world’s best FPS player
-to get through, it’s just going to be a
+[17:48] to get through, it’s just going to be a
 fun adventure, and I think the fact that you
-go between, it’s all from your point of
+[17:53] go between, it’s all from your point of
 view and you can do everything as you would
-almost in the real world, it’s going to
+[17:58] almost in the real world, it’s going to
 make it a much more immersive experience than
-any of the past Wing Commanders I’ve done.
-So, there you go, that’s my answer on that
+[18:02] any of the past Wing Commanders I’ve done.
+[18:03] So, there you go, that’s my answer on that
 one.
-[18:13] Conflict Viper asks: You’ve mentioned
+[18:08] [18:13] Conflict Viper asks: You’ve mentioned
 before that veteran pilots may show their
-wear and tear with replacement limbs, has
+[18:12] wear and tear with replacement limbs, has
 there been any thought to allowing pilots
-to augment their bodies with replacement limbs
+[18:16] to augment their bodies with replacement limbs
 to allow for higher G endurance and less chance
-of a blackout during space combat?
-CR: Yes, we have discussed that.
-I mean, we are, you know, longer term going
+[18:20] of a blackout during space combat?
+[18:22] CR: Yes, we have discussed that.
+[18:24] I mean, we are, you know, longer term going
 to have replacement limbs and parts spare
-so you kind of have certain cyborg-y action
+[18:29] so you kind of have certain cyborg-y action
 that’s going on.
-We have talked about potential to get a better
+[18:39] We have talked about potential to get a better
 G suit that will let you have higher G tolerances.
-Potentially, if you have, you know, some augmented
+[18:45] Potentially, if you have, you know, some augmented
 body part.
-Perhaps that would help you too.
-So, long term, we have discussed that, and
+[18:50] Perhaps that would help you too.
+[18:51] So, long term, we have discussed that, and
 probably will be something long term, but
-short term, No.
-That would definitely be part of character
+[18:57] short term, No.
+[18:58] That would definitely be part of character
 customization in our overall long-term plan.
-[19:09] Apportioner asks: Will players be
+[19:04] [19:09] Apportioner asks: Will players be
 able to participate in the UEE or any other
-faction’s elections?
-Can a player run for office in the UEE?
-CR: I guess we have that because we’re in
+[19:11] faction’s elections?
+[19:12] Can a player run for office in the UEE?
+[19:15] CR: I guess we have that because we’re in
 the process, in America anyway of nominating
-the various candidates for the next presidency
+[19:22] the various candidates for the next presidency
 of the United States and hopefully our UEE
-elections will be less dramatic than the ones
+[19:29] elections will be less dramatic than the ones
 happening here in the U.S.
-But this is early days for us on this.
-We definitely felt that being a citizen would
+[19:37] But this is early days for us on this.
+[19:40] We definitely felt that being a citizen would
 give you some rights, and one of the rights
-would be able to, vote or have some effect
+[19:46] would be able to, vote or have some effect
 on general things in the same way, I guess
-you do in the real world.
-Which is pretty not that much!
-So that is a longer term goal to have some
+[19:53] you do in the real world.
+[19:55] Which is pretty not that much!
+[19:58] So that is a longer term goal to have some
 participation in that.
-Probably will be Game Mastered by us, because
+[20:03] Probably will be Game Mastered by us, because
 we’re planning to besides just having the
-simulation of the universe we also hand push
+[20:08] simulation of the universe we also hand push
 it and guide it towards, ‘cause we have
-an overall story and timeline we have in our
+[20:14] an overall story and timeline we have in our
 minds for Star CItizen.
-So we’ll create events and elections and
+[20:18] So we’ll create events and elections and
 seismic change events in the universe that
-will potentially affect players and AI.
-One of those could be elections.
-I don’t think we’ll in the short term
+[20:24] will potentially affect players and AI.
+[20:27] One of those could be elections.
+[20:29] I don’t think we’ll in the short term
 anyway, have a player run for the office in
-the United Empire of Earth but again long
+[20:34] the United Empire of Earth but again long
 term you never know.
-We’re pretty big on player agency and participation.
-A lot of the fun that I see happening in the
+[20:38] We’re pretty big on player agency and participation.
+[20:43] A lot of the fun that I see happening in the
 SC Alpha 2.1 and 2.2 is players doing stuff
-and creating content for other players and
+[20:51] and creating content for other players and
 we’re pretty big on that.
-That’s our whole sort of mission.
-Our world system is built up to react to what
+[20:55] That’s our whole sort of mission.
+[20:56] Our world system is built up to react to what
 players and AI is doing and based on that
-it generates other missions, so it’s sort
+[21:02] it generates other missions, so it’s sort
 of a feedback loop.
-So getting players involved in other things
+[21:06] So getting players involved in other things
 is good.
-So longer term potentially, you never know
+[21:10] So longer term potentially, you never know
 I think they have a version of players involved
-in EvE in terms of running things as well.
-So I think as we said something we’re planning
+[21:17] in EvE in terms of running things as well.
+[21:20] So I think as we said something we’re planning
 long term but we are going to give you benefits
-for being a citizen to allow you to participate
+[21:27] for being a citizen to allow you to participate
 or get certain things that you wouldn’t
-if you weren’t a citizen.
-And of potentially would be voting for this
+[21:31] if you weren’t a citizen.
+[21:32] And of potentially would be voting for this
 person or that person and then depending on
-which one you voted for, as an AI character
+[21:37] which one you voted for, as an AI character
 it could have an impact on how the world unfolds
-in Star Citizen.
-So that’s kind of the fun element we’re
+[21:43] in Star Citizen.
+[21:44] So that’s kind of the fun element we’re
 thinking that we really again player’s themselves
-doing things, changing, affecting the world
+[21:50] doing things, changing, affecting the world
 and the game or us as Game Masters reacting
-to that, keeping it fluid and dynamic should
+[21:56] to that, keeping it fluid and dynamic should
 be fun!
-Outro
-There’s the ten questions for this episode
+[22:00] Outro
+[22:01] There’s the ten questions for this episode
 of this 10 for the Chairman, this is the last
-episode I will be doing for a few weeks.
-I’m actually already in the UK now, this
+[22:04] episode I will be doing for a few weeks.
+[22:06] I’m actually already in the UK now, this
 is recorded in the past before I left but
-I am now in a much colder and rainier place
+[22:14] I am now in a much colder and rainier place
 than Los Angeles.
-I will restart it as soon as I am back in
+[22:20] I will restart it as soon as I am back in
 LA, back and forth with my schedule, hope
-the questions that I answered were informative
+[22:25] the questions that I answered were informative
 for you guys and my answers were good.
-Thank you to all the subscribers for backing,
+[22:32] Thank you to all the subscribers for backing,
 first of all allowing us to do this enhanced
-community content, and all the backers in
+[22:37] community content, and all the backers in
 general for backing the game and allowing
-us to make a game of the ambition and scope
+[22:41] us to make a game of the ambition and scope
 that we’re doing.
-A lot of these questions are not normally
+[22:44] A lot of these questions are not normally
 questions that most games would ever be able
-to say, “Yes, we’ll do” and one of the
+[22:48] to say, “Yes, we’ll do” and one of the
 reasons why we say, “Yes, we’re going
-to do it” maybe not always doing it tomorrow
+[22:52] to do it” maybe not always doing it tomorrow
 but it’s on the plan is because of the support
-you guys have done.
-You’re enabling us to build a game of the
+[22:57] you guys have done.
+[22:58] You’re enabling us to build a game of the
 scope and scale no one would normally in their
-right mind take on but I think it’s going
+[23:03] right mind take on but I think it’s going
 to be awesome when it’s all said and done.
-Anyways, it’s been nice talking to you guys
+[23:08] Anyways, it’s been nice talking to you guys
 and I will talk to you in a few weeks time.
-Take care, bye.
+[23:22] Take care, bye.

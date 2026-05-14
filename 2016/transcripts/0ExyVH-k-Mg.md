@@ -6,200 +6,200 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:10] Closed Captioning provided by the Imperial
 News Network.
-Cherie Heiberg: Hello, welcome to another
+[00:30] Cherie Heiberg: Hello, welcome to another
 episode of Loremaker’s Guide to the Galaxy.
-I’m archivist, Cherie Heiberg.
-If you’ve never seen Loremaker’s Guide
+[00:40] I’m archivist, Cherie Heiberg.
+[00:42] If you’ve never seen Loremaker’s Guide
 before this is a program in which the members
-of the Lore team at CIG take you on a guide
+[00:48] of the Lore team at CIG take you on a guide
 through the mythology, the history and the
-science behind all of the systems we’re
+[00:56] science behind all of the systems we’re
 making for the game.
-With that let us get started.
-Today we are going to Pyro, now Pyro has an
+[01:01] With that let us get started.
+[01:06] Today we are going to Pyro, now Pyro has an
 interesting history… there we go.
-It’s an unclaimed system with a red dwarf
+[01:17] It’s an unclaimed system with a red dwarf
 at the centre, no inhabitable planets yet
-it still has a somewhat sizable population.
-It is home to smugglers, criminals, pirates
+[01:26] it still has a somewhat sizable population.
+[01:30] It is home to smugglers, criminals, pirates
 and the brigands of the galaxy.
-The system…
-even though it’s not very friendly, it’s
+[01:33] The system…
+[01:35] even though it’s not very friendly, it’s
 fun for pirates to be in, They like it, they
-have a good time, they control what’s going
+[01:44] have a good time, they control what’s going
 on, it’s pretty nice.
-However it is pretty dangerous system to be
+[01:48] However it is pretty dangerous system to be
 in because the star in the centre being a
-flare star which I’ll get into in a moment.
-Fire fights are not uncommon, there is no
+[01:53] flare star which I’ll get into in a moment.
+[01:59] Fire fights are not uncommon, there is no
 political stability unlike Spider which has…
-Spider’s pretty stable.
-The pirates home in Pyro is known for a place
+[02:03] Spider’s pretty stable.
+[02:06] The pirates home in Pyro is known for a place
 where you want to go and get some shady, shady
-jobs and maybe get in a good fight if you
+[02:15] jobs and maybe get in a good fight if you
 want to get in a good fight.
-Anyway, also one second…
-this system is the basis of a level of Wing
+[02:20] Anyway, also one second…
+[02:23] this system is the basis of a level of Wing
 Commander however the game designers took
-a little bit of liberty with the design of
+[02:30] a little bit of liberty with the design of
 the system because there is no such thing
-as a prolonged nova phase, that is made up.
-The nova is an instantaneous event but I think
+[02:35] as a prolonged nova phase, that is made up.
+[02:38] The nova is an instantaneous event but I think
 they thought it sounded a little bit more
-jazzy for the video game.
-So, let’s get started.
-This here is Pyro, it is the star at the centre
+[02:42] jazzy for the video game.
+[02:45] So, let’s get started.
+[02:48] This here is Pyro, it is the star at the centre
 of the Pyro system, like I said it’s a red
-dwarf which is an M-class main sequence red
+[02:55] dwarf which is an M-class main sequence red
 star.
-What a flare star is… is it’s a star that
+[03:02] What a flare star is… is it’s a star that
 exhibits unusually violent solar activity…
-solar flare activity.
-Most of the ones that we know of are red dwarf
+[03:07] solar flare activity.
+[03:09] Most of the ones that we know of are red dwarf
 stars, there can be others but vast majority
-that we know of are red dwarves and what happens
+[03:14] that we know of are red dwarves and what happens
 is that the luminosity and the brightness
-of the star, which are more or less the same
+[03:20] of the star, which are more or less the same
 thing, engage in such sudden flares of brightness
-that they can get ten thousand times more
+[03:26] that they can get ten thousand times more
 powerful than any solar flare that our sun
-had ever produced.
-So, there are definite like wicked flames
+[03:30] had ever produced.
+[03:31] So, there are definite like wicked flames
 that happen sometimes.
-Let’s put it this way, so the flares are
+[03:37] Let’s put it this way, so the flares are
 so powerful you’d get way, way, way, way,
-way, way, way more than a particularly interesting
+[03:46] way, way, way more than a particularly interesting
 aurora like we would on our own planet.
-A flare star Ursa Major increase in brightness
+[03:50] A flare star Ursa Major increase in brightness
 fifteen fold in 2013 for three minutes and
-then returned to normal.
-So like… schwoooo, which is kind of the
+[03:58] then returned to normal.
+[03:59] So like… schwoooo, which is kind of the
 thing you get here on Pyro.
-It creates and incredible amount of xray radiation,
+[04:03] It creates and incredible amount of xray radiation,
 it can create ultraviolet radiation, anything
-that would make life… the development of
+[04:10] that would make life… the development of
 life completely inimical to what happens in
-the solar system.
-You know, good times.
-Therefore you can take it for granted that
+[04:16] the solar system.
+[04:17] You know, good times.
+[04:21] Therefore you can take it for granted that
 Pyro I is a terrible place to live.
-It’s a blackened little rock that’s very
+[04:27] It’s a blackened little rock that’s very
 small, it’s sort of like Mercury in that
-it orbits close to the sun and is just like
+[04:32] it orbits close to the sun and is just like
 totally burned out and maybe it had a surface
-at one point but it certainly doesn’t anymore.
-It’s just kind of like this horrible, charred
+[04:38] at one point but it certainly doesn’t anymore.
+[04:40] It’s just kind of like this horrible, charred
 little rock floating in space.
-You’re not really going to get anything
+[04:44] You’re not really going to get anything
 out of it.
-Same with the Akiro Cluster or Akiro Cluster,
+[04:48] Same with the Akiro Cluster or Akiro Cluster,
 depending on who you’re asking.
-It’s just a little cluster of asteroids
+[04:52] It’s just a little cluster of asteroids
 that chills out here, kind of near the Lagrangian
-planet Pyro I.
-There’s not much to be found there, people
+[04:57] planet Pyro I.
+[04:58] There’s not much to be found there, people
 say that the mining has been… that strip
-mining has taken everything from the planet,
+[05:06] mining has taken everything from the planet,
 I mean not the planet, the asteroids.
-You guys know what I mean.
-So, it’s not really worth your time I would
+[05:11] You guys know what I mean.
+[05:13] So, it’s not really worth your time I would
 say.
-Let’s go over here to Pyro II, which is
+[05:17] Let’s go over here to Pyro II, which is
 a coreless planet.
-Now coreless planets are interesting, it’s
+[05:24] Now coreless planets are interesting, it’s
 not that they are hollow which is a common
-misconception, it’s that they don’t have
+[05:29] misconception, it’s that they don’t have
 a differentiated metal core.
-So like our planet has a core, it’s kinda
+[05:32] So like our planet has a core, it’s kinda
 like a core and a mantle and a crust.
-It’s like different layers so if you like
+[05:38] It’s like different layers so if you like
 slice the planet open it would look like a
-really cool layer cake but if you slice Pyro
+[05:43] really cool layer cake but if you slice Pyro
 II open it would just be an undifferentiated
-mass sort of like a cake with no layers.
-Again like any minerals that would have been
+[05:48] mass sort of like a cake with no layers.
+[05:57] Again like any minerals that would have been
 worth mining on the planet have been stripped
-away sadly but you know, it doesn’t hurt
+[06:00] away sadly but you know, it doesn’t hurt
 to try from time to time.
-Here is Pyro III, it is a lava planet.
-It has unusually strong tectonic activity,
+[06:05] Here is Pyro III, it is a lava planet.
+[06:10] It has unusually strong tectonic activity,
 it has seas of lava criss crossing the system…
-criss crossing the entire planet.
-It’s possible that it’s caused by a collision,
+[06:15] criss crossing the entire planet.
+[06:18] It’s possible that it’s caused by a collision,
 like a piece of a planet sized body broke
-off, hit the surface, just caused so much
+[06:27] off, hit the surface, just caused so much
 damage and energy that the whole surface melted
-and it’s really not been the same since.
-Now the reason that we think this is probably
+[06:34] and it’s really not been the same since.
+[06:37] Now the reason that we think this is probably
 what happened is because of what happened
-to it’s neighbour Pyro IV.
-Which used to be a planet in the system, just
+[06:41] to it’s neighbour Pyro IV.
+[06:44] Which used to be a planet in the system, just
 kind of chilling out having it’s own regular
-orbit until a planet sized body hit it and
+[06:54] orbit until a planet sized body hit it and
 it was knocked out into this totally ridiculous
-orbit and it is slowly settling into the orbit
+[07:00] orbit and it is slowly settling into the orbit
 of Pyro V. Which is all the way over here
-so we’re going to have to adjust that later,
+[07:10] so we’re going to have to adjust that later,
 it should be closer.
-Zoom in right here to Pyro V, which is a gas
+[07:14] Zoom in right here to Pyro V, which is a gas
 giant.
-It doesn’t have a pure hydrogen atmosphere
+[07:20] It doesn’t have a pure hydrogen atmosphere
 so it’s not really, you know, it’s not
-really a good place to refuel but it does
+[07:25] really a good place to refuel but it does
 have a bunch of really cool moons.
-All are named after various concepts that
+[07:30] All are named after various concepts that
 are related to fire like Vatra, Vuur and Aoir,
-Ignis and Fairo and Fuego, that was an easy
+[07:40] Ignis and Fairo and Fuego, that was an easy
 one.
-None of them are inhabitable, all of them
+[07:49] None of them are inhabitable, all of them
 are decently hot.
-They kind of vacillate between hot and cold
+[07:53] They kind of vacillate between hot and cold
 really because they’re far enough away from
-the star they should be pretty cold but the
+[07:57] the star they should be pretty cold but the
 solar flares do reach all the way out to this
-point sometimes and that doesn’t really
+[08:01] point sometimes and that doesn’t really
 make it a very good place to park your ship
-because you never know when a solar flare
+[08:06] because you never know when a solar flare
 will hit.
-Let’s see here, here’s the last planet
+[08:09] Let’s see here, here’s the last planet
 in the system…
-Pyro VI.
-Now Pyro VI isn’t interesting because it’s
+[08:15] Pyro VI.
+[08:16] Now Pyro VI isn’t interesting because it’s
 a little planet on the outskirts of the system,
-it is interesting because of what is around
+[08:21] it is interesting because of what is around
 it which is Ruin station.
-The home to all piracy in Pyro, this is the
+[08:26] The home to all piracy in Pyro, this is the
 base that’s always under contention for
-who is the true ruler.
-Usually a couple of gangs kind of go back
+[08:35] who is the true ruler.
+[08:37] Usually a couple of gangs kind of go back
 and forth between who’s the one in charge
-and who’s the one fighting to be in charge.
-It’s got a nice little bar on it where you
+[08:42] and who’s the one fighting to be in charge.
+[08:44] It’s got a nice little bar on it where you
 can go that’s more or less stable but, you
-know, you’re going to get the occasional
+[08:49] know, you’re going to get the occasional
 bar fight there.
-It was once a Gold Horizon terraforming platform,
+[08:52] It was once a Gold Horizon terraforming platform,
 no one really knows why there’s a terraforming
-platform around a planet that is completely
+[08:58] platform around a planet that is completely
 unterraformable but Gold Horizon didn’t
-go bankrupt because of their sound business
+[09:02] go bankrupt because of their sound business
 decisions.
-Be an excellent place to make connections
+[09:08] Be an excellent place to make connections
 with other pirates, with other smugglers,
-perhaps other outlaws if that’s what you
+[09:13] perhaps other outlaws if that’s what you
 care to do.
-You need to be aware that you will most likely
+[09:17] You need to be aware that you will most likely
 get involved in a firefight of some kind.
-I know I’ve emphasized this point more than
+[09:24] I know I’ve emphasized this point more than
 once, but I just want you to know.
-If you want to find crime, you’re going
+[09:27] If you want to find crime, you’re going
 to find it in Pyro.
-Thank you for tuning into this week’s episode
+[09:32] Thank you for tuning into this week’s episode
 of Loremaker’s Guide to the Galaxy, once
-again I’m Cherie Heiberg, the archivist
+[09:36] again I’m Cherie Heiberg, the archivist
 with the Lore team and I’d like to thank
-our subscribers for making this program possible
+[09:39] our subscribers for making this program possible
 and you all have a wonderful rest of your
-day, bye.
+[09:50] day, bye.

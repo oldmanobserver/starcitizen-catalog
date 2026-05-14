@@ -6,154 +6,154 @@
 
 ## Transcript
 
-Mark Abent (MA): Hey everyone, welcome back
+[00:16] Mark Abent (MA): Hey everyone, welcome back
 to Bugsmashers, but before we begin I’ve
-got a small riddle for you.
-If I fix a bug, but there was no Jira for
+[00:19] got a small riddle for you.
+[00:22] If I fix a bug, but there was no Jira for
 the bug, did the bug even exist?
-Closed Captioning provided by the Imperial
+[00:27] Closed Captioning provided by the Imperial
 News Network.
-Hey everyone, we’re here in another fancy
+[00:33] Hey everyone, we’re here in another fancy
 dancy test level and we have a fun bug where
-if we’re in the buggy on normal plane, everything
+[00:45] if we’re in the buggy on normal plane, everything
 is fine, but as soon as we have gravity that’s
-not aligned to the standard world Z, you know
+[00:55] not aligned to the standard world Z, you know
 Z down, we get some fun issues with the view.
-So let's take a look at that.
-Weee.
-So if I pop in third person, oh no!
-All the shenanigans.
-This buggy code was written with the assumption
+[01:02] So let's take a look at that.
+[01:05] Weee.
+[01:07] So if I pop in third person, oh no!
+[01:09] All the shenanigans.
+[01:12] This buggy code was written with the assumption
 that the world Z was always pointing down,
-but if you have you know let's see, we have
+[01:19] but if you have you know let's see, we have
 something like I have here where I have a
-gravity box pointing 45 degrees to the side
+[01:28] gravity box pointing 45 degrees to the side
 and not world Z down, the code just goes bonkers
-because it makes assumptions that it shouldn’t
+[01:36] because it makes assumptions that it shouldn’t
 be making.
-So let's pop out, turn our free cam off.
-Alright.
-So hop into our legacy buggy code.
-This particular view or this vehicle seat
+[01:39] So let's pop out, turn our free cam off.
+[01:45] Alright.
+[01:47] So hop into our legacy buggy code.
+[01:52] This particular view or this vehicle seat
 view is for the buggy, or basically any what
-do you call it, driving vehicles and what
+[01:57] do you call it, driving vehicles and what
 it does is as you're driving…
-I can show you.
-Weee, hop in.
-So as you’re driving, it kind of wants to
+[02:03] I can show you.
+[02:06] Weee, hop in.
+[02:14] So as you’re driving, it kind of wants to
 keep the view towards, well no I flew off.
-I have to increase gravity, this shenanigans.
-Game design, always something.
-There we go, increased our bounding box.
-Hop in, there we go.
-Alright back to the buggy.
-What this views tries to do is as you’re
+[02:21] I have to increase gravity, this shenanigans.
+[02:27] Game design, always something.
+[02:30] There we go, increased our bounding box.
+[02:36] Hop in, there we go.
+[02:42] Alright back to the buggy.
+[02:46] What this views tries to do is as you’re
 moving, it tries to center the view behind
-you or towards where roughly the velocity
+[02:51] you or towards where roughly the velocity
 is so, if you’re moving this way, it tries
-to rotate you behind and if I back up, it
+[02:56] to rotate you behind and if I back up, it
 will try to you know, go behind my buggy.
-It’s mostly so that you can see roughly
+[03:05] It’s mostly so that you can see roughly
 where you’re driving towards.
-If it always behind you or in one particular
+[03:11] If it always behind you or in one particular
 view, you could hit a wall and not know why
-so it’s a pretty nice fun thing, and of
+[03:17] so it’s a pretty nice fun thing, and of
 course you can move around, but then if you
-let go of the mouse it will try to orientate
+[03:22] let go of the mouse it will try to orientate
 itself, and because it’s assuming that fun
-Z down issue, we get all sorts of alignment
+[03:29] Z down issue, we get all sorts of alignment
 stuff when we have gravity that’s not on
-the same alignment as the world.
-Especially for planets where you’re going
+[03:35] the same alignment as the world.
+[03:38] Especially for planets where you’re going
 to have a sphere and the gravity’s always
-going to be relative to the planet so we can’t
+[03:43] going to be relative to the planet so we can’t
 always assume the world Z is down.
-So we had Chad Zamzow create a nifty little
+[03:49] So we had Chad Zamzow create a nifty little
 fix where if I uncomment this, he basically
-has this thing called a gravity rotation,
+[04:00] has this thing called a gravity rotation,
 and its matrix he’s using to figure out
-if all the code here before assume that Z
+[04:05] if all the code here before assume that Z
 down, so if we’re going to assume that all
-the codes going to stay like that, but we’re
+[04:11] the codes going to stay like that, but we’re
 going to have a rotation, this grav rot basically
-says: “Alright, we assume this is all Z
+[04:17] says: “Alright, we assume this is all Z
 down, but we’re going to move it this way”.
-This is what this little grav rotation gives
+[04:24] This is what this little grav rotation gives
 us.
-So it’s like “Alright, we can keep the
+[04:28] So it’s like “Alright, we can keep the
 code that everything's down, but we’re going
-to assume that we can modify our gravity”,
+[04:33] to assume that we can modify our gravity”,
 So this guy says what our opposite says.
-So what we can do if we traced all the areas
+[04:38] So what we can do if we traced all the areas
 that use this new thing, we can get our velocity
-and then check to see what our rotations going
+[04:45] and then check to see what our rotations going
 to be and use that to determine you know,
-we’re flying along the axis and do all sorts
+[04:54] we’re flying along the axis and do all sorts
 of fun little updates.
-So he transforms the velocity, the angular
+[05:02] So he transforms the velocity, the angular
 momentum, and if we pop down…
-Where is it.
-In here, the second thing he finally does
+[05:11] Where is it.
+[05:14] In here, the second thing he finally does
 is, it’s at the very end but we shoot a
-ray trace.
-Given that we have transformed, use my fun
+[05:23] ray trace.
+[05:25] Given that we have transformed, use my fun
 little car.
-So if the Z’s pointing this way, and then
+[05:30] So if the Z’s pointing this way, and then
 we rotate it this way, we apply the offset
-to the whole view and we even apply it to
+[05:36] to the whole view and we even apply it to
 when we shoot trace lines so that if you’re
-against the wall, it will bump into the correct
+[05:41] against the wall, it will bump into the correct
 location and rotate according to that gravity
-bounds.
-So if we pop back in with his fun fix.
-Recode!
-What’s cool is since he’s using the gravity
+[05:48] bounds.
+[05:50] So if we pop back in with his fun fix.
+[05:54] Recode!
+[05:56] What’s cool is since he’s using the gravity
 straight from physics, this will work if you’re
-in a buggy that's driving inside of a constellation
+[06:02] in a buggy that's driving inside of a constellation
 or a bigger ship.
-If you’re on a planet, if you have gravity
+[06:06] If you’re on a planet, if you have gravity
 box it will work depending upon what our fun
-gravity is.
-Back to our non world Z gravity.
-Hop back in, weeee.
-Turn on our car, go to the third person and
+[06:12] gravity is.
+[06:14] Back to our non world Z gravity.
+[06:19] Hop back in, weeee.
+[06:26] Turn on our car, go to the third person and
 wala!
-As we move around, he applies the offset so
+[06:30] As we move around, he applies the offset so
 everything works just as expected and the
-code assumes everything was Z down, but because
+[06:40] code assumes everything was Z down, but because
 he’s now applying that offset, everything
-gets lined up correctly.
-The position, the rotation and even the speed.
-So as you’re zooming by, the camera will
+[06:44] gets lined up correctly.
+[06:45] The position, the rotation and even the speed.
+[06:48] So as you’re zooming by, the camera will
 pan towards your velocity and if you back
-up, it will go the opposite way.
-Of course it’s limited by parameters by
+[06:54] up, it will go the opposite way.
+[06:56] Of course it’s limited by parameters by
 the designers, but it works as expected.
-The beauty of this is if you’re on a planet
+[07:03] The beauty of this is if you’re on a planet
 and if you’re going around and around, it
-aligns up perfect with the gravity.
-So as you go around, the camera is stuck to
+[07:08] aligns up perfect with the gravity.
+[07:10] So as you go around, the camera is stuck to
 the vehicle as it should.
-Well, hope you guys enjoyed, I’ll fly off
+[07:15] Well, hope you guys enjoyed, I’ll fly off
 into outer space, weeee.
-So the buggy had some buggy code where it
+[07:23] So the buggy had some buggy code where it
 assumed that the gravity was always pointing
-Z down so if you rotated, the gravity still
+[07:30] Z down so if you rotated, the gravity still
 faces this way instead of down, the camera
-just goes ballistic because it's still assuming
+[07:35] just goes ballistic because it's still assuming
 it’s down and good old Chad had a little
-nifty fix where he figured out what the actual
+[07:42] nifty fix where he figured out what the actual
 gravity was, so even though it assumed this
-way for the code, we could find the offset
+[07:47] way for the code, we could find the offset
 and then apply the offset to the velocity,
-the angular velocity, basically everything
+[07:52] the angular velocity, basically everything
 that was needed that the camera assumes and
-rotates around and he just applied the offset
+[07:58] rotates around and he just applied the offset
 to it, worked like a charm, the buggy is no
-longer buggy, and that’s never going to
+[08:03] longer buggy, and that’s never going to
 get old, and now everything works as expected.
-You can drive around the planet or even weird
+[08:09] You can drive around the planet or even weird
 crazy gravity vectors and the camera stays
-behind like it should.
-Hope you guys enjoyed, until the next buggy
+[08:14] behind like it should.
+[08:15] Hope you guys enjoyed, until the next buggy
 bug.

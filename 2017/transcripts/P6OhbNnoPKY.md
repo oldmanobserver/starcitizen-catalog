@@ -6,260 +6,260 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Cherie Heiberg: Hello, I’m Cherie Heiberg
+[00:09] Closed Captioning provided by Relay.sc
+[00:23] Cherie Heiberg: Hello, I’m Cherie Heiberg
 and welcome to another edition of Loremaker's
-Guide to the Galaxy.
-If you’ve ever seen Loremaker's Guide to
+[00:39] Guide to the Galaxy.
+[00:41] If you’ve ever seen Loremaker's Guide to
 the Galaxy, it is a show we do here at Star
-Citizen where a member of the Lore team which
+[00:45] Citizen where a member of the Lore team which
 is me including three other talented people,
-who go over the lore and the science behind
+[00:52] who go over the lore and the science behind
 the all the systems we have created for you
-the players.
-This week we will be exploring the system,
+[00:59] the players.
+[01:03] This week we will be exploring the system,
 Helios.
-So, let’s get to it.
-Zoom out and then we’re going to zoom back
+[01:06] So, let’s get to it.
+[01:08] Zoom out and then we’re going to zoom back
 in and your whole screen is going to be filled
-with a giant star.
-That is on purpose, this type of star is called
+[01:18] with a giant star.
+[01:22] That is on purpose, this type of star is called
 a main sequence type-B star, it’s the second
-most massive main sequence star that we know
+[01:28] most massive main sequence star that we know
 of.
-It burns blue/white or, you know, neon blue
+[01:30] It burns blue/white or, you know, neon blue
 in this instance with like crazy lines and
-it is the star at the centre of Helios.
-So this system here it is four planets, the
+[01:36] it is the star at the centre of Helios.
+[01:39] So this system here it is four planets, the
 star at the centre of the system is a little
-bit peculiar and it has the honour of being
+[01:45] bit peculiar and it has the honour of being
 the only system to have been officially discovered
-by the Advocacy.
-However, it was technically discovered by
+[01:50] by the Advocacy.
+[01:51] However, it was technically discovered by
 a band of outlaws...wait for it, the Daybreak
-Marauders, wow what a name.
-They discovered the jump point themselves
+[01:59] Marauders, wow what a name.
+[02:04] They discovered the jump point themselves
 and they kept it secret from discovery and
-they would use it as a way to escape from
+[02:08] they would use it as a way to escape from
 authorities after robbing convoys in the Ellis
-system.
-So, what they would do is they would rob people
+[02:13] system.
+[02:14] So, what they would do is they would rob people
 in Ellis and then they would jump into the
-Taranis system and then from there they would
+[02:19] Taranis system and then from there they would
 disappear into the jump point they had discovered
-into Helios, no one could track them, no one
+[02:23] into Helios, no one could track them, no one
 knew where they were because as far as anyone
-else knew there was not a jump point into
+[02:28] else knew there was not a jump point into
 Helios as no one knew it existed yet.
-Now the Advocacy finally got involved in chasing
+[02:33] Now the Advocacy finally got involved in chasing
 down these bandits once they drove a shipping
-company to bankruptcy called Uros Shipping
+[02:39] company to bankruptcy called Uros Shipping
 Concern and the names of the Advocacy agents
-who were tasked with it, they were called
+[02:45] who were tasked with it, they were called
 Avon Dorville and Gia Trask.
-They tracked the marauders for months until
+[02:50] They tracked the marauders for months until
 they were able to finally follow them into
-Taranis and then they were able to see them
+[02:54] Taranis and then they were able to see them
 disappear into this jump point which they
-then got the credit for discovering and the
+[02:59] then got the credit for discovering and the
 marauders were rewarded with jail because
-they were thieves.
-That’s a general background of the system
+[03:04] they were thieves.
+[03:06] That’s a general background of the system
 right there, a little bit of history behind
-it.
-Now I want to get into the star, like I said
+[03:11] it.
+[03:12] Now I want to get into the star, like I said
 it’s a type-B star, blue/white.
-Very massive, they’re pretty rare stars
+[03:17] Very massive, they’re pretty rare stars
 about 1 in 800 main sequence stars are type-B
-with… that would translate to a percentage
+[03:23] with… that would translate to a percentage
 of like 0.125%, let me double check that.
-Yeah, it’s like 0.125% which is incredibly
+[03:31] Yeah, it’s like 0.125% which is incredibly
 rare so this is one of the only type-B’s
-we have in the game and this star is particularly
+[03:37] we have in the game and this star is particularly
 special because it’s peculiar.
-Which means it has bands of like unusual elements
+[03:42] Which means it has bands of like unusual elements
 in it, in this case it has bands of helium
-and because of this peculiarity it also has
+[03:51] and because of this peculiarity it also has
 incredibly high solar winds which messes with
-ship’s sensors when you go into the system.
-This, of course, was one of the things that
+[03:56] ship’s sensors when you go into the system.
+[03:58] This, of course, was one of the things that
 made it attractive to the Daybreak Marauders
-and has made it attractive long term to the
+[04:04] and has made it attractive long term to the
 UEE military who have a base here.
-So, let’s zoom out very far away from the
+[04:10] So, let’s zoom out very far away from the
 star and we’ll have a look at the first
-planet, Helios I. It’s a tiny planetary…
-little terrestrial planet.
-I guess I would kind of compare it to Mercury.
-It’s small, it doesn’t have much going
+[04:17] planet, Helios I. It’s a tiny planetary…
+[04:22] little terrestrial planet.
+[04:23] I guess I would kind of compare it to Mercury.
+[04:26] It’s small, it doesn’t have much going
 for it, it has a little bit of mineral deposits
-but other than that it’s a little bit uninteresting
+[04:31] but other than that it’s a little bit uninteresting
 because it’s dangerous to do mining there.
-It’s so close to the sun and so prevalent
+[04:36] It’s so close to the sun and so prevalent
 to like the insane solar winds and all the
-radiation and whatever you get from a star
+[04:41] radiation and whatever you get from a star
 this massive and powerful in the middle of
-the system.
-That it’s pretty dangerous to mine there.
-That said it once came to fame cause a scientific
+[04:46] the system.
+[04:47] That it’s pretty dangerous to mine there.
+[04:50] That said it once came to fame cause a scientific
 expedition crashed on the surface and the
-six surviving scientists had to be rescued
+[04:57] six surviving scientists had to be rescued
 in a very short period of time but the military
-garrison established in the system said they
+[05:02] garrison established in the system said they
 were able to retrofit their ships and get
-to the planet in record time, it was all broadcast
+[05:08] to the planet in record time, it was all broadcast
 live on vids all over the UEE.
-So, it enjoyed its like 15 seconds of fame,
+[05:14] So, it enjoyed its like 15 seconds of fame,
 after that point they really didn’t think
-too much of it anymore.
-But really the main attraction point in the
+[05:20] too much of it anymore.
+[05:23] But really the main attraction point in the
 system is going to be Helios II, Tangaroa.
-It’s located right near the beginning of
+[05:29] It’s located right near the beginning of
 the green zone, it’s got a little moon…
-ah, little moon.
-We want to look more closely at the planet.
-Tangaroa is an ocean planet, it has very few
+[05:33] ah, little moon.
+[05:34] We want to look more closely at the planet.
+[05:38] Tangaroa is an ocean planet, it has very few
 land masses.
-Partially because the tectonic activity on
+[05:43] Partially because the tectonic activity on
 the planet is so…
-well active that islands form and dissolve
+[05:47] well active that islands form and dissolve
 over very, very short periods of time.
-This is partially caused because the planet
+[05:53] This is partially caused because the planet
 is… has got low density and its got a moon
-that orbits very closely and very densely
+[05:58] that orbits very closely and very densely
 and very quickly.
-So, lots of tectonic activity, landmasses
+[06:02] So, lots of tectonic activity, landmasses
 that form and go away and a very, very big
-and interesting ocean.
-Sorry, I’m swerving around a little bit
+[06:11] and interesting ocean.
+[06:13] Sorry, I’m swerving around a little bit
 and also help me with my hair here.
-Most of the population is contained in the
+[06:18] Most of the population is contained in the
 ice caps, that’s where the permanent settlements
-are because, you know, it’s ice… it’s
+[06:22] are because, you know, it’s ice… it’s
 not really going to go anywhere as long as
-they don’t overly destroy the environment.
-The oxygen/nitrogen atmosphere is maintained
+[06:25] they don’t overly destroy the environment.
+[06:28] The oxygen/nitrogen atmosphere is maintained
 by the healthy population of plankton all
-over the planet.
-There are a few settlements that are mainly
+[06:32] over the planet.
+[06:34] There are a few settlements that are mainly
 consisting of engineers and scientists who
-do work with the military outpost in the system
+[06:41] do work with the military outpost in the system
 which we’ll get to in a minute.
-It is kinda like a trend among the rich population
+[06:45] It is kinda like a trend among the rich population
 in the UEE to build elaborate homes on the
-quickly dissolving islands and ‘oh look
+[06:53] quickly dissolving islands and ‘oh look
 at me I’m so rich I can afford to build
-this amazing home that I know is going to
+[06:59] this amazing home that I know is going to
 be destroyed but that doesn’t matter, hahaha’.
-Who understands them…
-I don’t.
-The other settlements on the… the other
+[07:04] Who understands them…
+[07:05] I don’t.
+[07:07] The other settlements on the… the other
 settlements on Tangaroa are going to be some
-under…
-not underground but underwater ones.
-There’s some permanent underwater settlements
+[07:15] under…
+[07:16] not underground but underwater ones.
+[07:17] There’s some permanent underwater settlements
 but again most of the settlements on the planet
-are on the poles.
-It’s also, oh I forgot to mention this,
+[07:22] are on the poles.
+[07:23] It’s also, oh I forgot to mention this,
 Tangaroa’s also is a major tourist attraction
-because the tectonic activity and the moon
+[07:30] because the tectonic activity and the moon
 all come together, not only to create volcanoes
-and earthquakes but incredible waves that
+[07:37] and earthquakes but incredible waves that
 can be up to 1000 feet.
-Some surfers go there to try out their craft,
+[07:43] Some surfers go there to try out their craft,
 it’s not recommended that you surf the waves
-on a real surfboard without, you know, protection
+[07:48] on a real surfboard without, you know, protection
 but some people do it anyway because we’re
-people and that’s what we do.
-So let’s zoom out again here and go on to
+[07:53] people and that’s what we do.
+[07:56] So let’s zoom out again here and go on to
 let’s see… oh actually I’m almost forgot
-this.
-I don’t want to forget Hephaestus Station
+[08:07] this.
+[08:08] I don’t want to forget Hephaestus Station
 which is located all the way over here.
-It’s a little military outpost, it’s the
+[08:13] It’s a little military outpost, it’s the
 main security checkpoint for the system.
-They work closely with the base on Helios
+[08:19] They work closely with the base on Helios
 IV and if you’re a merchant and if you want
-to sell luxury goods this is a good place
+[08:25] to sell luxury goods this is a good place
 to stop because people who are stationed here
-are always hungry for something different.
-They get most of their supplies from the surface
+[08:28] are always hungry for something different.
+[08:32] They get most of their supplies from the surface
 of Tangaroa which is fine but I mean who doesn’t
-want some good Terra beef now and then, right?
-Ok, let’s move over here and see if we can
+[08:36] want some good Terra beef now and then, right?
+[08:40] Ok, let’s move over here and see if we can
 find it… oh there we go, there’s Helios
-III, lovely.
-Now Helios III is a gas giant.
-It is in fact one of the most massive gas
+[08:47] III, lovely.
+[08:49] Now Helios III is a gas giant.
+[08:51] It is in fact one of the most massive gas
 giants that’s been discovered so far in
-the known galaxy.
-It is about three times as big as Jupiter
+[08:55] the known galaxy.
+[08:56] It is about three times as big as Jupiter
 radius-wise.
-Let me just double check something here…
+[09:00] Let me just double check something here…
 yes, it is a very friendly location if you
-want to harvest hydrogen.
-There is a… it doesn’t have a particularly
+[09:09] want to harvest hydrogen.
+[09:11] There is a… it doesn’t have a particularly
 interesting atmosphere, it is very solidly
-colour.
-I mean if you like stripes, you’re not going
+[09:17] colour.
+[09:18] I mean if you like stripes, you’re not going
 to like Helios III but if you like solid,
-calming colours…
-Helios III is the place for thee.
-Anyway, now that we’ve got bad joke out
+[09:23] calming colours…
+[09:24] Helios III is the place for thee.
+[09:29] Anyway, now that we’ve got bad joke out
 of my system… because the planet is so massive,
-because it’s on the outer edge of size of
+[09:38] because it’s on the outer edge of size of
 gas giants discovered, it does attract a lot
-of scientific interest and so you’ll have
+[09:43] of scientific interest and so you’ll have
 little scientific expeditions coming to Helios
-III to study it and figure out how it got
+[09:48] III to study it and figure out how it got
 so big and why it formed in the first place.
-History...all that.
-All right, I think I remember seeing Helios
+[09:53] History...all that.
+[09:54] All right, I think I remember seeing Helios
 IV over here.
-Yeah, here we go.
-Now Helios IV is an ice planet, kinda like
+[09:59] Yeah, here we go.
+[10:02] Now Helios IV is an ice planet, kinda like
 Pluto except that it’s actually a planet.
-It’s mostly rock and ice, it hasn’t been
+[10:10] It’s mostly rock and ice, it hasn’t been
 terraformed because that would be more or
-less impossible but it does have a lot of
+[10:15] less impossible but it does have a lot of
 settlements on the surface in the form of
-environmentally controlled domes that were
+[10:20] environmentally controlled domes that were
 put there by the UEE.
-So it’s a military base planet, more or
+[10:24] So it’s a military base planet, more or
 less.
-The reason that this was done is because of
+[10:28] The reason that this was done is because of
 the solar winds in the system, a lot of ship
-sensors are scrambled so it’s a really good
+[10:32] sensors are scrambled so it’s a really good
 place to do like any kind of activity that
-you don’t necessarily want to be widely
+[10:37] you don’t necessarily want to be widely
 broadcast.
-So in the military’s eyes this is a pretty
+[10:41] So in the military’s eyes this is a pretty
 good place to be.
-Now that said, it is considered a dumping
+[10:45] Now that said, it is considered a dumping
 ground for people who make trouble, it’s
-kinda of like it’s where you go when the
+[10:51] kinda of like it’s where you go when the
 end of career is here and they don’t really
-know what to do with you but they definitely
+[10:57] know what to do with you but they definitely
 want you out not causing trouble for anybody.
-Which doesn’t really make too much sense
+[11:02] Which doesn’t really make too much sense
 considering why these bases were formed in
-the first place so publicly as I said, dumping
+[11:07] the first place so publicly as I said, dumping
 ground.
-Public opinion however seems to think it’s
+[11:14] Public opinion however seems to think it’s
 a place for any number of things like a secret
-black ops base or a place for biological warfare
+[11:18] black ops base or a place for biological warfare
 experimentation or a place for covert espionage
-activities, the list goes on.
-Only the UEE truly knows.
-All right, that’s it for Helios.
-I think it’s a pretty interesting system,
+[11:25] activities, the list goes on.
+[11:27] Only the UEE truly knows.
+[11:29] All right, that’s it for Helios.
+[11:33] I think it’s a pretty interesting system,
 a peculiar system if you will just like a
-star.
-Remember if you go there to pay attention
+[11:39] star.
+[11:41] Remember if you go there to pay attention
 to your ship’s sensors because the solar
-winds can and will mess with them and if you
+[11:44] winds can and will mess with them and if you
 don’t pay too close attention you may be
-ambushed by perhaps a marauder.
-All right, thank you so much for your time.
-I hope you enjoyed it and I will see you next
+[11:48] ambushed by perhaps a marauder.
+[11:52] All right, thank you so much for your time.
+[11:55] I hope you enjoyed it and I will see you next
 time.

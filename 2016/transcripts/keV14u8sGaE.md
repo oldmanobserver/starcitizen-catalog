@@ -6,774 +6,774 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:10] Closed Captioning provided by the Imperial
 News Network.
-Sandi Gardiner (SG): Hello and thanks for
+[00:14] Sandi Gardiner (SG): Hello and thanks for
 joining us on another episode of Around the
-Verse, your weekly look at behind the scenes
+[00:19] Verse, your weekly look at behind the scenes
 of Star Citizen’s development.
-I’m Sandi Gardiner.
-Forrest Stephan (FS): And I’m Forrest Stephan,
+[00:22] I’m Sandi Gardiner.
+[00:23] Forrest Stephan (FS): And I’m Forrest Stephan,
 CG Supervisor.
-SG: With CitizenCon behind us, everybody has
+[00:26] SG: With CitizenCon behind us, everybody has
 now turned their focus onto the next releases.
-FS: That’s right.
-We’ve got 2.6 shaping up, 3.0 is gearing
+[00:31] FS: That’s right.
+[00:32] We’ve got 2.6 shaping up, 3.0 is gearing
 up fast and of course Squadron 42 is moving
-full steam ahead.
-SG: So nothing’s happening then.
-I just wanted to say that how touched the
+[00:39] full steam ahead.
+[00:40] SG: So nothing’s happening then.
+[00:41] I just wanted to say that how touched the
 team was for the reception that we got for
-the road to CitizenCon
-FS: Yeah, it’s so amazing.
-It’s really cool to be able show off what
+[00:46] the road to CitizenCon
+[00:47] FS: Yeah, it’s so amazing.
+[00:48] It’s really cool to be able show off what
 we’ve been working on as it's being developed.
-SG: It is very cool, and a special thanks
+[00:52] SG: It is very cool, and a special thanks
 to all the subscribers who make that extra
-depth possible.
-FS: That’s right.
-So now let's check in with Phil Meller with
+[00:56] depth possible.
+[00:57] FS: That’s right.
+[00:58] So now let's check in with Phil Meller with
 a Foundry 42 update.
-Studio Update
-Phil Meller (PM): Hey everyone, I’m Phil
+[01:02] Studio Update
+[01:03] Phil Meller (PM): Hey everyone, I’m Phil
 Meller - a.k.a Miles Ekhart’s chubby older
-brother.
-I’m here to bring you the UK studio update
+[01:08] brother.
+[01:09] I’m here to bring you the UK studio update
 even though I’m currently here in Los Angeles.
-Could be worse.
-A number of us came over from the UK office
+[01:13] Could be worse.
+[01:14] A number of us came over from the UK office
 to help with Citizencon and it was good to
-have the extra boots on the ground on the
+[01:17] have the extra boots on the ground on the
 days leading up to the presentation and it
-also gave the chance to celebrate and have
+[01:20] also gave the chance to celebrate and have
 a few beers with our awesome community.
-Citizencon was the ideal place to reveal the
+[01:25] Citizencon was the ideal place to reveal the
 RSI Polaris - such a nice ship, really nice.
-The small corvette-class capital ship is perfect
+[01:31] The small corvette-class capital ship is perfect
 for both the UEE Navy and local militias and
-here to talk us through the thought process
+[01:35] here to talk us through the thought process
 when it comes to designing the ship is Paul
-Jones and Dan Joustra.
-Paul Jones (PJ): So, today we are talking
+[01:39] Jones and Dan Joustra.
+[01:40] Paul Jones (PJ): So, today we are talking
 about a hotly anticipated, highly waited-for
-new corvette from Star Citizen.
-I think fans have had a lot of chat about
+[01:47] new corvette from Star Citizen.
+[01:51] I think fans have had a lot of chat about
 this, they’ve been really hungry to see
-this ship.
-Originally we had the Idris which was a corvette
+[01:55] this ship.
+[01:58] Originally we had the Idris which was a corvette
 and then we super-sized it and then we lost
-our corvette classification for that we had
+[02:03] our corvette classification for that we had
 a hole in our ship loadout and this basically
-the RSI Polaris and this is the new introduction
+[02:11] the RSI Polaris and this is the new introduction
 to that classification of ship.
-So this ship is- it’s turned out super cool.
-It’s an RSI ship so we’ve already got
+[02:18] So this ship is- it’s turned out super cool.
+[02:22] It’s an RSI ship so we’ve already got
 a couple of ships - we’ve got the Bengal,
-we’ve got the Constellation, and so taking
+[02:28] we’ve got the Constellation, and so taking
 those styling cues - aggressive angles, a
-gundam feel - previously it’s been working
+[02:36] gundam feel - previously it’s been working
 on by Ryan Church out of house.
-But this time we’ve brought it in-house
+[02:42] But this time we’ve brought it in-house
 so this has been worked on by Dan on the concept
-team.
-Dan Joustra (DJ): I love working with the
+[02:47] team.
+[02:48] Dan Joustra (DJ): I love working with the
 concept department and today I’m hopefully
-bringing you something you really, really
+[02:53] bringing you something you really, really
 like - of course the Polaris, the hotly anticipated
-submarine, missile-launcher.
-I was given an entire level blockout made
+[02:59] submarine, missile-launcher.
+[03:01] I was given an entire level blockout made
 by my buddy Steve and we just sat in a meeting
-and we looked at what was possible - how am
+[03:09] and we looked at what was possible - how am
 I going to dress this up?
-How am I going to give the aesthetics that
+[03:13] How am I going to give the aesthetics that
 match with A) the design brief and B)
-the RSI style, right?
-So this is a newer RSI ship, so we’re going
+[03:19] the RSI style, right?
+[03:21] So this is a newer RSI ship, so we’re going
 to break away a little bit but all of the
-essential RSI style cues are still in there.
-The ship is basically designed to A) carry
+[03:27] essential RSI style cues are still in there.
+[03:30] The ship is basically designed to A) carry
 a small fighter and B)
-most importantly, be quick and deliver a torpedo
+[03:36] most importantly, be quick and deliver a torpedo
 salvo and this ship was specifically made
-and designed to be as focused as possible
+[03:43] and designed to be as focused as possible
 - you can see it in the exterior.
-It is basically a giant triangle - a super
+[03:48] It is basically a giant triangle - a super
 aggressive shape.
-So everything about this ship is just like
+[03:51] So everything about this ship is just like
 “I’ll get in, I’ll destroy, then I’m
-getting out.”
-- the front of this ship has the typical RSI-style
+[03:56] getting out.”
+[03:57] - the front of this ship has the typical RSI-style
 cockpit with the faceted glass held together
-by a robust metal framework as you can see
+[04:04] by a robust metal framework as you can see
 right here.
-So inside, it looks like this, which is cool
+[04:08] So inside, it looks like this, which is cool
 because the faceted glass is going to allow
-for some really nice shading and really nice
+[04:16] for some really nice shading and really nice
 reflections and it allows, of course, for
-optimal visibility.
-So the crew is positioned in these little
+[04:21] optimal visibility.
+[04:23] So the crew is positioned in these little
 recessed bunker-style stations, so that the
-captain can always view and look over them
+[04:30] captain can always view and look over them
 - and between this is a gangway that extends
-into the cockpit so you can get a really,
+[04:38] into the cockpit so you can get a really,
 really nice view all around you of whatever
-planet you are visiting.
-The hangar, which you can see here, with two
+[04:45] planet you are visiting.
+[04:47] The hangar, which you can see here, with two
 doors - so when the doors open up, the floor
-rises to accommodate a smaller fighter and
+[04:55] rises to accommodate a smaller fighter and
 then the floor just drops down again.
-PJ: And then you’ll have your usual complement
+[05:03] PJ: And then you’ll have your usual complement
 of break room, mess room, engineering, habitation,
-bridge - all that good stuff.
-So I think- I think players are going to be
+[05:10] bridge - all that good stuff.
+[05:14] So I think- I think players are going to be
 really excited by it.
-DJ: You’ve got living quarters, where the
+[05:17] DJ: You’ve got living quarters, where the
 crew can hang out, shoot some pool - through
-this little window you see the other end of
+[05:24] this little window you see the other end of
 the ship.
-That contains the bunking area where personnel
+[05:27] That contains the bunking area where personnel
 sleeps.
-You’ve got corridors of course, also taking
+[05:30] You’ve got corridors of course, also taking
 into account the new slanted angular RSI style.
-Of course the torpedo launchers on the bottom
+[05:38] Of course the torpedo launchers on the bottom
 are super cool.
-You’ll be able to fire four missiles at
+[05:41] You’ll be able to fire four missiles at
 the same time, the biggest size missiles in
-the game, at least.
-You’ll be able to fire four of them at the
+[05:46] the game, at least.
+[05:48] You’ll be able to fire four of them at the
 same time - which is, of course, amazing.
-These big gaping holes fire 2x two torpedo
+[05:53] These big gaping holes fire 2x two torpedo
 salvos - or separately if you want, but I’d
-go for the firepower of course.
-The missile room, so those 2x two torpedo
+[06:01] go for the firepower of course.
+[06:03] The missile room, so those 2x two torpedo
 salvos that you just saw being fired in this
-shot, come out of these beauties You got the
+[06:11] shot, come out of these beauties You got the
 loading mechanism right here, these guys inspecting
-- just doing regular maintenance and then
+[06:19] - just doing regular maintenance and then
 the torpedos get loaded into these slots and
-fire out.
-PJ: When this thing turns up, you’ll see
+[06:25] fire out.
+[06:26] PJ: When this thing turns up, you’ll see
 it on the horizon and you’ll see it silhouetting
-against the nebula - you’re like “I know
+[06:32] against the nebula - you’re like “I know
 what that is”, if you’re on the sharp
-end of the stick, you are really gonna wanna
+[06:38] end of the stick, you are really gonna wanna
 start worrying about what is going to happen.
-DJ: Imagine rocking up in this ship from behind,
+[06:43] DJ: Imagine rocking up in this ship from behind,
 just hitting them with the torpedo - your
-enemy doesn’t even know what’s coming
+[06:47] enemy doesn’t even know what’s coming
 for them, nobody has seen you - that’s super
-cool.
-PJ: This is one you want on your- in your
+[06:52] cool.
+[06:53] PJ: This is one you want on your- in your
 fleet that is going to be your mid-to-large
-sized cap ship killer.
-If you have a few of these in your fleet,
+[06:59] sized cap ship killer.
+[07:01] If you have a few of these in your fleet,
 you’ll be in good stead.
-As you can see, a lot of hard work has went
+[07:04] As you can see, a lot of hard work has went
 into this ship, both from Dan and the designer
-team, the Directors - across the whole company
+[07:09] team, the Directors - across the whole company
 - we think it is a great addition to the fleet,
-it is the new corvette.
-We really love it and we hope that fans do
+[07:15] it is the new corvette.
+[07:18] We really love it and we hope that fans do
 too.
-DJ: See you around the verse.
-PM: And next we have Carlos and Steve here
+[07:21] DJ: See you around the verse.
+[07:24] PM: And next we have Carlos and Steve here
 to hallow the work being done to make sure
-the camera is more dynamic in game.
-Steve Turberfield (ST): So one of the things
+[07:27] the camera is more dynamic in game.
+[07:29] Steve Turberfield (ST): So one of the things
 that we are looking to improve on is our global
-camera system that we use at the moment, essentially
+[07:33] camera system that we use at the moment, essentially
 all of our camera systems are broken down
-depending on what type of camera we use - so
+[07:40] depending on what type of camera we use - so
 we’ve got cameras for whether you are on
-foot, whether you are in a ship, or spectator
+[07:43] foot, whether you are in a ship, or spectator
 cameras or death cameras.
-We’re looking to basically unify all of
+[07:47] We’re looking to basically unify all of
 that.
-Carlos Pia Pueyo (CPP): We have been receiving
+[07:49] Carlos Pia Pueyo (CPP): We have been receiving
 feedback from the community and we had noticed
-that players are interested in having more
+[07:53] that players are interested in having more
 control over the camera and having better
-cameras overall.
-So I have been assigned with the task of improving
+[07:59] cameras overall.
+[08:00] So I have been assigned with the task of improving
 the whole camera system - trying to get better
-controls, better quality in the movements
+[08:07] controls, better quality in the movements
 in the how the camera feels, how the camera
-looks, so what we are trying to achieve is
+[08:14] looks, so what we are trying to achieve is
 pretty much that.
-ST: Every single day we see streams, YouTube
+[08:17] ST: Every single day we see streams, YouTube
 videos, screenshots that all of our community
-members have made - some of the most impressive
+[08:23] members have made - some of the most impressive
 looking stuff is basically from people who
-are using an exploit with one of our weapons
+[08:28] are using an exploit with one of our weapons
 and that was allowing them to manipulate the
-camera in a number of different ways - from
+[08:32] camera in a number of different ways - from
 that we basically realised there was a demand
-to provide people with tools and control.
-So just allowing them to make the content
+[08:37] to provide people with tools and control.
+[08:39] So just allowing them to make the content
 look that they want to make.
-CPP: In 2.6, the advantages of having more
+[08:43] CPP: In 2.6, the advantages of having more
 control to the camera, they should be able
-to change the lens size, they should be able
+[08:49] to change the lens size, they should be able
 to load and save different camera angles.
-ST: So they’ll have their regular first
+[08:54] ST: So they’ll have their regular first
 person, third person flight, but if a player,
-say, wants to move the camera into a certain
+[09:00] say, wants to move the camera into a certain
 position on a Gladius for example, they can
-save that view so if they’ll be able to
+[09:05] save that view so if they’ll be able to
 angle it, change the lens size and get a “I
-like the way that shot looks” and they can
+[09:10] like the way that shot looks” and they can
 basically save it and call that view anytime
-they like.
-CPP: One of the things we have to try and
+[09:14] they like.
+[09:15] CPP: One of the things we have to try and
 implement is adding the control of the lens
-size - so you can change the camera lens size
+[09:19] size - so you can change the camera lens size
 and that will change the field of view so
-that way you can get very close up views of
+[09:26] that way you can get very close up views of
 the character, of the ship, of whatever.
-Or the opposite, you can go back.
-ST: Chris himself has a quite a big love of
+[09:31] Or the opposite, you can go back.
+[09:34] ST: Chris himself has a quite a big love of
 cinematography so one of the things that he
-wanted to get away from was the existing system
+[09:39] wanted to get away from was the existing system
 that we’ve always had for the orbit views
-and third person is that comes across very
+[09:44] and third person is that comes across very
 much as a camera on a stick, because there
-is no actual inertia or real movement to it
+[09:48] is no actual inertia or real movement to it
 - so what we’ve also added is what we call
-operator shake, so our camera is going forward
+[09:55] operator shake, so our camera is going forward
 will basically a gentle movement to them which
-is what you would expect if someone was actually
+[10:01] is what you would expect if someone was actually
 holding the camera filming your ship.
-For all these ships that players purchase,
+[10:06] For all these ships that players purchase,
 it’ll basically just give them a way to
-show them off in a better light and generally
+[10:10] show them off in a better light and generally
 make them much realistic viewpoint but while
-they are playing the game.
-CPP: One of the things we want to try is giving
+[10:15] they are playing the game.
+[10:16] CPP: One of the things we want to try is giving
 the camera a shake depending on the environment,
-for example, if you have explosions, the camera
+[10:22] for example, if you have explosions, the camera
 should shake because you are close to explosion.
-If you have a- something that affects- a terraform-
+[10:29] If you have a- something that affects- a terraform-
 which affects the turbulence in the area,
-the camera should reflect that.
-So the plan, which is still something we want
+[10:35] the camera should reflect that.
+[10:38] So the plan, which is still something we want
 to do, is having the camera shows that shake
-depending on where you are in the world.
-ST: If you’re focusing on your ship and
+[10:44] depending on where you are in the world.
+[10:46] ST: If you’re focusing on your ship and
 your ship pulls away fast then maybe a little
-bit of a lip for the camera to catch up and
+[10:51] bit of a lip for the camera to catch up and
 also when you decelerate, it may well catch
-up and then a bit of smooth movement as it
+[10:56] up and then a bit of smooth movement as it
 rolls off - making it much more of a natural
-cinematic experience just during the regular
+[11:01] cinematic experience just during the regular
 gameplay - you are actually feeling more of
-a sensation of speed purely through the camera.
-CPP: In theory, it will be much easier to
+[11:06] a sensation of speed purely through the camera.
+[11:08] CPP: In theory, it will be much easier to
 fix bugs with this system because we don’t
-have to look for the bug in different places
+[11:12] have to look for the bug in different places
 in the code, everything will be unified, everything
-will be easier to find and fix.
-All of this is continuing into 3.0 and we
+[11:17] will be easier to find and fix.
+[11:18] All of this is continuing into 3.0 and we
 are also planning to have a spectator mode
-and- where all this camera control will also
+[11:24] and- where all this camera control will also
 be involved.
-Actually I am looking forward to looking at
+[11:30] Actually I am looking forward to looking at
 what people can do with the new features we
-are implementing.
-ST: So I’m really looking forward to seeing
+[11:33] are implementing.
+[11:34] ST: So I’m really looking forward to seeing
 what our players do with these new tools,
-essentially I believe we are going to see
+[11:38] essentially I believe we are going to see
 some pretty incredible stuff straight off
-the bat, because we see amazing things every
+[11:43] the bat, because we see amazing things every
 single day that they are doing so giving them
-this extra toolset, I’m loving the idea
+[11:47] this extra toolset, I’m loving the idea
 of seeing what comes back from that and what
-we can do to improve on that further.
-PM: So during Citizencon, we premiered the
+[11:51] we can do to improve on that further.
+[11:53] PM: So during Citizencon, we premiered the
 homestead demo which heavily featured the
-Ursa Rover, Corentin sat down to discuss what
+[11:57] Ursa Rover, Corentin sat down to discuss what
 design did to get this versatile vehicle ready
-for the spotlight.
-12:02 Behind the Scenes: Ursa Rover
-Corentin Billemont (CB): At GamesCom we made
+[12:02] for the spotlight.
+[12:03] 12:02 Behind the Scenes: Ursa Rover
+[12:04] Corentin Billemont (CB): At GamesCom we made
 Rover work for the first time.
-We showed it properly to the public.
-So, as people have seen in the previous ATV,
+[12:07] We showed it properly to the public.
+[12:10] So, as people have seen in the previous ATV,
 the design radically changed from previous
-one but that’s because we changed metrics
+[12:15] one but that’s because we changed metrics
 of a lot of stuff over the years.
-It was very interesting because we … we
+[12:19] It was very interesting because we … we
 had to look at all … all stuff make it work
-in a new way like we did for the ships years
+[12:26] in a new way like we did for the ships years
 ago.
-So the thing is that the Dragonfly is something
+[12:29] So the thing is that the Dragonfly is something
 that is pretty cool because you’re like
-you’re on a bike but the Rover is another
+[12:34] you’re on a bike but the Rover is another
 kind of cool because, well, this is the first
-real ground vehicle.
-It is an all in one which means obviously
+[12:40] real ground vehicle.
+[12:41] It is an all in one which means obviously
 you can put two people in it at the front,
-but you can also put four people at the back
+[12:47] but you can also put four people at the back
 on top of that.
-Or you can replace those four people at the
+[12:50] Or you can replace those four people at the
 back with four cargo unit.
-You can use a turret at the top on … you
+[12:54] You can use a turret at the top on … you
 can basically go in some places the Dragonfly
-wouldn’t be really interesting to use because
+[13:02] wouldn’t be really interesting to use because
 the Dragonfly is floating but, well, you are
-using a vehicle, you are on the ground.
-You will do some nice jumps or you will do
+[13:08] using a vehicle, you are on the ground.
+[13:10] You will do some nice jumps or you will do
 some … going into some places like the canyon
-in Homestead which was really interesting
+[13:17] in Homestead which was really interesting
 however.
-We had some challenges for animations because
+[13:21] We had some challenges for animations because
 obviously you are using a wheel and not just
-a joystick or something like that.
-We had some issues as well with VFX because
+[13:26] a joystick or something like that.
+[13:29] We had some issues as well with VFX because
 obviously when you are going on a planet you
-will have to see some dust coming from tyres,
+[13:35] will have to see some dust coming from tyres,
 this kind of stuff.
-So yeah we can see the lights as well, obviously
+[13:39] So yeah we can see the lights as well, obviously
 reacting to the dirt VFX.
-So for example if we go - yeah - into shadows
+[13:46] So for example if we go - yeah - into shadows
 we can see the lights there.
-On the sand it will behave differently than
+[13:51] On the sand it will behave differently than
 if it is on metal for example.
-It will behave differently if it’s going
+[13:55] It will behave differently if it’s going
 up and down hills or if it’s on a flat surface.
-In third person basically we can see that
+[14:00] In third person basically we can see that
 it’s a bit difficult to turn there which
-is due to the material of the landing pad,
+[14:07] is due to the material of the landing pad,
 but if go onto dirt here this is way different
-to turn.
-There’s a bit of drift for example but it’s
+[14:15] to turn.
+[14:16] There’s a bit of drift for example but it’s
 a bit easier to turn.
-So it will be … we will have to constantly
+[14:21] So it will be … we will have to constantly
 try to find the friction - the good friction
-- for every kind of surface.
-In CryEngine we have to balance vehicles a
+[14:28] - for every kind of surface.
+[14:31] In CryEngine we have to balance vehicles a
 different way.
-Like the center of gravity, how it will drift,
+[14:37] Like the center of gravity, how it will drift,
 the speed, the weight of the rover: these
-kind of stuff.
-Should it be bouncing around?
-Should it be going forward when it does a
+[14:47] kind of stuff.
+[14:48] Should it be bouncing around?
+[14:49] Should it be going forward when it does a
 jump?
-This kind of stuff.
-It is sitting close to the ground but we can
+[14:52] This kind of stuff.
+[14:53] It is sitting close to the ground but we can
 tweak … we can tweak the mass and everything
-like this.
-So we can see that it’s still physicalized
+[14:59] like this.
+[15:00] So we can see that it’s still physicalized
 right now.
-I know that Chris really liked the Rover,
+[15:03] I know that Chris really liked the Rover,
 like he liked the Dragonfly, so this won’t
-be the last ground vehicles that we’ll make
+[15:09] be the last ground vehicles that we’ll make
 in the game.
-And hopefully this will be something really
+[15:13] And hopefully this will be something really
 interesting to look forward, like whether
-it’s ride vehicles or utilitarian vehicles
+[15:17] it’s ride vehicles or utilitarian vehicles
 - like trucks or whatever - or even open seat
-vehicles like, obviously, military stuff.
-We don’t know what we will make right now
+[15:25] vehicles like, obviously, military stuff.
+[15:28] We don’t know what we will make right now
 but this is already interesting process.
-So you see it’s not completely finished
+[15:34] So you see it’s not completely finished
 yet because you will get the final product
-in 3.0 but it’s really interesting.
-Obviously feedback is important whether it’s
+[15:41] in 3.0 but it’s really interesting.
+[15:45] Obviously feedback is important whether it’s
 from other designers, from QA, from Chris,
-from other … from players when it will be
+[15:51] from other … from players when it will be
 available.
-So I’m already looking forward to what the
+[15:54] So I’m already looking forward to what the
 players will do with the Rover because this
-obviously will lead to some interesting stuff.
-Whether it’s some really cool views or some
+[16:01] obviously will lead to some interesting stuff.
+[16:05] Whether it’s some really cool views or some
 really cool videos or, obviously, some new
-bugs that we have to look at and fix that
+[16:12] bugs that we have to look at and fix that
 because, yeah, this is really the first true
-ground vehicle in Star Citizen.
-16:24 Back in the Studio (UK)
-PM: So the Rover was also the star of last
+[16:20] ground vehicle in Star Citizen.
+[16:21] 16:24 Back in the Studio (UK)
+[16:22] PM: So the Rover was also the star of last
 week’s Bugsmashers so make sure you check
-out the episode to see how we resolve an issue
+[16:25] out the episode to see how we resolve an issue
 which had the Rover’s wheel floating away
-after being blown off the vehicle.
-16:30 Back in the Studio (LA)
-SG: After watching Homestead how much do you
+[16:29] after being blown off the vehicle.
+[16:31] 16:30 Back in the Studio (LA)
+[16:32] SG: After watching Homestead how much do you
 just want to jump in one of those vehicles
-and go around on the massive planet?
-FS: So much!
-I want to do some stunts like line up a bunch
+[16:35] and go around on the massive planet?
+[16:36] FS: So much!
+[16:37] I want to do some stunts like line up a bunch
 of Argos, grab a Dragonfly and just [whoosh]
-see how many I could clear.
-SG: Of course he does.
-Sounds like a great way to ruin a bunch of
+[16:42] see how many I could clear.
+[16:43] SG: Of course he does.
+[16:45] Sounds like a great way to ruin a bunch of
 Argos and wreck your Dragonfly.
-FS: Well speaking of crashes, Ship Shape this
+[16:48] FS: Well speaking of crashes, Ship Shape this
 week looks at what it took to make that destroyed
-Javelin look so amazingly awesome.
-17:00 Ship Shape: Javelin
-Nathan Dearsley (ND): The Homestead initially
+[16:53] Javelin look so amazingly awesome.
+[16:56] 17:00 Ship Shape: Javelin
+[17:00] Nathan Dearsley (ND): The Homestead initially
 was a demonstration to show the planetary
-tech V2 with all the different biomes: the
+[17:08] tech V2 with all the different biomes: the
 snow, the desert, the forests.
-We kind of wanted to finish it on a high note.
-Phil Howlett (PH): Basically the challenge
+[17:14] We kind of wanted to finish it on a high note.
+[17:15] Phil Howlett (PH): Basically the challenge
 was to take a huge capital ship and crash
-it into the desert and make it look like it’d
+[17:20] it into the desert and make it look like it’d
 been there for years and it was kind of rotting
-and decaying.
-So initially I was given a move board by Nathan
+[17:26] and decaying.
+[17:27] So initially I was given a move board by Nathan
 Dearsley, the Art Director, and this contained
-lots of images of decaying ships and boneyards
+[17:35] lots of images of decaying ships and boneyards
 of old crust military ships that were kind
-of being salvaged, and that was kind of the
+[17:43] of being salvaged, and that was kind of the
 starting point.
-ND: There’s these kind of places where cargo
+[17:47] ND: There’s these kind of places where cargo
 liners are parked on the beach and the locals
-turn up and tear these cargo liners apart
+[17:53] turn up and tear these cargo liners apart
 to recycle them.
-If you look online you’ll find very fascinating
+[17:57] If you look online you’ll find very fascinating
 references where there’s these huge boats
-just kind of split into and you can see into
+[18:02] just kind of split into and you can see into
 all the sub decks and decks.
-So that was the first protocol.
-Obviously there is a strong link to Jaku in
+[18:05] So that was the first protocol.
+[18:07] Obviously there is a strong link to Jaku in
 episode 7, but we didn’t want to religiously
-follow that so we have the move boards in
+[18:14] follow that so we have the move boards in
 place, but it's also kind of like Mad Max,
-the most recent one obviously set in the desert
+[18:20] the most recent one obviously set in the desert
 and thunderdome, episode three from the originals
-was looked at a lot simply because the whole
+[18:24] was looked at a lot simply because the whole
 kind of subject matter of those films is very
-close to what we were trying to create so
+[18:31] close to what we were trying to create so
 there’s this kind of rich heritage of history
-with the ship being there, and we say okay,
+[18:35] with the ship being there, and we say okay,
 well what would happen if these Nomads take
-it over, how would they make it secure, how
+[18:39] it over, how would they make it secure, how
 would they live there.
-There’s a lot of things you didn’t see
+[18:44] There’s a lot of things you didn’t see
 in the demo which people ran past, but there
-are actually little beds in there with a little
+[18:47] are actually little beds in there with a little
 radio, these stories and personal touches
-which make a lot of difference to me and you’ll
+[18:52] which make a lot of difference to me and you’ll
 see more of that in the future as well
-PH: We had to think how the sand would build
+[18:57] PH: We had to think how the sand would build
 up on the surfaces and how you get it to look
-as though the ship is no longer pristine and
+[19:03] as though the ship is no longer pristine and
 clean and it’s been out in the sun for years,
-kind of rusting away.
-So we made use the blend shaders in CryEngine
+[19:13] kind of rusting away.
+[19:15] So we made use the blend shaders in CryEngine
 to kind of blend from the originally paneling
-that was already there on the Javelin and
+[19:22] that was already there on the Javelin and
 blended that into either rust or into sand,
-and the way we approached it was the exterior
+[19:28] and the way we approached it was the exterior
 hull of the ship, that was kind of sandy and
-as though the exterior of the ship would be
+[19:35] as though the exterior of the ship would be
 treated so it would withstand the elements
-as it were, but then everything that was exposed
+[19:40] as it were, but then everything that was exposed
 from the interior, that was just rusting away
-and decaying and that was the way we approached
+[19:47] and decaying and that was the way we approached
 it.
-So that as you revealed the innards of the
+[19:51] So that as you revealed the innards of the
 ship you could see it kind of dying over time.
-ND: When news got around the studio that we
+[19:57] ND: When news got around the studio that we
 were going to kind of do this with the Javelin,
-a lot of the team were biting at the cookie
+[20:03] a lot of the team were biting at the cookie
 to try and get on the team that we're making
-that because it's a break for us.
-We’re making these pristine ships all the
+[20:10] that because it's a break for us.
+[20:13] We’re making these pristine ships all the
 time.
-When you get the opportunity to do something
+[20:16] When you get the opportunity to do something
 that’s not you know this pristine looking
-ship in space, that you want to kind of bury
+[20:22] ship in space, that you want to kind of bury
 it in a desert or another kind of biome, you
-can get very creative with that stuff and
+[20:27] can get very creative with that stuff and
 tell these stories, and the guys fundamentally
-we were all environmental artists, that’s
+[20:33] we were all environmental artists, that’s
 how we started and it’s always nice to go
-back there and keep touch with that stuff
-PH: So you’re trying to tell that story,
+[20:36] back there and keep touch with that stuff
+[20:39] PH: So you’re trying to tell that story,
 a crash basically.
-So you wouldn’t expect the girders and the
+[20:43] So you wouldn’t expect the girders and the
 beams and the framework to just be sliced.
-We spent a lot of time cutting into these
+[20:50] We spent a lot of time cutting into these
 meshes.
-ND: So the day-night cycle, in the previous
+[20:54] ND: So the day-night cycle, in the previous
 version of the engine it was quite easy to
-do.
-You could link glows to a certain time of
+[20:59] do.
+[21:00] You could link glows to a certain time of
 day, so the previous system had a 24 hour
-day-night cycle, and you could tell the glow
+[21:07] day-night cycle, and you could tell the glow
 in a shader to go, “Oh you know what, at
-six o’clock at night switch on, and at six
+[21:12] six o’clock at night switch on, and at six
 o'clock in the morning switch off”.
-We don’t know how far we are from the closest
+[21:15] We don’t know how far we are from the closest
 star right now which would be the sun, so
-we actually don’t know how long a day will
+[21:20] we actually don’t know how long a day will
 last a certain point on a planet so there’s
-a lot of kind of things that we need to work
+[21:24] a lot of kind of things that we need to work
 out with that, so we have those challenges
-to think about as well.
-PH: Me and all the guys we do read the forums,
+[21:28] to think about as well.
+[21:30] PH: Me and all the guys we do read the forums,
 we look at the feedback and it seems to have
-gone down really well.
-Everyone here is really proud of their work
+[21:35] gone down really well.
+[21:36] Everyone here is really proud of their work
 and I think everyone did a great job on the
-crashed Javelin, and I think we now know how
+[21:42] crashed Javelin, and I think we now know how
 to manage a mid sized ship and a smaller ship
-and now we’ve learned a lot about how to
+[21:49] and now we’ve learned a lot about how to
 damage these capital ships and it’s only
-going to help push things forward in the future.
-Back in the Studio
-FS: Yeah so all that beautiful work the Environment
+[21:54] going to help push things forward in the future.
+[21:57] Back in the Studio
+[21:58] FS: Yeah so all that beautiful work the Environment
 Team work did really inspired the Character
-Team.
-It really allowed us to branch out and do
+[22:02] Team.
+[22:03] It really allowed us to branch out and do
 something a little more diverse, something
-a little more different and so Josh Herman
+[22:06] a little more different and so Josh Herman
 had this idea that he wanted something that
-was like, something no one had ever seen before
+[22:10] was like, something no one had ever seen before
 and so he created this character called the
-Sand Nomad and that went over to concept and
+[22:13] Sand Nomad and that went over to concept and
 they worked together back and forth, him and
-Jeremiah and then they got this amazing look
+[22:18] Jeremiah and then they got this amazing look
 and we’re like: “This is what we want
-to go with”.
-Once from there, went over to James coo who
+[22:23] to go with”.
+[22:24] Once from there, went over to James coo who
 did this incredible high poly sculpt and then
-Omar and James Coo teamed up to model the
+[22:28] Omar and James Coo teamed up to model the
 whole character out, got that into the game
-and we’re like: “Yes this is awesome,
+[22:33] and we’re like: “Yes this is awesome,
 this is the diversity we’re looking for
-in the PU, this is the customization that
+[22:36] in the PU, this is the customization that
 you can put something together and see something
-very different”.
-Once then we got it running around we got
+[22:40] very different”.
+[22:41] Once then we got it running around we got
 some cloth physics in there for the first
-time that we’ve never done before and so
+[22:45] time that we’ve never done before and so
 it really came together nicely.
-SG: Very, very cool.
-In addition to the environment and characters
+[22:48] SG: Very, very cool.
+[22:50] In addition to the environment and characters
 the sound design also added a lot to bring
-Homestead to life.
-FS: It did.
-SG: Here to explain exactly what went into
+[22:54] Homestead to life.
+[22:55] FS: It did.
+[22:56] SG: Here to explain exactly what went into
 the demo is Matteo from the audio team.
-FS: Take it away Matteo
-23:04 Behind the Scenes: Homestead Sound
-Matteo Cerquone (MC): I’ve mainly been working
+[23:00] FS: Take it away Matteo
+[23:02] 23:04 Behind the Scenes: Homestead Sound
+[23:04] Matteo Cerquone (MC): I’ve mainly been working
 on the ambiences for Homestead.
-I’m spending quite some time with the sandstorm
+[23:08] I’m spending quite some time with the sandstorm
 itself.
-We would have different wind density, changing
+[23:14] We would have different wind density, changing
 according to how close or far you are from
-the sandstorm and sound design is a lot like
+[23:18] the sandstorm and sound design is a lot like
 designing things.
-It’s not like, “Oh I need the sound of
+[23:22] It’s not like, “Oh I need the sound of
 a real sandstorm to actually have the sound
-of a sandstorm”, no it doesn’t really
+[23:28] of a sandstorm”, no it doesn’t really
 work that way.
-It’s more like breaking down the elements
+[23:31] It’s more like breaking down the elements
 a sandstorm can bring so you go from wind
-and then you can record just sand debris so
+[23:36] and then you can record just sand debris so
 you can record, just like debris of metallic
-debris and things of that.
-When you combined all those layers together,
+[23:43] debris and things of that.
+[23:45] When you combined all those layers together,
 that’s when you get the overall really sandstorm
-you know metal shaking, all those kinds of
+[23:50] you know metal shaking, all those kinds of
 stuff, but I would not recommend anyone to
-just go into a sandstorm and record it really.
-So this one is the sound of the debris, like
+[23:57] just go into a sandstorm and record it really.
+[24:00] So this one is the sound of the debris, like
 metal debris, it’s quite loud but we’re
-not gonna hear it now because the wind.
-[Wind in the background]
-Because the window is not strong enough really.
-We can bring the level of the wind higher
+[24:07] not gonna hear it now because the wind.
+[24:09] [Wind in the background]
+[24:11] Because the window is not strong enough really.
+[24:13] We can bring the level of the wind higher
 so that these sounds in particular will start
-resonating as well.
-And just gonna go with three..
-[Wind increases and metallic sounds can be
+[24:20] resonating as well.
+[24:23] And just gonna go with three..
+[24:30] [Wind increases and metallic sounds can be
 heard]
-And again if I bring the volume down for the
+[24:34] And again if I bring the volume down for the
 wind, things will get more subtle.
-This is the way we want to work basically
+[24:38] This is the way we want to work basically
 so we want to populate the entire area with
-as many, let's call silence sounds as we can
+[24:45] as many, let's call silence sounds as we can
 and we would let the wind just basically just
-automate all of that.
-So we would let the wind talk, and other yeah
+[24:51] automate all of that.
+[24:53] So we would let the wind talk, and other yeah
 natural elements we need to have it to drive
-the audio itself.
-The most difficult part would be to actually
+[25:00] the audio itself.
+[25:01] The most difficult part would be to actually
 procedurally generate sound in a way that
-if it's with a level, we can’t not just
+[25:08] if it's with a level, we can’t not just
 manually put things on the level otherwise
-we’ll have to manually cover each planet
+[25:13] we’ll have to manually cover each planet
 and that won’t be possible really because
-the scale is so huge, we need to address things
+[25:18] the scale is so huge, we need to address things
 in a way that is more dynamic as possible,
-that’s where the real challenge is.
-If we jump back here in the Javelin, you can
+[25:27] that’s where the real challenge is.
+[25:29] If we jump back here in the Javelin, you can
 see that there are tons and tons of just like
-all your trigger spots which most of them
+[25:36] all your trigger spots which most of them
 will not make any sound until they have been
-some wind elements.
-Those are your trigger spots and are not making
+[25:41] some wind elements.
+[25:43] Those are your trigger spots and are not making
 any sounds at the moment, but as I bring the
-sandstorm closer, we start to get some more
+[25:46] sandstorm closer, we start to get some more
 wind
-[Wind picks up]
-There you go.
-So the sandstorm is a bit far away, it’s
+[25:50] [Wind picks up]
+[25:54] There you go.
+[25:57] So the sandstorm is a bit far away, it’s
 not that close so the wind is not that strong
-really, but we are starting to get some of
+[26:04] really, but we are starting to get some of
 the elements already here, some of the debris.
-We can use some rustling here as well which
+[26:12] We can use some rustling here as well which
 is not too crazy.
-I mean the sandstorm is still far away, but
+[26:17] I mean the sandstorm is still far away, but
 as the sandstorm gets closer, that’s where
-we get more of those elements really coming
+[26:33] we get more of those elements really coming
 up to life and be really loud in this place.
-So you can hear like the whole ship itself
+[26:40] So you can hear like the whole ship itself
 is rattling and you get all this sand debris
-and I bring the sandstorm far away from it,
+[26:48] and I bring the sandstorm far away from it,
 basically we get more of just the debris sounds
-and less of the rattling really, and that’s
+[26:53] and less of the rattling really, and that’s
 really what we aim for with this is so that
-we can just populate the entire area with
+[27:01] we can just populate the entire area with
 all those silent trigger spots and just make
-them really resonate and bring them to life
+[27:08] them really resonate and bring them to life
 with the wind elements and this system can
-pretty much work with many other solutions.
-It can be not just for wind, not just for
+[27:14] pretty much work with many other solutions.
+[27:18] It can be not just for wind, not just for
 the sandstorm, but we can just like have entire
-buildings rattling or resonate as for example
+[27:26] buildings rattling or resonate as for example
 a thruster, as a spaceship would fly by it
-really, so we can meter the thrusters on the
+[27:33] really, so we can meter the thrusters on the
 spaceships and make that drive the sounds
-of specific objects in the game.
-There’s so much sound design to do for this
+[27:40] of specific objects in the game.
+[27:42] There’s so much sound design to do for this
 game.
-It’s like from the most Sci-Fi weird sounding
+[27:45] It’s like from the most Sci-Fi weird sounding
 spaceship to the most common I don’t know,
-wind sounds, just like recording general ambiences.
-So it’s a project so big that basically
+[27:50] wind sounds, just like recording general ambiences.
+[27:54] So it’s a project so big that basically
 allows us to just play with all types of sounds
-really, it never gets boring.
-Back to Studio
-SG: Always great to hear from the audio team.
-FS: Oh I knew you were going to do that [laughs].
-Is that an old school ATV pun?
-SG: I’m not saying anything, Ben’s not
+[28:00] really, it never gets boring.
+[28:03] Back to Studio
+[28:04] SG: Always great to hear from the audio team.
+[28:05] FS: Oh I knew you were going to do that [laughs].
+[28:07] Is that an old school ATV pun?
+[28:09] SG: I’m not saying anything, Ben’s not
 here so you know.
-FS: Alright on that note, let's go over to
+[28:12] FS: Alright on that note, let's go over to
 Jared for this week’s Community Update.
-28:21 Community Update w/ Jared Huckaby
-Jared Huckaby (JH): Hello everybody, Community
+[28:17] 28:21 Community Update w/ Jared Huckaby
+[28:21] Jared Huckaby (JH): Hello everybody, Community
 Manager Jared Huckaby here, filling in for
-Tyler Witkin who is on a well deserved vacation,
+[28:28] Tyler Witkin who is on a well deserved vacation,
 with this week’s Community Update.
-Let’s talk about awards.
-Star Citizen and our partners at Turbulent
+[28:32] Let’s talk about awards.
+[28:35] Star Citizen and our partners at Turbulent
 recently won the Adobe and FWA “Cutting
-Edge Award of the Year” for their work on
+[28:39] Edge Award of the Year” for their work on
 the ARK Starmap.
-The Starmap is one of many innovations Turbulent
+[28:43] The Starmap is one of many innovations Turbulent
 has brought to Star Citizen and you can see
-it in action every other Wednesday in our
+[28:48] it in action every other Wednesday in our
 Loremaker’s Guide to the Galaxy series of
-videos here on YouTube.
-In addition to that the Golden Joystick Awards
+[28:52] videos here on YouTube.
+[28:54] In addition to that the Golden Joystick Awards
 are one of the longest running game awards
-in the business.
-And Star Citizen is currently nominated for
+[28:59] in the business.
+[29:01] And Star Citizen is currently nominated for
 “Most Wanted Game of the Year”.
-So as Chris Roberts once said, “Tell your
+[29:06] So as Chris Roberts once said, “Tell your
 family.
-Tell your friends.
-Tell your pets if that’s what it takes.
-And let's get the word out!”
-We’re up against some tough competition
+[29:09] Tell your friends.
+[29:10] Tell your pets if that’s what it takes.
+[29:12] And let's get the word out!”
+[29:13] We’re up against some tough competition
 this year so you can vote at the link below
-and voting ends October 31st.
-In this week’s news another issue of Jump
+[29:17] and voting ends October 31st.
+[29:19] In this week’s news another issue of Jump
 Point magazine, our monthly behind-the-scenes
-look at the development of Star Citizen for
+[29:24] look at the development of Star Citizen for
 subscribers, goes out tomorrow.
-It’s just one of many perks those who subscribe
+[29:28] It’s just one of many perks those who subscribe
 receive.
-So if you’d like to know more you can do
+[29:32] So if you’d like to know more you can do
 so by going to robertsspaceindustries.com/pledge/subscriptions.
-Now who doesn’t like to fly spaceships for
+[29:37] Now who doesn’t like to fly spaceships for
 free?
-We just completed our annual “all ships”
+[29:43] We just completed our annual “all ships”
 free fly for existing backers in celebration
-of CitizenCon.
-And now we’re doing another free fly for
+[29:48] of CitizenCon.
+[29:49] And now we’re doing another free fly for
 those of you who are brand new to Star Citizen.
-So starting tomorrow and going through October
+[29:54] So starting tomorrow and going through October
 31st, anyone who signs up for a Star Citizen
-account, with or without a purchase, will
+[29:59] account, with or without a purchase, will
 be able to fly one of our premier dogfighters
-in the Star Citizen universe: the F7CM Super
+[30:04] in the Star Citizen universe: the F7CM Super
 Hornet.
-I expect all those pirates around Yela to
+[30:08] I expect all those pirates around Yela to
 be cleared out in no time.
-So get to it!
-And this weekend also marks the fan CitizenCon
+[30:12] So get to it!
+[30:14] And this weekend also marks the fan CitizenCon
 Germany.
-Now this is a new, completely fan organised
+[30:17] Now this is a new, completely fan organised
 Star Citizen event, not unlike the BritizenCon
-event that happened in the UK earlier this
+[30:23] event that happened in the UK earlier this
 year.
-Several members from Foundry 42 Frankfurt
+[30:26] Several members from Foundry 42 Frankfurt
 are expected to be in attendance.
-So you can learn more about that event if
+[30:29] So you can learn more about that event if
 you are interested in attending at citizencon.de.
-Of course what would a Community Update be
+[30:35] Of course what would a Community Update be
 without this week’s MVP?
-I’ll tell you the candidates for MVP every
+[30:39] I’ll tell you the candidates for MVP every
 week have been racking up and we have an abundance
-of deserving winners.
-But this week it was RiceMaiden and their
+[30:44] of deserving winners.
+[30:45] But this week it was RiceMaiden and their
 work on a 1/64th scale Misc Reliant Kore made
-from laser-cut birch plywood that caught my
+[30:51] from laser-cut birch plywood that caught my
 eye.
-As you can see in the photos RiceMaiden put
+[30:55] As you can see in the photos RiceMaiden put
 a lot of time and care into their work and
-even linked the design files to the forums
+[30:59] even linked the design files to the forums
 so others can benefit from their effort.
-So congratulations RiceMaiden you are this
+[31:04] So congratulations RiceMaiden you are this
 week’s MVP!
-Finally looking ahead to next week, is our
+[31:09] Finally looking ahead to next week, is our
 October Monthly Subscriber Town Hall on Wednesday,
-October 26th.
-It’ll be hosted live here in our LA studio
+[31:14] October 26th.
+[31:15] It’ll be hosted live here in our LA studio
 with special guests Eric Kieron Davis, Forrest
-Stephan, and the always enlightening Sean
+[31:20] Stephan, and the always enlightening Sean
 Tracy.
-Look for that live, on Twitch, at 12 noon.
-With that, that’s our Community Update for
+[31:24] Look for that live, on Twitch, at 12 noon.
+[31:27] With that, that’s our Community Update for
 this week.
-So back to you Sandi and Forrest.
-Outro
-FS: So I might be totally biased but I think
+[31:29] So back to you Sandi and Forrest.
+[31:31] Outro
+[31:32] FS: So I might be totally biased but I think
 that Star Citizen has one of the most interesting
-communities out though.
-SG: I think it is the best community out there.
-You had a great time at Citizencon which is
+[31:38] communities out though.
+[31:40] SG: I think it is the best community out there.
+[31:43] You had a great time at Citizencon which is
 why it is incredible we get to meet our backers
-in person, like at Citizencon, and all the
+[31:46] in person, like at Citizencon, and all the
 Bar Citizens that we have.
-FS: That’s right.
-Because without them we just wouldn’t be
+[31:49] FS: That’s right.
+[31:50] Because without them we just wouldn’t be
 here.
-SG: That is true and all of your support,
+[31:53] SG: That is true and all of your support,
 subscribers and backers, make it so we get
-the chance to create the game that we’ve
+[31:57] the chance to create the game that we’ve
 always wanted to.
-FS: Yeah.
-So tune in tomorrow at 8am Pacific, 4pm GMT
+[32:00] FS: Yeah.
+[32:01] So tune in tomorrow at 8am Pacific, 4pm GMT
 to join us for Reverse the ‘Verse.
-SG: And until next week, we will see you…
-Both: Around
-the ‘Verse.
+[32:08] SG: And until next week, we will see you…
+[32:10] Both: Around
+[32:44] the ‘Verse.

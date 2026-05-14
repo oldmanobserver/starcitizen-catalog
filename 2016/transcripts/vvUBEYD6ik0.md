@@ -6,557 +6,557 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:13] Closed Captioning provided by the Imperial
 News Network.
-Phil Meller (PM): Hey everyone and welcome
+[00:15] Phil Meller (PM): Hey everyone and welcome
 to season three episode five of Around the
-‘Verse.
-I’m Miles Eckhart Lead Designer here at
+[00:19] ‘Verse.
+[00:20] I’m Miles Eckhart Lead Designer here at
 Foundry 42 Wilmslough.
-Mici Oliver (MO): And I’m QA Tester Mici
+[00:22] Mici Oliver (MO): And I’m QA Tester Mici
 Oliver.
-PM: And the big news this week is 2.5 is live
+[00:24] PM: And the big news this week is 2.5 is live
 for all the backers.
-If you haven’t grabbed it yet make you sure
+[00:27] If you haven’t grabbed it yet make you sure
 you head to the launcher and check it out,
-and congrats to the whole team of getting
+[00:31] and congrats to the whole team of getting
 this patch out including all the backers who
-worked so hard to help us test the builds
+[00:34] worked so hard to help us test the builds
 and get everything stable.
-MO: Definitely a big thanks to the backers
+[00:38] MO: Definitely a big thanks to the backers
 and the avocados on the PTU.
-Working in QA I know what a struggle it is
+[00:41] Working in QA I know what a struggle it is
 to get through all those bugs, but the fact
-that we have so many players looking at it
+[00:46] that we have so many players looking at it
 has really helped identify the issues so thank
-you!
-PM: And 2.5 brings some great new changes
+[00:50] you!
+[00:51] PM: And 2.5 brings some great new changes
 to the Alpha.
-There’s a new landing system that makes
+[00:54] There’s a new landing system that makes
 touching down a lot easier and there’s also
-two new ships to fly.
-MO: We have the Argo utility craft and the
+[00:57] two new ships to fly.
+[00:59] MO: We have the Argo utility craft and the
 Reliant Kore, both are quite different ships
-than what we already have in the game so it’s
+[01:05] than what we already have in the game so it’s
 really exciting to see them in and flight
-ready as well.
-PM: Yeah, but the biggest addition has to
+[01:10] ready as well.
+[01:11] PM: Yeah, but the biggest addition has to
 be our new location Grim Hex.
-Outlaws finally have a place they can call
+[01:14] Outlaws finally have a place they can call
 home.
-MO: With it comes outlaw themed stores which
+[01:16] MO: With it comes outlaw themed stores which
 includes outlaw armour and guns and we also
-have some more clothing which is counter culture
+[01:23] have some more clothing which is counter culture
 shirts, bandanas, that sort of thing.
-PM: Another reason for the player to explore
+[01:29] PM: Another reason for the player to explore
 is being one of the core directives of Star
-Citizen.
-If you want this piece of clothing then you
+[01:33] Citizen.
+[01:34] If you want this piece of clothing then you
 might have to fly to this specific store.
-So Mici there’s been something you’ve
+[01:37] So Mici there’s been something you’ve
 been helping out with.
-MO: Yes I made a PU clothing wardrobe which
+[01:40] MO: Yes I made a PU clothing wardrobe which
 is for the Designers so they can see all the
-clothing that’s been completed by the Art
+[01:46] clothing that’s been completed by the Art
 Team.
-So if they want to dress a character they’ll
+[01:49] So if they want to dress a character they’ll
 look through all the shirts available and
-all the pants and mix and match and this is
+[01:52] all the pants and mix and match and this is
 how a lot of the NPCs were dressed for the
-demo.
-PM: Yeah I had to dress my, well dressed Miles
+[01:58] demo.
+[01:59] PM: Yeah I had to dress my, well dressed Miles
 Eckhart that week and it was easy.
-MO: Yes, that was unusual.
-PM: It was really handy.
-So in addition to 2.5 we also have the monthly
+[02:03] MO: Yes, that was unusual.
+[02:04] PM: It was really handy.
+[02:05] So in addition to 2.5 we also have the monthly
 subscriber Town Hall held right here at Foundry
-42.
-MO: Yes members of our Audio team have been
+[02:10] 42.
+[02:11] MO: Yes members of our Audio team have been
 taking live questions from the subscribers.
-To find out a bit more about what Foundry
+[02:16] To find out a bit more about what Foundry
 42 has been up to this week he’s Nick Elms
-with this week’s Studio Update.
-PM: Yeah let's check out his shirt this week.
-Studio Update
-Nick Elms (NE): Hi everyone, welcome to another
+[02:21] with this week’s Studio Update.
+[02:22] PM: Yeah let's check out his shirt this week.
+[02:23] Studio Update
+[02:24] Nick Elms (NE): Hi everyone, welcome to another
 UK update.
-We really hope you enjoyed the Gamescom demo
+[02:29] We really hope you enjoyed the Gamescom demo
 as much as we did, we’re just getting back
-to action here now and we’re just going
+[02:33] to action here now and we’re just going
 to start today with Will Maiden talking to
-you guys who wanna be budding cargo haulers
+[02:38] you guys who wanna be budding cargo haulers
 and pirates and salvagers about the basics
-of the cargo system.
-Will Maiden (WM): OK, so for 3.0 we’re going
+[02:43] of the cargo system.
+[02:45] Will Maiden (WM): OK, so for 3.0 we’re going
 to have the ability to pick up the box, take
-it to your ship, put it in your ship and take
+[02:51] it to your ship, put it in your ship and take
 that ship to market - which will allow us
-to sell whatever you find.
-Now it’s going to either come from salvage,
+[02:55] to sell whatever you find.
+[02:56] Now it’s going to either come from salvage,
 ships you find out in the debris field; stuff
-you take off other people’s ships that you
+[03:01] you take off other people’s ships that you
 pirate; stuff you are going to get given on
-missions.
-You can also go to market - pick up whatever
+[03:04] missions.
+[03:05] You can also go to market - pick up whatever
 you want to buy, whatever they’re selling,
-that’ll automatically get put in your ship
+[03:10] that’ll automatically get put in your ship
 and you can take that out to sell that as
-well.
-We’re hoping to get all sorts of trade routes
+[03:14] well.
+[03:15] We’re hoping to get all sorts of trade routes
 - buy stuff from here, sell it to there, take
-stuff from there, go somewhere else - traders
+[03:18] stuff from there, go somewhere else - traders
 will go to port and they will just buy from
-a computer two-hundred-
-Video Commentator: You can both manually pick
+[03:23] a computer two-hundred-
+[03:25] Video Commentator: You can both manually pick
 up and drop cargo as well as automatically
-load and unload onto full service spaceports.
-WM: to three-hundred units of steel or whatever
+[03:26] load and unload onto full service spaceports.
+[03:27] WM: to three-hundred units of steel or whatever
 and that will automatically be generated on
-your ship.
-So they have a really time of just buying
+[03:29] your ship.
+[03:31] So they have a really time of just buying
 what they want, getting back into space and
-trading whereas salvage players, pirates - they
+[03:35] trading whereas salvage players, pirates - they
 can physically walk up to a box, pick it up,
-manually take it over to their ship, or take
+[03:42] manually take it over to their ship, or take
 it to a market and sell it.
-So they have a much more lengthy gameplay
+[03:47] So they have a much more lengthy gameplay
 but it should be fun for them to be able to
-see what they are taking and individually
+[03:54] see what they are taking and individually
 picking what they want.
-We’ve obviously already got cargo boxes
+[03:57] We’ve obviously already got cargo boxes
 built, we’ve got ships where the interiors
-are already set up - so we can start placing:
+[04:02] are already set up - so we can start placing:
 here is where cargo will fit, here is where
-we can store it.
-Those will probably come along side-by-side
+[04:06] we can store it.
+[04:07] Those will probably come along side-by-side
 and then we should be good to go.
-We’ll be able to see very quickly once it’s
+[04:10] We’ll be able to see very quickly once it’s
 down inside your ship, it gets locked to that
-ship.
-Then all we need is on the other side, markets
+[04:15] ship.
+[04:16] Then all we need is on the other side, markets
 being set up - we’ve already got a few at
-Port Olisar, GrimHex and we’ll be seeing
+[04:20] Port Olisar, GrimHex and we’ll be seeing
 some at Levski - places where you can take
-those items.
-Instead of talking to someone and buying a
+[04:25] those items.
+[04:26] Instead of talking to someone and buying a
 gun you’ll be able to say “Hey I’ve
-got ten tonnes of cargo in the back if you
+[04:30] got ten tonnes of cargo in the back if you
 want to buy that”.
-So with having trade routes that gives us
+[04:34] So with having trade routes that gives us
 then the opportunity of pirates, finding out
-about those trade routes.
-Coming and camping on them, waiting for transports
+[04:39] about those trade routes.
+[04:40] Coming and camping on them, waiting for transports
 to come in.
-Grab them, steal their cargo.
-So then we’re going to have, hopefully,
+[04:44] Grab them, steal their cargo.
+[04:46] So then we’re going to have, hopefully,
 players wanting to protect their cargo.
-They start hiring mercenaries to come and
+[04:50] They start hiring mercenaries to come and
 protect them, and then bounty hunters to hunt
-down the pirates that stole off them in the
+[04:54] down the pirates that stole off them in the
 first place.
-So hopefully from having that initial cargo
+[04:57] So hopefully from having that initial cargo
 route from one or another, we should be seeing
-a lot more careers being built around that.
-NE: Thanks Will.
-I hope you all enjoyed that and you can see
+[05:02] a lot more careers being built around that.
+[05:05] NE: Thanks Will.
+[05:06] I hope you all enjoyed that and you can see
 those systems start to come online with the
-gameplay possibilities are going to be expanded
+[05:12] gameplay possibilities are going to be expanded
 for you guys in the Star CItizen universe.
-We’re going to move over now and take a
+[05:17] We’re going to move over now and take a
 look at the Ursa Rover, which was one of the
-stars of the show
-Jort Van Welbergen(JW): When I got the brief
+[05:22] stars of the show
+[05:23] Jort Van Welbergen(JW): When I got the brief
 to work on the rover, basically it was my
-task to take Hobbins’ concept of the rover
+[05:28] task to take Hobbins’ concept of the rover
 that was shown in the cinematic and take it
-up to the new level of quality for the gameplay
+[05:34] up to the new level of quality for the gameplay
 and the systems that we put in place.
-Incorporate the all the cargo systems, the
+[05:39] Incorporate the all the cargo systems, the
 new weapon systems, to a level that we have
-the ships at as well.
-It was really interesting experience to work
+[05:42] the ships at as well.
+[05:45] It was really interesting experience to work
 on.
-One of the main mechanics that I had to introduce
+[05:48] One of the main mechanics that I had to introduce
 was, I had to find a way for it to, for a
-vehicle with enough ground clearance to be
+[05:54] vehicle with enough ground clearance to be
 off road capable and also for it to fit into
-the Constellation cargo ramp which was shown
+[05:59] the Constellation cargo ramp which was shown
 in the cinematic.
-Problem being that the Constellation cargo
+[06:04] Problem being that the Constellation cargo
 bay isn’t really fit for a six wheeled super
-big sort of rover vehicle.
-So I had to come up with a mechanics system
+[06:09] big sort of rover vehicle.
+[06:11] So I had to come up with a mechanics system
 that the wheels basically fold on to the body
-of the vehicle and then deploy when it needs
+[06:16] of the vehicle and then deploy when it needs
 to go outside to when it needs to do its off
-road duties.
-That as well as a deployable turret that deploys
+[06:21] road duties.
+[06:22] That as well as a deployable turret that deploys
 via a rail system to be able to get the rover
-to be able to clear the ramp of the Constellation.
-Graeme Palmer (GP): So basically you’re
+[06:27] to be able to clear the ramp of the Constellation.
+[06:28] Graeme Palmer (GP): So basically you’re
 provided a few concept images that he’d
-done a paint over of and then I took that
+[06:33] done a paint over of and then I took that
 into Max and cleaned it up as best I could
-and then modelled on top of that and then
+[06:38] and then modelled on top of that and then
 from there we just refine the mesh and start
-adding geometry to get a better idea of how
+[06:43] adding geometry to get a better idea of how
 it all works.
-And then on this particular one because the
+[06:47] And then on this particular one because the
 space was so tight I also animated as I was
-going along so I could, there were certain
+[06:52] going along so I could, there were certain
 shapes I had to change, so they could fold
-up and work
-Tom Woodward (TW): The cockpit’s interior
+[06:58] up and work
+[06:59] Tom Woodward (TW): The cockpit’s interior
 consists of two chairs.
-One pilot one navigator.
-Both consoles for both people, sort of fold
+[07:03] One pilot one navigator.
+[07:06] Both consoles for both people, sort of fold
 away allowing more leg room to get in and
-get out.
-When the pilot will get in the console will
+[07:11] get out.
+[07:12] When the pilot will get in the console will
 slide away and then rebuild itself around
-the pilot to sort of get in and drive.
-The cargo bay area consists of fold away seats,
+[07:19] the pilot to sort of get in and drive.
+[07:22] The cargo bay area consists of fold away seats,
 weapon lockers.
-It’s got a couple of access points, so the
+[07:26] It’s got a couple of access points, so the
 four standing crew can come in and out as
-they want.
-It’s sort of helps the planetary aspect
+[07:33] they want.
+[07:34] It’s sort of helps the planetary aspect
 of Star Citizen come alive a bit more.
-Cause you can get to the planet’s surface
+[07:40] Cause you can get to the planet’s surface
 and you can explore more than you could if
-you were on foot.
-So say you wanted to get from one place to
+[07:44] you were on foot.
+[07:45] So say you wanted to get from one place to
 another without the Rover you’d either have
-to end up getting back in your ship and sort
+[07:49] to end up getting back in your ship and sort
 of fly up into the atmosphere and then come
-back down again, which you might miss something
+[07:54] back down again, which you might miss something
 interesting like a ravine or something, a
-crater that has some sort of interesting building
+[07:58] crater that has some sort of interesting building
 or something in it.
-Where as with the Rover you can drive around
+[08:01] Where as with the Rover you can drive around
 and get much more in depth information on
-the terrain and stuff and possible find something
+[08:07] the terrain and stuff and possible find something
 more interesting than if you were just flying
-around the atmosphere or orbiting kind of
+[08:12] around the atmosphere or orbiting kind of
 thing.
-Up until now we’ve only had the Greycat
+[08:15] Up until now we’ve only had the Greycat
 buggy and it’s not been a multi crew vehicle
-where as this is a larger, you can get your
+[08:22] where as this is a larger, you can get your
 friends, you can go down to the planet’s
-surface and you rove around.
-You can even do sort of drive by shootings
+[08:28] surface and you rove around.
+[08:30] You can even do sort of drive by shootings
 if you want to and have the back door open
-and two guys crouched down with machine guns
+[08:33] and two guys crouched down with machine guns
 while you’re driving around.
-Which is pretty cool!
-MO: Yes, I got to QA test the Rover and it’s
+[08:38] Which is pretty cool!
+[08:39] MO: Yes, I got to QA test the Rover and it’s
 really fun to drive across all the vast planets,
-new planets that we’ve got.
-And I loved seeing it going against the Dragonfly
+[08:47] new planets that we’ve got.
+[08:48] And I loved seeing it going against the Dragonfly
 at Gamescom, that’s really cool!
-PM: And to give us a more in depth look at
+[08:53] PM: And to give us a more in depth look at
 what it took to hatch the Dragonfly, let’s
-go to Paul Jones and his team
-Ship Shape: Dragonfly
-Paul Jones (PJ):: So the Dragonfly was basically
+[08:55] go to Paul Jones and his team
+[08:57] Ship Shape: Dragonfly
+[08:59] Paul Jones (PJ):: So the Dragonfly was basically
 a new category of vehicle for Star Citizen.
-We’d worked with small spaceships, one seaters,
+[09:08] We’d worked with small spaceships, one seaters,
 two seater; multi-crew.
-The ships were just getting bigger and bigger.
-And that was working for the universe but
+[09:12] The ships were just getting bigger and bigger.
+[09:16] And that was working for the universe but
 now with 3 … well 3.0 coming up and us going
-planetside - which we’ve just shown in the
+[09:24] planetside - which we’ve just shown in the
 demo - Chris was really pushing for a personal
-vehicle.
-Essentially a space motorcycle.
-Like a space hog.
-And so with that in mind the Drake Dragonfly
+[09:31] vehicle.
+[09:32] Essentially a space motorcycle.
+[09:33] Like a space hog.
+[09:36] And so with that in mind the Drake Dragonfly
 is the perfect candidate because it’s styling
-is a little bit … it’s a little bit low
+[09:44] is a little bit … it’s a little bit low
 brow, it’s quite mechanically.
-Especially we’d just been dealing with the
+[09:48] Especially we’d just been dealing with the
 Caterpillar.
-And so we worked with those requirements and
+[09:51] And so we worked with those requirements and
 the Design team, with their brief that they
-gave us: they want something small, something
+[09:57] gave us: they want something small, something
 that can hover above land, something that
-can also fly in space, so you can just boot
+[10:04] can also fly in space, so you can just boot
 it out of your Freelancer.
-And so this was a lot of fun.
-So this was a brand new … again it was like
+[10:09] And so this was a lot of fun.
+[10:10] So this was a brand new … again it was like
 carte blanche almost.
-And so this is always what us art guys want;
+[10:14] And so this is always what us art guys want;
 what the concept guys want.
-So you’ll see today through the process
+[10:21] So you’ll see today through the process
 how we’ve developed it.
-Gary Sanchez (GS): The ship it was interesting
+[10:26] Gary Sanchez (GS): The ship it was interesting
 to design first because it’s small.
-It’s allowed go everywhere on ground, on
+[10:32] It’s allowed go everywhere on ground, on
 planet, and we can also go in space with it
-so we have different functionality contrary
+[10:40] so we have different functionality contrary
 to some other ship that are bigger or different.
-So the Drake manufacturer is also interesting
+[10:50] So the Drake manufacturer is also interesting
 because of this kind of low tech industrial
-look.
-So it was also a challenge to try to do something
+[10:56] look.
+[10:57] So it was also a challenge to try to do something
 iconic but with a ... not too design a bike.
-So it was very interesting to do.
-Joe Neville (JN): So the Dragonfly was challenging
+[11:07] So it was very interesting to do.
+[11:09] Joe Neville (JN): So the Dragonfly was challenging
 at times purely because there are so many
-expose components to it.
-It basically means that the … it was a lot
+[11:16] expose components to it.
+[11:18] It basically means that the … it was a lot
 more expensive as an asset.
-With a lot of the bigger ships you can hide
+[11:23] With a lot of the bigger ships you can hide
 components away whereas with the Dragonfly
-everything is exposed.
-You have to model everything.
-There’s no smoke and mirrors here.
-Steve Turberfield (ST): Essentially when I
+[11:28] everything is exposed.
+[11:29] You have to model everything.
+[11:30] There’s no smoke and mirrors here.
+[11:31] Steve Turberfield (ST): Essentially when I
 get given the model from the guys in the Art
-team, my job is essentially to start breaking
+[11:35] team, my job is essentially to start breaking
 that down into the separate items, such as
-the thrusters, and all the general parts of
+[11:41] the thrusters, and all the general parts of
 the ship itself, such as the nose, the body,
-and beginning to break them … make them
+[11:45] and beginning to break them … make them
 detachable and add damage effects and things
-like that.
-Overall we begin just by doing a real rough
+[11:50] like that.
+[11:51] Overall we begin just by doing a real rough
 whitebox flyable state on it.
-So we’ll just get the model flying before
+[11:56] So we’ll just get the model flying before
 we start breaking it all up.
-In the Gamescom demo we essentially showed
+[12:00] In the Gamescom demo we essentially showed
 off the basic setup of the ground mode and
-also the spaceflight mode, where we were essentially
+[12:05] also the spaceflight mode, where we were essentially
 showing it going off in space, landing inside
-the Freelancer, going planetside, getting
+[12:12] the Freelancer, going planetside, getting
 out again and being useable in its ground
-mode.
-We have a lot more to add to that so we’re
+[12:16] mode.
+[12:18] We have a lot more to add to that so we’re
 doing further work on the ground mode flight
-systems - just really tweaking it, making
+[12:23] systems - just really tweaking it, making
 sure that it feels spot on when you are riding
-on the planet.
-In addition we also need to set up the rear
+[12:26] on the planet.
+[12:27] In addition we also need to set up the rear
 seat for a rear facing passenger.
-So you will essentially have your buddy on
+[12:32] So you will essentially have your buddy on
 the back, running along with you and we are
-eventually going to implement them being able
+[12:36] eventually going to implement them being able
 to hold a weapons.
-So while you are in any chase sequences or
+[12:39] So while you are in any chase sequences or
 modes you’re essentially able to have your
-guy at the back shooting people off who are
+[12:43] guy at the back shooting people off who are
 approaching from behind.
-And the final thing that we are looking to
+[12:47] And the final thing that we are looking to
 implement is a third mode that the Dragonfly
-has which is a compact mode where essentially
+[12:51] has which is a compact mode where essentially
 the ship nacelles retract and it basically
-enables you to store it in it’s smallest
+[12:56] enables you to store it in it’s smallest
 possible state on any of your cargo ships.
-Darren Lambourne (DL): I went with Harley
+[13:01] Darren Lambourne (DL): I went with Harley
 Davidson for the kickstart sound, originally,
-which was heavily processed obviously to just
+[13:07] which was heavily processed obviously to just
 get that “bah-dah-dah-dum” coming … okay
-you know it’s a motorbike but heavily processed.
-And then it was a matter of finding out essentially
+[13:11] you know it’s a motorbike but heavily processed.
+[13:14] And then it was a matter of finding out essentially
 what made motorbikes different from cars or
-spaceships or airplanes.
-It’s the connectedness with the environment:
+[13:21] spaceships or airplanes.
+[13:22] It’s the connectedness with the environment:
 you’re racing along really near the floor.
-So the ground rush, particles, rocks, anything
+[13:28] So the ground rush, particles, rocks, anything
 like that, that’s going to hurt if you hit
-it hard enough and the wind rush and stuff.
-I wanted to really to get all of that stuff
+[13:33] it hard enough and the wind rush and stuff.
+[13:35] I wanted to really to get all of that stuff
 in there for the Dragonfly.
-So it was in stark contrast with the other
+[13:39] So it was in stark contrast with the other
 ships and vehicles we have in the game.
-The planetside stuff, the in atmosphere flight,
+[13:46] The planetside stuff, the in atmosphere flight,
 the sort of terrain traversal in wheeled vehicles
-and hover vehicles like the Dragonfly…
-I think provide a brilliant contrast between
+[13:50] and hover vehicles like the Dragonfly…
+[13:54] I think provide a brilliant contrast between
 what we’re used to, the sort of… the space
-travel aspect where you’ve got points of
+[13:58] travel aspect where you’ve got points of
 sound very sharp contrasty points of sound,
-very clean in the void.
-Then on planetside we’ve got this much more
+[14:04] very clean in the void.
+[14:06] Then on planetside we’ve got this much more
 grounded… when there’s an explosion it’s
-going to echo around in canyons, you feel
+[14:11] going to echo around in canyons, you feel
 close to the ground, you feel much like footsteps
-different surfaces… surface types and stuff
+[14:16] different surfaces… surface types and stuff
 you’re going to have to feel that through
-the vehicle and it just gives a…
-I think it’s a case of, you know, the total
+[14:20] the vehicle and it just gives a…
+[14:24] I think it’s a case of, you know, the total
 is great and the sum of the parts, really.
-The space travel and the planetside stuff
+[14:30] The space travel and the planetside stuff
 and those two things contrasting with each
-other I think sort of reinforcing each other.
-So, it’s kind of picking what we can emphasize
+[14:35] other I think sort of reinforcing each other.
+[14:37] So, it’s kind of picking what we can emphasize
 like the ground effect stuff, like echoey
-stuff off canyons and mountains and things
+[14:45] stuff off canyons and mountains and things
 like that to give you a sense of where you
-are and the two things will provide a brilliant
+[14:49] are and the two things will provide a brilliant
 much, much enhanced experience I think to
-just space flight, you know
-ST: So, I can honestly say that the Drake
+[14:54] just space flight, you know
+[14:55] ST: So, I can honestly say that the Drake
 Dragonfly has been my favourite ship to work
-on so far just because of adding new things
+[14:59] on so far just because of adding new things
 we have never done before in there and I’m
-really looking forward to seeing our backers
+[15:04] really looking forward to seeing our backers
 get their hands on it and do all kinds of
-crazy stuff while on planets.
-Back to Studio
-MO: Speaking of great content, a ton of the
+[15:07] crazy stuff while on planets.
+[15:08] Back to Studio
+[15:09] MO: Speaking of great content, a ton of the
 backers have been working on their own Star
-Citizen related projects to tell us the latest
+[15:13] Citizen related projects to tell us the latest
 is Tyler Witkin with this week’s community
-update.
-Community Update w/Tyler Witkin
-Hey everyone, Tyler Witkin, Community Manager
+[15:17] update.
+[15:18] Community Update w/Tyler Witkin
+[15:26] Hey everyone, Tyler Witkin, Community Manager
 in the Austin, Texas studio here to bring
-you this week’s community update.
-First and foremost, patch 2.5 is now live
+[15:29] you this week’s community update.
+[15:31] First and foremost, patch 2.5 is now live
 and available to all backers.
-This patch brings a whole slew of new content
+[15:36] This patch brings a whole slew of new content
 bringing us one step closer to the gaming
-experience that we’ve all been craving.
-2.5 release sale will continue through Tuesday,
+[15:39] experience that we’ve all been craving.
+[15:42] 2.5 release sale will continue through Tuesday,
 September 6.
-We’re really excited to introduce the MISC
+[15:45] We’re really excited to introduce the MISC
 Reliant and a pair of Argo variants.
-We believe these ships bring a unique twist
+[15:49] We believe these ships bring a unique twist
 our current line up of available ships and
-look forward to seeing you fly them in the
+[15:54] look forward to seeing you fly them in the
 ‘Verse and if you’re looking for some
-additional stopping power, make sure to check
+[15:57] additional stopping power, make sure to check
 out the all new Behring M7A laser cannon,
-available now with patch 2.5.
-Since 2.5 released live on August 25, we’ve
+[16:01] available now with patch 2.5.
+[16:04] Since 2.5 released live on August 25, we’ve
 seen a lot of awesome content posted on the
-Community Hub, YouTube and Reddit and we’re
+[16:09] Community Hub, YouTube and Reddit and we’re
 looking to feature more gameplay videos from
-you the backers so keep them coming.
-As far as content goes this week, make sure
+[16:13] you the backers so keep them coming.
+[16:15] As far as content goes this week, make sure
 to explore the Baker system with Senior Writer,
-Will Weissbaum in an all new episode of Loremaker’s
+[16:20] Will Weissbaum in an all new episode of Loremaker’s
 Guide to the Galaxy which was posted on Tuesday.
-Yesterday we had our Subscriber’s Town Hall
+[16:25] Yesterday we had our Subscriber’s Town Hall
 with the UK Audio team which is definitely
-worth checking out and remember that these
+[16:29] worth checking out and remember that these
 are a great opportunity for subscribers to
-jump in and get their questions answered and
+[16:32] jump in and get their questions answered and
 this week would not be a complete without
-an update to our Sub Vault which will add
+[16:36] an update to our Sub Vault which will add
 some additional pictures to take a look at
-the early Anvil Terrapin.
-Looking ahead all our studios have been coming
+[16:40] the early Anvil Terrapin.
+[16:42] Looking ahead all our studios have been coming
 together to finalize August’s Monthly Report
-which should be in your hands later next week
+[16:46] which should be in your hands later next week
 so look forward to that.
-Unfortunately we’re not going to be at DragonCon
+[16:50] Unfortunately we’re not going to be at DragonCon
 this year but we hope everyone attending has
-a great time and hopefully we’ll be there
+[16:53] a great time and hopefully we’ll be there
 next year.
-Lastly it’s time for this week’s MVP award,
+[16:56] Lastly it’s time for this week’s MVP award,
 a huge congratulations to Alysianah for her
-extraordinary efforts in creating contentcreatorsunlimited.com.
-If you have even the slightest interest in
+[17:02] extraordinary efforts in creating contentcreatorsunlimited.com.
+[17:06] If you have even the slightest interest in
 Star Citizen’s lore, you’ll easily find
-yourself entranced within the pages of detailed
+[17:09] yourself entranced within the pages of detailed
 information and lore tidbits all extracted
-from our web based Ark Starmap and into an
+[17:15] from our web based Ark Starmap and into an
 easy to read table format.
-So congratulations again, you’re this week’s
+[17:19] So congratulations again, you’re this week’s
 MVP.
-Originally we were not going to have an RtV
+[17:22] Originally we were not going to have an RtV
 tomorrow but all the pieces fell into place
-and it is a go so we will catch you live tomorrow
+[17:26] and it is a go so we will catch you live tomorrow
 on twitch.tv.
-Make sure to check the weekly Comm-Link schedule
+[17:30] Make sure to check the weekly Comm-Link schedule
 for all the details.
-We hope you have a nice holiday and we will
+[17:33] We hope you have a nice holiday and we will
 see you in the ‘Verse.
-Back to Studio
-MO: Staying with ships a little longer, another
+[17:36] Back to Studio
+[17:37] MO: Staying with ships a little longer, another
 highlight from the 3.0 demo was the Starfarer
-wreck, the ship team put so much work into
+[17:42] wreck, the ship team put so much work into
 making the vehicles look great, it’s fantastic
-how amazing they can look when they’re all
+[17:48] how amazing they can look when they’re all
 blown up.
-PM: Let’s take a behind the scenes look
+[17:50] PM: Let’s take a behind the scenes look
 when taking the Starfarer from space worthy
-to scrap worthy.
-Behind the Scenes with Nathan Dearsley
-Nathan Dearsley (ND): Myself and Chris have
+[17:54] to scrap worthy.
+[17:55] Behind the Scenes with Nathan Dearsley
+[17:57] Nathan Dearsley (ND): Myself and Chris have
 had quite a few discussions regarding the
-dead ships.
-We, we're also quite both passionate about
+[18:03] dead ships.
+[18:04] We, we're also quite both passionate about
 having planets that potentially completely
-dedicated to ship salvage.
-So, with the derelict ships there's always,
+[18:08] dedicated to ship salvage.
+[18:11] So, with the derelict ships there's always,
 as explained, we want to take the stuff that
-already exists in the game, which have broken
+[18:15] already exists in the game, which have broken
 up parts of the ships, that once a ship suffers
-catastrophic damage it breaks apart.
-How can we reuse these assets and, kind of
+[18:20] catastrophic damage it breaks apart.
+[18:23] How can we reuse these assets and, kind of
 be very creative with them.
-The stuff they saw in Gamescom was very much
+[18:27] The stuff they saw in Gamescom was very much
 the first step of that.
-We are already progressing further with it.
-So, the work that we're doing, is we've always
+[18:32] We are already progressing further with it.
+[18:35] So, the work that we're doing, is we've always
 explained, is always got a longer path or
-so we go kind of 3.0 coming due at the end
+[18:41] so we go kind of 3.0 coming due at the end
 of the year.
-The work that we're doing does fit into that.
-Again it's really kind of about kind of creating
+[18:45] The work that we're doing does fit into that.
+[18:47] Again it's really kind of about kind of creating
 these, options for designs to have.
-So, if you come across a derelict ship in,
+[18:53] So, if you come across a derelict ship in,
 space, don't be shocked.
-It's not a bug.
-It was always supposed to be there.
-It's something that we want to push more.
-The stuff in space is, I wouldn't say it's
+[18:57] It's not a bug.
+[18:58] It was always supposed to be there.
+[19:00] It's something that we want to push more.
+[19:04] The stuff in space is, I wouldn't say it's
 easier, because the, dressing of, all that
-is you don't have to worry about like impact
+[19:10] is you don't have to worry about like impact
 points and all that kind of stuff.
-It's, it's there.
-If you think about the opening to Episode
+[19:14] It's, it's there.
+[19:15] If you think about the opening to Episode
 VII where you see a lot of derelict Star Destroyers
-and whatnot in the desert, we can totally
+[19:22] and whatnot in the desert, we can totally
 focus on doing that.
-The asset here and essentially man-hours work
+[19:27] The asset here and essentially man-hours work
 that go into that.
-They're fundamentally less now, so we've got
+[19:31] They're fundamentally less now, so we've got
 kind of challenges how we are going to blend
-them with the terrain.
-The terrain is very much early days, but I'm
+[19:35] them with the terrain.
+[19:36] The terrain is very much early days, but I'm
 very excited to kind of experiment with, what
-would happen if we took a Starfarer and buried
+[19:43] would happen if we took a Starfarer and buried
 it in the desert.
-How something erodes and decays in the desert
+[19:47] How something erodes and decays in the desert
 is very different to how something would erode
-and decay in a swamp.
-So you've got those challenges to think about
+[19:53] and decay in a swamp.
+[19:56] So you've got those challenges to think about
 as well, but the high level goal is for sure
-is to have these in space in … by the end
+[20:01] is to have these in space in … by the end
 of the year.
-Then when the planetary tech comes more on
+[20:04] Then when the planetary tech comes more on
 board then we can, start collaborating with
-design and the environment guys and get these
+[20:10] design and the environment guys and get these
 nice pieces on planets for you as well.
-Outro
-MO: Well, that’s our show for this week.
-Thanks to the subscribers that have made it
+[20:16] Outro
+[20:17] MO: Well, that’s our show for this week.
+[20:19] Thanks to the subscribers that have made it
 possible and to the backers that are supporting
-us and to all the devs who took the time to
+[20:22] us and to all the devs who took the time to
 show us what they are working on.
-PM: We’ve got so much great stuff in the
+[20:27] PM: We’ve got so much great stuff in the
 pipeline working 2.6 and 3.0 is well underway
-and not to mention CitizenCon that’s just
+[20:32] and not to mention CitizenCon that’s just
 around the corner in October.
-MO: I bet the SQ42 team is really excited
+[20:35] MO: I bet the SQ42 team is really excited
 to show off their stuff as well as the backers
-are to see it!
-PM: Yeah, for sure, we just need to top 3.0.
-MO: Yes.
-PM: Right, finally yet, thanks for watching
+[20:39] are to see it!
+[20:42] PM: Yeah, for sure, we just need to top 3.0.
+[20:51] MO: Yes.
+[20:57] PM: Right, finally yet, thanks for watching
 and we’ll see you next time on..
-Both: Around the ‘Verse.
+[21:23] Both: Around the ‘Verse.

@@ -6,136 +6,136 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Mark Abent: Hey everyone, welcome to Bugsmashers.
-I’m your host Mark Abent, I’m here to
+[00:10] Closed Captioning provided by Relay.sc
+[00:14] Mark Abent: Hey everyone, welcome to Bugsmashers.
+[00:18] I’m your host Mark Abent, I’m here to
 take you behind the scenes on how we smash
-bugs.
-Hey you guys, I am here in another fun test
+[00:22] bugs.
+[00:23] Hey you guys, I am here in another fun test
 level and got a report of a bug, I should
-say a crash when we bring in an AI Constellation
+[00:37] say a crash when we bring in an AI Constellation
 so let’s give this a try.
-Woo Constellation, drag that guy in, let it
+[00:44] Woo Constellation, drag that guy in, let it
 load… oh, big ship.
-Building all the shaders for him, all right
+[00:53] Building all the shaders for him, all right
 so let’s pop in the game.
-Pop out of the game and see if we can get
+[01:00] Pop out of the game and see if we can get
 that crash and crash?
-Ah, crash.
-So this is actually a specialty crash, we
+[01:05] Ah, crash.
+[01:08] So this is actually a specialty crash, we
 have these things known as fatal errors when
-the code gets into a specific section of code
+[01:14] the code gets into a specific section of code
 the programmer may add this fatal errors saying
-you should never get here, if you get here…
+[01:19] you should never get here, if you get here…
 here is a complete call stack so we can log
-it and try to figure out how we got to that
+[01:25] it and try to figure out how we got to that
 spot and so this specific call stack or should
-I say crash.
-Saved, not saved level, hit the break point.
-We’ll go to here, so this is our component
+[01:31] I say crash.
+[01:33] Saved, not saved level, hit the break point.
+[01:37] We’ll go to here, so this is our component
 batch updater so we have an entity or this
-Constellation and then maybe composed of a
+[01:45] Constellation and then maybe composed of a
 bunch of entities…
-I’m sorry, components like physics, geometry,
+[01:48] I’m sorry, components like physics, geometry,
 interactions, all sorts of things and if they
-want to do an update they go through this
+[01:55] want to do an update they go through this
 batch updater so they can get batched and
-then multi threaded update or in the regular
+[02:00] then multi threaded update or in the regular
 main thread update.
-You’re not supposed to be able to register
+[02:04] You’re not supposed to be able to register
 these updates when the entity is shutting
-down, cause when we shut down the entity we
+[02:08] down, cause when we shut down the entity we
 remove all the components, remove all the
-updates and so if you’re trying to register
+[02:13] updates and so if you’re trying to register
 an update during this phase…
-well, bad things will happen.
-So we want to know when people get to this
+[02:16] well, bad things will happen.
+[02:18] So we want to know when people get to this
 point and unfortunately the editor is a little
-special child where on the same frame that
+[02:23] special child where on the same frame that
 we destroy…
-the interior or should I say all the entities
+[02:32] the interior or should I say all the entities
 in the level we actually created again.
-So what we have is the Constellation getting
+[02:40] So what we have is the Constellation getting
 deleted and then getting created and when
-something gets deleted we mark it as garbage,
+[02:47] something gets deleted we mark it as garbage,
 and that’s how we know it’s going away.
-Doesn’t necessarily mean it’s going to
+[02:50] Doesn’t necessarily mean it’s going to
 be removed, it’s basically ‘oh I have
-some trash cans, I throw some trash away.
-Garbageman hasn’t picked it up yet, but
+[02:56] some trash cans, I throw some trash away.
+[02:59] Garbageman hasn’t picked it up yet, but
 he might tomorrow, he might today, might sometimes
-later’.
-This bit of code was only checking to see
+[03:04] later’.
+[03:05] This bit of code was only checking to see
 if it’s in the garbage bin, technically
-you shouldn’t be able to register when you’re
+[03:09] you shouldn’t be able to register when you’re
 in an update…
-when you’re in the garbage but it shouldn’t
+[03:17] when you’re in the garbage but it shouldn’t
 be a fatal error either because you could
-register but it should abort out and only
+[03:22] register but it should abort out and only
 during the actual shutdown phase should this
-go south.
-We’re going to change this bit of code so
+[03:27] go south.
+[03:28] We’re going to change this bit of code so
 if we’re in the garbage and our entity is
-actually really, really shutting down the
+[03:37] actually really, really shutting down the
 garbage man is coming to pick him up.
-Then we’ll fatal error because something
+[03:41] Then we’ll fatal error because something
 seriously has gone wrong, otherwise we’ll
-just skip out because… and we only want,
+[03:49] just skip out because… and we only want,
 actually we just want to skip out all the
-time.
-We only want the fatal error if we’re shutting
+[04:04] time.
+[04:08] We only want the fatal error if we’re shutting
 down the actual entity.
-So we threw it in the garbage bin, if someone
+[04:15] So we threw it in the garbage bin, if someone
 registers for an update, it’ll just get
-ignored because this thing is going to get
+[04:21] ignored because this thing is going to get
 deleted.
-It’s just one of those funky things where,
+[04:24] It’s just one of those funky things where,
 yeah you marked it as deleted but none of
-the components on there know it’s getting
+[04:30] the components on there know it’s getting
 deleted yet because well, we’re not in the
-process.
-So for now we just go, ‘yeah we’ll just
+[04:34] process.
+[04:35] So for now we just go, ‘yeah we’ll just
 ignore this update because trust us it’s
-going to get removed’ and we won’t crash
+[04:39] going to get removed’ and we won’t crash
 the game horribly.
-Instead we’ll just softly ignore it and
+[04:43] Instead we’ll just softly ignore it and
 the game code will delete it sometime later
-and everyone will be happy.
-So, let’s give this a compile.
-All right, we’re back in the amazing test
+[04:48] and everyone will be happy.
+[04:50] So, let’s give this a compile.
+[04:55] All right, we’re back in the amazing test
 level see what happens when we plop down another
-AI Constellation… let it load.
-Ha, there we go and now we’ll hop in game
+[05:05] AI Constellation… let it load.
+[05:14] Ha, there we go and now we’ll hop in game
 mode, and
-then pop out of game mode and no crash, right?
-Ah, no crash, perfect.
-So, in the deletion phase is a little bit
+[05:25] then pop out of game mode and no crash, right?
+[05:30] Ah, no crash, perfect.
+[05:33] So, in the deletion phase is a little bit
 tricky cause you always have to inform certain
-systems some things are getting deleted but
+[05:40] systems some things are getting deleted but
 you don’t want to inform certain things
-until you’re in the actual, ‘yes, this
+[05:44] until you’re in the actual, ‘yes, this
 is the deleted phase’.
-Since this is one of those lower end systems
+[05:49] Since this is one of those lower end systems
 it needs to know exactly where we’re at
-and then once we get to the actual shutdown
+[05:56] and then once we get to the actual shutdown
 then the components can know where they’re
-at too.
-So that in between phase is kind of one of
+[06:00] at too.
+[06:02] So that in between phase is kind of one of
 those weird things you have to get just right
-especially when editor and game code which
+[06:06] especially when editor and game code which
 do things a little bit differently.
-Hope you guys enjoyed, til next time.
-So, as you guys saw we had a little bit of
+[06:11] Hope you guys enjoyed, til next time.
+[06:13] So, as you guys saw we had a little bit of
 issue with the designers, they were hitting
-a part of the code that would stop the game
+[06:18] a part of the code that would stop the game
 cause they were hitting a spot we did not
-want the code to run in that area.
-At the same the editor was doing something
+[06:24] want the code to run in that area.
+[06:26] At the same the editor was doing something
 special where getting to that section of the
-error was technically a legit path, so we
+[06:31] error was technically a legit path, so we
 had change to the code a bit so that it still
-will not hit that specific section while still
+[06:38] will not hit that specific section while still
 allowing the editor to do its little specialty.
-Just another day in game development, hope
+[06:45] Just another day in game development, hope
 you guys enjoyed.
-Til next time.
+[06:48] Til next time.

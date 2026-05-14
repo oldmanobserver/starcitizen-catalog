@@ -6,236 +6,236 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:09] Closed Captioning provided by the Imperial
 News Network.
-Adam Weiser: Hi everyone, my name is Adam
+[00:30] Adam Weiser: Hi everyone, my name is Adam
 Weiser, Associate Writer here at CIG Los Angeles
-and this is another episode of Loremaker’s
+[00:41] and this is another episode of Loremaker’s
 Guide to the Galaxy.
-For those of you who haven’t seen this show,
+[00:45] For those of you who haven’t seen this show,
 it is a chance for a member of the Lore team
-to sit down and explain to you some of the
+[00:50] to sit down and explain to you some of the
 details behind each system we’ve created
-in the game, from astronomical properties
+[00:55] in the game, from astronomical properties
 to fun little story things and locations you’ll
-be able to go visit, both in the large Star
+[01:00] be able to go visit, both in the large Star
 Citizen universe and possibly in Squadron
-42.
-So, today we’re going to go to what many
+[01:07] 42.
+[01:08] So, today we’re going to go to what many
 would consider the safest system in the entire
-UEE, if you stay on the right side of the
+[01:13] UEE, if you stay on the right side of the
 law.
-So, we’re going to start here on Earth and
+[01:18] So, we’re going to start here on Earth and
 today we’ll be going to visit the Kilian
-system.
-So, just go to here… now Killian an interesting
+[01:25] system.
+[01:26] So, just go to here… now Killian an interesting
 system because it is massive when it comes
-to celestial bodies, it has fourteen planets
+[01:36] to celestial bodies, it has fourteen planets
 in the system.
-If we back on out and here kind of show you
+[01:41] If we back on out and here kind of show you
 the different jumps that come on in, it has
-three jump points that connect it to… all
+[01:46] three jump points that connect it to… all
 access jump points to Davian and Ellis and
-a small jump to Cathcart.
-As basically the safest system in the UEE,
+[01:52] a small jump to Cathcart.
+[01:56] As basically the safest system in the UEE,
 that is primarily because it is the centre
-of military might.
-Both the UEE Navy and Marines have their home
+[02:01] of military might.
+[02:02] Both the UEE Navy and Marines have their home
 bases here, as you can see it is also just
-two jumps away, right here through the Davian
+[02:09] two jumps away, right here through the Davian
 system to the Sol system which is right there
-for you.
-So, it has easy access to protect humanity’s
+[02:15] for you.
+[02:16] So, it has easy access to protect humanity’s
 home world which also houses the Army.
-The Army is the only kind of military force
+[02:24] The Army is the only kind of military force
 that is not based in the Kilian system.
-So, if we zip on in we get to see a very interesting
+[02:28] So, if we zip on in we get to see a very interesting
 astronomical feat happening right at the centre
-of this system.
-Now, the system star is a type-G main sequence
+[02:34] of this system.
+[02:35] Now, the system star is a type-G main sequence
 star which is just like the sun we have in
-the Sol system.
-It’s not quite as big or bright as ours
+[02:43] the Sol system.
+[02:44] It’s not quite as big or bright as ours
 but it is same kind of like yellow/white in
-colour and then right around it we have what
+[02:49] colour and then right around it we have what
 has become known as the Three Sisters.
-Now these all kind of line the same orbit
+[02:55] Now these all kind of line the same orbit
 because of the basically centrifugal force
-created by the first Sister, a gas giant right
+[03:02] created by the first Sister, a gas giant right
 here which is the large one and the gravity
-it creates with the main star.
-Now basically this was able to grab the second
+[03:11] it creates with the main star.
+[03:13] Now basically this was able to grab the second
 and third Sisters at some point in the creation
-of the system and pull it into the orbit of
+[03:19] of the system and pull it into the orbit of
 the first Sister.
-Both the second and third Sister are kind
+[03:24] Both the second and third Sister are kind
 of small, rocky protoplanets.
-Nothing too crazy there but basically the
+[03:28] Nothing too crazy there but basically the
 centrifugal forces between the two mean that
-Sister two in the Lagrange point four and
+[03:35] Sister two in the Lagrange point four and
 Sister three in Lagrange point five and will
-stay this formation as the three planets will
+[03:43] stay this formation as the three planets will
 all kind of orbit basically together around
-the start of the star and again Sister one
+[03:51] the start of the star and again Sister one
 is a gas giant and also when they’re this
-close to the centre of the system they’re
+[03:56] close to the centre of the system they’re
 also called a lot of times a hot Jupiter.
-So as we back out we can actually get to a
+[04:01] So as we back out we can actually get to a
 little further back and the fourth planet
-in the system is called Magma, which was not
+[04:07] in the system is called Magma, which was not
 very creatively named.
-It is exactly what you think it is, a lava
+[04:11] It is exactly what you think it is, a lava
 planet filled with volcanic activity.
-There are a lot of resources there but accessing
+[04:16] There are a lot of resources there but accessing
 them is not very easy and extremely dangerous.
-So, that is the fourth planet in the system
-If we back on out we start to get to the military
+[04:22] So, that is the fourth planet in the system
+[04:25] If we back on out we start to get to the military
 might of the system, this is Macarthur.
-Now Macarthur is the headquarters of the Navy
+[04:31] Now Macarthur is the headquarters of the Navy
 and it has the largest Naval base in the entire
-universe.
-It is also where the Bengal carrier was first
+[04:37] universe.
+[04:38] It is also where the Bengal carrier was first
 created and where it is still built today.
-So Macarthur is very protected, every year
+[04:44] So Macarthur is very protected, every year
 there is thousands of young, fresh recruits
-who come to do their basic training and go
+[04:51] who come to do their basic training and go
 to flight school here on Macarthur.
-Which makes it a very important and very key
+[04:57] Which makes it a very important and very key
 planet, not only in this system but in the
-entire UEE in general.
-Now this Kilian system becoming such a centre
+[05:02] entire UEE in general.
+[05:05] Now this Kilian system becoming such a centre
 of military might wasn’t necessarily planned,
-it was something that just kind of happened
+[05:10] it was something that just kind of happened
 and progressed naturally.
-Much like how the Three Sisters kind of naturally
+[05:14] Much like how the Three Sisters kind of naturally
 came together and it just stuck and became
-that way.
-Forward operating base was first put there
+[05:18] that way.
+[05:19] Forward operating base was first put there
 by the Navy, that expanded and once they started
-to see the resources and the variety in this
+[05:23] to see the resources and the variety in this
 system.
-The military just kind of kept moving in,
+[05:26] The military just kind of kept moving in,
 kept moving in until even eventually in 2751
-they moved all the major shipyards for the
+[05:31] they moved all the major shipyards for the
 Navy into the system and around Kilian which
-is surrounded by smaller little kind of satellite
+[05:37] is surrounded by smaller little kind of satellite
 and ship dock type places.
-If we go to the next system which is going
+[05:45] If we go to the next system which is going
 to be Osha right here.
-This is Kilian VI, and this is basically a
+[05:51] This is Kilian VI, and this is basically a
 super Earth, it’s a temperate world and
-this has basically become the home world for
+[05:57] this has basically become the home world for
 family of a lot of the military people assigned
-to the system.
-Maybe people who have been working or have,
+[06:03] to the system.
+[06:04] Maybe people who have been working or have,
 you know, contracts in the system and stuff
-like that.
-This is the main hub where people are going
+[06:09] like that.
+[06:10] This is the main hub where people are going
 to live in this giant system.
-So, this is Osha right there, I’ll try to
+[06:16] So, this is Osha right there, I’ll try to
 double click out of here… took you back
-too far but we’ll go back in again and after
+[06:22] too far but we’ll go back in again and after
 Osha we’re going to move on out to Keene
-right here.
-Now Keene is a terrestrial, rocky world so
+[06:30] right here.
+[06:32] Now Keene is a terrestrial, rocky world so
 it’s a little bit smaller than Osha.
-If Osha was where kind of people mainly live,
+[06:38] If Osha was where kind of people mainly live,
 Keene is where a lot of the corporations mainly
-live in the system and if you think about
+[06:43] live in the system and if you think about
 it, if you’re a corporation you who wants
-to have a contract with the military…
-first of all, very lucrative but if you could
+[06:48] to have a contract with the military…
+[06:50] first of all, very lucrative but if you could
 have a presence in Keene, it’s essential.
-In fact, factory space is at a premium on
+[06:54] In fact, factory space is at a premium on
 Keene because it would make you a fantastic
-supplier to the entire Navy or the Marines,
+[06:59] supplier to the entire Navy or the Marines,
 if you could not only have a presence in the
-system but also manufacture goods in the system.
-So Keene is a very interesting place where
+[07:05] system but also manufacture goods in the system.
+[07:08] So Keene is a very interesting place where
 you can go, do a lot of trading, do a lot
-of business, RSI Anvil also have showrooms
+[07:13] of business, RSI Anvil also have showrooms
 here, you can go and visit because once again
-with their connection to the Navy they want
+[07:19] with their connection to the Navy they want
 to make sure they have that presence in the
-system also.
-Now Kilian VIII over here is a beautiful ocean
+[07:26] system also.
+[07:28] Now Kilian VIII over here is a beautiful ocean
 world that looks just gorgeous as you approach
-it except that the water is extremely, extremely
+[07:32] it except that the water is extremely, extremely
 toxic to not only kind of spacesuits but also
-ship hulls.
-Even kind of like a minor contact with the
+[07:44] ship hulls.
+[07:45] Even kind of like a minor contact with the
 oceans on Kilian VIII can be destructive to
-a hull or a to a suit, so even though it’s
+[07:51] a hull or a to a suit, so even though it’s
 a beautiful ocean world, we don’t recommend
-you go in here unless you want to face some
+[07:56] you go in here unless you want to face some
 serious issues.
-If we go out a little further, we’re actually
+[08:01] If we go out a little further, we’re actually
 going to go past the frostline to Corin which
-is Kilian IX, so this is an ice planet with
+[08:06] is Kilian IX, so this is an ice planet with
 jagged, kind of like ice ravines and lots
-of cliffs and a really inhospitable environment.
-So, of course, it is the home base for the
+[08:14] of cliffs and a really inhospitable environment.
+[08:17] So, of course, it is the home base for the
 UEE Marines.
-Now the Marines main station is an underground
+[08:22] Now the Marines main station is an underground
 base here on Corin.
-So, that’s where their main headquarters
+[08:26] So, that’s where their main headquarters
 is but anyone who does qualify to become a
-Marine, has to go through a six month boot
+[08:33] Marine, has to go through a six month boot
 camp on the surface of this planet, in one
-of the most inhospitable worlds you could
+[08:38] of the most inhospitable worlds you could
 possible think.
-For those that have any interest in going
+[08:42] For those that have any interest in going
 to see what the Marine lifestyle is like,
-I don’t recommend you doing it unless you
+[08:45] I don’t recommend you doing it unless you
 are simply asked to, it is one of the most
-heavily guarded planets not only in the universe
+[08:50] heavily guarded planets not only in the universe
 but the system.
-There is a Bengal carrier filled with Marines
+[08:53] There is a Bengal carrier filled with Marines
 that is always on patrol outside this place
-so unless you’re asked to go there I don’t
+[08:58] so unless you’re asked to go there I don’t
 recommend going to visit Corin.
-If we back on out, we get to the kind of like
+[09:03] If we back on out, we get to the kind of like
 the farther reaches of the system, out here
-we have Kilian X which is a dwarf planet that
+[09:09] we have Kilian X which is a dwarf planet that
 is actually very mineral rich.
-There’s a lot of interest in getting the
+[09:15] There’s a lot of interest in getting the
 minerals off this planet but it has actually
-been stuck in courts since 2941 over legal
+[09:19] been stuck in courts since 2941 over legal
 disputes as to which corporation owns the
-right to actually extract the minerals from
+[09:27] right to actually extract the minerals from
 this place.
-As of right now, not really much you can do
+[09:31] As of right now, not really much you can do
 here unless you want to be a claim jumper
-and try to go in and sneak in and grab some
+[09:36] and try to go in and sneak in and grab some
 minerals.
-Maybe that’s a possibility if, of course,
+[09:38] Maybe that’s a possibility if, of course,
 this wasn’t one of the most heavily guarded
-and armed system probably in all of the UEE.
-As we back on out further we go to Kilian
+[09:42] and armed system probably in all of the UEE.
+[09:46] As we back on out further we go to Kilian
 XI which is a gas giant which is surrounded
-by basically harvesters that are scooping
+[09:53] by basically harvesters that are scooping
 fuel to be able to be used in the system by
-the military.
-If we back on out we’ve got three more just
+[09:59] the military.
+[10:01] If we back on out we’ve got three more just
 swing on by.
-We’ve got Kilian XII right here, which is
+[10:05] We’ve got Kilian XII right here, which is
 an ice planet with not much of note going
-on there besides it just being really frickin’
+[10:13] on there besides it just being really frickin’
 cold.
-Finally in the very, very out reaches you’ve
+[10:17] Finally in the very, very out reaches you’ve
 got Kilian XIII and Kilian XIV.
-Kilian XIII is only of note because it’s
+[10:23] Kilian XIII is only of note because it’s
 a small dwarf planet that has this really
-beautiful kind of quartz smoky look to it’s
+[10:29] beautiful kind of quartz smoky look to it’s
 surface and Kilian XIV is kind of forgettable.
-It’s literally just a dwarf planet caught
+[10:36] It’s literally just a dwarf planet caught
 in the outer reaches.
-So that was an introduction to the massive
+[10:40] So that was an introduction to the massive
 fourteen planet Kilian system, one of the
-safest due to the presence of the Marines
+[10:45] safest due to the presence of the Marines
 and the Navy home base being right there.
-Thank you for watching this episode of Loremaker’s
+[10:50] Thank you for watching this episode of Loremaker’s
 Guide to the Galaxy and thanks to all the
-subscribers out there that make shows like
+[10:54] subscribers out there that make shows like
 this possible.
-I’m Adam Weiser, thanks for watching.
+[10:57] I’m Adam Weiser, thanks for watching.

@@ -6,202 +6,202 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:36] Closed Captioning provided by the Imperial
 News Network.
-Adam Wieser (AW): Hi everyone, welcome to
+[00:37] Adam Wieser (AW): Hi everyone, welcome to
 another episode of Loremaker’s Guide to
-the Galaxy.
-My names Adam Wieser, Associate Writer here
+[00:40] the Galaxy.
+[00:41] My names Adam Wieser, Associate Writer here
 at CIG Los Angeles and I’m one of the members
-of the Lore Team that is working here on Star
+[00:47] of the Lore Team that is working here on Star
 Citizen and Squadron 42.
-For those who haven’t seen the show, Loremaker’s
+[00:54] For those who haven’t seen the show, Loremaker’s
 is a series where a member of the lore staff
-takes you to a system that’ll appear in
+[01:00] takes you to a system that’ll appear in
 the game, and give you some insight into the
-history and maybe some of the properties about
+[01:04] history and maybe some of the properties about
 the system that we thought we when started
-putting them together.
-So on today’s show we are going to take
+[01:11] putting them together.
+[01:13] So on today’s show we are going to take
 you to a system that can’t seem to escape
-it’s name, and that system is Castra.
-So we’re going to start here on earth, let's
+[01:18] it’s name, and that system is Castra.
+[01:22] So we’re going to start here on earth, let's
 put this on in.
-Now Castra is actually an ancient Roman term
+[01:25] Now Castra is actually an ancient Roman term
 which describes land used by the military
-for defensive purposes.
-So that seems to be the problem that they’re
+[01:34] for defensive purposes.
+[01:36] So that seems to be the problem that they’re
 having is out living the fact that during
-the cold war with the Xi’An, this system
+[01:42] the cold war with the Xi’An, this system
 was a military only system that was used to
-basically ensure that if an attack ever did
+[01:49] basically ensure that if an attack ever did
 happen, that we would be prepared for it.
-Now we’ve just zoomed in over to Castra,
+[01:56] Now we’ve just zoomed in over to Castra,
 as you can see the star here is massively
-huge which is why we’re so zoomed in on
+[02:01] huge which is why we’re so zoomed in on
 it.
-So as we back it up, I’ll give you a little
+[02:04] So as we back it up, I’ll give you a little
 perspective on it.
-This is the other thing about Castra which
+[02:08] This is the other thing about Castra which
 is really, really interesting.
-Not only is it kind of stuck in it’s past,
+[02:11] Not only is it kind of stuck in it’s past,
 it also has this B-type main sequence star
-at the center.
-Now this thing is genuinely massive when compared
+[02:17] at the center.
+[02:18] Now this thing is genuinely massive when compared
 to the sun at the heart of our system.
-It’s about four times as massive as our
+[02:25] It’s about four times as massive as our
 sun, and it’s close to 300 times as bright.
-It is blue, white in colour so this is an
+[02:33] It is blue, white in colour so this is an
 accurate representation of what the sun should
-look at.
-It’s also, the B-type type stars are interesting
+[02:39] look at.
+[02:40] It’s also, the B-type type stars are interesting
 for a lot of different reasons which we don’t
-have time to get into, but they’re also
+[02:46] have time to get into, but they’re also
 referred to as very energetic and they are
-also deemed to have relatively short life
+[02:52] also deemed to have relatively short life
 spans, at least on a stellar scale.
-This thing lives anywhere between 10 to 100
+[02:59] This thing lives anywhere between 10 to 100
 million years, where our sun normally lives
-close to about 10 billion years.
-So only a fraction of what our sun lives to.
-So as we look here, it’s a two planet system:
+[03:05] close to about 10 billion years.
+[03:09] So only a fraction of what our sun lives to.
+[03:15] So as we look here, it’s a two planet system:
 Castra I and Castra II.
-I’m gonna back out for one second because
+[03:21] I’m gonna back out for one second because
 the important thing to show you as to why
-this system has been stuck in the fate that
+[03:26] this system has been stuck in the fate that
 it is, is that it has five Jump Points here,
-the most important one being to Oya right
+[03:31] the most important one being to Oya right
 up there.
-Now Castra was first discovered in 2544 by
+[03:36] Now Castra was first discovered in 2544 by
 UPE military pathfinders that were searching
-this side of space just to see if they could
+[03:42] this side of space just to see if they could
 find any additional systems out there.
-14 years prior the UPE had their first encounter
+[03:48] 14 years prior the UPE had their first encounter
 with the Xi’An and things did not necessarily
-go so well.
-So the military was scrambling to make sure
+[03:53] go so well.
+[03:54] So the military was scrambling to make sure
 that the eastern side of the empire, you know,
-there weren’t any weak spots there that
+[04:01] there weren’t any weak spots there that
 the Xi’An could come through.
-Well when Castra was first charted they noted
+[04:04] Well when Castra was first charted they noted
 that there wasn’t a lot of interest, there
-was, I think unremarkable was the term used
+[04:08] was, I think unremarkable was the term used
 to describe it.
-Well that changed decades after it was discovered
+[04:12] Well that changed decades after it was discovered
 when this jump to Oya was found.
-What was also found in Oya that really made
+[04:18] What was also found in Oya that really made
 the government kind of take attention to it
-was a small pocket of Xi’An’s who had
+[04:24] was a small pocket of Xi’An’s who had
 basically started their own civilization on
-Oya.
-Now that this system, Castra, was directly
+[04:30] Oya.
+[04:31] Now that this system, Castra, was directly
 connected to a system with Xi’An, the military
-took great interest in this system and just
+[04:36] took great interest in this system and just
 flooded it with money, even put a large kind
-of orbital platform out in space to be able
+[04:43] of orbital platform out in space to be able
 to handle capital ships and long range bombers
-that would come through the area.
-Now the Xi’An settlement on Oya, basically
+[04:49] that would come through the area.
+[04:51] Now the Xi’An settlement on Oya, basically
 they fled and this became part of the parry
-line system which meant Castra was one jump
+[04:57] line system which meant Castra was one jump
 away from being directly on the front lines.
-When this happened they flooded a lot of money
+[05:09] When this happened they flooded a lot of money
 in and it just kinda sat there…
-the Cold War with the Xi’An didn’t progress
+[05:14] the Cold War with the Xi’An didn’t progress
 and eventually a few hundred years later as
-tensions died down, the UEE soon realized
+[05:19] tensions died down, the UEE soon realized
 that there was no reason to keep the system
-under strict military control anymore.
-So, what they did is they decided to start
+[05:25] under strict military control anymore.
+[05:28] So, what they did is they decided to start
 opening it up to the public and let the public
-come in and hopefully bring new life to this
+[05:32] come in and hopefully bring new life to this
 system.
-Sweetheart land deals were given to businesses
+[05:37] Sweetheart land deals were given to businesses
 and to people willing to move on in but even
-still to this day there are certain sections
+[05:42] still to this day there are certain sections
 of the system especially on Cascom, the second
-planet, that are strictly reserved for the
+[05:48] planet, that are strictly reserved for the
 military just in case.
-Now if we go down to a more granule level,
+[05:52] Now if we go down to a more granule level,
 here we’ll go look at Castra I.
-This is a terrestrial, coreless world, no
+[05:58] This is a terrestrial, coreless world, no
 real resources on it worth mentioning.
-The most interesting thing about it is it’s
+[06:03] The most interesting thing about it is it’s
 nickname, Bullseye, which was given by the
-UEE military which supposedly used this planet
+[06:07] UEE military which supposedly used this planet
 for target practice.
-Moving on, we’re going to go to the second
+[06:13] Moving on, we’re going to go to the second
 and only habitable planet in the system and
-this is Cascom, which is actually short for
+[06:19] this is Cascom, which is actually short for
 Castra Command.
-It’s a military designation that was given
+[06:24] It’s a military designation that was given
 to the planet once the military moved in.
-To this day a lot of the politicians in Castra
+[06:30] To this day a lot of the politicians in Castra
 are not the biggest fans of that name and
-kind of wish it would have something a little
+[06:35] kind of wish it would have something a little
 different but it’s been around so long it’s
-stuck.
-Now when they did terraform this planet, they
+[06:39] stuck.
+[06:40] Now when they did terraform this planet, they
 did it extremely fast wanting to make sure
-that they could get in as soon as possible
+[06:46] that they could get in as soon as possible
 once the Xi’An threat was detected nearby.
-This lead to what some believe is a very pronounced
+[06:52] This lead to what some believe is a very pronounced
 cloud cover that exists over this planet,
-some think that maybe they terraformed it
+[06:59] some think that maybe they terraformed it
 too fast and this was a side effect.
-What it did do was it created a very, very
+[07:03] What it did do was it created a very, very
 scenic view which you’ll be able to see
-in the city of Sherman which was literally
+[07:08] in the city of Sherman which was literally
 cut and built into the very top of Mount Olympus
-here on Cascom.
-Now they call Sherman the Island in the city…
+[07:14] here on Cascom.
+[07:15] Now they call Sherman the Island in the city…
 excuse me, they actually call it the ‘Island
-in the Sky’ because perched atop the mountain
+[07:21] in the Sky’ because perched atop the mountain
 top like that with the cloud cover underneath,
-it looks as such.
-Now since it was a base for a lot of government
+[07:26] it looks as such.
+[07:28] Now since it was a base for a lot of government
 and military stuff prior to the civilians
-moving in, Sherman is known for it being kind
+[07:33] moving in, Sherman is known for it being kind
 of a really pristine presentation of architecture.
-Hennowism which is a little more austere,
+[07:42] Hennowism which is a little more austere,
 rounded curves, looks a little bit like bunkers,
-that’s style was very prominent when the
+[07:48] that’s style was very prominent when the
 planet was first introduced or first terraformed.
-Then Monumentalism which was pushed by Corsen
+[07:56] Then Monumentalism which was pushed by Corsen
 Messer V, who was a brutal version of the
-Messers who really pushed forward a very strong
+[08:05] Messers who really pushed forward a very strong
 and authoritarian architecture style which
-can still be found on this planet.
-Once civilians and companies were able to
+[08:12] can still be found on this planet.
+[08:15] Once civilians and companies were able to
 move on in, the most famous company that did
-make the trek here was Kruger Intergalactic,
+[08:21] make the trek here was Kruger Intergalactic,
 seizing upon the great trade lanes, the solid
-infrastructure and the relative safety of
+[08:27] infrastructure and the relative safety of
 the Castra system over Magnus where it had
-been based previously.
-In 2833, most prominently there was the president
+[08:32] been based previously.
+[08:34] In 2833, most prominently there was the president
 of Cascom, a man by the name of Andre Novoselov
-who pushed really hard to try and give Castra
+[08:43] who pushed really hard to try and give Castra
 a new image, try and rebrand it away from
-it merely being a trading hub and a military
+[08:48] it merely being a trading hub and a military
 point of interest.
-So he started the ‘Island in the Sky’
+[08:52] So he started the ‘Island in the Sky’
 campaign all around the ‘Verse to show the
-softer side of the system and to highlight
+[08:58] softer side of the system and to highlight
 Sherman as maybe a tourist destination or
-something that maybe could bring in different
+[09:03] something that maybe could bring in different
 people and more of it’s own culture.
-While some of these strides were made, many
+[09:08] While some of these strides were made, many
 more people did move in, nothing really seemed
-to stick to really distinguish Castra from
+[09:13] to stick to really distinguish Castra from
 the name that it was given when the military
-first decided to use it as a defensive position.
-For all you haulers, traders looking to maybe
+[09:19] first decided to use it as a defensive position.
+[09:23] For all you haulers, traders looking to maybe
 get a foothold in the system, near the Xi’An
-border with good infrastructure, a large orbital
+[09:29] border with good infrastructure, a large orbital
 platform out in its reaches and a very interesting
-B-type main sequence star, you should come
+[09:36] B-type main sequence star, you should come
 check out Castra at some point.
-My name’s Adam Wieser, this has been another
+[09:41] My name’s Adam Wieser, this has been another
 installment of Loremaker’s Guide to the
-Galaxy, thanks for watching.
+[09:45] Galaxy, thanks for watching.

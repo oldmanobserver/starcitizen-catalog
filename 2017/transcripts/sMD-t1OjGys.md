@@ -6,1170 +6,1170 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Sandi Gardiner (SG): Hey everyone and welcome
+[00:09] Closed Captioning provided by Relay.sc
+[00:13] Sandi Gardiner (SG): Hey everyone and welcome
 to Around the Verse.
-I’m Sandi Gardiner and with me is Star Citizens’
+[00:18] I’m Sandi Gardiner and with me is Star Citizens’
 Game Director, Chris Roberts.
-Chris Roberts (CR): Hey Sandi.
-So thrilled to be here of course.
-I’m actually going to be heading off to
+[00:22] Chris Roberts (CR): Hey Sandi.
+[00:25] So thrilled to be here of course.
+[00:26] I’m actually going to be heading off to
 Europe this Sunday, so I’ll be there for
-a few weeks so you’ll have other hosts here
+[00:30] a few weeks so you’ll have other hosts here
 with Sandi going forward for a few weeks until
-I come back.
-SG: Speaking of Europe.
-CR: Speaking of Europe look what we got from
+[00:35] I come back.
+[00:36] SG: Speaking of Europe.
+[00:37] CR: Speaking of Europe look what we got from
 a fan in Switzerland.
-He’s sent us lots of sugar obviously.
-Swiss Toblerones, Swiss Caramels, Swiss knife.
-SG: From Zurich, Switzerland, Martin Whip.
-CR: Yeah and sent us a t-shirt from his organisation,
+[00:41] He’s sent us lots of sugar obviously.
+[00:43] Swiss Toblerones, Swiss Caramels, Swiss knife.
+[00:45] SG: From Zurich, Switzerland, Martin Whip.
+[00:47] CR: Yeah and sent us a t-shirt from his organisation,
 thank you very much.
-SG: Check this out, bold.
-CR: Pretty, I’m not that brave to actually
+[00:52] SG: Check this out, bold.
+[00:54] CR: Pretty, I’m not that brave to actually
 get a real Star Citizen tatoo on my arm.
-SG: I’m not either, well done.
-CR: Well done, very impressive and thank you
+[00:59] SG: I’m not either, well done.
+[01:00] CR: Well done, very impressive and thank you
 very much Martin.
-Anyway back to the show.
-Today’s show is going to be about something
+[01:03] Anyway back to the show.
+[01:04] Today’s show is going to be about something
 very dear and near to my heart, the game's
-AI.
-SG: That’s right we’ve got Tony Zurovec
+[01:10] AI.
+[01:11] SG: That’s right we’ve got Tony Zurovec
 and Francesco to sit down and answer a few
-questions about how players will be interacting
+[01:13] questions about how players will be interacting
 with NPCs in the game, but that will be coming
-up later in the show.
-CR: Yeah, first up we have our weekly studio
+[01:18] up later in the show.
+[01:19] CR: Yeah, first up we have our weekly studio
 update from Nick Elms and our U.K. team.
-Studio Update
-Nick Elms (NE): Hi everyone, welcome to another
+[01:24] Studio Update
+[01:25] Nick Elms (NE): Hi everyone, welcome to another
 Studio Update from here in the U.K.
-My name’s Nick Elms, I’m the Creative
+[01:28] My name’s Nick Elms, I’m the Creative
 Director here at Foundry 42.
-As you might have imagined since the 2.6 release
+[01:32] As you might have imagined since the 2.6 release
 we’ve been very busy trying to get 2.6.1
-out for you.
-There’s been a lot of bug fixing, a lot
+[01:36] out for you.
+[01:38] There’s been a lot of bug fixing, a lot
 of feedback that we’ve taken on board from
-you guys and John Crewe and Andy Nicholson
+[01:42] you guys and John Crewe and Andy Nicholson
 have been looking at incorporating a balance
-pass now with all the feedback we’ve been
+[01:47] pass now with all the feedback we’ve been
 gathering from you guys in the community from
-you playing 2.6.
-They’re making a comprehensive review that
+[01:53] you playing 2.6.
+[01:55] They’re making a comprehensive review that
 hopefully we’re going to be getting into
-2.6.1.
-We’re going to look at the Misc Razor next
+[01:59] 2.6.1.
+[02:00] We’re going to look at the Misc Razor next
 which I think you saw in November for the
-concept sale.
-It’s now with the ship team and in particular
+[02:07] concept sale.
+[02:08] It’s now with the ship team and in particular
 Joe Navel who’s working on it through its
-white box stage.
-As part of the ongoing VFX polish and optimization,
+[02:13] white box stage.
+[02:14] As part of the ongoing VFX polish and optimization,
 we’re going to take a look at the Drake
-Caterpillar.
-We’ve been working on the throttle up and
+[02:18] Caterpillar.
+[02:19] We’ve been working on the throttle up and
 down engine effects and with the Herald we’ve
-been working on the explosion effects.
-This is the kind of stuff that we send around
+[02:25] been working on the explosion effects.
+[02:28] This is the kind of stuff that we send around
 the office on a daily basis and we thought
-we would share it would you guys so you can
+[02:33] we would share it would you guys so you can
 get an idea of what we see.
-As you’ll see the VFX guys have shared there’s
+[02:35] As you’ll see the VFX guys have shared there’s
 a Vroll of all the ship weapons firing simultaneously.
-Surface outposts is what we’re going to
+[02:45] Surface outposts is what we’re going to
 take a look at next which I think we’ve
-released a couple of snapshots of, but it’s
+[02:48] released a couple of snapshots of, but it’s
 starting to come online a lot further now
-for us in the form of the building sets that
+[02:53] for us in the form of the building sets that
 were starting to get through from the artists.
-The designers are particularly excited about
+[02:58] The designers are particularly excited about
 all the gameplay opportunities that these
-will afford as they can actually lay them
+[03:03] will afford as they can actually lay them
 out on the planet surfaces now for you guys
-to investigate.
-That wraps up for another U.K. update.
-As I mentioned earlier there’s a lot of
+[03:08] to investigate.
+[03:47] That wraps up for another U.K. update.
+[03:49] As I mentioned earlier there’s a lot of
 work still going on behind the scenes with
-bug fixing and optimisations and feedback,
+[03:51] bug fixing and optimisations and feedback,
 etc.
-All that remains for me to say is back to
+[03:54] All that remains for me to say is back to
 L.A. and see you in the verse.
-Back to Studio
-CR: Appreciate the update Nick.
-Excited to see where the building sets are
+[03:58] Back to Studio
+[03:59] CR: Appreciate the update Nick.
+[04:01] Excited to see where the building sets are
 headed, I mean that's fantastic, a lot of
-great stuff in there.
-SG: Definitely, no kidding, and the work the
+[04:04] great stuff in there.
+[04:05] SG: Definitely, no kidding, and the work the
 effects team have been doing is really impressive.
-Especially the Herald explosion, that was
+[04:11] Especially the Herald explosion, that was
 very cool for me, and as we’re seeing all
-the ship weapons lined up like that.
-CR: Yup definitely seeing things shoot and
+[04:15] the ship weapons lined up like that.
+[04:16] CR: Yup definitely seeing things shoot and
 blow up is always very cool.
-Nick also mentioned all the work going into
+[04:20] Nick also mentioned all the work going into
 2.6.1.
-If you want to learn more about the up and
+[04:23] If you want to learn more about the up and
 coming patch make sure to head to the website
-and look at our full production schedule to
+[04:26] and look at our full production schedule to
 get a full sense of what you can expect.
-We’ll be updating the schedule every Friday
+[04:30] We’ll be updating the schedule every Friday
 until the release so you can track our progress
-via our website.
-SG: And of course a lot of the changes and
+[04:34] via our website.
+[04:36] SG: And of course a lot of the changes and
 rebalancing that we’re doing right now are
-thanks to the fantastic testing that our backers
+[04:41] thanks to the fantastic testing that our backers
 have been doing since 2.6 went live so thank
-you to all the backers out there.
-SG: Absolutely.
-Your feedback is invaluable to the project
+[04:45] you to all the backers out there.
+[04:47] SG: Absolutely.
+[04:48] Your feedback is invaluable to the project
 so I want to encourage all backers to keep
-playing Star Marine, and Arena Commander,
+[04:51] playing Star Marine, and Arena Commander,
 and Crusader, and to keep letting us know
-on the forums, Issue Council, as well as on
+[04:55] on the forums, Issue Council, as well as on
 the Spectrum.
-Please if you haven’t tried out Spectrum,
+[04:59] Please if you haven’t tried out Spectrum,
 try Spectrum, It’s beta because we’ll
-be going live with that soon.
-It’ll help 2.6.1.
-and 2.6.2.
-and after that all the subsequent patches
+[05:04] be going live with that soon.
+[05:06] It’ll help 2.6.1.
+[05:07] and 2.6.2.
+[05:08] and after that all the subsequent patches
 to be as good as they can be.
-SG: And as many of you know from our newsletter
+[05:11] SG: And as many of you know from our newsletter
 we recently had many of the directors and
-leads over at the L.A. office for several
+[05:15] leads over at the L.A. office for several
 weeks of discussions.
-While that was going on we took advantage
+[05:18] While that was going on we took advantage
 of everyone being here to record some deeper
-conversations about what we’re actively
+[05:22] conversations about what we’re actively
 working on.
-CR: Yup absolutely, and as the game's AI system
+[05:25] CR: Yup absolutely, and as the game's AI system
 is one of the most complicated and ground
-breaking features that were currently in development
+[05:30] breaking features that were currently in development
 on Star Citizen, we figured it would be a
-great opportunity to have lead AI programmer,
+[05:35] great opportunity to have lead AI programmer,
 Francesco Roccucci and Persistent Universe
-Director, Tony Zurovec gave an extended discussion
+[05:39] Director, Tony Zurovec gave an extended discussion
 about the systems they’re building.
-[5:50] AI
-Tony Zurovec (TZ): I’m Tony Zurovec, I’m
+[05:46] [5:50] AI
+[05:50] Tony Zurovec (TZ): I’m Tony Zurovec, I’m
 the Director of the Persistent Universe for
-Star Citizen.
-Francesco Roccucci (FR): So I am Francesco
+[05:53] Star Citizen.
+[05:54] Francesco Roccucci (FR): So I am Francesco
 Roccucci and I am the Lead AI Programmer for
-Star Citizen, so yeah, we work a lot together.
-TZ: Yeah.
-[What do you oversee at CIG?]
-TZ: I’m predominantly focused on the architectural
+[05:58] Star Citizen, so yeah, we work a lot together.
+[06:01] TZ: Yeah.
+[06:02] [What do you oversee at CIG?]
+[06:04] TZ: I’m predominantly focused on the architectural
 side of the stuff - what the basic capabilities
-are, how we expose that functionality to the
+[06:09] are, how we expose that functionality to the
 designers so that we can get as much leverage
-from the development process as possible - this
+[06:15] from the development process as possible - this
 includes working on the actual- developing
-the editor itself which was the designer’s
+[06:20] the editor itself which was the designer’s
 interface.
-FR: Well I think about all the architecture
+[06:24] FR: Well I think about all the architecture
 from Tony and I make it real in the code,
-basically.
-We develop- I put the code- I architect the
+[06:31] basically.
+[06:32] We develop- I put the code- I architect the
 code and we implement it and then I manage
-other three people so far on the AI team - so
+[06:37] other three people so far on the AI team - so
 we have Andrega Boni, Mario Sarini, Rich Walsh
-in the UK studio - so we are a bit in Germany
+[06:45] in the UK studio - so we are a bit in Germany
 and a bit in UK.
-AI in Star Citizen: An Update
-TZ: The current state of AI in Star Citizen
+[06:50] AI in Star Citizen: An Update
+[06:52] TZ: The current state of AI in Star Citizen
 is that we’re basically - I would say we’re
-cresting the hill with regard to the initial
+[06:58] cresting the hill with regard to the initial
 tier of architectural functionality.
-Francesco has now got a lot of work to do
+[07:03] Francesco has now got a lot of work to do
 to basically take all of that, distribute
-it to his guys, get it working within the
+[07:09] it to his guys, get it working within the
 game and what we’re aiming to do within
-the fairly near term is to be able to- for
+[07:14] the fairly near term is to be able to- for
 the first, in significant fashion to be able
-to start exposing this functionality to the
+[07:21] to start exposing this functionality to the
 designers and they should have enough of the
-base capability to start crafting actual missions
+[07:28] base capability to start crafting actual missions
 within the game.
-It’s going to look, to some degree, like
+[07:33] It’s going to look, to some degree, like
 the missions you’ve seen before except that
-they should be able to create them much more
+[07:39] they should be able to create them much more
 quickly which means we won’t be talking
-about 17 missions - they’ll be able to create-
+[07:43] about 17 missions - they’ll be able to create-
 you’ll be talking about much larger potential
-number of missions - you’ll be talking about
+[07:49] number of missions - you’ll be talking about
 a lot larger of number of different things
-you’ll be trying- problems that you’ll
+[07:55] you’ll be trying- problems that you’ll
 be able to present to the player - you’ll
-be talking about a lot more content that’s
+[08:00] be talking about a lot more content that’s
 going to have an algorithmic component to
-it.
-For example, right now, locations tend to
+[08:06] it.
+[08:07] For example, right now, locations tend to
 be fixed - and we’re going to be introducing
-in the not-too-distant future the ability
+[08:10] in the not-too-distant future the ability
 to go down to planets and stuff and we don’t
-want you to always encounter a derelict space
+[08:14] want you to always encounter a derelict space
 ship with a stranded pilot that needs to be
-transported to here always in the exact same
+[08:19] transported to here always in the exact same
 location.
-When you go to pick up that stranded pilot
+[08:22] When you go to pick up that stranded pilot
 - we don’t want him to always necessarily
-be friendly; when you go to pick him up, we
+[08:27] be friendly; when you go to pick him up, we
 don’t always want him to be alone - sometimes
-it’s going to be an ambush, sometimes he’s
+[08:31] it’s going to be an ambush, sometimes he’s
 going to need medical attention.
-These are things, all just in the course of
+[08:35] These are things, all just in the course of
 that one basic scenario - which is “distress
-signal, crashed pilot, etcetera” - there
+[08:41] signal, crashed pilot, etcetera” - there
 is a world of opportunity for us to create
-a range of potential experiences for the player
+[08:46] a range of potential experiences for the player
 and this is what- as soon as basically- Francesco’s
-basically integrated the rest of this and
+[08:54] basically integrated the rest of this and
 I’m sure there is-
-FR: No pressure on me.
-TZ: Little bits and pieces as we start to
+[08:56] FR: No pressure on me.
+[08:57] TZ: Little bits and pieces as we start to
 mock-up the first tier of the subsumption
-missions, but as soon as we’ve got that
+[09:03] missions, but as soon as we’ve got that
 then we’ll finally start to get a sense
-as to what the designers can create with this.
-FR: I think it’s always like this first
+[09:08] as to what the designers can create with this.
+[09:10] FR: I think it’s always like this first
 step, right?
-Of getting the core-
-TZ: Yep.
-FR: -there in a state in which you’re not
+[09:13] Of getting the core-
+[09:14] TZ: Yep.
+[09:15] FR: -there in a state in which you’re not
 only happy with the architect of the code
-as well - because for me it’s a lot, I know
+[09:20] as well - because for me it’s a lot, I know
 I can rely on the vision of Tony for that
-for the architecture of the design and all
+[09:25] for the architecture of the design and all
 the other designers that we have - all very
-talented people and the code as well has to
+[09:29] talented people and the code as well has to
 be architected in a way you can scale as much
-as possible.
-So like, you know the big work we’ve done
+[09:35] as possible.
+[09:36] So like, you know the big work we’ve done
 so far is to make sure that subsumption runs
-and everything with acceptable amount of memory
+[09:41] and everything with acceptable amount of memory
 usage and CPU usage.
-We have all these concepts of activities that
+[09:47] We have all these concepts of activities that
 are actually templates that can be re-used
-between a lot of characters without creating
+[09:53] between a lot of characters without creating
 like instance everywhere or having the mission
-system as well, reuse as much as possible
+[09:59] system as well, reuse as much as possible
 from the subsumption architecture and so even
-after we create the same logic all over and
+[10:03] after we create the same logic all over and
 over again in different systems because it
-uses different systems and it’s also accessing
+[10:07] uses different systems and it’s also accessing
 content from one actor to the mission and
-passing formation.
-It just becomes very much quicker, you don’t
+[10:15] passing formation.
+[10:16] It just becomes very much quicker, you don’t
 have to go through different DLLs - each DLL
-can expose different functionality without
+[10:21] can expose different functionality without
 you- don’t have to add code to be doing
-different- complete different structure and
+[10:27] different- complete different structure and
 then how do I expose this part to this other
-system - it just becomes everything much more
+[10:31] system - it just becomes everything much more
 fluid and much quicker to add stuff.
-So yeah, that sometimes it takes a bit of
+[10:36] So yeah, that sometimes it takes a bit of
 time but then I think we are starting to arrive
-to the point where we are very happy of that.
-We’re discussing the last bits that you
+[10:41] to the point where we are very happy of that.
+[10:43] We’re discussing the last bits that you
 added - for example, this concept of adding
-some reusable piece of logic that you can
+[10:48] some reusable piece of logic that you can
 recall and for us it’s very easy now to
-implement that and every new functionality
+[10:53] implement that and every new functionality
 seems it’s always quicker to add and you
-can start of feel to say “We’re doing
+[11:01] can start of feel to say “We’re doing
 a good job here” and I don’t like to say
-it, myself, but I think it’s good when you
+[11:07] it, myself, but I think it’s good when you
 are happy of the work you are doing.
-TZ: That’s something I referred to before,
+[11:12] TZ: That’s something I referred to before,
 which is- we’re very much focused and always
-have been with regards to the direction we’re
+[11:18] have been with regards to the direction we’re
 going with the concept of this “object-oriented
-content creation” which is to basically
+[11:23] content creation” which is to basically
 distill all of the different pieces of functionality
-that we’re going to use to build up these
+[11:30] that we’re going to use to build up these
 larger missions to break them down into all
-these component parts and then just like you
+[11:35] these component parts and then just like you
 do in an object-oriented language like C++
-to basically allow us to pass inputs in, to
+[11:39] to basically allow us to pass inputs in, to
 extract outputs out so that we can customize
-them dynamically in the scope of a much larger
+[11:47] them dynamically in the scope of a much larger
 problem.
-And so what this is going to wind up allowing
+[11:53] And so what this is going to wind up allowing
 us to do is after we’ve got that initial
-library of functionality - designers are going
+[11:56] library of functionality - designers are going
 to be able to craft this stuff much, much
-more quickly than they’ve been able to do
+[12:02] more quickly than they’ve been able to do
 in the past and what this effectively means
-to the player is a much larger amount of interesting
+[12:09] to the player is a much larger amount of interesting
 things to see and experience and challenges
-to face and solve within the game world.
-Subsumption
-TZ: The first part of subsumption - the easiest
+[12:16] to face and solve within the game world.
+[12:21] Subsumption
+[12:22] TZ: The first part of subsumption - the easiest
 part of subsumption to basically expose is
-actually going to be the mission side of it
+[12:28] actually going to be the mission side of it
 - the mission side is basically built on top
-of the, what you want to call the lower level
+[12:33] of the, what you want to call the lower level
 AI layer, there’s a lot of commonality in
-terms of how we do message passing, the data
+[12:39] terms of how we do message passing, the data
 structures, the concept of functions, reasonable
-parameters and all this kind of stuff, task
+[12:45] parameters and all this kind of stuff, task
 archetypes with which we build up the solutions
-to these problems - the mission stuff in general
+[12:49] to these problems - the mission stuff in general
 is a bit more straightforward to expose because
-it doesn’t directly control any of the animation
+[12:57] it doesn’t directly control any of the animation
 stuff.
-And the animation when you’re talking about
+[13:01] And the animation when you’re talking about
 a modern 3D game - animation, even though
-it’s not technically part of what most people
+[13:08] it’s not technically part of what most people
 would call the AI, it’s plays a massive
-role with regards to how people perceive it
+[13:15] role with regards to how people perceive it
 - if you have a bartender and he’s going
-about doing his business but the path find
+[13:21] about doing his business but the path find
 is-
-FR: It’s not smooth or-
-TZ: -the path finding doesn’t often very
+[13:24] FR: It’s not smooth or-
+[13:26] TZ: -the path finding doesn’t often very
 well, he goes right up to other characters
-and then goes 90 degree angles around them
+[13:30] and then goes 90 degree angles around them
 as opposed to doing nice splines - if he basically
-doesn’t align himself precisely, if things
+[13:34] doesn’t align himself precisely, if things
 don’t snap right to his hand - if he can’t
-actually operate things in believable fashion
+[13:40] actually operate things in believable fashion
 then he doesn’t actually look intelligent,
-even though under the scenes he’s still
+[13:45] even though under the scenes he’s still
 able to search for this - he can still basically
-go over to it, he can still utilize, he can
+[13:49] go over to it, he can still utilize, he can
 still create items, he can still send messages,
-received messages, query the environment - all
+[13:53] received messages, query the environment - all
 that type of stuff and so one of the big issues
-that we face before we really expose the AI
+[14:00] that we face before we really expose the AI
 side of it is we want to make sure that a
-lot of these - you could call them cosmetic
+[14:07] lot of these - you could call them cosmetic
 issues because they really predominantly isolated
-from the AI itself although the solution to
+[14:14] from the AI itself although the solution to
 them is occasionally quite complex because
-they are still so tightly integrated.
-By way of example, one we’ve talked about
+[14:20] they are still so tightly integrated.
+[14:22] By way of example, one we’ve talked about
 before is you’ve got a path find and in
-combat you’ve got a character and he’s
+[14:26] combat you’ve got a character and he’s
 running towards cover and he actually needs
-to know in the path find that he’s running
+[14:29] to know in the path find that he’s running
 towards cover in a combat situation and then
-he’s basically going to modify the end part
+[14:35] he’s basically going to modify the end part
 of that path find he’s running to that destination
-by sliding into cover and if you’re talking
+[14:41] by sliding into cover and if you’re talking
 about a character that’s actually going
-to manipulate something or sit in a chair,
+[14:45] to manipulate something or sit in a chair,
 they need to know how they are going to need
-to be aligned so that while the path find
+[14:48] to be aligned so that while the path find
 - the predecessor step an action, it can be
-taking that into account so that because-
+[14:54] taking that into account so that because-
 what you don’t want is for them to get to
-the endpoint and then spin 80 degrees and
+[14:57] the endpoint and then spin 80 degrees and
 then basically to play the appropriate animation
-and so the mission stuff is the first and
+[15:04] and so the mission stuff is the first and
 easiest but given the release schedule and
-we can’t talk too much about that - we’ve
+[15:12] we can’t talk too much about that - we’ve
 had some conversations about whether or not
-we might have a small iterative release that
+[15:18] we might have a small iterative release that
 might expose some of this for testing purposes
-but we’ll just have to talk about that as
+[15:26] but we’ll just have to talk about that as
 we announce that later.
-FR: Subsumption is really global, general
+[15:30] FR: Subsumption is really global, general
 name so I think we’re probably- when the
-mission system is out, well it’s part of
+[15:35] mission system is out, well it’s part of
 subsumption so there will be a part to experience
-what subsumption is in general, right?
-But, yes, as Tony says, most of the animation
+[15:40] what subsumption is in general, right?
+[15:43] But, yes, as Tony says, most of the animation
 issues are the one that.
-we are basically working on to … before
+[15:49] we are basically working on to … before
 we can show something.
-Or not too much before we “can” show but
+[15:54] Or not too much before we “can” show but
 before we want to show ...
-TZ: That’s exactly it.
-FR: … because I think that’s the critical
+[15:57] TZ: That’s exactly it.
+[15:58] FR: … because I think that’s the critical
 part.
-It’s like for me - I think we are both very
+[15:59] It’s like for me - I think we are both very
 critical to the work we do - so it’s like
-always say “ah, this doesn’t look very
+[16:04] always say “ah, this doesn’t look very
 good: I don’t want to show it”.
-TZ: And this was one of the big things with
+[16:06] TZ: And this was one of the big things with
 the Squadron 42 Vertical Slice to where one
-of the largest issues was the animation integration
+[16:10] of the largest issues was the animation integration
 …
-FR: Yeah.
-TZ: … into the system.
-As opposed to whether or not you were, under
+[16:14] FR: Yeah.
+[16:15] TZ: … into the system.
+[16:16] As opposed to whether or not you were, under
 the hood, actually doing all of the appropriate
-AI logic.
-The AI logic, a lot of it was …
-FR: It’s … yeah, really a good point ...
-TZ: … actually operational.
-FR: … because the Subsumption logic … it’s
+[16:20] AI logic.
+[16:21] The AI logic, a lot of it was …
+[16:24] FR: It’s … yeah, really a good point ...
+[16:25] TZ: … actually operational.
+[16:26] FR: … because the Subsumption logic … it’s
 already … we have … in our game, our builds,
-we already use the activities.
-We already use sub-activities.
-We already have secondary sub-activities surrounding
+[16:32] we already use the activities.
+[16:33] We already use sub-activities.
+[16:34] We already have secondary sub-activities surrounding
 people say “Hi” to you or greet you, seeing
-from far, having different activities ...
-TZ: Right but we were having problems with
+[16:40] from far, having different activities ...
+[16:41] TZ: Right but we were having problems with
 the heads weren’t orientating correctly
-and ...
-FR: But … exactly … if you showed something
+[16:44] and ...
+[16:45] FR: But … exactly … if you showed something
 like that ...
-TZ: … to any user you show that …
-FR: … yeah.
-TZ: … it looks much more primitive than
+[16:47] TZ: … to any user you show that …
+[16:48] FR: … yeah.
+[16:49] TZ: … it looks much more primitive than
 that it really is.
-And so that was one of the reasons why, up
+[16:53] And so that was one of the reasons why, up
 until the very end, we were like “Well how
-… how quickly can we tie up some of the
+[16:57] … how quickly can we tie up some of the
 most egregious animations issues?”
-FR: Because you gonna make sure … you want
+[17:02] FR: Because you gonna make sure … you want
 to make sure something that can be very impressive,
-it actually is.
-Because otherwise if you ruin the look of
+[17:08] it actually is.
+[17:09] Because otherwise if you ruin the look of
 something that is actually quite complex,
-quite advanced, with a bad look then it’s
+[17:14] quite advanced, with a bad look then it’s
 hard to remove that type of first impression.
-And it’s not smart and it’s like … I
+[17:21] And it’s not smart and it’s like … I
 don’t think it gives the right credit to
-the system
-TZ: We … we … we
-FR: … and the developers that worked on
+[17:26] the system
+[17:27] TZ: We … we … we
+[17:28] FR: … and the developers that worked on
 it.
-TZ: … we want the quality of the animation
+[17:29] TZ: … we want the quality of the animation
 to match the ambition …
-FR: The system.
-Yeah.
-TZ: … of the actual logic …
-FR: The game.
-TZ: … and that’s still going to require
+[17:32] FR: The system.
+[17:33] Yeah.
+[17:34] TZ: … of the actual logic …
+[17:35] FR: The game.
+[17:36] TZ: … and that’s still going to require
 … that’s still going to require some effort.
-[17:42] 3.0 NPC AI
-TZ: 3.0 I think we’re actually going to
+[17:40] [17:42] 3.0 NPC AI
+[17:43] TZ: 3.0 I think we’re actually going to
 aim for a pretty diverse set of things.
-Most obviously would just be starting to make
+[17:49] Most obviously would just be starting to make
 the landing zones actually start to feel alive,
-so that you encounter a variety of different
+[17:54] so that you encounter a variety of different
 characters all pursuing their own particular
-set of interests.
-This will include everything from the prototypical
+[18:00] set of interests.
+[18:01] This will include everything from the prototypical
 bartender and bar patrons, tourists, vandals,
-businessmen…
-FR: Shop.
-TZ … yeah, various shop … shop keepers
+[18:07] businessmen…
+[18:08] FR: Shop.
+[18:09] TZ … yeah, various shop … shop keepers
 ... muggers, criminal elements: things of
-that sort.
-And then some of the … some of the more
+[18:16] that sort.
+[18:18] And then some of the … some of the more
 interesting stuff in terms of the gameplay
-potential, I would say, would be the combat
+[18:23] potential, I would say, would be the combat
 aspects.
-FR: Because the combat is, of course, is what
+[18:26] FR: Because the combat is, of course, is what
 I really worked on and it’s something I’m
-really, really happy to work on and I want
+[18:31] really, really happy to work on and I want
 to push it even further.
-That is going to be interesting because we
+[18:34] That is going to be interesting because we
 try to make this first iteration on it where
-there is already coordination between the
+[18:40] there is already coordination between the
 guys that fight.
-People that can advance while somebody else
+[18:43] People that can advance while somebody else
 covers the advancement from a cover spot or
-if no cover spot are allowed they will just
+[18:50] if no cover spot are allowed they will just
 …
-I think the main thing with the combat that
+[18:53] I think the main thing with the combat that
 I’m really trying to push is the fact that
-they understand the environment.
-And you are sure.
-And you understand that what they are doing
+[18:58] they understand the environment.
+[19:00] And you are sure.
+[19:01] And you understand that what they are doing
 makes sense for the type of environment which
-they are in.
-And that is going to be what I think is cool
+[19:05] they are in.
+[19:06] And that is going to be what I think is cool
 in this scenario because maybe you’ll find
-some pirates on the side you want to get a
+[19:11] some pirates on the side you want to get a
 good deal but then they turn on you.
-And then the fight makes interesting … the
+[19:15] And then the fight makes interesting … the
 situations …
-TZ: And this will play into a number of things
+[19:19] TZ: And this will play into a number of things
 so that when you encounter … like right
-now the only ships, as you’re just generally
+[19:23] now the only ships, as you’re just generally
 wandering around stuff, you tend to encounter
-is really other players.
-TFR: Yeah.
-TZ: And that should be dramatically different
+[19:30] is really other players.
+[19:31] TFR: Yeah.
+[19:32] TZ: And that should be dramatically different
 in 3.0.
-Not only different in terms of you encountering
+[19:36] Not only different in terms of you encountering
 them but in terms of what you can do with
-them.
-If you disable … if you’re transporting
+[19:40] them.
+[19:41] If you disable … if you’re transporting
 cargo and you basically get attacked by a
-pirate and he disables your engines then it’s
+[19:47] pirate and he disables your engines then it’s
 entirely possible that he’s actually going
-to try to board your ship.
-Or vice versa if you’re a mercenary … if
+[19:52] to try to board your ship.
+[19:53] Or vice versa if you’re a mercenary … if
 you’re a pirate and you’re trying to take
-out a freighter then part of what you’re
+[20:00] out a freighter then part of what you’re
 going to have to do is - after you disable
-the ship - is board it and those characters
+[20:06] the ship - is board it and those characters
 will actually be able to fight …
-FR: Fight back.
-TZ: … fight back within the confines of
+[20:11] FR: Fight back.
+[20:12] TZ: … fight back within the confines of
 their ship.
-And this is, again, just going to open up
+[20:14] And this is, again, just going to open up
 a world of possibilities in terms of making
-the world, space, etc. feel much more alive.
-FR: Kind of unique as well.
-Because I think it creates these kinds of
+[20:20] the world, space, etc. feel much more alive.
+[20:23] FR: Kind of unique as well.
+[20:25] Because I think it creates these kinds of
 scenarios that are not very easy to find somewhere
-else.
-It’s going to be a very interesting to see
+[20:30] else.
+[20:31] It’s going to be a very interesting to see
 how the players will play.
-[20:36] Back In The Studio
-CR: Thanks guys.
-Hopefully that gives you a better sense of
+[20:35] [20:36] Back In The Studio
+[20:37] CR: Thanks guys.
+[20:38] Hopefully that gives you a better sense of
 the progress we’re making and gives you
-an idea of how awesome the final version can
+[20:41] an idea of how awesome the final version can
 be.
-As more and more of the features like the
+[20:44] As more and more of the features like the
 AI and the mission system, locomotion for
-player and AI come online and are implemented
+[20:49] player and AI come online and are implemented
 into the game we’re able to unlock even
-more opportunities to push the game even further
+[20:53] more opportunities to push the game even further
 and create that first person universe that
-Star Citizen is going to be.
-SG: And we know that AI has been one of our
+[20:58] Star Citizen is going to be.
+[21:00] SG: And we know that AI has been one of our
 most asked about topics from the community
-so we decided to open up the conversation
+[21:04] so we decided to open up the conversation
 to the community and let Tony and Francesco
-field some of your questions about how it
+[21:09] field some of your questions about how it
 works.
-[21:14] AI - Fan Q&A with Tony Zurovec & Francesco
+[21:11] [21:14] AI - Fan Q&A with Tony Zurovec & Francesco
 Roccucci
-Q: For NPC ships, are those under the control
+[21:13] Q: For NPC ships, are those under the control
 of a single AI or will it be multiple AI working
-together?
-What are the challenges of this?
-TZ: Multi-crew ships will operate fairly similarly
+[21:18] together?
+[21:19] What are the challenges of this?
+[21:20] TZ: Multi-crew ships will operate fairly similarly
 to the hierarchy ... the chain of command
-that you’d see in a typical civilian or
+[21:25] that you’d see in a typical civilian or
 military vessel in that you’ll have a captain
-and the captain will tell the navigator where
+[21:31] and the captain will tell the navigator where
 he wants to go.
-And the captain will basically tell the engineer
+[21:33] And the captain will basically tell the engineer
 what to prioritise: whether he wants … needs
-the weapon systems back online first or the
+[21:37] the weapon systems back online first or the
 shield generators or the engines.
-And he’ll dispatch the chief medical officer
+[21:41] And he’ll dispatch the chief medical officer
 to deal with medical problems in this area
-or that area.
-So it’s at a very high level.
-I’ve said before we don’t want to be “Sim
+[21:47] or that area.
+[21:48] So it’s at a very high level.
+[21:49] I’ve said before we don’t want to be “Sim
 Citizen”.
-We don’t want to have too much micromanagement
+[21:52] We don’t want to have too much micromanagement
 in terms of control.
-That’s not the type of game we are.
-But the concept of being able to just generally
+[21:55] That’s not the type of game we are.
+[21:57] But the concept of being able to just generally
 prioritise things and then to have your lieutenant
-characters address those.
-And this actually segues nicely into how players
+[22:03] characters address those.
+[22:05] And this actually segues nicely into how players
 are going to be integrated into the equation.
-If you’ve got a captain and you’ve got
+[22:11] If you’ve got a captain and you’ve got
 a navigator and you’ve got a chief medical
-officer and you’ve got a chief engineer
+[22:15] officer and you’ve got a chief engineer
 and you’ve got a chief weapons officer,
-and all this other stuff and then all of a
+[22:17] and all this other stuff and then all of a
 sudden the player wants to … one of your
-player friends wants to deal with weapons
+[22:21] player friends wants to deal with weapons
 or deal with engineering then you’ll have
-a very easy means of factoring in how the
+[22:26] a very easy means of factoring in how the
 other characters are going to interface with
-them.
-And what you’re going to wind up getting
+[22:34] them.
+[22:36] And what you’re going to wind up getting
 out of this is a nice concise system to where
-you can customise as much or as little as
+[22:42] you can customise as much or as little as
 you want.
-You can have … you can recruit NPC characters
+[22:45] You can have … you can recruit NPC characters
 to do as much of the work, that you and your
-friends don’t want to do, as is necessary
+[22:55] friends don’t want to do, as is necessary
 to accomplish the job.
-FR: Yeah, gets you really moving away from
+[22:58] FR: Yeah, gets you really moving away from
 one behaviour for one ship.
-So it’s really like each seat will be controlled
+[23:04] So it’s really like each seat will be controlled
 by the people - just one - to work on that
-seat.
-So I think there would be a really the crew
+[23:11] seat.
+[23:12] So I think there would be a really the crew
 feeling working on the spaceship as Tony already
-said.
-I think that is the only way to give a bit
+[23:17] said.
+[23:18] I think that is the only way to give a bit
 more realism in the sense like even if you
-board a ship and the pilot is tries to still
+[23:23] board a ship and the pilot is tries to still
 bring the ship somewhere and you kill him
-then you don’t want the spaceship has this
+[23:28] then you don’t want the spaceship has this
 external behaviour still like drives automatically,
-controls the turrets anyway.
-You just want to really see that something
+[23:35] controls the turrets anyway.
+[23:36] You just want to really see that something
 is there.
-Another thing we also try is to make these
+[23:39] Another thing we also try is to make these
 type of AI modules that you can buy and assign
-to specific seats.
-So you don’t have an actual crew member
+[23:45] to specific seats.
+[23:46] So you don’t have an actual crew member
 sometime but you want to have a small computer
-at that controls, turret for example.
-So some stuff, maybe the medical officer,
+[23:51] at that controls, turret for example.
+[23:53] So some stuff, maybe the medical officer,
 cannot be substituted by computer but the
-turret can have a controller … automatic
+[23:57] turret can have a controller … automatic
 controller.
-And if you just sit down then you can immediately
+[24:00] And if you just sit down then you can immediately
 take control over things turn on and off.
-And I think you as a player you are also able
+[24:05] And I think you as a player you are also able
 to customise a bit how the ships automatically
-responds to things.
-Can be really cool because you can have just
+[24:09] responds to things.
+[24:11] Can be really cool because you can have just
 like a combination of … that you can have
-that already makes a huge difference between
+[24:16] that already makes a huge difference between
 one ship and another.
-Q: What advantages/disadvantages would there
+[24:20] Q: What advantages/disadvantages would there
 be in running an AI-crew versus an all-human
+[24:25] crew?
+[24:26] TZ: The advantages of AI crew versus human
 crew?
-TZ: The advantages of AI crew versus human
-crew?
-I wouldn’t really say that there’s definative
+[24:30] I wouldn’t really say that there’s definative
 advantages.
-I would say the devil’s always in the details.
-What you will have as a player is the ability
+[24:33] I would say the devil’s always in the details.
+[24:36] What you will have as a player is the ability
 to recruit NPC characters to fulfil specific
-jobs on your ship.
-But when you basically go to recruit them,
+[24:42] jobs on your ship.
+[24:44] But when you basically go to recruit them,
 that’s where the details start to matter.
-How much are you willing to pay?
-And that’s going to determine the level
+[24:50] How much are you willing to pay?
+[24:51] And that’s going to determine the level
 of quality, the level of professionalism,
-that you’re going to get from that particular
+[24:55] that you’re going to get from that particular
 member.
-If you want, a turret gunner that’s really
+[24:59] If you want, a turret gunner that’s really
 effective then you’re going to have to pay
-a higher monthly salary.
-You’re going to have a higher running cost,
+[25:03] a higher monthly salary.
+[25:04] You’re going to have a higher running cost,
 and so what you’ll see a lot of players...
-and the exact same scenario exists within
+[25:09] and the exact same scenario exists within
 players: there’s some will be more adept
-at a given occupation - a given skill - others
+[25:12] at a given occupation - a given skill - others
 will be less capable, and so what I think
-you’re going to wind up seeing in a lot
+[25:18] you’re going to wind up seeing in a lot
 of cases is players - you may have a ship
-that’s ideally crewed by 6 or 8 or 10 people
+[25:23] that’s ideally crewed by 6 or 8 or 10 people
 - and the player’s party will take on those
-roles that they’re best at and then they’ll
+[25:31] roles that they’re best at and then they’ll
 recruit NPCs to whatever skill level they
-can actually afford to fill in the remainder.
-FR: Also about the interest right?
-Because maybe some players have interest on
+[25:38] can actually afford to fill in the remainder.
+[25:41] FR: Also about the interest right?
+[25:43] Because maybe some players have interest on
 piloting, some others have really good interest
-in shooting.
-And then you can just use the AI to fit the
+[25:48] in shooting.
+[25:49] And then you can just use the AI to fit the
 roles you don’t like too much.
-But on the other hand the AI won’t rage
+[25:53] But on the other hand the AI won’t rage
 quit on you, right?
-You won’t have like a player disconnecting,
+[25:55] You won’t have like a player disconnecting,
 so.
-TZ: Yeah, but they
-FR: You have an an advantage with AI?
-...
-TZ: Well and that's true.
-All of the whereas most of the things that
+[25:57] TZ: Yeah, but they
+[25:59] FR: You have an an advantage with AI?
+[26:03] ...
+[26:04] TZ: Well and that's true.
+[26:05] All of the whereas most of the things that
 players will actually do will depend upon
-their actual capabilities, or their ship capabilities,
+[26:12] their actual capabilities, or their ship capabilities,
 or their equipment's capabilities to expose
-things.
-But how, how well you basically can fire,
+[26:16] things.
+[26:17] But how, how well you basically can fire,
 for example on another player, your accuracy,
-that's determined by your physical dexterity,
+[26:22] that's determined by your physical dexterity,
 and it's influenced by the weapon which may
-have more or less kickback or a wider area
+[26:28] have more or less kickback or a wider area
 of effect in terms of it's damage, etc.
-And NPCs will have a variety of characteristics
+[26:35] And NPCs will have a variety of characteristics
 that will model how well they deal with all
-of these different . . with all of these different
+[26:43] of these different . . with all of these different
 things that the player has to . . has to handle
-themselves.
-FR: Yeah the skills will be like definitely
+[26:50] themselves.
+[26:51] FR: Yeah the skills will be like definitely
 be a huge part you know on deciding like this
-NPC is good at doing every job or jobs.
-But maybe you have two that are kind of good
+[26:56] NPC is good at doing every job or jobs.
+[26:59] But maybe you have two that are kind of good
 at the same job, and you still need to fill
-another role and you put the one.
-They say, “Well, I still need the shield
+[27:03] another role and you put the one.
+[27:04] They say, “Well, I still need the shield
 management.”, and even if none of them is
-pretty good but maybe after a certain amount
+[27:08] pretty good but maybe after a certain amount
 of missions.
-Well he starts to get used to that, and he
+[27:11] Well he starts to get used to that, and he
 starts to improve his skills as well.
-You know you can decide, “Will pay a bit
+[27:15] You know you can decide, “Will pay a bit
 less, but I risk a bit more in the beginning
-at trying to make simple missions so they
+[27:19] at trying to make simple missions so they
 get used to these things.
-I think that is also like interesting to see
+[27:23] I think that is also like interesting to see
 how the player will use their strategy to
-put balance their hiring and the other NPC
+[27:28] put balance their hiring and the other NPC
 they have with how they can improve and learn.
-TZ: Yeah, it becomes another resource to manage.
-Another way by which players can differentiate
+[27:34] TZ: Yeah, it becomes another resource to manage.
+[27:36] Another way by which players can differentiate
 their style of gameplay
-FR: Yeah.
-TZ: versus another.
-Well it's like do you go with three engineers
+[27:40] FR: Yeah.
+[27:41] TZ: versus another.
+[27:42] Well it's like do you go with three engineers
 of lower quality or one really stellar performer.
-FR: Yeah.
-TZ: So there's going to be a multitude of
+[27:46] FR: Yeah.
+[27:47] TZ: So there's going to be a multitude of
 ways for you to customize the game-play experience
-via the choices you make in all of these different
+[27:51] via the choices you make in all of these different
 areas.
-Q: What do you anticipate to be the largest
+[27:53] Q: What do you anticipate to be the largest
 ship capable of operating effectively with
-an AI crew?
-TZ: There's no real limitation just given
+[27:58] an AI crew?
+[27:59] TZ: There's no real limitation just given
 the distribution of responsibilities.
-It would really just be more along the lines
+[28:04] It would really just be more along the lines
 of the larger ships will require larger crews
-to operate effectively and therefore their
+[28:10] to operate effectively and therefore their
 running costs on average will tend to be higher
-than crew . . than ships that can be operated
+[28:15] than crew . . than ships that can be operated
 with, with a much smaller crew.
-Obviously you can modulate that to some degree
+[28:19] Obviously you can modulate that to some degree
 with the quality of the crew you're hiring
-. .
-FR: Yeah.
-TZ: . . and things of that sort, but there's
+[28:23] . .
+[28:24] FR: Yeah.
+[28:25] TZ: . . and things of that sort, but there's
 no hard coded limit and there's surely no
-reason why there would be given how all of
+[28:29] reason why there would be given how all of
 these tasks and responsibilities that they're
-going to be executing are going to be ready.
-FR: I think that is really like coming from
+[28:33] going to be executing are going to be ready.
+[28:35] FR: I think that is really like coming from
 you know to the, to the fact that basically
-within the individual behavior you know are
+[28:39] within the individual behavior you know are
 controlled by a captain or something like
-that, but then each of these NPCs which is
+[28:43] that, but then each of these NPCs which is
 do it's job.
-So you know there is no real limit on the
+[28:47] So you know there is no real limit on the
 amount of people that execute their job if
-you know you have like five, six to control
+[28:51] you know you have like five, six to control
 five different turrets.
-Well, you know, that would be just like five
+[28:55] Well, you know, that would be just like five
 different people.
-Their coordination of course depends on the
+[28:57] Their coordination of course depends on the
 amount of targets they have.
-Who they can target, but then it doesn't matter
+[29:01] Who they can target, but then it doesn't matter
 like if there are three or five or fifteen,
-because you know the code would just give
+[29:06] because you know the code would just give
 for that would try and distribute the targets,
-but so exact you know . .
-TZ: But it would like as you go, as you go
+[29:10] but so exact you know . .
+[29:11] TZ: But it would like as you go, as you go
 to upper echelon of ships you are going to
-probably need more experience . .
-FR: Yeah.
-TZ: . . better commanders, because they are
+[29:15] probably need more experience . .
+[29:16] FR: Yeah.
+[29:17] TZ: . . better commanders, because they are
 effectively going to be . . in control of
-more . . of a larger number of crew members
+[29:22] more . . of a larger number of crew members
 and we would probably . .
-FR: Yeah.
-TZ: . . just model it such that if you basically
+[29:26] FR: Yeah.
+[29:27] TZ: . . just model it such that if you basically
 get a lower end . . a lower . . a lower quality
-of chief engineer starts to basically buckle
+[29:32] of chief engineer starts to basically buckle
 under the pressure and he starts to make bad
-decisions, etc.
-.
-FR: Yeah . . assigns wrong people . .
-TZ: . . once he starts getting beyond three
+[29:36] decisions, etc.
+[29:37] .
+[29:38] FR: Yeah . . assigns wrong people . .
+[29:39] TZ: . . once he starts getting beyond three
 or four or five guys that he is controlling.
-The exact same thing you'd see in the real
+[29:41] The exact same thing you'd see in the real
 world.
-Q: What kind of relationships do you expect
+[29:43] Q: What kind of relationships do you expect
 us to develop with AI NPCs?
-Will an NPC react differently to me based
+[29:47] Will an NPC react differently to me based
 on prior actions?
-If I ruin a relationship with an NPC, will
+[29:51] If I ruin a relationship with an NPC, will
 there be ways to repair it afterward?
-TZ: It's always been our intention to allow
+[29:55] TZ: It's always been our intention to allow
 the player to form long lasting relationships
-with all of the characters in the game.
-What this means specifically is that you will
+[30:03] with all of the characters in the game.
+[30:05] What this means specifically is that you will
 develop what we call reputation in a number
-of different fields.
-Are you known for your acts of piracy?
-Are you known for your humanitarian missions?
-You're basically very medically oriented and
+[30:11] of different fields.
+[30:12] Are you known for your acts of piracy?
+[30:14] Are you known for your humanitarian missions?
+[30:18] You're basically very medically oriented and
 you are rescuing people, healing people, solving
-medical crisis, you know etc.
-Do you . . are you really well known for how
+[30:23] medical crisis, you know etc.
+[30:25] Do you . . are you really well known for how
 effective a transporter you are in terms of
-commodity goods and things of that sort?
-You have a high very . . a very high success
+[30:33] commodity goods and things of that sort?
+[30:34] You have a high very . . a very high success
 rate in terms of getting it done.
-So there will be those reputational aspects
+[30:39] So there will be those reputational aspects
 that characters will be able to . . you know
-of yourself . . that characters will be able
+[30:44] of yourself . . that characters will be able
 to query to determine how much they like you,
-dislike you, whether they want to offer you
+[30:48] dislike you, whether they want to offer you
 the more advanced missions or just the starter
-missions, what they are willing to pay you
+[30:54] missions, what they are willing to pay you
 in order to do that, etc.
-There will also be these what I call these
+[30:57] There will also be these what I call these
 many to one relationships to where it’s
-not based upon your, you know, piracy rating
+[31:03] not based upon your, you know, piracy rating
 or your transportation rating…
-it’s based on your specifically one to one
+[31:07] it’s based on your specifically one to one
 relationship.
-How do they feel about you?
-Did you take a specific mission from them?
-That’s probably going to be weighted much
+[31:10] How do they feel about you?
+[31:11] Did you take a specific mission from them?
+[31:14] That’s probably going to be weighted much
 more significantly than stuff that they heard
-that you did for other characters in the universe.
-They will also be able to take into account
+[31:19] that you did for other characters in the universe.
+[31:22] They will also be able to take into account
 your… the organizations to which you’re
-a part.
-Do they like that organization?
-Do they hate that organization?
-Are they neutral to that organization?
-So all of these things together are basically
+[31:27] a part.
+[31:28] Do they like that organization?
+[31:29] Do they hate that organization?
+[31:30] Are they neutral to that organization?
+[31:32] So all of these things together are basically
 variables that the characters within their
-conversation logic can factor into how they
+[31:36] conversation logic can factor into how they
 respond to you.
-So… and then we’ll wind up having these
+[31:41] So… and then we’ll wind up having these
 things gradually, you know, return to a baseline
-if you don’t keep doing it.
-Other words if you were an exceptional…
-exceptionally good at transporting merchandise,
+[31:48] if you don’t keep doing it.
+[31:49] Other words if you were an exceptional…
+[31:53] exceptionally good at transporting merchandise,
 very high success rate.
-If you haven’t done that in a day, in a
+[31:56] If you haven’t done that in a day, in a
 week, in a month…
-then people will no longer be talking about
+[31:59] then people will no longer be talking about
 that behind the scenes, therefore you expect
-that reputational aspect to gradually deteriorate
+[32:04] that reputational aspect to gradually deteriorate
 over time and you’re going to have to just…
-you’re going to have to... basically going
+[32:07] you’re going to have to... basically going
 to have to keep doing that type of thing and
-keep doing it well if you want to maintain
+[32:11] keep doing it well if you want to maintain
 your standing with the community in that regard.
-FR: Yeah, so like for us for me especially
+[32:15] FR: Yeah, so like for us for me especially
 now on the AI team what we try to do is I
-test all of these functionalities to make
+[32:21] test all of these functionalities to make
 sure that the AI can create as much content
-as they can.
-So like, you know, once we have these things,
+[32:25] as they can.
+[32:26] So like, you know, once we have these things,
 the relationship variables or attributes it
-is really like better to give these to the
+[32:31] is really like better to give these to the
 designers and then the designers can use any
-of these.
-Can be the reputation, can be this… you
+[32:35] of these.
+[32:36] Can be the reputation, can be this… you
 know, what they feel about you and they can
-just create all the logic that they want.
-Plus we have… we’re kinda in a unique
+[32:39] just create all the logic that they want.
+[32:42] Plus we have… we’re kinda in a unique
 position because like the game can constantly
-be updated so these characters can also get
+[32:46] be updated so these characters can also get
 new responses.
-You know, based on the state and, you know,
+[32:50] You know, based on the state and, you know,
 and all the result is new content that we
-can create with time that just makes, you
+[32:55] can create with time that just makes, you
 know, the relation always more smooth and
-you know, we can go deeper into details and
+[33:00] you know, we can go deeper into details and
 mentioned other stuff that you’ve done,
-mentioned events that have happened.
-If I have a good relation with you maybe I
+[33:05] mentioned events that have happened.
+[33:06] If I have a good relation with you maybe I
 gossip about something with you and you know,
-we can create this and always have more and
+[33:11] we can create this and always have more and
 more and more.
-TZ: There’s the stuff that really matters
+[33:14] TZ: There’s the stuff that really matters
 in terms of the missions they give you whether
-they’ll talk to you at all and that stuff.
-Then there’s also just the more cosmetic
+[33:18] they’ll talk to you at all and that stuff.
+[33:19] Then there’s also just the more cosmetic
 stuff where they tell you jokes or they’re
-light hearted or they’re basically bantering
+[33:22] light hearted or they’re basically bantering
 on about their history because they feel comfortable
-with you because you’ve done three missions
+[33:26] with you because you’ve done three missions
 with them within the last week.
-Were they frowning at you as you go, were
+[33:29] Were they frowning at you as you go, were
 they repulsed by you, were they disgusted
-by you, you know.
-All that type of stuff, so I would you say
+[33:33] by you, you know.
+[33:34] All that type of stuff, so I would you say
 you’ve got different elements coming together
-which is, you know, not just how they explicitly
+[33:38] which is, you know, not just how they explicitly
 react to you but more just, you know, they’re
-just… they’re more subtle behavioural
+[33:43] just… they’re more subtle behavioural
 characteristics when, you know, when you’re
-in proximity.
-In conclusion, what are you most looking forward
+[33:48] in proximity.
+[33:49] In conclusion, what are you most looking forward
 to?
-TZ: For the future AI I think that clearly
+[33:53] TZ: For the future AI I think that clearly
 going to head more towards the algorithmic,
-you know, generation of content that does
+[34:00] you know, generation of content that does
 not mean by any stretch of the imagination…
-we’ve said from the very beginning, it’s
+[34:04] we’ve said from the very beginning, it’s
 like we don’t want to be pure algorithmic.
-We have no interest in being purely algorithmic,
+[34:07] We have no interest in being purely algorithmic,
 we don’t think that makes for a good gameplay
-experience.
-It just makes for good taglines in terms of,
+[34:10] experience.
+[34:11] It just makes for good taglines in terms of,
 ‘ hey look, we’re giving you an arbitrarily
-large of this’ but it’s all, you know,
+[34:15] large of this’ but it’s all, you know,
 it’s all bland and uninteresting.
-There’s nothing really, you know, handcrafted
+[34:20] There’s nothing really, you know, handcrafted
 to draw you into it and so what we’ve been
-pursuing for years now is basically the ability
+[34:26] pursuing for years now is basically the ability
 to create all these handcrafted pieces and
-then to allow the designers to build on top
+[34:32] then to allow the designers to build on top
 of those to link those pieces together to
-create very quickly what, you know, what seems
+[34:36] create very quickly what, you know, what seems
 like incredibly customized missions but they’re
-able to do it in much more rapid fashion than
+[34:43] able to do it in much more rapid fashion than
 what otherwise would be the case.
-So, I think what we’re going to wind up
+[34:48] So, I think what we’re going to wind up
 having is, you know, as you go forward is
-just the ability to algorithmically create
+[34:52] just the ability to algorithmically create
 more, you know, variations on those things.
-You’re not really going to notice it in
+[35:00] You’re not really going to notice it in
 terms of quality of the content, it's just
-going to look like… it’s going to look
+[35:05] going to look like… it’s going to look
 like you went from 12 designers dedicated
-to this to 24-36 as you basically refine all
+[35:09] to this to 24-36 as you basically refine all
 those algorithms and you start to get your
-base library functions and stuff all entirely
+[35:14] base library functions and stuff all entirely
 operational.
-FR: Yeah, the thing I think we can talk about
+[35:17] FR: Yeah, the thing I think we can talk about
 as well is like the way… the thing I would
-always like to push forward is the kind of
+[35:22] always like to push forward is the kind of
 realism is if you want to start to follow
-one guy, for example, and we start with something
+[35:28] one guy, for example, and we start with something
 like the guy will leave the planet but maybe,
-you know, eventually you have this guy like
+[35:32] you know, eventually you have this guy like
 change planets, you know and he’ll be able
-to understand that there are connections between...you
+[35:37] to understand that there are connections between...you
 know, jumping into space ship, then take the
-spaceship to fly, quantum jump and then go
+[35:41] spaceship to fly, quantum jump and then go
 to this other planet and then go down and
-search for another part.
-You can just follow it and then you can be
+[35:45] search for another part.
+[35:47] You can just follow it and then you can be
 always be more realistic like, you know, I
-think that is from a tech perspective, you
+[35:51] think that is from a tech perspective, you
 know we’ll have of course some optimisation,
-what you’re trading, stuff like this that
+[35:56] what you’re trading, stuff like this that
 we want to have as quick as possible.
-So I think there are like these two parallel
+[35:59] So I think there are like these two parallel
 you know, work that we are doing both on the
-content production tools to create always
+[36:05] content production tools to create always
 more and give more feeling and all the technical
-problems that we are trying to solve like
+[36:12] problems that we are trying to solve like
 using objects while you use another object,
-you know sitting on a spaceship and while
+[36:16] you know sitting on a spaceship and while
 you are sitting you actually interact with
-all the objects and each these interactions
+[36:21] all the objects and each these interactions
 triggers something else.
-I think these of things that we are going
+[36:24] I think these of things that we are going
 to eventually have... it’s the details,
-it’s an amount of details that you will
+[36:30] it’s an amount of details that you will
 eventually have based off all the iteration.
-So first iteration will have, even on the
+[36:35] So first iteration will have, even on the
 combat side, first iteration will have a sort
-of coordination, but then these other iteration
+[36:40] of coordination, but then these other iteration
 will always have more and more coordination
-using more type of weapons, being smart on
+[36:46] using more type of weapons, being smart on
 which type of weapon is best in this specific
-environment or in a specific scenario.
-I think this is just going to give always
+[36:51] environment or in a specific scenario.
+[36:54] I think this is just going to give always
 more realistic feeling.
-TZ: Yeah because another long term objective
+[36:58] TZ: Yeah because another long term objective
 and this is not within the next 12 months
-it’s more of a 12-24 month window type of
+[37:03] it’s more of a 12-24 month window type of
 thing is basically support for what we refer
-to as the Persistent Dynamic NPCs and what
+[37:09] to as the Persistent Dynamic NPCs and what
 we mean by that is, of course there will be
-specific characters at specific areas within
+[37:16] specific characters at specific areas within
 even the Persistent Universe, certainly within
-Squadron 42, but we’ll have those characters
+[37:20] Squadron 42, but we’ll have those characters
 even within the Persistent Universe, and then
-there will be another class of characters
+[37:26] there will be another class of characters
 that are just created as you want around the
-world.
-You encounter, you’re basically transporting
+[37:30] world.
+[37:31] You encounter, you’re basically transporting
 a load of commodities from one planet to a
-refinery and you encounter a pirate and that
+[37:39] refinery and you encounter a pirate and that
 pirate winds up inflicting significant damage
-and you wind up having to call for help and
+[37:45] and you wind up having to call for help and
 once your help arrives you basically high
-tail it and get out of there.
-This is the kind of thing to where what we
+[37:50] tail it and get out of there.
+[37:53] This is the kind of thing to where what we
 want to eventually to be able to do is to
-keep the essence of what that character was,
+[37:58] keep the essence of what that character was,
 that pirate, what was his name, what does
-he look like?
-Was he talking to you on the radio, what voice
+[38:03] he look like?
+[38:04] Was he talking to you on the radio, what voice
 were we using for him, what was his rank?
-What was the source of the interaction that
+[38:09] What was the source of the interaction that
 you had with him.
-What’s your history?
-He basically got the better of you in a battle
+[38:14] What’s your history?
+[38:15] He basically got the better of you in a battle
 and then we want to be able to use that as
-an input into this library of mission content
+[38:20] an input into this library of mission content
 such that next time we’re looking for a
-pirate to basically be utilized on one of
+[38:27] pirate to basically be utilized on one of
 these mission archetypes, we have the possibility
-to insert him as the specific character and
+[38:35] to insert him as the specific character and
 he then has the ability to refer back to that
-prior history and so what you wind up having
+[38:41] prior history and so what you wind up having
 is your own little custom version of the world
-to where these are characters we didn’t
+[38:47] to where these are characters we didn’t
 specifically go out and hand create and give
-a history to, but you’re encountering them,
+[38:52] a history to, but you’re encountering them,
 your interacting with them made them real,
-made them persistent for you.
-They’re also persistent for any party members
+[38:57] made them persistent for you.
+[38:58] They’re also persistent for any party members
 that you’ve got, it’s like everybody can
-see them, but those particular characters
+[39:02] see them, but those particular characters
 that you’ve interacted with in a certain
-way become available for us to utilize when
+[39:06] way become available for us to utilize when
 we need an equivalent character as you encounter
-lots of different scenarios within the game
+[39:14] lots of different scenarios within the game
 world.
-Final Thoughts
-FR: Well I think that other things I also
+[39:17] Final Thoughts
+[39:19] FR: Well I think that other things I also
 look forward is when the wildlife on the planets,
-that’s going to be really interesting because
+[39:29] that’s going to be really interesting because
 it’s something I worked on a little bit
-before.
-In Crysis we had some little wildlife and
+[39:33] before.
+[39:34] In Crysis we had some little wildlife and
 there’s always this big difference between
-the smart wildlife and the more simplistic
+[39:38] the smart wildlife and the more simplistic
 wildlife.
-If you have a frog, well you don’t expect
+[39:42] If you have a frog, well you don’t expect
 the frog to be super smart.
-You can create this kind of, you know the
+[39:47] You can create this kind of, you know the
 CryEngine word: Boids, animals that can move
-around and they react to your presence or
+[39:52] around and they react to your presence or
 your proximity much more.
-Then you have other things like pets or even
+[39:55] Then you have other things like pets or even
 just bigger animals like a deer or something
-you know that they’re smarter and they need
+[40:02] you know that they’re smarter and they need
 to do something with you, they’re not as
-complex as a human, but they’re pretty complex
+[40:06] complex as a human, but they’re pretty complex
 and to give the actual feeling of planet,
-we’ll have to tackle all of these things
+[40:11] we’ll have to tackle all of these things
 and it's going to be very interesting.
-TZ: Well, but it’s just like with the cities
+[40:14] TZ: Well, but it’s just like with the cities
 to where you want to make this world that
-you’re travelling through look as alive
+[40:19] you’re travelling through look as alive
 and as interesting as possible because if…
-like right now, i’m sure bothers us all
+[40:24] like right now, i’m sure bothers us all
 is the just the fact that we’ve got a great
-big world, but we’re not yet able to effectively
+[40:30] big world, but we’re not yet able to effectively
 populate it with a lot of interesting material
-for the player to see, and we’ve talked
+[40:36] for the player to see, and we’ve talked
 in the past about how we’ve got 17 missions
-in the Persistent Universe that you can go
+[40:41] in the Persistent Universe that you can go
 and accomplish, but those were implemented
-in a completely different fashion than what
+[40:48] in a completely different fashion than what
 we’ve been aiming to eventually be able
-to do, but these systems are such that you
+[40:53] to do, but these systems are such that you
 need to have maybe not the entirely, but a
-significant majority of the base functionality
+[41:01] significant majority of the base functionality
 operational before you have anything and so
-what makes me most excited about 2017 is just
+[41:06] what makes me most excited about 2017 is just
 the fact that we should start get this stuff
-that we’ve been talking about on the content
+[41:13] that we’ve been talking about on the content
 generation side finally into the game and
-this is where all of a sudden the ability
+[41:18] this is where all of a sudden the ability
 for players to start do a variety of different
-occupations and for them to just fly around,
+[41:24] occupations and for them to just fly around,
 orbit around a moon, content we didn’t explicitly
-put there will be able to fill in, and then
+[41:30] put there will be able to fill in, and then
 there will be interesting stories and things
-to do all littered throughout the entire system.
-So I think that once we get 3.0, it’s supposed
+[41:38] to do all littered throughout the entire system.
+[41:43] So I think that once we get 3.0, it’s supposed
 to be the initial iteration of pushing this
-stuff out there and then all the successive
+[41:49] stuff out there and then all the successive
 releases are just going to be refining, refining,
-basically taking advantage of this system
+[41:54] basically taking advantage of this system
 we’ve put in place.
-I think that Star Citizen in 3.0x iterations
+[41:58] I think that Star Citizen in 3.0x iterations
 is going to finally start to look like a real
-finished game to where you can just go in
+[42:06] finished game to where you can just go in
 and lose yourself for hours and hours at a
-time and that’s not because you’re marveling
+[42:11] time and that’s not because you’re marveling
 at just the technological ambition of the
-project, it’s because there’s actually
+[42:16] project, it’s because there’s actually
 enough gameplay content in there to keep you
-interested.
-FR: And for me it’s like, because after
+[42:21] interested.
+[42:22] FR: And for me it’s like, because after
 where we have that, we can actually see how
-the player plays with the game.
-The most interesting thing for me working
+[42:26] the player plays with the game.
+[42:29] The most interesting thing for me working
 on games is the fact that you produce something
-that people actually play with and they interact
+[42:33] that people actually play with and they interact
 with, it’s not that you know you just give
-it and it’s not that only, it’s really
+[42:36] it and it’s not that only, it’s really
 how you use it, it’s how you play that,
-and the game plays with you so I think at
+[42:41] and the game plays with you so I think at
 that point you can also start to tweak things
-say, “Ah this is how people like to do,
+[42:45] say, “Ah this is how people like to do,
 and the way they like to play”, and then
-you can adjust things and give more content
+[42:51] you can adjust things and give more content
 here and I think that is going to be very
-interesting.
-TZ: I can foresee us using spectator mode
+[42:55] interesting.
+[42:56] TZ: I can foresee us using spectator mode
 quite a bit to actually see how players are
-interacting with all of this initial set of
+[43:01] interacting with all of this initial set of
 mission concept.
-FR: “Stalking Mode”.
-Outro
-SG: Always great to hear more about how NPC
+[43:04] FR: “Stalking Mode”.
+[43:07] Outro
+[43:08] SG: Always great to hear more about how NPC
 crews are going to work.
-It sounds like it's been a huge undertaking
+[43:12] It sounds like it's been a huge undertaking
 to develop a system this complex.
-CR: Yeah, no it’s definitely a huge undertaking
+[43:16] CR: Yeah, no it’s definitely a huge undertaking
 and we’re still hard at work at it, especially
-Francesco and Tony.
-We really want our NPCs to have complex behaviors
+[43:21] Francesco and Tony.
+[43:23] We really want our NPCs to have complex behaviors
 you would expect.
-So the work Tony, Francesco, and the rest
+[43:26] So the work Tony, Francesco, and the rest
 of the AI team have been doing is vital to
-our plan moving forward in creating this immersive
+[43:30] our plan moving forward in creating this immersive
 Star Citizen, and Squadron 42 first person
-universe.
-So once we have the foundation in place we’ll
+[43:37] universe.
+[43:38] So once we have the foundation in place we’ll
 be able to tie it into the mission manager
-and the mission system itself and create some
+[43:42] and the mission system itself and create some
 really emergent and immersive scenarios either
-by scripted design on the designer's side
+[43:48] by scripted design on the designer's side
 or through sort of, systemic or procedural
-generation that's in response to player or
+[43:53] generation that's in response to player or
 AI behavior.
-So I think it’s going to provide some really
+[43:57] So I think it’s going to provide some really
 cool and unique gameplay.
-SG: Cool, with that brings us to this episode
+[44:01] SG: Cool, with that brings us to this episode
 of ATV, and as always we’d like to thank
-our subscribers for contributing to the creation
+[44:06] our subscribers for contributing to the creation
 of all our in depth behind the scenes concept.
-CR: Yup, thank you guys very much.
-I thank you for having patience for us being
+[44:11] CR: Yup, thank you guys very much.
+[44:13] I thank you for having patience for us being
 here and doing all of this and a huge thanks
-to all of our backers who are supporting Star
+[44:17] to all of our backers who are supporting Star
 Citizen's development.
-You guys are a big part of what makes the
+[44:20] You guys are a big part of what makes the
 project unique and special and we definitely
-could not do it without you guys so thank
+[44:25] could not do it without you guys so thank
 you very, very much.
-SG: We could not, and if you would like to
+[44:27] SG: We could not, and if you would like to
 hang out with more of the team make sure to
-tune in tomorrow at 10am Pacific for the latest
+[44:30] tune in tomorrow at 10am Pacific for the latest
 Star Citizen Happy Hour stream to watch some
-live gameplay and discussion.
-CR: Yes.
-I’m not quite sure which one of our devs
+[44:36] live gameplay and discussion.
+[44:37] CR: Yes.
+[44:38] I’m not quite sure which one of our devs
 will be there, but they’ll be there and
-it’s kind of a cool opportunity to have
+[44:41] it’s kind of a cool opportunity to have
 an informal Q&A and discussion, but until
-then.
-SG: We will see you.
-Both: Around
-the Verse.
+[44:46] then.
+[44:47] SG: We will see you.
+[44:48] Both: Around
+[45:20] the Verse.

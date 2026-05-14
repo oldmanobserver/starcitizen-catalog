@@ -6,1243 +6,1243 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:11] Closed Captioning provided by the Imperial
 News Network.
-Jared Huckaby (JH): This week, Tech Designer
+[00:16] Jared Huckaby (JH): This week, Tech Designer
 Calix Reneau takes on a tour on the updated
-Caterpillar whitebox in Ship Shape
-Archivist Cherie Heiberg explores the Tams
+[00:22] Caterpillar whitebox in Ship Shape
+[00:25] Archivist Cherie Heiberg explores the Tams
 & Mins systems in a two for one Loremakers
-Guide to the Galaxy.
-And we continue our look at the continuing
+[00:30] Guide to the Galaxy.
+[00:33] And we continue our look at the continuing
 development of the pipe system in part two
-of the ATV Fast Forward
-All this and more on this week’s Around
+[00:37] of the ATV Fast Forward
+[00:41] All this and more on this week’s Around
 the ‘Verse
-Sandi Gardiner (SG): Who knew that intergalactic
+[00:54] Sandi Gardiner (SG): Who knew that intergalactic
 food delivery could be so dangerous.
-Hey everybody, welcome to this week's episode
+[01:55] Hey everybody, welcome to this week's episode
 of Around the ‘Verse, a weekly look into
-Star Citizen's development.
-I’m Sandi Gardiner, VP of Marketing.
-Ben Lesnick (BL): I’m Ben Lesnick, Director
+[01:59] Star Citizen's development.
+[02:01] I’m Sandi Gardiner, VP of Marketing.
+[02:02] Ben Lesnick (BL): I’m Ben Lesnick, Director
 of Community Engagement.
-SG: And he’s back.
-BL: I am back, hi everybody.
-SG: Yay and is that a new shirt?
-BL: Yes that maybe is a new shirt.
-SG: Who knew, Who knew what you could find
+[02:06] SG: And he’s back.
+[02:08] BL: I am back, hi everybody.
+[02:09] SG: Yay and is that a new shirt?
+[02:10] BL: Yes that maybe is a new shirt.
+[02:12] SG: Who knew, Who knew what you could find
 on the east coast.
-BL: But most importantly, I’d like to thank
+[02:17] BL: But most importantly, I’d like to thank
 the Star Citizen community for all the support
-they gave me the last two weeks.
-As some of you know Allie’s father passed
+[02:24] they gave me the last two weeks.
+[02:25] As some of you know Allie’s father passed
 away, my father in law, we had to head back
-east.
-It was very sad, but we just got love from
+[02:31] east.
+[02:32] It was very sad, but we just got love from
 everywhere in the Star Citizen community.
-Folks sent flowers and best wishes and it
+[02:38] Folks sent flowers and best wishes and it
 really meant alot to me, genuinely thank you
-all.
-Of course I Want to thank the folks here who
+[02:42] all.
+[02:43] Of course I Want to thank the folks here who
 kept everything going without me.
-See I’m not necessary to the equation because
+[02:48] See I’m not necessary to the equation because
 Jared and Henessy and everybody just did a
-fantastic job of keeping things going.
-SG: I’m not sure that’s entaluature.
-We are happy to have you back, I think Jared
+[02:55] fantastic job of keeping things going.
+[02:57] SG: I’m not sure that’s entaluature.
+[02:58] We are happy to have you back, I think Jared
 was about to fall apart, but he’s still
-just hanging on, so it is very nice to have
+[03:03] just hanging on, so it is very nice to have
 you back.
-BL: I’m very happy to see you again.
-Of course I want to thank my folks who stepped
+[03:07] BL: I’m very happy to see you again.
+[03:09] Of course I want to thank my folks who stepped
 in for me as Co-host, Forrest and Jeremiah
-you did a fantastic job, so much so that I
+[03:15] you did a fantastic job, so much so that I
 couldn’t tell you apart because I can’t
-see the Forrest from the Lees.
-SG: Oh no…
-BL: I’m back baby!
-SG: Wow…..
-[Tom Henesssey claps in the background]
-SG: I was thinking I need to make a pun, but
+[03:21] see the Forrest from the Lees.
+[03:22] SG: Oh no…
+[03:23] BL: I’m back baby!
+[03:24] SG: Wow…..
+[03:25] [Tom Henesssey claps in the background]
+[03:26] SG: I was thinking I need to make a pun, but
 I don’t know if I can make one that bad.
-While you were away, Star Citizen Alpha 2.4
+[03:33] While you were away, Star Citizen Alpha 2.4
 went out to the PTU and our first wave of
-testers, the Evocati are doing a terrific
+[03:39] testers, the Evocati are doing a terrific
 job providing bug reports.
-BL: I’ve heard great things, it sounds like
+[03:43] BL: I’ve heard great things, it sounds like
 that program is working really, really well.
-SG: I think it is.
-I think the reports are looking quite exciting.
-BL: There’s been a lot of bug polish and
+[03:47] SG: I think it is.
+[03:48] I think the reports are looking quite exciting.
+[03:51] BL: There’s been a lot of bug polish and
 bug fixing this week.
-The hope is that it will be available very,
+[03:55] The hope is that it will be available very,
 very soon.
-SG: In other news, those of you who participated
+[03:58] SG: In other news, those of you who participated
 in the Prospector sale create a miner event,
-received a five dollar coupon last Friday.
-So if you haven’t received that already
+[04:04] received a five dollar coupon last Friday.
+[04:06] So if you haven’t received that already
 or maybe didn’t check your account, go check
-it out.
-BL: And that five dollar coupon is our way
+[04:10] it out.
+[04:11] BL: And that five dollar coupon is our way
 of apologize for taking so long to award the
-winners of the contest.
-Some of you may have heard there were 35,000
+[04:16] winners of the contest.
+[04:17] Some of you may have heard there were 35,000
 entries and we don’t want to leave anybody
-out so Jared, myself, Tyler, Sandi, everybody
+[04:23] out so Jared, myself, Tyler, Sandi, everybody
 has been looking through your Pirate stories,
-Or your Starfarer stories.
-There’s some great ones in there and we
+[04:30] Or your Starfarer stories.
+[04:31] There’s some great ones in there and we
 will be announcing the winner on Friday on
-RTV.
-SG: And we’ve got something new coming to
+[04:37] RTV.
+[04:38] SG: And we’ve got something new coming to
 the playstore that you could also use the
-five dollar coupon on which is the Drake Buccaneer
+[04:42] five dollar coupon on which is the Drake Buccaneer
 concept sale for $110 on may 27th.
-BL: You’ve got all the details so there’s
+[04:48] BL: You’ve got all the details so there’s
 nothing much else for me to say.
-The Drake Buccaneer is our kind of second
+[04:53] The Drake Buccaneer is our kind of second
 take on the Cutlass Idea.
-It’s the more maneuverable, less cargo oriented
+[04:59] It’s the more maneuverable, less cargo oriented
 pirate ship.
-Plan to be around the same size and scale.
-So we’re really looking forward to adding
+[05:06] Plan to be around the same size and scale.
+[05:08] So we’re really looking forward to adding
 that to the lineup.
-Everybody loves Drake ships and I think Jim
+[05:12] Everybody loves Drake ships and I think Jim
 Martin who did the concept for this really
-knocked it out of the park, we cannot wait
+[05:16] knocked it out of the park, we cannot wait
 to show it to you.
-SG: And let's not forget our subscribers.
-What is months subscriber flair Ben?
-BL: This is spaceplant month and specifically
+[05:19] SG: And let's not forget our subscribers.
+[05:21] What is months subscriber flair Ben?
+[05:23] BL: This is spaceplant month and specifically
 this is a space cactus month so check out
-the space catucus, that will be available
+[05:29] the space catucus, that will be available
 in your hangars as soon as 2.4 goes live.
-SG: Cool, do I have to water it?
-BL: No because it’s a cactus
-SG: That’s true, you don’t really, well…
+[05:34] SG: Cool, do I have to water it?
+[05:36] BL: No because it’s a cactus
+[05:38] SG: That’s true, you don’t really, well…
 still, once a month maybe.
-BL: mhmm.
-SG: And I saw you were recently featured in
+[05:42] BL: mhmm.
+[05:43] SG: And I saw you were recently featured in
 GameStar Magazine, very exciting!
-BL: Yes!
-This month GameStar Magazine has the first
+[05:46] BL: Yes!
+[05:48] This month GameStar Magazine has the first
 part of a retrospective of Wing Commander.
-That’s the largest gaming magazine in Europe.
-You can pick it up in Germany or other german
+[05:53] That’s the largest gaming magazine in Europe.
+[05:55] You can pick it up in Germany or other german
 speaking countries and then this next month
-it will go on the stands at the end of may
+[06:01] it will go on the stands at the end of may
 there will be a second part to that as well
-as an interview with me!
-So, yeah!
-SG: Very cool.
-From time to time we like to highlight one
+[06:04] as an interview with me!
+[06:06] So, yeah!
+[06:07] SG: Very cool.
+[06:09] From time to time we like to highlight one
 of our fan created events and recently members
-of the M.E.R.C Organization had their first
+[06:15] of the M.E.R.C Organization had their first
 big gathering about 70 people.
-BL: Looks like a fun group, here’s some
+[06:20] BL: Looks like a fun group, here’s some
 of their photos.
-SG: With that, now let's check in out studios
+[06:39] SG: With that, now let's check in out studios
 from around the world and see what’s happening
-in News From Around the Verse.
-.
+[07:01] in News From Around the Verse.
+[07:03] .
 News From Around The Verse
-Los Angeles
-Randy Vasquez (RV): Hey everyone my name is
+[07:07] Los Angeles
+[07:08] Randy Vasquez (RV): Hey everyone my name is
 Randy Vasquez.
-We’re coming from Los Angeles.
-And this is …
-Eric Link (EL): Eric Link.
-RV: Nice.
-Erik is new here actually.
-This is your what?
-Your second, third day maybe?
-EL: Second day.
-RV: Nice.
-Second day.
-So we always have the new people.
-So what are you doing for us?
-EL: I’ll be … I’m a Technical Animator
+[07:13] We’re coming from Los Angeles.
+[07:14] And this is …
+[07:15] Eric Link (EL): Eric Link.
+[07:17] RV: Nice.
+[07:18] Erik is new here actually.
+[07:19] This is your what?
+[07:20] Your second, third day maybe?
+[07:21] EL: Second day.
+[07:22] RV: Nice.
+[07:23] Second day.
+[07:24] So we always have the new people.
+[07:25] So what are you doing for us?
+[07:26] EL: I’ll be … I’m a Technical Animator
 … or Associate Technical Animator and I’ll
-basically be implementing animations in the
+[07:31] basically be implementing animations in the
 CryEngine and assist on motion capture shoots.
-RV: That’s nice.
-So who are you working with?
-EL: I’ll be working with Sean Tracy and
+[07:34] RV: That’s nice.
+[07:35] So who are you working with?
+[07:36] EL: I’ll be working with Sean Tracy and
 Mark.
-RV: Nice.
-Mark McCall.
-Nice.
-Good peoples.
-So in the news real quick, to recap, we have
+[07:39] RV: Nice.
+[07:40] Mark McCall.
+[07:41] Nice.
+[07:42] Good peoples.
+[07:43] So in the news real quick, to recap, we have
 2.4 working really hard for … on the Engineering
-team.
-I know Gaige has been working on a lot of
+[07:49] team.
+[07:50] I know Gaige has been working on a lot of
 bugs also, for like clothing and stuff, probably
-working with them because all the rigging
+[07:53] working with them because all the rigging
 and everything like that is going into them;
-animations and everything.
-Some of the artist are working on the Caterpillar
+[07:56] animations and everything.
+[07:57] Some of the artist are working on the Caterpillar
 ... still!
-They’re doing a lot of work on that.
-It looks amazing.
-Can’t wait for you guys to see it.
-And then on clothing, which I just mentioned,
+[07:59] They’re doing a lot of work on that.
+[08:01] It looks amazing.
+[08:02] Can’t wait for you guys to see it.
+[08:04] And then on clothing, which I just mentioned,
 with Gaige working on and a few other people
-working on.
-Gurmukh is actually going to be helping out
+[08:11] working on.
+[08:12] Gurmukh is actually going to be helping out
 with some of the environment concepts.
-And Item 2.0, which is a big thing that we
+[08:16] And Item 2.0, which is a big thing that we
 can’t wait to show you guys, even though
-it’s really backend.
-But hopeful we’re going to talk about Item
+[08:17] it’s really backend.
+[08:18] But hopeful we’re going to talk about Item
 2.0 and everything that entails soon.
-Well have something on that.
-And, of course, here with Eric and we’ll
+[08:21] Well have something on that.
+[08:23] And, of course, here with Eric and we’ll
 see you guys in the Verse.
-Take it easy guys.
-Austin
-Jake Ross (JR): Hey guys Jake Ross here, Producer
+[08:28] Take it easy guys.
+[08:29] Austin
+[08:30] Jake Ross (JR): Hey guys Jake Ross here, Producer
 of the Austin Studio, and I’m here with
-you this week to talk a little bit about what’s
+[08:34] you this week to talk a little bit about what’s
 going on here in Austin.
-I wanted to first talk about a little bit
+[08:36] I wanted to first talk about a little bit
 of 2.4 stuff.
-We’re updating the “inspect weapon”
+[08:40] We’re updating the “inspect weapon”
 animations.
-We have these ... a shop in 2.40 called Cubby
+[08:43] We have these ... a shop in 2.40 called Cubby
 Blast on ArcCorp and Live Wire Weapons on
-Port Olisar.
-And these shops are where you go and buy your
+[08:51] Port Olisar.
+[08:53] And these shops are where you go and buy your
 weapons, your personal weapons.
-So when you go into the shops you’re able
+[08:57] So when you go into the shops you’re able
 to actually play an “inspect” animation
-so you can see what you are buying before
+[09:01] so you can see what you are buying before
 you purchase it.
-But the weapons that we had in there they
+[09:07] But the weapons that we had in there they
 weren’t really doing it for us, they were
-a little strange and the camera was moving
+[09:10] a little strange and the camera was moving
 around: a lot like we had with the original
-emotes.
-So we went ahead and went in there and update
+[09:16] emotes.
+[09:18] So we went ahead and went in there and update
 those animations.
-And they’re a lot better and they fit more
+[09:21] And they’re a lot better and they fit more
 with what we were going for.
-So we’ve updated those animations.
-Those’ll be in the game soon.
-We wanted to get the shopping experience as
+[09:25] So we’ve updated those animations.
+[09:26] Those’ll be in the game soon.
+[09:27] We wanted to get the shopping experience as
 polished as it can be before we put it out
-to you guys.
-So there’s that.
-On the persistent side, we’re now able to
+[09:31] to you guys.
+[09:32] So there’s that.
+[09:34] On the persistent side, we’re now able to
 support rentals and promotions.
-So before we had … persistent items that
+[09:39] So before we had … persistent items that
 persisted.
-Go figure!
-And we didn’t really have an elegant way
+[09:43] Go figure!
+[09:44] And we didn’t really have an elegant way
 to handle things like rental items or our
-promotions, like a “free fly weekend”
+[09:51] promotions, like a “free fly weekend”
 or things like that.
-So we revamped the way we were doing that
+[09:55] So we revamped the way we were doing that
 and handling that so now we’re better able
-to handle more temporary things that aren’t
+[09:59] to handle more temporary things that aren’t
 supposed to be persistent over long periods
-of time.
-So that work was done on the back end by Jason
+[10:05] of time.
+[10:06] So that work was done on the back end by Jason
 Ely ... and it’s in the game now.
-So handling rentals and promotions a little
+[10:11] So handling rentals and promotions a little
 bit better.
-Which is good.
-Lastly, and looking ahead to future releases,
+[10:14] Which is good.
+[10:15] Lastly, and looking ahead to future releases,
 we’re looking at some more shops.
-Not for ArcCorp and not for Port Olisar but
+[10:21] Not for ArcCorp and not for Port Olisar but
 for a new space station that will be sort
-of a pirate based space station.
-So this space station will be more for the
+[10:28] of a pirate based space station.
+[10:31] So this space station will be more for the
 outlaws and things like that.
-And … but even outlaws like to buy things
+[10:38] And … but even outlaws like to buy things
 so we have shops there in … in the works
-for this new station.
-And it will have … it will have different
+[10:47] for this new station.
+[10:48] And it will have … it will have different
 shops that’ll be able to sell different
-things.
-You’ll probably see some more outlaw armour
+[10:54] things.
+[10:55] You’ll probably see some more outlaw armour
 types, and some pirate clothing, and more
-weapons, and things like that.
-So we’re trying to get you guys to travel
+[11:02] weapons, and things like that.
+[11:03] So we’re trying to get you guys to travel
 to different areas and give you incentives
-to go hang out at different places and we’ll
+[11:08] to go hang out at different places and we’ll
 have a wide variety of things in the PU so
-this is … the first steps is getting shoping
+[11:14] this is … the first steps is getting shoping
 out to you guys, first release, and then after
-that we’ll look to put even more content
+[11:19] that we’ll look to put even more content
 out there to get you guys flying around the
-‘verse.
-So, yeah, that’s all I got for you this
+[11:24] ‘verse.
+[11:25] So, yeah, that’s all I got for you this
 week guys.
-Thanks, I’ll see you around.
-Foundry 42 UK
-Mici Oliver (MO): Hi everyone this is Mici
+[11:27] Thanks, I’ll see you around.
+[11:29] Foundry 42 UK
+[11:30] Mici Oliver (MO): Hi everyone this is Mici
 over in the UK.
-Today I have Staffan Ahlstrom with me, who
+[11:34] Today I have Staffan Ahlstrom with me, who
 is a Senior VFX Artist here at Foundry 42.
-And he’s going to be showing us what he’s
+[11:40] And he’s going to be showing us what he’s
 being working on.
-Staffan Ahlstrom (SA): Yeah, I’ve been working
+[11:44] Staffan Ahlstrom (SA): Yeah, I’ve been working
 on weapon VFXs, mainly for the S5 Behring
-cannon, it’s a laser thingy and then Amon
+[11:49] cannon, it’s a laser thingy and then Amon
 & Reese’s company has a really cool plasma
-shotgun thing ...
-MO: So we’re going to have a look.
-SA: Yeah.
-So this is the Behring laser cannon.
-One of the … yeah, a really big gun.
-It’s a Starfarer Gemini thing that it’s
+[11:55] shotgun thing ...
+[11:56] MO: So we’re going to have a look.
+[12:00] SA: Yeah.
+[12:01] So this is the Behring laser cannon.
+[12:02] One of the … yeah, a really big gun.
+[12:04] It’s a Starfarer Gemini thing that it’s
 shooting from.
-The top turret.
-MO: Can you tell me by the recoil …
-SA: Yes.
-So ...
-MO: … it’s very powerful.
-SA: … yeah.
-Those are huge!
-And this is the Amon & Reese company scattergun.
-So it shoots like eight projectiles.
-Sort of a shotgun style thing.
-They’re going to be more visible in the
+[12:07] The top turret.
+[12:08] MO: Can you tell me by the recoil …
+[12:13] SA: Yes.
+[12:14] So ...
+[12:15] MO: … it’s very powerful.
+[12:17] SA: … yeah.
+[12:18] Those are huge!
+[12:19] And this is the Amon & Reese company scattergun.
+[12:22] So it shoots like eight projectiles.
+[12:24] Sort of a shotgun style thing.
+[12:26] They’re going to be more visible in the
 future.
-After we’ve solved a certain part.
-MO: But very magical.
-SA: Yes, almost like a unicorn fart ... I
+[12:30] After we’ve solved a certain part.
+[12:33] MO: But very magical.
+[12:35] SA: Yes, almost like a unicorn fart ... I
 put them on the Sabre ship just to see what
-they would look like on a ship but disclaimer
+[12:41] they would look like on a ship but disclaimer
 here because I don’t know if they would
-actually go on a Sabre.
-We can hope ...
-MO: But if they did then this is what they
+[12:44] actually go on a Sabre.
+[12:45] We can hope ...
+[12:46] MO: But if they did then this is what they
 would look like.
-SA: Yeah.
-MO: It looks pretty cool.
-SA: Yeah.
-So, yeah, that’s the lasers ...
-MO: That’s cool.
-So what is the future plan for these things.
-SA: Yeah … projectile impacts.
-So when a weapon hits different surfaces say,
+[12:54] SA: Yeah.
+[12:55] MO: It looks pretty cool.
+[12:56] SA: Yeah.
+[12:57] So, yeah, that’s the lasers ...
+[12:58] MO: That’s cool.
+[12:59] So what is the future plan for these things.
+[13:00] SA: Yeah … projectile impacts.
+[13:02] So when a weapon hits different surfaces say,
 we want to have different effects for water,
-snow, glass, dirt, everything like that.
-And even different metal types.
-Because the more detailed you can be the more
+[13:07] snow, glass, dirt, everything like that.
+[13:10] And even different metal types.
+[13:12] Because the more detailed you can be the more
 immersive it is.
-You don’t want to see the same effect every
+[13:17] You don’t want to see the same effect every
 time you shoot something.
-So I have a lot of work to do there.
-But we have a great system in the works for
+[13:23] So I have a lot of work to do there.
+[13:26] But we have a great system in the works for
 that.
-Yeah, it’s going to be great.
-MO: Cool.
-SA: Yeah?
-MO: Yeah.
-I think that’s all we’ve got time for
+[13:28] Yeah, it’s going to be great.
+[13:30] MO: Cool.
+[13:31] SA: Yeah?
+[13:32] MO: Yeah.
+[13:33] I think that’s all we’ve got time for
 so we’ll see you in the verse.
-SA: Bye.
-MO: Bye.
-Foundry 42 Frankfurt
-Brian Chambers (BC): Everyone, Brian Chambers
+[13:37] SA: Bye.
+[13:38] MO: Bye.
+[13:39] Foundry 42 Frankfurt
+[13:40] Brian Chambers (BC): Everyone, Brian Chambers
 from the Frankfurt office.
-This week I’ve a little bit of a cold so
+[13:43] This week I’ve a little bit of a cold so
 bear with me if I sound funny.
-Digging in straight to the team …
-On the Engine side, good progress on Procedural
+[13:47] Digging in straight to the team …
+[13:49] On the Engine side, good progress on Procedural
 Planets.
-We say that all the time but we’ll continue
+[13:54] We say that all the time but we’ll continue
 to keep working on it.
-But honestly we’ve made some really good
+[13:59] But honestly we’ve made some really good
 progress.
-On there looking a render node for the planet
+[14:01] On there looking a render node for the planet
 plus perspective render elements, shader separation
-for planet terrain to simplify it so we only
+[14:10] for planet terrain to simplify it so we only
 use what we need when we need it, helps keep
-things optimised.
-Also just general bug fixes and optimisation:
+[14:18] things optimised.
+[14:21] Also just general bug fixes and optimisation:
 that’ll be going on on a regular basis.
-We started on areas, tags and zone systems
+[14:26] We started on areas, tags and zone systems
 work: to help quantify that and compartmentalise
-that a bit more.
-Shader compilation fixes.
-Continued with some TrackView editor stuff
+[14:34] that a bit more.
+[14:37] Shader compilation fixes.
+[14:40] Continued with some TrackView editor stuff
 for the Cinematics guys: that’s starting
-to wind down because we’re getting it pretty
+[14:44] to wind down because we’re getting it pretty
 much where we need.
-Local physics grid work, specifically some
+[14:48] Local physics grid work, specifically some
 stuff on the Starfarers: there’s some issues
-there that the physics guys are looking into.
-Continuing, on also physics, with EVA: found
+[14:54] there that the physics guys are looking into.
+[14:58] Continuing, on also physics, with EVA: found
 some issues there that we are sorting out
-... think we’ve sorted those out.
-And we’re also making progress on water
+[15:05] ... think we’ve sorted those out.
+[15:06] And we’re also making progress on water
 and different water direction for planets:
-which is cool.
-I don’t think you guys have seen much of
+[15:14] which is cool.
+[15:15] I don’t think you guys have seen much of
 that yet on water but it’s ... what we’re
-showing internally right now is pretty cool.
-Weapons.
-We’ve finished off a new one that we’re
+[15:19] showing internally right now is pretty cool.
+[15:20] Weapons.
+[15:21] We’ve finished off a new one that we’re
 currently calling the scatter gun.
-We addressed feedback on existing rail gun.
-And we had a new member join the team: so
+[15:27] We addressed feedback on existing rail gun.
+[15:30] And we had a new member join the team: so
 that took some of the guys down to help get
-him onboard.
-Weapons team now is up to four guys which
+[15:37] him onboard.
+[15:38] Weapons team now is up to four guys which
 is great.
-AI continued working on Subsumption.
-They had a lot of discussions on the Subsumption
+[15:41] AI continued working on Subsumption.
+[15:43] They had a lot of discussions on the Subsumption
 editor.
-Really what do you need there to be able to
+[15:48] Really what do you need there to be able to
 give the designers and so on all the detail
-that’s needed to create the proper behaviours,
+[15:53] that’s needed to create the proper behaviours,
 considering all the careers and everything
-that we want.
-Enter zone, exit zone signals for that, implemented
+[15:58] that we want.
+[16:00] Enter zone, exit zone signals for that, implemented
 those.
-Removed … went up and did some general clean
+[16:08] Removed … went up and did some general clean
 up: we had some unused Lua and AI data and
-stuff that was in there so took another day
+[16:13] stuff that was in there so took another day
 or so, a couple guys, to dig through and just
-make sure we pulled out everything that’s
+[16:19] make sure we pulled out everything that’s
 not needed anymore.
-In that process also defining some of the
+[16:23] In that process also defining some of the
 scripting standards that we are using that
-way just everybody’s on the same page and
+[16:28] way just everybody’s on the same page and
 everything’s unified.
-I’m sure there’s a few other things but
+[16:33] I’m sure there’s a few other things but
 those were the high level.
-And on the Cinematics side.
-Cinematics team all last week and this week
+[16:38] And on the Cinematics side.
+[16:40] Cinematics team all last week and this week
 is at a mocap shoot up in Ealing Studios.
-All the reports we’ve gotten back so far
+[16:47] All the reports we’ve gotten back so far
 that the shoot’s been going really good:
-good data, it’s been fun working with the
+[16:52] good data, it’s been fun working with the
 talent, and so on.
-So they are getting everything they need for
+[16:55] So they are getting everything they need for
 Squadron, so we look forward to those guys
-coming back and seeing what they pulled off.
-So thanks again.
-And … appreciate all the support.
-And talk to you next week.
-Ciao!
-Back In The Studio
-SG: So I hear we’re building out the Drake
+[16:59] coming back and seeing what they pulled off.
+[17:02] So thanks again.
+[17:05] And … appreciate all the support.
+[17:10] And talk to you next week.
+[17:11] Ciao!
+[17:12] Back In The Studio
+[17:13] SG: So I hear we’re building out the Drake
 Caterpillar.
-BL: Where did you hear that?
-SG: I’m an important person I hear things.
-BL: Well you’re right.
-The team here is currently working on the
+[17:18] BL: Where did you hear that?
+[17:20] SG: I’m an important person I hear things.
+[17:22] BL: Well you’re right.
+[17:23] The team here is currently working on the
 Drake Caterpillar.
-SG: Yay!
-And in fact Tech Designer Calix Reneau sat
+[17:26] SG: Yay!
+[17:27] And in fact Tech Designer Calix Reneau sat
 down with our Community Manager, Jared Huckaby
-to explore the new whiteboxing in the Caterpillar
+[17:31] to explore the new whiteboxing in the Caterpillar
 in a new episode of Ship Shape.
-Let’s check it out.
-BL: It just says “do something to indicate”
+[17:36] Let’s check it out.
+[17:37] BL: It just says “do something to indicate”
 …
-[Arm waggling ensues]
-Yours is better than mine!
-Ship Shape: Caterpillar
-JH: Hello everybody and welcome to another
+[17:42] [Arm waggling ensues]
+[17:45] Yours is better than mine!
+[17:51] Ship Shape: Caterpillar
+[17:55] JH: Hello everybody and welcome to another
 edition of ship shape.
-I’m your host, Community Manager Jared Huckaby
+[18:00] I’m your host, Community Manager Jared Huckaby
 and with me on this episode is Designer…
-extraordinaire?
-CR: Yeah…
-JH: Is that what it officially is now?
-CR: I’m a technical designer here.
-JH:TECHNICAL Designer extraordinaire Calix
+[18:05] extraordinaire?
+[18:06] CR: Yeah…
+[18:07] JH: Is that what it officially is now?
+[18:11] CR: I’m a technical designer here.
+[18:14] JH:TECHNICAL Designer extraordinaire Calix
 Reneau.
-How are you doing man?
-CR: Doing pretty good.
-JH: Good.
-Now we are doing our first Ship Shape revisiting.
-We’re going back and taking another look
+[18:15] How are you doing man?
+[18:16] CR: Doing pretty good.
+[18:17] JH: Good.
+[18:18] Now we are doing our first Ship Shape revisiting.
+[18:22] We’re going back and taking another look
 at the Caterpillar white box phase.
-Now, we did a Ship Shape with designer Randy
+[18:26] Now, we did a Ship Shape with designer Randy
 Vasquez quite a while back when the Caterpillar
-had its first set of whiteboxing.
-As is often the case in game development,
+[18:34] had its first set of whiteboxing.
+[18:37] As is often the case in game development,
 things change, requirements…
-alter and stuff like that so Calix has been
+[18:43] alter and stuff like that so Calix has been
 tasked with re-whiteboxing the Caterpillar.
-Why don’t you tell us a little bit about
+[18:49] Why don’t you tell us a little bit about
 that?
-CR: Yeah, so the work that Randy did really
+[18:50] CR: Yeah, so the work that Randy did really
 laid out the groundwork for deciding a lot
-of the broad strokes design decisions about
+[18:56] of the broad strokes design decisions about
 where the Caterpillar is going to fit in the
-broader universe and where it’s going to
+[19:01] broader universe and where it’s going to
 be... how we’re going to build our art for
-it.
-This white box is more about nailing down
+[19:07] it.
+[19:08] This white box is more about nailing down
 the specifics of both the space that you’re
-moving through, the functionality of that,
+[19:14] moving through, the functionality of that,
 how we feel about just how it feels to walk
-through this ship.
-That’s the thing that I think was the most
+[19:22] through this ship.
+[19:24] That’s the thing that I think was the most
 exciting about it was walking through the
-ship and feeling it out.
-JH: Yeah, because I mean no amount of effort
+[19:30] ship and feeling it out.
+[19:31] JH: Yeah, because I mean no amount of effort
 and time spent can get you ready for that
-time when you actually have to get inside
+[19:38] time when you actually have to get inside
 and you actually have to walk through and
-go from station to station and stuff and you
+[19:41] go from station to station and stuff and you
 start realizing,
-‘Oh okay, our scale was a little off here.’
-‘We didn’t quite…
-we needed a bit more in this area.’
-That kind of stuff like that.
-CR: Yeah, so we’ve had the opportunity to
+[19:44] ‘Oh okay, our scale was a little off here.’
+[19:47] ‘We didn’t quite…
+[19:48] we needed a bit more in this area.’
+[19:50] That kind of stuff like that.
+[19:51] CR: Yeah, so we’ve had the opportunity to
 go through and try some things.
-We’ve… changed some of the things because
+[19:57] We’ve… changed some of the things because
 you run into these realities that… you know,
-it’s not nice to move through this space
+[20:04] it’s not nice to move through this space
 or this thing is going to collide with that
-thing.
-So, when you actually try it out it helps
+[20:08] thing.
+[20:09] So, when you actually try it out it helps
 sort of eliminate these issues.
-So, we’ve had the opportunity to go back
+[20:14] So, we’ve had the opportunity to go back
 and revisit it and I’ve also had the opportunity
-to try out some new things and sort of see
+[20:19] to try out some new things and sort of see
 where it’s going to fit into our future
-developments.
-JH: Alright, so we’re in CryEngine now and
+[20:24] developments.
+[20:25] JH: Alright, so we’re in CryEngine now and
 the Caterpillar is looking great here…
-I mean, the fidelity is just… [kissing noise]
-CR: This is what PC gaming allows, really,
+[20:30] I mean, the fidelity is just… [kissing noise]
+[20:33] CR: This is what PC gaming allows, really,
 is the opportunity to… there’s engines
-back here.
-That’s what those are supposed to be.
-And the Freelancer is for scale.
-JH: Yes… and I see a bit of a Hornet down
+[20:41] back here.
+[20:42] That’s what those are supposed to be.
+[20:43] And the Freelancer is for scale.
+[20:45] JH: Yes… and I see a bit of a Hornet down
 at the bottom.
-CR: The Hornet is here to explode.
-JH: Okay.
-CR: It will do that shortly.
-JH: Alright, let’s take a look through the
+[20:48] CR: The Hornet is here to explode.
+[20:49] JH: Okay.
+[20:50] CR: It will do that shortly.
+[20:51] JH: Alright, let’s take a look through the
 internal whiteboxing of the Caterpillar.
-CR: Shall we go into game now?
-JH:Sure?
-CR: We’ll start off here in the habitation
+[20:54] CR: Shall we go into game now?
+[20:57] JH:Sure?
+[20:58] CR: We’ll start off here in the habitation
 area - switching to game.
-Feeling like a person.
-Walking around.
-You can come into - so far we’re only dealing
+[21:06] Feeling like a person.
+[21:08] Walking around.
+[21:09] You can come into - so far we’re only dealing
 with the cargo module.
-So, all of these bits are in various stages
+[21:14] So, all of these bits are in various stages
 of whitebox mockup and so we’ve built it
-out.
-There’s what it looks like when you’ve
+[21:21] out.
+[21:22] There’s what it looks like when you’ve
 got a pretty good haul and this is what it
-looks like when you’re empty.
-And this is how it is when you’re completely
+[21:25] looks like when you’re empty.
+[21:27] And this is how it is when you’re completely
 full.
-You’ll be walking through and…
-JH: What size cargo units are these?
-Are these 1 SCU?
-CR: Yeah, each one of these is 1 SCU.
-I do not offhand remember the final number
+[21:29] You’ll be walking through and…
+[21:32] JH: What size cargo units are these?
+[21:34] Are these 1 SCU?
+[21:35] CR: Yeah, each one of these is 1 SCU.
+[21:39] I do not offhand remember the final number
 that the Caterpillar gets.
-It’s...
-I think with all the elements that are carved
+[21:45] It’s...
+[21:47] I think with all the elements that are carved
 out for this catwalk over here, for each space
-individually, I think it comes out to something
+[21:54] individually, I think it comes out to something
 like… is it 90 or is it 120?
-Something…
-it’s
-JH: Not a final number.
-CR: We’re gonna…
-JH: Not a final number.
-CR: We’re gonna deal with that, but if you
+[22:02] Something…
+[22:03] it’s
+[22:04] JH: Not a final number.
+[22:05] CR: We’re gonna…
+[22:06] JH: Not a final number.
+[22:07] CR: We’re gonna deal with that, but if you
 load it up completely you have a fair amount
-of cargo at your disposal.
-JH: So this is an empty cargo module here,
+[22:13] of cargo at your disposal.
+[22:14] JH: So this is an empty cargo module here,
 and notice there’s a catwalk on one side.
-CR: Yes.
-JH: Okay.
-CR: And you have the ability to come over
+[22:19] CR: Yes.
+[22:20] JH: Okay.
+[22:21] CR: And you have the ability to come over
 here and open it up.
-JH: Oh, nice.
-CR: Yeah, it’s kinda cool.
-JH: Now the original whiteboxing that Randy
+[22:25] JH: Oh, nice.
+[22:26] CR: Yeah, it’s kinda cool.
+[22:28] JH: Now the original whiteboxing that Randy
 did had the catwalk through the centre.
-CR: Yeah.
-One of the reasons that we wanted to switch
+[22:34] CR: Yeah.
+[22:36] One of the reasons that we wanted to switch
 it up - we felt that in the context of eventually
-having firefights in this thing, it was nicer
+[22:42] having firefights in this thing, it was nicer
 having split level here rather than having
-a thing over you.
-You do lose a small amount of cargo to get
+[22:48] a thing over you.
+[22:50] You do lose a small amount of cargo to get
 this space but it feels a lot better having
-the bulkhead here.
-It’s… it just feels better really.
-JH: I think it also plays into the asymmetry
+[22:58] the bulkhead here.
+[23:00] It’s… it just feels better really.
+[23:05] JH: I think it also plays into the asymmetry
 of the ship though.
-Just about everything I’ve seen of this
+[23:10] Just about everything I’ve seen of this
 ship screams that asymmetry so having the
-raised catwalk on one side goes along with
+[23:16] raised catwalk on one side goes along with
 that.
-CR: Having some movement issues.
-Every once in awhile I get stuck.
-That’s fun.
-We have… did we put it here?
-Yeah.
-So both sides do open and a little rail…
+[23:19] CR: Having some movement issues.
+[23:21] Every once in awhile I get stuck.
+[23:22] That’s fun.
+[23:23] We have… did we put it here?
+[23:25] Yeah.
+[23:27] So both sides do open and a little rail…
 but I fell off anyway.
-JH: Alright, so for these cargo modules - and
+[23:37] JH: Alright, so for these cargo modules - and
 the standard Caterpillar has 4 modules that
-can be swapped out.
-CR: Yeah.
-JH: Right.
-So, you unload and load from each individual
+[23:43] can be swapped out.
+[23:44] CR: Yeah.
+[23:45] JH: Right.
+[23:46] So, you unload and load from each individual
 module off to the side.
-CR: Yeah, and you’ll probably be doing it
+[23:50] CR: Yeah, and you’ll probably be doing it
 from that side, your tractor beam is over
-there, but you have the capacity to go through
+[23:54] there, but you have the capacity to go through
 this way.
-Here’s one short mockup of the - we’re
+[23:57] Here’s one short mockup of the - we’re
 starting to implement or think about terminals
-and some of the more ambient interactions
+[24:03] and some of the more ambient interactions
 with your ship of… you know, I walk through
-here and I want to know what’s in this space
+[24:09] here and I want to know what’s in this space
 and this thing should tell me and I should
-be able to interact with this and find out
+[24:13] be able to interact with this and find out
 what those things are.
-This would be repeated throughout each of
+[24:16] This would be repeated throughout each of
 them but I only put it into this one.
-And we have double doors opening up between
+[24:21] And we have double doors opening up between
 everything.
-JH: And that’s because the modules can be
+[24:29] JH: And that’s because the modules can be
 separated.
-CR: Yeah.
-There’s no guarantee there’s another thing
+[24:33] CR: Yeah.
+[24:34] There’s no guarantee there’s another thing
 on this side, and I’m getting stuck again.
-So, we’ve put components in every single
+[24:42] So, we’ve put components in every single
 of these.
-In this case we’ve placed them above where
+[24:48] In this case we’ve placed them above where
 you’re going to be able to deploy them out
-to bring them down for physical repair.
-You’ll be able to reach into this and swap
+[24:53] to bring them down for physical repair.
+[24:55] You’ll be able to reach into this and swap
 out…
-like do whatever welding or what have you.
-If there’s something to swap out you’ll
+[24:58] like do whatever welding or what have you.
+[25:02] If there’s something to swap out you’ll
 be doing it there.
-JH: I’m such a homer… you see me tilt
+[25:05] JH: I’m such a homer… you see me tilt
 my head, trying to look under it.
-I have no 3D goggles on.
-CR: I come up to the front and that leads
+[25:08] I have no 3D goggles on.
+[25:09] CR: I come up to the front and that leads
 up to a turret which is only mocked up here.
-Then we have door controls but let’s go
+[25:19] Then we have door controls but let’s go
 down-
-JH: Now what’s on the other side of the
+[25:23] JH: Now what’s on the other side of the
 clear… is that a window?
-CR: That was a window.
-Sort of leading you to the front of the Caterpillar
+[25:27] CR: That was a window.
+[25:29] Sort of leading you to the front of the Caterpillar
 and the nose here.
-This space has various uses, not all of which
+[25:39] This space has various uses, not all of which
 I think are cleared for discussion but generally
-we want another terminal here to tell you
+[25:48] we want another terminal here to tell you
 the state of this room.
-There will be some cargo plates so you could
+[25:52] There will be some cargo plates so you could
 potentially use this for doing deals.
-You could potentially use this for egress.
-All manner of things, But if… we have the
+[26:01] You could potentially use this for egress.
+[26:03] All manner of things, But if… we have the
 cargo in there-
-JH: That was the front-most space with the
+[26:10] JH: That was the front-most space with the
 door that opened.
-CR: In front here is where that Freelancer
+[26:15] CR: In front here is where that Freelancer
 was.
-So, we can open up the doors… that is not
+[26:18] So, we can open up the doors… that is not
 how these doors open.
-We’ve had…
-well I mean, this whitebox is an exploration
+[26:23] We’ve had…
+[26:24] well I mean, this whitebox is an exploration
 right?
-So, I put things in there to be like: ‘How
+[26:28] So, I put things in there to be like: ‘How
 does this work?
-How does this look?’
-This is not…we have taken this further now.
-This is actually - has already received review.
-We’ve already had notes on this.
-This isn’t its final form.
-JH: Yeah.
-CR: So that’s among the things will be changing
+[26:32] How does this look?’
+[26:34] This is not…we have taken this further now.
+[26:37] This is actually - has already received review.
+[26:41] We’ve already had notes on this.
+[26:44] This isn’t its final form.
+[26:46] JH: Yeah.
+[26:47] CR: So that’s among the things will be changing
 is the way that this open.
-We have the atmosphere shield which is another
+[26:54] We have the atmosphere shield which is another
 thing that we’re playing around with.
-You’ll have… turned that off but nothing
+[26:59] You’ll have… turned that off but nothing
 happened because - let the atmosphere rebuild.
-If I turn off the cargo locks first, then…
+[27:06] If I turn off the cargo locks first, then…
 ah, it still doesn’t happen because it’s
-broken because I’m faking it.
-but, I had it - it was really cool you guys
+[27:13] broken because I’m faking it.
+[27:16] but, I had it - it was really cool you guys
 - I had it sucking the cargo out into space.
-And now it’s someone else’s problem.
-JH: It’s alright, we’ll see if we can’t
+[27:21] And now it’s someone else’s problem.
+[27:22] JH: It’s alright, we’ll see if we can’t
 get some video of that and put it here as
-if it were happening live.
-CR: Then I won’t admit that it failed.
-So, we have.
-These sections will be sort of explored individually
+[27:27] if it were happening live.
+[27:29] CR: Then I won’t admit that it failed.
+[27:33] So, we have.
+[27:35] These sections will be sort of explored individually
 as we build out each of the interactions that
-we want for the various modules that can go
+[27:42] we want for the various modules that can go
 here.
-The cargo one was chosen because it’s relatively
+[27:45] The cargo one was chosen because it’s relatively
 simple so we’ve basically seen all it has
-to offer.
-JH: If you take a look in our April;Monthly
+[27:51] to offer.
+[27:52] JH: If you take a look in our April;Monthly
 Report you’ll see some concept work for
-one of the habitat modules, if I’m not mistaken.
-CR: Also, the habitation… this room.
-So, exploring things like having life support
+[27:57] one of the habitat modules, if I’m not mistaken.
+[28:03] CR: Also, the habitation… this room.
+[28:07] So, exploring things like having life support
 here.
-Opens up so you can access this for repair.
-Having armoury with… this is where you’re
+[28:12] Opens up so you can access this for repair.
+[28:21] Having armoury with… this is where you’re
 going to store your ‘replace-me’ balls.
-JH: Most dangerous weapon in all of Star Citizen.
-CR: That’s right.
-I got to have a lot of fun with the elevator
+[28:29] JH: Most dangerous weapon in all of Star Citizen.
+[28:32] CR: That’s right.
+[28:33] I got to have a lot of fun with the elevator
 here.
-Drake only uses the most sensible of deployment
+[28:41] Drake only uses the most sensible of deployment
 methods.
-JH: Yeah, they’re a very pragmatic organization.
-CR: Why wouldn’t you have a weird robot
+[28:44] JH: Yeah, they’re a very pragmatic organization.
+[28:48] CR: Why wouldn’t you have a weird robot
 arm?
-AHH, clipping!
-JH: Alright, cut this!
-Fast forward through this!
-Never show this part again.
-CR: And we head back to the engine room where
+[28:54] AHH, clipping!
+[28:55] JH: Alright, cut this!
+[28:58] Fast forward through this!
+[29:00] Never show this part again.
+[29:03] CR: And we head back to the engine room where
 we have engines.
-You can see them here.
-[laughing]
-JH: Clearly labelled as heavy engines.
-CR: Well, you want to know where they are
+[29:08] You can see them here.
+[29:11] [laughing]
+[29:12] JH: Clearly labelled as heavy engines.
+[29:14] CR: Well, you want to know where they are
 really.
-JH: Whiteboxing ain’t sexy guys.
-CR: You have, you know, your shield generators,
+[29:17] JH: Whiteboxing ain’t sexy guys.
+[29:18] CR: You have, you know, your shield generators,
 ammo, fuel.
-Here’s your engineering terminal.
-You get to be surrounded by all of the muck.
-I’ve always been a fan of this haunted turret
+[29:24] Here’s your engineering terminal.
+[29:26] You get to be surrounded by all of the muck.
+[29:29] I’ve always been a fan of this haunted turret
 here.
-No floor.
-Yeah.
-So, I also - this is where I started mocking
+[29:36] No floor.
+[29:38] Yeah.
+[29:39] So, I also - this is where I started mocking
 up the actual interaction for the terminals.
-So, one of the features…
-there’s a better example of this.
-Let’s go to the better example.
-Run right past that...
-JH: Oh!
-Ahhh!
-CR: You’ll see it, you’ll see it.
-JH: That was cool looking.
-CR: So, I took the one that was down there
+[29:50] So, one of the features…
+[29:52] there’s a better example of this.
+[29:55] Let’s go to the better example.
+[29:58] Run right past that...
+[29:59] JH: Oh!
+[30:00] Ahhh!
+[30:01] CR: You’ll see it, you’ll see it.
+[30:02] JH: That was cool looking.
+[30:03] CR: So, I took the one that was down there
 and brought it up here and fleshed it out
-a bit.
-So, one of the things that you’ll notice
+[30:08] a bit.
+[30:09] So, one of the things that you’ll notice
 is that we have this neat parallax effect
-where the cursor does not stay in the centre
+[30:12] where the cursor does not stay in the centre
 of the screen.
-Part of the reason for that is because if
+[30:16] Part of the reason for that is because if
 it did, if you just look at the centre of
-the screen and I moved that over there now
+[30:20] the screen and I moved that over there now
 I can’t see half the terminal which makes
-it really sort of awkward, but when I don’t
+[30:26] it really sort of awkward, but when I don’t
 have to do that, when I access the entire
-screen this way.
-And we have, we’ve figured out some pretty
+[30:30] screen this way.
+[30:32] And we have, we’ve figured out some pretty
 cool stuff.
-It’s really an ambient interaction.
-You walk up to it and play around, you walk
+[30:37] It’s really an ambient interaction.
+[30:39] You walk up to it and play around, you walk
 away and it’s done but one of the things
-that’s kinda cool is that the system works
+[30:45] that’s kinda cool is that the system works
 in such a way that it always endeavours to
-keep the cursor on the screen and I’ve gone
+[30:56] keep the cursor on the screen and I’ve gone
 ahead and found one of the weak points because
-- again - this isn’t actually coded up this
+[31:05] - again - this isn’t actually coded up this
 is us doing a mockup but you’ll be able
-to view a terminal from any angle and sort
+[31:13] to view a terminal from any angle and sort
 of naturally draws, even if you start off
-over here, just through interaction it will
+[31:21] over here, just through interaction it will
 end up looking at the majority of the terminal
-- having it on screen if you’re interacting
+[31:27] - having it on screen if you’re interacting
 with it, but there’s nothing stopping you
-from looking away.
-You can always - you can have as much or as
+[31:31] from looking away.
+[31:34] You can always - you can have as much or as
 little interaction with these as you want.
-You’ll be able to interact with it and bring
+[31:37] You’ll be able to interact with it and bring
 up a model of the ship, having the map, getting
-information there.
-Playing around with setting messages.
-But, being able to set things to leave ambiently
+[31:46] information there.
+[31:47] Playing around with setting messages.
+[31:57] But, being able to set things to leave ambiently
 in your ship really make it yours.
-JH: What is this area we’re in right now?
-CR: We’re currently in the command module
+[32:09] JH: What is this area we’re in right now?
+[32:13] CR: We’re currently in the command module
 which is the detaching escape pod type thing.
-It’s also the bridge of the ship.
-You can kind of see it.
-I don’t have you in it right now but standing
+[32:22] It’s also the bridge of the ship.
+[32:26] You can kind of see it.
+[32:27] I don’t have you in it right now but standing
 next to it… given the layout of the ship,
-it’s actually not that bad of a view.
-We were able to raise it up to prevent it
+[32:34] it’s actually not that bad of a view.
+[32:37] We were able to raise it up to prevent it
 from occluding the majority of your view so
-it’s not actually that bad.
-You do have to be careful because you’re
+[32:46] it’s not actually that bad.
+[32:49] You do have to be careful because you’re
 not at the centre of mass, so when you rotate
-it will be a different experience but the
+[32:53] it will be a different experience but the
 view should be just fine.
-It comes with a turret and you’ll be able
+[32:59] It comes with a turret and you’ll be able
 to have co-pilot and tactics officer, sensors.
-All that stuff.
-JH: I can’t help but notice there’s a
+[33:07] All that stuff.
+[33:08] JH: I can’t help but notice there’s a
 ladder down in the command module here.
-CR: Yeah.
-JH: Is the command module two floors now?
-CR: The command module is two floors.
-Yeah.
-With its little habitat area, another life
+[33:14] CR: Yeah.
+[33:15] JH: Is the command module two floors now?
+[33:18] CR: The command module is two floors.
+[33:19] Yeah.
+[33:20] With its little habitat area, another life
 support, the showers, you’ll have footlockers,
-you’ll have storage space, the command module’s
+[33:31] you’ll have storage space, the command module’s
 own engineering room with its own engineering
-station.
-Because this thing can just leave so you’re
+[33:41] station.
+[33:42] Because this thing can just leave so you’re
 going to have to repair it some day.
-Come over and repair the engines.
-Yeah.
-JH: I’m going to start the Drake Caterpillar
+[33:47] Come over and repair the engines.
+[33:49] Yeah.
+[33:50] JH: I’m going to start the Drake Caterpillar
 command module racing league.
-CR: I’m not here to stop you.
-You know, I’m trying various things.
-It’s a little hard to see… let’s see
+[33:55] CR: I’m not here to stop you.
+[33:58] You know, I’m trying various things.
+[34:02] It’s a little hard to see… let’s see
 if I. Nope…
-There we go.
-That’s me.
-I’m the gold ball.
-Let’s see if I can… that’s one of the
+[34:10] There we go.
+[34:12] That’s me.
+[34:14] I’m the gold ball.
+[34:17] Let’s see if I can… that’s one of the
 cool things is that you’ll be able to register
-people and have them… actually see people
+[34:27] people and have them… actually see people
 moving around your ship and-
-JH: And this looks like we have control of
+[34:31] JH: And this looks like we have control of
 bulkheads too.
-CR: So… yeah.
-You can go over and manipulate it from the
+[34:36] CR: So… yeah.
+[34:44] You can go over and manipulate it from the
 terminal.
-You’ll be able to open and close the doors…
+[34:47] You’ll be able to open and close the doors…
 which is all the way over there but is definitely
-happening!
-JH: Okay
-CR: We’re too slow for it though.
-JH: You have to explain to us what the squiggly
+[35:00] happening!
+[35:01] JH: Okay
+[35:02] CR: We’re too slow for it though.
+[35:04] JH: You have to explain to us what the squiggly
 ball thing was that was in here.
-CR: This deal?
-JH: Because that’s all people will be wondering
+[35:09] CR: This deal?
+[35:10] JH: Because that’s all people will be wondering
 about.
-CR: Okay.
-So, this is your tractor beam and this is
+[35:12] CR: Okay.
+[35:13] So, this is your tractor beam and this is
 a mockup of…
-JH: [Laughing] Just lost some cargo.
-CR: Oh!
-Hey, it did work!
-I told you it would.
-JH: I never doubted you.
-CR: That’s the cargo I threw out earlier,
+[35:19] JH: [Laughing] Just lost some cargo.
+[35:22] CR: Oh!
+[35:23] Hey, it did work!
+[35:25] I told you it would.
+[35:28] JH: I never doubted you.
+[35:30] CR: That’s the cargo I threw out earlier,
 it’s stuck in a little gravity well.
-A gravity well like that might be how you
+[35:34] A gravity well like that might be how you
 manipulate the tractor beam.
-It might not.
-We’re still - you might…
-pushing and pulling and doing things like
+[35:38] It might not.
+[35:39] We’re still - you might…
+[35:41] pushing and pulling and doing things like
 that.
-But this is the control reticle that I will
+[35:44] But this is the control reticle that I will
 be pushing around and…
-I forget what keys I used to move that around.
-But basically set up a little thing to tell
+[35:50] I forget what keys I used to move that around.
+[35:58] But basically set up a little thing to tell
 you exactly where it is in space and see it
-relative to your ship.
-I did not, however, make it so you can turn
+[36:05] relative to your ship.
+[36:06] I did not, however, make it so you can turn
 that off so when you leave it’s still there.
-JH: This is a good chance to remind folks
+[36:14] JH: This is a good chance to remind folks
 that this was for an internal proof of concept
-and what not.
-It is not designed to be shown externally.
-This is one of those things that we do that
+[36:22] and what not.
+[36:23] It is not designed to be shown externally.
+[36:25] This is one of those things that we do that
 most other companies wouldn’t.
-We know you guys like to see things in the
+[36:31] We know you guys like to see things in the
 earliest state, in the roughest state, so
-we take the opportunities when we can - warts
+[36:34] we take the opportunities when we can - warts
 and all.
-CR: Yeah.
-We have the avionics room, the server room,
+[36:37] CR: Yeah.
+[36:38] We have the avionics room, the server room,
 powerplant room, we have the jump drive and
-coolers.
-Some more of the engines here.
-You know, so double decker engineering bay.
-Pretty nice stuff.
-Is there anything else that was rad?
-JH: [laughing] Probably.
-CR: Probably.
-JH: I love Drake though.
-I’m a pragmatic guy, so I like the pragmatic
+[36:49] coolers.
+[36:51] Some more of the engines here.
+[36:53] You know, so double decker engineering bay.
+[36:57] Pretty nice stuff.
+[36:59] Is there anything else that was rad?
+[37:03] JH: [laughing] Probably.
+[37:05] CR: Probably.
+[37:06] JH: I love Drake though.
+[37:10] I’m a pragmatic guy, so I like the pragmatic
 - I’m also a big fan of the used future,
-you know.
-I’m much more a ‘Blade Runner’ guy than
+[37:16] you know.
+[37:17] I’m much more a ‘Blade Runner’ guy than
 a ‘Minority Report’ guy.
-So Drake… the Drake aesthetic in general
+[37:21] So Drake… the Drake aesthetic in general
 really speaks to me.
-CR: Yeah, and I like… having made this space
+[37:25] CR: Yeah, and I like… having made this space
 walkable and interactive I like the degree
-to which I feel like I can just reach out
+[37:33] to which I feel like I can just reach out
 and touch the ship and how it feels.
-Even with nothing in it this feels lived in.
-This feels like a real meaningful space.
-So I like…
-And the ladder here just leads back down to
+[37:38] Even with nothing in it this feels lived in.
+[37:40] This feels like a real meaningful space.
+[37:43] So I like…
+[37:45] And the ladder here just leads back down to
 engineering.
-JH: Cool.
-Well…
-CR: And the haunted turret.
-JH: Alright, well I think that’s pretty
+[37:46] JH: Cool.
+[37:47] Well…
+[37:48] CR: And the haunted turret.
+[37:50] JH: Alright, well I think that’s pretty
 much it for this.
-Calix, thank you for taking the time to show
+[37:56] Calix, thank you for taking the time to show
 us some work.
-CR: My pleasure.
-JH: Of course, the Caterpillar is already
+[37:58] CR: My pleasure.
+[37:59] JH: Of course, the Caterpillar is already
 iterated past this.
-Like we said, the front doors have changed
+[38:02] Like we said, the front doors have changed
 and whatnot.
-We’ve begun not only concepting the different
+[38:05] We’ve begun not only concepting the different
 modules inner workings, we’ve even begun
-building some of the modules.
-I’ve seen Elwin has already built out most
+[38:11] building some of the modules.
+[38:13] I’ve seen Elwin has already built out most
 of one of the habitat modules.
-CR: Yup.
-JH: So, Drake Caterpillar is in progress.
-It’s on its way.
-We hope you enjoy these early looks like this
+[38:16] CR: Yup.
+[38:17] JH: So, Drake Caterpillar is in progress.
+[38:21] It’s on its way.
+[38:22] We hope you enjoy these early looks like this
 and yeah - it’s been Ship Shape…
-Ship Shape: Drake Caterpillar 2.
-CR: Thank you.
-JH: I’m Jared, that’s Calix.
-CR: Calix.
-Bye.
-JH: Finger guns.
-Loremaker’s Guide to the Galaxy: Tamsa & Min
-Cherie Heiberg (CH): Hi everyone, welcome
+[38:28] Ship Shape: Drake Caterpillar 2.
+[39:22] CR: Thank you.
+[40:21] JH: I’m Jared, that’s Calix.
+[40:48] CR: Calix.
+[40:59] Bye.
+[41:05] JH: Finger guns.
+[41:21] Loremaker’s Guide to the Galaxy: Tamsa & Min
+[42:01] Cherie Heiberg (CH): Hi everyone, welcome
 to another segment of Loremaker's Guide to
-the Galaxy.
-If you are unfamiliar with this, this is a
+[42:50] the Galaxy.
+[42:51] If you are unfamiliar with this, this is a
 look at the Star Citizen universe.
-A member of the lore team goes to a system,
+[42:58] A member of the lore team goes to a system,
 we discuss science and story ideas.
-We talk about the direction we want the systems
+[43:04] We talk about the direction we want the systems
 to go, so that they will one day be available
-for you, the player, in exquisite space detail.
-Today we have Earth right here.
-There it is.
-Very shiny.
-We're going to do Tamsa.
-Let's go.
-Tamsa is the only known system that has a
+[43:09] for you, the player, in exquisite space detail.
+[43:13] Today we have Earth right here.
+[43:17] There it is.
+[43:19] Very shiny.
+[43:20] We're going to do Tamsa.
+[43:24] Let's go.
+[43:31] Tamsa is the only known system that has a
 black hole at the center.
-Now a black hole is a region of space-time
+[43:38] Now a black hole is a region of space-time
 that exhibits strong gravitational effects
-and nothing can escape from inside it.
-Which includes light, electromagnetic radiation,
+[43:44] and nothing can escape from inside it.
+[43:46] Which includes light, electromagnetic radiation,
 particles, Big Benny's machines, potatoes,
-photons, that kind of thing.
-We got a little corona of captured light here
+[43:51] photons, that kind of thing.
+[43:55] We got a little corona of captured light here
 that Turbulent created which I think looks
-pretty cool honestly.
-Tamsa was discovered in 2943 by Banu explorer
+[44:02] pretty cool honestly.
+[44:04] Tamsa was discovered in 2943 by Banu explorer
 Cothi Bat-Thel-Ma, and they named the system
-after a math artist called Tamsa Wheel.
-Like that's her art name that she picked for
+[44:12] after a math artist called Tamsa Wheel.
+[44:16] Like that's her art name that she picked for
 herself.
-Her art has been described as Mathematical
+[44:19] Her art has been described as Mathematical
 poetry, it has also been described as a beautiful
-precision of... a beautiful nexus of precision
+[44:24] precision of... a beautiful nexus of precision
 and chaos, that's what the critic said.
-Yeah.
-I think that's pretty appropriate for a system
+[44:32] Yeah.
+[44:33] I think that's pretty appropriate for a system
 with a black hole in the center.
-Now back to black holes.
-I used to think that black holes were kinda
+[44:38] Now back to black holes.
+[44:40] I used to think that black holes were kinda
 of scary.
-I thought they were cosmic vacuums that would
+[44:43] I thought they were cosmic vacuums that would
 one day suck up the entire universe and it
-would all die crushed in really strong gravity
+[44:47] would all die crushed in really strong gravity
 and we would...
-That's just not what.
-That's not what black holes are and that's
+[44:54] That's just not what.
+[44:55] That's not what black holes are and that's
 not how they work.
-You can sort of think of them as super dense
+[44:58] You can sort of think of them as super dense
 zombie stars.
-They are no longer stars.
-They are remnants of a dead star, at least
+[45:02] They are no longer stars.
+[45:04] They are remnants of a dead star, at least
 the stellar black holes are.
-They have very, very, very strong gravity
+[45:10] They have very, very, very strong gravity
 but they are not going to suck up the whole
-universe.
-They have stable points at which celestial
+[45:16] universe.
+[45:17] They have stable points at which celestial
 bodies can exist and can orbit in a, you know,
-regular manner just like planets orbit our
+[45:23] regular manner just like planets orbit our
 sun.
-Unless you go passed the event horizon here,
+[45:26] Unless you go passed the event horizon here,
 which is basically the point beyond which
-you can't escape the black hole and you are
+[45:34] you can't escape the black hole and you are
 doomed to get sucked in and just stay there
-and possibly view the birth and death of the
+[45:40] and possibly view the birth and death of the
 universe through time dilatation.
-That's pretty cool.
-I wouldn't do it though.
-Oh back...
-So black holes that are formed, in case you
+[45:45] That's pretty cool.
+[45:47] I wouldn't do it though.
+[45:49] Oh back...
+[45:51] So black holes that are formed, in case you
 don't know, they're formed through the gravitational
-collapse of massive stars.
-This one was once a type-O star, which is
+[45:55] collapse of massive stars.
+[45:57] This one was once a type-O star, which is
 a blue giant star.
-Once the mass of the star collapses, after
+[46:05] Once the mass of the star collapses, after
 it burns through its fuel and the star's temperature
-isn't high enough to prevent it from imploding
+[46:09] isn't high enough to prevent it from imploding
 under its own weight.
-The mass basically condenses into this tiny,
+[46:13] The mass basically condenses into this tiny,
 tiny, tiny, tiny, thing that we've never seen
-really, but we know exists, and creates these
+[46:20] really, but we know exists, and creates these
 gravitational time-space anomalies which are
-super cool.
-Black holes are way more complex than I can
+[46:27] super cool.
+[46:29] Black holes are way more complex than I can
 describe at this time.
-There's a book that I've been thinking about
+[46:32] There's a book that I've been thinking about
 reading called "Black Holes and Time Warps"
-by Kip Thorne that looks cool.
-I think that would satisfy my black hole knowledge
+[46:36] by Kip Thorne that looks cool.
+[46:40] I think that would satisfy my black hole knowledge
 seeking desires.
-As I said, this is a planetary system.
-Tamsa I is way out here.
-It is a chthonian planet.
-I don't think we've discussed chthonian yet.
-They are essentially the remains of the cores
+[46:46] As I said, this is a planetary system.
+[46:49] Tamsa I is way out here.
+[46:52] It is a chthonian planet.
+[46:54] I don't think we've discussed chthonian yet.
+[46:56] They are essentially the remains of the cores
 of gas giants.
-The atmosphere of the gas giant was stripped
+[47:01] The atmosphere of the gas giant was stripped
 away through hydrodynamic escape and it left
-just this super dense core that was probably
+[47:08] just this super dense core that was probably
 rich in metals and minerals and would be,
-you know, oh man so cool I wonder what we
+[47:15] you know, oh man so cool I wonder what we
 could mine there.
-However Tamsa is still off limits because
+[47:19] However Tamsa is still off limits because
 it’s being assessed by the Fair Chance Act.
-It was discovered pretty recently, you know,
+[47:25] It was discovered pretty recently, you know,
 2943.
-So, you know, once the Fair Chance Act concludes
+[47:28] So, you know, once the Fair Chance Act concludes
 that maybe life isn't developing in a black
-hole system, maybe mining rights can be explored
+[47:35] hole system, maybe mining rights can be explored
 which I think would be pretty cool.
-Alright.
-Now that's not the only planet in the system.
-There is one more if we zoom way out, Tamsa
+[47:41] Alright.
+[47:42] Now that's not the only planet in the system.
+[47:44] There is one more if we zoom way out, Tamsa
 II.
-Over here.
-It's a gas giant.
-It's about the size of Jupiter, as you...
+[47:48] Over here.
+[47:49] It's a gas giant.
+[47:52] It's about the size of Jupiter, as you...
 well, you can't see because it’s not to
-scale.
-What I mean is it’s about the mass of Jupiter.
-Its got a thick atmosphere and a dense core.
-Like its planetary sibling over here, Tamsa
+[47:57] scale.
+[47:58] What I mean is it’s about the mass of Jupiter.
+[47:59] Its got a thick atmosphere and a dense core.
+[48:04] Like its planetary sibling over here, Tamsa
 I, it was a rogue planet.
-These are both rogue planet that were captured
+[48:10] These are both rogue planet that were captured
 by the gravity of the black hole.
-Now Tamsa I was probably ejected from its
+[48:15] Now Tamsa I was probably ejected from its
 system in a nova-like event, which probably
-contributed to losing all its atmosphere.
-Tamsa II, however, was ejected from its system
+[48:20] contributed to losing all its atmosphere.
+[48:23] Tamsa II, however, was ejected from its system
 through means unknown because it still retains
-its atmosphere.
-We don't know yet.
-Scientists in the Verse are still trying to
+[48:29] its atmosphere.
+[48:30] We don't know yet.
+[48:32] Scientists in the Verse are still trying to
 figure out exactly why it still has its atmosphere,
-where it came from, and only time will tell.
-Figuring out what became of this planet's
+[48:38] where it came from, and only time will tell.
+[48:42] Figuring out what became of this planet's
 system.
-Now since Tamsa is so small, even though it’s
+[48:48] Now since Tamsa is so small, even though it’s
 super-super interesting, I think that we do
-have time today to do one more system, which
+[48:53] have time today to do one more system, which
 is another really interesting system.
-It's called Min.
-This one is a rogue planet, much like the
+[48:59] It's called Min.
+[49:01] This one is a rogue planet, much like the
 rogue planets that were captured by Tamsa.
-It was ejected from its system through means
+[49:13] It was ejected from its system through means
 unknown, and it's just kind of tearing its
-way through space with four moons that it’s
+[49:17] way through space with four moons that it’s
 picked up in its journey.
-It was discovered at 2473 in an unlikely nexus
+[49:21] It was discovered at 2473 in an unlikely nexus
 of jump points, which is... let's see, how
-many jump points are in this system.
-We have one, two, we have two jump points,
+[49:28] many jump points are in this system.
+[49:30] We have one, two, we have two jump points,
 which is just wild because it’s a planet.
-Most jump points that we know of converge
+[49:37] Most jump points that we know of converge
 around stars.
-No one knows why this planet has picked up
+[49:41] No one knows why this planet has picked up
 jump points.
-It's a cool science mystery of the Star Citizen
+[49:43] It's a cool science mystery of the Star Citizen
 universe.
-Its Jupiter mass, same as Tamsa II.
-It generates its own heat, much like our planet,
+[49:49] Its Jupiter mass, same as Tamsa II.
+[49:55] It generates its own heat, much like our planet,
 our gas giant Jupiter does through the Kelvin-Helmholtz
-mechanism; which means as the surface of the
+[50:01] mechanism; which means as the surface of the
 planet cools, the pressure on the planet drops
-and surface shrinks, which in turn heats the
+[50:08] and surface shrinks, which in turn heats the
 core of the planet.
-It's like somewhere in the 600 K range.
-Science.
-Science.
-Its first moon right here, Min 1A, is an uninhabited
+[50:12] It's like somewhere in the 600 K range.
+[50:17] Science.
+[50:18] Science.
+[50:19] Its first moon right here, Min 1A, is an uninhabited
 rocky moon that has been stripmined a long
-time ago.
-There aren't any resources available.
-No one is sure whether it formed with the
+[50:26] time ago.
+[50:27] There aren't any resources available.
+[50:30] No one is sure whether it formed with the
 accretion disk that created Min I, or whether
-it was just picked up in Min's journey through
+[50:38] it was just picked up in Min's journey through
 space.
-Could be an interesting question to answer.
-Min 1B is one of the most interesting moons
+[50:41] Could be an interesting question to answer.
+[50:45] Min 1B is one of the most interesting moons
 in space, in my opinion.
-It, against all odds, is somewhat inhabitable
+[50:51] It, against all odds, is somewhat inhabitable
 because it has an incredible amount of geothermal
-energy that makes liquid water available on
+[50:59] energy that makes liquid water available on
 its surface.
-Now it is still really cold, and it’s not
+[51:03] Now it is still really cold, and it’s not
 ideal for Human habitation, but a couple of
-settlements have in fact been built up here.
-What's putting those settlements into jeopardy
+[51:08] settlements have in fact been built up here.
+[51:13] What's putting those settlements into jeopardy
 is the recent discovery of bioluminescent
-bacteria on the bottom of the ocean that clusters
+[51:17] bacteria on the bottom of the ocean that clusters
 around the hydrothermal vents that help heat
-the planet.
-So there's currently a debate going on about
+[51:23] the planet.
+[51:24] So there's currently a debate going on about
 whether or not to apply the Fair Chance Act
-to this system.
-Cynics say that the reason that it hasn't
+[51:29] to this system.
+[51:31] Cynics say that the reason that it hasn't
 been done yet is that there really aren't
-any valuable resources here, since the whole
+[51:34] any valuable resources here, since the whole
 system was stripmined ages and ages ago.
-People like, "Ah, well, the Government's not
+[51:39] People like, "Ah, well, the Government's not
 gonna wanna invest money in assessing this
-system, because why would they?
-What money do they stand to make?"
-Might be bad for the bacteria on Min B. However
+[51:47] system, because why would they?
+[51:49] What money do they stand to make?"
+[51:53] Might be bad for the bacteria on Min B. However
 there are still some scientists there researching
-it, so they'll find out more about it in time
+[51:59] it, so they'll find out more about it in time
 - one hopes.
-Min 1C is very much like Min 1A.
-It is the smallest of Min's moons.
-Uninhabited.
-Rocky.
-Totally stripmined.
-Very small.
-Where are you Min 1D?
-I know I saw you somewhere.
-There you are!
-This guy, is another tiny, baby, moon.
-It's not as small as a lot of the others,
+[52:05] Min 1C is very much like Min 1A.
+[52:09] It is the smallest of Min's moons.
+[52:12] Uninhabited.
+[52:13] Rocky.
+[52:14] Totally stripmined.
+[52:17] Very small.
+[52:19] Where are you Min 1D?
+[52:22] I know I saw you somewhere.
+[52:24] There you are!
+[52:26] This guy, is another tiny, baby, moon.
+[52:30] It's not as small as a lot of the others,
 it's smaller than 1B, but it's bigger than
-1C.
-It's pretty, it's an alright place, it's covered
+[52:36] 1C.
+[52:37] It's pretty, it's an alright place, it's covered
 with impact craters.
-If anybody wanted to know much about the history
+[52:41] If anybody wanted to know much about the history
 of the system, they could probably do some
-digging into the impact craters and figure
+[52:45] digging into the impact craters and figure
 some stuff out geologically.
-Which I think would be awesome.
-There we go!
-That's Min.
-Unlikely nexus of two jump points.
-Rogue planet with moons tearing throughout
+[52:54] Which I think would be awesome.
+[52:56] There we go!
+[52:59] That's Min.
+[53:00] Unlikely nexus of two jump points.
+[53:03] Rogue planet with moons tearing throughout
 the system.
-Just being interesting.
-In space.
-With its cool inhabitable, barely inhabitable,
+[53:07] Just being interesting.
+[53:08] In space.
+[53:10] With its cool inhabitable, barely inhabitable,
 moon.
-That is it, for this week's Loremaker's Guide
+[53:14] That is it, for this week's Loremaker's Guide
 to the Galaxy.
-Thanks for watching, and I hope you enjoyed
+[53:19] Thanks for watching, and I hope you enjoyed
 this incredibly science-y tour of two of the
-most interesting small systems in the Verse!
-Goodbye.
-MVP w/Tyler Witkin
-Tyler Witkin (TW): Hey there, Tyler Witkin,
+[53:24] most interesting small systems in the Verse!
+[53:27] Goodbye.
+[53:29] MVP w/Tyler Witkin
+[53:35] Tyler Witkin (TW): Hey there, Tyler Witkin,
 Community Manager in the Austin Texas studio
-here to bring you this week's MVP, but before
+[53:38] here to bring you this week's MVP, but before
 we do that you guys keep making it harder
-and harder to choose one MVP a week and I
+[53:43] and harder to choose one MVP a week and I
 wanted to take this time to clear something
-up.
-MVP is not an award just for content submitted
+[53:48] up.
+[53:49] MVP is not an award just for content submitted
 in the last week, there’s no timeframe for
-it.
-So if you submitted content this week and
+[53:54] it.
+[53:55] So if you submitted content this week and
 you didn’t get MVP, you’re not out of
-the running just quite yet.
-But for this week, a big congratulations to
+[53:58] the running just quite yet.
+[53:59] But for this week, a big congratulations to
 Acknoh Rayborn for his video teaser titled
-“Ghost Strike”.
-The combination of voice acting, editing,
+[54:05] “Ghost Strike”.
+[54:06] The combination of voice acting, editing,
 and music is enough to give you chills and
-leave you craving for more so big congratulations
+[54:10] leave you craving for more so big congratulations
 to you Acknoh, keep them coming, you’re
-this week’s MVP.
-Back to you guys.
-ATV Fast Forward: Piping system part 2
-SG: Cool, I look forward to seeing the full
+[54:15] this week’s MVP.
+[54:16] Back to you guys.
+[54:17] ATV Fast Forward: Piping system part 2
+[54:19] SG: Cool, I look forward to seeing the full
 production when it’s ready.
-BL: It’s amazing people can get together
+[54:23] BL: It’s amazing people can get together
 and make this professional quality movies
-just because they love something so much.
-It’s always inspirational.
-SG: And finally each week we take a look at
+[54:28] just because they love something so much.
+[54:31] It’s always inspirational.
+[54:32] SG: And finally each week we take a look at
 something still in development for Star Citizen's
-future.
-It’s time for ATV’s Fast Forward.
-Outro
-BL: Be sure to tune into Reverse the ‘Verse
+[54:37] future.
+[54:38] It’s time for ATV’s Fast Forward.
+[56:00] Outro
+[56:28] BL: Be sure to tune into Reverse the ‘Verse
 tomorrow at 11am specific on twitch.
-We’ll be answering your questions about
+[56:59] We’ll be answering your questions about
 that Fast Forward and all other aspects of
-Star Citizen development and I’ll be there!
-So it’ll be better!
-SG: Mhm and yet ask if they like us you can
+[57:03] Star Citizen development and I’ll be there!
+[57:06] So it’ll be better!
+[57:07] SG: Mhm and yet ask if they like us you can
 hit subscribe below to all of our social channels.
-BL: Yay.
-SG: Yay!
-And with that, thank you to all of our subscribers
+[57:13] BL: Yay.
+[57:14] SG: Yay!
+[57:16] And with that, thank you to all of our subscribers
 as always to making this show possible.
-We will see you next week on Around the ‘Verse.
-BL: You know what, we should mention that
+[57:20] We will see you next week on Around the ‘Verse.
+[57:22] BL: You know what, we should mention that
 you’re taking a little trip.
-SG: I am taking a little trip.
-I am going to the UK to do some exciting secret
+[57:26] SG: I am taking a little trip.
+[57:28] I am going to the UK to do some exciting secret
 squirrel things.
-BL: So Sandi won't be here to host next week
+[57:31] BL: So Sandi won't be here to host next week
 and we’ll miss her a great deal.
-In fact I think we’re going to miss your
+[57:38] In fact I think we’re going to miss your
 Birthday.
-SG: I know, I’m actually going to take my
+[57:52] SG: I know, I’m actually going to take my
 first holiday, yet.
-I’m going to take a couple days where you
+[58:23] I’m going to take a couple days where you
 guys are going to run the show.
-BL: We will, it’s not going to go well.
-SG: They're gonna go, yeah..
-BL: But Happy Birthday.
-SG: Early Happy Birthday.
-BL: Early Happy Birthday.
-SG: We’ll see you next week on Around the
+[58:34] BL: We will, it’s not going to go well.
+[58:38] SG: They're gonna go, yeah..
+[58:40] BL: But Happy Birthday.
+[58:42] SG: Early Happy Birthday.
+[58:44] BL: Early Happy Birthday.
+[58:46] SG: We’ll see you next week on Around the
 ‘Verse.

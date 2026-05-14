@@ -6,508 +6,508 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:13] Closed Captioning provided by the Imperial
 News Network.
-Brian Chambers (BC): Welcome to Around the
+[00:15] Brian Chambers (BC): Welcome to Around the
 ‘Verse season three, episode four.
-I am Brian Chambers, Development Director
+[00:19] I am Brian Chambers, Development Director
 of Foundry 42 Frankfurt.
-Dan Trufin (DT): And I’m Dan Trufin.
-I’m the Lead System Designer of the Frankfurt
+[00:23] Dan Trufin (DT): And I’m Dan Trufin.
+[00:25] I’m the Lead System Designer of the Frankfurt
 office.
-BC: As many of you know last week was Gamescom.
-It was a very, very, very busy week.
-It’s always one of our biggest events of
+[00:28] BC: As many of you know last week was Gamescom.
+[00:32] It was a very, very, very busy week.
+[00:34] It’s always one of our biggest events of
 the year.
-DT: Outside of Citizen con of course.
-BC: Yes that is also very busy.
-Members of the dev team from all around the
+[00:37] DT: Outside of Citizen con of course.
+[00:39] BC: Yes that is also very busy.
+[00:42] Members of the dev team from all around the
 world worked tirelessly to pull together to
-give you the sneak peek of what we showed
+[00:47] give you the sneak peek of what we showed
 on the show floor and also at the event.
-DT: We got to meet a lot of the old guys,
+[00:52] DT: We got to meet a lot of the old guys,
 the old backers and also a lot of new guys
-that we’ve never seen before, it’s always
+[00:58] that we’ve never seen before, it’s always
 nice to meet these guys.
-BC: There was a lot of new people on the show
+[01:01] BC: There was a lot of new people on the show
 floor.
-DT: Yeah and a lot of them were like full
+[01:03] DT: Yeah and a lot of them were like full
 cosplay with all the gear, all the weapons,
-and not the actual weapons because the security
+[01:08] and not the actual weapons because the security
 would take them away, but all the protection,
-all the helmets, all the gear, amazing, amazing
+[01:14] all the helmets, all the gear, amazing, amazing
 stuff.
-BC: Yeah I agree.
-I met a lot of new people for the first time,
+[01:17] BC: Yeah I agree.
+[01:18] I met a lot of new people for the first time,
 ran into some old fans, old backers, it was
-really, really cool.
-Highlight of the week had to be the live event
+[01:25] really, really cool.
+[01:26] Highlight of the week had to be the live event
 at the Gloria Theatre.
-That’s where Chris Roberts was able to show
+[01:30] That’s where Chris Roberts was able to show
 off SC Alpha 2.5 and 2.6.
-It’s going to include the release of Star
+[01:35] It’s going to include the release of Star
 Marine which I know is anticipated.
-Biggest of all was the gameplay we showed
+[01:41] Biggest of all was the gameplay we showed
 for 3.0.
-If you didn’t get a chance to see it, we’ve
+[01:45] If you didn’t get a chance to see it, we’ve
 cut together bits so take a look.
-Awesome, as you can see one of the newest
+[02:38] Awesome, as you can see one of the newest
 elements that was introduced in the demo was
-seeing a quest giver for the very first time.
-DT: Yeah definitely.
-While we've been working on integrating NPCs
+[03:06] seeing a quest giver for the very first time.
+[03:08] DT: Yeah definitely.
+[03:10] While we've been working on integrating NPCs
 in the baby PU, a mission giver is a completely
-different level of complexity in this game.
-Let's have a look at how that came along.
-Behind the Scenes: Quest Giver
-Hannes Appell (HA): So with Star Citizen we
+[03:17] different level of complexity in this game.
+[03:20] Let's have a look at how that came along.
+[03:22] Behind the Scenes: Quest Giver
+[03:25] Hannes Appell (HA): So with Star Citizen we
 wanted to create a living and breathing universe.
-And a big part, maybe even the biggest part,
+[03:29] And a big part, maybe even the biggest part,
 is to populate our universe with compelling
-characters who feel real.
-And you saw your first glimpse of that with
+[03:33] characters who feel real.
+[03:35] And you saw your first glimpse of that with
 Miles Eckhart, the shady, ambiguous, backroom
-dealer guy that we showed in the Levski demo
+[03:39] dealer guy that we showed in the Levski demo
 for GameCom.
-And we want to show you a little bit of how
+[03:42] And we want to show you a little bit of how
 he came to be: from casting, and then actually
-shooting on the Imaginarium stage.
-And then going into the technical side with
+[03:48] shooting on the Imaginarium stage.
+[03:51] And then going into the technical side with
 Mike Nagasaka and Jason Cole showing you how
-he actually came to be as an AI in the demo.
-Have fun!
-[Motion Capture]
-Miles Eckhart (ME): Hey how are ya?
-Miles Eckhart.
-Friend over Crusader said you been building
+[03:55] he actually came to be as an AI in the demo.
+[03:57] Have fun!
+[03:58] [Motion Capture]
+[04:00] Miles Eckhart (ME): Hey how are ya?
+[04:03] Miles Eckhart.
+[04:05] Friend over Crusader said you been building
 quite a rep.
-Jason Cole (JC): Chris runs through everything
+[04:07] Jason Cole (JC): Chris runs through everything
 and edits all the scenes how he wants them
-to look or how the acting to work.
-Once that’s done that could come from three
+[04:12] to look or how the acting to work.
+[04:13] Once that’s done that could come from three
 or four different takes, but with an editor
-he’ll use the editor’s time code basically
+[04:19] he’ll use the editor’s time code basically
 to make … create that scene what he wants.
-Then from there that data, that quadcam data,
+[04:24] Then from there that data, that quadcam data,
 and that timecode gets sent out and then gets
-solved.
-ME: I’m always on the lookout for capable
+[04:30] solved.
+[04:31] ME: I’m always on the lookout for capable
 people who don’t rattle.
-If you’re interested in picking up some
+[04:34] If you’re interested in picking up some
 extra work, we should talk.
-I’ll send my details ...
-JC: And then once that data’s solved it
+[04:38] I’ll send my details ...
+[04:39] JC: And then once that data’s solved it
 comes back to us but it comes back in pieces,
-per take.
-So what we do is we take that data and merge
+[04:43] per take.
+[04:44] So what we do is we take that data and merge
 it together to make that once scene work together.
-Michael Nagasaka (MN): While that’s getting
+[04:50] Michael Nagasaka (MN): While that’s getting
 processed I pre-visualise the sequence by
-using preexisting animation editor to get
+[04:54] using preexisting animation editor to get
 the overall feel.
-And once I get the motion capture data back,
+[04:59] And once I get the motion capture data back,
 the facial and body, I put everything together
-and see how everything looks.
-[Initial Implementation]
-ME: Hey how are ya?
-Miles Eckhart.
-Friend over Crusader said you been building
+[05:05] and see how everything looks.
+[05:06] [Initial Implementation]
+[05:07] ME: Hey how are ya?
+[05:08] Miles Eckhart.
+[05:09] Friend over Crusader said you been building
 quite a rep.
-I run a modest security outfit, and I’m
+[05:10] I run a modest security outfit, and I’m
 always on the lookout for capable people who
-don’t rattle.
-MN: So the first initial implementation is
+[05:19] don’t rattle.
+[05:20] MN: So the first initial implementation is
 probably the most important part because this
-is the first time everything becomes together,
+[05:24] is the first time everything becomes together,
 and we can assess any kind of issues that
-happens, and resolve any kind of motion capture
+[05:29] happens, and resolve any kind of motion capture
 or facial data, environmental or basically
-anything that needs to be adjusted.
-So after everything’s then polished, I do
+[05:34] anything that needs to be adjusted.
+[05:36] So after everything’s then polished, I do
 a lighting pass.
-Fortunately we have a good lighters ... environment
+[05:41] Fortunately we have a good lighters ... environment
 lighter so I didn’t have to do too much
-lighting.
-But I still added some few lights from the
+[05:46] lighting.
+[05:47] But I still added some few lights from the
 mobiGlas as well as a little bit of shadow
-fill light on the side to give more of a moody
+[05:53] fill light on the side to give more of a moody
 feeling to Eckhart.
-So after that’s been rendered and edited,
+[05:58] So after that’s been rendered and edited,
 export the animation into the editor which
-I handed over to the level designer or the
+[06:05] I handed over to the level designer or the
 UI artist to get it triggered at the right
-place at the right time.
-[Final Result]
-ME: Hey how are ya?
-Miles Eckhart.
-Friend over Crusader said you been building
+[06:11] place at the right time.
+[06:13] [Final Result]
+[06:15] ME: Hey how are ya?
+[06:22] Miles Eckhart.
+[06:25] Friend over Crusader said you been building
 quite a rep.
-I run a modest security outfit, and I’m
+[06:40] I run a modest security outfit, and I’m
 always on the lookout for capable people who
-don’t rattle.
-If you’re interested in picking up some
+[06:47] don’t rattle.
+[06:48] If you’re interested in picking up some
 extra work, we should talk.
-I’ll send my details ...
-HA: So in the GamesCom demo both Miles Eckhart
+[06:49] I’ll send my details ...
+[06:50] HA: So in the GamesCom demo both Miles Eckhart
 and they guy that gives you landing permission
-on Levski, they were both pre-rendered as
+[06:51] on Levski, they were both pre-rendered as
 Flash videos and then those were triggered
-inside the engine.
-That’s a process that “works” but it’s
+[06:54] inside the engine.
+[06:55] That’s a process that “works” but it’s
 kind of old school and we want to actually
-change that in the future to a process where
+[06:59] change that in the future to a process where
 we actually render picture-in-picture live
-in the engine.
-That’s scaling way better with an online
+[07:03] in the engine.
+[07:04] That’s scaling way better with an online
 universe that has hundreds of these characters.
-Behind the Scenes: Navigation Mesh
-Alexander Marschal (AM): During the Gamescom
+[07:08] Behind the Scenes: Navigation Mesh
+[07:11] Alexander Marschal (AM): During the Gamescom
 live demo, Chris Roberts mentioned the engineering
-difficulties like bringing a ship from space
+[07:15] difficulties like bringing a ship from space
 to hangar, transitioning from zone to zone
-or having NPCs navigating environments that
+[07:20] or having NPCs navigating environments that
 can move relative to each other.
-Regarding the last point - we want to show
+[07:24] Regarding the last point - we want to show
 you how we improve the existing multi-layer
-navigation mesh system to match our requirements
+[07:28] navigation mesh system to match our requirements
 for bringing the Star Citizen universe alive.
-Francesco Roccucci (FR): In Gamescom we can
+[07:33] Francesco Roccucci (FR): In Gamescom we can
 see several examples of the navigation mesh
-- so this is an example of an actual set-up
+[07:37] - so this is an example of an actual set-up
 where we can see there are two main areas
-- like a landing pad with some navigation
+[07:45] - like a landing pad with some navigation
 area and a Constellation.
-So what we actually created was just a set-up
+[07:50] So what we actually created was just a set-up
 in which this character is just moving across
-three spots on the area and there is another
+[07:55] three spots on the area and there is another
 character inside here that will do something
-very similar - he will move inside three different
+[08:01] very similar - he will move inside three different
 block points or locations in this area.
-One here, one this room at the computer, one
+[08:07] One here, one this room at the computer, one
 here and we will play some animations.
-So now we will jump in-game - so this simple
+[08:12] So now we will jump in-game - so this simple
 set-up I created before with the help of some
-of the designers and we which a spaceship,
+[08:17] of the designers and we which a spaceship,
 in our case the Constellation, was set-up
-before is spinning on top of a landing pad.
-Now we are inside we can see a NPC moving
+[08:21] before is spinning on top of a landing pad.
+[08:25] Now we are inside we can see a NPC moving
 across the two different locations - so this
-is the first one, he plays just an animation
+[08:30] is the first one, he plays just an animation
 as he arrives at the spot, he plays an animation
-and he goes to the computer board and start
+[08:33] and he goes to the computer board and start
 to just interact with it.
-We can look around and what we can see is
+[08:38] We can look around and what we can see is
 the landing pad just in front of us and we
-can see another character that actually move
+[08:46] can see another character that actually move
 across three different locations and is trying
-to look at us later on and we will wave - what
+[08:49] to look at us later on and we will wave - what
 you can see is that I can enable the navigation
-mesh in the backdrop and there is two different
+[08:56] mesh in the backdrop and there is two different
 local grids and two different zone - one is
-our spaceship in which during the loading
+[09:02] our spaceship in which during the loading
 time the object container will inform the
-AI to which local navigation mesh we are in,
+[09:08] AI to which local navigation mesh we are in,
 which local grid we need to connect to and
-which zone we need to connect so.
-So we can basically allow - here you can see
+[09:15] which zone we need to connect so.
+[09:17] So we can basically allow - here you can see
 the navigation system is idle - that means
-nothing is actually moving for the AI so this
+[09:22] nothing is actually moving for the AI so this
 is very optimized because we can know in advance
-based on the physics environment in which
+[09:27] based on the physics environment in which
 we are in that nothing is actually moving
-because the zone system takes care of that
+[09:33] because the zone system takes care of that
 and the AI can just perform their own action
-that is butt-funny and move the characters.
-As you can see, I can exit the game and I
+[09:39] that is butt-funny and move the characters.
+[09:43] As you can see, I can exit the game and I
 can show you a bit of the set-up is.
-So if I go around now the navigation mesh
+[09:48] So if I go around now the navigation mesh
 will try to re-check the consistency of the
-different environments to verify that nothing
+[09:54] different environments to verify that nothing
 has happened - nothing has changed and here
-is our Constellation and on the bottom we
+[09:59] is our Constellation and on the bottom we
 have the landing pad with it’s own navigation
-mesh.
-And if we just look at the backdrop we can
+[10:04] mesh.
+[10:05] And if we just look at the backdrop we can
 see here volume - this is the volume set up
-in this specific map but we cannot see any
+[10:09] in this specific map but we cannot see any
 volume on the Constellation because this belongs
-to it’s own object container and cannot
+[10:13] to it’s own object container and cannot
 be edited by any level designer than just
-used the spaceship but to add that on you’d
+[10:17] used the spaceship but to add that on you’d
 need to modify the template of the spaceship.
-So each navigation mesh, more or less, highlights
+[10:24] So each navigation mesh, more or less, highlights
 a specific environment in which the characters
-can move.
-Back to the Studio
-BC: Thanks guys.
-Thanks to Intel we also had a booth in Hall
+[10:30] can move.
+[10:31] Back to the Studio
+[10:32] BC: Thanks guys.
+[10:33] Thanks to Intel we also had a booth in Hall
 9 on the showfloor where people had the opportunity
-to come up and play the game for the first,
+[10:38] to come up and play the game for the first,
 second, third, fourth time.
-DT: Yeah, we’re also joined by the Star
+[10:43] DT: Yeah, we’re also joined by the Star
 Citizen twitch community who were livestreamed
-a sneak peek of the upcoming 2.5 release.
-Let’s have a quick look of how that went
+[10:49] a sneak peek of the upcoming 2.5 release.
+[10:51] Let’s have a quick look of how that went
 on the showfloor.
-Behind the Scenes: Gamescom
-BC: So the experience hanging out on the showfloor
+[10:54] Behind the Scenes: Gamescom
+[10:55] BC: So the experience hanging out on the showfloor
 was awesome.
-The amount of backers that I met for the first
+[10:59] The amount of backers that I met for the first
 time and that I’ve talked to socially, the
-amount of new people that came into play - people
+[11:05] amount of new people that came into play - people
 were excited, at one point I think a queue
-was up to a three hour wait.
-Cameron Wilkie (CW): Our queue was going outside
+[11:11] was up to a three hour wait.
+[11:13] Cameron Wilkie (CW): Our queue was going outside
 our booth around the corner and starting to
-block access to our neighbours so a wonderful
+[11:17] block access to our neighbours so a wonderful
 challenge to have because it just shows the
-interest in the game.
-BC: The energy was there, people were digging
+[11:24] interest in the game.
+[11:25] BC: The energy was there, people were digging
 it, we were having fun.
-DT: I was part of the floor crew - we manned
+[11:29] DT: I was part of the floor crew - we manned
 the booth and made sure everyone has everything
-they need to enjoy the game.
-They wanted to have the developers, so yeah,
+[11:37] they need to enjoy the game.
+[11:39] They wanted to have the developers, so yeah,
 me and Todd Papy were all there on site to
-answer any questions that we- that the backers
+[11:44] answer any questions that we- that the backers
 had for us.
-Todd Papy (TP): This was my first time at
+[11:49] Todd Papy (TP): This was my first time at
 Gamescom and just the sheer amount of people
-that are there compared to E3 is astounding
+[11:53] that are there compared to E3 is astounding
 and-
-CW: We were handing out merchandise left,
+[11:57] CW: We were handing out merchandise left,
 right and centre - explaining our game to
-every passer-by and backers and the community
+[12:03] every passer-by and backers and the community
 that would come by - not even wanting to play
-the game, just wanting to see our presence
+[12:10] the game, just wanting to see our presence
 and feel part of what was going on.
-BC: Good to show people the work we’ve been
+[12:15] BC: Good to show people the work we’ve been
 pulling off.
-CW: All throughout this we’ve got Disco
+[12:17] CW: All throughout this we’ve got Disco
 Lando with Captain Richard, DeeJay Knight,
-Twerk17, Bad News Baron all streaming live
+[12:23] Twerk17, Bad News Baron all streaming live
 and having fun on the set - it meant that
-the whole atmosphere was live and festive
+[12:30] the whole atmosphere was live and festive
 and a lot of people having fun and enjoying
-themselves.
-Captain Richard (CpnR): A lot of people haven’t
+[12:35] themselves.
+[12:36] Captain Richard (CpnR): A lot of people haven’t
 seen Star Citizen yet here at Gamescom or
-even live so yeah, we’ve been trying to
+[12:41] even live so yeah, we’ve been trying to
 showcase what Star Citizen has to offer.
-Deejay Knight (DK): Amazing to see the amount
+[12:45] Deejay Knight (DK): Amazing to see the amount
 of backers, the amount of new people seeing
-Star Citizen as there have been - just to
+[12:49] Star Citizen as there have been - just to
 see the amount of supporters that are already
-here.
-That are anxious to see us, just feels awesome.
-It’s a fantastic community and I’m glad
+[12:55] here.
+[12:56] That are anxious to see us, just feels awesome.
+[12:57] It’s a fantastic community and I’m glad
 to be a part of it.
-Twerk17 (T17): I’ve been a backer since
+[12:59] Twerk17 (T17): I’ve been a backer since
 April 2013 and I’ve been streaming for a
-little over two years.
-So I’ve met so many people that I’ve been
+[13:06] little over two years.
+[13:07] So I’ve met so many people that I’ve been
 talking with for years now so it’s been
-really cool.
-CpnR: A lot of people come out and say “Hey,
+[13:11] really cool.
+[13:12] CpnR: A lot of people come out and say “Hey,
 I wanted to stop by the Star Citizen booth
-and say hello, I’m a big fan of your stream”.
-Bad News Baron (BNB): The people that work
+[13:16] and say hello, I’m a big fan of your stream”.
+[13:17] Bad News Baron (BNB): The people that work
 at CIG have been the most passionate people
-I’ve ever come across - they really believe
+[13:22] I’ve ever come across - they really believe
 in what they are doing and that is the most
-inspiring thing for me as a backer.
-TP: All of the volunteers that worked at the
+[13:25] inspiring thing for me as a backer.
+[13:27] TP: All of the volunteers that worked at the
 booth - all of those guys were backers.
-To work those long hours and how much time
+[13:33] To work those long hours and how much time
 and effort they spent actually supporting
-the team as well as the game as fantastic.
-CW: Great guys, always fully ready to talk
+[13:39] the team as well as the game as fantastic.
+[13:44] CW: Great guys, always fully ready to talk
 about the game - great team and we couldn’t
-have done it without them.
-BC: They are the ones that are truly allowing
+[13:49] have done it without them.
+[13:50] BC: They are the ones that are truly allowing
 us to create this game, this world, this universe.
-During the floor I was more watching their
+[13:56] During the floor I was more watching their
 reactions - if something was shown that was
-kind of blowing them away I’d look over
+[14:00] kind of blowing them away I’d look over
 and they were looking at me and kind of nodding
-their head and giving me a thumbs up, y’know
+[14:05] their head and giving me a thumbs up, y’know
 - it was kind of giving a direct recognition,
-of one-on-one of “what we saw was pretty
+[14:10] of one-on-one of “what we saw was pretty
 cool”.
-Back to the Studio
-BC: Fans weren’t the only ones that got
+[14:13] Back to the Studio
+[14:15] BC: Fans weren’t the only ones that got
 in the action in the show.
-We also had a press booth where we invited
+[14:18] We also had a press booth where we invited
 the press to get a sneak peek at some of the
-stuff we’ve been working on - here’s an
+[14:23] stuff we’ve been working on - here’s an
 inside look at behind the scenes of our behind
-the scenes press booth.
-Behind the Scenes: Press
-David Swofford (DS): We come to Gamescom because
+[14:28] the scenes press booth.
+[14:29] Behind the Scenes: Press
+[14:30] David Swofford (DS): We come to Gamescom because
 it’s the largest game conference in the
-whole world so that’s probably number one.
-And number two, we have a lot of fans here
+[14:33] whole world so that’s probably number one.
+[14:35] And number two, we have a lot of fans here
 who can attend the conference, and number
-three - we get to talk directly to the press.
-Chris Roberts (CR): Hi!
-Good to see you.
-DS: This is Mike Stubbsy from Red Bull.
-Miscellaneous Press Guy #1 (MPG1): Hey!
-DS: We spent a lot of time with them - usually
+[14:40] three - we get to talk directly to the press.
+[14:41] Chris Roberts (CR): Hi!
+[14:42] Good to see you.
+[14:43] DS: This is Mike Stubbsy from Red Bull.
+[14:45] Miscellaneous Press Guy #1 (MPG1): Hey!
+[14:46] DS: We spent a lot of time with them - usually
 whenever we are going to show to our backers
-we also show to the press behind closed doors.
-The way that works and what that is for is
+[14:50] we also show to the press behind closed doors.
+[14:53] The way that works and what that is for is
 to give the press that up-close personal one-on-one
-attention with Chris Roberts and so Chris
+[15:01] attention with Chris Roberts and so Chris
 sits down and we set up appointments and we
-go through the demo - the press gets a chance
+[15:05] go through the demo - the press gets a chance
 to ask some questions, whatever they want.
-Miscellaneous Press Guy #2 (MPG2): Can you
+[15:09] Miscellaneous Press Guy #2 (MPG2): Can you
 how your procedural planet tech works and
-what it is?
-DS: They like it when they can get that face-to-face
+[15:12] what it is?
+[15:13] DS: They like it when they can get that face-to-face
 contact, especially with someone like Chris.
-CR: We’re going to show a preview of what
+[15:16] CR: We’re going to show a preview of what
 we’re going to show at our event - which
-is the first integration of the big procedural
+[15:21] is the first integration of the big procedural
 planets that we’re putting in Star Citizen.
-DS: That procedural planet technology is one
+[15:28] DS: That procedural planet technology is one
 of the main things - one of the main messages
-that we’re trying to get out.
-But also trying to show them “the slice”
+[15:32] that we’re trying to get out.
+[15:33] But also trying to show them “the slice”
 - being able to do all the different things
-- getting out of your ship, running around
+[15:37] - getting out of your ship, running around
 a planet, space station, getting back in,
-flying off to another planet nearby.
-CR: Quantum drive, so we can get to our location.
-Now you’ve got the EVA stuff - you can go
+[15:41] flying off to another planet nearby.
+[15:43] CR: Quantum drive, so we can get to our location.
+[15:49] Now you’ve got the EVA stuff - you can go
 around.
-And you’ve also got stuff you can do down
+[15:51] And you’ve also got stuff you can do down
 on the ground - the FPS stuff.
-You can go between all of them seamlessly
+[15:54] You can go between all of them seamlessly
 - it’s like a first person universe you
-can go and do what you want versus being stuck
+[16:00] can go and do what you want versus being stuck
 to one thing.
-DS: Just being able to do all that in real
+[16:02] DS: Just being able to do all that in real
 time is going to be a real special moment
-for everyone to see.
-CR: So Levski is this, I guess, free township
+[16:09] for everyone to see.
+[16:10] CR: So Levski is this, I guess, free township
 on this moon that was a deserted mining area
-and so a whole bunch of people from the UEE-
+[16:19] and so a whole bunch of people from the UEE-
 wanted to get away from the boot of the UEE
-set up there so it’s ”free from the UEE
+[16:24] set up there so it’s ”free from the UEE
 impression” so there’s outlaws, scum,
-villainy and other people that want to be
+[16:32] villainy and other people that want to be
 around there and we’re going to go see it.
-So this is Port Olisar which is the place
+[16:35] So this is Port Olisar which is the place
 where you start on in the current live Star
-Citizen - which is one of the space stations.
-But in 3.0 you’ll be able to spawn at the
+[16:41] Citizen - which is one of the space stations.
+[16:43] But in 3.0 you’ll be able to spawn at the
 multiple starting locations in the star system.
-DS: What we’re showing in the P2P room - in
+[16:48] DS: What we’re showing in the P2P room - in
 the press room is what will be shown to the
-backers tonight and so they are seeing the
+[16:55] backers tonight and so they are seeing the
 same thing.
-We have good relationships with the press
+[16:59] We have good relationships with the press
 - we trust them, they trust us and we all
-try to hold hands and all go in it together.
-So it usually works out just fine.
-Back to the Studio
-DT: There’s been a number of articles being
+[17:03] try to hold hands and all go in it together.
+[17:07] So it usually works out just fine.
+[17:09] Back to the Studio
+[17:11] DT: There’s been a number of articles being
 published in the last few days about the event
-and reaction of the press has been really
+[17:15] and reaction of the press has been really
 great.
-BC: It really honestly has.
-We’ve put together some links in the description
+[17:19] BC: It really honestly has.
+[17:20] We’ve put together some links in the description
 below so go check them out for yourself.
-DT: And the AtV would not be complete without
+[17:25] DT: And the AtV would not be complete without
 hearing from the Community Manager, Tyler
-Witkin, with this week’s Community Update
+[17:29] Witkin, with this week’s Community Update
 and MVP.
-Community Update w/ Tyler Witkin
-Tyler Witkin (TW): Hey everyone.
-Tyler Witkin, Community Manager in the Austin,Texas
+[17:34] Community Update w/ Tyler Witkin
+[17:40] Tyler Witkin (TW): Hey everyone.
+[17:41] Tyler Witkin, Community Manager in the Austin,Texas
 studio here to bring you this week’s community
-update.
-The Anvil Terrapin sale continues which includes
+[17:43] update.
+[17:44] The Anvil Terrapin sale continues which includes
 another ship brochure that is definitely worth
-checking out.
-Alongside the sale is the usual Q&A sessions.
-You saw part one on our website released yesterday
+[17:48] checking out.
+[17:49] Alongside the sale is the usual Q&A sessions.
+[17:52] You saw part one on our website released yesterday
 and part two will be posted tomorrow.
-There’s a lot of good information in these
+[17:56] There’s a lot of good information in these
 about the Terrapin.
-This month's Jump Point is now available to
+[18:00] This month's Jump Point is now available to
 our subscribers.
-This time we take a look at the making of
+[18:03] This time we take a look at the making of
 Grim Hex station and the ongoing head character
-development.
-Subscribers also received two vault updates
+[18:07] development.
+[18:08] Subscribers also received two vault updates
 this week that showcased a selection of procedurally
-generated planet shots and an early look at
+[18:12] generated planet shots and an early look at
 the Anvil Terrapin.
-Gamescom is now behind us.
-We had an absolute blast.
-We encourage you to share the Gamescom demo
+[18:17] Gamescom is now behind us.
+[18:19] We had an absolute blast.
+[18:21] We encourage you to share the Gamescom demo
 with your friends and family and let them
-see just how cool Star Citizen really is.
-Remember, word of mouth from you, our amazing
+[18:24] see just how cool Star Citizen really is.
+[18:26] Remember, word of mouth from you, our amazing
 backers is what makes this project possible.
-We want to thank Twerk 17, Deejay Knight,
+[18:31] We want to thank Twerk 17, Deejay Knight,
 BadNewsBaron and Captain_Richard for entertaining
-us all live from the show floor booth at Gamescom.
-In addition, thank you to all of the volunteers
+[18:36] us all live from the show floor booth at Gamescom.
+[18:39] In addition, thank you to all of the volunteers
 who helped us run this event and make sure
-that things went as smooth as possible, we
+[18:44] that things went as smooth as possible, we
 could not have done it without you.
-Lastly it’s time for our MVP award.
-A huge congratulations to Algared, BrettW,
+[18:48] Lastly it’s time for our MVP award.
+[18:50] A huge congratulations to Algared, BrettW,
 and GentleJes for holding this year's CruxCup.
-For those of you who are not familiar, this
+[18:57] For those of you who are not familiar, this
 is an annual ingame racing tournament organized
-and hosted by the community.
-Loaded with epic prizes.
-So congratulations again, you all are this
+[19:01] and hosted by the community.
+[19:03] Loaded with epic prizes.
+[19:05] So congratulations again, you all are this
 week’s MVPs.
-Back to you guys.
-Outro
-DT: Thanks Tyler.
-Maybe next time you and I can join the race,
+[19:09] Back to you guys.
+[19:16] Outro
+[19:22] DT: Thanks Tyler.
+[19:39] Maybe next time you and I can join the race,
 what do you think?
-BC: You’ll have to step up your game.
-DT: I’ll see what I can do.
-BC: Anyways that’s it for this week.
-Now that Gamescom’s ended, the team is back
+[19:42] BC: You’ll have to step up your game.
+[19:44] DT: I’ll see what I can do.
+[19:45] BC: Anyways that’s it for this week.
+[19:48] Now that Gamescom’s ended, the team is back
 in the trenches to get SC Alpha 2.5 out the
-door.
-Also working towards 3.0, also working on
+[19:55] door.
+[19:56] Also working towards 3.0, also working on
 Squadron 42.
-We’d like to thank all of our subscribers
+[20:00] We’d like to thank all of our subscribers
 that all us to bring this extra content to
-you on a regular basis.
-Please go to robertsspaceindustries.com.
-You can get info on future news, future events
+[20:06] you on a regular basis.
+[20:09] Please go to robertsspaceindustries.com.
+[20:11] You can get info on future news, future events
 that we have.
-You can also purchase merchandise there.
-I’ve heard, I don’t know exactly when
+[20:14] You can also purchase merchandise there.
+[20:16] I’ve heard, I don’t know exactly when
 yet, but I’ve heard soon we’ll have the
-Squadron 42 hoodies up there and those are
+[20:21] Squadron 42 hoodies up there and those are
 pretty cool.
-DT: We’d also like to give a shoutout to
+[20:24] DT: We’d also like to give a shoutout to
 our Star Citizen community who will be attending
-Insomnia at the NEC at Burlington this Saturday.
-Some of our team from the UK office will be
+[20:29] Insomnia at the NEC at Burlington this Saturday.
+[20:33] Some of our team from the UK office will be
 meeting BoredGamer at 4pm in the bar.
-The first 58 attendees will also get a special
+[20:39] The first 58 attendees will also get a special
 surprise.
-BC: I wonder what it is.
-DT: Well it’s a surprise, that’s what
+[20:44] BC: I wonder what it is.
+[20:45] DT: Well it’s a surprise, that’s what
 surprises are for.
-BC: Yeah, exactly.
-Please feel free to join us this Friday at
+[20:48] BC: Yeah, exactly.
+[20:50] Please feel free to join us this Friday at
 4pm local German time for Reverse the ‘Verse
-where we will be taking questions live, myself
+[20:57] where we will be taking questions live, myself
 and a few others based off of this week’s
-episode.
-As always we will see you next time...
-Both: Around the Verse
+[21:03] episode.
+[21:04] As always we will see you next time...
+[21:06] Both: Around the Verse

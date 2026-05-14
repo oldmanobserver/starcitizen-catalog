@@ -6,705 +6,705 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:13] Closed Captioning provided by the Imperial
 News Network.
-Okay you should be good to land on there,
+[00:17] Okay you should be good to land on there,
 I just came out of there.
-There were two people in there, I want to
+[00:19] There were two people in there, I want to
 kill the other one and I killed the other
-one.
-Yeah you’ve got an Avenger right behind
+[00:26] one.
+[00:27] Yeah you’ve got an Avenger right behind
 you.
-He looks like he’s gonna shoot you.
-Yeah he’s looking right at you.
-Oh this is not good as well.
-Just play it cool, you’ll be fine.
-He’s still just sitting there.
-I wonder if he’s waiting for you to get
+[00:28] He looks like he’s gonna shoot you.
+[00:31] Yeah he’s looking right at you.
+[00:35] Oh this is not good as well.
+[00:40] Just play it cool, you’ll be fine.
+[00:41] He’s still just sitting there.
+[00:42] I wonder if he’s waiting for you to get
 out to shoot you.
-Going for it, I’ve got the shotgun.
-Don’t get out yet, just stay in there for
+[00:51] Going for it, I’ve got the shotgun.
+[00:53] Don’t get out yet, just stay in there for
 a second.
-I want to try and go around and get in the
+[00:55] I want to try and go around and get in the
 back of the ship.
-I won't shoot him, but if you shoots you I’m
+[01:04] I won't shoot him, but if you shoots you I’m
 gonna shoot him okay?
-Oh the backs already open.
-I think I got this, I got this, slowly but
+[01:17] Oh the backs already open.
+[01:41] I think I got this, I got this, slowly but
 surely.
-He’s gonna move right when I get up to it,
+[01:59] He’s gonna move right when I get up to it,
 I know it.
-Oh I’m in, Oh he’s just killing you?
-Ah ****. I wonder if I can just shoot him
+[02:00] Oh I’m in, Oh he’s just killing you?
+[02:01] Ah ****. I wonder if I can just shoot him
 out of here.
-Okay let me see if I can try and get little
+[02:02] Okay let me see if I can try and get little
 up close and look like kind of around the
-corner.
-Oh!
-I got him!
-Oh my God.
-It’s a free ship.
-Alright, all done, I’m taking this to the
+[02:03] corner.
+[02:04] Oh!
+[02:05] I got him!
+[02:06] Oh my God.
+[02:07] It’s a free ship.
+[02:08] Alright, all done, I’m taking this to the
 edge of the universe, it’s over.
-That guy's done.
-Oh my God that was amazing.
-Sandi Gardiner (SG): Hey everybody, welcome
+[02:14] That guy's done.
+[02:15] Oh my God that was amazing.
+[02:16] Sandi Gardiner (SG): Hey everybody, welcome
 to season three, episode two of Around the
-‘Verse.
-I’m Sandi Gardiner, VP of Marketing.
-Chris Roberts (CR): And I’m Chris Roberts,
+[02:20] ‘Verse.
+[02:21] I’m Sandi Gardiner, VP of Marketing.
+[02:22] Chris Roberts (CR): And I’m Chris Roberts,
 CEO and Project Director of Star Citizen and
-Squadron 42, making another guest appearance
+[02:26] Squadron 42, making another guest appearance
 on Around the ‘Verse.
-So on this week’s news on the Star Citizen
+[02:30] So on this week’s news on the Star Citizen
 Alpha front, 2.5 has been making good progress
-and is currently testing with the Evocati.
-We’re hoping to go to a wider PTU this weekend
+[02:35] and is currently testing with the Evocati.
+[02:37] We’re hoping to go to a wider PTU this weekend
 so check for updates on the website for that.
-As you know we’re rotating between studios,
+[02:43] As you know we’re rotating between studios,
 so this week we’re going to highlight the
-U.K. studio and what they’ve been working
+[02:46] U.K. studio and what they’ve been working
 on.
-As you most likely already know I’ve been
+[02:49] As you most likely already know I’ve been
 spending a lot of time in the U.K. this year
-working closely with the team on Squadron
+[02:52] working closely with the team on Squadron
 42 as well as Star Citizen.
-I mean I have to say it’s an incredibly
+[02:56] I mean I have to say it’s an incredibly
 talented team, it’s not 180 strong which
-is amazing and I’m lucky enough to have
+[03:00] is amazing and I’m lucky enough to have
 them help me build such an ambitious set of
-games and you know of course the other studios
+[03:04] games and you know of course the other studios
 are also incredibly talented and great.
-So with that, let's throw it over to Nick
+[03:09] So with that, let's throw it over to Nick
 Elms, the Creative Director of Foundry 42
-and see what he has to say.
-Studio Report
-Nick Elms (NE): Hi everyone, welcome to another
+[03:14] and see what he has to say.
+[03:16] Studio Report
+[03:17] Nick Elms (NE): Hi everyone, welcome to another
 monthly update from here at Foundry 42 in
-Wilmslow.
-We’ve hopefully got a few interesting videos
+[03:22] Wilmslow.
+[03:23] We’ve hopefully got a few interesting videos
 for you today and we’re going to start with
-Karl, Zane, and Craig, all talking to you
+[03:27] Karl, Zane, and Craig, all talking to you
 about improvements we’ve been making to
-the landing system.
-Karl Jones (KJ): We’ve been working on a
+[03:32] the landing system.
+[03:33] Karl Jones (KJ): We’ve been working on a
 new landing system.
-We want to make everything a lot more intuitive,
+[03:35] We want to make everything a lot more intuitive,
 make sure the messaging is coming across to
-the player about what’s actually going on
+[03:40] the player about what’s actually going on
 in the same.
-So essentially how that’s going to work
+[03:43] So essentially how that’s going to work
 now is as soon as you drop your landing gear,
-you’re effectively in landing mode, which
+[03:47] you’re effectively in landing mode, which
 drops you down to Precision mode as well which
-means you’ve got more finer control over
+[03:52] means you’ve got more finer control over
 the ship speeds and the ship's movement and
-it also swaps out the AR for the landing AR
+[03:58] it also swaps out the AR for the landing AR
 that kind of flags all the landing areas and
-potential landing areas and whether or not
+[04:03] potential landing areas and whether or not
 they’re recommended or whether they’re
-valid or invalid.
-That kind of ties into the comm system too
+[04:08] valid or invalid.
+[04:10] That kind of ties into the comm system too
 because when you approach some of these official
-landing zones, you’ll have to ask for permission
+[04:15] landing zones, you’ll have to ask for permission
 to land on certain pads and stuff like that.
-You’ll get near a particular landing zone,
+[04:21] You’ll get near a particular landing zone,
 switch on comms and you’ll hail the tower
-at the station and request landing permission
+[04:27] at the station and request landing permission
 and then they’ll either grant it or not,
-AR will respond to whatever permissions they
+[04:33] AR will respond to whatever permissions they
 give.
-So if they don’t grant it, AR will tell
+[04:36] So if they don’t grant it, AR will tell
 you none of them are valid, if they do grant
-it, it’ll flag one of them for ya, call
+[04:41] it, it’ll flag one of them for ya, call
 you over, take your ship over there and as
-soon as you’re in a boundary box, you can
+[04:47] soon as you’re in a boundary box, you can
 either land manually because your landing
-gear is down anyways so you just do everything
+[04:52] gear is down anyways so you just do everything
 yourself, lower the ship down and physically
-stick it on a geometry yourself, or you can
+[04:58] stick it on a geometry yourself, or you can
 hold auto landing key down which will safely
-land you on the pad itself.
-Whether or not that’s available depends
+[05:05] land you on the pad itself.
+[05:07] Whether or not that’s available depends
 on which station you’re at.
-I know some of the high tech stations will
+[05:10] I know some of the high tech stations will
 offer the automatic landing and some of the
-others may not, it’s just all about what
+[05:15] others may not, it’s just all about what
 services they offer at that particular station.
-All aspects of the game, we’re constantly
+[05:22] All aspects of the game, we’re constantly
 working on whether or not there’s enough
-messaging in there and trying to improve the
+[05:25] messaging in there and trying to improve the
 experience and make it more intuitive to the
-player and landing was just one of those ones
+[05:30] player and landing was just one of those ones
 that we were always aware we were going to
-come back and revisit.
-This pass that we’re doing on it now should
+[05:35] come back and revisit.
+[05:37] This pass that we’re doing on it now should
 do a really good job at clearing everything
-up for the player.
-Zane Bien (ZB): In addition to making the
+[05:41] up for the player.
+[05:42] Zane Bien (ZB): In addition to making the
 whole landing system more intuitive in general
-to use, we want to have the UI improvements
+[05:47] to use, we want to have the UI improvements
 accompany.
-So we created a motion graphics mockup at
+[05:51] So we created a motion graphics mockup at
 what this would look like with the landing
-in different states.
-So when you have a recommended landing pad
+[05:57] in different states.
+[05:58] So when you have a recommended landing pad
 or a landing pad, you’re not able to land
-at a certain landing pad, we have different
+[06:05] at a certain landing pad, we have different
 UI states for that and that’s shown and
-demonstrated in this concept that we had one
+[06:10] demonstrated in this concept that we had one
 of our Senior UI Artists, Rich Morrison mock
-up for us.
-So one thing we wanted to keep in mind was
+[06:16] up for us.
+[06:18] So one thing we wanted to keep in mind was
 that because you could have so many different
-landing pads next to each other, we didn’t
+[06:22] landing pads next to each other, we didn’t
 want too much UI overlapping each other so
-we wanted to keep it simple, but obvious enough
+[06:29] we wanted to keep it simple, but obvious enough
 to see when you’re approaching the landing
-pad.
-The other thing that we also had to take into
+[06:32] pad.
+[06:33] The other thing that we also had to take into
 account was say for instance landing pads
-are embedded deep within a crater or are hidden
+[06:39] are embedded deep within a crater or are hidden
 away, we have a visual element to tell you
-where that landing pad is despite it being
+[06:47] where that landing pad is despite it being
 embedded.
-Craig Groundsell (CG): So our task was to
+[06:50] Craig Groundsell (CG): So our task was to
 improve the landing system to make it a lot
-simpler for players to land their ships.
-We had issues where players found it really
+[06:55] simpler for players to land their ships.
+[06:58] We had issues where players found it really
 hard to align it to the landing area and touch
-down, so the goal was to add in a few assists.
-So now we’ve got a feature where you can,
+[07:06] down, so the goal was to add in a few assists.
+[07:12] So now we’ve got a feature where you can,
 the ship will orientate itself to match the
-orientation of the landing area or the terrain
+[07:20] orientation of the landing area or the terrain
 of the planet.
-As soon as you engage the landing system,
+[07:26] As soon as you engage the landing system,
 we switch the flight mode into Precision mode
-so that helps the player with the maneuverability
+[07:33] so that helps the player with the maneuverability
 of the ship, means they can do a lot more
-precise maneuvers and bring it down to a smooth
+[07:39] precise maneuvers and bring it down to a smooth
 touch down.
-When the ships within a specific height of
+[07:42] When the ships within a specific height of
 the landing surfaces as well, we switch to
-automatic mode and bring the ship down in
+[07:49] automatic mode and bring the ship down in
 under autopilot to touch down.
-So when we get close to a potential landing
+[07:56] So when we get close to a potential landing
 surface, what we do is fire out a number of
-ray casts from beneath the ship to test the
+[08:02] ray casts from beneath the ship to test the
 surface normals on the ground and then we
-average those and try and orientate the ship
+[08:09] average those and try and orientate the ship
 upright to match those ground normals so that
-you should come in at the same orientation
+[08:17] you should come in at the same orientation
 as the potential landing site.
-Even with visual aids and UI feedback, it
+[08:22] Even with visual aids and UI feedback, it
 was still pretty hard to align the ship correctly
-onto a landing area, especially when you’ve
+[08:32] onto a landing area, especially when you’ve
 got a massive ship like the Retaliator and
-you’ve got other obstacles around the pad
+[08:36] you’ve got other obstacles around the pad
 that are quite easy to collide into.
-So I think this helps orientate the player
+[08:40] So I think this helps orientate the player
 better.
-The whole idea is that the then result is
+[08:45] The whole idea is that the then result is
 landing’s a lot easier and it’s a more
-enjoyable experience, but even then you can
+[08:50] enjoyable experience, but even then you can
 still turn off all these assists and try to
-land the ship yourself, and potentially make
+[08:55] land the ship yourself, and potentially make
 a hash of it or not.
-This should all go live with 2.5 although
+[09:00] This should all go live with 2.5 although
 we’ve got further iterations to do and to
-get some improved UI and get the latest UI
+[09:08] get some improved UI and get the latest UI
 prototypes in so it’s still an ongoing process.
-NE: I hope you enjoyed that and now we’re
+[09:15] NE: I hope you enjoyed that and now we’re
 going to go over to Gordon who’s going to
-talk to you about some of the improvements
+[09:19] talk to you about some of the improvements
 we’ve been making to the FPS cover system.
-Gordon Mclean (GM): You’ll already have
+[09:23] Gordon Mclean (GM): You’ll already have
 seen the weaponries system that went into
-the live universe in an earlier patch.
-That’s the system when you approach a wall,
+[09:26] the live universe in an earlier patch.
+[09:28] That’s the system when you approach a wall,
 A: your weapon will rise up in front of you
-to stop it clipping, and the cover system
+[09:32] to stop it clipping, and the cover system
 builds on top of that and as you approach
-the edge of a cover surface, A: you weapon
+[09:36] the edge of a cover surface, A: you weapon
 will move slightly to indicate that you can
-lean out from cover and that position you
+[09:40] lean out from cover and that position you
 can press the lean key to A: peak out of cover,
-you can press the fire key to blind fire,
+[09:48] you can press the fire key to blind fire,
 or you can press the indent sights button
-to step out fully and shoot.
-The parameters for the cover are all stored
+[09:52] to step out fully and shoot.
+[09:55] The parameters for the cover are all stored
 in DataCore.
-We’ve put different setups for different
+[09:59] We’ve put different setups for different
 weapons and for the different position in
-cover.
-Using Data Forge's live edit feature we can
+[10:03] cover.
+[10:04] Using Data Forge's live edit feature we can
 connect the game in real time and edit these
-parameters as you’re playing it and it gives
+[10:08] parameters as you’re playing it and it gives
 the Artists and Animators and Designs lots
-of freedom to tweak and modify these values
+[10:13] of freedom to tweak and modify these values
 rather than having to go in and create different
-overlay animations for each one.
-So the heavy work of the cover system is performed
+[10:18] overlay animations for each one.
+[10:20] So the heavy work of the cover system is performed
 in ray casting and we’ve got lots of rays
-that check whether you are in cover, whether
+[10:25] that check whether you are in cover, whether
 you can lean out of cover and also do things
-like stop the weapon clipping through the
+[10:30] like stop the weapon clipping through the
 wall if you rotate in towards cover.
-These rays try to estimate how close you are
+[10:34] These rays try to estimate how close you are
 to the edge of cover so that when you do perform
-a step out, it keeps you as close to the corner
+[10:39] a step out, it keeps you as close to the corner
 as possible so you’ve got the best view
-of the battle while exposing the least amount
+[10:43] of the battle while exposing the least amount
 of your body.
-Finally we’ve implemented a feature called
+[10:45] Finally we’ve implemented a feature called
 slice the pie, which is used while you’re
-stepped out of cover.
-So as you rotate further in towards a cover
+[10:49] stepped out of cover.
+[10:50] So as you rotate further in towards a cover
 surface, that will move you further out and
-give you a better view of your surroundings,
+[10:55] give you a better view of your surroundings,
 and we’re also going to extend this when
-we do a top cover and we’ve got a similar
+[10:58] we do a top cover and we’ve got a similar
 feature called slice the cheese which will
-take you further up so you can see down from
+[11:02] take you further up so you can see down from
 a balcony or from a higher up position to
-shoot below you.
-The cover system was originally conceived
+[11:07] shoot below you.
+[11:08] The cover system was originally conceived
 to slow the game down slightly more, make
-it feel a bit more tactical, sort of give
+[11:12] it feel a bit more tactical, sort of give
 you the option of taking your time and picking
-your targets, and when you’re playing it,
+[11:17] your targets, and when you’re playing it,
 a lot of the work went on with sort of Todd
-Papy, and Germany and John over here to sort
+[11:23] Papy, and Germany and John over here to sort
 of get the design right and get the feel of
-the game right, and we’ve had lots of work
+[11:26] the game right, and we’ve had lots of work
 from the various Animators whose Ian Colon,
-and did a lot of work to get these animators
+[11:31] and did a lot of work to get these animators
 feeling snappy and quick and so it felt natural
-and also there’s a lot of focus on making
+[11:36] and also there’s a lot of focus on making
 sure you wouldn’t get stuck in cover, it
-wouldn’t feel cumbersome, it was a very
+[11:40] wouldn’t feel cumbersome, it was a very
 sort of fluid and natural feeling system.
-A lot of the designers obviously play it while
+[11:44] A lot of the designers obviously play it while
 they’re doing the playtest or all us play
-it when we’re doing a playtest and it does
+[11:48] it when we’re doing a playtest and it does
 seem to be getting used more and more now
-that there’s more features coming online
+[11:51] that there’s more features coming online
 and it does feel quite satisfying when manage
-to kill someone from cover when you actually
+[11:56] to kill someone from cover when you actually
 managed to use it effectively.
-So all the guns will work in the cover system
+[11:59] So all the guns will work in the cover system
 and it’s sort of weapon agnostic, they’ve
-all got like I said different setups for DataCore
+[12:04] all got like I said different setups for DataCore
 and so the legs of a sniper rifle will have
-to raise slightly differently from a pedestal
+[12:08] to raise slightly differently from a pedestal
 and you’ll hold it differently when you’re
-in cover, but yeah they will work, you’ll
+[12:11] in cover, but yeah they will work, you’ll
 be able to walk up with a shotgun and sniper,
-look out, fire a shot, come back, and pull
+[12:17] look out, fire a shot, come back, and pull
 the shotgun and so on.
-So the procedural cover system is going live
+[12:20] So the procedural cover system is going live
 in 2.6.
-NE: And that’s all for this month from Foundry
+[12:24] NE: And that’s all for this month from Foundry
 42 Wilmslow, we’ll see you next month for
-another update.
-Back to Studio
-SG: Thanks Nick, and in other news Gamescom
+[12:29] another update.
+[12:30] Back to Studio
+[12:31] SG: Thanks Nick, and in other news Gamescom
 party tickets are sold out.
-So that is going to be a really fun event.
-There’s a livestream happening if you can’t
+[12:36] So that is going to be a really fun event.
+[12:38] There’s a livestream happening if you can’t
 make it on Friday, August 19th, Chris will
-be there, 1200 PST
-CR: In person.
-SG: Yeah, in person or 1900 UTC.
-Big Benny’s t-shirts in new sizes are available
+[12:42] be there, 1200 PST
+[12:43] CR: In person.
+[12:44] SG: Yeah, in person or 1900 UTC.
+[12:46] Big Benny’s t-shirts in new sizes are available
 for everybody.
-Also our staff have been very keen to get
+[12:50] Also our staff have been very keen to get
 in these t-shirts so look forward to seeing
-them on future ATV episodes.
-The rotating freefly ship which was the Sabre
+[12:54] them on future ATV episodes.
+[12:56] The rotating freefly ship which was the Sabre
 last month just ended for subscribers and
-the next one is now the Gladius so get in
+[13:00] the next one is now the Gladius so get in
 there and fly that.
-Meanwhile there’s a flash sale on the Sabre
+[13:03] Meanwhile there’s a flash sale on the Sabre
 this week due to popular request, but speaking
-of ships let's also check out one of the new
+[13:09] of ships let's also check out one of the new
 flyable ships that will be in 2.5.
-Ship Shape: Argo
-Geoff Coffin: Hey I'm Geoff, I'm currently
+[13:13] Ship Shape: Argo
+[13:15] Geoff Coffin: Hey I'm Geoff, I'm currently
 working in Tech Design.
-I'm working on the Argo multiperson utility
+[13:21] I'm working on the Argo multiperson utility
 vehicle, and today I'm just going to be showing
-you around the Argo, showing you a little
+[13:25] you around the Argo, showing you a little
 bit of the process that's gone behind it and
-all the work that's gone into it really.
-So, the Argo itself is primarily a Capital
+[13:29] all the work that's gone into it really.
+[13:32] So, the Argo itself is primarily a Capital
 ship support vehicle.
-So, what it does is you'll have the Idris
+[13:37] So, what it does is you'll have the Idris
 fly into a location, but it might not be able
-to go through an asteroid field or something
+[13:41] to go through an asteroid field or something
 like that, and the Argo can then fly in.
-It can pick up any survivors in one of its
+[13:45] It can pick up any survivors in one of its
 pods, or it can be fitted with the cargo pod
-with repair gear in the back of it, and with
+[13:51] with repair gear in the back of it, and with
 that repair gear if the ship gets damaged
-it can send out a crew of engineers that can
+[13:57] it can send out a crew of engineers that can
 fly around to the damaged part of the ship
-and they can start fixing it back up.
-It's also going to be having...
-the Argo doesn't currently have this because
+[14:00] and they can start fixing it back up.
+[14:02] It's also going to be having...
+[14:04] the Argo doesn't currently have this because
 it's a work in progress, but it's going to
-have a mechanical arm.
-It will also be able to repair parts of the
+[14:06] have a mechanical arm.
+[14:07] It will also be able to repair parts of the
 ship, but as I said it's currently a work
-in progress.
-Unfortunately it won't be going out in the
+[14:12] in progress.
+[14:13] Unfortunately it won't be going out in the
 live version of the ship.
-It is very much a support vessel.
-It has no quantum drive, it has no weapons,
+[14:15] It is very much a support vessel.
+[14:18] It has no quantum drive, it has no weapons,
 it's lightly armored.
-It's completely tethered to it's parent ship,
+[14:22] It's completely tethered to it's parent ship,
 but at the same time it's not really designed
-to be going out and doing its own individual
+[14:26] to be going out and doing its own individual
 thing.
-It's purely a support craft.
-The cargo itself has three pods.
-One is a cargo pod which you may have seen
+[14:29] It's purely a support craft.
+[14:31] The cargo itself has three pods.
+[14:33] One is a cargo pod which you may have seen
 in the CitizenCon video from last year where
-we introduced the Stanton.
-The cargo pod has space for a limited amount
+[14:38] we introduced the Stanton.
+[14:41] The cargo pod has space for a limited amount
 cargo and it's also got a seat for one personnel
-to sit in during a transport.
-It's also got a transport variant which has
+[14:46] to sit in during a transport.
+[14:49] It's also got a transport variant which has
 eight seats in it for obviously larger scale
-personnel pick up/drop off, which would be
+[14:53] personnel pick up/drop off, which would be
 quite handy for when the Idris is in orbit
-and you need to send the Argo down to a planet.
-Finally it's going to have a rescue and recovery
+[14:57] and you need to send the Argo down to a planet.
+[14:59] Finally it's going to have a rescue and recovery
 pod which we haven't finished yet, but this
-pod will have limited medical facilities,
+[15:04] pod will have limited medical facilities,
 so if someone gets injured on the battlefield
-you can cart them into it and take them back
+[15:08] you can cart them into it and take them back
 up to the ship to receive proper care.
-The Argo is also going to eventually be able
+[15:13] The Argo is also going to eventually be able
 to attach and detach it's pods.
-So, currently the different versions of the
+[15:18] So, currently the different versions of the
 Argo are different ships.
-So, you got the cargo Argo and the transport
+[15:22] So, you got the cargo Argo and the transport
 Argo which each have their own bespoke pod,
-but eventually you'll be able to detach one
+[15:26] but eventually you'll be able to detach one
 pod and attach another or even if it could
-get to an escape pod from a destroyed Capital
+[15:29] get to an escape pod from a destroyed Capital
 ship.
-For example, it could go out and pick up one
+[15:33] For example, it could go out and pick up one
 of those escape pods and then drop that off
-in the Idris or whatever its parent ship would
+[15:36] in the Idris or whatever its parent ship would
 be at the time.
-Yeah for a bit of the design process that
+[15:41] Yeah for a bit of the design process that
 went into the Argo, it used to have a much,
-a much sort of smaller pod, but that was a
+[15:48] a much sort of smaller pod, but that was a
 real… not really be able to store a lot
-of like cargo, couldn't really fit a person
+[15:53] of like cargo, couldn't really fit a person
 in the middle of the stuff, so the pod was
-made much bigger, and it was given a rear
+[15:58] made much bigger, and it was given a rear
 ramp.
-So, now picking up cargo and dropping it off
+[16:00] So, now picking up cargo and dropping it off
 is now considerably easier.
-It also looks a lot nicer, I think personally.
-Also the lower thrusters on the front of the
+[16:04] It also looks a lot nicer, I think personally.
+[16:09] Also the lower thrusters on the front of the
 ship, they’re currently located underneath
-the cockpit, but previously they used to be
+[16:13] the cockpit, but previously they used to be
 actually on these thruster pugs, which are
-the circular objects that all the thrusters
+[16:18] the circular objects that all the thrusters
 are mounted on, and what they would do is
-they used to fire down into the pod itself
+[16:22] they used to fire down into the pod itself
 which...
-yeah, we had to fix that cause it didn't look
+[16:25] yeah, we had to fix that cause it didn't look
 too great.
-[laugh]
-That is the thrusters on the Argo, on the
+[16:30] [laugh]
+[16:31] That is the thrusters on the Argo, on the
 legs, they don't rotate with the legs, so
-when it's landed it actually uses its legs
+[16:36] when it's landed it actually uses its legs
 as supports, and when it takes off its legs
-will rotate back into like a fixed position,
+[16:40] will rotate back into like a fixed position,
 so that they can help with flying cause the
-ends of the legs each have a main thruster
+[16:44] ends of the legs each have a main thruster
 on them and they've also got the retros mounted
-in there, but the pugs themselves on the sides
+[16:48] in there, but the pugs themselves on the sides
 don't rotate so they can actually help with
-takeoff and landing otherwise the ship would
+[16:52] takeoff and landing otherwise the ship would
 have a fairly hard time getting off the ground.
-There's also a few minor design changes it
+[16:56] There's also a few minor design changes it
 went through like in the early versions of
-the Argo that the public may have seen the
+[17:01] the Argo that the public may have seen the
 legs were... they were sloped much further
-forwards so a lot of the weight in the back
+[17:06] forwards so a lot of the weight in the back
 of the Argo was actually unsupported.
-There's a few videos floating, that we've
+[17:10] There's a few videos floating, that we've
 got floating around where the... when the
-Argo is placed into a gravity box, the sheer
+[17:14] Argo is placed into a gravity box, the sheer
 weight of the Argo, I mean it would rest on
-the floor for a few seconds and then just
+[17:19] the floor for a few seconds and then just
 rock backwards and yeah, that was a bit silly.
-Yeah, that's the Argo.
-It's a lovely little ship runner, basically
+[17:23] Yeah, that's the Argo.
+[17:26] It's a lovely little ship runner, basically
 it’s a skiff that's a general workhorse
-for all the Capital ships hopefully will be
+[17:31] for all the Capital ships hopefully will be
 flown around.
-MVP w/Tyler Witkin
-Tyler Witkin (TW): Hey guys Tyler Witkin here,
+[17:35] MVP w/Tyler Witkin
+[17:37] Tyler Witkin (TW): Hey guys Tyler Witkin here,
 Community Manager in the Austin, Texas studio
-here to bring you this week’s MVP.
-A huge congratulations Lord Bayne for his
+[17:43] here to bring you this week’s MVP.
+[17:46] A huge congratulations Lord Bayne for his
 efforts in creating SCLoreCast.
-Bayne takes Star Citizen lore to a whole new
+[17:50] Bayne takes Star Citizen lore to a whole new
 level by bringing it to life with music, sound
-effects, and epic voice acting.
-We can’t get enough of these so keep them
+[17:55] effects, and epic voice acting.
+[17:57] We can’t get enough of these so keep them
 coming, and congratulations again, you’re
-this week’s MVP.
-Back
-to you guys.
-Behind the Scenes: Catastrophic Damage of
+[18:00] this week’s MVP.
+[18:02] Back
+[19:14] to you guys.
+[19:16] Behind the Scenes: Catastrophic Damage of
 Capital Ships.
-Nathan Dearsley (ND): The stuff we’re about
+[19:26] Nathan Dearsley (ND): The stuff we’re about
 to show you today is the full R+D investigation
-into the catastrophic damage of Capital ships.
-There’s some very specific milestones and
+[19:35] into the catastrophic damage of Capital ships.
+[19:40] There’s some very specific milestones and
 goals that we try to accomplish with this
-cause there is a high level plan to have fully
+[19:47] cause there is a high level plan to have fully
 explorable dead ships, not only in space but
-also on planet surfaces.
-The idea behind the R+D work was initiated
+[19:53] also on planet surfaces.
+[19:58] The idea behind the R+D work was initiated
 should we say from a keypoint in the story,
-it was something that I wanted to kill two
+[20:07] it was something that I wanted to kill two
 birds with one stone so we know we wanted
-to achieve these things with the PU and why
+[20:12] to achieve these things with the PU and why
 not try and do the same for some parts of
-the story.
-So, the starting point was we obviously got
+[20:18] the story.
+[20:19] So, the starting point was we obviously got
 a lot of Capital ship material that we can
-use, ranging from the Idris, to the Javelin
+[20:25] use, ranging from the Idris, to the Javelin
 to the Bengal.
-The key point is that we didn’t want to
+[20:31] The key point is that we didn’t want to
 have to recreate everything from scratch so
-you could, for example, take an environment
+[20:37] you could, for example, take an environment
 or a ship and go, ‘ok, this is 100% damage
-now’ and start again.
-You would get very good result that way but
+[20:44] now’ and start again.
+[20:45] You would get very good result that way but
 we wanted to do is we really wanted to push
-strongly use of existing assets, simple shader
+[20:52] strongly use of existing assets, simple shader
 swaps and full use of the effects and lighting
-to push a mood and the feel into these areas.
-By default, when I went around a lot of the
+[20:59] to push a mood and the feel into these areas.
+[21:04] By default, when I went around a lot of the
 different departments and I spoke to them
-about the catastrophic damage, the default
+[21:09] about the catastrophic damage, the default
 thought that comes to everyone’s head is
-it’s on fire.
-Everything is burning to ashes and no one
+[21:14] it’s on fire.
+[21:16] Everything is burning to ashes and no one
 can escape or get out or get in and that’s
-great but if you study real world reference
+[21:22] great but if you study real world reference
 such as aircraft carriers, big ships in the
-ocean, oil rigs, they have very advanced fire
+[21:29] ocean, oil rigs, they have very advanced fire
 retardant systems, that’s more than capable
-of essentially putting catastrophic fires
+[21:36] of essentially putting catastrophic fires
 out.
-So, fire crews can get in and not only does
+[21:40] So, fire crews can get in and not only does
 that make things accessible but it also kind
-of opens up opportunity to have a lot of wet
+[21:46] of opens up opportunity to have a lot of wet
 surfaces that we can then with the light going
-out, play with very kind of clever lighting
+[21:51] out, play with very kind of clever lighting
 techniques to turn… kind of push a mood
-that we’re after which is dark, dead, slow,
+[21:57] that we’re after which is dark, dead, slow,
 it should kind of work.
-The environment that you’re used to should
+[22:03] The environment that you’re used to should
 now be working against you, so these are the
-things we’re trying to create.
-As mentioned first, we looked at a lot of
+[22:09] things we’re trying to create.
+[22:10] As mentioned first, we looked at a lot of
 real world reference such as oil rigs, the
-large structures that can put themselves out
+[22:17] large structures that can put themselves out
 like aircraft carriers.
-Obviously that’s not enough, there’s a
+[22:22] Obviously that’s not enough, there’s a
 wealth of films and reference that we can
-kind of look at and pull inspiration from.
-Lucky enough to have worked on some of those
+[22:26] kind of look at and pull inspiration from.
+[22:29] Lucky enough to have worked on some of those
 so much like the Cat, but the real kind of
-mood and feeling came from a lot of Ridley
+[22:38] mood and feeling came from a lot of Ridley
 Scott stuff and if the wheel isn’t broken
-I don’t believe in fixing it.
-So, we have a lot of inspiration from IP’s
+[22:45] I don’t believe in fixing it.
+[22:47] So, we have a lot of inspiration from IP’s
 such as Alien, Blade Runner, all the 80’s
-classic sci-fi film should we say.
-I hope that gives you some insight into the
+[22:54] classic sci-fi film should we say.
+[22:58] I hope that gives you some insight into the
 work that’s gone into the R+D for the catastrophic
-damage effects.
-It’s a huge collaborative approach between
+[23:03] damage effects.
+[23:04] It’s a huge collaborative approach between
 a lot of departments, not just Art but also
-Ali and his team and Mike and his team.
-With the VFX, seeing everyone come together
+[23:10] Ali and his team and Mike and his team.
+[23:13] With the VFX, seeing everyone come together
 to kind of produce these results is awe inspiring
-and I hope you liked it.
-Alistair Brown (AB): For the last couple of
+[23:19] and I hope you liked it.
+[23:21] Alistair Brown (AB): For the last couple of
 months the graphics team have been working
-on a bunch of features to improve the quality
+[23:24] on a bunch of features to improve the quality
 of the lighting predominantly so we can get
-some better visuals in the downed ships or
+[23:29] some better visuals in the downed ships or
 the crashed ships.
-This mainly comes down to improving the particle
+[23:33] This mainly comes down to improving the particle
 lighting and for the VFX team which we’ve
-added some volumetric features there to really
+[23:38] added some volumetric features there to really
 make it stand out especially when we’ve
-got all the fog and other effects going.
-The other part of what we’ve been working
+[23:42] got all the fog and other effects going.
+[23:44] The other part of what we’ve been working
 on is to improve the bloom and lens flares
-to give a better glare when you look at these
+[23:49] to give a better glare when you look at these
 bright lights which we get in these very dark
-and broken ships.
-When you think of a derelict or crashed spaceship,
+[23:53] and broken ships.
+[23:54] When you think of a derelict or crashed spaceship,
 probably one of the first things you can picture
-is the atmospheric lighting.
-With shafts of light in the smoky, mangled
+[23:58] is the atmospheric lighting.
+[24:00] With shafts of light in the smoky, mangled
 aftermath so it was clear that this would
-be an area of technology we would need to
+[24:04] be an area of technology we would need to
 focus on to achieve that look.
-The first improvement we wanted to make was
+[24:08] The first improvement we wanted to make was
 on the lighting of our particle effects, previously
-they would use their own lighting system which
+[24:12] they would use their own lighting system which
 didn’t support many of the usual features
-of our lights.
-So for example we would be missing crucial
+[24:15] of our lights.
+[24:17] So for example we would be missing crucial
 shadows or the brightness of the lights would
-be incorrect.
-The rest of the engine however uses a system
+[24:20] be incorrect.
+[24:22] The rest of the engine however uses a system
 called tiled lighting which can efficiently
-cope with hundreds of light sources and so
+[24:25] cope with hundreds of light sources and so
 we adapted this system so we can use it on
-our particle effects too and this really helped
+[24:30] our particle effects too and this really helped
 us tie the particle lighting in with the rest
-of the art much better.
-However because particles are really just
+[24:34] of the art much better.
+[24:35] However because particles are really just
 approximations of volumes, we decided to go
-one step further and apply volumetric lighting
+[24:39] one step further and apply volumetric lighting
 by sampling the lighting many times across
-each particle’s volume.
-This gives every light the ability to cast
+[24:44] each particle’s volume.
+[24:46] This gives every light the ability to cast
 light shaft within every particle effect.
-The other big change is to improve our bloom
+[24:51] The other big change is to improve our bloom
 and flare effect which simulates the glare
-and bounces of light you get due to imperfections
+[24:55] and bounces of light you get due to imperfections
 within a camera or the human eye.
-There are generally two approaches to flares,
+[24:59] There are generally two approaches to flares,
 artist driven and procedural.
-CryEngine’s base flare implementation is
+[25:04] CryEngine’s base flare implementation is
 artist driven and blends and distorts many
-textures on top of each other to create complex
+[25:08] textures on top of each other to create complex
 flares that can look great in the right conditions
-but also aren’t physically based so don’t
+[25:13] but also aren’t physically based so don’t
 simulate the actual lightship or spawn correctly
-to other effects such as depth of field and
+[25:17] to other effects such as depth of field and
 motion blur.
-Procedural techniques on the other hand are
+[25:21] Procedural techniques on the other hand are
 generated by code purely based on the high
-dynamic range image data and therefore give
+[25:25] dynamic range image data and therefore give
 accurate highlight shapes and respond to other
-effects as expected.
-However procedural technique usually look
+[25:30] effects as expected.
+[25:32] However procedural technique usually look
 quite simplistic due to their cost so we came
-up with an efficient method of generating
+[25:36] up with an efficient method of generating
 physically based flares where each individual
-element can be customized to exhibit a wide
+[25:40] element can be customized to exhibit a wide
 range of physically based distortions and
-colour shifts.
-Yeah, the whole system still runs faster than
+[25:44] colour shifts.
+[25:45] Yeah, the whole system still runs faster than
 our previous system.
-So, hopefully you can see the benefits of
+[25:48] So, hopefully you can see the benefits of
 all the new tech and hopefully it will be
-with you soon in the next few weeks in the
+[25:52] with you soon in the next few weeks in the
 next release.
-Darren Lambourne (DL): I’ve been working
+[25:54] Darren Lambourne (DL): I’ve been working
 on the sound design for the ambience inside
-the Idris and specifically the last few days
+[25:59] the Idris and specifically the last few days
 have been working on the various damage levels
-across the ship so from 10% damage right up
+[26:05] across the ship so from 10% damage right up
 to 100% and today I’m going to show you
-the more extreme of those damage states and
+[26:12] the more extreme of those damage states and
 that the Idris on a really, really bad day.
-So, here we are on the Idris and obviously
+[26:17] So, here we are on the Idris and obviously
 looking around something pretty catastrophic
-has happened so this is the audio design for
+[26:22] has happened so this is the audio design for
 a very damaged, crashed in fact, Idris and
-we’ll fly through the level now, nice and
+[26:32] we’ll fly through the level now, nice and
 slowly so you can soak up the ambience and
-I’ll keep the chat to a minimum.
-Once again, with this version of the Idris
+[26:39] I’ll keep the chat to a minimum.
+[27:11] Once again, with this version of the Idris
 the emphasis has been on detail and creating
-a very positional 3D environment to explore.
-This approach of using hundreds upon hundreds
+[27:20] a very positional 3D environment to explore.
+[28:25] This approach of using hundreds upon hundreds
 of individual sound spots of create the audio
-environment does give you this sort of 3D
+[28:31] environment does give you this sort of 3D
 positional thing but it gives you a great
-sense of depth and as you approach many of
+[28:35] sense of depth and as you approach many of
 these sound spots, their character changes.
-They brighten as you get closer to them and
+[28:42] They brighten as you get closer to them and
 we bring in lots more layers of detail so
-as you examine something and get closer to
+[28:49] as you examine something and get closer to
 it, it opens up and you see and hear more
-information.
-So, for just a moment let’s remind ourselves
+[28:57] information.
+[29:01] So, for just a moment let’s remind ourselves
 what it’s like on the other end of the damage
-spectrum, onboard the Idris on a good day
+[29:09] spectrum, onboard the Idris on a good day
 and you could hear it’s a pretty serene
-experience.
-It’s a calm, gentle ambience that the ship’s
+[29:16] experience.
+[29:17] It’s a calm, gentle ambience that the ship’s
 humming away nicely
-but as we start to bring up the procedural
+[29:30] but as we start to bring up the procedural
 damage in the audio.
-Things start to rattle and hum and the ambience
+[29:35] Things start to rattle and hum and the ambience
 changes dramatically, the whole feel of the
-ship changes.
-Much more tension.
-The electrical boxes on the wall rattling
+[29:44] ship changes.
+[29:45] Much more tension.
+[29:46] The electrical boxes on the wall rattling
 and vibrating in different ways, again reflected
-in hundreds of sound spots across the ship.
-That all have this dynamic character which
+[29:58] in hundreds of sound spots across the ship.
+[30:00] That all have this dynamic character which
 morphs and changes to reflect the health of
-the ship.
-So right now, let’s have a look back on
+[30:07] the ship.
+[30:19] So right now, let’s have a look back on
 the catastrophically damaged Idris.
-Let’s take a quick look behind the scenes.
-So, here you can see we’ve got some emergency
+[30:43] Let’s take a quick look behind the scenes.
+[31:26] So, here you can see we’ve got some emergency
 fire sprinkler sounds and there’s a particle
-system right now and that has a sound of the
+[31:31] system right now and that has a sound of the
 sprinkler associated with it.
-Here on the floor there’s an auxiliary sound,
+[31:37] Here on the floor there’s an auxiliary sound,
 it’s the sound of water drops splashing
-and hitting other surfaces so you know there’s
+[31:43] and hitting other surfaces so you know there’s
 these different dimensions too even simple
-ambient sounds such as the fire sprinkler.
-So hopefully that’s given you a sense of
+[31:48] ambient sounds such as the fire sprinkler.
+[32:13] So hopefully that’s given you a sense of
 what we’re doing to bring the ship alive
-really and take our immersion to the next
+[32:16] really and take our immersion to the next
 level.
-So yeah, thanks for watching.
-Outro
-CR: Now tell me that wasn’t amazing.
-I hope that shows the kind of attention to
+[32:19] So yeah, thanks for watching.
+[32:21] Outro
+[32:22] CR: Now tell me that wasn’t amazing.
+[32:24] I hope that shows the kind of attention to
 detail we’re aiming for.
-Imagine coming across a crashed wreck on a
+[32:29] Imagine coming across a crashed wreck on a
 planet or floating in space or perhaps in
-Squadron 42, it’s just going to be so cool.
-SG: Yeah, that was totally awesome and in
+[32:32] Squadron 42, it’s just going to be so cool.
+[32:35] SG: Yeah, that was totally awesome and in
 other news Ben is back at work.
-Happy to have him back at work, he may or
+[32:40] Happy to have him back at work, he may or
 may not make an appearance on RtV although
-it’s a little early as we’re changing
+[32:45] it’s a little early as we’re changing
 the time to accomodate the UK.
-Reverse the Verse will be on 4 pm local UK
+[32:49] Reverse the Verse will be on 4 pm local UK
 time so you can Q+A with UK Devs including
-our Vehicle Art Director Nathan Dearsley.
-CR: Always very interesting to listen to him
+[32:55] our Vehicle Art Director Nathan Dearsley.
+[32:57] CR: Always very interesting to listen to him
 so with that we’d like to thank all the
-subscribers for making this show possible
+[33:03] subscribers for making this show possible
 and the all the backers out there for making
-Star Citizen and Squadron 42 possible and
+[33:07] Star Citizen and Squadron 42 possible and
 we’ll see you around the ‘Verse.
-SG: Around the ‘Verse.
+[33:28] SG: Around the ‘Verse.

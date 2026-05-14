@@ -6,723 +6,723 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:10] Closed Captioning provided by the Imperial
 News Network.
-Elwin Bachiller (EB): Greetings fellow citizens.
-Welcome to the next episode of 10 for the
+[00:24] Elwin Bachiller (EB): Greetings fellow citizens.
+[00:27] Welcome to the next episode of 10 for the
 Developers, I’m Elwin Bachiller Junior,
-Lead Vehicle Artist in LA and I’m here with...
-Patrick Salerno (PS): Associate Technical
+[00:31] Lead Vehicle Artist in LA and I’m here with...
+[00:33] Patrick Salerno (PS): Associate Technical
 Artist Patrick Salerno.
-EB: And we’d like to thank all of the subscribers
+[00:36] EB: And we’d like to thank all of the subscribers
 for making this show happen.
-Without you guys we wouldn’t be able to
+[00:40] Without you guys we wouldn’t be able to
 put this operation together and you guys really
-help us develop the game.
-So patrick, I have a question for you.
-PS: Yes
-EB: It’s from EarthFyre.
-[0:54] EarthFyre asks: What aspects of the
+[00:43] help us develop the game.
+[00:46] So patrick, I have a question for you.
+[00:49] PS: Yes
+[00:50] EB: It’s from EarthFyre.
+[00:51] [0:54] EarthFyre asks: What aspects of the
 development process do you enjoy, or perhaps
-find difficult but rewarding?
-PS: What aspects in particular?
-Well, I like the challenge mainly.
-You come in everyday, and it’s a different
+[00:55] find difficult but rewarding?
+[00:57] PS: What aspects in particular?
+[00:58] Well, I like the challenge mainly.
+[01:00] You come in everyday, and it’s a different
 type of puzzle to solve.
-You constantly learn new things, and there’s
+[01:03] You constantly learn new things, and there’s
 new tasks.
-I need to be specific.
-Lately I’ve been learning how to put ships
+[01:06] I need to be specific.
+[01:07] Lately I’ve been learning how to put ships
 together and then tear them apart again and
-that’s cool to me.
-You go in, you see the model, you see how
+[01:11] that’s cool to me.
+[01:12] You go in, you see the model, you see how
 it’s put together; you yank out the pieces,
-put them in the xml and then you go in the
+[01:16] put them in the xml and then you go in the
 engine and you shoot it.
-Then it blows apart, and there’s explosions
+[01:18] Then it blows apart, and there’s explosions
 everywhere.
-EB: Yeah your favorite part is breaking all
+[01:20] EB: Yeah your favorite part is breaking all
 of the hard work that me and my team do.
-PS: Yeah, basically.
-EB: Yeah, that’s great.
-Well for me the most rewarding part for me
+[01:25] PS: Yeah, basically.
+[01:27] EB: Yeah, that’s great.
+[01:29] Well for me the most rewarding part for me
 is just when the whole thing comes together
-and you finally get to climb into your ship,
+[01:33] and you finally get to climb into your ship,
 turn everything on and take off and fly.
-Ultimately, I mean obviously I enjoy doing
+[01:38] Ultimately, I mean obviously I enjoy doing
 all the artwork for it and the struggles you
-have to go through to make that happen, but
+[01:43] have to go through to make that happen, but
 when you actually get to play the asset and
-everything works the way it’s supposed to,
+[01:47] everything works the way it’s supposed to,
 that’s the most gratifying moment for me;
-cause ultimately I want an awesome game.
-[1:56] Coldgas asks: What have you been working
+[01:51] cause ultimately I want an awesome game.
+[01:55] [1:56] Coldgas asks: What have you been working
 on the past few days?
-Any details you can tell us about?
-EB: Yeah very easily.
-The last couple of days I’ve been very specifically
+[02:02] Any details you can tell us about?
+[02:03] EB: Yeah very easily.
+[02:05] The last couple of days I’ve been very specifically
 been working on the beginning development
-stages of the Caterpillar.
-That means doing some whitebox work, that
+[02:09] stages of the Caterpillar.
+[02:11] That means doing some whitebox work, that
 means taking some concept work and bashing
-it in to make sure it all conforms with the
+[02:17] it in to make sure it all conforms with the
 gameplay.
-It also means starting to do some work and
+[02:20] It also means starting to do some work and
 research on how materials work.
-So specifically we’re putting a lot of effort
+[02:24] So specifically we’re putting a lot of effort
 into developing how the paint wears on the
-metal in the Drake ships because they have
+[02:30] metal in the Drake ships because they have
 a very different style than Aegis for example.
-So that’s what I’ve been up to.
-PS: Ok.
-For me in particular transitioning from optimisation
+[02:35] So that’s what I’ve been up to.
+[02:38] PS: Ok.
+[02:39] For me in particular transitioning from optimisation
 to helping create these, they’re called
-ship set up levels and it’s where you bring
+[02:45] ship set up levels and it’s where you bring
 all the pieces together.
-In terms of optimisation i’ve been finishing
+[02:48] In terms of optimisation i’ve been finishing
 up just the level of detail pass on all of
-the flyable ships in the game to get a little
+[02:54] the flyable ships in the game to get a little
 bit more performance out of them.
-Did a segment recently on that, goes into
+[02:59] Did a segment recently on that, goes into
 more detail.
-But, yeah!
-Putting all the pieces together, trying to
+[03:02] But, yeah!
+[03:03] Putting all the pieces together, trying to
 make the work flow and the pipeline a bit
-easier for other artists.
-Just go in, check out the ship, shoot it,
+[03:07] easier for other artists.
+[03:10] Just go in, check out the ship, shoot it,
 look at it in different lighting conditions,
-look at all the lights etc, etc.
-EB: Cool.
-[3:18] Belzoth asks: Can you define what a
+[03:13] look at all the lights etc, etc.
+[03:15] EB: Cool.
+[03:17] [3:18] Belzoth asks: Can you define what a
 successful ship is to you?
-PS: To me in particular, well, to me a successful
+[03:21] PS: To me in particular, well, to me a successful
 ship is one that has made it through the entire
-pipeline in an efficient manner.
-What that means, in particular, is going through
+[03:28] pipeline in an efficient manner.
+[03:31] What that means, in particular, is going through
 all of the different phases of development
-, from concept to actual modeling, texturing,
+[03:35] , from concept to actual modeling, texturing,
 lighting, the whole destruction system, and
-just making it into the engine, and performing
+[03:43] just making it into the engine, and performing
 optimally.
-To me, that’s a successful ship.
-That means that it went through, you know,
+[03:46] To me, that’s a successful ship.
+[03:48] That means that it went through, you know,
 who knows how many hands and then ended up,
-you know, boom, in-game going, ready to go.
-You don’t have to go back and fix things
+[03:53] you know, boom, in-game going, ready to go.
+[03:55] You don’t have to go back and fix things
 that you’ve broken.
-That’s a successful ship to me.
-EB: Right, I mean I can agree with that, to
+[03:56] That’s a successful ship to me.
+[03:58] EB: Right, I mean I can agree with that, to
 some degree.
-I know you are really focused on the development
+[04:01] I know you are really focused on the development
 part of it, but I think to me, a successful
-ship really is a ship that when I first show
+[04:05] ship really is a ship that when I first show
 it to someone, they’re like holy -, I wanna
-fly that thing right now.
-That’s basically a successful ship.
-And I hope we can develop a lot of those.
-PS: Definitely.
-[4:20] Daz asks: When optimizing, are you
+[04:12] fly that thing right now.
+[04:13] That’s basically a successful ship.
+[04:14] And I hope we can develop a lot of those.
+[04:22] PS: Definitely.
+[04:24] [4:20] Daz asks: When optimizing, are you
 aiming for specific number of assets/triangles
-on screen at any given time?
-With backers keen in getting into some big
+[04:30] on screen at any given time?
+[04:36] With backers keen in getting into some big
 space battles how do you determine what is
-possible and what ship count to set?
-Given that it is possible for citizens to
+[04:39] possible and what ship count to set?
+[04:41] Given that it is possible for citizens to
 pack a bunch of ships into a small area close
-to each other causing a huge amount of detail
+[04:45] to each other causing a huge amount of detail
 to be visible at close range, how do you manage
-this?
-PS: It’s kind of large question.
-There’s a lot of variables that come into
+[04:48] this?
+[04:49] PS: It’s kind of large question.
+[04:51] There’s a lot of variables that come into
 it but really … really every ship is a bit
-different.
-Every ship is its own puzzle you need to solve.
-And your general goal is to get them down
+[04:59] different.
+[05:00] Every ship is its own puzzle you need to solve.
+[05:02] And your general goal is to get them down
 to roughly the same level.
-So what I mean by that is at least just in
+[05:05] So what I mean by that is at least just in
 terms of level of detail, when the model slowly
-disappears we’ll focus on that.
-That’s really important.
-That saves a lot of performance.
-When you are up close to someone, you see
+[05:09] disappears we’ll focus on that.
+[05:11] That’s really important.
+[05:12] That saves a lot of performance.
+[05:13] When you are up close to someone, you see
 the ship: it has all of its internal stuff,
-all of its external stuff.
-All that full detail stuff, right?
-But when you are far away, you may not realise
+[05:16] all of its external stuff.
+[05:17] All that full detail stuff, right?
+[05:18] But when you are far away, you may not realise
 by you are not rendering all that stuff.
-Like things get culled: the interior might
+[05:23] Like things get culled: the interior might
 disappear, the model might degrade in quality
-a bit.
-Not noticeable.
-That’s where it comes down to.
-Things like that are where we come in and
+[05:26] a bit.
+[05:27] Not noticeable.
+[05:28] That’s where it comes down to.
+[05:29] Things like that are where we come in and
 we look at the statistics and we say “How
-is this performing?
-How many ships can we have in an area?
-How much detail can we get at various ranges?”
-And then we just optimise from there.
-I mean for a specific number?
-Really there’s not specific number of assets
+[05:34] is this performing?
+[05:35] How many ships can we have in an area?
+[05:37] How much detail can we get at various ranges?”
+[05:40] And then we just optimise from there.
+[05:41] I mean for a specific number?
+[05:43] Really there’s not specific number of assets
 or … it’s just like, you know, whatever
-people’s computers can really handle based
+[05:49] people’s computers can really handle based
 on what we use to work with.
-EB: Yeah.
-I mean the beauty of having this game run
+[05:54] EB: Yeah.
+[05:55] I mean the beauty of having this game run
 on a PC is that the more power you have, the
-more of the beautiful visuals you can have
+[05:58] more of the beautiful visuals you can have
 rendering at the same time.
-PS: Yes.
-EB: So part of it is hardware related, but
+[06:03] PS: Yes.
+[06:04] EB: So part of it is hardware related, but
 obviously we’re trying to optimise as much
-as possible to make the game run as smooth
+[06:08] as possible to make the game run as smooth
 as possible for as many people as possible.
-PS: Yes.
-Exactly.
-[6:16] Farasalt asks: Has there been a particular
+[06:13] PS: Yes.
+[06:15] Exactly.
+[06:16] [6:16] Farasalt asks: Has there been a particular
 time when you have had to make a decision
-to not implement the most 'realistic' version
+[06:23] to not implement the most 'realistic' version
 of a part due to technical/design limitations
-and if yes, why?
-EB: Interesting, so I spent a lot of time
+[06:29] and if yes, why?
+[06:31] EB: Interesting, so I spent a lot of time
 working on the Merlin and I made that thing
-so that you’d be able to open up every single
+[06:37] so that you’d be able to open up every single
 compartment to access, every single component,
-but for technical reasons I had to rip all
+[06:42] but for technical reasons I had to rip all
 that stuff out at the last minute and cap
-the holes to get the ship to run because it
+[06:48] the holes to get the ship to run because it
 was pulling way too many draw calls.
-So that’s one example of many that we’ve
+[06:55] So that’s one example of many that we’ve
 had in the game, but the process of developing
-a game often tends to be trying to go as far
+[07:00] a game often tends to be trying to go as far
 as you can with a specific type of idea and
-developing it as far as you can and realizing,
+[07:07] developing it as far as you can and realizing,
 “Oh man, this isn’t going to work, so
-how do we solve this problem with less resources?”.
-So that’s just kind of a theme for game
+[07:12] how do we solve this problem with less resources?”.
+[07:15] So that’s just kind of a theme for game
 development in general and that’s what happened
-with the Merlin.
-It made me sad because it looked really awesome
+[07:20] with the Merlin.
+[07:21] It made me sad because it looked really awesome
 when you pushed the play button and everything
-popped open.
-PS: I saw it, it was so cool.
-EB: Yeah it was very cool.
-Maybe we can get that back into the game at
+[07:24] popped open.
+[07:25] PS: I saw it, it was so cool.
+[07:26] EB: Yeah it was very cool.
+[07:28] Maybe we can get that back into the game at
 some point in the future, but at the moment
-that was one example of what we had to tear
+[07:31] that was one example of what we had to tear
 out.
-[7:37] Amontillado asks: How closely does
+[07:41] [7:37] Amontillado asks: How closely does
 LOD work tie into manufacturer style guides?
-Does knowing what makes a MISC ship a MISC
+[07:46] Does knowing what makes a MISC ship a MISC
 ship help you create LODs for say the Freelancer
-and Starfarer more quickly or does it make
+[07:47] and Starfarer more quickly or does it make
 little difference?
-PS: Well actually not really much at all.
-The concept for the ship and the main base
+[07:48] PS: Well actually not really much at all.
+[07:49] The concept for the ship and the main base
 ship and everything that makes it up is based
-on the Manufacturer Style Guides.
-LODs are based on the actual geometry for
+[07:53] on the Manufacturer Style Guides.
+[07:55] LODs are based on the actual geometry for
 the ship itself and the best way to optimise
-that down to a level where we can include
+[08:00] that down to a level where we can include
 it with all the other ships and maintain high
-performance.
-So LODs aren’t really based on style guides.
-You might, you might try, you obviously want
+[08:04] performance.
+[08:05] So LODs aren’t really based on style guides.
+[08:07] You might, you might try, you obviously want
 to keep the silhouette of the ship and keep
-it looking like, you don’t want it to just
+[08:11] it looking like, you don’t want it to just
 look blocky.
-So if this ship has these nice curves along
+[08:13] So if this ship has these nice curves along
 the edges you don’t want the LODs to just
-block them out or chop them up, you want them
+[08:17] block them out or chop them up, you want them
 to maintain that shape.
-EB: Right.
-I mean what that does mean though for LODs
+[08:21] EB: Right.
+[08:23] I mean what that does mean though for LODs
 there are some ship styles that are more difficult
-to deal with, because of that.
-So a very blocky ship, generally speaking
+[08:28] to deal with, because of that.
+[08:31] So a very blocky ship, generally speaking
 a very blocky ship, would be easier to LOD
-because you wouldn’t notice the changes
+[08:37] because you wouldn’t notice the changes
 in the surfaces as much as you would as a
-ship that’s a little bit more rounded, so
+[08:40] ship that’s a little bit more rounded, so
 yeah.
-Style Guides don’t affect it, but the Style
+[08:45] Style Guides don’t affect it, but the Style
 Guide does, indirectly affect, how hard it
-is to make the LOD for it.
-PS: Correct.
-[8:55] Wolf_Frakken asks: It was mentioned
+[08:51] is to make the LOD for it.
+[08:52] PS: Correct.
+[08:54] [8:55] Wolf_Frakken asks: It was mentioned
 on INN by Lando recently that the Caterpillar
-will be somewhat of a benchmark for Drake
+[09:00] will be somewhat of a benchmark for Drake
 ships as far as design and looks go.
-From your perspective, could you expand on
+[09:04] From your perspective, could you expand on
 that more and how it will affect the Buccaneer,
-Dragonfly, Herald and Cutlass?
-How could you see the designs changing based
+[09:08] Dragonfly, Herald and Cutlass?
+[09:10] How could you see the designs changing based
 on what you've done with the Caterpillar?
-I know it is hard to live up to everyone's
+[09:13] I know it is hard to live up to everyone's
 expectations, but without teasing too much,
-how excited should we be about what is coming
+[09:17] how excited should we be about what is coming
 to the rest of the Drake line?
-EB: You should be very excited for what’s
+[09:20] EB: You should be very excited for what’s
 coming for the rest of the Drake line!
-And it is incredibly hard to live up to any
+[09:26] And it is incredibly hard to live up to any
 expectations for the quality bar for these
-ships!
-But it is true that the Caterpillar is going
+[09:32] ships!
+[09:33] But it is true that the Caterpillar is going
 to be sort of the first, I guess the flagship,
-ship for Drake.
-I know we have the Cutlass already out there,
+[09:41] ship for Drake.
+[09:43] I know we have the Cutlass already out there,
 and that was one was developed with techniques
-that we’ve improved on since they were created.
-So we will have to go back and sort of upgrade
+[09:47] that we’ve improved on since they were created.
+[09:51] So we will have to go back and sort of upgrade
 those to the quality of the new ships.
-So we’re trying to hit the bar of essentially
+[09:56] So we’re trying to hit the bar of essentially
 what the Retaliator is.
-So the Retaliator has the latest and greatest
+[09:59] So the Retaliator has the latest and greatest
 technology built into it and I think the Gladius
-does as well and the Gladiator might have
+[10:04] does as well and the Gladiator might have
 most of that in there.
-So we have a lot of ships that are already
+[10:08] So we have a lot of ships that are already
 starting to set an example for the kind of
-quality bar that we want to go for, and also
+[10:12] quality bar that we want to go for, and also
 the techniques that we’re using for various
-reasons.
-Damage, variety.
-Making sure that we keep our texture resolution
+[10:17] reasons.
+[10:19] Damage, variety.
+[10:21] Making sure that we keep our texture resolution
 high enough requires us to build our ships
-in a certain specific way.
-So ships like the Cutlass were not developed
+[10:25] in a certain specific way.
+[10:27] So ships like the Cutlass were not developed
 that way.
-PS: Correct
-EB: And so it will have to get an upgrade.
-Now the Caterpillar is sort of the shp that
+[10:30] PS: Correct
+[10:31] EB: And so it will have to get an upgrade.
+[10:32] Now the Caterpillar is sort of the shp that
 we are pushing for to define the look of what
-Drake is.
-So when we’re done with that one we will
+[10:39] Drake is.
+[10:40] So when we’re done with that one we will
 end up having to reuse some of the textures
-that we developed for it, some of the shape
+[10:46] that we developed for it, some of the shape
 language, maybe even some assets.
-Whatever makes it easier for us to develop
+[10:51] Whatever makes it easier for us to develop
 the future ships.
-Then apply that to the Cutlass, do the same
+[10:54] Then apply that to the Cutlass, do the same
 thing with the Herald, do the same thing with
-the Dragonfly, and the Buccaneer.
-Ok I wasn’t sure those names were public!
-So you should expect that the lineup for Drake
+[11:00] the Dragonfly, and the Buccaneer.
+[11:04] Ok I wasn’t sure those names were public!
+[11:08] So you should expect that the lineup for Drake
 will look a family of ships.
-So if I look at a Dragonfly I should immediately
+[11:13] So if I look at a Dragonfly I should immediately
 say “Hey that’s a Drake ship!”
-For this and that and that reason.
-So we’re definitely trying to unify the
+[11:18] For this and that and that reason.
+[11:20] So we’re definitely trying to unify the
 looks with something we’ve been working
-on.
-All of the manufacturers you should be able
+[11:23] on.
+[11:24] All of the manufacturers you should be able
 to see this now between the Starfarer and
-the Freelancer.
-The UK team did a really great job unifying
+[11:30] the Freelancer.
+[11:31] The UK team did a really great job unifying
 those two ships.
-They look like they’re exactly from the
+[11:34] They look like they’re exactly from the
 same family.
-The Reliant also because it used a lot of
+[11:36] The Reliant also because it used a lot of
 assets that were involved in the UK.
-So we’re trying to do the same thing with
+[11:42] So we’re trying to do the same thing with
 Drake and the Caterpillar is the first one
-online.
-PS: Yeah.
-And then as Elwin was saying as we build more
+[11:45] online.
+[11:46] PS: Yeah.
+[11:47] And then as Elwin was saying as we build more
 ships based on our Style Guides you’ll see
-a more cohesive look come together.
-‘Cause the more pieces you have from things
+[11:52] a more cohesive look come together.
+[11:53] ‘Cause the more pieces you have from things
 you remade you end up getting a giant library
-based on these pieces and design aesthetics.
-So it’s easier for existing artists, new
+[11:57] based on these pieces and design aesthetics.
+[11:59] So it’s easier for existing artists, new
 artists to just come in pick up, go “Oh
-that’s what that manufacturer looks like”.
-Based on existing ships versus the hardest
+[12:03] that’s what that manufacturer looks like”.
+[12:05] Based on existing ships versus the hardest
 part is coming up with it.
-You’ve got all these different manufacturers
+[12:08] You’ve got all these different manufacturers
 and each one needs to have a unique aesthetic
-EB: Yeah, yeah, cool.
-Next question
-[12:18] Cavguy asks: One of the fascinating
+[12:12] EB: Yeah, yeah, cool.
+[12:17] Next question
+[12:18] [12:18] Cavguy asks: One of the fascinating
 things for me watching you guys build Star
-Citizen is how you pull it together.
-Can you talk through the changes to the ship
+[12:22] Citizen is how you pull it together.
+[12:25] Can you talk through the changes to the ship
 pipeline over the last year and how it's reduced
-the time it takes to get a ship from concept
+[12:29] the time it takes to get a ship from concept
 to flight?
-Also, do you think there is room for improvement
+[12:32] Also, do you think there is room for improvement
 (maybe we can get the Carrack sooner)?
-PS: Yeah.
-Definitely.
-I think you might actually be a bit better
+[12:37] PS: Yeah.
+[12:38] Definitely.
+[12:39] I think you might actually be a bit better
 answering this question per se but from what
-I’ve seen from the ship pipeline as a whole,
+[12:42] I’ve seen from the ship pipeline as a whole,
 from Concept to Tech Design to Implementation,
-we’ve definitely made progress.
-Because we’re working more closely with
+[12:47] we’ve definitely made progress.
+[12:49] Because we’re working more closely with
 our other studios, we do a lot of the tech
-and the design and help with the engineering.
-And it’s all just coming together and you’re
+[12:54] and the design and help with the engineering.
+[12:56] And it’s all just coming together and you’re
 seeing things, higher quality, more complicated
-assets, coming out quicker.
-Right?
-Versus concepting it, building the tech, putting
+[13:02] assets, coming out quicker.
+[13:04] Right?
+[13:05] Versus concepting it, building the tech, putting
 the tech into practice, experimenting on it,
-breaking it, fixing it, and rebuilding it.
-Right?
-The pipeline’s come together which means
+[13:10] breaking it, fixing it, and rebuilding it.
+[13:12] Right?
+[13:13] The pipeline’s come together which means
 assets are getting pushed out faster.
-EB: Yeah.
-Absolutely.
-To speak specifically about what some of the
+[13:16] EB: Yeah.
+[13:18] Absolutely.
+[13:19] To speak specifically about what some of the
 changes … what some of the changes have
-been to the pipeline specifically in developing
+[13:24] been to the pipeline specifically in developing
 the ships.
-We’ve moved slightly away from a paradigm
+[13:28] We’ve moved slightly away from a paradigm
 where we had concept fully developed for a
-ship before production started going in to
+[13:37] ship before production started going in to
 work for it.
-So now what we’re doing is we’re spending
+[13:40] So now what we’re doing is we’re spending
 a lot of time upfront working with Game Design
-to make sure that all of the mechanics that
+[13:45] to make sure that all of the mechanics that
 the ship needs to comply with, or the space
-that’s required for the player to walk around
+[13:51] that’s required for the player to walk around
 in if it has an interior area, is all blocked
-out ahead of time, and before we even give
+[13:55] out ahead of time, and before we even give
 that to the concept artist, to make sure that
-when a concept artist does his work it all
+[14:00] when a concept artist does his work it all
 fits with the game rules and we don’t have
-to worry about having to too drastically changing
+[14:04] to worry about having to too drastically changing
 the concept that’s already been developed.
-Changes will always happen but doing it this
+[14:11] Changes will always happen but doing it this
 way allows us to catch any problems really
-early on before anybody spends weeks or months
+[14:15] early on before anybody spends weeks or months
 of their lives developing an assets that then
-has to be reworked in the future.
-So for the Carrack specifically we have plans
+[14:20] has to be reworked in the future.
+[14:23] So for the Carrack specifically we have plans
 to build that “soonish”.
-That’s the best I can say about that.
-But right now Anvil is one of the those manufacturers
+[14:31] That’s the best I can say about that.
+[14:34] But right now Anvil is one of the those manufacturers
 that still needs to have its library filled
-out.
-So Aegis, for example, because of the Retaliator
+[14:41] out.
+[14:42] So Aegis, for example, because of the Retaliator
 and some of the other ships in their line,
-they have quite a bit of content to draw from
+[14:46] they have quite a bit of content to draw from
 to develop the newer ships a bit faster.
-With Anvil we’re not quite at that point
+[14:51] With Anvil we’re not quite at that point
 yet and so when we get there we will be able
-to hit our stride and be able to develop ships
+[14:57] to hit our stride and be able to develop ships
 faster.
-What will most likely happen is the Carrack
+[15:00] What will most likely happen is the Carrack
 will probably help develop that library for
-us because it will be the first large, multi-crew
+[15:05] us because it will be the first large, multi-crew
 Anvil ship that we probably work on.
-And so that’s how we’ll develop our assets
+[15:12] And so that’s how we’ll develop our assets
 to then, in the future, be able to build ships
-even quicker.
-[15:21] Johan_26 asks: Two separate questions:
+[15:17] even quicker.
+[15:18] [15:21] Johan_26 asks: Two separate questions:
 On the development side, are there many manufactured
-hull pieces that are shared across the ships
+[15:29] hull pieces that are shared across the ships
 of a single company?
-Like hatch, thrusters, seats, doors, panels,
+[15:32] Like hatch, thrusters, seats, doors, panels,
 etc?
-On the game side, visually speaking, how customizable
+[15:38] On the game side, visually speaking, how customizable
 are the ships in general?
-(like in a Need for Speed underground manner).
-I know about the possibility to change the
+[15:41] (like in a Need for Speed underground manner).
+[15:43] I know about the possibility to change the
 seats but could we expect some more customizations
-like an interior paint job, switching to fancier
+[15:47] like an interior paint job, switching to fancier
 escape pods/beds, changing the whole dashboard,
-more powerful headlights, better kitchen,
+[15:51] more powerful headlights, better kitchen,
 etc.
-EB: I think it’s a tentative yes to that
+[15:53] EB: I think it’s a tentative yes to that
 second part.
-Just to hit on the whole manufacturer sharing
+[15:59] Just to hit on the whole manufacturer sharing
 assets.
-That absolutely a yes.
-It’s almost, it’s absolutely necessary
+[16:03] That absolutely a yes.
+[16:05] It’s almost, it’s absolutely necessary
 that we do something like that in order to
-develop the number of ships that we have to
+[16:10] develop the number of ships that we have to
 make.
-So what that means is that we will have escape
+[16:13] So what that means is that we will have escape
 pods that are common to Aegis for example
-and you should expect to see those escape
+[16:19] and you should expect to see those escape
 pods in other Aegis ships.
-Docking collars, same thing.
-You may even see chairs that are shared among
+[16:23] Docking collars, same thing.
+[16:27] You may even see chairs that are shared among
 the same manufacturer.
-Right now, you will notice that on the Freelancer,
+[16:31] Right now, you will notice that on the Freelancer,
 you’ve got a specific type of chair which
-also exists on the starfarer, which a very
+[16:35] also exists on the starfarer, which a very
 close version of that also exists on the Reliant.
-And there's a couple of reasons for doing
+[16:41] And there's a couple of reasons for doing
 that.
-One, it keeps the look and feel the same so
+[16:43] One, it keeps the look and feel the same so
 you can identify what manufacturer built your
-ship.
-Two, we can actually build a ship much faster.
-Right, sharing of assets within manufacturers
+[16:48] ship.
+[16:49] Two, we can actually build a ship much faster.
+[16:51] Right, sharing of assets within manufacturers
 is absolutely something we have to do.
-In terms of customization, we are still working
+[16:57] In terms of customization, we are still working
 on what the full range of customization is.
-The most obvious and sort of start of the
+[17:04] The most obvious and sort of start of the
 customization process that we really want
-to hit is allowing people to change the paint
+[17:09] to hit is allowing people to change the paint
 jobs on their ships.
-We’re exploring a couple different ways
+[17:13] We’re exploring a couple different ways
 of doing this.
-We haven’t quite implemented a full working
+[17:17] We haven’t quite implemented a full working
 version of it yet, but it’s something we
-are building our current ships to support.
-PS: Yup, no, definitely, just on Elwin’s
+[17:21] are building our current ships to support.
+[17:24] PS: Yup, no, definitely, just on Elwin’s
 note, I mean part of the development process
-is making something, trying out different
+[17:30] is making something, trying out different
 techniques for it, and find out whether it
-works.
-So we do a lot of R&D into different ways
+[17:35] works.
+[17:36] So we do a lot of R&D into different ways
 to do it.
-Some methods make the cut, some don’t.
-We used to have a paint system that was...
+[17:39] Some methods make the cut, some don’t.
+[17:41] We used to have a paint system that was...
 it was a little harder to work with.
-We had paints, we had it working, and it’s
+[17:45] We had paints, we had it working, and it’s
 just, it’s a juggle.
-You say “does this help the pipeline?”,
+[17:49] You say “does this help the pipeline?”,
 “is there another way we can do this faster?”.
-That constant iteration is kind of why we
+[17:52] That constant iteration is kind of why we
 like working here as well.
-You can make changes to things, and find a
+[17:57] You can make changes to things, and find a
 better way to do it.
-You’re not just stuck somewhere, you know?
-You might have to go back and change old stuff
+[18:00] You’re not just stuck somewhere, you know?
+[18:02] You might have to go back and change old stuff
 occasionally, but in the grand scheme of things,
-it’s gonna help the entire pipeline.
-So, we’re making everything basically as
+[18:06] it’s gonna help the entire pipeline.
+[18:07] So, we’re making everything basically as
 modular as possible within sensical terms.
-So, should be able to go out and get other
+[18:13] So, should be able to go out and get other
 parts.
-So definitely, modularity is something we
+[18:17] So definitely, modularity is something we
 already have and can expand upon.
-We just have to make sure it’s a good use
+[18:20] We just have to make sure it’s a good use
 of time management and et cetera, et cetera.
-EB: Right, right, and just to touch on what
+[18:24] EB: Right, right, and just to touch on what
 you mentioned of us previously having a paint
-system.
-That system was harder to work with.
-But it also became…
-it created a conflict with the way we wanted
+[18:29] system.
+[18:31] That system was harder to work with.
+[18:33] But it also became…
+[18:36] it created a conflict with the way we wanted
 to do damage, just because of the specific
-implementation method and as a result of that,
+[18:40] implementation method and as a result of that,
 we went in favor of the damage to find a different
-way of doing the customization of the paints.
-PS: ‘Cause the damage is so much cooler
-EB: Well, yes it is.
-PS: Bomb metal melting away and everything!
-So instead of saving...
-basically, the way it works is you have UV
+[18:47] way of doing the customization of the paints.
+[18:50] PS: ‘Cause the damage is so much cooler
+[18:51] EB: Well, yes it is.
+[18:53] PS: Bomb metal melting away and everything!
+[18:55] So instead of saving...
+[18:56] basically, the way it works is you have UV
 maps, if anyone knows what those are, it’s
-where the textures get painted onto and the
+[19:00] where the textures get painted onto and the
 way the tech works is the damage shader kind
-of, it works over the UV maps, but you also
+[19:05] of, it works over the UV maps, but you also
 needed the UV, the paints in the UV too.
-So they were kind of sharing the same space,
+[19:09] So they were kind of sharing the same space,
 right?
-So we were like well, what do we pick?
-Then we’re like “Well, the paints can
+[19:11] So we were like well, what do we pick?
+[19:14] Then we’re like “Well, the paints can
 probably be done a more another way, and more
-efficiently, and this is just the best way
+[19:17] efficiently, and this is just the best way
 for the damage system to work”.
-That’s how, kind of how where opportunity
+[19:20] That’s how, kind of how where opportunity
 calls for it.
-EB: That also, I mean, that also kind of touches
+[19:22] EB: That also, I mean, that also kind of touches
 back in the “what features have we decided
-not to implement”.
-That is one of them.
-Yeah, so we’re working on a much better
+[19:26] not to implement”.
+[19:29] That is one of them.
+[19:30] Yeah, so we’re working on a much better
 way of allowing customization which… the
-goal is to let people not only change, you
+[19:36] goal is to let people not only change, you
 know, at least several different colors on
-their ship, but also attempt to allow them
+[19:40] their ship, but also attempt to allow them
 to pick, decals for their wings, or whatever,
-that way they have like a massive happy face
+[19:46] that way they have like a massive happy face
 or whatever they want to put on it.
-So we have some prototypes of that working
+[19:50] So we have some prototypes of that working
 and I think it’s going to be really cool,
-but more work has to go into it.
-[19:59] Eschatos asks:
+[20:05] but more work has to go into it.
+[20:09] [19:59] Eschatos asks:
 A) When you're designing for this, is the
-final damage state of a ship intended to reflect
+[20:14] final damage state of a ship intended to reflect
 specific damage?
-(For example, is the tail/cargo section being
+[20:17] (For example, is the tail/cargo section being
 destroyed because that's where it was hit?)
-B)Is the intention that we'll be able to survive
+[20:23] B)Is the intention that we'll be able to survive
 something like that if we're not in the damaged
-section of the ship and have a spacesuit on?
-C) And thirdly, do you have to consider the
+[20:24] section of the ship and have a spacesuit on?
+[20:25] C) And thirdly, do you have to consider the
 repair mechanic when designing damage states?
-PS: Yes.
-That is pretty much exactly how it works.
-What we’re doing on the tech design side
+[20:26] PS: Yes.
+[20:27] That is pretty much exactly how it works.
+[20:28] What we’re doing on the tech design side
 and this is going to get more in depth as
-we go too.
-You hit a specific location damage can transfer
+[20:31] we go too.
+[20:32] You hit a specific location damage can transfer
 from that location to another location.
-There’s probabilities.
-So if you hit like a wing and there’s components
+[20:37] There’s probabilities.
+[20:38] So if you hit like a wing and there’s components
 under there, like shield generators or something.
-That can be damage and that creates a rippling
+[20:42] That can be damage and that creates a rippling
 explosion that goes and blows up something
-else.
-So we’re trying to create a very dynamic
+[20:46] else.
+[20:47] So we’re trying to create a very dynamic
 damage system.
-So at a base level things break off, wings
+[20:49] So at a base level things break off, wings
 snap off, tails snap off, body snaps in half,
-three main parts well three or four is like
+[20:55] three main parts well three or four is like
 nose, neck, body, tail.
-So when your ship is finally 100 percent destroyed
+[20:59] So when your ship is finally 100 percent destroyed
 if your neck is destroyed you’re just boom!
-You just kind of blow up.
-But if your tail broke off you might still
+[21:04] You just kind of blow up.
+[21:05] But if your tail broke off you might still
 you know airlock, thunk, and try and coast
-back to base.
-It depends on how it’s going.
-If you have a critical series of events that
+[21:11] back to base.
+[21:12] It depends on how it’s going.
+[21:13] If you have a critical series of events that
 happen that might destroy your whole ship.
-EB: Yeah.
-I mean if you trigger catastrophic damage
+[21:17] EB: Yeah.
+[21:18] I mean if you trigger catastrophic damage
 it’s game over!
-PS: Yeah it’s game over your whole ship’s
+[21:20] PS: Yeah it’s game over your whole ship’s
 going to blow up.
-So at the end yes there should be areas that
+[21:23] So at the end yes there should be areas that
 you can see, especially like in non 100 percent
-destroyed state.
-You should be able to see exactly where you
+[21:29] destroyed state.
+[21:31] You should be able to see exactly where you
 got hit during your fight.
-But at the end when your ship is blown up
+[21:34] But at the end when your ship is blown up
 you know you got shot in the wing but it’s
-listing, you didn’t get shot in the tail.
-And then 100 percent is a complete model swap
+[21:38] listing, you didn’t get shot in the tail.
+[21:40] And then 100 percent is a complete model swap
 into the husk chunks at the moment with an
-overlay VFX that bursts out.
-It’s all blended together so you can’t
+[21:45] overlay VFX that bursts out.
+[21:46] It’s all blended together so you can’t
 really tell.
-But unless you’re going back for repairs.
-You don’t really need to see that one area
+[21:49] But unless you’re going back for repairs.
+[21:52] You don’t really need to see that one area
 where you got shot in the wing.
-It’s all about performance.
-How can we keep realistic yet persistent damage?
-EB: The next part of this question is: Is
+[21:55] It’s all about performance.
+[21:56] How can we keep realistic yet persistent damage?
+[22:00] EB: The next part of this question is: Is
 the intention that we’ll be able to something
-like that if we’re not in the damaged section
+[22:10] like that if we’re not in the damaged section
 of the ship if we have a space suit on?
-I think you kind of touched on that?
-PS: I did kind of touch on that.
-Yes it is in the design board.
-Right now you just blow up and die.
-Your spaceship’s blown up right?
-As the damage and how it transfers get more
+[22:15] I think you kind of touched on that?
+[22:16] PS: I did kind of touch on that.
+[22:18] Yes it is in the design board.
+[22:20] Right now you just blow up and die.
+[22:21] Your spaceship’s blown up right?
+[22:23] As the damage and how it transfers get more
 in depth we can end up just probably saying
-“Airlock door closed you’re all safe”.
-I don’t know honestly I don’t really have
+[22:29] “Airlock door closed you’re all safe”.
+[22:31] I don’t know honestly I don’t really have
 100 percent specifics on that.
-But I do know conceptually it’s possible
+[22:35] But I do know conceptually it’s possible
 and it’s what we’re leaning towards ‘cause
-that’s realistic right?
-EB: Yeah.
-I think that’s ultimately the goal.
-Obviously game design is still working on
+[22:40] that’s realistic right?
+[22:41] EB: Yeah.
+[22:42] I think that’s ultimately the goal.
+[22:44] Obviously game design is still working on
 the specifics of how that functions.
-Because as per the example the back of your
+[22:47] Because as per the example the back of your
 ship gets blown off and that’s where all
-your power plants are, and you’re stuck
+[22:51] your power plants are, and you’re stuck
 in the front but you’ve got no power does
-that mean you’re basically stuck on a floating
+[22:57] that mean you’re basically stuck on a floating
 husk?
-So there’s more than just the realistic
+[23:00] So there’s more than just the realistic
 aspect of the game, we have to worry about
-what the implications for the gameplay are
+[23:05] what the implications for the gameplay are
 as well.
-Okay so the last part of Eschatos question
+[23:10] Okay so the last part of Eschatos question
 is and thirdly, do you have to consider the
-repair mechanic when designing Damage States.
-EB/PS: Yes
-PS: Yes you do because you have to think of
+[23:15] repair mechanic when designing Damage States.
+[23:18] EB/PS: Yes
+[23:20] PS: Yes you do because you have to think of
 what’s going to need to be repaired, what’s
-going to be left behind even if the mechanic
+[23:24] going to be left behind even if the mechanic
 isn’t full implemented, you should still
-think how is the player going to repair this,
+[23:29] think how is the player going to repair this,
 which of the player will see, what tools are
-at his disposal.
-It’s a big difference, just think conceptually,
+[23:35] at his disposal.
+[23:36] It’s a big difference, just think conceptually,
 okay this isn’t how it is or anything, but
-if you have a spaceship and it just flies
+[23:42] if you have a spaceship and it just flies
 into a hangar and a bunch of nanobots repair
-it or something that’s one way where you
+[23:45] it or something that’s one way where you
 don’t have to be too interactive, but if
-you’re a dude with a blowtorch and you’re
+[23:48] you’re a dude with a blowtorch and you’re
 up there, the ship is a completely different
-spot; you’re getting completely different
+[23:52] spot; you’re getting completely different
 visual, all sorts of stuff is going on.
-EB: Yeah.
-That repair mechanic is still being fleshed
+[23:56] EB: Yeah.
+[23:57] That repair mechanic is still being fleshed
 out.
-PS: Right
-EB: I think it’s going to be really cool.
-It's a lot more dynamic than what we had before.
-It’s important to keep in mind our damage
+[23:59] PS: Right
+[24:00] EB: I think it’s going to be really cool.
+[24:01] It's a lot more dynamic than what we had before.
+[24:03] It’s important to keep in mind our damage
 system is not what we started with.
-So we use the term damage states, but it doesn’t
+[24:08] So we use the term damage states, but it doesn’t
 actually reflect what it is anymore
-PS: Right
-EB: Right, It’s a lot more organic than
+[24:14] PS: Right
+[24:15] EB: Right, It’s a lot more organic than
 that.
-So previously we did have something called
+[24:16] So previously we did have something called
 damage states where you’d shoot the wing
-and there would be four different version
+[24:20] and there would be four different version
 of the wing and different states of damage.
-PS: 25/50/70 and 100
-EB: Exactly, that’s gone.
-So the way we’re doing it now is we're actually
+[24:24] PS: 25/50/70 and 100
+[24:25] EB: Exactly, that’s gone.
+[24:28] So the way we’re doing it now is we're actually
 building the internal supports for that wing
-and when we shoot the whole surface it will
+[24:34] and when we shoot the whole surface it will
 blow a hole to through it to reveal the interior.
-There’s no damage state, it’s just how
+[24:38] There’s no damage state, it’s just how
 much damage has that part taken.
-PS: Correct and the only damage state is the
+[24:43] PS: Correct and the only damage state is the
 really the 100 percent at this point.
-Are you destroyed or not?
-EB: Right
-PS: And that’s when you get the detach command
+[24:46] Are you destroyed or not?
+[24:48] EB: Right
+[24:49] PS: And that’s when you get the detach command
 and then boom the wing or tail goes flying
-off, but until then, it’s mainly just the
+[24:53] off, but until then, it’s mainly just the
 shader doing the work and it’s hitting and
-it’s rippling out and it’s tearing apart
+[24:57] it’s rippling out and it’s tearing apart
 and then it’s transparent and you can see
-the metal ribbing of the inside of the ship
+[25:01] the metal ribbing of the inside of the ship
 and then that shows a more visual version
-of the wear.
-So it’s less memory because you don’t
+[25:06] of the wear.
+[25:07] So it’s less memory because you don’t
 have four different models per separate part
-of the ship anymore that just has to do damage.
-EB: Right
-PS: And it creates a better visual due to
+[25:12] of the ship anymore that just has to do damage.
+[25:14] EB: Right
+[25:15] PS: And it creates a better visual due to
 the way the shader works.
-EB: Yeah
-PS: So I mean we’re working on the pipeline
+[25:18] EB: Yeah
+[25:19] PS: So I mean we’re working on the pipeline
 all the time, optimizing the tech, coming
-up with new tech, implementing that and so
+[25:21] up with new tech, implementing that and so
 far it’s looking really cool.
-EB: Yeah it’s very awesome and it's also
+[25:25] EB: Yeah it’s very awesome and it's also
 a lot more satisfying to see the damage happen
-where you shoot.
-PS: Yes
-EB: Whereas previously that wasn’t the case.
-You could shoot the tip and the base of the
+[25:29] where you shoot.
+[25:30] PS: Yes
+[25:31] EB: Whereas previously that wasn’t the case.
+[25:32] You could shoot the tip and the base of the
 piece would start to break off.
-Outro
-EB: So thanks for joining us on this episode
+[25:36] Outro
+[25:37] EB: So thanks for joining us on this episode
 of 10 for the Developers.
-I’m Elwin Bachiller Junior, Lead Vehicle
+[25:41] I’m Elwin Bachiller Junior, Lead Vehicle
 Artist in La with
-PS: Patrick Salerno, Associate Technical Artist.
-EB: And thanks again to all the subscribers
+[25:44] PS: Patrick Salerno, Associate Technical Artist.
+[25:47] EB: And thanks again to all the subscribers
 for making this show happen, you guys rock.
-PS: Take care.
+[26:12] PS: Take care.

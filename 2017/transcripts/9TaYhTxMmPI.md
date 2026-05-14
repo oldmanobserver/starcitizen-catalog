@@ -6,377 +6,377 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Adam Wieser(AW): Hello and welcome to another
+[00:13] Closed Captioning provided by Relay.sc
+[00:29] Adam Wieser(AW): Hello and welcome to another
 edition of Loremaker’s Guide to the Galaxy.
-My name’s Adam Wieser, I’m Associate Writer
+[00:40] My name’s Adam Wieser, I’m Associate Writer
 at Cloud Imperium Games based here in the
-Los Angeles office and for those of you who
+[00:46] Los Angeles office and for those of you who
 have never seen the show before, this is a
-chance for a member of the Lore team to sit
+[00:50] chance for a member of the Lore team to sit
 down and basically give you a guided tour
-of one of the hundred systems you’ll be
+[00:55] of one of the hundred systems you’ll be
 seeing in either Squadron… either in the
-game Star Citizen or in Squadron 42.
-Just a chance for us to kind of show the depth
+[01:01] game Star Citizen or in Squadron 42.
+[01:05] Just a chance for us to kind of show the depth
 that we’re giving to these through the history
-and the astronomy that goes into everything
+[01:10] and the astronomy that goes into everything
 that we’re doing here.
-So today we’re going to an interesting system
+[01:14] So today we’re going to an interesting system
 for a handful of reasons, kind of a contradictory
-system too in a few ways that we’ll be discussing.
-It’s a system that’s in a fantastic location
+[01:20] system too in a few ways that we’ll be discussing.
+[01:23] It’s a system that’s in a fantastic location
 but it has a real, real terrible reputation.
-It’s also probably today best known as the
+[01:30] It’s also probably today best known as the
 homeworld for the headquarters of Drake Interplanetary,
-today we’re going to go off and we’re
+[01:39] today we’re going to go off and we’re
 going to go visit the Magnus system.
-So, we’re just going to go into the search
+[01:44] So, we’re just going to go into the search
 bar here, type in Magnus and let’s just
-zoom right over and let’s see where we’re
+[01:49] zoom right over and let’s see where we’re
 at.
-Now when I say it’s in a great location
+[01:52] Now when I say it’s in a great location
 it’s because when we go to this big level
-here, you’re going to see exactly what I
+[01:59] here, you’re going to see exactly what I
 mean.
-So, we’re going to to turn on large jump
+[02:01] So, we’re going to to turn on large jump
 point, it’s got three jump point connections
-which are very important.
-You’ve got one to Ellis, you’ve got one
+[02:04] which are very important.
+[02:06] You’ve got one to Ellis, you’ve got one
 to Stanton which you’re already familiar
-with playing the Persistent Universe and going
+[02:11] with playing the Persistent Universe and going
 to Port Olisar.
-Then it’s got a medium jump point here connection
+[02:16] Then it’s got a medium jump point here connection
 to Terra but the reason why this is such an
-important and kind of great location to be
+[02:23] important and kind of great location to be
 in is if I drop off the medium jump point,
-we just focus on that… you’ll see that
+[02:28] we just focus on that… you’ll see that
 Magnus is right in the heart of the large
-jump point run between Sol and the Terra system.
-So, there’s a lot of shipments that will
+[02:34] jump point run between Sol and the Terra system.
+[02:37] So, there’s a lot of shipments that will
 be going through here which makes you think
-this would be a very important system or could
+[02:42] this would be a very important system or could
 be a very economical strong system considering
-it’s location to Stanton and Terra, Ellis
+[02:49] it’s location to Stanton and Terra, Ellis
 and everything else that’s on this path
-there.
-For years now, for a century and a half, this
+[02:54] there.
+[02:56] For years now, for a century and a half, this
 system has mainly almost been known as a dangerous
-frontier system.
-It’s the official… one of the official
+[03:03] frontier system.
+[03:06] It’s the official… one of the official
 kind of like slogans for the system is ‘Magnus
-on the edge of the unknown’ even though
+[03:12] on the edge of the unknown’ even though
 here it is right between two of the most important
-systems in the UEE.
-Now as we go into Magnus, so again it’s
+[03:17] systems in the UEE.
+[03:20] Now as we go into Magnus, so again it’s
 strange that it’s frontier system considering
-where it’s located but one of the reasons
+[03:26] where it’s located but one of the reasons
 for that is because it has kind of a convoluted
-history to it.
-When it was first discovered the UPE took
+[03:33] history to it.
+[03:35] When it was first discovered the UPE took
 a great interest in it, this happened in 2944.
-Excuse me, 2499 the system was first discovered
+[03:42] Excuse me, 2499 the system was first discovered
 so it’s been around for a little over 450
-plus years but when we first came about it,
+[03:51] plus years but when we first came about it,
 the government was really interested in it
-because of the star at the centre here.
-Now if we zoom on in this is a main sequence
+[03:57] because of the star at the centre here.
+[04:00] Now if we zoom on in this is a main sequence
 K-type star also known as an orange dwarf
-and even today scientists like to focus on
+[04:07] and even today scientists like to focus on
 these stars as being potential home for extraterrestrials,
-for alien life forms.
-Now the reason this is is because these stars
+[04:16] for alien life forms.
+[04:18] Now the reason this is is because these stars
 are very stable, they have an extended life
-period even compared to the sun at the centre
+[04:25] period even compared to the sun at the centre
 of the Sol system.
-These stars, the K-types live for about 15-30
+[04:29] These stars, the K-types live for about 15-30
 billion years on average while our sun lasts…
-lives closer to 10 billion years.
-It’s here for a long time which means there’s
+[04:37] lives closer to 10 billion years.
+[04:39] It’s here for a long time which means there’s
 a chance for life to develop, it’s also
-smaller, it’s cooler, it’s less luminous.
-This one in particular, the luminosity is
+[04:42] smaller, it’s cooler, it’s less luminous.
+[04:46] This one in particular, the luminosity is
 like .34 points to what our sol is, if our
-sun is 1 this is .34 luminosity when it’s
+[04:56] sun is 1 this is .34 luminosity when it’s
 gets compared to that.
-It also…
-K-type stars like this also emit less ultraviolet
+[05:03] It also…
+[05:04] K-type stars like this also emit less ultraviolet
 radiation which is also a good way to, you
-know, another thing that’s not helping impede
+[05:13] know, another thing that’s not helping impede
 the development of life in this system.
-Now unfortunately when the government started
+[05:18] Now unfortunately when the government started
 to look at the wider Magnus system even with
-this promising star at the centre they did
+[05:23] this promising star at the centre they did
 not find life.
-They found three planets, only one of them
+[05:27] They found three planets, only one of them
 Borea, which we’ll get to in a little bit
-was even habitable for us.
-They still...
-it needed to be terraformed but it still have
+[05:33] was even habitable for us.
+[05:35] They still...
+[05:36] it needed to be terraformed but it still have
 potential to be habitable.
-That said, the UPE still decided to hold onto
+[05:41] That said, the UPE still decided to hold onto
 the system because of a handful of factors.
-The first being right here, Magnus I.
-Now this is described as a small, rocky planet.
-It doesn’t have an atmosphere but what it
+[05:47] The first being right here, Magnus I.
+[05:50] Now this is described as a small, rocky planet.
+[05:54] It doesn’t have an atmosphere but what it
 did have were tons of valuable minerals and
-this really kind of got the government’s
+[06:00] this really kind of got the government’s
 interest.
-So, the make up the minerals that they were
+[06:03] So, the make up the minerals that they were
 starting to pull off this planet has actually
-led scientists to believe that it’s just
+[06:08] led scientists to believe that it’s just
 not another small, rocky world.
-That this is actually potentially a Chthonian
+[06:12] That this is actually potentially a Chthonian
 planet.
-Now Chthonian planets are interesting because
+[06:16] Now Chthonian planets are interesting because
 they are former gas giants or in this case
-most likely a hot Jupiter that was within
+[06:23] most likely a hot Jupiter that was within
 the frostline of this system and the orbit
-migrated in until it got stuck here close
+[06:28] migrated in until it got stuck here close
 to the sun.
-Now when it got this close to the sun, basically
+[06:32] Now when it got this close to the sun, basically
 the heat burned off the gases outer layer
-of the planet just leaving the rocky core
+[06:40] of the planet just leaving the rocky core
 at the centre.
-Now this is a process known as hydrodynamic
+[06:43] Now this is a process known as hydrodynamic
 escape which would have led to this mineral
-rich core of this former Jupiter sitting here
+[06:50] rich core of this former Jupiter sitting here
 at Magnus I at the centre of this system next
-to the sun.
-So, that was one of the reasons they decided
+[06:59] to the sun.
+[07:01] So, that was one of the reasons they decided
 to hold onto this system.
-The second was because Borea could be terraformed
+[07:06] The second was because Borea could be terraformed
 and that happened pretty much right away.
-As they started to dig into it a little bit,
+[07:12] As they started to dig into it a little bit,
 they realized there’s no life here but we
-could still make something of it.
-It’s a terrestrial, rocky planet with a
+[07:16] could still make something of it.
+[07:17] It’s a terrestrial, rocky planet with a
 number of different climates locations on
-it.
-So they began the terraforming process in
+[07:24] it.
+[07:25] So they began the terraforming process in
 2533 and they decided to leave this as a military
-classified system.
-So, not a lot of extra foot traffic or ship
+[07:32] classified system.
+[07:33] So, not a lot of extra foot traffic or ship
 traffic, excuse me, could kind flow through
-this system.
-Now the rest of this, if we just back out
+[07:39] this system.
+[07:40] Now the rest of this, if we just back out
 of here for a second.
-When we talk about the history of the Magnus
+[07:43] When we talk about the history of the Magnus
 system, we’re really talking about Borea.
-We’re talking about this second planet here,
+[07:46] We’re talking about this second planet here,
 there is a third one out on the fringes here.
-This is Magnus III, it’s a super Jupiter
+[07:51] This is Magnus III, it’s a super Jupiter
 with beautiful multicoloured atmosphere to
-it and some rumours that pirates kind of like
+[07:56] it and some rumours that pirates kind of like
 to collect in the Lagrange point there for
-little pirate meetups.
-That’s kind of the standard stuff here for
+[08:04] little pirate meetups.
+[08:05] That’s kind of the standard stuff here for
 this system.
-When we’re talking about Magnus, we’re
+[08:09] When we’re talking about Magnus, we’re
 talking about Borea and what has really happened
-here over the subsequent centuries basically.
-So in 2533, the UPE starts to terraform this
+[08:13] here over the subsequent centuries basically.
+[08:17] So in 2533, the UPE starts to terraform this
 system and as soon as it’s habitable they
-begin to move people in to turn it into the
+[08:25] begin to move people in to turn it into the
 Navy shipyard for the UPE Navy at the time.
-So they’re building ships here, they’re
+[08:35] So they’re building ships here, they’re
 bringing in people to populate these factories
-and it’s going great here.
-It’s kicking off, it’s like a good 50-60
+[08:40] and it’s going great here.
+[08:42] It’s kicking off, it’s like a good 50-60
 years of straight boom where this is basically
-the centre for ship… for ship building for
+[08:49] the centre for ship… for ship building for
 the military, for the Navy here.
-As the years kind of went on obviously the
+[08:57] As the years kind of went on obviously the
 people were coming in, they were starting
-to have kids, a natural home grown population
+[09:01] to have kids, a natural home grown population
 started to emerge on Borea.
-Even though it was still pretty contained
+[09:06] Even though it was still pretty contained
 because again it’s military classified so
-you’re not just getting people flying in
+[09:09] you’re not just getting people flying in
 from all over the place.
-You have to be selected to come here and settle
+[09:12] You have to be selected to come here and settle
 down.
-One of the people that kind of grew up on
+[09:15] One of the people that kind of grew up on
 Borea at this time was a woman by the name
-of Ozell Kruger and kind of coming from this
+[09:20] of Ozell Kruger and kind of coming from this
 very blue collar industrial labour force that
-was very prominent there at this time.
-She started a custom machine part shop here
+[09:27] was very prominent there at this time.
+[09:29] She started a custom machine part shop here
 and called it a name you’re probably familiar
-with Kruger Intergalactic.
-Now Kruger Intergalactic has recently made
+[09:36] with Kruger Intergalactic.
+[09:39] Now Kruger Intergalactic has recently made
 the foray into doing ships and other items
-like this but back when they first started
+[09:45] like this but back when they first started
 they just specifically made very specific
-for larger manufacturers.
-This was ideal when you’re here working
+[09:51] for larger manufacturers.
+[09:53] This was ideal when you’re here working
 with all these…
-working with the Navy building these ships
+[09:57] working with the Navy building these ships
 and these other larger ship companies.
-Maybe it’s easier for Kruger to actually
+[10:02] Maybe it’s easier for Kruger to actually
 make some small parts right here on the planet
-so that way it relieves the stress on some
+[10:07] so that way it relieves the stress on some
 of these bigger conglomerates.
-It’s also a great way for Kruger to get
+[10:11] It’s also a great way for Kruger to get
 their name out there and to work with some
-of these like empire wide companies and they
+[10:15] of these like empire wide companies and they
 were able to do this because their stuff was
-so precise and done so well.
-They make everything from the firing pins
+[10:21] so precise and done so well.
+[10:23] They make everything from the firing pins
 that are in the Behring P8AR which is a ballistic
-rifle used by the UEE Marines.
-Like I said, this was all well and good until
+[10:31] rifle used by the UEE Marines.
+[10:34] Like I said, this was all well and good until
 about the mid 27th century so around… in
-the mid 2600’s a lot of stuff has happened
+[10:43] the mid 2600’s a lot of stuff has happened
 and one of the things the UEE government at
-the time decided to do was to move the ship
+[10:50] the time decided to do was to move the ship
 manufacturing away from Borea and into the
-Killian system.
-Now when they did this they basically killed
+[10:55] Killian system.
+[10:57] Now when they did this they basically killed
 the entire economy of the Borea planet cause
-that’s really what they had there.
-People basically fled the system in droves
+[11:04] that’s really what they had there.
+[11:07] People basically fled the system in droves
 because there weren’t a lot of other industries
-there and population dwindled.
-Some reports have it down to less than 100,000
+[11:12] there and population dwindled.
+[11:16] Some reports have it down to less than 100,000
 people actually living on this planet about
-this time.
-Again there were a lot of factors here that
+[11:22] this time.
+[11:24] Again there were a lot of factors here that
 led to the shipyards moving away from Borea,
-this is the middle of the 27th century, the
+[11:29] this is the middle of the 27th century, the
 first Tevarin has come to an end.
-Messer has ascended, there’s all these other
+[11:36] Messer has ascended, there’s all these other
 factors that play into it but Borea definitely
-bore the brunt of that decision.
-Somebody who did benefit from that decision
+[11:41] bore the brunt of that decision.
+[11:45] Somebody who did benefit from that decision
 was Kruger Intergalactic and that’s part
-of the reason why you even know their name
+[11:49] of the reason why you even know their name
 because as the ship manufacturers, as these
-industries powers left to go to Killian there
+[11:55] industries powers left to go to Killian there
 was all this excess space and high tech equipment
-that they could buy up cheap and expand into.
-They could also afford at this point to get
+[12:04] that they could buy up cheap and expand into.
+[12:06] They could also afford at this point to get
 some very highly skilled workers to come in
-and basically work for them.
-So while the rest of the economy suffered,
+[12:13] and basically work for them.
+[12:15] So while the rest of the economy suffered,
 Kruger Intergalactic actually prospered at
-this time and get growing and became a more
+[12:19] this time and get growing and became a more
 and more respectable name.
-Now remember again it’s still military classified
+[12:23] Now remember again it’s still military classified
 at this time so no new people are coming on
-in until 2751 when the military finally decides
+[12:28] in until 2751 when the military finally decides
 to get rid of the military classification
-for Magnus and let people kind of enter.
-Now remember that at the beginning I told
+[12:37] for Magnus and let people kind of enter.
+[12:40] Now remember that at the beginning I told
 you that Magnus even though it was kind of
-in the centre of things it was still considered
+[12:44] in the centre of things it was still considered
 a frontier system?
-Well this is part of the reason why.
-Even though it was discovered 450 plus years
+[12:46] Well this is part of the reason why.
+[12:48] Even though it was discovered 450 plus years
 ago it really had its land rush, its first
-chance for the common citizens and civilians
+[12:54] chance for the common citizens and civilians
 of the UEE to come flooding in 2751.
-So, in that regard that’s how the frontier
+[13:01] So, in that regard that’s how the frontier
 spirit here has kinda persisted in this system.
-Now when they opened up the system and people
+[13:09] Now when they opened up the system and people
 finally start coming in, it's not necessarily…
-it becomes a bit more rough and tumble.
-People are rushing in to get land, there’s
+[13:17] it becomes a bit more rough and tumble.
+[13:19] People are rushing in to get land, there’s
 not a lot of natural industry there so people
-have to be creative as to how to generate
+[13:24] have to be creative as to how to generate
 their income.
-This unfortunately became a problem for Kruger
+[13:29] This unfortunately became a problem for Kruger
 Intergalactic because they quickly realized
-as piracy, as outlaws, as illegal activity
+[13:35] as piracy, as outlaws, as illegal activity
 increased in the system… that they were
-systematically spending more and more with
+[13:41] systematically spending more and more with
 each budget on mercs protecting their shipments
-leaving the system and that was starting to
+[13:46] leaving the system and that was starting to
 draw concern.
-Eventually in 2785 a Kruger shipment of vital
+[13:52] Eventually in 2785 a Kruger shipment of vital
 components that was intended for RSI gets
-hijacked in this system and it causes a major
+[14:01] hijacked in this system and it causes a major
 disruption to RSI’s production supply chain.
-This is bad business all around because not
+[14:07] This is bad business all around because not
 only did they have to remake the parts but
-it kinda throws a cog in everything and it
+[14:12] it kinda throws a cog in everything and it
 makes RSI realize that they need to diversify
-their production facility so this won’t
+[14:18] their production facility so this won’t
 happen again.
-It becomes such an issue that the one thing
+[14:21] It becomes such an issue that the one thing
 that the Magnus system could be proud of,
-Kruger Intergalactic, they finally decide
+[14:27] Kruger Intergalactic, they finally decide
 they need to move and they pick up and they
-go to the Castra system because there was
+[14:30] go to the Castra system because there was
 plenty of cheap land there and it was great
-supply routes and it was just safer in general.
-So once again come 2785, all of the sudden
+[14:36] supply routes and it was just safer in general.
+[14:39] So once again come 2785, all of the sudden
 there’s even less about Borea and the Magnus
-system to be proud about.
-Now this kind of malaise went on for awhile
+[14:49] system to be proud about.
+[14:51] Now this kind of malaise went on for awhile
 but again this is a very resilient, blue collar
-industrial planet, it’s kind of been what
+[14:58] industrial planet, it’s kind of been what
 it’s always been and out of the ashes came
-this little company that was fighting for
+[15:02] this little company that was fighting for
 basically the chance for a military contract.
-That company was one called Drake Interplanetary
+[15:12] That company was one called Drake Interplanetary
 and what they had was an idea for a ship that
-could be highly modifiable and modular so
+[15:20] could be highly modifiable and modular so
 that it could be easy to repair and cheap
-to make, and be perfect for the UEE.
-Unfortunately that ship, the Cutlass, which
+[15:26] to make, and be perfect for the UEE.
+[15:30] Unfortunately that ship, the Cutlass, which
 is getting a revamp by Josh Coons right now
-and looking fantastic, that ship did not win
+[15:35] and looking fantastic, that ship did not win
 the military contract.
-It instead went to a ship which is basically
+[15:41] It instead went to a ship which is basically
 been all but forgotten since then and it is
-now... the Cutlass was then basically changed
+[15:49] now... the Cutlass was then basically changed
 and kinda directed towards the civilian market.
-Once again the shipyard leaving, Kruger Intergalactic
+[15:56] Once again the shipyard leaving, Kruger Intergalactic
 leaving left a lot of skilled workers, left
-a lot of machinery, left a lot of like production
+[16:02] a lot of machinery, left a lot of like production
 spaces there and available which Drake Interplanetary
-since has moved in and taken over and turned
+[16:09] since has moved in and taken over and turned
 into the company you know so well.
-That makes the Caterpillar, that makes the
+[16:14] That makes the Caterpillar, that makes the
 Cutlass, that makes the Buccaneer, a lot of
-these great ships.
-Some that you can even already fly when you
+[16:18] these great ships.
+[16:19] Some that you can even already fly when you
 go to Port Olisar.
-So it still the home of Drake Interplanetary,
+[16:24] So it still the home of Drake Interplanetary,
 stuff has gotten better.
-Them bringing the industry there has definitely
+[16:31] Them bringing the industry there has definitely
 improved stuff within the system but it’s
-still far from safe.
-The capital of Borea is a town called Newcastle
+[16:36] still far from safe.
+[16:41] The capital of Borea is a town called Newcastle
 but people aren’t allowed to land at Newcastle
-right now because of an attempted assassination
+[16:47] right now because of an attempted assassination
 of the governor’s council there.
-This happened a few years ago and ever since
+[16:53] This happened a few years ago and ever since
 that incursion they’ve decided it’s better
-to direct all space bound traffic to Odessa
+[17:00] to direct all space bound traffic to Odessa
 which is where Drake Interplanetary and Kruger
-Intergalactic were headquartered or where
+[17:08] Intergalactic were headquartered or where
 they still have their main headquarters being.
-Just an also fun little interesting note,
+[17:16] Just an also fun little interesting note,
 the speaker of the UEE Senate, Marshall Madrigal
-is from Borea here in the Magnus system as
+[17:22] is from Borea here in the Magnus system as
 is the famed musician who disappeared, Gal
-Dougan was also first born here on Borea in
+[17:31] Dougan was also first born here on Borea in
 the Magnus system
-So, there you go.
-There is a quick introduction to the Magnus
+[17:37] So, there you go.
+[17:39] There is a quick introduction to the Magnus
 system, again a three planet system here with
-most of the main action happening here on
+[17:46] most of the main action happening here on
 Borea.
-Very important part of the empire that this
+[17:49] Very important part of the empire that this
 is located right on some main trade route
-between Sol and the Terra system and its not
+[17:53] between Sol and the Terra system and its not
 the best place to visit if you’re not careful.
-So just keep that in mind if you feel like
+[18:01] So just keep that in mind if you feel like
 going to visit the Drake Interplanetary headquarters,
-thanks for watching today getting to learn
+[18:05] thanks for watching today getting to learn
 a little bit more about the Magnus system.
-I’m Adam Wieser, thanks for joining us for
+[18:10] I’m Adam Wieser, thanks for joining us for
 this installment of Loremaker’s Guide
-to the Galaxy.
+[18:22] to the Galaxy.

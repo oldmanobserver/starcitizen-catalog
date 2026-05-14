@@ -6,544 +6,544 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Sandi Gardiner (SG): Hello and welcome to
+[00:16] Closed Captioning provided by Relay.sc
+[00:17] Sandi Gardiner (SG): Hello and welcome to
 Around the Verse, our behind the scenes look
-into the development of Star Citizen.
-Our special guest host today is CG Supervisor,
+[00:19] into the development of Star Citizen.
+[00:21] Our special guest host today is CG Supervisor,
 Forrest Stephan.
-Welcome back to the show Forrest.
-Forrest Stephan (FS): Thank you for having
+[00:24] Welcome back to the show Forrest.
+[00:25] Forrest Stephan (FS): Thank you for having
 me, it’s absolutely great to be back.
-SG: It’s great to have you back and the
+[00:28] SG: It’s great to have you back and the
 big news this week is of course the Alpha
-2.6.1 patch being released to the Evocati
+[00:33] 2.6.1 patch being released to the Evocati
 along with a host of bug and crash fixes.
-The patch includes nice improvements and continued
+[00:37] The patch includes nice improvements and continued
 tweaks of weapons and flight systems.
-FS: Yeah that’s absolutely fantastic.
-It also has the single player Mega Map which
+[00:42] FS: Yeah that’s absolutely fantastic.
+[00:44] It also has the single player Mega Map which
 makes hopping around between levels a heck
-of alot easier as well as multiple regional
+[00:48] of alot easier as well as multiple regional
 servers which know people have been waiting
-for, can’t wait to get this in the hands
+[00:53] for, can’t wait to get this in the hands
 of the players.
-SG: Yeah we had Will, and Adam, and Dave,
+[00:56] SG: Yeah we had Will, and Adam, and Dave,
 they were playing around with it today having
-a blast.
-FS: Having a blast, totally.
-SG: Before we get to the show is there anything
+[01:02] a blast.
+[01:03] FS: Having a blast, totally.
+[01:04] SG: Before we get to the show is there anything
 interesting that you’ve been working on
-lately?
-FS: Always interesting things.
-So I’ve been helping develop the look and
+[01:07] lately?
+[01:08] FS: Always interesting things.
+[01:09] So I’ve been helping develop the look and
 the tech with art direction and cinematic
-design for the holograms for capital ships.
-You know the bridge holo globes in the briefing
+[01:14] design for the holograms for capital ships.
+[01:17] You know the bridge holo globes in the briefing
 rooms.
-With all this AR stuff happening, it’s great
+[01:22] With all this AR stuff happening, it’s great
 to actually see some hologram stuff in our
-game and actually develop some custom tech
+[01:26] game and actually develop some custom tech
 for it so it’s pretty exciting.
-SG: Very cool and is that for Squadron 42?
-FS: That is for Squadron 42.
-SG: Alright.
-FS: It’ll eventually show up in the PU,
+[01:30] SG: Very cool and is that for Squadron 42?
+[01:32] FS: That is for Squadron 42.
+[01:33] SG: Alright.
+[01:34] FS: It’ll eventually show up in the PU,
 but the focus right now is to establish a
-consistent look, interface, design, a way
+[01:38] consistent look, interface, design, a way
 to communicate the briefings to the player
-for the Squadron 42 campaign.
-SG: I also heard that you were working on
+[01:44] for the Squadron 42 campaign.
+[01:45] SG: I also heard that you were working on
 some dead body tech.
-FS: A big part of the build up for 3.0, corpses
+[01:48] FS: A big part of the build up for 3.0, corpses
 are part of the set dressing.
-You know in the wrecks, the abandoned ships
+[01:53] You know in the wrecks, the abandoned ships
 and we wanted a way to use our loadouts, our
-current characters instead of placing these
+[01:56] current characters instead of placing these
 temporary props so we developed a system to
-use a physics based approach to having designers
+[02:01] use a physics based approach to having designers
 place these dead bodies everywhere.
-SG: I Don’t know why I find that exciting.
-I don’t know what that says about me, we
+[02:06] SG: I Don’t know why I find that exciting.
+[02:09] I don’t know what that says about me, we
 can move on from there.
-FS: Actually if we can show a video maybe
+[02:11] FS: Actually if we can show a video maybe
 you’ll see how fun it actually is.
-So it shows how our system is able to generate
+[02:59] So it shows how our system is able to generate
 impulses to get some fun poses.
-We can create a nearly infinite amount of
+[03:03] We can create a nearly infinite amount of
 variety of natural poses because it's all
-physics driven and it all kind of depends
+[03:06] physics driven and it all kind of depends
 on the simulation.
-SG: That’s very cool, and that will be a
+[03:09] SG: That’s very cool, and that will be a
 great tool for our artist.
-Now let's go to Jake Ross for what the Austin
+[03:13] Now let's go to Jake Ross for what the Austin
 studio has been up to.
-[3:18] Studio Update
-Jake Ross (JR): Howdy folks, Jake Ross here,
+[03:18] [3:18] Studio Update
+[03:20] Jake Ross (JR): Howdy folks, Jake Ross here,
 Producer of CIG Austin with a look at what’s
-going on here this month here in the Austin
+[03:23] going on here this month here in the Austin
 studio.
-Lead Designer Rob Reiniger has completed his
+[03:26] Lead Designer Rob Reiniger has completed his
 game design document for the shopping kiosk
-feature and we’re now discussing timeline
+[03:29] feature and we’re now discussing timeline
 for implementation with UI team and the Game
-Code team, We’re very excited to have this
+[03:34] Code team, We’re very excited to have this
 feature ready to implement.
-We’re excited to wrap this up because it
+[03:37] We’re excited to wrap this up because it
 means pretty soon we’ll be able to use this
-interface for, not just shopping but things
+[03:41] interface for, not just shopping but things
 like items and clothing, weapons, and ship
-parts in the game, but also for performing
+[03:45] parts in the game, but also for performing
 landing pad services such as repairing and
-refueling your ship, loading and unloading
+[03:50] refueling your ship, loading and unloading
 cargo, and that kind of thing.
-This is a huge step in the right direction
+[03:54] This is a huge step in the right direction
 that will allow us to bring much of the shopping
-experience on our website to the in-game universe.
-On the animation front, the PU Animation team
+[03:58] experience on our website to the in-game universe.
+[04:01] On the animation front, the PU Animation team
 has been trucking along nicely on the implementing
-and polishing the “usable” animations
+[04:05] and polishing the “usable” animations
 that will be used in both Squadron 42 and
-the PU.
-Currently we’re polishing up these “table
+[04:09] the PU.
+[04:10] Currently we’re polishing up these “table
 leans” that we’re using for things like
-leaning on the table in the mess hall for
+[04:15] leaning on the table in the mess hall for
 aboard the Idris in Squadron 42.
-We’ve also been getting female versions
+[04:18] We’ve also been getting female versions
 of the already existing male animations like
-“work zones” and “wall leans” in the
+[04:22] “work zones” and “wall leans” in the
 game as well.
-The Ship Animation team has been wrapping
+[04:25] The Ship Animation team has been wrapping
 up polish tasks for combat speed “enters”
-and “exits” into the cockpits.
-We’re hoping to wrap all of these up by
+[04:30] and “exits” into the cockpits.
+[04:31] We’re hoping to wrap all of these up by
 the end of the month at which point we’ll
-be moving on to implementing new cockpit start
+[04:34] be moving on to implementing new cockpit start
 up sequences for the different cockpit types.
-Which is cool.
-We’re still determining who our code resource
+[04:39] Which is cool.
+[04:40] We’re still determining who our code resource
 will be … that we’ll be partnering with
-on that feature but once that is done we’ll
+[04:44] on that feature but once that is done we’ll
 be ready to hit the ground running implementing
-awesome new interactive system for starting
+[04:48] awesome new interactive system for starting
 up your ship before take off.
-On the art side of things, ship artists Chris
+[04:52] On the art side of things, ship artists Chris
 Smith and Josh Coons have been making good
-progress on the new and improved Super Hornet
+[04:56] progress on the new and improved Super Hornet
 and the Drake Cutlass Black respectively.
-The updates that Chris is doing on the Super
+[05:01] The updates that Chris is doing on the Super
 Hornet are to bring the ship in line with
-our current quality standards that we have
+[05:05] our current quality standards that we have
 now.
-And these are almost complete and we’re
+[05:07] And these are almost complete and we’re
 looking forward to getting these out to y’all
-in … 2 … release 2.6.1.
-Over in DevOps land we’re working hard to
+[05:12] in … 2 … release 2.6.1.
+[05:14] Over in DevOps land we’re working hard to
 start supporting multi-region server deployment.
-We’re very excited about this feature and
+[05:18] We’re very excited about this feature and
 we’re hoping in the not too distant future
-we’ll be able to deploy servers in more
+[05:21] we’ll be able to deploy servers in more
 regions than we have previously to help improve
-latency among other things.
-We’re hoping to use data centers around
+[05:24] latency among other things.
+[05:26] We’re hoping to use data centers around
 the world to spin up more game servers in
-regions like North America, Europe, and Australia.
-So, yeah, that’s all I have for you this
+[05:29] regions like North America, Europe, and Australia.
+[05:33] So, yeah, that’s all I have for you this
 week guys.
-Thanks.
-See you around.
-[5.38] Back in the Studio
-SG: Thanks for that Jake.
-The Cutlass Black rework is really shaping
+[05:35] Thanks.
+[05:36] See you around.
+[05:37] [5.38] Back in the Studio
+[05:38] SG: Thanks for that Jake.
+[05:39] The Cutlass Black rework is really shaping
 up.
-It’s actually one of my favourite ships.
-FS: Is it?
-SG: It is.
-FS: I absolutely love when we go back and
+[05:41] It’s actually one of my favourite ships.
+[05:42] FS: Is it?
+[05:43] SG: It is.
+[05:44] FS: I absolutely love when we go back and
 do these ship updates.
-It’s such a great way to see how far our
+[05:46] It’s such a great way to see how far our
 ship pipeline has come.
-Right?
-SG: Not only is the tech constantly improving
+[05:50] Right?
+[05:51] SG: Not only is the tech constantly improving
 but our artists keep getting better with every
-ship they make.
-FS: It’s incredible.
-SG: Speaking of the ship pipeline, this week's
+[05:54] ship they make.
+[05:55] FS: It’s incredible.
+[05:56] SG: Speaking of the ship pipeline, this week's
 Feature Focus reveals the extensive process
-ever ship goes through.
-FS: Oh, it’s incredible: you have artists,
+[06:00] ever ship goes through.
+[06:01] FS: Oh, it’s incredible: you have artists,
 you have designers, you have directors, animators,
-programmers, and so many more people all involved
+[06:05] programmers, and so many more people all involved
 from all the studios and have their hand in
-creating these ships from the concept to be
+[06:10] creating these ships from the concept to be
 flight ready for us to play with.
-SG: Let’s take a look.
-[6:18] Ship Pipeline Part 1: Concept to Greybox
-Luke Davis [LD]: Hi, my name is Luke Davis.
-I am the producer here at Foundry 42.
-I look after the ship environment and U.K.
+[06:16] SG: Let’s take a look.
+[06:17] [6:18] Ship Pipeline Part 1: Concept to Greybox
+[06:21] Luke Davis [LD]: Hi, my name is Luke Davis.
+[06:25] I am the producer here at Foundry 42.
+[06:27] I look after the ship environment and U.K.
 tech design departments.
-Here at CIG the ship pipeline has seen a remarkable
+[06:31] Here at CIG the ship pipeline has seen a remarkable
 evolution.
-Before I got here at Foundry 42 we were still
+[06:35] Before I got here at Foundry 42 we were still
 outsourcing ship assets to various companies
-to help finish the artwork that we didn't
+[06:45] to help finish the artwork that we didn't
 have the capacity to do in house at the time,
-and it proved that we had … there were very
+[06:51] and it proved that we had … there were very
 various issues that came along with outsourcing
-our assets.
-One of the biggest issues was the, the communication
+[06:56] our assets.
+[06:58] One of the biggest issues was the, the communication
 breakdown between the various departments,
-so whereas now we have the absolute luxury
+[07:05] so whereas now we have the absolute luxury
 of being able to have various departments
-and disciplines within the same studio.
-Specifically the art director, the art team
+[07:09] and disciplines within the same studio.
+[07:11] Specifically the art director, the art team
 and the tech design team are all in the same
-building whereas previously what we had was
+[07:18] building whereas previously what we had was
 a tech design department in Los Angeles, we
-had an art team here in the U.K. and we used
+[07:25] had an art team here in the U.K. and we used
 to outsource ships for concept and the 3D
-assets to another company.
-What we now have now is an official design
+[07:33] assets to another company.
+[07:36] What we now have now is an official design
 document that our tech design team both in
-L.A. and in the U.K. sign off on and sort
+[07:40] L.A. and in the U.K. sign off on and sort
 of go write this how many thrusters it should
-have, this is the exact animation template
+[07:46] have, this is the exact animation template
 it has to use, this is what weapons it should
-be using and sort of give an idea on what
+[07:52] be using and sort of give an idea on what
 roughly what the ship needs.
-It's minimum requirements not to define the
+[07:56] It's minimum requirements not to define the
 shape or you know how it should work.
-It's just what should be in it.
-Jim Martin [JM]: One thing I really like about
+[08:01] It's just what should be in it.
+[08:03] Jim Martin [JM]: One thing I really like about
 the process here at … at Star Citizen is
-that they kick you off with ... with a 3D
+[08:08] that they kick you off with ... with a 3D
 kind of cheat sheet of volumes saying we need
-engine size to be roughly this particular
+[08:17] engine size to be roughly this particular
 cube, we need a gun to be this size.
-They, they want to make sure that as you start
+[08:25] They, they want to make sure that as you start
 thinking about it, you're kind of aware of
-what the, what the different shapes and what
+[08:30] what the, what the different shapes and what
 the different proportions are.
-And that really helps me out, because when
+[08:35] And that really helps me out, because when
 I start a design after I've looked at reference
-and the past ships and thought about myself
+[08:41] and the past ships and thought about myself
 on course design-wise I'm going to go in and
-begin with a sketch pass.
-And that's my thinking pass.
-You know when I have a pencil in my hand and
+[08:47] begin with a sketch pass.
+[08:50] And that's my thinking pass.
+[08:52] You know when I have a pencil in my hand and
 I have paper in front of me and I'm just noodling
-and drawing that's when I'm really getting
+[08:58] and drawing that's when I'm really getting
 my head around what I want the design to be
-or how it should balance or, or what the proportions
+[09:03] or how it should balance or, or what the proportions
 could be.
-And so in my first physical pass with the
+[09:07] And so in my first physical pass with the
 Buccaneer I did a kind of big cheat sheet
-that was basically kind of pared down to the
+[09:16] that was basically kind of pared down to the
 most simple components: engines, cockpit,
-guns, wings.
-You know let's move stuff around and let's
+[09:23] guns, wings.
+[09:26] You know let's move stuff around and let's
 kind of see if we can get a feel for it.
-LD: So one of the challenges of the ship being
+[09:31] LD: So one of the challenges of the ship being
 in the concept phase is not just to make a
-pretty ship, it's to make sure that it works
+[09:39] pretty ship, it's to make sure that it works
 for what we want in the game.
-So you know you'll, you'll take what design
+[09:43] So you know you'll, you'll take what design
 wants, what Chris originally envisioned for
-the ship, and try and turn it into some sort
+[09:49] the ship, and try and turn it into some sort
 of image.
-Elwin Bachiller [EB]: What tends to happen
+[09:53] Elwin Bachiller [EB]: What tends to happen
 when we get a concept into production is we're
-handed a series of images that have been finalized,
+[09:58] handed a series of images that have been finalized,
 final paint overs and just beautiful illustrations.
-In addition to that we also tend to get a
+[10:05] In addition to that we also tend to get a
 concept model which is what the artist use
-to paint over and do his final renders.
-To actually make that usable we tend to have
+[10:11] to paint over and do his final renders.
+[10:13] To actually make that usable we tend to have
 to rebuild that model.
-We can't just … I mean we can technically
+[10:19] We can't just … I mean we can technically
 take that and put it directly into the game,
-but it would be very expensive, because the
+[10:23] but it would be very expensive, because the
 cost of models tend to not worry about poly
-count anything like that, and also it wouldn't
+[10:30] count anything like that, and also it wouldn't
 conform with some of the technology we are
-using.
-So, we essentially have to just rebuild that
+[10:37] using.
+[10:38] So, we essentially have to just rebuild that
 model, but in most cases we aren't just rebuilding
-the model we're also making some changes along
+[10:43] the model we're also making some changes along
 the way, especially as we discover changes
-that we have to make due to the white box
+[10:48] that we have to make due to the white box
 phase.
-JM: As the concept guy you're, you're used
+[10:51] JM: As the concept guy you're, you're used
 to getting the ball rolling, but then once
-the ball is rolling you want that collaboration
+[10:55] the ball is rolling you want that collaboration
 with, with the physical design team that's
-going to be doing the, the actual 3D of the
+[11:02] going to be doing the, the actual 3D of the
 ship.
-You know and you want … because they keep
+[11:06] You know and you want … because they keep
 you honest and then you also keep them honest
-and you know they'll … they may kick an
+[11:14] and you know they'll … they may kick an
 idea to you and go, “Well, you know, the
-engines are a little too close we need to
+[11:19] engines are a little too close we need to
 balance, balance”, then you’ll say, “Well
-I can do this”, so it’s sort of a really
+[11:23] I can do this”, so it’s sort of a really
 great back and forth that I think is really
-important to the process.
-LD: One of the biggest issues that we have
+[11:29] important to the process.
+[11:30] LD: One of the biggest issues that we have
 in concept is the actual metrics because you
-have Chris on one side wanting the ship to
+[11:34] have Chris on one side wanting the ship to
 look a particular way as does the art director,
-the art director is constantly adjusting based
+[11:42] the art director is constantly adjusting based
 on the feedback Chris provides and the biggest
-difficulty is trying to keep the gameplay
+[11:47] difficulty is trying to keep the gameplay
 metrics that we need to work in the game such
-as the animation template.
-So animation have four current ships it provides…
+[11:52] as the animation template.
+[11:54] So animation have four current ships it provides…
 for each ship we have there’s a template
-attached to it and we have to make sure now
+[12:00] attached to it and we have to make sure now
 not to make anymore templates except when
-it’s absolutely needed and if we can use
+[12:05] it’s absolutely needed and if we can use
 an existing one that works.
-So we go, “Right you know what, we would
+[12:08] So we go, “Right you know what, we would
 like same entry animation as we did on the
-Gladius, now try to use that entry animation
+[12:14] Gladius, now try to use that entry animation
 on that new ship.
-How would it work?
-What are the challenges that come with it?”
-and it’s just to make sure everyone’s
+[12:19] How would it work?
+[12:20] What are the challenges that come with it?”
+[12:21] and it’s just to make sure everyone’s
 involved in communicating with everything
-what their new risks and issues are as part
+[12:26] what their new risks and issues are as part
 of that pipeline.
-EB: So what we tend to do is we’ll get the
+[12:29] EB: So what we tend to do is we’ll get the
 concept model if we have one and we will essentially
-build a rudimentary version of the ship.
-It doesn’t have anywhere near the detail
+[12:34] build a rudimentary version of the ship.
+[12:37] It doesn’t have anywhere near the detail
 that the final model is going to have, but
-it serves as a representation for us to start
+[12:41] it serves as a representation for us to start
 playing around with gameplay elements.
-So once we have this rudimentary model, we
+[12:46] So once we have this rudimentary model, we
 can throw that into the game super fast and
-working with the tech design team we can start
+[12:52] working with the tech design team we can start
 actually adding weapons to it, we can start
-actually adding a rudimentary cockpit and
+[12:57] actually adding a rudimentary cockpit and
 have positions for the animations to work
-properly.
-So we can actually go into the game, walk
+[13:02] properly.
+[13:03] So we can actually go into the game, walk
 up to this very blocky looking ship, press
-a button and then climb into it and start
+[13:08] a button and then climb into it and start
 flying the ship really early on within the
-first week and a half to two weeks of production
+[13:12] first week and a half to two weeks of production
 and this is what we call the white box phase.
-MS: For the design side of that, that’s
+[13:16] MS: For the design side of that, that’s
 mainly just setting up some basic helpers
-and hardpoints.
-Get some thrusters on there, make sure it
+[13:20] and hardpoints.
+[13:21] Get some thrusters on there, make sure it
 flights, make sure it putters around and that’s
-also when we do a lot of the initial placement
+[13:26] also when we do a lot of the initial placement
 for thrusters.
-So we need to make sure they’re distributed
+[13:29] So we need to make sure they’re distributed
 evenly across the ship, they’ll be balanced,
-that’s going to handle right and get the
+[13:33] that’s going to handle right and get the
 kind of performance that we want it to.
-LD: So once the disciplines have had a look
+[13:37] LD: So once the disciplines have had a look
 at it, and that’s the main part of the whitebox
-is that people look at it and go, “Right,
+[13:41] is that people look at it and go, “Right,
 I’m ready now, I’m ready for when the
-ship goes into production so it is further
+[13:45] ship goes into production so it is further
 down the production”, the UI team have a
-look at it and gone, “Okay, they’ve done
+[13:50] look at it and gone, “Okay, they’ve done
 the metrics right, the screen layout is completely
-correct, we don’t need anything new, we
+[13:55] correct, we don’t need anything new, we
 are good to go”.
-The VFX department go, “Right, you know
+[13:58] The VFX department go, “Right, you know
 what, the thrusters are in the right place,
-and the removeable thrusters are correct,
+[14:03] and the removeable thrusters are correct,
 they know what type of ship items it’s using,
-we’re good to go as well”.
-Then that’s the main bit of the white box
+[14:09] we’re good to go as well”.
+[14:11] Then that’s the main bit of the white box
 phase.
-MS: Then it’s handed back to our ship artists
+[14:14] MS: Then it’s handed back to our ship artists
 and they just build it out and make it look
-fantastic during the greybox stage.
-EB: On the Greybox phase, that’s where the
+[14:20] fantastic during the greybox stage.
+[14:22] EB: On the Greybox phase, that’s where the
 artists tend to do a lot of heavy lifting
-on the geometry so we’ll actually start
+[14:27] on the geometry so we’ll actually start
 building very close to final geometry.
-We’ll start adding bevels, or as max usually
+[14:32] We’ll start adding bevels, or as max usually
 calls, “chamfers” all over the ship into
-order to use custom normals on our ships which
+[14:39] order to use custom normals on our ships which
 make it look as though its higher geometry
-than it actually is.
-Custom normals is a technique that we use,
+[14:46] than it actually is.
+[14:47] Custom normals is a technique that we use,
 essentially we call it custom normals, but
-the geometry that we have, each vertices on
+[14:52] the geometry that we have, each vertices on
 the surface has a direction which determines
-how the light bounces off the surface.
-So typically there’s a technique called
+[15:00] how the light bounces off the surface.
+[15:03] So typically there’s a technique called
 subdivision modeling where you’ll take a
-surface and an edge and you will sort of reinforce
+[15:08] surface and an edge and you will sort of reinforce
 that edge by adding multiple loops to either
-side of where you want the light to bend and
+[15:14] side of where you want the light to bend and
 that will give you a sort of nice flat surface
-on one side, and then a crisp little bend,
+[15:18] on one side, and then a crisp little bend,
 and then a flat surface on the other side
-so it looks really smooth.
-We really can’t afford to add that much
+[15:23] so it looks really smooth.
+[15:25] We really can’t afford to add that much
 geometry because it makes everything a lot
-more expensive to do it with that technique
+[15:29] more expensive to do it with that technique
 so what we do is we’ll take the vertices
-and instead of reinforcing the edges, we’ll
+[15:34] and instead of reinforcing the edges, we’ll
 add a single chamfer, and we will then tell
-the vert to have the tangent pointing it exactly
+[15:40] the vert to have the tangent pointing it exactly
 where we want them to go and it will give
-us the illusion of having a reinforced edge
+[15:46] us the illusion of having a reinforced edge
 without having a reinforced edge.
-So it gives us a much cheaper asset in terms
+[15:51] So it gives us a much cheaper asset in terms
 of geometry, but the quality is just as good
-and it ends up making the ship look really
+[15:56] and it ends up making the ship look really
 cool, but that’s essentially what we do
-in the greybox phase is build as close to
+[15:59] in the greybox phase is build as close to
 final geometry as we can using only two tones
-to break up the surface.
-So we’ll have a light grey and a dark grey
+[16:05] to break up the surface.
+[16:07] So we’ll have a light grey and a dark grey
 or maybe a high spec value, a low spec value,
-just to get a basic breakup of the colours
+[16:12] just to get a basic breakup of the colours
 and how we’re going to break it up on the
-exterior walls.
-We’ll also do more finalized animations
+[16:16] exterior walls.
+[16:17] We’ll also do more finalized animations
 in this stage.
-So we’ll go ahead and build full landing
+[16:19] So we’ll go ahead and build full landing
 gear and actually do the folding up and closing
-to make sure everything closes perfectly and
+[16:25] to make sure everything closes perfectly and
 looks beautiful.
-And we’ll do this for landing gears, we’ll
+[16:28] And we’ll do this for landing gears, we’ll
 do this for ladders, we’ll do this for the
-cockpit canopies: anything that moves on the
+[16:32] cockpit canopies: anything that moves on the
 ship is something that we end up animating
-within the greybox phase mostly because we
+[16:38] within the greybox phase mostly because we
 can’t build the final geometry without knowing
-how it’s going to move.
-So it’s really important for us to work
+[16:44] how it’s going to move.
+[16:46] So it’s really important for us to work
 on animation and building simultaneously.
-LD: Because when you go into greybox you start
+[16:50] LD: Because when you go into greybox you start
 needing to … Tech Design get much more involved.
-They have a working ship, or … in whitebox
+[16:56] They have a working ship, or … in whitebox
 form, and their job is then to go and make
-it flyable in the engine.
-And of course it’s only going to be a flyable
+[17:02] it flyable in the engine.
+[17:04] And of course it’s only going to be a flyable
 whitebox, but it’s flyable nevertheless.
-And it’s trying to make it work for all
+[17:07] And it’s trying to make it work for all
 the other disciplines.
-The goal is at the end of the Tech Design
+[17:10] The goal is at the end of the Tech Design
 greybox phase, is that other disciplines have
-something to work with.
-MS: Once I get it back from there it starts
+[17:15] something to work with.
+[17:16] MS: Once I get it back from there it starts
 getting into more of the nuanced set up.
-So really getting final thruster items hooked
+[17:21] So really getting final thruster items hooked
 up and not just placeholder items.
-Making sure all the guns are seated properly.
-Making sure everything is functioning - giving
+[17:28] Making sure all the guns are seated properly.
+[17:31] Making sure everything is functioning - giving
 the player the right line of sight.
-Making sure they have the right speed or convergence
+[17:36] Making sure they have the right speed or convergence
 angle.
-Just all that real core tuning that starts
+[17:40] Just all that real core tuning that starts
 to really build a ship out and give it its
-character.
-EB: So we try to produce a ship thinking about
+[17:44] character.
+[17:45] EB: So we try to produce a ship thinking about
 the kind of experience and feeling that the
-player is meant to have.
-And you can really see this exposed in a lot
+[17:52] player is meant to have.
+[17:54] And you can really see this exposed in a lot
 of our bigger ships that have large interior
-environments.
-So some ships are meant to feel very sleek
+[17:59] environments.
+[18:00] So some ships are meant to feel very sleek
 and clean, luxurious - so you’ll have a
-lot of clean walls, a lot of brightly lit
+[18:07] lot of clean walls, a lot of brightly lit
 areas.
-And some ships are meant to feel really claustrophobic
+[18:10] And some ships are meant to feel really claustrophobic
 and unsafe.
-The Caterpillar is a great example of that:
+[18:16] The Caterpillar is a great example of that:
 it’s dark, it’s dank; there are a lot
-of sharp edges sticking out.
-So we can also communicate that character
+[18:21] of sharp edges sticking out.
+[18:23] So we can also communicate that character
 with our animations.
-So one really good example of that would be
+[18:28] So one really good example of that would be
 the way … something as simple as the way
-a door opens.
-If you have a very smooth, quick movement
+[18:32] a door opens.
+[18:34] If you have a very smooth, quick movement
 on the door it gives you the sense that everything’s
-working properly; there’s no mechanical
+[18:39] working properly; there’s no mechanical
 problems with it.
-Whereas opposed if you have a door that jerks
+[18:43] Whereas opposed if you have a door that jerks
 a little bit and looks like it’s scraping
-across the side as it moves out you get a
+[18:47] across the side as it moves out you get a
 sense that the ship’s a little bit more
-dilapidated.
-That kind of thing.
-So when we build ships here we try to build
+[18:50] dilapidated.
+[18:51] That kind of thing.
+[18:52] So when we build ships here we try to build
 our proxy animations to have some of that
-feeling in them.
-So if a landing … if it’s a ship that’s
+[18:58] feeling in them.
+[18:59] So if a landing … if it’s a ship that’s
 not meant to be perfectly smooth and perfectly
-refined - the Buccaneer's a great example
+[19:03] refined - the Buccaneer's a great example
 of this as well - we would like the landing
-gear to deploy and feel like it’s dropping
+[19:08] gear to deploy and feel like it’s dropping
 before it gets caught because it’s not a
-perfectly smooth transition.
-So that’s … those are just a few of the
+[19:14] perfectly smooth transition.
+[19:17] So that’s … those are just a few of the
 ways that we try to add character and personality
-to the ships.
-MS: One of the things that we’ve done really
+[19:20] to the ships.
+[19:21] MS: One of the things that we’ve done really
 well with building out the Buccaneer is … even
-before the first whitebox was checked in Elwin
+[19:27] before the first whitebox was checked in Elwin
 had been planning out a new … just a new
-way of laying out some of the files or ... updating
+[19:32] way of laying out some of the files or ... updating
 our current method of laying out the file
-inside 3D Studio Max that has really sped
+[19:37] inside 3D Studio Max that has really sped
 up the process on doing hand-offs between
-art and design where an issue can be called
+[19:44] art and design where an issue can be called
 out.
-“Okay, cool”.
-The feedback goes back and forth.
-And I can still work, set everything up, without
+[19:49] “Okay, cool”.
+[19:50] The feedback goes back and forth.
+[19:52] And I can still work, set everything up, without
 ever having to worry about their work overwriting
-mine or mine overwriting theirs.
-So it just removes a lot of roadblocks and
+[19:58] mine or mine overwriting theirs.
+[20:00] So it just removes a lot of roadblocks and
 that way it lets us - even with any uncertainty
-- it lets us be agile enough to jump onto
+[20:05] - it lets us be agile enough to jump onto
 the Buccaneer or the Cutlass or whatever other
-ship or task is coming up when the time comes
+[20:13] ship or task is coming up when the time comes
 for it.
-LD: The Drake Buccaneer is now considered
+[20:18] LD: The Drake Buccaneer is now considered
 greybox complete in the production pipeline.
-There’s still many steps remaining before
+[20:23] There’s still many steps remaining before
 it can be considered flight ready and we’ll
-be back later when it is.
-20:30 Outro
-SG: A lot of really great info in there and
+[20:27] be back later when it is.
+[20:29] 20:30 Outro
+[20:30] SG: A lot of really great info in there and
 it’s fun to see how everything comes together.
-FS: Yeah it really is.
-And of course us developers can only do so
+[20:34] FS: Yeah it really is.
+[20:35] And of course us developers can only do so
 much, we rely a lot on the feedback that you,
-the backers, provide to us.
-All of your testing is vital to the project
+[20:40] the backers, provide to us.
+[20:42] All of your testing is vital to the project
 so keep playing, contributing through the
-Issue Council and the forums.
-SG: And Star Citizen would not be what it
+[20:47] Issue Council and the forums.
+[20:49] SG: And Star Citizen would not be what it
 is without your support.
-FS: And the support of our Subscribers.
-SG: That is very correct.
-And it’s thanks to them that we’re able
+[20:52] FS: And the support of our Subscribers.
+[20:54] SG: That is very correct.
+[20:56] And it’s thanks to them that we’re able
 to share the in-depth, behind-the-scenes shows
-we bring to you weekly.
-Thank you all so very much.
-FS: And that’s our show for the week.
-SG: That’s our show.
-Who knew?
-Make sure to tune in tomorrow 12pm Pacific
+[21:00] we bring to you weekly.
+[21:01] Thank you all so very much.
+[21:02] FS: And that’s our show for the week.
+[21:04] SG: That’s our show.
+[21:06] Who knew?
+[21:07] Make sure to tune in tomorrow 12pm Pacific
 for the latest Happy Hour stream to what some
-live gameplay and discussion with Lead Writer
+[21:10] live gameplay and discussion with Lead Writer
 Dave Haddock.
-FS: Oh, awesome.
-And until then …
-Both: We’ll see
-you around the ‘verse.
+[21:14] FS: Oh, awesome.
+[21:15] And until then …
+[21:16] Both: We’ll see
+[21:50] you around the ‘verse.

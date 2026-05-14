@@ -1,0 +1,14 @@
+**Title:** RSI Launcher 1.3.0 Notes
+**Date:** 2019-11-21
+**URL:** https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/rsi-launcher-1-3-0-notes
+
+---
+
+# RSI Launcher 1.3.0
+
+Hello everyone, 
+
+We have just deployed a new version of the launcher that includes a few minor tweaks to content presentation within the UI.
+
+# Features
+- Content Presentation Adjustments

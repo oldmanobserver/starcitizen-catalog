@@ -6,263 +6,263 @@
 
 ## Transcript
 
-Closed Captioning provided by Relay.sc
-Tyler Witkin(TW): Hey everyone and welcome
+[00:11] Closed Captioning provided by Relay.sc
+[00:21] Tyler Witkin(TW): Hey everyone and welcome
 to the third episode of Citizens of the Stars,
-where we take an opportunity to highlight
+[00:29] where we take an opportunity to highlight
 one of my personal favourite aspects of the
-Star Citizen universe, all of you.
-Now choosing what to highlight on this new
+[00:34] Star Citizen universe, all of you.
+[00:36] Now choosing what to highlight on this new
 show can be quite difficult simply because
-of the sheer amount of community created content
+[00:40] of the sheer amount of community created content
 consistently flowing through our Community
-Hub.
-Now that’s a problem I don’t really mind
+[00:44] Hub.
+[00:45] Now that’s a problem I don’t really mind
 having so keep it coming with that let’s
-jump over to Community Manager, Jared Huckaby
+[00:49] jump over to Community Manager, Jared Huckaby
 for another installment of Citizen Spotlight.
-CITIZEN SPOTLIGHT
-Jared Huckaby(JH): Welcome everyone to another
+[00:53] CITIZEN SPOTLIGHT
+[00:54] Jared Huckaby(JH): Welcome everyone to another
 edition of Citizen Spotlight and with me today
-is master of the no bull shit tutorial himself,
+[01:03] is master of the no bull shit tutorial himself,
 Mr Noobifier.
-Noob, how you doing man?
-NOOBIFIER(N): I’m good, thanks.
-JH: All right, so tell me is it NOOBIFIER,
+[01:07] Noob, how you doing man?
+[01:08] NOOBIFIER(N): I’m good, thanks.
+[01:10] JH: All right, so tell me is it NOOBIFIER,
 is it Mr. NOOBIFIER, is it ‘Jared already
-did this joke with STL last week’?
-What’s the deal here?
-N: It’s just TheNOOBIFIER, that’s fine.
-JH: All right, thanks Tim.
-So Tim, you’re the master of...thought I
+[01:14] did this joke with STL last week’?
+[01:16] What’s the deal here?
+[01:17] N: It’s just TheNOOBIFIER, that’s fine.
+[01:18] JH: All right, thanks Tim.
+[01:20] So Tim, you’re the master of...thought I
 could do the joke.
-NOOBIFIER, I called you the master of the
+[01:25] NOOBIFIER, I called you the master of the
 no bull shit tutorial.
-Tell the folks at home what that means.
-N: So, I try to take everything, like the
+[01:27] Tell the folks at home what that means.
+[01:29] N: So, I try to take everything, like the
 game is complex, so I try to take as much
-of it as possible…
-research it and formulated into a short as
+[01:34] of it as possible…
+[01:35] research it and formulated into a short as
 possible without cutting anything and putting
-it off to the side.
-So basically everything you need to know in
+[01:41] it off to the side.
+[01:42] So basically everything you need to know in
 as little time as possible cause your time
-is important to you.
-JH: Right,well Star Citizen is a fairly complex
+[01:46] is important to you.
+[01:47] JH: Right,well Star Citizen is a fairly complex
 project.
-Do you really think it can be summarized in
+[01:50] Do you really think it can be summarized in
 only two minutes?
-N: Well, that’s always my goal.
-I mean when I started this I started to watch
+[01:52] N: Well, that’s always my goal.
+[01:54] I mean when I started this I started to watch
 other people’s videos and I noticed they
-were 20-30 minutes and I thought not to sound
+[01:57] were 20-30 minutes and I thought not to sound
 arrogant but I thought I could do better and
-that was my goal.
-That’s what I wanted to do so that’s kinda
+[02:04] that was my goal.
+[02:05] That’s what I wanted to do so that’s kinda
 my mission statement and it became the no
-BS.
-JH: Well I can tell you we’re all big fans
+[02:09] BS.
+[02:10] JH: Well I can tell you we’re all big fans
 of your videos here in the studio so we appreciate
-what you’re doing especially with, you know,
+[02:13] what you’re doing especially with, you know,
 your efforts in making Star Citizen in digestible
-two minute little bits.
-N: Thanks.
-JH: So folks at home you can check out all
+[02:19] two minute little bits.
+[02:20] N: Thanks.
+[02:21] JH: So folks at home you can check out all
 of NOOBIFIER’s videos, they’re on his
-YouTube channel and if I’m not wrong you’ve
+[02:23] YouTube channel and if I’m not wrong you’ve
 got over 160 videos on your channel, is that
-right?
-N: Yeah, don’t tell my wife but yes.
-JH: All right, we’ll talk the clock.
-All right NOOB, for thanks for taking the
+[02:28] right?
+[02:29] N: Yeah, don’t tell my wife but yes.
+[02:31] JH: All right, we’ll talk the clock.
+[02:33] All right NOOB, for thanks for taking the
 time to join us here on Citizen Spotlight
-and folks at home…
-we’ll see you next week.
-QUANTUM QUESTIONS
-TW: Hey everyone, we are back with another
+[02:37] and folks at home…
+[02:38] we’ll see you next week.
+[02:44] QUANTUM QUESTIONS
+[02:54] TW: Hey everyone, we are back with another
 installment of Quantum Questions where we
-put a Cloud Imperium Developer in the hot
+[03:03] put a Cloud Imperium Developer in the hot
 seat to answer as many questions as they can
-in just under two minutes.
-This week we have Producer Jake Ross vying
+[03:07] in just under two minutes.
+[03:09] This week we have Producer Jake Ross vying
 for that top spot, let’s see how he does.
-All right Jake, are you ready for a round
+[03:12] All right Jake, are you ready for a round
 of Quantum Questions?
-Jake Ross(JR): Yup, let’s do it.
-TW: Do you have any strategy going into this
+[03:16] Jake Ross(JR): Yup, let’s do it.
+[03:17] TW: Do you have any strategy going into this
 today?
-JR: I want to beat Ben and Jeremiah so I’m
+[03:19] JR: I want to beat Ben and Jeremiah so I’m
 just going to blow through them, go as fast
-as possible.
-TW: I like how you’re already talking fast,
+[03:24] as possible.
+[03:25] TW: I like how you’re already talking fast,
 you’re like ready to go.
-JR: Let’s do it.
-TW: Two minutes on the clock starting now.
-What is your name and what do you do at CIG?
-JR: My name is Jake Ross, I’m a Producer
+[03:26] JR: Let’s do it.
+[03:27] TW: Two minutes on the clock starting now.
+[03:30] What is your name and what do you do at CIG?
+[03:31] JR: My name is Jake Ross, I’m a Producer
 here in CIG, Austin.
-TW: What does a Producer do?
-JR: Lots of stuff but suffice to say communicate
+[03:34] TW: What does a Producer do?
+[03:36] JR: Lots of stuff but suffice to say communicate
 with people a lot.
-TW: Fair enough, how does one become a Producer?
-JR: For me by happenstance.
-TW: Ok, what is your favourite department
+[03:40] TW: Fair enough, how does one become a Producer?
+[03:43] JR: For me by happenstance.
+[03:46] TW: Ok, what is your favourite department
 that you regularly work with?
-JR: Pass, not going to pick between my favourite
+[03:50] JR: Pass, not going to pick between my favourite
 children.
-TW: Fair enough.
-JR: Not going to do that.
-TW: Can you give us an update on the in-game
+[03:53] TW: Fair enough.
+[03:54] JR: Not going to do that.
+[03:55] TW: Can you give us an update on the in-game
 economy?
-JR: In-game economy, yes.
-So the pricing algorithm is nailed down, we’re
+[03:56] JR: In-game economy, yes.
+[03:57] So the pricing algorithm is nailed down, we’re
 pricing items as we speak.
-We also have the first twenty commodities
+[04:01] We also have the first twenty commodities
 defined, we have everything from diamonds
-to malt liquor, processed food, plutonium.
-Lots of stuff.
-TW: Is it frustrating that your legacy will
+[04:06] to malt liquor, processed food, plutonium.
+[04:09] Lots of stuff.
+[04:11] TW: Is it frustrating that your legacy will
 only ever be based on the style of your hair?
-JR: No.
-TW: What’s next on the Animation teams to
+[04:16] JR: No.
+[04:18] TW: What’s next on the Animation teams to
 do list?
-JR: Let’s see, we just finished cockpit
+[04:22] JR: Let’s see, we just finished cockpit
 enters and exits at the combat speeds.
-We’re doing interaction...
-cockpit interactions now or the start up sequences.
-We’re also working on mission givers for
+[04:27] We’re doing interaction...
+[04:29] cockpit interactions now or the start up sequences.
+[04:31] We’re also working on mission givers for
 the PU.
-TW: Fantastic, now what’s the latest on
+[04:34] TW: Fantastic, now what’s the latest on
 Spectrum?
-JR: Spectrum, we have the full release of
+[04:37] JR: Spectrum, we have the full release of
 Spectrum is incoming guys, it’s almost here.
-Right now we’re working on presence which
+[04:45] Right now we’re working on presence which
 is basically Spectrum when you’re playing
-the game and when you’re not playing the
+[04:49] the game and when you’re not playing the
 game, so it shows when you’re offline and
-when you’re not.
-TW: Fantastic.
-What are you most looking forward to that’s
+[04:51] when you’re not.
+[04:53] TW: Fantastic.
+[04:54] What are you most looking forward to that’s
 being developed in Austin right now?
-JR: Let’s see, the Kiosk that Rob Reininger
+[04:57] JR: Let’s see, the Kiosk that Rob Reininger
 designed.
-It’s with the UI team and the in-game code
+[05:00] It’s with the UI team and the in-game code
 team now so we’re working on that, going
-to be super exciting.
-TW: Awesome, what is your favourite ship?
-JR: Used to be the Herald, now it’s a tie
+[05:05] to be super exciting.
+[05:07] TW: Awesome, what is your favourite ship?
+[05:08] JR: Used to be the Herald, now it’s a tie
 between the Dragonfly and another ship that
-hasn’t been announced yet.
-So, I’m sorry to keep you in the dark.
-TW: And your most memorable moment at CIG
+[05:15] hasn’t been announced yet.
+[05:16] So, I’m sorry to keep you in the dark.
+[05:19] TW: And your most memorable moment at CIG
 Austin?
-With five seconds.
-JR: Most memorable moment…
-I gotta say it was the procedural planet.
-TW: We’re out of time.
-Great job Jake, we appreciate you taking the
+[05:23] With five seconds.
+[05:24] JR: Most memorable moment…
+[05:26] I gotta say it was the procedural planet.
+[05:29] TW: We’re out of time.
+[05:32] Great job Jake, we appreciate you taking the
 time from your busy schedule to stop by and
-answer some questions for us.
-JR: You’re welcome, thank you very much.
-TW: That makes 10 questions for Jake Ross
+[05:36] answer some questions for us.
+[05:38] JR: You’re welcome, thank you very much.
+[05:40] TW: That makes 10 questions for Jake Ross
 which means he fell a bit short of his goal
-of dethroning Jeremiah or surpassing Ben.
-Make sure to tune in next week if Jeremiah
+[05:44] of dethroning Jeremiah or surpassing Ben.
+[05:47] Make sure to tune in next week if Jeremiah
 will finally be taken down.
-Now if you have questions you want to contribute
+[05:51] Now if you have questions you want to contribute
 to Quantum Questions, you can head on over
-to the Subscriber area on the forums to do
+[05:55] to the Subscriber area on the forums to do
 just that.
-See you next time.
-MVP
-Ben Lesnick: Hey everybody, this is Ben Lesnick.
-Let’s check out the top five.
-Number five, Lsobrado for his Good Morning
+[05:58] See you next time.
+[06:00] MVP
+[06:02] Ben Lesnick: Hey everybody, this is Ben Lesnick.
+[06:07] Let’s check out the top five.
+[06:11] Number five, Lsobrado for his Good Morning
 Star Citizen video.
-A relaxing look at the sunrise at Yela.
-I mean one of the great things about Star
+[06:15] A relaxing look at the sunrise at Yela.
+[06:17] I mean one of the great things about Star
 Citizen is that the game is absolutely beautiful
-but, you know, a lot of games are beautiful.
-The great thing about the Star Citizen community
+[06:21] but, you know, a lot of games are beautiful.
+[06:23] The great thing about the Star Citizen community
 is that they appreciate that the game is beautiful
-and they make these videos that just bring
+[06:27] and they make these videos that just bring
 you into the world, it’s fantastic stuff.
-So, Good Morning Star Citizen.
-Number four, Giand for his Star Citizen action
+[06:34] So, Good Morning Star Citizen.
+[06:37] Number four, Giand for his Star Citizen action
 pad.
-Let’s you use emotes and chat from your
+[06:40] Let’s you use emotes and chat from your
 iOS device, he’s created a profile for action
-pad which is a tool that let’s you control
+[06:46] pad which is a tool that let’s you control
 PC things with your iPhone or iPad.
-So, he’s set it up so that you can control
+[06:53] So, he’s set it up so that you can control
 all the different shortcuts in Star Citizen
-from your phone, sort of like your own mobiGlas.
-Number three, OldSchool for his web comic,
+[06:58] from your phone, sort of like your own mobiGlas.
+[07:01] Number three, OldSchool for his web comic,
 The Citizens.
-The Citizens is absolutely hilarious, this
+[07:05] The Citizens is absolutely hilarious, this
 is comics and gags and things based on bugs
-from the game and as anyone who has played
+[07:11] from the game and as anyone who has played
 Star Citizen or watched Bugsmashers, we’ve
-got bugs aplenty.
-So he has done some good work there.
-Number two, Andre86 for his screenshots using
+[07:16] got bugs aplenty.
+[07:17] So he has done some good work there.
+[07:21] Number two, Andre86 for his screenshots using
 the new camera controls.
-They say a picture is worth a thousand words
+[07:25] They say a picture is worth a thousand words
 so just check out these pictures, they are
-absolutely stunning.
-The ability of Star Citizen backers to capture
+[07:30] absolutely stunning.
+[07:32] The ability of Star Citizen backers to capture
 the spirit of the game with their screenshots
-is wonderful.
-And who is number one…you are number six.
-Our MVP is Whispers Thru the Jump Point for
+[07:36] is wonderful.
+[07:39] And who is number one…you are number six.
+[07:42] Our MVP is Whispers Thru the Jump Point for
 his Star Citizen universe news videos.
-What he does is take all the Star Citizen
+[07:48] What he does is take all the Star Citizen
 news from different sources like Around the
-Verse, Citizen of the Stars, the Comm-Link
+[07:53] Verse, Citizen of the Stars, the Comm-Link
 and he does his own news show in front of
-a green screen in the Star Citizen world.
-My absolute favourite is where he is composited
+[07:57] a green screen in the Star Citizen world.
+[07:59] My absolute favourite is where he is composited
 himself so he is the pilot of a Starfarer,
-he just does a great job.
-He’s got such character and it’s a lot
+[08:04] he just does a great job.
+[08:05] He’s got such character and it’s a lot
 of fun, check it.
-Congratulations Whispers Thru the Jump Point,
+[08:10] Congratulations Whispers Thru the Jump Point,
 you’re this week's’ MVP.
-SUB-CONSCIOUS
-Alexis Lesnick(AL): Hello subscribers, Alexis
+[08:15] SUB-CONSCIOUS
+[08:16] Alexis Lesnick(AL): Hello subscribers, Alexis
 here with the very first installment of Sub-Conscious,
-a new segment where we update you on the latest
+[08:24] a new segment where we update you on the latest
 and greatest in subscriber news.
-If you aren’t a subscriber, well why the
+[08:28] If you aren’t a subscriber, well why the
 heck not, you can learn more about subscriptions
-at the link below.
-Last week we released our February subscriber
+[08:33] at the link below.
+[08:35] Last week we released our February subscriber
 flair, this month’s item is a painting called
-‘Tears of Fire’ for your hangar which
+[08:39] ‘Tears of Fire’ for your hangar which
 represents a key moment in UEE history.
-We hope you enjoy the artwork and stay tuned
+[08:43] We hope you enjoy the artwork and stay tuned
 for your next reward.
-Your ship of the month for February is the
+[08:47] Your ship of the month for February is the
 Hornet Wildfire, the Wildfire is one of the
-exclusive airshow variants that we made available
+[08:51] exclusive airshow variants that we made available
 for last year’s anniversary and it’s yours
-to fly free all month long.
-Finally you can look forward to the next edition
+[08:55] to fly free all month long.
+[08:58] Finally you can look forward to the next edition
 of Jump Point hitting digital shelves this
-Friday.
-This issue features a look at the recent Star
+[09:02] Friday.
+[09:03] This issue features a look at the recent Star
 Marine release plus plenty of cool fiction
-including a look at the Star Marine community
+[09:07] including a look at the Star Marine community
 circa 2947.
-Have a happy Valentine’s Day and stay tuned
+[09:11] Have a happy Valentine’s Day and stay tuned
 for more updates and I’ll see you in the
-Den.
-OUTRO
-TW: That’s all for this week, thank you
+[09:16] Den.
+[09:17] OUTRO
+[09:18] TW: That’s all for this week, thank you
 for tuning in.
-I want to give a quick shout out to TheNOOBIFIER
+[09:25] I want to give a quick shout out to TheNOOBIFIER
 for coming on and chatting with us in another
-installment of Citizen Spotlight and Jake
+[09:28] installment of Citizen Spotlight and Jake
 Ross for taking the hot seat in Quantum Questions.
-Thanks again for all your support and we’ll
+[09:34] Thanks again for all your support and we’ll
 see you in the ‘Verse.

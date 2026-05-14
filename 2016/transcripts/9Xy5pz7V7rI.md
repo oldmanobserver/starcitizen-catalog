@@ -6,733 +6,733 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:10] Closed Captioning provided by the Imperial
 News Network.
-Sandi Gardiner (SG): Hey everyone, welcome
+[00:14] Sandi Gardiner (SG): Hey everyone, welcome
 to Around the Verse, our weekly look inside
-Star Citizen's development.
-I’m your host Sandi Gardiner and joining
+[00:19] Star Citizen's development.
+[00:20] I’m your host Sandi Gardiner and joining
 me this week is Chris Roberts, welcome back.
-Chris Roberts (CR): Thank you, good to be
+[00:24] Chris Roberts (CR): Thank you, good to be
 back and just in time vamp it up for halloween.
-SG: Yes we did, and you’re visiting both
+[00:29] SG: Yes we did, and you’re visiting both
 U.K. and Germany offices correct?
-CR: Yes I was catching up with our two Foundry
+[00:34] CR: Yes I was catching up with our two Foundry
 42 offices in Wilmslow up by Manchester and
-in Frankfurt, and I was also overseeing some
+[00:40] in Frankfurt, and I was also overseeing some
 performance capture for 3.0 along with Dave
-Haddock who actually did a lot of directing
+[00:44] Haddock who actually did a lot of directing
 on some of the 3.0 stuff, he did a great job.
-SG: Very cool, and we’ll actually be discussing
+[00:48] SG: Very cool, and we’ll actually be discussing
 how performance capture goes from the stage
-to in engine later in this episode, but before
+[00:52] to in engine later in this episode, but before
 we do let's take a quick look on what’s
-going right now in the verse?
-CR: Okay well the Super Hornet free flight
+[00:56] going right now in the verse?
+[00:58] CR: Okay well the Super Hornet free flight
 just wrapped up.
-It’s pretty cool to see the first impressions
+[01:01] It’s pretty cool to see the first impressions
 from new people who test out Arena Commander
-and the Alpha PU during these free flight
+[01:04] and the Alpha PU during these free flight
 events.
-SG: And a big welcome to all of the new backers
+[01:06] SG: And a big welcome to all of the new backers
 joining us and thanks to all the veteran citizens
-helping them get settled in.
-CR: Yeah thank you very much.
-They make our community special.
-SG: They do.
-Looking ahead to our next release, 2.6 from
+[01:11] helping them get settled in.
+[01:12] CR: Yeah thank you very much.
+[01:13] They make our community special.
+[01:15] SG: They do.
+[01:16] Looking ahead to our next release, 2.6 from
 all our studio’s they’re checking in stuff
-everyday, care to share?
-CR: [Chuckles]
-SG: In the hotseat.
-CR: Pressure.
-Well okay we’re playing Star Marine in internal
+[01:20] everyday, care to share?
+[01:21] CR: [Chuckles]
+[01:22] SG: In the hotseat.
+[01:23] CR: Pressure.
+[01:24] Well okay we’re playing Star Marine in internal
 QA everyday.
-I had quite a fun session actually with Tony
+[01:27] I had quite a fun session actually with Tony
 Zurovec, Erin, Todd Papy in the German QA
-team last week when I was in Frankfurt.
-We have map and game mode adjustments based
+[01:31] team last week when I was in Frankfurt.
+[01:34] We have map and game mode adjustments based
 on internal playtest feedback we’re working
-on which were applying of course.
-We’re also working on network synchronization
+[01:38] on which were applying of course.
+[01:39] We’re also working on network synchronization
 to reduce lag and make these smoother client
-remote animation.
-In addition we’re making sure the structural
+[01:44] remote animation.
+[01:46] In addition we’re making sure the structural
 props and glass work properly over the network.
-Helmet 2.0 which is item 2.0 implementation
+[01:50] Helmet 2.0 which is item 2.0 implementation
 of the helmet, it’s just gone in with the
-new hud and widgets.
-Combat emotes have been hooked up as well
+[01:54] new hud and widgets.
+[01:56] Combat emotes have been hooked up as well
 and we’ll allow you to trigger them from
-the keyboard to allow you to signal your friends,
+[01:59] the keyboard to allow you to signal your friends,
 taunt your enemies without having to break
-your FPS flow.
-SG: There you go, and on the Arena Commander
+[02:03] your FPS flow.
+[02:04] SG: There you go, and on the Arena Commander
 front, the designers are pouring through all
-the feedback we got from the last Evocati
+[02:07] the feedback we got from the last Evocati
 build and are taking another pretty big pass
-based on some of their feedback and some of
+[02:11] based on some of their feedback and some of
 our thoughts together.
-CR: Yes I think people are gonna like what
+[02:14] CR: Yes I think people are gonna like what
 we’re doing.
-We’re going to go quite a bit further on
+[02:17] We’re going to go quite a bit further on
 the next iteration of flight changes and in
-addition to that we're working on missiles
+[02:21] addition to that we're working on missiles
 to give them some much needed attention to
-give them more variation and personality and
+[02:24] give them more variation and personality and
 how they behave.
-SG: Very cool.
-Missiles are now persistent between respawns
+[02:27] SG: Very cool.
+[02:28] Missiles are now persistent between respawns
 and we’re working on the gamemode pickups
-to rearm or refuel mid combat.
-CR: And the UI team is hard at work on the
+[02:32] to rearm or refuel mid combat.
+[02:34] CR: And the UI team is hard at work on the
 new front end for Star Marine and Arena Commander.
-So there’s a lot of work there, that one's
+[02:38] So there’s a lot of work there, that one's
 going to come in very hot.
-Of course we’re getting the new ships in
+[02:41] Of course we’re getting the new ships in
 and tested for both Crusader and Arena Commander.
-I know you’re all eager to get your hands
+[02:44] I know you’re all eager to get your hands
 on 2.6.
-Don’t worry, we're working on finishing
+[02:47] Don’t worry, we're working on finishing
 up the content and features so we can release
-2.6 to the PTU and then live.
-SG: Now let's head over to our Austin office
+[02:51] 2.6 to the PTU and then live.
+[02:53] SG: Now let's head over to our Austin office
 for a Studio Update.
-Studio Update
-Jake Ross (JR): Hey guys, Jake Ross here,
+[02:57] Studio Update
+[02:59] Jake Ross (JR): Hey guys, Jake Ross here,
 Producer of the Austin studio and I’m here
-with you this week to talk about what’s
+[03:01] with you this week to talk about what’s
 happening in Austin.
-Hard at work working towards 2.6, 3.0 and
+[03:03] Hard at work working towards 2.6, 3.0 and
 beyond.
-First I want to pass it off to Emre Switzer,
+[03:08] First I want to pass it off to Emre Switzer,
 Lighting Artist here in Austin to talk about
-lighting updates for the Star Marine maps.
-Emre Switzer (ES): So with the lighting in
+[03:11] lighting updates for the Star Marine maps.
+[03:13] Emre Switzer (ES): So with the lighting in
 Star Marine, we’re not specifically looking
-to highlight the players, one of the elements
+[03:17] to highlight the players, one of the elements
 of Star Marine’s FPS is we’re trying to
-build a more tactical gameplay experience
+[03:23] build a more tactical gameplay experience
 and so while in other first person shooters
-you can use lighting to contrast the player
+[03:26] you can use lighting to contrast the player
 and make them more visible, with the lighting
-in the Star Marine, we’re looking at it
+[03:30] in the Star Marine, we’re looking at it
 from a very realistic standpoint.
-So we’re saying “OK, there is this pirate
+[03:33] So we’re saying “OK, there is this pirate
 system which has been abandoned for quite
-some time, pirates have come in” - all the
+[03:37] some time, pirates have come in” - all the
 original lighting fixtures probably has been,
-to some extent, destroyed or they no longer
+[03:41] to some extent, destroyed or they no longer
 functional.
-So what would the pirates do?
-How would they go in and light this environment
+[03:45] So what would the pirates do?
+[03:46] How would they go in and light this environment
 for their purposes?
-So there is a lot of temporary lighting, there
+[03:50] So there is a lot of temporary lighting, there
 is a lot of lighting that’s not what was
-originally there - a lot of flickering lights,
+[03:55] originally there - a lot of flickering lights,
 there is a lot of very moody lighting.
-This again means that players are going to
+[04:00] This again means that players are going to
 have to be a little bit more cautious when
-they are entering a new playspace, they are
+[04:03] they are entering a new playspace, they are
 going to have to cover their teammates, they
-are going to have to be a little bit more
+[04:06] are going to have to be a little bit more
 tactical in how they approach these situations
-- they can’t just go in there guns blazing
+[04:10] - they can’t just go in there guns blazing
 and hope to survive.
-Echo 11 has a lot of these different rooms,
+[04:14] Echo 11 has a lot of these different rooms,
 connected by these tight intricate corridors
-so each of these rooms has their own unique
+[04:20] so each of these rooms has their own unique
 feel - maybe they are owned by different factions
-or ran by different people - but each of their
+[04:25] or ran by different people - but each of their
 own rooms has a distinct feel about it so
-it’s also going to help with the teamwork
+[04:30] it’s also going to help with the teamwork
 element because you can give callouts pretty
-easily.
-So you “Oh, I’m in this blue room with
+[04:33] easily.
+[04:34] So you “Oh, I’m in this blue room with
 all these crazy monitors” and all your teammates
-will know where you are, so I’m really excited
+[04:37] will know where you are, so I’m really excited
 for Star Marine - I can’t wait to get in
-there with all my friends, create a squad
+[04:41] there with all my friends, create a squad
 of six guys and run around one of these maps
-and shoot up the enemies.
-JR: Alright, so now we’re going to pass
+[04:46] and shoot up the enemies.
+[04:48] JR: Alright, so now we’re going to pass
 it off to the QA Team and the Game Support
-Team and talk about testing for 2.6 and working
+[04:53] Team and talk about testing for 2.6 and working
 with the Evocati.
-Justin Binford (JB): 2.6 will bring about
+[04:57] Justin Binford (JB): 2.6 will bring about
 a lot of changes and new content, some of
-which include a refactor to our lobby system,
+[05:01] which include a refactor to our lobby system,
 some new missions, an addition to GrimHex
-and also the new ships - the Hoplite and the
+[05:06] and also the new ships - the Hoplite and the
 Herald.
-QA has also been heavily been focused on testing
+[05:09] QA has also been heavily been focused on testing
 ship model changes which includes a balance
-pass to shields, weapons and missiles.
-This has been a heavily iterative process
+[05:14] pass to shields, weapons and missiles.
+[05:18] This has been a heavily iterative process
 where QA will provide feedback, design will
-make changes then QA will test those changes
+[05:22] make changes then QA will test those changes
 and provide additional feedback.
-Each day we have a live release sync for 2.6
+[05:27] Each day we have a live release sync for 2.6
 for where we’ll get together, discuss any
-new blockers critical issues, any outstanding
+[05:32] new blockers critical issues, any outstanding
 issues and also get an update of the build.
-Scott McCrea (SM): Alongside everything that
+[05:37] Scott McCrea (SM): Alongside everything that
 is going into 2.6, we’re also heavily focused
-on Star Marine, myself and my colleague Bryan
+[05:41] on Star Marine, myself and my colleague Bryan
 Croker are both FPS specialists that work
-on Star Marine all day, every day.
-Basically what that means is we utilize checklists,
+[05:46] on Star Marine all day, every day.
+[05:48] Basically what that means is we utilize checklists,
 use something called ‘Ad-hoc testing’
-which is kinda exploratory testing.
-One of my favourite ways of testing would
+[05:53] which is kinda exploratory testing.
+[05:54] One of my favourite ways of testing would
 be the cross-studio playtests and basically
-what that does is word goes out that we’re
+[05:59] what that does is word goes out that we’re
 making this cross-studio playtest, everybody
-from all the studios come in and play against
+[06:05] from all the studios come in and play against
 each other, after the playtest we all get
-the feedback, get the bugs, I take all that
+[06:11] the feedback, get the bugs, I take all that
 information, put it into a single area, collate
-it down and send it off to people to who need
+[06:18] it down and send it off to people to who need
 to know about it.
-We’re very excited to get Star Marine into
+[06:21] We’re very excited to get Star Marine into
 PTU soon, that’ll ultimately help us get
-one step closer to the live release.
-JB: There is a lot of new stuff coming in
+[06:25] one step closer to the live release.
+[06:27] JB: There is a lot of new stuff coming in
 2.6, some of which, like our flight model
-changes, are already in the hands of our volunteer
+[06:31] changes, are already in the hands of our volunteer
 Evocati testers which have been a huge help.
-Will Leverett (WL): So the Evocati Test Flight
+[06:36] Will Leverett (WL): So the Evocati Test Flight
 Programme is a programme that we started in
-february of this year and it’s been hugely
+[06:41] february of this year and it’s been hugely
 successful.
-It’s made up of 800 volunteers right now
+[06:45] It’s made up of 800 volunteers right now
 - they are from 20 different countries, they
-speak 18 different languages and they cover-
+[06:50] speak 18 different languages and they cover-
 they are from five different continents around
-the world - it’s actually pretty cool.
-So, what Evocati does is take a build that
+[06:55] the world - it’s actually pretty cool.
+[06:57] So, what Evocati does is take a build that
 is out of internal QA but let’s just say
-it’s not ready for primetime, it’s pretty
+[07:04] it’s not ready for primetime, it’s pretty
 busted, it’s unfinished, it’s broken and
-a lot of times the people who play are masochists
+[07:08] a lot of times the people who play are masochists
 because they crash a lot - a lot of bugs - things
-aren’t quite exactly as fun as they should
+[07:14] aren’t quite exactly as fun as they should
 be before they get out to a wider audience.
-Benjamin McMonnies (BM): The Evocati process
+[07:20] Benjamin McMonnies (BM): The Evocati process
 is a pretty difficult process, we’ve vet
-all them through an algorithm that we use
+[07:25] all them through an algorithm that we use
 to make sure that they’re active and dedicated
-in testing through the Issue Council.
-We also double check them ourselves to make
+[07:30] in testing through the Issue Council.
+[07:32] We also double check them ourselves to make
 sure they’re not just adding contributions
-randomly and it’s pretty hard to get into
+[07:37] randomly and it’s pretty hard to get into
 the Evocati Test Flight - you have to be quite
-dedicated and everyone there really is.
-Eric Green (EG): Working with the Evocati
+[07:42] dedicated and everyone there really is.
+[07:45] Eric Green (EG): Working with the Evocati
 has resulted in an enormous amount of feedback
-via the issue council and via the PTU website,
+[07:49] via the issue council and via the PTU website,
 we’ve just had to pour through a massive
-amount of tickets provided to the Issue Council
+[07:55] amount of tickets provided to the Issue Council
 and they are miraculously not duplicates.
-They find just an enormous amount of bugs
+[08:01] They find just an enormous amount of bugs
 that we can actually find and fix and make
-sure the servers are more stable when we move
+[08:05] sure the servers are more stable when we move
 over to our Wave 1 PTU process - in addition
-to that we’ve been provided so much feedback
+[08:11] to that we’ve been provided so much feedback
 on the gameplay that we’ve actually had
-to find creative ways to go through the sheer
+[08:15] to find creative ways to go through the sheer
 amount of feedback that they’ve been providing
-so that way we can distill it down and provide
+[08:20] so that way we can distill it down and provide
 it to the producers and designers and they
-can make changes to the game.
-WL: Thinking about some of the successes of
+[08:24] can make changes to the game.
+[08:26] WL: Thinking about some of the successes of
 the Evocati - I think back to 2.3.0, if you
-remember that was a long time in waiting,
+[08:32] remember that was a long time in waiting,
 and once it got out it was terrible, it was
-just crashy, had lots of bugs, and literally
+[08:39] just crashy, had lots of bugs, and literally
 was not fun.
-But also wasn’t ready to go out to the public
+[08:42] But also wasn’t ready to go out to the public
 - that was- I think it was a fun time for
-the volunteers because they had a common bond
+[08:48] the volunteers because they had a common bond
 that they all went through.
-But the reality is that it took a long time
+[08:53] But the reality is that it took a long time
 to get that build ready before it went out
-to the PTU and ultimately to the public.
-So that was a good month of pain for the volunteers
+[08:59] to the PTU and ultimately to the public.
+[09:01] So that was a good month of pain for the volunteers
 but they hung in and they gave us lots of
-feedback - we’re able to get that stuff
+[09:07] feedback - we’re able to get that stuff
 fixed and out the door.
-JR: OK, thanks guys.
-Now we’re going to hand it off, finally,
+[09:11] JR: OK, thanks guys.
+[09:12] Now we’re going to hand it off, finally,
 to Jason Ely in the Backend Services Team
-to talk about the updates they’ve got going
+[09:16] to talk about the updates they’ve got going
 on in their world.
-Jason Ely (JE): Lately we’ve been working
+[09:20] Jason Ely (JE): Lately we’ve been working
 on a number of things, we have Iain who has
-been working on- well he built our service
+[09:25] been working on- well he built our service
 recovery platform which allows the services
-to easily connect to each other- identify
+[09:31] to easily connect to each other- identify
 and connect to each other and now he’s been
-working on admin and customer support tools.
-While Tom has been working on a lot of things,
+[09:36] working on admin and customer support tools.
+[09:38] While Tom has been working on a lot of things,
 he’s our #1 firefighter and he also our
-leaderboard and matchmaking modifications
+[09:45] leaderboard and matchmaking modifications
 for the upcoming patch.
-I’ve been working on- let’s see, so far
+[09:50] I’ve been working on- let’s see, so far
 it’s been the hub rewrite that’s been
-my biggest chore lately - that’s been quite
+[09:54] my biggest chore lately - that’s been quite
 the ordeal, it took about a month to do from
-beginning to end.
-Much of what we do in the backend is never
+[10:00] beginning to end.
+[10:01] Much of what we do in the backend is never
 really seen directly by the players but- in
-rewriting the hub server, much of what we
+[10:08] rewriting the hub server, much of what we
 did was I took time and simplified the threading
-model, and converted it over to support our
+[10:12] model, and converted it over to support our
 new architecture - obviously, which is how
-we handle messages and routing which greatly
+[10:17] we handle messages and routing which greatly
 reduces the amount of memory moves we have
-to do from one network port to the other network
+[10:23] to do from one network port to the other network
 port.
-We’ve also removed some of the state and
+[10:26] We’ve also removed some of the state and
 isolated some of the state into one thread
-which makes communication a lot easier.
-Performance wise - it’s nothing that the
+[10:30] which makes communication a lot easier.
+[10:34] Performance wise - it’s nothing that the
 player is going to know - it’s more of a
-throughput issue from an overall larger perspective.
-We can move more data to more clients without
+[10:38] throughput issue from an overall larger perspective.
+[10:41] We can move more data to more clients without
 exhausting the machine and running down.
-Originally, it was the first service written,
+[10:46] Originally, it was the first service written,
 actually by Tom Sawyer back a number of years
-ago and it was the most reliable server at
+[10:52] ago and it was the most reliable server at
 the time - it ran like three and a half months
-solid with no problems.
-Over time, before I got here, it grew and
+[10:57] solid with no problems.
+[10:59] Over time, before I got here, it grew and
 it went through the growing pains - it had
-too many cooks in the kitchen.
-Some complexities that were introduced that
+[11:04] too many cooks in the kitchen.
+[11:06] Some complexities that were introduced that
 were unnecessary and so it didn’t grow gracefully
-and so when I came on we started the new service
+[11:11] and so when I came on we started the new service
 architecture which brought us persistence
-and GIM - we always knew that we were going
+[11:16] and GIM - we always knew that we were going
 to have to address our hub server but it was
-so- it had grown into something it wasn’t
+[11:21] so- it had grown into something it wasn’t
 meant to be, it had a lot of state, so it
-took quite a bit of time to address and so
+[11:25] took quite a bit of time to address and so
 we just didn’t have that opportunity so
-we saved the best for last.
-Tom Sawyer (TS): The Arena Commander and Star
+[11:30] we saved the best for last.
+[11:31] Tom Sawyer (TS): The Arena Commander and Star
 Marine UIs are getting a major facelift this
-round and we’re really trying to polish
+[11:35] round and we’re really trying to polish
 the UIs as much as possible and make them
-more fully functional.
-The thing I work on the most is the C++ code
+[11:40] more fully functional.
+[11:41] The thing I work on the most is the C++ code
 that the UI system interact with the server
-backend and there’s information in lobbies
+[11:46] backend and there’s information in lobbies
 that need to be shared between all the players
-when you are in the lobby - what map they
+[11:52] when you are in the lobby - what map they
 are in, what game mode, the character loadout
-for Star Marine, or their ship selection for
+[11:59] for Star Marine, or their ship selection for
 Arena Commander - so I focus on propagating
-that information and syncing it up between
+[12:04] that information and syncing it up between
 all the clients.
-I kinda consider ourself like a second generation
+[12:07] I kinda consider ourself like a second generation
 matchmaking system.
-It’s where you form a lobby or a group of
+[12:12] It’s where you form a lobby or a group of
 players or a party of your friends and you
-can chat with each other but at some point
+[12:19] can chat with each other but at some point
 you hit ‘match me into a game’ and at
-that point then your request goes to the backend
+[12:26] that point then your request goes to the backend
 servers and the match makers take a look at
-all the game instances that are currently
+[12:31] all the game instances that are currently
 running and tries to do a best fit match for
-your group to join a game.
-If there is no game open, obviously, then
+[12:37] your group to join a game.
+[12:39] If there is no game open, obviously, then
 the general instance manager will pull a server
-from the open pull and assign you to that
+[12:45] from the open pull and assign you to that
 and then other players can be matched to that
-over time but a third generation matchmaking
+[12:49] over time but a third generation matchmaking
 system is what you see in Battlefield or Call
-of Duty where you just get this massive super-lobby
+[12:55] of Duty where you just get this massive super-lobby
 and you see players come and go, being matched
-into it and you see a timer going from two
+[13:02] into it and you see a timer going from two
 minutes to zero and if it’s got enough players
-then it just chucks all the players to game
+[13:07] then it just chucks all the players to game
 instances.
-We’re more like Overwatch or Heroes of the
+[13:10] We’re more like Overwatch or Heroes of the
 Storm, where you form your group first then
-you match into a game.
-JR: Alright, thanks guys, that’s all we
+[13:17] you match into a game.
+[13:19] JR: Alright, thanks guys, that’s all we
 have for you this week.
-Thanks, and see you around.
-Back to Studio
-SG: We’ve mentioned the backend servers
+[13:23] Thanks, and see you around.
+[13:24] Back to Studio
+[13:25] SG: We’ve mentioned the backend servers
 and lobby system a number of times recently.
-What makes these updates so important for
+[13:30] What makes these updates so important for
 2.6 and beyond?
-CR: Well we’re really focusing on the user
+[13:34] CR: Well we’re really focusing on the user
 experience so we’re trying to make the ability
-for players to connect with their friends,
+[13:38] for players to connect with their friends,
 to play matches, customise their ship or their
-character much easier and quicker as well
+[13:41] character much easier and quicker as well
 as check out the standings and do it all from
-the same place so it’ll just be a better
+[13:45] the same place so it’ll just be a better
 experience.
-SG: Speaking of connecting players, it’s
+[13:48] SG: Speaking of connecting players, it’s
 time for this week’s Community Update.
-Take it away Tyler.
-Community Update w/Tyler Witkin
-Tyler Witkin (TW): Hey everyone, Tyler Witkin,
+[13:53] Take it away Tyler.
+[13:56] Community Update w/Tyler Witkin
+[14:01] Tyler Witkin (TW): Hey everyone, Tyler Witkin,
 Community Manager in the Austin, Texas studio
-here to bring you this week’s Community
+[14:04] here to bring you this week’s Community
 Update.
-First and foremost I hope you all had an epic
+[14:06] First and foremost I hope you all had an epic
 Halloween and I wanted to give a quick shoutout
-to Kinshadow and RedFang87 for their Star
+[14:10] to Kinshadow and RedFang87 for their Star
 Citizen themed pumpkin carvings which were
-posted on our website earlier this week, very
+[14:15] posted on our website earlier this week, very
 cool stuff.
-Just a reminder the Esperia Prowler art contest
+[14:18] Just a reminder the Esperia Prowler art contest
 is still going on.
-We’re going to be accepting submissions
+[14:22] We’re going to be accepting submissions
 through November 11th and announcing the winners
-at the anniversary livestream on November
+[14:26] at the anniversary livestream on November
 18th.
-We’re really excited to see what you guys
+[14:28] We’re really excited to see what you guys
 come up with.
-In other news, Star Citizen has been nominated
+[14:31] In other news, Star Citizen has been nominated
 for most wanted game for the Golden Joystick
-Awards.
-There’s only one more day to voite so if
+[14:36] Awards.
+[14:37] There’s only one more day to voite so if
 you want to follow the progress, you can go
-to Gamesradar.com/goldenjoystickawards.
-And now it's time for this weeks MVP.
-I want to give a huge congratulations Lundfoci
+[14:40] to Gamesradar.com/goldenjoystickawards.
+[14:44] And now it's time for this weeks MVP.
+[14:46] I want to give a huge congratulations Lundfoci
 for his extraordinary efforts in creating
-Starship42.com.
-This is a one stop shop where you can go in
+[14:50] Starship42.com.
+[14:52] This is a one stop shop where you can go in
 and explore the ins and outs of all of our
-ships in a detailed 3D viewer.
-I encourage you to check it out and you'll
+[14:56] ships in a detailed 3D viewer.
+[14:59] I encourage you to check it out and you'll
 quickly find you’re losing hours of your
-day exploring this website.
-So congratulations again, Lundfoci, you’re
+[15:02] day exploring this website.
+[15:04] So congratulations again, Lundfoci, you’re
 this week's MVP.
-Lastly the week would not be complete without
+[15:08] Lastly the week would not be complete without
 Reverse the Verse so make sure to tune in
-live at 10am Pacific Daylight time at twitch.tv/cigcommunity
+[15:12] live at 10am Pacific Daylight time at twitch.tv/cigcommunity
 where we’re going to talk about everything
-you saw on today’s episode.
-Thanks again all for your support and we’ll
+[15:19] you saw on today’s episode.
+[15:21] Thanks again all for your support and we’ll
 see you in the verse.
-Back to Studio
-CR: Thanks Tyler, awesome stuff.
-For more on the latest, make sure to check
+[15:23] Back to Studio
+[15:24] CR: Thanks Tyler, awesome stuff.
+[15:25] For more on the latest, make sure to check
 out our Community Hub on the site, there you’ll
-find our social media feed, featured forums
+[15:29] find our social media feed, featured forums
 posts, links to Star Citizen streamers, information
-on up and coming Bar Citizen events and much
+[15:33] on up and coming Bar Citizen events and much
 more.
-SG: Lots of stuff.
-On the top of the show we talked a little
+[15:36] SG: Lots of stuff.
+[15:37] On the top of the show we talked a little
 bit about our most recent performance capture
-session.
-P-cap is a big part of making the Star Citizen
+[15:41] session.
+[15:42] P-cap is a big part of making the Star Citizen
 universe come alive.
-Recording voice, face, and body all at the
+[15:47] Recording voice, face, and body all at the
 same time gives us a nuanced performance from
-the actors that we couldn’t get any other
+[15:52] the actors that we couldn’t get any other
 way, even if the headcam gets a little uncomfortable.
-CR: Yeah you would know that it can be uncomfortable.
-So anyway, it’s a great tool, but one it
+[15:57] CR: Yeah you would know that it can be uncomfortable.
+[15:59] So anyway, it’s a great tool, but one it
 involves a lot of attention to detail to get
-right.
-So it’s not just capturing someone, it’s
+[16:03] right.
+[16:04] So it’s not just capturing someone, it’s
 about understanding the precise metrics of
-what they’re interacting with.
-So the animation will work together with props
+[16:09] what they’re interacting with.
+[16:10] So the animation will work together with props
 and the sets will look natural in pretty much
-any situation.
-SG: For more on that, let's go back to our
+[16:15] any situation.
+[16:16] SG: For more on that, let's go back to our
 Austin studio for behind the scenes look at
-how we create all these animation assets.
-Behind the Scenes: Animation
-Brian Brewer (BB): Today we’re going to
+[16:20] how we create all these animation assets.
+[16:27] Behind the Scenes: Animation
+[16:30] Brian Brewer (BB): Today we’re going to
 talk about animations and how we get them
-from concept into game.
-And the process at which we do that is Design
+[16:33] from concept into game.
+[16:35] And the process at which we do that is Design
 comes to us and says “Hey we want some thing”
-so we say “Okay, how can we do this?”
-One of the things that we have to think about
+[16:39] so we say “Okay, how can we do this?”
+[16:42] One of the things that we have to think about
 whenever we shoot motion capture or something
-that we need for the universe are metrics.
-How ... what are the measurements?
-Are … is this character interacting an object?
-Is this character interacting with other objects?
-Is the character interacting with the player.
-There are a lot of thought processes that
+[16:46] that we need for the universe are metrics.
+[16:49] How ... what are the measurements?
+[16:51] Are … is this character interacting an object?
+[16:54] Is this character interacting with other objects?
+[16:56] Is the character interacting with the player.
+[16:58] There are a lot of thought processes that
 go into this to figure out exactly what we
-need.
-For example, if a character is setting at
+[17:03] need.
+[17:04] For example, if a character is setting at
 a mess hall we need to get the metrics of
-that mess hall table.
-We then have to go out on stage and we then
+[17:08] that mess hall table.
+[17:10] We then have to go out on stage and we then
 have to build out that mess hall table to
-approximate dimensions that you seen in game.
-This leads to a standardisation across all
+[17:14] approximate dimensions that you seen in game.
+[17:18] This leads to a standardisation across all
 mess hall tables in game so we don’t end
-up having 20 different mess hall tables that
+[17:22] up having 20 different mess hall tables that
 we now have to … instead of 50 animations
-we’re now doing 150 animations in order
+[17:28] we’re now doing 150 animations in order
 to accommodate every mess hall table that
-we have.
-Or bed or chair or bench or locker.
-You name it!
-Whatever you can interact with there’s a
+[17:35] we have.
+[17:36] Or bed or chair or bench or locker.
+[17:40] You name it!
+[17:41] Whatever you can interact with there’s a
 metric for it and a standardisation.
-So we go out on the stage, we build out these
+[17:46] So we go out on the stage, we build out these
 props or set pieces, and then actors are given
-very specific directions on how they are supposed
+[17:52] very specific directions on how they are supposed
 to approach these objects.
-These are also part of the metrics.
-For example, when you want to sit down on
+[17:57] These are also part of the metrics.
+[17:59] For example, when you want to sit down on
 a mess hall table the actor has to approach
-that mess hall table and their left foot has
+[18:03] that mess hall table and their left foot has
 to hit at approximately 100cm out, or 1m out,
-from the bench.
-Once they hit that mark - which actors are
+[18:10] from the bench.
+[18:12] Once they hit that mark - which actors are
 usually pretty good at hitting marks - they
-can do whatever they want to sit down onto
+[18:17] can do whatever they want to sit down onto
 that bench.
-And that’s where we get the fun acting that
+[18:19] And that’s where we get the fun acting that
 you see on the NPCs.
-David Peng (DP): Hey guys, I’m working on
+[18:22] David Peng (DP): Hey guys, I’m working on
 Squadron 42.
-These are assets that are going to be in Squadron
+[18:25] These are assets that are going to be in Squadron
 42 but eventually we’ll be able to implement
-these into the Persistent Universe.
-We had to do a couple of things, just as Bryan
+[18:30] these into the Persistent Universe.
+[18:32] We had to do a couple of things, just as Bryan
 said, we had to make sure that all the tables
-are now to a proper metric that we can reuse
+[18:37] are now to a proper metric that we can reuse
 the performances.
-Now that we’ve got this stuff in place … it’s
+[18:42] Now that we’ve got this stuff in place … it’s
 really cool because … and these obviously,
-these are blocked, these actually come from
+[18:50] these are blocked, these actually come from
 one of our more organic cinematic, so even
-though maybe this one wasn’t intended to
+[18:57] though maybe this one wasn’t intended to
 … we weren’t intending to use this for
-end game, there’s always an opportunity
+[19:01] end game, there’s always an opportunity
 to look at some of that stuff and go “Oh
-you know what I can extract and make that
+[19:06] you know what I can extract and make that
 something that has some reusability and we
-can apply this to the Persistent Universe.”
-So here’s another one.
-This is the hungry guy comes up and is waiting
+[19:11] can apply this to the Persistent Universe.”
+[19:14] So here’s another one.
+[19:17] This is the hungry guy comes up and is waiting
 in line for the mess hall.
-So this is all from and initial shoot … we
+[19:23] So this is all from and initial shoot … we
 actually have another one that’s coming
-in that has a lot more stuff in it.
-BB: Once we get the data back.
-The first thing we have to do is we have to
+[19:27] in that has a lot more stuff in it.
+[19:31] BB: Once we get the data back.
+[19:32] The first thing we have to do is we have to
 go through and have to analyse all the data.
-We gotta make sure the data handed to us from
+[19:35] We gotta make sure the data handed to us from
 the mocap stage is clean and that there’s
-no problems with it.
-We then go through a process of usually cutting
+[19:43] no problems with it.
+[19:45] We then go through a process of usually cutting
 the animation apart into different segments.
-When you use an object, like you want to sit
+[19:51] When you use an object, like you want to sit
 down in a chair, you have to break it into
-at least three segments: an enter, so you
+[19:56] at least three segments: an enter, so you
 actually sit down onto the chair; a cycle,
-where you are cycling like I am right now
+[20:01] where you are cycling like I am right now
 on a chair; and then an exit where you actually
-get up and you exit away from the chair.
-And these are what we call animations sets.
-These animation sets are very important - to
+[20:06] get up and you exit away from the chair.
+[20:08] And these are what we call animations sets.
+[20:10] These animation sets are very important - to
 have a complete set - in order to have an
-AI fully be able to go in and use an object.
-And these animation sets are definitely expandable.
-We can … we don’t to have just one cycle,
+[20:16] AI fully be able to go in and use an object.
+[20:19] And these animation sets are definitely expandable.
+[20:22] We can … we don’t to have just one cycle,
 of the guy sitting on the chair, the guy can
-be like leaning on his hand or scratching
+[20:26] be like leaning on his hand or scratching
 his neck or picking his nose or adjusting
-his earbuds or whatever you … whatever we
+[20:32] his earbuds or whatever you … whatever we
 can come up with that character can do in
-that chair we’ll shoot or animate or create.
-Whether it’s motion capture or whether it’s
+[20:39] that chair we’ll shoot or animate or create.
+[20:45] Whether it’s motion capture or whether it’s
 hand key.
-And then whenever it goes into game code will
+[20:48] And then whenever it goes into game code will
 sit the character, the AI, down into the seat
-and then randomly play these actions that
+[20:56] and then randomly play these actions that
 you see.
-Vanessa Landeros (VL): Hi, my name’s Vanessa
+[21:01] Vanessa Landeros (VL): Hi, my name’s Vanessa
 Landeros, and today I’m going to show you
-what we’ve been working on.
-And this guy will look a little funny because
+[21:05] what we’ve been working on.
+[21:06] And this guy will look a little funny because
 he doesn’t have his textures on his hands,
-but he’s basically this is what you’re
+[21:10] but he’s basically this is what you’re
 going to see when the background characters
-are in their beds sleeping or fussing around.
-Like tossing and turning here and there.
-Little fun stuff.
-We want to make sure we get a real experience,
+[21:15] are in their beds sleeping or fussing around.
+[21:20] Like tossing and turning here and there.
+[21:22] Little fun stuff.
+[21:26] We want to make sure we get a real experience,
 as real as we can get in the game, so we have
-these little minute details which you probably
+[21:34] these little minute details which you probably
 wouldn’t see in any normal game, but this
-is what makes Star Citizen so real and and
+[21:45] is what makes Star Citizen so real and and
 we’re working towards something really,
-really believable.
-And then the NPCs are going to be able to
+[21:54] really believable.
+[21:57] And then the NPCs are going to be able to
 get in and out of their beds too.
-So they’re going to be able to walk in,
+[22:01] So they’re going to be able to walk in,
 lay down … and the player will be able to
-get to do this too.
-Just we need to make sure we get ins and outs,
+[22:06] get to do this too.
+[22:10] Just we need to make sure we get ins and outs,
 also some of every angle so we can capture
-those possibilities, the character if he want’s
+[22:18] those possibilities, the character if he want’s
 to enter from the front he can enter from
-the front - all those need separate animations.
-Going to be able to see a janitor in game
+[22:22] the front - all those need separate animations.
+[22:24] Going to be able to see a janitor in game
 use a mop and a bucket.
-He’s going to clean up after all the Star
+[22:31] He’s going to clean up after all the Star
 Citizens.
-Potentially this guy is going to have a walk
+[22:34] Potentially this guy is going to have a walk
 cycle of his own - he’s not carrying his
-bucket right now - but you’ll just see him
+[22:47] bucket right now - but you’ll just see him
 drudge a bucket around with his mop.
-It’ll be fun once we get this guy up and
+[22:56] It’ll be fun once we get this guy up and
 going.
-Just that little extra detail that makes the
+[23:00] Just that little extra detail that makes the
 game as cool as it is.
-So - put it on fullscreen for you there - when
+[23:07] So - put it on fullscreen for you there - when
 he’s done with his area he’ll just pick
-up his bucket and he’ll go.
-BB: So when we pass these animations off on
+[23:15] up his bucket and he’ll go.
+[23:17] BB: So when we pass these animations off on
 Design, Design has something called a “usable”
-which is an object that’s placed in the
+[23:21] which is an object that’s placed in the
 universe that has these little entry nodes
-and attach nodes.
-And we have usables for pretty much everything
+[23:27] and attach nodes.
+[23:28] And we have usables for pretty much everything
 that you can interact with.
-AI will say “I want to use that chair.”
-So Design will have place that useable node
+[23:35] AI will say “I want to use that chair.”
+[23:39] So Design will have place that useable node
 on a chair, AI will navigate to that chair,
-align its … by the time it gets to that
+[23:45] align its … by the time it gets to that
 chair it will have aligned itself to the entry
-nodes, attach, sit down and use that object
+[23:48] nodes, attach, sit down and use that object
 until it’s ready to get up and leave.
-And while that object’s being used other
+[23:56] And while that object’s being used other
 AI will be like “I want to use a chair.
-Well that one’s taken, what’s the next
+[23:59] Well that one’s taken, what’s the next
 available chair?”
-Then they’ll nav to wherever the next useable
+[24:03] Then they’ll nav to wherever the next useable
 chair, or they’ll wait, or they’ll change
-their mind and they’ll go off some place
+[24:09] their mind and they’ll go off some place
 else.
-Sometimes we get requests that we don’t
+[24:11] Sometimes we get requests that we don’t
 have motion capture for or we don’t have
-time to go shoot motion capture, or maybe
+[24:17] time to go shoot motion capture, or maybe
 the motion capture state is tied up doing
-cinematics for us at the time, and it will
+[24:22] cinematics for us at the time, and it will
 be something that we have to get out right
-away.
-So what we’ll do is we’ll hand key whatever
+[24:26] away.
+[24:27] So what we’ll do is we’ll hand key whatever
 that motion is.
-Sometimes it’s temporary and we’ll replace
+[24:30] Sometimes it’s temporary and we’ll replace
 it later with proper motion capture.
-Sometimes it’s not super significant and
+[24:34] Sometimes it’s not super significant and
 so we’ll go in there and we’ll just hand
-key it and make it look really nice.
-DP: So we started working on PAW tool animations.
-High work zones, low work zones and then we
+[24:40] key it and make it look really nice.
+[24:41] DP: So we started working on PAW tool animations.
+[24:44] High work zones, low work zones and then we
 have floor work zones.
-So with this character we’ve got … we’re
+[24:47] So with this character we’ve got … we’re
 going though and he’s still work in progress
-so we’ve got transitions that we need to
+[24:52] so we’ve got transitions that we need to
 clean up, things like that, but here you can
-go through and you can see a full performance.
-We’ve got finger animations.
-This is actually one of the performances where
+[24:57] go through and you can see a full performance.
+[24:58] We’ve got finger animations.
+[24:59] This is actually one of the performances where
 we didn’t have time to shoot the mocap so
-we’ve actually gone through and hand keyed
+[25:03] we’ve actually gone through and hand keyed
 these.
-So this is the high work zone.
-Just so you can see there’s a little bit
+[25:06] So this is the high work zone.
+[25:07] Just so you can see there’s a little bit
 of difference: he pulls out his PAW tool and
-flicks it.
-And what’s cool about this is that this
+[25:11] flicks it.
+[25:13] And what’s cool about this is that this
 isn’t a unique, one off animation.
-This has high reusability.
-You can use this on ships, you can use this
+[25:21] This has high reusability.
+[25:22] You can use this on ships, you can use this
 on buildings, you can use it pretty much anywhere.
-For weapon’s vendors we wanted it so can
+[25:26] For weapon’s vendors we wanted it so can
 actually pick the weapons up, take them off
-and look at them.
-So from third person this is what you would
+[25:30] and look at them.
+[25:31] So from third person this is what you would
 typically see.
-So it looks like a character picking up and
+[25:34] So it looks like a character picking up and
 examining it.
-Some of these we didn’t have time to go
+[25:37] Some of these we didn’t have time to go
 through and mocap or we just needed something
-… some things we realise after shooting
+[25:43] … some things we realise after shooting
 “Oh man we need this but we gotta get this
-thing turned around”.
-So that a situation where I’ll have to go
+[25:49] thing turned around”.
+[25:50] So that a situation where I’ll have to go
 in and I’ll have to … I shoot video reference.
-I’ll get a general idea of what we need
+[25:55] I’ll get a general idea of what we need
 - here’s where I’m just checking a weapon
-- and then this is the hand keyed result of
+[26:00] - and then this is the hand keyed result of
 that.
-So this is tailored to … for first person
+[26:07] So this is tailored to … for first person
 for player.
-BB: I’m going to say the … probably the
+[26:11] BB: I’m going to say the … probably the
 most challenging aspect of all of this is
-consistency in whatever it is that we’re
+[26:19] consistency in whatever it is that we’re
 doing.
-For example, if a character needs to go and
+[26:23] For example, if a character needs to go and
 use a datapad and go around and inspect things
-with that datapad, that datapad becomes a
+[26:30] with that datapad, that datapad becomes a
 metric.
-And it become standardised.
-And that all datapad in the game now match
+[26:34] And it become standardised.
+[26:36] And that all datapad in the game now match
 this in particular datapad.
-It’s letting Design know that when a character
+[26:41] It’s letting Design know that when a character
 is going to sit down and use mobiGlas, that
-animation can be used across the board and
+[26:49] animation can be used across the board and
 that everybody’s aware of those animations
-and so nobody’s re-requesting things that
+[26:53] and so nobody’s re-requesting things that
 had already been finished.
-VL: And that’s just a taste of what players
+[26:59] VL: And that’s just a taste of what players
 will see in the upcoming releases.
-Hope you guys enjoyed.
-Outro
-CR: That’ll do it for this episode.
-Remember to tune in tomorrow at 10am PST,
+[27:04] Hope you guys enjoyed.
+[27:05] Outro
+[27:06] CR: That’ll do it for this episode.
+[27:08] Remember to tune in tomorrow at 10am PST,
 5PM GMT For Reverse the Verse.
-SG: And we’d also like to thank all of our
+[27:12] SG: And we’d also like to thank all of our
 subscribers as always.
-You guys make it possible to produce all of
+[27:16] You guys make it possible to produce all of
 this content from ATV, RTV, Bugsmashers, Loremakers
-and more.
-Thank you very much for your continued support
+[27:22] and more.
+[27:23] Thank you very much for your continued support
 and guess what?
-We are in the Guinness Book of Records.
-CR: Yeah look at that.
-SG: We’re in the records again, third time
+[27:26] We are in the Guinness Book of Records.
+[27:29] CR: Yeah look at that.
+[27:31] SG: We’re in the records again, third time
 in a row!
-Very exciting, do you recognize this ship?
-CR: Yes and also we’d like to… this is
+[27:33] Very exciting, do you recognize this ship?
+[27:34] CR: Yes and also we’d like to… this is
 a bunch of nice gifts we got during Citizencon.
-So there’s a few cool model of X-Wing there
+[27:38] So there’s a few cool model of X-Wing there
 and alcohol that I’m scared to drink.
-Belt buckles from Operation pitchfork.
-SG: Dusk Cartel
-CR: And Dusk Cartel, God Frequency.
-SG: That’s very cool.
-CR: All these are very cool, and a very, very
+[27:46] Belt buckles from Operation pitchfork.
+[27:48] SG: Dusk Cartel
+[27:49] CR: And Dusk Cartel, God Frequency.
+[27:50] SG: That’s very cool.
+[27:51] CR: All these are very cool, and a very, very
 cool challenge coin here.
-So thank you all guys and thank you for supporting
+[27:57] So thank you all guys and thank you for supporting
 us, we couldn’t do this without you guys
-and I would say until next week.
-SG: We will see you…
-CR/SG: Around
-the Verse!
+[28:02] and I would say until next week.
+[28:05] SG: We will see you…
+[28:06] CR/SG: Around
+[28:42] the Verse!

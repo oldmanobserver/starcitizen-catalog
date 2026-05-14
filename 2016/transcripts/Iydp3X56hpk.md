@@ -6,685 +6,685 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:13] Closed Captioning provided by the Imperial
 News Network.
-Ben Lesnick (BL): You wanna?
-Dave Haddock (DH): Oh, hi!
-Welcome to another edition of 10 for the Developers,
+[00:21] Ben Lesnick (BL): You wanna?
+[00:25] Dave Haddock (DH): Oh, hi!
+[00:30] Welcome to another edition of 10 for the Developers,
 I’m Dave Haddock, Lead Writer.
-BL: I’m Ben Lesnick, Director of Community
+[00:34] BL: I’m Ben Lesnick, Director of Community
 Engagement and ships.
-DH: And so this is where we take 10 questions
+[00:39] DH: And so this is where we take 10 questions
 from subscribers who are our subset of our
-community who provide a little bit of extra
+[00:44] community who provide a little bit of extra
 every month to allow this sort of added amount
-of community engagement and we do our best
+[00:50] of community engagement and we do our best
 to answer them.
-BL: Now our subscribers allow us to do programs
+[00:54] BL: Now our subscribers allow us to do programs
 like this, ATV, RTV, BugSmashers, all the
-community engagement you see us doing every
+[01:00] community engagement you see us doing every
 week so we really appreciate what you let
-us do.
-And now for some questions.
-[1:08] Thanatos asks: I just read through
+[01:06] us do.
+[01:08] And now for some questions.
+[01:10] [1:08] Thanatos asks: I just read through
 the entire writer’s guide, in one sitting,
-is all the information included therein still
+[01:17] is all the information included therein still
 up to date, or will there be some more updates
-coming?
-DH: For the most part it’s pretty up to
+[01:21] coming?
+[01:22] DH: For the most part it’s pretty up to
 date.
-I mean we are changing some aspects of it
+[01:25] I mean we are changing some aspects of it
 and its actually been sort of on a backburner
-lingering list of things that need to get
+[01:32] lingering list of things that need to get
 done to basically keep it more… because
-we’ve been doing obviously, with all the
+[01:37] we’ve been doing obviously, with all the
 script stuff and Squadron 42 stuff we’ve
-been developing the PU history and the aliens
+[01:40] been developing the PU history and the aliens
 races and the civilizations and stuff like
-that.
-We’ll probably be updating it soon.
-Part of it also about how we parse out that
+[01:47] that.
+[01:48] We’ll probably be updating it soon.
+[01:50] Part of it also about how we parse out that
 information, but yes it there will probably
-be an update.
-BL: I thought the Writers Guide was a great,
+[01:58] be an update.
+[01:59] BL: I thought the Writers Guide was a great,
 especially earlier on where we didn’t have
-the game for people to play, but you could
+[02:03] the game for people to play, but you could
 already imagine yourself in the universe and
-you could start creating your own fiction
+[02:07] you could start creating your own fiction
 in it.
-DH: Yeah it was fun too also having the aspects
+[02:09] DH: Yeah it was fun too also having the aspects
 of it that we started doing with the Lore
-Builder where there the areas we haven’t
+[02:15] Builder where there the areas we haven’t
 quite figured and so we got to turn to the
-community and I remember particularly we generated
+[02:19] community and I remember particularly we generated
 a lot of bands that did music and beer and…
-BL: Star Citizen, full of bands and beer.
-DH: [Laughs]
-BL: Now I always like looking back on a show
+[02:27] BL: Star Citizen, full of bands and beer.
+[02:30] DH: [Laughs]
+[02:31] BL: Now I always like looking back on a show
 and it’ll always be like 20 and 30 years
-later where we’re like “Oh there's the
+[02:35] later where we’re like “Oh there's the
 Star Trek writers bible” and it’s cool
-that we just put it out for everybody early
+[02:37] that we just put it out for everybody early
 on
-DH: Yeah, actually the Star Trek Next Generation
+[02:39] DH: Yeah, actually the Star Trek Next Generation
 bible is, I have it in my office actually
-if you haven’t read it, you should check
+[02:44] if you haven’t read it, you should check
 it out.
-BL: One of my favourite things in the world
+[02:45] BL: One of my favourite things in the world
 is the licensed tie in fiction that comes
-very, very early, like they kicked off some
+[02:50] very, very early, like they kicked off some
 writer writing the first couple novels before
-they shot the first episode.
-So data has blue skin and emotions, it’s
+[02:55] they shot the first episode.
+[02:56] So data has blue skin and emotions, it’s
 great.
-DH: Question two.
-Do you want me to read it or...?
-BL: I could...
-we can..
-read it.
-[3:01] PhantomofTruth asks: When you wrote
+[03:01] DH: Question two.
+[03:02] Do you want me to read it or...?
+[03:03] BL: I could...
+[03:04] we can..
+[03:05] read it.
+[03:06] [3:01] PhantomofTruth asks: When you wrote
 ‘Whisperer in the dark’, what were your
-influences/intentions and where do you see
+[03:09] influences/intentions and where do you see
 that story going into the future?
-DH: With that one, that was actually our first
+[03:13] DH: With that one, that was actually our first
 jump point story?
-It was actually I think, I was writing it
+[03:18] It was actually I think, I was writing it
 at the same time we were closing out, because
-that was still during the crowdfunding phase
+[03:25] that was still during the crowdfunding phase
 I believe.
-BL: That was yep.
-We started that off in 2012, end of 2012.
-And I think...
-DH: Yeah
-BL: I think we realized we'd done it, we'd
+[03:27] BL: That was yep.
+[03:28] We started that off in 2012, end of 2012.
+[03:30] And I think...
+[03:31] DH: Yeah
+[03:32] BL: I think we realized we'd done it, we'd
 set up all these subscriptions, we promised
-people original fiction, and we need a story
+[03:35] people original fiction, and we need a story
 really darn fast.
-DH: Yeah, that one.
-That one it was a weird one.
-At the time I was still writing the Cal Mason
+[03:38] DH: Yeah, that one.
+[03:39] That one it was a weird one.
+[03:40] At the time I was still writing the Cal Mason
 one, still writing the Kid Crimson one, and
-still writing the news update.
-I think part of it was just trying to set,
+[03:45] still writing the news update.
+[03:48] I think part of it was just trying to set,
 you know, Cal Mason was a very high adventure
-type thing, Kid Crimson was this sort of more
+[03:53] type thing, Kid Crimson was this sort of more
 Noir-ish crime thing.
-This really enough like, needed to feel distinct
+[03:58] This really enough like, needed to feel distinct
 from those two, so it kind of went for more
-horror, like Lovecraftian.
-There's a story he did called "The Nameless
+[04:03] horror, like Lovecraftian.
+[04:06] There's a story he did called "The Nameless
 City" that has this very long segment of it,
-where this guy is just crawling in a tunnel.
-It's really claustrophobic and uncomfortable
+[04:10] where this guy is just crawling in a tunnel.
+[04:12] It's really claustrophobic and uncomfortable
 and cool.
-It was that kind of feeling that, you know,
+[04:16] It was that kind of feeling that, you know,
 having this woman going through this like
-abandoned, old, destroyed civilization and
+[04:23] abandoned, old, destroyed civilization and
 weird things start happening.
-"Is it real, is it not?" and stuff, and try
+[04:28] "Is it real, is it not?" and stuff, and try
 to walk that line of like, you know, not supernatural
-stuff but, could it be?
-Who knows.
-So yeah, that was sort of the idea behind
+[04:34] stuff but, could it be?
+[04:36] Who knows.
+[04:37] So yeah, that was sort of the idea behind
 it.
-As far as the...
-I mean story for the system is gonna be interesting
+[04:42] As far as the...
+[04:45] I mean story for the system is gonna be interesting
 because that's Hades system.
-That's one that you guys are all gonna get
+[04:48] That's one that you guys are all gonna get
 to poke around in.
-One day.
-So we'll see where that story goes.
-Tanya is gonna, I think, probably make another
+[04:53] One day.
+[04:55] So we'll see where that story goes.
+[04:58] Tanya is gonna, I think, probably make another
 appearance somewhere.
-We'll have to see.
-BL: It's crazy thinking back to those early
+[05:02] We'll have to see.
+[05:04] BL: It's crazy thinking back to those early
 days, where you could be writing three serials
-at once and you were doing all the graphics
+[05:09] at once and you were doing all the graphics
 for the website.
-I think back "How did I do all of the CS tickets,
+[05:12] I think back "How did I do all of the CS tickets,
 and run the forums, and plan the sales?"
-It was crazy!
-DH: I don't know.
-I have no, I mean, It was nuts.
-I remember watching you guys do the last 24-hour
+[05:16] It was crazy!
+[05:17] DH: I don't know.
+[05:18] I have no, I mean, It was nuts.
+[05:19] I remember watching you guys do the last 24-hour
 live stream and I was at home when you guys
-were in Austin, and I was like "I don't know
+[05:25] were in Austin, and I was like "I don't know
 how they're standing."
-BL: I fell asleep.
-[5:31] Bluegoggles asks: As mind racking writing
+[05:28] BL: I fell asleep.
+[05:32] [5:31] Bluegoggles asks: As mind racking writing
 can be, I’m sure it’s just as satisfying.
-What area of writing has been more fascinating:
+[05:38] What area of writing has been more fascinating:
 The large scale lore of whole races, events,
-etc.
-Or the personalities and conduct of individual
+[05:42] etc.
+[05:43] Or the personalities and conduct of individual
 characters?
-DH: I kind of like the individual characters
+[05:45] DH: I kind of like the individual characters
 a bit, but the large scale stuff is actually
-fun because if you get stuck on character
+[05:49] fun because if you get stuck on character
 stuff you can actually just completely shift
-gears and be like, “I’m gonna write about,
+[05:55] gears and be like, “I’m gonna write about,
 or I’m going to think about beer and bands
-for an hour” and work out stuff like that.
-Think about music or architecture and stuff.
-So the large scale stuff is a nice respite,
+[06:02] for an hour” and work out stuff like that.
+[06:05] Think about music or architecture and stuff.
+[06:08] So the large scale stuff is a nice respite,
 but I always like characters and making people
-feel unique and getting hooked into that sort
+[06:15] feel unique and getting hooked into that sort
 of more personal story line.
-I would kind of go the latter, but the large
+[06:21] I would kind of go the latter, but the large
 scale stuff is super fun.
-BL: I like the small scale stuff.
-I certainly don’t write as much as you do,
+[06:26] BL: I like the small scale stuff.
+[06:27] I certainly don’t write as much as you do,
 but when we do things like sales and just
-the tiny little details that build the universe
+[06:31] the tiny little details that build the universe
 that don’t matter at all.
-The first one I remember was the branded pillow
+[06:34] The first one I remember was the branded pillow
 in the Aurora.
-[Both Laugh]
-BL: Of course!
-DH: I love the space comforter that’s on
+[06:37] [Both Laugh]
+[06:38] BL: Of course!
+[06:40] DH: I love the space comforter that’s on
 the Starfarer like the captains are like the
-planets and the stars, it’s amazing.
-[6:48] First Citizen asks: Will the Star Citizen
+[06:46] planets and the stars, it’s amazing.
+[06:48] [6:48] First Citizen asks: Will the Star Citizen
 Novella be a hard copy as well as digital
-at some point?
-Always nice to hold the book!
-DH: That is an excellent question.
-I don’t know, I think we’re still trying
+[06:52] at some point?
+[06:53] Always nice to hold the book!
+[06:54] DH: That is an excellent question.
+[06:58] I don’t know, I think we’re still trying
 to figure out, how that's...
-BL: The answer is we don’t know yet for
+[07:02] BL: The answer is we don’t know yet for
 that specific thing, but I saw there were
-a whole bunch of Novella questions that spawn
+[07:06] a whole bunch of Novella questions that spawn
 off of this one.
-DH: There were.
-BL: So where is the Novella, what is the Novella?
-DH: Well I have actually been working on it
+[07:08] DH: There were.
+[07:09] BL: So where is the Novella, what is the Novella?
+[07:12] DH: Well I have actually been working on it
 weirdly enough.
-I think the set up for it is awesome, I think
+[07:18] I think the set up for it is awesome, I think
 people are really going to like that and I’m
-sort of at the outlining stage of it.
-Time has been a little tight as late so I
+[07:23] sort of at the outlining stage of it.
+[07:27] Time has been a little tight as late so I
 haven’t had that much time to work on it,
-but it’s coming along.
-I think again, the setup is really awesome,
+[07:31] but it’s coming along.
+[07:34] I think again, the setup is really awesome,
 it’s going to be a lot of fun to get into,
-but yeah hopefully I can start working on
+[07:40] but yeah hopefully I can start working on
 it again soon.
-I think I’ll start loosening up a little
+[07:44] I think I’ll start loosening up a little
 bit.
-BL: Yeah I’ve heard that before for the
+[07:47] BL: Yeah I’ve heard that before for the
 past three years.
-DH: This is true.
-BL: But I should say I love the fact that
+[07:50] DH: This is true.
+[07:51] BL: But I should say I love the fact that
 you guys do all the fiction yourselves.
-Like back in the Wing Commander days they
+[07:56] Like back in the Wing Commander days they
 would say, “Okay here, contract this out
-to some generic Sci-fi writers” and here
+[08:00] to some generic Sci-fi writers” and here
 it’s all people who have a grasp on the
-universe.
-BL: Yeah, I mean we’ve had some outsourced
+[08:05] universe.
+[08:06] BL: Yeah, I mean we’ve had some outsourced
 some really good fiction and the stories that
-we just finished in Jump Point have had some
+[08:10] we just finished in Jump Point have had some
 a lot of really good writers contribute to
-it and it’s great to see that people are
+[08:17] it and it’s great to see that people are
 able to... again part of the difficult thing
-with this is contracting a writer to come
+[08:22] with this is contracting a writer to come
 into sort of an established universe and cause,
-if you’re approaching them because they
+[08:31] if you’re approaching them because they
 don’t necessarily know the world and you
-have to help them and a lot of people have
+[08:35] have to help them and a lot of people have
 been plugging in very quickly and hitting
-the ground running and making some really
+[08:41] the ground running and making some really
 cool stuff, so it's been great, but yeah it’s
-always fun to you know, we can be very into
+[08:46] always fun to you know, we can be very into
 learn kind of geek out about the stuff that
-we write.
-[8:53] Oberscht asks: For Ben Lesnick: How
+[08:53] we write.
+[08:54] [8:53] Oberscht asks: For Ben Lesnick: How
 much do views, like/dislike ratio - as in,
-factors outside of direct community outrage
+[09:03] factors outside of direct community outrage
 - affect your decisions concerning Youtube
-shows, articles and so on?
-BL: To be honest, specifically, the likes,
+[09:07] shows, articles and so on?
+[09:08] BL: To be honest, specifically, the likes,
 dislikes does not especially matter to us.
-We’re still in a very much gut feeling in
+[09:16] We’re still in a very much gut feeling in
 terms of reaction.
-After doing this for a couple years we kind
+[09:21] After doing this for a couple years we kind
 of have our sources for how people, the sources
-we trust to actually represent the community
+[09:29] we trust to actually represent the community
 so, I know when this person is outraged and
-they’re complaining that I should definitely
+[09:36] they’re complaining that I should definitely
 listen to them and we should think about things
-different, but pure numbers for, “They didn’t
+[09:41] different, but pure numbers for, “They didn’t
 retweet this enough” or “This ship sold
-80% instead of 90% of what we expected”
+[09:48] 80% instead of 90% of what we expected”
 not especially valuable to me personally.
-DH: So it’s not metric based, it’s more
+[09:53] DH: So it’s not metric based, it’s more
 instinctual.
-BL: Yeah we started to the do the metrics,
+[09:56] BL: Yeah we started to the do the metrics,
 the whole company has changed so much, we
-got out the metrics, we looked at them, but
+[10:03] got out the metrics, we looked at them, but
 I would say at this point we still do a lot
-more with just the human feeling.
-DH: Right, right.
-For Dave Haddock: When millions of people
+[10:08] more with just the human feeling.
+[10:11] DH: Right, right.
+[10:13] For Dave Haddock: When millions of people
 play a game, inconsistencies, plot holes and
-so on are bound to be found.
-So when that happens to Squadron 42, how would
+[10:17] so on are bound to be found.
+[10:19] So when that happens to Squadron 42, how would
 you react?
-Ignore them?
-‘Patch’ them?
-Retcon them in the next act?
-DH: Well there definitely isn’t plotholes,
+[10:25] Ignore them?
+[10:26] ‘Patch’ them?
+[10:27] Retcon them in the next act?
+[10:28] DH: Well there definitely isn’t plotholes,
 [Smirks]
-BL: Yeah this is like a pre-problem.
-You’re gonna screw this up!
-DH I mean It’s one of those things…
-I mean we do the best we can to try and troubleshoot
+[10:31] BL: Yeah this is like a pre-problem.
+[10:33] You’re gonna screw this up!
+[10:37] DH I mean It’s one of those things…
+[10:39] I mean we do the best we can to try and troubleshoot
 that sort of stuff?
-Like among the internal reviews and make sure
+[10:47] Like among the internal reviews and make sure
 that logic is tracking and people, you know,
-and again, it’s the tricky nature of storytelling
+[10:54] and again, it’s the tricky nature of storytelling
 in general.
-Like those connections between logic points
+[10:58] Like those connections between logic points
 can work for some people and they can’t
-work for other people, so to the people that
+[11:03] work for other people, so to the people that
 it doesn’t work for it becomes a plot hole,
-but other people aren’t bothered by it.
-So it’s a bit of a mixed bag.
-I mean I don’t know if there’s something
+[11:07] but other people aren’t bothered by it.
+[11:09] So it’s a bit of a mixed bag.
+[11:12] I mean I don’t know if there’s something
 that’s conceivably fixable, just as a hypothetical.
-I don’t know, I think we would have to gauge
+[11:19] I don’t know, I think we would have to gauge
 it based off how glaring the plot hole is.
-If it’s kind of inconsequential, maybe we
+[11:26] If it’s kind of inconsequential, maybe we
 would just probably ignore it or and then
-try to address it maybe in the next section
+[11:33] try to address it maybe in the next section
 or game or whatever.
-BL: Yeah I’m kind of curious about that.
-So let's ignore like giant plot holes, but
+[11:40] BL: Yeah I’m kind of curious about that.
+[11:42] So let's ignore like giant plot holes, but
 something really really minor like say you
-say Tanyia has a hair colour or different
+[11:47] say Tanyia has a hair colour or different
 hair color in two different places, do you
-go back and fix something that’s already
+[11:50] go back and fix something that’s already
 published or do you explain it later?
-What’s your preference there.
-DH: I mean I try to…
-Personally I dislike retconning especially
+[11:53] What’s your preference there.
+[11:54] DH: I mean I try to…
+[11:56] Personally I dislike retconning especially
 with what we’re doing because we’re building
-it in sort of public view that everyone is
+[12:01] it in sort of public view that everyone is
 getting really involved in this stuff and
-the last thing we want to do is to basically
+[12:07] the last thing we want to do is to basically
 say like, “Oh yeah that?
-Yeah, forget all that” you know kind of
+[12:10] Yeah, forget all that” you know kind of
 start over and this, they’re not made of
-marshmallows, they’re made of sponge cake
+[12:15] marshmallows, they’re made of sponge cake
 and people go “Oh, but I like marshmallows”.
-BL: Stop spoiling the Kertack.
-DH: Sorry, sorry!
-But yeah.
-I mean if I think it’s easy enough, I mean
+[12:20] BL: Stop spoiling the Kertack.
+[12:22] DH: Sorry, sorry!
+[12:26] But yeah.
+[12:27] I mean if I think it’s easy enough, I mean
 we’ve found inconsistency within you know
-Jump Point articles and you know between Jump
+[12:31] Jump Point articles and you know between Jump
 Point and old news dispatches.
-So when possible we just go back and we’ll
+[12:36] So when possible we just go back and we’ll
 just fix them to consolidate and at least
-be consistent with them.
-So far we haven't had anything really egregious
+[12:41] be consistent with them.
+[12:42] So far we haven't had anything really egregious
 that’s really come back to haunt us.
-It also in the early days as you remember,
+[12:52] It also in the early days as you remember,
 we would aim broad.
-BL: Yeah
-DH: So it was all just sort of like “It’s
+[12:57] BL: Yeah
+[12:58] DH: So it was all just sort of like “It’s
 kind of this, feeling” rather than it’s
-specifically blah, blah, blah, A,B,C, and
+[13:02] specifically blah, blah, blah, A,B,C, and
 D. So we gave ourselves wiggle room to hone
-it down later because we knew we would come
+[13:07] it down later because we knew we would come
 back to it.
-BL: We kind of run into a side problem with
+[13:10] BL: We kind of run into a side problem with
 ships where we want to continue developing
-new ships that are also old ships and “Oh
+[13:16] new ships that are also old ships and “Oh
 wait now we have three years of fiction where
-we don’t mention the Anvil” or whatever.
-DH: Yeah.
-BL: We just had that in a meeting earlier
+[13:21] we don’t mention the Anvil” or whatever.
+[13:24] DH: Yeah.
+[13:25] BL: We just had that in a meeting earlier
 this week, we were talking about a ship we
-can’t name yet and we’re like “Okay
+[13:28] can’t name yet and we’re like “Okay
 this feels like one the military has been
-using for years”
-DH: For a while, but I think to a certain
+[13:30] using for years”
+[13:31] DH: For a while, but I think to a certain
 extent I mean because we’re, again we’re
-developing it.
-No one has done that, that’s kind of the
+[13:37] developing it.
+[13:38] No one has done that, that’s kind of the
 crazy thing that I keep circling back to.
-Star Wars came out and now it was Star Wars,
+[13:44] Star Wars came out and now it was Star Wars,
 there was not you know, the book on the universe
-of Star Wars and the different races and the
+[13:51] of Star Wars and the different races and the
 different factions and stuff before the movie
-came out.
-So this is the first time that we’re doing
+[13:56] came out.
+[13:57] So this is the first time that we’re doing
 it backwards.
-I feel like to a certain extent we have to
+[13:59] I feel like to a certain extent we have to
 go “Oh yeah, that ship has been in service
-for 80 years and we just haven’t imagined
+[14:04] for 80 years and we just haven’t imagined
 it because, we didn’t know about it”.
-BL: this is only barely in a side, but just
+[14:08] BL: this is only barely in a side, but just
 this last weekend I was asking myself, “What
-was the Star Wars universe in 1978”?
-DH: Oh wow I would be fascinated to know.
-BL: Well I looked it up, there were three
+[14:13] was the Star Wars universe in 1978”?
+[14:16] DH: Oh wow I would be fascinated to know.
+[14:19] BL: Well I looked it up, there were three
 children books, a novelization and it’s
-crazy looking back.
-One of them is after the movie, Luke Skywalker
+[14:25] crazy looking back.
+[14:27] One of them is after the movie, Luke Skywalker
 is a planetary settler and he’s at the space
-academy and it’s so different from anything
+[14:33] academy and it’s so different from anything
 anyone would have thought of.
-DH: Wow, so there was no plan of or it didn’t
+[14:38] DH: Wow, so there was no plan of or it didn’t
 seem like there were alluding to any kind
-of set up for Empire Strikes Back, it was
+[14:42] of set up for Empire Strikes Back, it was
 just like done!
-BL: There’s even a part where he thinks
+[14:45] BL: There’s even a part where he thinks
 back to Obi-Wan Kenobi and he’s like “Oh
-yeah, the force he mentioned something about
+[14:50] yeah, the force he mentioned something about
 that”.
-DH: That’s crazy.
-[15:02] Jacknife asks: One of the charms of
+[14:53] DH: That’s crazy.
+[14:56] [15:02] Jacknife asks: One of the charms of
 the original Wing Commander was that there
-was this one ship, the Scimitar, that almost
+[15:04] was this one ship, the Scimitar, that almost
 nobody wanted to fly because it was widely
-regarded as slow and underpowered and obsolete.
-Granted, the team doesn’t have the resources
+[15:09] regarded as slow and underpowered and obsolete.
+[15:12] Granted, the team doesn’t have the resources
 to deliberately design a flyable 30th century
-Edsel for Star Citizen, but have you thought
+[15:15] Edsel for Star Citizen, but have you thought
 about including stuff like that as, say, NPC
-background ships, or maybe having the lore
+[15:20] background ships, or maybe having the lore
 categorize as ‘marketing failures’ ships
-that got rendered obsolete in their original
+[15:25] that got rendered obsolete in their original
 function by evolving game mechanics?
-BL: Short, short answer.
-Yes, absolutely.
-In fact Dave here has done some of the early
+[15:28] BL: Short, short answer.
+[15:30] Yes, absolutely.
+[15:31] In fact Dave here has done some of the early
 ship stuff down back to the Zeus early on.
-DH: Oh right.
-Right, right, right.
-BL: It's more a time of... a point of, how
+[15:37] DH: Oh right.
+[15:38] Right, right, right.
+[15:39] BL: It's more a time of... a point of, how
 can we work these into the schedule.
-We also kind of have this idea that our existing
+[15:43] We also kind of have this idea that our existing
 ships are going to age.
-You'll have the 2943 Aurora that is the model
+[15:47] You'll have the 2943 Aurora that is the model
 that is 5 years old, someday 10 years old.
-We, as we mentioned in another question, we
+[15:52] We, as we mentioned in another question, we
 are going back and saying, "Okay, here's another
-ship that would've existed back then."
-So de-aging, or re-aging existing ships is
+[15:57] ship that would've existed back then."
+[15:59] So de-aging, or re-aging existing ships is
 an option.
-We do want to build more and more ships into
+[16:04] We do want to build more and more ships into
 the background of the lore.
-As we get to the point where ships kind of
+[16:08] As we get to the point where ships kind of
 go directly into the game, rather than going
-through this whole concept sale, proposal
+[16:11] through this whole concept sale, proposal
 idea we can do some more 'less popular' ships
-that won't sell.
-DH: Right, right.
-BL: I will also note that for the example
+[16:18] that won't sell.
+[16:19] DH: Right, right.
+[16:20] BL: I will also note that for the example
 of Wing Commander though, and this is the
-power of lore, the Scimitar... everyone hates
+[16:25] power of lore, the Scimitar... everyone hates
 the Scimitar, everyone who played the game
-remembers hating the Scimitar.
-The Scimitar is bad.
-It's only bad because one of the characters,
+[16:30] remembers hating the Scimitar.
+[16:31] The Scimitar is bad.
+[16:33] It's only bad because one of the characters,
 several of the characters, repeatedly tell
-you it’s bad in the game.
-It's actually the second best ship in the
+[16:37] you it’s bad in the game.
+[16:38] It's actually the second best ship in the
 game.
-DH: I kind of liked flying the Scimitar.
-BL: Yeah.
-It's the guns, you have a constant recharge...
-DH: That was the big mass driver one, right?
-BL: Yes, it's the one with the mass drivers.
-It's so much more pleasant than the Hornet,
+[16:40] DH: I kind of liked flying the Scimitar.
+[16:42] BL: Yeah.
+[16:43] It's the guns, you have a constant recharge...
+[16:44] DH: That was the big mass driver one, right?
+[16:45] BL: Yes, it's the one with the mass drivers.
+[16:47] It's so much more pleasant than the Hornet,
 and I have an even easier time with it than
-the Rapier.
-DH: Right, right.
-Yeah, I mean it's also important to note that
+[16:50] the Rapier.
+[16:51] DH: Right, right.
+[16:52] Yeah, I mean it's also important to note that
 I mean like, you know, an old ship and a new
-ship are basically equal in difficulty to
+[16:56] ship are basically equal in difficulty to
 create.
-You have to go through as many steps.
-Whether the ship is 50 years old, or is supposed
+[16:59] You have to go through as many steps.
+[17:01] Whether the ship is 50 years old, or is supposed
 to be the new cutting edge thing, sort of
-from a production standpoint they're basically
+[17:07] from a production standpoint they're basically
 the same, it requires the same amount of work.
-So it's, you know, I think right now we're
+[17:11] So it's, you know, I think right now we're
 being a bit more, like Ben said, we're being
-a bit more surgical about what type of ships
+[17:15] a bit more surgical about what type of ships
 we're coming out with.
-BL: But that is part of why we give ships
+[17:18] BL: But that is part of why we give ships
 a lineage.
-It's never just... sometimes it is, "Here's
+[17:21] It's never just... sometimes it is, "Here's
 the totally new ship," but a lot of times,
-"Oh here's the Retaliator, and it has a hundred
+[17:25] "Oh here's the Retaliator, and it has a hundred
 year history with the UEE."
-DH: Right, right.
-BL: We're kind of planning that in.
-DH: Yeah.
-[17:33] Hawx asks: Why does the Endeavor have
+[17:28] DH: Right, right.
+[17:29] BL: We're kind of planning that in.
+[17:30] DH: Yeah.
+[17:33] [17:33] Hawx asks: Why does the Endeavor have
 such weak armaments for a deep space science
-vessel that’s the length of an Idris?
-Could it get some point defense systems along
+[17:40] vessel that’s the length of an Idris?
+[17:42] Could it get some point defense systems along
 the centre hull to protect against torpedo
-attacks and ships attempting to directly board?
-BL: Well the first answer is that the Endeavor
+[17:45] attacks and ships attempting to directly board?
+[17:48] BL: Well the first answer is that the Endeavor
 is not a combat ship, it's a science ship!
-We intentionally kept the weapons very limited.
-It's not an explorer either.
-It's a ship that goes to safer areas and does
+[17:55] We intentionally kept the weapons very limited.
+[17:58] It's not an explorer either.
+[17:59] It's a ship that goes to safer areas and does
 science.
-In fact, it has the armoured cab specifically
+[18:03] In fact, it has the armoured cab specifically
 so you can detach the valuable, complex, part
-and explore at your own risk.
-The other half of that question is, it's entirely
+[18:09] and explore at your own risk.
+[18:13] The other half of that question is, it's entirely
 possible that we get additional point defense
-turrets.
-It's going to wait until we go into the white
+[18:17] turrets.
+[18:18] It's going to wait until we go into the white
 boxing/grey boxing stage, and we start playing
-around with it and go, "Oh, okay, here's an
+[18:22] around with it and go, "Oh, okay, here's an
 obvious vector where enemy fighters take it
-down every single time."
-So we will build a solution to that.
-Until we get to that stage, it's hard to say.
-DH: Alright.
-Yeah, because, I mean a lot of it is sort
+[18:25] down every single time."
+[18:27] So we will build a solution to that.
+[18:31] Until we get to that stage, it's hard to say.
+[18:34] DH: Alright.
+[18:35] Yeah, because, I mean a lot of it is sort
 of... on paper it can be one thing but, like
-you said, once you see it in there.
-BL: Yeah.
-A lot of...
-I shouldn't say a lot of, but every single
+[18:39] you said, once you see it in there.
+[18:40] BL: Yeah.
+[18:41] A lot of...
+[18:42] I shouldn't say a lot of, but every single
 ship goes into the game with the "Oh here's
-the flaw we didn't see.
-Here's how we needed to play differently."
-There will be changes, that's a potential
+[18:46] the flaw we didn't see.
+[18:47] Here's how we needed to play differently."
+[18:49] There will be changes, that's a potential
 one.
-We'll see!
-DH: Cool.
-[18:57] Steve Hunter asks: Could you comment
+[18:53] We'll see!
+[18:55] DH: Cool.
+[18:56] [18:57] Steve Hunter asks: Could you comment
 on the intended difference we will see between
-a ‘Citizen’ and a ‘Civilian’ in the
+[19:01] a ‘Citizen’ and a ‘Civilian’ in the
 game?
-BL: Well the Citizen makes the choice to defend
+[19:03] BL: Well the Citizen makes the choice to defend
 the body of politics with his life.
-That's from Starship Troopers.
-What is the difference?
-DH: Well, yeah, I mean they get to vote for
+[19:10] That's from Starship Troopers.
+[19:12] What is the difference?
+[19:13] DH: Well, yeah, I mean they get to vote for
 the Senate.
-I mean that was sort of one thing, but...
-I mean we sort of outlined, I mean from the
+[19:16] I mean that was sort of one thing, but...
+[19:17] I mean we sort of outlined, I mean from the
 early days you remember, the very basic differences
-of "Only Citizens can have multi-system corporations."
-You know.
-"Civilians can only vote in local governments,
+[19:29] of "Only Citizens can have multi-system corporations."
+[19:33] You know.
+[19:34] "Civilians can only vote in local governments,
 not in Imperial Politics" and stuff like that.
-If I remember correctly, you know, while Chris
+[19:38] If I remember correctly, you know, while Chris
 wanted there to be a difference between the
-two I seem to recall him saying that there
+[19:44] two I seem to recall him saying that there
 was... it wasn't as divisive as a caste system
-in like medieval Europe, or feudal Japan,
+[19:52] in like medieval Europe, or feudal Japan,
 or something.
-BL: I've always seen it as much more of a,
+[19:55] BL: I've always seen it as much more of a,
 our equivalent of Yelp almost.
-"Hey this guy, I can trust this guy, he's
+[20:01] "Hey this guy, I can trust this guy, he's
 a Citizen!"
-Rather than, "Citizens look down on Civilians!"
-DH: Yeah, they're not underfoot of the regime
+[20:04] Rather than, "Citizens look down on Civilians!"
+[20:07] DH: Yeah, they're not underfoot of the regime
 of the Citizens and stuff like that.
-It was a bit more of a, you know, a choice.
-Like, do you want to commit to the empire
+[20:13] It was a bit more of a, you know, a choice.
+[20:19] Like, do you want to commit to the empire
 or do you not really care about the empire
-but you still want to live in it?
-BL: As you attach it to game play, you need
+[20:24] but you still want to live in it?
+[20:27] BL: As you attach it to game play, you need
 that lower spectrum too.
-People who decide to be civilians, or criminals,
+[20:30] People who decide to be civilians, or criminals,
 need to have a viable game play experience
-too.
-It has to be a choice, rather than a ladder
+[20:36] too.
+[20:37] It has to be a choice, rather than a ladder
 you climb.
-DH: Right.
-Right.
-Also, you know, not so obviously better quality
+[20:40] DH: Right.
+[20:41] Right.
+[20:42] Also, you know, not so obviously better quality
 of life or something like that where it's
-like, "Only Citizens can have a job" or something
+[20:49] like, "Only Citizens can have a job" or something
 like that.
-Yeah, as far as the specific game play stuff,
+[20:54] Yeah, as far as the specific game play stuff,
 I think we're still sort of trying to hone
-in on that.
-BL: I'm just imagining it's literally the
+[20:59] in on that.
+[21:00] BL: I'm just imagining it's literally the
 same as a Senior Citizens discount.
-Citizens get a 1.50 USD off their egg plate!
-DH: You get an awesome pen.
-You get to use a shorter line when transferring
+[21:06] Citizens get a 1.50 USD off their egg plate!
+[21:09] DH: You get an awesome pen.
+[21:10] You get to use a shorter line when transferring
 customs.
-[21:16] AragornBH asks: How do you think working
+[21:13] [21:16] AragornBH asks: How do you think working
 with Chris Roberts to make Star Citizen would
-be different and/or the same if you had worked
+[21:18] be different and/or the same if you had worked
 with Chris on a Wing Commander game?
-BL: That's an interesting question.
-So I've worked a little bit on lore for old
+[21:22] BL: That's an interesting question.
+[21:27] So I've worked a little bit on lore for old
 Wing Commander games.
-I did all the lore for the XBox live arcade
+[21:30] I did all the lore for the XBox live arcade
 game, I helped edit some of the novels and
-stuff.
-I find going back, that I don't take myself
+[21:34] stuff.
+[21:35] I find going back, that I don't take myself
 seriously.
-I look back and go "Okay.
-Wing Commander is amazing, I love Wing Commander,
+[21:38] I look back and go "Okay.
+[21:41] Wing Commander is amazing, I love Wing Commander,
 I love everything about the universe.
-This is the part Ben came up with...
-I don't know about that!
-What was I thinking?"
-It's actually kind of been good to be doing
+[21:43] This is the part Ben came up with...
+[21:47] I don't know about that!
+[21:48] What was I thinking?"
+[21:50] It's actually kind of been good to be doing
 Star Citizen, where it's this new thing that
-I get to see developed, and I have a part
+[21:54] I get to see developed, and I have a part
 in that I, don't know, I find that it gives
-me more buy in.
-If I were working on a Wing Commander game,
+[21:58] me more buy in.
+[21:59] If I were working on a Wing Commander game,
 I would be an obsessive crazy person about
-continuity and just very argumentative probably.
-It's a good thing we're doing Star Citizen.
-I'm actually more curious about you, because
+[22:03] continuity and just very argumentative probably.
+[22:09] It's a good thing we're doing Star Citizen.
+[22:12] I'm actually more curious about you, because
 you have so much more...
-so much more of the lore is yours, and you
+[22:15] so much more of the lore is yours, and you
 look at that and see, "Hey, there's Dave Haddock
-in writing form."
-How do you feel about that?
-DH: I mean it's awesome and, you know, people
+[22:20] in writing form."
+[22:21] How do you feel about that?
+[22:22] DH: I mean it's awesome and, you know, people
 seem to really like it, but again it's not
-just me.
-There's so many aspects of the universe that,
+[22:31] just me.
+[22:32] There's so many aspects of the universe that,
 when we were doing early conversations in
-the Kickstarter thing that we were talking
+[22:37] the Kickstarter thing that we were talking
 about, that have... like you guys, I haven't
-touched ships.
-You guys came up with all the ships and all
+[22:42] touched ships.
+[22:43] You guys came up with all the ships and all
 the awesome...
-I mean I still, like the Retaliator to me
+[22:45] I mean I still, like the Retaliator to me
 is just a work of art.
-BL: Which is interesting because, you know,
+[22:49] BL: Which is interesting because, you know,
 I look at the ships and like, "Oh my God!
-I can't believe I got to do this”.
-I got to work with these incredibly talented
+[22:52] I can't believe I got to do this”.
+[22:53] I got to work with these incredibly talented
 people that come up with this, there's a little
-bit of me in there.
-But I look at a ship that I did on Wing Commander
+[22:56] bit of me in there.
+[22:57] But I look at a ship that I did on Wing Commander
 Arena.
-I did a similar thing, I named all the ships,
+[23:00] I did a similar thing, I named all the ships,
 I did all the specs, I came up with their
-backstories, and I'm like, "Oh those are embarrassing”.
-They're not as good as the other Wing Commander
+[23:04] backstories, and I'm like, "Oh those are embarrassing”.
+[23:05] They're not as good as the other Wing Commander
 ships.
-DH: But no, I mean yeah, it's been awesome.
-But yeah, there so many...
-I mean everybody contributes, and that's kind
+[23:07] DH: But no, I mean yeah, it's been awesome.
+[23:11] But yeah, there so many...
+[23:13] I mean everybody contributes, and that's kind
 of, one of the fun things about the company
-is that there's a lot of... everybody banding
+[23:16] is that there's a lot of... everybody banding
 together and coming up with cool stuff.
-You know, going for what's fun.
-[23:26] Ethnine asks: Why are new ships coming
+[23:21] You know, going for what's fun.
+[23:23] [23:26] Ethnine asks: Why are new ships coming
 out of concept sale and going into production
-(Ex: the Reliant, Prowler, Herald, and maybe
+[23:28] (Ex: the Reliant, Prowler, Herald, and maybe
 the Buccaneer) instead of moving onto ships
-that already had concept sales years ago?
-(Ex: Merchantman, Redeemer, Reclaimer)
-BL: Well there’s a whole bunch of reasons
+[23:33] that already had concept sales years ago?
+[23:36] (Ex: Merchantman, Redeemer, Reclaimer)
+[23:38] BL: Well there’s a whole bunch of reasons
 for that.
-A major one is that we kind of now have this
+[23:43] A major one is that we kind of now have this
 pipeline down where the concept artists are
-in sync with the tech designers and everyone
+[23:49] in sync with the tech designers and everyone
 else and a ship can very seamless can go from
-one to the other, to the other and come out
+[23:53] one to the other, to the other and come out
 the other end.
-Which you’re seeing a lot with some of the
+[23:56] Which you’re seeing a lot with some of the
 smaller ships: The Sabre was finished very
-quickly, the Buccaneer is going to go right
+[23:59] quickly, the Buccaneer is going to go right
 into active development I believe, that’s
-the schedule as of today, that may change
+[24:04] the schedule as of today, that may change
 tomorrow.
-Another big aspect is the kits and the style
+[24:07] Another big aspect is the kits and the style
 sheets they built for the different manufactures.
-You probably noticed that when we did 2.0,
+[24:13] You probably noticed that when we did 2.0,
 you saw a lot of Aegis and MISC ships because
-those are the ships that have their pipelines
+[24:19] those are the ships that have their pipelines
 pretty much completed and now you’re seeing
-a whole bunch of Drake ships.
-We’re finishing up the Herald, we’re doing
+[24:25] a whole bunch of Drake ships.
+[24:27] We’re finishing up the Herald, we’re doing
 the Buccaneer, working on the Caterpillar.
-There’s rhyme behind it, I know people are
+[24:32] There’s rhyme behind it, I know people are
 like “We want to see the Banu Merchantman
-now, we want to see the Banu Merchantman now”,
+[24:35] now, we want to see the Banu Merchantman now”,
 I want to see the Banu Merchantman now, but
-we need to take time to build the Banu aesthetic,
+[24:40] we need to take time to build the Banu aesthetic,
 we need to do it right rather than right now.
-So the other ships time will come, they’re
+[24:47] So the other ships time will come, they’re
 all scheduled out on the production pipeline
-now.
-I will also mention now that Prowler was one
+[24:52] now.
+[24:53] I will also mention now that Prowler was one
 of the ones mentioned as going into production.
-We’re still in concept on that one, it’ll
+[24:57] We’re still in concept on that one, it’ll
 be a bit longer for exactly the same reason
-until you see it.
-We need to build the Tevarin race first and
+[25:02] until you see it.
+[25:03] We need to build the Tevarin race first and
 we want to do that right.
-Outro
-DH: And that is it, that is 10 for the Developers.
-BL: Didn’t feel like 10.
-DH: Did not, actually went rather quickly.
-BL: But I would like to thank everyone for
+[25:08] Outro
+[25:09] DH: And that is it, that is 10 for the Developers.
+[25:14] BL: Didn’t feel like 10.
+[25:17] DH: Did not, actually went rather quickly.
+[25:20] BL: But I would like to thank everyone for
 tuning in, thanks to the subscribers for making
-this possible, for asking the questions themselves.
-If we didn’t get your question, we will
+[25:24] this possible, for asking the questions themselves.
+[25:27] If we didn’t get your question, we will
 not answer it.
-DH: Or you could bounce it over to Ask a Dev
+[25:31] DH: Or you could bounce it over to Ask a Dev
 threads.
-BL: Yup, we are on the forums and…
-DH: Also thank you, a big thank you, to our
+[25:35] BL: Yup, we are on the forums and…
+[25:38] DH: Also thank you, a big thank you, to our
 community at large… in general for helping
-us do this at all.
-BL: Thank you to all human beings…
-no, thanks guys.
-DH: Bye.
+[25:44] us do this at all.
+[25:46] BL: Thank you to all human beings…
+[25:58] no, thanks guys.
+[26:17] DH: Bye.

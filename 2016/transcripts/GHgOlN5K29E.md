@@ -6,160 +6,160 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:08] Closed Captioning provided by the Imperial
 News Network.
-Mark Abent (MA): Hey everyone, welcome back
+[00:09] Mark Abent (MA): Hey everyone, welcome back
 to BugSmasher [Cough]...
-Wow that was bad.
-Alright.
-Hey everyone, we’re here in my fancy dancy
+[00:12] Wow that was bad.
+[00:17] Alright.
+[00:19] Hey everyone, we’re here in my fancy dancy
 test level with physics debug on.
-I’ve got a fun little bug that I supposively
+[00:30] I’ve got a fun little bug that I supposively
 broke the physics when items such as this
-gun down here gets attached to ships.
-As you can see, all the little grey stuff,
+[00:38] gun down here gets attached to ships.
+[00:41] As you can see, all the little grey stuff,
 that’s all the physics meshes and on the
-weapons and landing gear it’s not working.
-Yay!
-So the reason why, I was told this was my
+[00:47] weapons and landing gear it’s not working.
+[00:50] Yay!
+[00:52] So the reason why, I was told this was my
 bug was we started, I should say, we started
-splitting up a lot of our entity logic into
+[00:59] splitting up a lot of our entity logic into
 these things called components.
-Originally with CryEngine you really just
+[01:05] Originally with CryEngine you really just
 had an entity and then something called a
-game object extension and you have like all
+[01:11] game object extension and you have like all
 your logic in there and if you wanted to do
-the same thing in another entity over another,
+[01:17] the same thing in another entity over another,
 you usually copy and pasted it because that’s
-just how the engine was.
-Now we have this component system where we
+[01:21] just how the engine was.
+[01:23] Now we have this component system where we
 can build this little bit of logic here that
-can be used by this entity, this entity, this
+[01:27] can be used by this entity, this entity, this
 entity, any entity we want.
-So we had our vehicles and our old items,
+[01:33] So we had our vehicles and our old items,
 they had a special way of physicalizing or
-getting physics and doing you know, becoming
+[01:40] getting physics and doing you know, becoming
 a rigid body moving around and about.
-However, I had to convert those over to our
+[01:48] However, I had to convert those over to our
 new physics controller which will handle that
-for anything uses it, but it also allows other
+[01:57] for anything uses it, but it also allows other
 components to directly read the physics information
-and we needed that for the interaction system
+[02:04] and we needed that for the interaction system
 and especially for 2.4.
-So that way we could query, we call them interactions
+[02:10] So that way we could query, we call them interactions
 so that you could select certain things, but
-that’s for a future thing.
-For now I needed to convert everything over
+[02:16] that’s for a future thing.
+[02:18] For now I needed to convert everything over
 to a physics controller and that will handle
-all the physics the same for every entity
+[02:22] all the physics the same for every entity
 that uses it and unfortunately..
-[Cell phone rings]
-Phone call.
-Seriously business.
-So unfortunately after I checked all it in,
+[02:28] [Cell phone rings]
+[02:31] Phone call.
+[02:33] Seriously business.
+[02:35] So unfortunately after I checked all it in,
 thought everything was working, I get a fun
-call from Andrew our QA and he has the most
+[02:42] call from Andrew our QA and he has the most
 evil laugh there is and as soon as I checked
-in the code he was like, “Hey I have this
+[02:50] in the code he was like, “Hey I have this
 bug” and I’m like, “Of course you do”.
-So here’s our good old weapon and here’s
+[02:56] So here’s our good old weapon and here’s
 our good old ship.
-Normally the weapon will have its own physics,
+[03:03] Normally the weapon will have its own physics,
 but when we attach it to something it actually
-becomes physics of the ship.
-So the physics controller actually handles
+[03:09] becomes physics of the ship.
+[03:13] So the physics controller actually handles
 that, so when you’re on your own and then
-when you get attached, it makes sure it goes
+[03:17] when you get attached, it makes sure it goes
 through the appropriate areas.
-Unfortunately it had nothing to do with my
+[03:23] Unfortunately it had nothing to do with my
 specific physics controller, it actually had
-to do something else which is an attachable
+[03:29] to do something else which is an attachable
 component and for the longest time we had
-special code for things you attach to item
+[03:38] special code for things you attach to item
 ports, but because we want to be more generic
-and we want to attach anything to an item
+[03:44] and we want to attach anything to an item
 port, we created this thing called an attachable
-component.
-If an entity has this, it could basically
+[03:50] component.
+[03:51] If an entity has this, it could basically
 attach to things.
-So now we could have ships attached to item
+[03:54] So now we could have ships attached to item
 ports and a hangar, we could have players
-attached to an item port in a vehicle, you
+[03:59] attached to an item port in a vehicle, you
 could have a clothing thing attached to an
-item port on a ship, you name it and unfortunately
+[04:04] item port on a ship, you name it and unfortunately
 this attachable object expects another component
-called geometry resource which is another
+[04:14] called geometry resource which is another
 component which handles all the asset creation
-for how it looks.
-So you have a CGA which is our ship which
+[04:22] for how it looks.
+[04:23] So you have a CGA which is our ship which
 has bones and stuff so it can animate or it
-could be a pure geometry or skin, but either
+[04:30] could be a pure geometry or skin, but either
 way geometry resource is the component to
-handle that and unfortunately, since I made
+[04:37] handle that and unfortunately, since I made
 the item and the vehicle have a physical controller
-so it can use the interaction system, it also
+[04:45] so it can use the interaction system, it also
 now has this attachable component.
-This area right here, get these flags, we
+[04:52] This area right here, get these flags, we
 search for it… do do do..
-So when an attachable component gets attached
+[05:00] So when an attachable component gets attached
 onto the ship or hangar, whatever and there’s
-a thing called an attachment, we set certain
+[05:10] a thing called an attachment, we set certain
 flags and if there’s no flags set like it’s
-not visible, then we actually clear the physics
+[05:18] not visible, then we actually clear the physics
 because you can see it, why have physics,
-it just saves on performance.
-This is for things like you’re very far
+[05:24] it just saves on performance.
+[05:27] This is for things like you’re very far
 away you can really see or if we hide an entity
-you don’t want to crash into a random thing
+[05:32] you don’t want to crash into a random thing
 and unfortunately it’s returning no visibility
-and since our item vehicle aren’t using
+[05:41] and since our item vehicle aren’t using
 this component yet, we’re always getting
-zero because this would be null.
-So what I did is used the fault visibility
+[05:46] zero because this would be null.
+[05:49] So what I did is used the fault visibility
 and what this says if we’re in third person,
-first person, or doing the shadow pass this
+[05:56] first person, or doing the shadow pass this
 thing is visible, it should have physics.
-So now if I compile this bad boy, recode…
-Hope into the game, once recodes done its
+[06:03] So now if I compile this bad boy, recode…
+[06:07] Hope into the game, once recodes done its
 thing.
-Aha!
-Recode!
-So we don’t have physics yet, but once I
+[06:16] Aha!
+[06:19] Recode!
+[06:22] So we don’t have physics yet, but once I
 go to AI physics mode, BAM!
-Look at that, physics, right there and right
+[06:27] Look at that, physics, right there and right
 here.
-Oh snap, because it’s visible we have physics.
-If we move this guy away so he can animate
+[06:32] Oh snap, because it’s visible we have physics.
+[06:36] If we move this guy away so he can animate
 or fall down, you can see that the physics
-moved with it.
-Wooo, having fun with physics.
-So as you can see we had a fun little problem
+[06:45] moved with it.
+[06:49] Wooo, having fun with physics.
+[06:54] So as you can see we had a fun little problem
 when we’re trying to componentize our logic
-and when I added that physics controller and
+[07:01] and when I added that physics controller and
 interaction thing, we had no physics so when
-I got a bug, everyone thought it was that
+[07:07] I got a bug, everyone thought it was that
 big whole change because I sent out an email.
-Turns out it was something completely different,
+[07:11] Turns out it was something completely different,
 but it was still related to a component and
-all it was just the fault flags getting missed
+[07:15] all it was just the fault flags getting missed
 because we didn’t have a certain component
-vehicle item.
-So that got resolved and everything's going
+[07:20] vehicle item.
+[07:21] So that got resolved and everything's going
 good and we’re going to continue splitting
-all of our logic into these sub components
+[07:27] all of our logic into these sub components
 so that you can have a generic entity and
-slap on whatever kind of logic you want.
-The other benefit of our components is going
+[07:33] slap on whatever kind of logic you want.
+[07:36] The other benefit of our components is going
 to be the ability to multithread all of our
-updates which is huge especially since we
+[07:41] updates which is huge especially since we
 want hundreds if not thousands of players
-on a server.
-You don’t want to update the people far
+[07:47] on a server.
+[07:49] You don’t want to update the people far
 over there, but you want to update the people
-close by, so you have to be able to decide
+[07:52] close by, so you have to be able to decide
 who gets what updates, when, how and maybe
-we could update them all at one time.
-So componentizing everything, good thing,
+[07:58] we could update them all at one time.
+[08:01] So componentizing everything, good thing,
 just makes the game faster, makes the game
-awesome, hope you guys enjoyed.
-See you next time.
+[08:07] awesome, hope you guys enjoyed.
+[08:08] See you next time.
