@@ -3,6 +3,7 @@ name: Rebuild vector index
 # Triggers:
 #   - Manually from the Cloudflare admin page (workflow_dispatch via the GH API)
 #   - Manually from the GitHub Actions UI
+#   - Automatically on push to main when any data file changes
 on:
   workflow_dispatch:
     inputs:
@@ -14,6 +15,14 @@ on:
         options:
           - incremental
           - full
+  push:
+    branches: [main]
+    paths:
+      - "functions/data/youtube/**/transcripts/**"
+      - "functions/data/Patch Notes/**/*.md"
+      - "functions/data/ships.json"
+      - "functions/ingest/**"
+      - "functions/lib/catalog.js"
 
 concurrency:
   group: rebuild-index

@@ -44,6 +44,44 @@ When reporting on transcript content, **always include a clickable YouTube link*
 
 The constant is `DELAY_BETWEEN_REQUESTS = 150`. Never reduce this value.
 
+## Refreshing Catalog Data (Local Only)
+
+Fetch and indexing of new content is performed **locally**, not in GitHub Actions. YouTube blocks the GH Actions runner IPs as bots, so the old `fetch-videos.yml` / `fetch-patch-notes.yml` workflows were deleted. The remaining `rebuild-index.yml` and `sync-catalog.yml` workflows can still be dispatched from `/admin.html` after new content is committed.
+
+### Fetch new YouTube videos for the current year
+
+```powershell
+cd functions/data/youtube/scripts
+python fetch_year.py 2026          # writes/updates ../2026/video_list_2026.json
+python build_year_catalog.py 2026  # downloads any missing transcripts (~150s each)
+```
+
+Notes:
+- Both scripts are idempotent; transcripts already on disk are skipped.
+- Each new transcript adds ~2.5 minutes of wall time due to the rate limit. A weekly RSI release cadence usually means 3–6 new videos.
+- New transcript files appear under `functions/data/youtube/{year}/transcripts/{video_id}.md` and follow the format documented in the Video Linking section above.
+- The script also updates `functions/data/youtube/{year}/videos.md` (the per-year catalog markdown).
+
+### Fetch new patch notes
+
+```powershell
+cd functions/data/Patch Notes/scripts
+python download_patch_notes.py                       # public LIVE/PTU posts
+python download_patch_notes.py --token <x-rsi-token> # also pull Evocati NDA posts
+```
+
+The optional `x-rsi-token` is obtained from the user's browser DevTools (Network tab on any spectrum.robertsspaceindustries.com page). The token expires quickly — do **not** store it anywhere, and never paste it back into chat after capture; have the user paste it directly at the command prompt.
+
+### After committing new content
+
+The auto-chain that used to run on push was removed along with the broken fetch workflows. After the user commits and pushes new transcripts or patch notes, they should:
+
+1. Open `/admin.html` on the deployed site.
+2. Click **Sync catalog metadata** (~30s) — refreshes the D1 catalog tables so series/date/version lookups find the new files.
+3. Click **Rebuild vector index** with the "Full rebuild" checkbox **unchecked** — the incremental ingester reads the manifest in KV, sha1-hashes each source file, and only re-embeds files whose content has changed. For a handful of new transcripts the whole run finishes in well under a minute.
+
+Only check "Full rebuild" if the chunking logic, embedding model, or vector-ID scheme in `functions/ingest/build_index.js` has changed.
+
 ## Source Control / CI-CD Rules
 
 **Never run `git commit`, `git push`, `git merge`, `git rebase`, `git reset`, `git revert`, `git tag`, or any other history-altering or remote-publishing git command without an explicit, in-the-moment instruction from the user for that specific commit/push.**
