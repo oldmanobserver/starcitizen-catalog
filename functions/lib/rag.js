@@ -578,23 +578,30 @@ export function renderContext(matches) {
       channel: md.channel || null,
       ship: md.ship || null,
     });
-    lines.push(`${tag} (${md.source_type || "?"} ${citationLabel(md)})\n${md.text || ""}`);
+    // Compose a header that gives the LLM everything it needs to cite this
+    // chunk without making anything up: source label + a fully-formed link.
+    const header = chunkHeader(tag, md);
+    lines.push(`${header}\n${md.text || ""}`);
   });
   return { contextText: lines.join("\n\n"), citations };
 }
 
-function citationLabel(md) {
-  if (md.source_type === "transcript") {
-    const ts = md.timestamp_seconds ? ` @ ${fmtTs(md.timestamp_seconds)}` : "";
-    return `${md.title || "video"}${ts}`;
+function chunkHeader(tag, md) {
+  if (md.source_type === "transcript" && md.video_id) {
+    const ts = Math.floor(md.timestamp_seconds || 0);
+    const tsLabel = ts ? ` @ ${fmtTs(ts)}` : "";
+    const link = `https://www.youtube.com/watch?v=${md.video_id}${ts ? `&t=${ts}s` : ""}`;
+    return `${tag} (video) ${md.title || "video"}${tsLabel}\nLink: ${link}`;
   }
   if (md.source_type === "patch_note") {
-    return `Patch ${md.patch_version || ""} ${md.channel || ""}`.trim();
+    const v = md.patch_version || "";
+    const c = md.channel || "";
+    return `${tag} (patch_note) Alpha ${v} ${c}${md.title ? ` — ${md.title}` : ""}`;
   }
   if (md.source_type === "ship") {
-    return `Ship: ${md.ship || md.title || ""}`;
+    return `${tag} (ship) ${md.ship || md.title || ""}`;
   }
-  return md.title || "";
+  return `${tag} (${md.source_type || "?"}) ${md.title || ""}`;
 }
 
 function fmtTs(s) {
@@ -658,7 +665,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     "If a FOCUS DOCUMENTS entry is marked '⚠️ No transcript indexed', tell the user the transcript isn't available and then ANSWER USING THE OTHER CONTEXT (such as patch notes for the same release). Do not refuse the whole question.",
     "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
-    "When citing video content, include a clickable timestamp link of the form https://www.youtube.com/watch?v=VIDEO_ID&t=SECONDSs.",
+    "When linking to a video, ALWAYS copy the exact 'Link:' URL shown in the relevant CONTEXT chunk. Each transcript chunk has a 'Link:' line with a ready-to-use https://www.youtube.com/watch?v=...&t=...s URL — use that verbatim. NEVER output the literal placeholders 'VIDEO_ID' or 'SECONDS' — those are not real URLs. NEVER ask the user to fill in the video ID — it is in the chunk header.",
     "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to.",
     "If asked about 'the latest' or 'most recent' content, prefer entries from the FOCUS DOCUMENTS block below; those have already been selected by date.",
   ].join(" ");
