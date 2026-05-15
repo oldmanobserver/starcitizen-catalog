@@ -99,9 +99,9 @@ export async function onRequestPost({ request, env }) {
 
   // Whitelist of inputs we'll forward to keep noise out.
   const allowedInputs = {
-    year: (v) => /^\d{4}$/.test(String(v)) ? String(v) : null,
-    rsi_token: (v) => typeof v === "string" && v.length < 4000 ? v : null,
-    nst cleanInputs = {};
+    mode: (v) => (v === "incremental" || v === "full") ? v : null,
+  };
+  const cleanInputs = {};
   for (const [k, v] of Object.entries(inputs)) {
     if (allowedInputs[k]) {
       const ok = allowedInputs[k](v);
