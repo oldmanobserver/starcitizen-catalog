@@ -1,7 +1,7 @@
 # Ship Nicknames
 
-Community and informal nicknames for Star Citizen ships.
-See also: `ships.json` for the full canonical ship list and `transcript_corrections` map.
+Community and informal nicknames for Star Citizen ships. Applies to all data sources (transcripts, patch notes, etc.).
+See also: `ships.json` (in the same directory) for the full canonical ship list and `transcript_corrections` map.
 
 | Ship | Nickname | Notes |
 |------|----------|-------|
