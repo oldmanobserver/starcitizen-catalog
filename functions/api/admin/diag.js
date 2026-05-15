@@ -10,13 +10,15 @@
 import { requireAdmin } from "../../lib/admin.js";
 import { json, error } from "../../lib/http.js";
 import { classifyIntent } from "../../lib/catalog.js";
-import { retrieveSmart, renderContext } from "../../lib/rag.js";
+import { retrieveSmart, renderContext, embed } from "../../lib/rag.js";
 
 export async function onRequestGet({ request, env }) {
   const { response } = await requireAdmin(request, env);
   if (response) return response;
 
   const url = new URL(request.url);
+  const videoId = url.searchParams.get("video_id");
+  if (videoId) return probeVideo(env, videoId);
   const q = (url.searchParams.get("q") || "").trim();
   if (!q) return error(400, "missing_q");
   return runDiag(env, q);
@@ -27,9 +29,84 @@ export async function onRequestPost({ request, env }) {
   if (response) return response;
   let body;
   try { body = await request.json(); } catch { return error(400, "invalid_json"); }
+  if (body && body.video_id) return probeVideo(env, String(body.video_id));
   const q = String(body && body.q || "").trim();
   if (!q) return error(400, "missing_q");
   return runDiag(env, q);
+}
+
+/**
+ * Probe Vectorize for chunks of a specific video. Returns counts via both
+ * the metadata-filtered query (definitive if the metadata index exists)
+ * AND an unfiltered wide scan (works without the index).
+ */
+async function probeVideo(env, videoId) {
+  const out = {
+    video_id: videoId,
+    metadata_filter: { ok: false, count: 0, error: null, sample: [] },
+    unfiltered_scan: { topK: 1000, count: 0, sample: [] },
+    d1_catalog_row: null,
+  };
+
+  // Catalog row
+  try {
+    const row = await env.DB.prepare(
+      `SELECT * FROM catalog_videos WHERE video_id = ?`
+    ).bind(videoId).first();
+    out.d1_catalog_row = row || null;
+  } catch (e) {
+    out.d1_catalog_row = { error: String(e.message || e) };
+  }
+
+  // We need a vector to query with; embed the video_id itself (content is irrelevant
+  // for a metadata-filtered query — only the filter and topK matter).
+  let vector;
+  try {
+    vector = await embed(env, videoId);
+  } catch (e) {
+    return json({ ...out, error: "embed_failed: " + String(e.message || e) });
+  }
+
+  // 1) Filtered query
+  try {
+    const res = await env.VECTORIZE.query(vector, {
+      topK: 100,
+      returnMetadata: "all",
+      filter: { video_id: videoId },
+    });
+    const hits = (res && res.matches) || [];
+    out.metadata_filter.ok = true;
+    out.metadata_filter.count = hits.length;
+    out.metadata_filter.sample = hits.slice(0, 5).map((m) => ({
+      id: m.id,
+      score: m.score,
+      timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
+      text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
+    }));
+  } catch (e) {
+    out.metadata_filter.error = String(e.message || e).slice(0, 300);
+  }
+
+  // 2) Unfiltered wide scan, client-side filter
+  try {
+    const res = await env.VECTORIZE.query(vector, {
+      topK: 1000,
+      returnMetadata: "all",
+    });
+    const hits = (res && res.matches) || [];
+    const ours = hits.filter((m) => m.metadata && m.metadata.video_id === videoId);
+    out.unfiltered_scan.count = ours.length;
+    out.unfiltered_scan.sample = ours.slice(0, 5).map((m) => ({
+      id: m.id,
+      score: m.score,
+      timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
+      text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
+    }));
+  } catch (e) {
+    out.unfiltered_scan.error = String(e.message || e).slice(0, 300);
+  }
+
+  return json(out);
 }
 
 async function runDiag(env, q) {

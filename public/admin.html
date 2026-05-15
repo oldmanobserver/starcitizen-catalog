@@ -114,7 +114,11 @@
       <div class="h-stack" style="gap: 8px">
         <input id="diag-q" type="text" placeholder='e.g. In the video "Inside Star Citizen | Alpha 4.8 Patch Report" what ships are discussed?'
                style="flex: 1">
-        <button class="btn primary" id="diag-run">Run</button>
+        <button class="btn primary" id="diag-run">Run query</button>
+      </div>
+      <div class="h-stack" style="gap: 8px; margin-top: 8px">
+        <input id="diag-vid" type="text" placeholder='or probe a specific video_id, e.g. SsOtI2dtvBc' style="flex: 1">
+        <button class="btn" id="diag-probe">Probe video</button>
       </div>
       <pre id="diag-output" style="margin-top: 12px; background: var(--code-bg); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; max-height: 480px; white-space: pre-wrap; word-break: break-word"></pre>
     </section>

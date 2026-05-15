@@ -25,6 +25,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (e.key === "Enter") { e.preventDefault(); runDiag(); }
     });
   }
+  const probeBtn = document.querySelector("#diag-probe");
+  if (probeBtn) {
+    probeBtn.addEventListener("click", runProbe);
+    document.querySelector("#diag-vid").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); runProbe(); }
+    });
+  }
 
   let me;
   try {
@@ -194,6 +201,19 @@ async function runDiag() {
   out.textContent = "Running…";
   try {
     const data = await apiJson("/api/admin/diag?q=" + encodeURIComponent(q));
+    out.textContent = JSON.stringify(data, null, 2);
+  } catch (e) {
+    out.textContent = "Error: " + (e.message || e);
+  }
+}
+
+async function runProbe() {
+  const v = document.querySelector("#diag-vid").value.trim();
+  const out = document.querySelector("#diag-output");
+  if (!v) { out.textContent = "(enter a video_id, e.g. SsOtI2dtvBc)"; return; }
+  out.textContent = "Probing…";
+  try {
+    const data = await apiJson("/api/admin/diag?video_id=" + encodeURIComponent(v));
     out.textContent = JSON.stringify(data, null, 2);
   } catch (e) {
     out.textContent = "Error: " + (e.message || e);
