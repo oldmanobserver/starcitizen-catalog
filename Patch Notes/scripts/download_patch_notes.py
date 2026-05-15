@@ -33,7 +33,7 @@ CHANNEL_ID = "190048"  # Patch Notes forum
 DELAY_BETWEEN_REQUESTS = 2  # seconds between API calls (be polite)
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(SCRIPT_DIR, "Patch Notes")
+OUTPUT_DIR = os.path.dirname(SCRIPT_DIR)  # parent = Patch Notes/
 PROGRESS_FILE = os.path.join(SCRIPT_DIR, "_patch_notes_progress.json")
 
 

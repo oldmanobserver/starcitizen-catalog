@@ -30,6 +30,10 @@ When reporting on transcript content, **always include a clickable YouTube link*
   - `youtube/{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
   - `youtube/scripts/build_year_catalog.py`, `youtube/scripts/fetch_year.py`, etc. — Download and catalog scripts
 - `Patch Notes/` — Game patch notes
+  - `Patch Notes/{year}/LIVE/*.md` — LIVE release notes and hotfixes
+  - `Patch Notes/{year}/PTU/*.md` — PTU patch notes (Wave 1/2/3, All Backers, EPTU)
+  - `Patch Notes/{year}/Evocati/*.md` — Evocati/ETF NDA patch notes
+  - `Patch Notes/scripts/download_patch_notes.py` — Download patch notes from Spectrum forum
 
 ## Rate Limiting
 
