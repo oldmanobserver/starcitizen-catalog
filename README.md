@@ -20,6 +20,7 @@ Live at **https://starcitizencatalog.oldmanobserver.com/**.
 | Hot KV | **Workers KV** — sessions, encrypted API keys, rate-limit counters |
 | Search index | **Cloudflare Vectorize** with `@cf/baai/bge-base-en-v1.5` embeddings |
 | LLM providers | OpenAI / Anthropic / Google Gemini / xAI / OpenRouter (SSE streaming) |
+| Admin / data jobs | **GitHub Actions** dispatched from the admin page (rebuild index, fetch new videos/patch notes) |
 
 ### Security highlights
 
@@ -38,7 +39,8 @@ Live at **https://starcitizencatalog.oldmanobserver.com/**.
 public/                  Static site
   index.html             Landing / login
   app.html               Chat UI
-  settings.html          Theme, defaults, API key management
+  settings.html          Theme, defaults, API key management, delete-account
+  admin.html             Admin job dashboard (admins only)
   terms.html             Terms of service
   privacy.html           Privacy policy
   assets/css/ assets/js/
@@ -51,6 +53,8 @@ functions/
     keys.js              Encrypted API key storage
     providers.js         Provider + model catalog
     settings.js          User settings
+    account/delete.js    Permanently deletes the user + all of their data
+    admin/jobs.js        List + dispatch GitHub Actions workflows (admins only)
   lib/
     crypto.js            AES-GCM envelope encryption, HMAC, random tokens
     session.js           Cookie + KV session helpers
@@ -58,12 +62,24 @@ functions/
     db.js                D1 query helpers
     http.js              JSON helpers, origin checks, rate limit
     rag.js               Vectorize retrieval + system prompt assembly
+    admin.js             requireAdmin() helper
     providers/           One file per LLM provider, exposing streamChat()
   ingest/
     build_index.js       One-off: chunk + embed catalog → Vectorize
-  data/                  Existing source-of-truth (ships, transcripts, patch notes)
+  data/                  Source-of-truth (ships, transcripts, patch notes)
+    youtube/scripts/     Python fetchers (yt-dlp + youtube-transcript-api)
+    Patch Notes/scripts/ Python scraper for the Spectrum forum
 
-schema/d1_schema.sql
+.github/
+  workflows/
+    rebuild-index.yml         Re-embeds and upserts all chunks to Vectorize
+    fetch-videos.yml          Pulls new YouTube videos + transcripts, commits
+    fetch-patch-notes.yml     Pulls new patch notes, commits
+  copilot-instructions.md     Workspace conventions (ship corrections, source-control rules)
+
+schema/
+  d1_schema.sql               Initial schema
+  migrations/002_admin.sql    Adds users.is_admin column
 wrangler.toml
 ```
 
@@ -106,18 +122,28 @@ npm run db:init:local     # local-dev
 
 ### 4. Set secrets
 
+You can set secrets either via the Cloudflare dashboard (Workers & Pages → starcitizen-catalog → **Settings** → **Variables and Secrets**, Type = `Secret`) or via `wrangler`:
+
 ```powershell
-# Required
+# Twitch OAuth credentials
 wrangler pages secret put TWITCH_CLIENT_ID --project-name=starcitizen-catalog
 wrangler pages secret put TWITCH_CLIENT_SECRET --project-name=starcitizen-catalog
 
-# Generate two random 32-byte base64 secrets for these:
-#   PowerShell: [Convert]::ToBase64String((1..32 | %{ Get-Random -Min 0 -Max 256 }))
+# Generate two cryptographically-random 32-byte base64 secrets:
+#   $b=New-Object byte[] 32; [Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($b); [Convert]::ToBase64String($b)
 wrangler pages secret put SESSION_SIGNING_KEY --project-name=starcitizen-catalog
 wrangler pages secret put MASTER_KEY --project-name=starcitizen-catalog
+
+# Admin job dispatcher: a GitHub fine-grained PAT scoped to THIS repo with
+# "Actions: Read and write" + "Metadata: Read". See "Admin & data jobs" below.
+wrangler pages secret put GITHUB_DISPATCH_TOKEN --project-name=starcitizen-catalog
 ```
 
+> ⚠️ When piping a secret value to `wrangler` from PowerShell (`"value" | wrangler …`), PowerShell appends a newline. For Twitch credentials especially, prefer to run `wrangler pages secret put …` with no value, then paste at the **Enter a secret value:** prompt — or set it via the dashboard.
+
 ### 5. Build the search index
+
+For production, this normally runs on GitHub Actions — see [Admin & data jobs](#admin--data-jobs) below. For one-off local runs:
 
 ```powershell
 $env:CF_ACCOUNT_ID    = "<your account id>"
@@ -161,7 +187,7 @@ All endpoints below are mounted under `/api/*`.
 | --- | --- | --- |
 | GET | `/api/auth/login` | Redirects to Twitch authorize URL |
 | GET | `/api/auth/callback` | Twitch OAuth return → session cookie |
-| GET | `/api/auth/me` | Current user (401 if not signed in) |
+| GET | `/api/auth/me` | Current user incl. `is_admin` (401 if not signed in) |
 | POST | `/api/auth/logout` | Destroys the session |
 | GET | `/api/providers` | Supported providers + known model IDs |
 | GET, PATCH | `/api/settings` | Theme, default provider/model |
@@ -169,6 +195,8 @@ All endpoints below are mounted under `/api/*`.
 | GET, POST | `/api/conversations` | List / create |
 | GET, PATCH, DELETE | `/api/conversations/:id` | Get with messages / rename / pin / delete |
 | POST | `/api/chat` | SSE stream of assistant deltas + citations |
+| POST | `/api/account/delete` | Permanently delete account + all data. Requires typed Twitch login as confirmation. |
+| GET, POST | `/api/admin/jobs` | Admin-only. List recent GH workflow runs, or dispatch one. |
 
 `POST /api/chat` request body:
 
@@ -184,6 +212,69 @@ event: delta    { text: "partial response..." }
 event: done     { tokens_in, tokens_out }
 event: error    { message }
 ```
+
+---
+
+## Admin & data jobs
+
+The `functions/data/` tree is the source of truth for transcripts and patch notes, and the Vectorize index has to be rebuilt every time it changes. Doing that work in a Pages Function is impractical (~20K embedding calls, hours-long YouTube fetches), so **all data work runs on GitHub Actions** and is triggered from a small admin UI.
+
+### Admin UI
+
+- `/admin.html` — three cards (Rebuild index / Fetch videos / Fetch patch notes), each with a **Run** button and the 10 most recent workflow runs. Auto-refreshes every 10 seconds.
+- Visible only to users with `users.is_admin = 1` in D1.
+- Mobile-friendly so you can kick off jobs from your phone.
+
+### Workflows
+
+| File | Trigger | What it does |
+| --- | --- | --- |
+| `.github/workflows/rebuild-index.yml` | Manual only | Runs `node functions/ingest/build_index.js`. Re-chunks all transcripts + patch notes + ships, embeds via Workers AI, upserts to Vectorize, refreshes the ship-corrections KV blob. |
+| `.github/workflows/fetch-videos.yml` | Manual + weekly cron (Mon 09:00 UTC) | Runs `fetch_year.py` then `build_year_catalog.py` for the chosen year, commits new transcripts to `main`, pushes. Pages auto-redeploys. |
+| `.github/workflows/fetch-patch-notes.yml` | Manual + weekly cron (Mon 09:30 UTC) | Runs `download_patch_notes.py`. Accepts an optional `x-rsi-token` input to pick up Evocati NDA posts. Commits new files to `main`. |
+
+The admin **POST /api/admin/jobs** endpoint accepts a sanitized `inputs` object — currently the only allowed inputs are `year` (4-digit) for fetch-videos and `rsi_token` (string) for fetch-patch-notes. Anything else is dropped.
+
+### Setup checklist (one-time)
+
+**On Cloudflare**
+
+1. Apply the admin migration once the new code is deployed:
+   ```powershell
+   wrangler d1 execute starcitizen-catalog --remote --file=schema/migrations/002_admin.sql
+   ```
+   This adds `users.is_admin` and marks the `oldmanobserver` row as admin (no-op if you haven't signed in yet — re-run after your first login).
+
+2. Add the `GITHUB_DISPATCH_TOKEN` secret (above) using a fine-grained PAT created at https://github.com/settings/personal-access-tokens/new with:
+   - **Repository access:** Only this repo (`oldmanobserver/starcitizen-catalog`)
+   - **Permissions → Actions:** Read and write
+   - **Permissions → Metadata:** Read (auto)
+
+   Recommend a 90-day expiry and a calendar reminder to rotate.
+
+**On GitHub** (repo → Settings → Secrets and variables → Actions → New repository secret)
+
+| Secret | Value |
+| --- | --- |
+| `CF_ACCOUNT_ID` | Cloudflare account ID |
+| `CF_API_TOKEN` | Custom API token with **Workers AI: Read**, **Vectorize: Edit**, **Workers KV Storage: Edit** |
+| `API_KEYS_KV_ID` | KV namespace ID of the `API_KEYS` binding (the ingest script writes the ship-corrections blob here) |
+
+Nothing else needs setting — `${{ secrets.GITHUB_TOKEN }}` is provided automatically and the fetch workflows use it to commit back to the repo.
+
+### Promoting another admin
+
+There is no admin UI for this yet. Direct SQL:
+
+```powershell
+wrangler d1 execute starcitizen-catalog --remote --command "UPDATE users SET is_admin=1 WHERE login='somebody'"
+```
+
+The `audit_log` table records every `admin_dispatch` event.
+
+### Heads-up on the `rsi_token` input
+
+The optional Evocati token is passed to the workflow via `workflow_dispatch` inputs and gets shown in the GH Actions log as part of the command line. That's fine for a personal-use admin running it themselves — it's not safe if you ever publish the run logs. Don't paste a token unless you actually need Evocati posts.
 
 ---
 
