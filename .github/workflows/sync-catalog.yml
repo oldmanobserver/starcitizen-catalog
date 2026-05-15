@@ -1,0 +1,37 @@
+name: Sync catalog metadata
+
+# Fast (~30s) D1 sync of the structured catalog tables (catalog_videos +
+# catalog_patches). Does NOT touch Vectorize. Run any time transcripts or
+# patch notes change to keep "latest" queries accurate without a full reindex.
+
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync D1 catalog
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          node functions/ingest/sync_catalog.js

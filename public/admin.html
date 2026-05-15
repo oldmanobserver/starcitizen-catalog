@@ -30,13 +30,29 @@
 
     <div id="error-banner"></div>
 
+    <section class="card" id="job-sync-catalog" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Sync catalog metadata</h3>
+          <p class="muted small" style="margin: 0">
+            Fast (~30s). Refreshes the D1 catalog tables (video series, dates, patch versions)
+            so questions like "latest Star Citizen Live" find the right document.
+            Does NOT touch the vector index. Run after adding new transcripts or patch notes.
+          </p>
+        </div>
+        <button class="btn primary" data-workflow="sync-catalog">Run</button>
+      </div>
+      <div class="runs" data-runs-for="sync-catalog"></div>
+    </section>
+
     <section class="card" id="job-rebuild-index" style="margin-bottom: 14px">
       <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
         <div>
           <h3 style="margin: 0 0 4px">Rebuild vector index</h3>
           <p class="muted small" style="margin: 0">
-            Re-chunks <code>functions/data/</code> and uploads embeddings to Vectorize.
-            Run after adding new transcripts or patch notes.
+            Slow (~30 min). Re-chunks <code>functions/data/</code> and uploads embeddings to Vectorize.
+            Only needed when chunking logic or the embedding model changes — for new content,
+            the fetch jobs auto-run this.
           </p>
         </div>
         <button class="btn primary" data-workflow="rebuild-index">Run</button>

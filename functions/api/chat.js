@@ -23,7 +23,7 @@ import {
 import { decryptApiKey } from "../lib/crypto.js";
 import { randomToken } from "../lib/crypto.js";
 import { streamChat } from "../lib/providers/index.js";
-import { retrieve, renderContext, buildSystemPrompt } from "../lib/rag.js";
+import { retrieveSmart, renderContext, buildSystemPrompt } from "../lib/rag.js";
 
 const SUPPORTED = ["openai", "anthropic", "google", "xai", "openrouter"];
 
@@ -114,20 +114,22 @@ export async function onRequestPost({ request, env }) {
     .slice(-20)
     .map((m) => ({ role: m.role, content: m.content }));
 
-  // Retrieve context for this query.
+  // Retrieve context for this query using hybrid (catalog + semantic) retrieval.
   let citations = [];
   let contextText = "";
+  let focusDocs = [];
   try {
-    const matches = await retrieve(env, userText, 8);
+    const { matches, focusDocs: fd } = await retrieveSmart(env, userText);
     const rendered = renderContext(matches);
     citations = rendered.citations;
     contextText = rendered.contextText;
+    focusDocs = fd || [];
   } catch (e) {
     console.error("rag retrieve", e);
   }
 
   const shipCorrections = await loadShipCorrections(env);
-  const system = buildSystemPrompt({ shipCorrections, contextText });
+  const system = buildSystemPrompt({ shipCorrections, contextText, focusDocs });
 
   const assistantMsgId = "m_" + randomToken(12);
 

@@ -17,7 +17,8 @@ import { json, error, checkOrigin } from "../../lib/http.js";
 import { audit } from "../../lib/db.js";
 
 const WORKFLOWS = {
-  "rebuild-index":     { file: "rebuild-index.yml",     label: "Rebuild vector index" },
+  "sync-catalog":      { file: "sync-catalog.yml",      label: "Sync catalog metadata (fast)" },
+  "rebuild-index":     { file: "rebuild-index.yml",     label: "Rebuild vector index (slow)" },
   "fetch-videos":      { file: "fetch-videos.yml",      label: "Look for new YouTube videos" },
   "fetch-patch-notes": { file: "fetch-patch-notes.yml", label: "Look for new patch notes" },
 };

@@ -135,6 +135,7 @@ function timeAgo(iso) {
 
 async function dispatch(workflow) {
   const labels = {
+    "sync-catalog": "sync catalog metadata",
     "rebuild-index": "rebuild the vector index",
     "fetch-videos": "scan for new YouTube videos",
     "fetch-patch-notes": "scan for new patch notes",

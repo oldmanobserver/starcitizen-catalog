@@ -62,6 +62,7 @@ jobs:
           python build_year_catalog.py ${{ steps.year.outputs.value }}
 
       - name: Commit changes
+        id: commit
         env:
           YEAR: ${{ steps.year.outputs.value }}
         run: |
@@ -70,7 +71,25 @@ jobs:
           git add functions/data/youtube/
           if git diff --cached --quiet; then
             echo "No new videos or transcripts."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "data: fetch new YouTube videos for ${YEAR}"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Node (for catalog sync)
+        if: steps.commit.outputs.changed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Sync D1 catalog metadata
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          node functions/ingest/sync_catalog.js
