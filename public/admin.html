@@ -64,43 +64,15 @@
       <div class="runs" data-runs-for="rebuild-index"></div>
     </section>
 
-    <section class="card" id="job-fetch-videos" style="margin-bottom: 14px">
-      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
-        <div>
-          <h3 style="margin: 0 0 4px">Look for new YouTube videos</h3>
-          <p class="muted small" style="margin: 0">
-            Scans the RSI channel for new videos in the current year,
-            downloads transcripts, and commits them back to this repo.
-            Slow (~150s between transcript downloads). Leave a year empty to use the current year.
-          </p>
-        </div>
-        <div class="h-stack">
-          <input id="videos-year" type="text" inputmode="numeric" pattern="\d{4}"
-                 placeholder="2026" style="width: 90px" maxlength="4">
-          <button class="btn primary" data-workflow="fetch-videos">Run</button>
-        </div>
-      </div>
-      <div class="runs" data-runs-for="fetch-videos"></div>
-    </section>
-
-    <section class="card" id="job-fetch-patch-notes" style="margin-bottom: 14px">
-      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
-        <div>
-          <h3 style="margin: 0 0 4px">Look for new patch notes</h3>
-          <p class="muted small" style="margin: 0">
-            Scrapes the Spectrum patch-notes forum and commits any new entries.
-            Provide an <code>x-rsi-token</code> from your browser's DevTools
-            (Network tab on any spectrum page) to also fetch Evocati NDA posts.
-          </p>
-        </div>
-        <button class="btn primary" data-workflow="fetch-patch-notes">Run</button>
-      </div>
-      <div class="field" style="margin-top: 12px; max-width: 100%">
-        <label for="rsi-token" class="small">RSI token (optional, only stored in this workflow run)</label>
-        <input id="rsi-token" type="password" autocomplete="off" spellcheck="false"
-               placeholder="paste x-rsi-token here">
-      </div>
-      <div class="runs" data-runs-for="fetch-patch-notes"></div>
+    <section class="card" id="job-manual-note" style="margin-bottom: 14px; border-color: var(--border)">
+      <h3 style="margin: 0 0 4px">Adding new content</h3>
+      <p class="muted small" style="margin: 0">
+        Fetch new YouTube transcripts and patch notes from your local workspace
+        (the GitHub Actions runners get blocked by YouTube as bots). After
+        committing the new files, click <strong>Sync catalog metadata</strong> then
+        <strong>Rebuild vector index</strong> here. Incremental rebuilds only
+        re-embed what changed, so it finishes in seconds.
+      </p>
     </section>
 
     <p class="muted small" style="margin-top: 24px">

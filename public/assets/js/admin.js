@@ -152,18 +152,8 @@ async function dispatch(workflow) {
   const labels = {
     "sync-catalog": "sync catalog metadata",
     "rebuild-index": "rebuild the vector index",
-    "fetch-videos": "scan for new YouTube videos",
-    "fetch-patch-notes": "scan for new patch notes",
   };
   const inputs = {};
-  if (workflow === "fetch-videos") {
-    const y = document.querySelector("#videos-year").value.trim();
-    if (y) inputs.year = y;
-  }
-  if (workflow === "fetch-patch-notes") {
-    const tok = document.querySelector("#rsi-token").value.trim();
-    if (tok) inputs.rsi_token = tok;
-  }
   if (workflow === "rebuild-index") {
     const full = document.querySelector("#rebuild-full");
     inputs.mode = (full && full.checked) ? "full" : "incremental";

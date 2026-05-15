@@ -17,10 +17,8 @@ import { json, error, checkOrigin } from "../../lib/http.js";
 import { audit } from "../../lib/db.js";
 
 const WORKFLOWS = {
-  "sync-catalog":      { file: "sync-catalog.yml",      label: "Sync catalog metadata (fast)" },
-  "rebuild-index":     { file: "rebuild-index.yml",     label: "Rebuild vector index (slow)" },
-  "fetch-videos":      { file: "fetch-videos.yml",      label: "Look for new YouTube videos" },
-  "fetch-patch-notes": { file: "fetch-patch-notes.yml", label: "Look for new patch notes" },
+  "sync-catalog":  { file: "sync-catalog.yml",  label: "Sync catalog metadata (fast)" },
+  "rebuild-index": { file: "rebuild-index.yml", label: "Rebuild vector index" },
 };
 
 function ghHeaders(env) {
@@ -103,9 +101,7 @@ export async function onRequestPost({ request, env }) {
   const allowedInputs = {
     year: (v) => /^\d{4}$/.test(String(v)) ? String(v) : null,
     rsi_token: (v) => typeof v === "string" && v.length < 4000 ? v : null,
-    mode: (v) => (v === "incremental" || v === "full") ? v : null,
-  };
-  const cleanInputs = {};
+    nst cleanInputs = {};
   for (const [k, v] of Object.entries(inputs)) {
     if (allowedInputs[k]) {
       const ok = allowedInputs[k](v);
