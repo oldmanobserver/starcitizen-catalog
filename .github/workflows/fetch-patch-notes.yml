@@ -85,3 +85,13 @@ jobs:
           ACTOR: ${{ github.actor }}
         run: |
           node functions/ingest/sync_catalog.js
+
+      - name: Incremental vector reindex
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          VECTORIZE_INDEX: sc-catalog
+          API_KEYS_KV_ID: ${{ secrets.API_KEYS_KV_ID }}
+        run: |
+          node functions/ingest/build_index.js --incremental

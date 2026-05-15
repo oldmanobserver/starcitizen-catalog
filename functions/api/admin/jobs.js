@@ -103,6 +103,7 @@ export async function onRequestPost({ request, env }) {
   const allowedInputs = {
     year: (v) => /^\d{4}$/.test(String(v)) ? String(v) : null,
     rsi_token: (v) => typeof v === "string" && v.length < 4000 ? v : null,
+    mode: (v) => (v === "incremental" || v === "full") ? v : null,
   };
   const cleanInputs = {};
   for (const [k, v] of Object.entries(inputs)) {

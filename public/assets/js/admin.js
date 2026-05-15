@@ -164,6 +164,10 @@ async function dispatch(workflow) {
     const tok = document.querySelector("#rsi-token").value.trim();
     if (tok) inputs.rsi_token = tok;
   }
+  if (workflow === "rebuild-index") {
+    const full = document.querySelector("#rebuild-full");
+    inputs.mode = (full && full.checked) ? "full" : "incremental";
+  }
 
   const ok = await showModal({
     title: `Start: ${labels[workflow] || workflow}?`,

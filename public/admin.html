@@ -50,12 +50,16 @@
         <div>
           <h3 style="margin: 0 0 4px">Rebuild vector index</h3>
           <p class="muted small" style="margin: 0">
-            Slow (~30 min). Re-chunks <code>functions/data/</code> and uploads embeddings to Vectorize.
-            Only needed when chunking logic or the embedding model changes — for new content,
-            the fetch jobs auto-run this.
+            <strong>Incremental</strong> (default): seconds to a few minutes — only re-embeds source files whose contents changed since the last run, and deletes vectors for files that were removed.
+            <strong>Full rebuild</strong>: ~30 minutes — re-embeds every chunk. Use only after changing chunking logic or the embedding model.
           </p>
         </div>
-        <button class="btn primary" data-workflow="rebuild-index">Run</button>
+        <div class="h-stack">
+          <label class="muted small" style="display: flex; align-items: center; gap: 4px">
+            <input type="checkbox" id="rebuild-full"> Full rebuild
+          </label>
+          <button class="btn primary" data-workflow="rebuild-index">Run</button>
+        </div>
       </div>
       <div class="runs" data-runs-for="rebuild-index"></div>
     </section>
