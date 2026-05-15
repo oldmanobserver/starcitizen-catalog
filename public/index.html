@@ -40,11 +40,14 @@
     renderFooter("#site-footer");
     const params = new URLSearchParams(location.search);
     const err = params.get("login_error");
+    const detail = params.get("detail");
     const required = params.get("login_required");
     const deleted = params.get("account_deleted");
     const flash = document.getElementById("flash");
-    if (err) flash.innerHTML = `<div class="flash">Sign-in failed: ${err}</div>`;
-    else if (required) flash.innerHTML = `<div class="flash">Please sign in to continue.</div>`;
+    function esc(s) { return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+    if (err) {
+      flash.innerHTML = `<div class="flash">Sign-in failed: ${esc(err)}${detail ? `<br><span class="small">${esc(detail)}</span>` : ""}</div>`;
+    } else if (required) flash.innerHTML = `<div class="flash">Please sign in to continue.</div>`;
     else if (deleted) flash.innerHTML = `<div class="flash">Your account and all associated data have been deleted.</div>`;
   </script>
 </body>

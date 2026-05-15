@@ -40,7 +40,10 @@ export async function onRequestGet({ request, env }) {
     token = await exchangeCode(env, code);
   } catch (e) {
     console.error("twitch exchange", e);
-    return redirectWithFlash(env, "/?login_error=token_exchange");
+    // Surface the underlying Twitch error to the login page so misconfigurations
+    // (redirect mismatch, bad client secret, etc.) are diagnosable without log access.
+    const detail = encodeURIComponent(String(e && e.message || e).slice(0, 240));
+    return redirectWithFlash(env, `/?login_error=token_exchange&detail=${detail}`);
   }
 
   let profile;
