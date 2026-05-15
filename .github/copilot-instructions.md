@@ -43,3 +43,23 @@ When reporting on transcript content, **always include a clickable YouTube link*
 - Any new script that fetches transcripts from YouTube
 
 The constant is `DELAY_BETWEEN_REQUESTS = 150`. Never reduce this value.
+
+## Source Control / CI-CD Rules
+
+**Never run `git commit`, `git push`, `git merge`, `git rebase`, `git reset`, `git revert`, `git tag`, or any other history-altering or remote-publishing git command without an explicit, in-the-moment instruction from the user for that specific commit/push.**
+
+This applies even when:
+- A deploy is failing and the fix seems obvious.
+- The user previously asked you to push something earlier in the session.
+- The change is small or "clearly needed."
+- A redeploy will not trigger until the change is pushed.
+
+Instead:
+
+1. Stage the file edits in the working tree only.
+2. Show the user what changed (a short summary or diff is fine).
+3. Stop and wait. Let the user run `git add` / `git commit` / `git push` themselves, or explicitly tell you to.
+
+The same caution applies to anything that publishes to or mutates shared infrastructure: pushing container images, deploying via `wrangler deploy`/`wrangler pages deploy`, opening or merging PRs, force-pushing, deleting branches/tags, rotating production secrets, dropping database tables, etc. Always confirm first.
+
+Creating Cloudflare resources (`wrangler d1 create`, `wrangler kv namespace create`, `wrangler vectorize create`) and applying schema migrations the user has just approved is fine to execute. Setting Cloudflare secrets is fine **when the user has just supplied the value or asked you to generate one**.
