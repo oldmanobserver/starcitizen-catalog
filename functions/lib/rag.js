@@ -201,6 +201,51 @@ async function retrieveByIntent(env, query, intent) {
     return retrieveByIntent(env, query, { kind: "patch", version: v, channel: null });
   }
 
+  if (intent.kind === "earliest_videos") {
+    // Temporal-ASC lookup. Pulls the oldest transcripts on record (optionally
+    // restricted to a series) so the model has real early-era content instead
+    // of whatever semantic search happens to surface. Vehicle-themed queries
+    // ("first vehicle ever mentioned") get a wider net and a ship-y probe.
+    const wantsVehicle = !!intent.vehicle_bias;
+    const limit = wantsVehicle ? 12 : 6;
+    let rows;
+    if (intent.series) {
+      rows = await env.DB.prepare(
+        `SELECT video_id, title, upload_date, url, series, has_transcript
+         FROM catalog_videos
+         WHERE series = ? AND has_transcript = 1
+         ORDER BY upload_date ASC, video_id ASC
+         LIMIT ?`
+      ).bind(intent.series, limit).all();
+    } else {
+      rows = await env.DB.prepare(
+        `SELECT video_id, title, upload_date, url, series, has_transcript
+         FROM catalog_videos
+         WHERE has_transcript = 1
+         ORDER BY upload_date ASC, video_id ASC
+         LIMIT ?`
+      ).bind(limit).all();
+    }
+    const videos = rows.results || [];
+    if (!videos.length) return { matches: [], focusDocs: [] };
+    const focusDocs = videos.map((v) => ({
+      kind: "video",
+      video_id: v.video_id,
+      title: v.title,
+      series: v.series,
+      upload_date: v.upload_date,
+      url: v.url,
+      label: `${v.series || "Video"} — ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`,
+    }));
+    // Use a vehicle-flavored probe when the question is about ships/vehicles
+    // so chunk ranking inside each video prefers ship-mentioning passages.
+    const probeQuery = wantsVehicle
+      ? `${query} ship vehicle fighter spacecraft manufacturer concept model`
+      : query;
+    const matches = await fetchAllChunksForVideos(env, probeQuery, videos.map((v) => v.video_id));
+    return { matches, focusDocs };
+  }
+
   if (intent.kind === "latest_series") {
     const rows = await env.DB.prepare(
       `SELECT video_id, title, upload_date, url, series, has_transcript

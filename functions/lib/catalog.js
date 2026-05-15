@@ -45,12 +45,17 @@ export function videoUrlWithTimestamp(videoId, seconds) {
 const QUERY_PATTERNS = {
   // "latest" / "most recent" / "newest"
   latest: /\b(latest|most[- ]recent|newest|recent(?:ly)?|last(?: week| month)?|this (?:week|month))\b/i,
+  // "earliest" / "oldest" / "first ever" / "first time" — temporal-ASC signal.
+  earliest: /\b(earliest|oldest|first(?:[- ]ever)?|first time|very first|ever (?:mentioned|discussed|shown|seen)|originally (?:mentioned|discussed|shown))\b/i,
   // "this week" / "this month" / "last week" / "today" / "yesterday" — a stronger
   // signal that the user wants a date-bounded list, even without "videos".
   recentWindow: /\b(this (?:week|month)|last (?:week|month)|today|yesterday|new(?:ly)? (?:released|posted|uploaded)|just (?:released|posted|uploaded)|past (?:few )?(?:days|week))\b/i,
   // mention of "video(s)" — distinguishes "what's new this week (in videos)"
   // from "what's new in 4.8" (which should hit patch-notes paths instead).
   videoWord: /\b(videos?|episodes?|streams?|broadcasts?|uploads?)\b/i,
+  // mention of "ship", "vehicle", "fighter", etc. — used by the "earliest"
+  // path to decide whether to bias retrieval toward vehicle-mentioning chunks.
+  vehicleWord: /\b(ships?|vehicles?|fighters?|spacecraft|spaceships?|craft)\b/i,
   // explicit episode # or date
   episode: /\b(episode|ep\.?)\s*#?(\d{1,3})\b/i,
   // "in patch 4.5" / "alpha 4.5.1" / "PTU 4.0"
@@ -118,6 +123,17 @@ export function classifyIntent(query) {
   }
   if (wantsLatest && series) {
     return { kind: "latest_series", series };
+  }
+  // "earliest / oldest / first ever" — temporal-ASC lookup. Optionally narrowed
+  // by series, and biased toward vehicle/ship content when the question is
+  // about that.
+  const wantsEarliest = QUERY_PATTERNS.earliest.test(q);
+  if (wantsEarliest) {
+    return {
+      kind: "earliest_videos",
+      series,
+      vehicle_bias: QUERY_PATTERNS.vehicleWord.test(q),
+    };
   }
   // Series + patch version with no quotes: "Inside Star Citizen Alpha 4.8 Patch Report"
   // -> search that series for a title that mentions the version.
