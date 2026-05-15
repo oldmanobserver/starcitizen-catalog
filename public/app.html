@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <button id="collapse-btn" class="btn ghost" title="Toggle sidebar" aria-label="Toggle sidebar">☰</button>
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack" id="user-info"></div>
+  </header>
+
+  <div id="chat-shell" class="chat-shell">
+    <aside class="sidebar" id="sidebar">
+      <header>
+        <button class="primary" id="new-conv-btn">+ New chat</button>
+      </header>
+      <div id="conv-list"></div>
+    </aside>
+
+    <section class="main">
+      <div class="chat-toolbar">
+        <strong id="conv-title">New conversation</strong>
+        <div class="spacer"></div>
+        <label class="muted small">Provider</label>
+        <select id="provider-select"></select>
+        <label class="muted small">Model</label>
+        <select id="model-select"></select>
+      </div>
+
+      <div class="messages" id="messages"></div>
+
+      <div class="composer">
+        <form id="composer-form">
+          <textarea
+            id="composer-input"
+            placeholder="Ask about ships, patch notes, or anything in the catalog… (Enter to send, Shift+Enter for newline)"
+            rows="2"></textarea>
+          <button id="send-btn" class="btn primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>

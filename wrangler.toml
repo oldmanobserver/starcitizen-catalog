@@ -1,0 +1,57 @@
+# Cloudflare Pages project configuration
+# Deploy with: npx wrangler pages deploy public --project-name=starcitizen-catalog
+
+name = "starcitizen-catalog"
+compatibility_date = "2025-09-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "public"
+
+# ---------------------------------------------------------------------------
+# Bindings
+# ---------------------------------------------------------------------------
+# Create these once with wrangler, then paste the IDs below:
+#   wrangler d1 create starcitizen-catalog
+#   wrangler kv:namespace create SESSIONS
+#   wrangler kv:namespace create API_KEYS
+#   wrangler kv:namespace create RATELIMIT
+#   wrangler vectorize create sc-catalog --dimensions=768 --metric=cosine
+#
+# Secrets (set with `wrangler pages secret put <NAME>`):
+#   TWITCH_CLIENT_ID
+#   TWITCH_CLIENT_SECRET
+#   SESSION_SIGNING_KEY   (32+ random bytes, base64)
+#   MASTER_KEY            (32+ random bytes, base64; envelope encryption root)
+#   TURNSTILE_SECRET_KEY  (optional)
+# ---------------------------------------------------------------------------
+
+[vars]
+APP_NAME = "Star Citizen Catalog"
+APP_URL = "https://starcitizencatalog.oldmanobserver.com"
+TWITCH_REDIRECT_URI = "https://starcitizencatalog.oldmanobserver.com/api/auth/callback"
+SESSION_COOKIE_NAME = "scc_session"
+SESSION_TTL_SECONDS = "2592000"   # 30 days
+RATE_LIMIT_PER_HOUR = "120"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "starcitizen-catalog"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "REPLACE_WITH_SESSIONS_KV_ID"
+
+[[kv_namespaces]]
+binding = "API_KEYS"
+id = "REPLACE_WITH_API_KEYS_KV_ID"
+
+[[kv_namespaces]]
+binding = "RATELIMIT"
+id = "REPLACE_WITH_RATELIMIT_KV_ID"
+
+[[vectorize]]
+binding = "VECTORIZE"
+index_name = "sc-catalog"
+
+[ai]
+binding = "AI"

@@ -1,0 +1,16 @@
+{
+  "name": "starcitizen-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Star Citizen Catalog - LLM-powered search over community transcripts and patch notes.",
+  "scripts": {
+    "dev": "wrangler pages dev public --compatibility-date=2025-09-01",
+    "deploy": "wrangler pages deploy public --project-name=starcitizen-catalog",
+    "db:init": "wrangler d1 execute starcitizen-catalog --file=schema/d1_schema.sql --remote",
+    "db:init:local": "wrangler d1 execute starcitizen-catalog --file=schema/d1_schema.sql --local",
+    "ingest": "node functions/ingest/build_index.js"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

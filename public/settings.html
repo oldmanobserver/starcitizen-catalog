@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Settings — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack">
+      <img id="user-avatar" class="avatar" alt="">
+      <span class="muted small" id="user-name"></span>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+      <button class="btn ghost small" id="logout-btn">Log out</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <h1>Settings</h1>
+
+    <section class="card" style="margin-bottom:20px">
+      <h2 style="margin-top:0">Appearance</h2>
+      <div class="field">
+        <label for="theme-select">Theme</label>
+        <select id="theme-select">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+        <span class="hint">Applied immediately and remembered on this browser.</span>
+      </div>
+    </section>
+
+    <section class="card" style="margin-bottom:20px">
+      <h2 style="margin-top:0">Defaults</h2>
+      <div class="field">
+        <label for="default-provider">Default provider</label>
+        <select id="default-provider"></select>
+      </div>
+      <div class="field">
+        <label for="default-model">Default model</label>
+        <select id="default-model"></select>
+      </div>
+    </section>
+
+    <section class="card" style="margin-bottom:20px">
+      <h2 style="margin-top:0">API Keys</h2>
+      <p class="muted small">
+        Your keys are encrypted at rest with AES-GCM using a per-user derived key.
+        They are decrypted in-memory only when forwarding a chat request to the matching provider, and are never returned to your browser after upload.
+        You can remove a key at any time.
+      </p>
+      <div id="keys-list"></div>
+    </section>
+
+    <section class="card danger-zone">
+      <h2 style="margin-top:0; color: var(--danger)">Danger zone</h2>
+      <p class="muted small">
+        Permanently delete your account, all of your conversations, and every encrypted API key you've uploaded.
+        This cannot be undone. Your Twitch account itself is not affected.
+      </p>
+      <button class="btn danger" id="delete-account-btn">Delete my account…</button>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module" src="/assets/js/settings.js"></script>
+</body>
+</html>

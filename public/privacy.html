@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <nav><a href="/terms.html">Terms</a></nav>
+  </header>
+
+  <main class="page">
+    <h1>Privacy Policy</h1>
+    <p class="muted small">Last updated: <span id="updated-date"></span></p>
+
+    <h2>What we collect</h2>
+    <ul>
+      <li><strong>Twitch profile:</strong> when you sign in, we receive your Twitch user ID, login, display name, email (if you grant the scope), and profile picture URL. We store these to identify your account.</li>
+      <li><strong>API keys (LLM providers):</strong> the keys you upload for OpenAI / Anthropic / Google / xAI / OpenRouter are stored encrypted at rest with AES-256-GCM using a key derived per-user from a server-side master secret. We display only a redacted preview after upload and never return the plaintext key to your browser.</li>
+      <li><strong>Conversations:</strong> the messages you send and the responses you receive are stored so you can revisit them. You can delete any conversation, or all of them, from the chat sidebar.</li>
+      <li><strong>Settings:</strong> your theme preference and default provider/model.</li>
+      <li><strong>Audit log:</strong> we record event timestamps for login, logout, key changes, and chat requests (with provider/model/status code). We do <em>not</em> store prompt or response text in the audit log.</li>
+      <li><strong>Rate-limit counters:</strong> short-lived hourly counters keyed by user ID, used to prevent abuse.</li>
+    </ul>
+
+    <h2>What we do NOT collect</h2>
+    <ul>
+      <li>We do not collect or store your Twitch OAuth tokens beyond the brief moment used to look up your profile.</li>
+      <li>We do not run cross-site advertising trackers.</li>
+      <li>We do not sell, rent, or share your data with third parties for marketing.</li>
+    </ul>
+
+    <h2>How your prompts are processed</h2>
+    <p>
+      When you send a chat message, the Site retrieves relevant Star Citizen catalog snippets and forwards the message — together with those snippets and a system prompt — to the LLM provider you selected, authenticated with your own API key. Your prompts and the model's responses pass through that provider and are subject to <em>their</em> privacy policy and data retention. We do not control how the provider uses your data.
+    </p>
+
+    <h2>Where data is stored</h2>
+    <p>
+      All data is stored on Cloudflare's network using Cloudflare D1 (relational data), Cloudflare KV (encrypted API keys and sessions), and Cloudflare Vectorize (embeddings of public catalog content; no user data is stored in Vectorize). Backups and replication are handled by Cloudflare.
+    </p>
+
+    <h2>Cookies</h2>
+    <p>
+      We use one HttpOnly, Secure, SameSite=Lax session cookie to keep you signed in, plus a short-lived OAuth state cookie during sign-in. We do not use third-party cookies.
+    </p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Remove a stored API key</strong> at any time from Settings.</li>
+      <li><strong>Delete a conversation</strong> from the sidebar (confirmation required).</li>
+      <li><strong>Log out</strong> at any time from the user menu.</li>
+      <li><strong>Delete your account and all data:</strong> contact us via <a href="https://oldmanobservers.com" target="_blank" rel="noopener">OldManObservers.com</a> and we will remove your user record, conversations, audit log entries, and encrypted keys.</li>
+    </ul>
+
+    <h2>Security</h2>
+    <p>
+      API keys are encrypted before they touch the database with a key derived from a master secret that is never stored alongside the ciphertext. Sessions are opaque tokens signed with HMAC-SHA-256. All traffic is HTTPS. We use a per-user hourly rate limit and reject requests with a mismatched origin on mutating endpoints.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+      The Site is not directed at children under 13 and we do not knowingly collect personal information from them.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      If we change this policy, we will update the "Last updated" date above. Material changes will be highlighted at sign-in.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions or deletion requests: <a href="https://oldmanobservers.com" target="_blank" rel="noopener">OldManObservers.com</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module">
+    import { renderFooter } from "/assets/js/common.js";
+    renderFooter("#site-footer");
+    document.getElementById("updated-date").textContent = "2026-05-15";
+  </script>
+</body>
+</html>

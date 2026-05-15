@@ -3,6 +3,10 @@ __pycache__/
 *.pyc
 .venv/
 
+# Cloudflare Wrangler
+.wrangler/
+.dev.vars
+
 # Logs
 logs
 *.log

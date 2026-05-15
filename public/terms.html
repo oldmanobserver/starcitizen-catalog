@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Service — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <nav><a href="/privacy.html">Privacy</a></nav>
+  </header>
+
+  <main class="page">
+    <h1>Terms of Service</h1>
+    <p class="muted small">Last updated: <span id="updated-date"></span></p>
+
+    <h2>What this site is</h2>
+    <p>
+      Star Citizen Catalog (the "Site") is an independent, community-maintained tool for searching publicly available Star Citizen
+      patch notes and community video transcripts using a large language model of your choice. The Site is operated as a personal
+      project and is provided free of charge.
+    </p>
+
+    <h2>No affiliation</h2>
+    <p>
+      The Site is <strong>not affiliated with, sponsored by, or endorsed by Cloud Imperium Games, Roberts Space Industries, or any
+      Star Citizen entity</strong>. All Star Citizen names, ships, logos, and trademarks are the property of their respective owners.
+      Patch note excerpts and transcript snippets are referenced for community discussion under fair-use principles.
+    </p>
+
+    <h2>Bring your own API key</h2>
+    <p>
+      To use the chat feature, you must supply your own API key for one of the supported LLM providers (currently OpenAI,
+      Anthropic, Google, xAI, and OpenRouter). When you submit a prompt, the Site forwards it to the provider you select using your
+      key. Your use of that provider is governed by <em>their</em> terms of service and acceptable use policies; you are
+      responsible for any usage charges, rate limits, or violations of their policies.
+    </p>
+    <p>
+      We do not guarantee the availability, accuracy, or output of any third-party LLM provider. The Site is a client of those
+      services and cannot control their behavior.
+    </p>
+
+    <h2>Acceptable use</h2>
+    <p>You agree not to use the Site to:</p>
+    <ul>
+      <li>Violate any law or third-party rights.</li>
+      <li>Attempt to break, probe, or overload the Site's infrastructure.</li>
+      <li>Use the Site to generate harmful, illegal, or abusive content.</li>
+      <li>Share your account or attempt to impersonate another user.</li>
+      <li>Scrape, mass-export, or republish content from the Site at scale.</li>
+    </ul>
+
+    <h2>Accuracy disclaimer</h2>
+    <p>
+      Community video transcripts and patch notes are subject to errors, paraphrasing, version drift, and the limitations of the
+      large language model you select. The Site makes no guarantee that any answer is correct, complete, or up to date. Do not rely
+      on it for time-sensitive decisions.
+    </p>
+
+    <h2>No warranty</h2>
+    <p>
+      The Site is provided "as is" and "as available" without warranty of any kind. To the maximum extent permitted by law, we
+      disclaim all warranties, express or implied, including merchantability, fitness for a particular purpose, and non-infringement.
+    </p>
+
+    <h2>Limitation of liability</h2>
+    <p>
+      To the maximum extent permitted by law, the Site's operators are not liable for any indirect, incidental, special, consequential,
+      or punitive damages, or any loss of data or profits arising from your use of the Site.
+    </p>
+
+    <h2>Termination</h2>
+    <p>
+      We may suspend or terminate access to the Site for any user at any time, particularly for abuse or attempts to circumvent
+      these terms. You may delete your account and stored keys at any time from the Settings page.
+    </p>
+
+    <h2>Changes</h2>
+    <p>
+      We may update these terms from time to time. Continued use of the Site after a change constitutes acceptance.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      For questions, please reach out via <a href="https://oldmanobservers.com" target="_blank" rel="noopener">OldManObservers.com</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module">
+    import { renderFooter } from "/assets/js/common.js";
+    renderFooter("#site-footer");
+    document.getElementById("updated-date").textContent = "2026-05-15";
+  </script>
+</body>
+</html>

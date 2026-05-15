@@ -1,11 +1,51 @@
-<html>
-    <head>
-        <title>Star Citizen Catalog</title>
-    </head>
-    <body>
-        <center>
-            <h1>Star Citizen Catalog</h1>
-            <P>temp index page</P>
-        </center>
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Citizen Catalog</title>
+  <meta name="description" content="Ask questions about Star Citizen patch notes and community videos with the LLM of your choice.">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <nav>
+      <a href="/terms.html">Terms</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Search the catalog with the LLM of your choice.</h1>
+      <p>
+        Years of Star Citizen patch notes and community video transcripts, queryable in plain English.
+        Bring your own API key from OpenAI, Anthropic, Google, xAI, or OpenRouter — your key is encrypted at rest and only used to forward your prompt.
+      </p>
+      <a class="twitch-btn" href="/api/auth/login">Sign in with Twitch</a>
+      <div id="flash"></div>
+      <p class="muted small" style="margin-top:24px">
+        Why Twitch? We use Twitch as an identity provider to avoid running our own password database. We only read your public Twitch profile.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script type="module">
+    import { renderFooter } from "/assets/js/common.js";
+    renderFooter("#site-footer");
+    const params = new URLSearchParams(location.search);
+    const err = params.get("login_error");
+    const required = params.get("login_required");
+    const deleted = params.get("account_deleted");
+    const flash = document.getElementById("flash");
+    if (err) flash.innerHTML = `<div class="flash">Sign-in failed: ${err}</div>`;
+    else if (required) flash.innerHTML = `<div class="flash">Please sign in to continue.</div>`;
+    else if (deleted) flash.innerHTML = `<div class="flash">Your account and all associated data have been deleted.</div>`;
+  </script>
+</body>
 </html>
