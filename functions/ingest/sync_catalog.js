@@ -193,7 +193,8 @@ async function main() {
   await d1Exec("DELETE FROM catalog_videos");
   await d1Exec("DELETE FROM catalog_patches");
 
-  // Insert in chunks of ~50 rows per statement using parameterized VALUES.
+  // D1's /query endpoint caps bound parameters at 100 per request. Pick a
+  // rows-per-request value that stays well under that for each row width.
   await chunkedInsert(
     "INSERT INTO catalog_videos (video_id, title, series, upload_date, upload_year, duration_s, has_transcript, url, description, updated_at) VALUES",
     "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
@@ -201,7 +202,7 @@ async function main() {
       v.video_id, v.title, v.series, v.upload_date, v.upload_year,
       v.duration_s, v.has_transcript, v.url, v.description, now,
     ]),
-    10  // chunk of 10 rows = 100 params per request
+    9  // 9 rows × 10 cols = 90 params per request (D1 cap is 100)
   );
 
   await chunkedInsert(
@@ -210,7 +211,7 @@ async function main() {
     patches.map((p) => [
       p.id, p.channel, p.patch_year, p.version, p.title, p.file_path, now,
     ]),
-    15
+    12  // 12 rows × 7 cols = 84 params per request
   );
 
   await d1Exec(

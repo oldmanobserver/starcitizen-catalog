@@ -2,6 +2,7 @@
   "name": "starcitizen-catalog",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "Star Citizen Catalog - LLM-powered search over community transcripts and patch notes.",
   "scripts": {
     "dev": "wrangler pages dev public --compatibility-date=2025-09-01",
