@@ -84,22 +84,32 @@ export function classifyIntent(query) {
 
   let series = null;
   for (const [name, re] of SERIES_LOOKUP) {
+    if (re.test(q)) { series = name; break; }
+  }
+
+  const patchMatch = q.match(QUERY_PATTERNS.patchVersion);
+  const channelMatch = q.match(QUERY_PATTERNS.channel);
   const quotedMatch = q.match(QUERY_PATTERNS.quotedTitle);
   const mentionMatch = q.match(QUERY_PATTERNS.videoMention);
 
   // A quoted phrase is the strongest signal — almost certainly the title.
   if (quotedMatch) {
-    return { kind: "title_match", title: quotedMatch[1].trim(), series, patch_version: patchMatch ? patchMatch[1] : null };
+    return {
+      kind: "title_match",
+      title: quotedMatch[1].trim(),
+      series,
+      patch_version: patchMatch ? patchMatch[1] : null,
+    };
   }
   // "in the video X" — extract everything after the cue word and try to match it.
   if (mentionMatch) {
-    return { kind: "title_match", title: mentionMatch[1].trim().replace(/^"|"$/g, ""), series, patch_version: patchMatch ? patchMatch[1] : null };
-  }    if (re.test(q)) { series = name; break; }
+    return {
+      kind: "title_match",
+      title: mentionMatch[1].trim().replace(/^"|"$/g, ""),
+      series,
+      patch_version: patchMatch ? patchMatch[1] : null,
+    };
   }
-
-  const patchMatch = q.match(QUERY_PATTERNS.patchVersion);
-  const channelMatch = q.match(QUERY_PATTERNS.channel);
-
   if (wantsLatest && series) {
     return { kind: "latest_series", series };
   }
@@ -119,7 +129,10 @@ export function classifyIntent(query) {
     };
   }
   if (wantsLatest && channelMatch) {
-    return { kind: "latest_patch", channel: channelMatch[1].toUpperCase().replace(/^EVOCATI$/i, "Evocati") };
+    return {
+      kind: "latest_patch",
+      channel: channelMatch[1].toUpperCase().replace(/^EVOCATI$/i, "Evocati"),
+    };
   }
   return null;
 }
