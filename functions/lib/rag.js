@@ -4,8 +4,13 @@
 import { classifyIntent } from "./catalog.js";
 
 const EMBED_MODEL = "@cf/baai/bge-base-en-v1.5";
-const SEMANTIC_TOPK = 12;            // pure-semantic fallback breadth
-const PER_DOC_TOPK = 60;             // when fetching all chunks for a doc by metadata filter
+// Cloudflare Vectorize: returnMetadata:"all" caps topK at 50.
+// returnMetadata:"indexed" allows up to 100 but only returns metadata that has
+// a metadata index — which we don't yet have, so we'd lose `text`, `title`,
+// `timestamp_seconds`, etc. Keeping `all` and capping at 50 is the safe choice.
+const MAX_TOPK = 50;
+const SEMANTIC_TOPK = 20;            // pure-semantic fallback breadth
+const PER_DOC_TOPK = 50;             // when fetching all chunks for a doc by metadata filter
 
 /**
  * Embed text with Workers AI. Returns number[] of length 768.
@@ -63,7 +68,7 @@ async function retrieveSemantic(env, query, topK) {
   if (!env.VECTORIZE) return [];
   const vector = await embed(env, query);
   const result = await env.VECTORIZE.query(vector, {
-    topK,
+    topK: Math.min(topK || SEMANTIC_TOPK, MAX_TOPK),
     returnMetadata: "all",
   });
   return (result && result.matches) || [];
@@ -336,20 +341,43 @@ async function fetchAllChunksForVideos(env, query, videoIds) {
 
   // Fallback: the metadata index either doesn't exist yet or wasn't populated
   // when these vectors were inserted. Do a wide unfiltered search and
-  // client-side filter by video_id from the chunk metadata.
+  // client-side filter by video_id from the chunk metadata. We're capped at
+  // topK=50 per request, so probe a few different query embeddings to cover
+  // more of the index. The query embedding plus a few keyword embeddings
+  // built from each video title give us decent coverage of that document.
   if (!filterWorked) {
     const wanted = new Set(videoIds);
+    const seen = new Set();
+    const probes = [vector];
+    // Look up titles in D1 to build extra probes.
     try {
-      const result = await env.VECTORIZE.query(vector, {
-        topK: 200,
-        returnMetadata: "all",
-      });
-      for (const m of (result.matches || [])) {
-        const md = m.metadata || {};
-        if (wanted.has(md.video_id)) all.push(m);
+      const placeholders = videoIds.map(() => "?").join(", ");
+      const rows = await env.DB.prepare(
+        `SELECT title FROM catalog_videos WHERE video_id IN (${placeholders})`
+      ).bind(...videoIds).all();
+      for (const r of (rows.results || [])) {
+        if (r.title) {
+          try { probes.push(await embed(env, r.title)); } catch { /* noop */ }
+        }
       }
     } catch (e) {
-      console.error("vectorize unfiltered fallback", e);
+      console.error("d1 probe titles", e);
+    }
+    for (const probe of probes) {
+      try {
+        const result = await env.VECTORIZE.query(probe, {
+          topK: MAX_TOPK,
+          returnMetadata: "all",
+        });
+        for (const m of (result.matches || [])) {
+          if (seen.has(m.id)) continue;
+          seen.add(m.id);
+          const md = m.metadata || {};
+          if (wanted.has(md.video_id)) all.push(m);
+        }
+      } catch (e) {
+        console.error("vectorize unfiltered fallback", e);
+      }
     }
   }
 
@@ -465,25 +493,37 @@ async function fetchAllChunksForPatch(env, query, version, channel) {
   }
   if (filtered.length) return filtered;
 
-  // Fallback: wide search + client-side filter.
+  // Fallback: wide search + client-side filter. We're capped at topK=50, so
+  // build extra probes from the patch version/channel to cover more ground.
+  const probes = [vector];
   try {
-    const result = await env.VECTORIZE.query(vector, {
-      topK: 200,
-      returnMetadata: "all",
-    });
-    const out = [];
-    for (const m of (result.matches || [])) {
-      const md = m.metadata || {};
-      if (md.source_type !== "patch_note") continue;
-      if (md.patch_version !== version) continue;
-      if (channel && md.channel !== channel) continue;
-      out.push(m);
+    probes.push(await embed(env, `Alpha ${version} ${channel || ""} patch notes`));
+  } catch { /* noop */ }
+  try {
+    probes.push(await embed(env, `${version} release notes`));
+  } catch { /* noop */ }
+  const out = [];
+  const seen = new Set();
+  for (const probe of probes) {
+    try {
+      const result = await env.VECTORIZE.query(probe, {
+        topK: MAX_TOPK,
+        returnMetadata: "all",
+      });
+      for (const m of (result.matches || [])) {
+        if (seen.has(m.id)) continue;
+        seen.add(m.id);
+        const md = m.metadata || {};
+        if (md.source_type !== "patch_note") continue;
+        if (md.patch_version !== version) continue;
+        if (channel && md.channel !== channel) continue;
+        out.push(m);
+      }
+    } catch (e) {
+      console.error("vectorize unfiltered patch fallback", e);
     }
-    return out;
-  } catch (e) {
-    console.error("vectorize unfiltered patch fallback", e);
-    return [];
   }
+  return out;
 }
 
 // ---------------------------------------------------------------------------

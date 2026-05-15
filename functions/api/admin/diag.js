@@ -67,10 +67,10 @@ async function probeVideo(env, videoId) {
     return json({ ...out, error: "embed_failed: " + String(e.message || e) });
   }
 
-  // 1) Filtered query
+  // 1) Filtered query (Vectorize caps topK at 50 with returnMetadata:"all")
   try {
     const res = await env.VECTORIZE.query(vector, {
-      topK: 100,
+      topK: 50,
       returnMetadata: "all",
       filter: { video_id: videoId },
     });
@@ -87,24 +87,38 @@ async function probeVideo(env, videoId) {
     out.metadata_filter.error = String(e.message || e).slice(0, 300);
   }
 
-  // 2) Unfiltered wide scan, client-side filter
-  try {
-    const res = await env.VECTORIZE.query(vector, {
-      topK: 1000,
-      returnMetadata: "all",
-    });
-    const hits = (res && res.matches) || [];
-    const ours = hits.filter((m) => m.metadata && m.metadata.video_id === videoId);
-    out.unfiltered_scan.count = ours.length;
-    out.unfiltered_scan.sample = ours.slice(0, 5).map((m) => ({
-      id: m.id,
-      score: m.score,
-      timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
-      text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
-    }));
-  } catch (e) {
-    out.unfiltered_scan.error = String(e.message || e).slice(0, 300);
+  // 2) Unfiltered wide scan with multiple probes, client-side filter.
+  out.unfiltered_scan.topK = 50;
+  const probes = [vector];
+  if (out.d1_catalog_row && out.d1_catalog_row.title) {
+    try { probes.push(await embed(env, out.d1_catalog_row.title)); } catch { /* noop */ }
   }
+  try { probes.push(await embed(env, videoId + " transcript")); } catch { /* noop */ }
+  const seen = new Set();
+  const ours = [];
+  for (const probe of probes) {
+    try {
+      const res = await env.VECTORIZE.query(probe, {
+        topK: 50,
+        returnMetadata: "all",
+      });
+      for (const m of (res.matches || [])) {
+        if (seen.has(m.id)) continue;
+        seen.add(m.id);
+        if (m.metadata && m.metadata.video_id === videoId) ours.push(m);
+      }
+    } catch (e) {
+      out.unfiltered_scan.error = String(e.message || e).slice(0, 300);
+    }
+  }
+  out.unfiltered_scan.probes = probes.length;
+  out.unfiltered_scan.count = ours.length;
+  out.unfiltered_scan.sample = ours.slice(0, 5).map((m) => ({
+    id: m.id,
+    score: m.score,
+    timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
+    text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
+  }));
 
   return json(out);
 }
