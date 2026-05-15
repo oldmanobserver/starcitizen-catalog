@@ -35,19 +35,19 @@ RATE_LIMIT_PER_HOUR = "120"
 [[d1_databases]]
 binding = "DB"
 database_name = "starcitizen-catalog"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "8e570bbe-0ebb-40d3-a5b3-dd3e2c2b5354"
 
 [[kv_namespaces]]
 binding = "SESSIONS"
-id = "REPLACE_WITH_SESSIONS_KV_ID"
+id = "b9227de63f7e47b9b37dde20a43a11a1"
 
 [[kv_namespaces]]
 binding = "API_KEYS"
-id = "REPLACE_WITH_API_KEYS_KV_ID"
+id = "1aa512e6b16f419ebbdb059248e14bd7"
 
 [[kv_namespaces]]
 binding = "RATELIMIT"
-id = "REPLACE_WITH_RATELIMIT_KV_ID"
+id = "d318c4a1f97a41c8b43403517b4e4898"
 
 [[vectorize]]
 binding = "VECTORIZE"
