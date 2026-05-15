@@ -109,7 +109,14 @@ async function retrieveByIntent(env, query, intent) {
         upload_date: v.upload_date,
         label: `\u26a0\ufe0f No transcript indexed for: ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`,
       }));
-      // If a patch version was in the query, prefer that as the next-best source.
+      if (intent.series && intent.patch_version) {
+        const sp = await retrieveByIntent(env, query, {
+          kind: "series_patch",
+          series: intent.series,
+          patch_version: intent.patch_version,
+        });
+        return { matches: sp.matches, focusDocs: [...noChunksNote, ...sp.focusDocs] };
+      }
       if (intent.patch_version) {
         const patchResult = await retrieveByIntent(env, query, {
           kind: "patch",
@@ -123,7 +130,15 @@ async function retrieveByIntent(env, query, intent) {
       }
       return { matches: [], focusDocs: noChunksNote };
     }
-    // No video matched. If a patch version was in the query, fall back to patch retrieval.
+    // No video matched.
+    //  Prefer series+patch lookup if both signals were present in the query.
+    if (intent.series && intent.patch_version) {
+      return retrieveByIntent(env, query, {
+        kind: "series_patch",
+        series: intent.series,
+        patch_version: intent.patch_version,
+      });
+    }
     if (intent.patch_version) {
       return retrieveByIntent(env, query, { kind: "patch", version: intent.patch_version, channel: null });
     }
@@ -353,7 +368,7 @@ async function fetchAllChunksForVideos(env, query, videoIds) {
  */
 async function searchVideosByTitle(env, title, series) {
   if (!env.DB || !title) return [];
-  const stripped = String(title).replace(/[|"“”]+/g, " ").replace(/\s+/g, " ").trim();
+  const stripped = String(title).replace(/[|"“”:\-]+/g, " ").replace(/\s+/g, " ").trim();
   if (!stripped) return [];
   const likeFull = `%${stripped}%`;
 
@@ -366,7 +381,7 @@ async function searchVideosByTitle(env, title, series) {
   ).bind(stripped).all();
   if (exact.results && exact.results.length) return exact.results;
 
-  // 2. Substring match.
+  // 2. Substring match (the full normalized title appears verbatim).
   const substr = await env.DB.prepare(
     `SELECT video_id, title, series, upload_date, url
      FROM catalog_videos
@@ -375,24 +390,60 @@ async function searchVideosByTitle(env, title, series) {
   ).bind(likeFull, series || "").all();
   if (substr.results && substr.results.length) return substr.results;
 
-  // 3. Token match — pick the two most distinctive tokens of the title
-  //    (longer, alphanumeric, not series-name tokens).
-  const tokens = stripped
-    .split(/\s+/)
-    .filter((t) => t.length >= 4 && /[a-z0-9]/i.test(t))
-    .filter((t) => !/^(inside|star|citizen|the|and|with|video|episode|alpha|patch|report)$/i.test(t))
-    .slice(0, 3);
-  if (tokens.length) {
-    const likes = tokens.map(() => "LOWER(title) LIKE LOWER(?)").join(" AND ");
-    const params = tokens.map((t) => `%${t}%`);
+  // 3. Tokenize. Keep:
+  //    - any alphanumeric token of length >= 2 (so we keep "4.8")
+  //    - drop the most generic stop-words that appear in many SC titles.
+  //    Distinguish "distinctive" tokens (versions, proper nouns) from "common"
+  //    ones so we can favour matches that contain a version number.
+  const stopWords = /^(inside|star|citizen|the|and|with|video|episode|alpha|patch|report|live|ptu|evocati|all|ships|ship|in|of|to|for|from|about|what|are|discussed|give|each|nice|chart|format|new|update|updates)$/i;
+  const rawTokens = stripped.split(/\s+/);
+  const tokens = rawTokens
+    .map((t) => t.replace(/^[^a-z0-9.]+|[^a-z0-9.]+$/gi, "")) // trim punctuation
+    .filter((t) => t.length >= 2 && !stopWords.test(t));
+  // Distinctive = version-like or contains a digit or is long.
+  const distinctive = tokens.filter((t) => /\d/.test(t) || t.length >= 6);
+  const others = tokens.filter((t) => !distinctive.includes(t));
+
+  // 3a. If there's at least one distinctive token, require it AND optionally rank
+  //     extra matches via others.
+  if (distinctive.length) {
+    const required = distinctive[0];
+    const optional = [...distinctive.slice(1), ...others].slice(0, 4);
+
+    // Build a relevance score: 1 for required match (already enforced), +1 per optional hit.
+    const scoreExpr = optional.length
+      ? optional.map(() => "(LOWER(title) LIKE LOWER(?))").join(" + ")
+      : "0";
+    const params = [];
+    if (optional.length) params.push(...optional.map((t) => `%${t}%`));
+    params.push(`%${required}%`);
+    params.push(series || "");
+
+    const tok = await env.DB.prepare(
+      `SELECT video_id, title, series, upload_date, url,
+              (${scoreExpr}) AS relevance
+       FROM catalog_videos
+       WHERE has_transcript = 1
+         AND LOWER(title) LIKE LOWER(?)
+       ORDER BY (series = ?) DESC, relevance DESC, upload_date DESC
+       LIMIT 5`
+    ).bind(...params).all();
+    if (tok.results && tok.results.length) return tok.results;
+  }
+
+  // 3b. Fall back to series + any token match if a series is in scope.
+  if (series && tokens.length) {
+    const likes = tokens.slice(0, 3).map(() => "LOWER(title) LIKE LOWER(?)").join(" OR ");
+    const params = tokens.slice(0, 3).map((t) => `%${t}%`);
     const tok = await env.DB.prepare(
       `SELECT video_id, title, series, upload_date, url
        FROM catalog_videos
-       WHERE has_transcript = 1 AND ${likes}
-       ORDER BY (series = ?) DESC, upload_date DESC LIMIT 3`
-    ).bind(...params, series || "").all();
+       WHERE has_transcript = 1 AND series = ? AND (${likes})
+       ORDER BY upload_date DESC LIMIT 5`
+    ).bind(series, ...params).all();
     if (tok.results && tok.results.length) return tok.results;
   }
+
   return [];
 }
 
