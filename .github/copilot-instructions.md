@@ -29,11 +29,11 @@ When reporting on transcript content, **always include a clickable YouTube link*
   - `functions/data/youtube/{year}/transcripts/*.md` — Individual video transcripts (include `**Video:**` URL and `**Date:**` in header)
   - `functions/data/youtube/{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
   - `functions/data/youtube/scripts/build_year_catalog.py`, `functions/data/youtube/scripts/fetch_year.py`, etc. — Download and catalog scripts
-- `Patch Notes/` — Game patch notes
-  - `Patch Notes/{year}/LIVE/*.md` — LIVE release notes and hotfixes
-  - `Patch Notes/{year}/PTU/*.md` — PTU patch notes (Wave 1/2/3, All Backers, EPTU)
-  - `Patch Notes/{year}/Evocati/*.md` — Evocati/ETF NDA patch notes
-  - `Patch Notes/scripts/download_patch_notes.py` — Download patch notes from Spectrum forum
+- `functions/data/Patch Notes/` — Game patch notes
+  - `functions/data/Patch Notes/{year}/LIVE/*.md` — LIVE release notes and hotfixes
+  - `functions/data/Patch Notes/{year}/PTU/*.md` — PTU patch notes (Wave 1/2/3, All Backers, EPTU)
+  - `functions/data/Patch Notes/{year}/Evocati/*.md` — Evocati/ETF NDA patch notes
+  - `functions/data/Patch Notes/scripts/download_patch_notes.py` — Download patch notes from Spectrum forum
 
 ## Rate Limiting
 
