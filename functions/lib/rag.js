@@ -83,6 +83,63 @@ export async function retrieve(env, query, topK = SEMANTIC_TOPK) {
 async function retrieveByIntent(env, query, intent) {
   if (!env.DB) return { matches: [], focusDocs: [] };
 
+  if (intent.kind === "title_match") {
+    // Try a series of progressively-looser D1 lookups for the title.
+    const videos = await searchVideosByTitle(env, intent.title, intent.series);
+    if (videos.length) {
+      const focusDocs = videos.map((v) => ({
+        kind: "video",
+        video_id: v.video_id,
+        title: v.title,
+        series: v.series,
+        upload_date: v.upload_date,
+        url: v.url,
+        label: `${v.series || "Video"} — ${v.title} (${fmtDate(v.upload_date)})`,
+      }));
+      const matches = await fetchAllChunksForVideos(env, query, videos.map((v) => v.video_id));
+      return { matches, focusDocs };
+    }
+    // No video matched. If a patch version was in the query, fall back to patch retrieval.
+    if (intent.patch_version) {
+      return retrieveByIntent(env, query, { kind: "patch", version: intent.patch_version, channel: null });
+    }
+    return { matches: [], focusDocs: [] };
+  }
+
+  if (intent.kind === "series_patch") {
+    // Look in the named series for an episode whose title mentions the patch version.
+    // We try a couple of common formats: "4.8" and "Alpha 4.8".
+    const v = intent.patch_version;
+    const candidates = [`%${v}%`, `%Alpha ${v}%`, `%Alpha-${v}%`];
+    let videos = [];
+    for (const pattern of candidates) {
+      const rows = await env.DB.prepare(
+        `SELECT video_id, title, upload_date, url, series, has_transcript
+         FROM catalog_videos
+         WHERE series = ? AND has_transcript = 1 AND LOWER(title) LIKE LOWER(?)
+         ORDER BY upload_date DESC LIMIT 3`
+      ).bind(intent.series, pattern).all();
+      if (rows.results && rows.results.length) { videos = rows.results; break; }
+    }
+
+    if (videos.length) {
+      const focusDocs = videos.map((vrow) => ({
+        kind: "video",
+        video_id: vrow.video_id,
+        title: vrow.title,
+        series: vrow.series,
+        upload_date: vrow.upload_date,
+        url: vrow.url,
+        label: `${vrow.series} — ${vrow.title} (${fmtDate(vrow.upload_date)})`,
+      }));
+      const matches = await fetchAllChunksForVideos(env, query, videos.map((vrow) => vrow.video_id));
+      return { matches, focusDocs };
+    }
+    // No episode mentions the patch in its title — fall through to a patch-note lookup
+    // so the user at least gets the patch notes for that version.
+    return retrieveByIntent(env, query, { kind: "patch", version: v, channel: null });
+  }
+
   if (intent.kind === "latest_series") {
     const rows = await env.DB.prepare(
       `SELECT video_id, title, upload_date, url, series, has_transcript
@@ -178,12 +235,16 @@ async function retrieveByIntent(env, query, intent) {
 
 /**
  * Fetch all available chunks for one or more videos, ranked by relevance to the query.
- * Uses Vectorize's metadata filter (requires a `video_id` metadata index).
+ * Tries Vectorize's metadata filter first (requires a `video_id` metadata index);
+ * if the filter returns nothing (index missing, or vectors pre-date the index),
+ * falls back to a wide semantic query then client-side filters by video_id.
  */
 async function fetchAllChunksForVideos(env, query, videoIds) {
   if (!env.VECTORIZE || !videoIds.length) return [];
   const vector = await embed(env, query);
   const all = [];
+  let filterWorked = false;
+
   for (const id of videoIds) {
     try {
       const result = await env.VECTORIZE.query(vector, {
@@ -191,18 +252,97 @@ async function fetchAllChunksForVideos(env, query, videoIds) {
         returnMetadata: "all",
         filter: { video_id: id },
       });
-      for (const m of (result.matches || [])) all.push(m);
+      const hits = (result && result.matches) || [];
+      if (hits.length) {
+        filterWorked = true;
+        for (const m of hits) all.push(m);
+      }
     } catch (e) {
-      // Metadata filter not yet indexed → fail soft, semantic fallback handles it.
       console.error(`vectorize filter video_id=${id}`, e);
     }
   }
+
+  // Fallback: the metadata index either doesn't exist yet or wasn't populated
+  // when these vectors were inserted. Do a wide unfiltered search and
+  // client-side filter by video_id from the chunk metadata.
+  if (!filterWorked) {
+    const wanted = new Set(videoIds);
+    try {
+      const result = await env.VECTORIZE.query(vector, {
+        topK: 200,
+        returnMetadata: "all",
+      });
+      for (const m of (result.matches || [])) {
+        const md = m.metadata || {};
+        if (wanted.has(md.video_id)) all.push(m);
+      }
+    } catch (e) {
+      console.error("vectorize unfiltered fallback", e);
+    }
+  }
+
   return all;
+}
+
+/**
+ * Look up videos in D1 by title. Returns up to 3 candidate videos.
+ * Strategy (most → least specific):
+ *   1. Exact (case-insensitive) match.
+ *   2. LIKE %title% (substring).
+ *   3. LIKE on the most distinctive tokens of the title.
+ *
+ * `series` is an optional bias — if we know the user mentioned a series,
+ * matches inside that series get returned first.
+ */
+async function searchVideosByTitle(env, title, series) {
+  if (!env.DB || !title) return [];
+  const stripped = String(title).replace(/[|"“”]+/g, " ").replace(/\s+/g, " ").trim();
+  if (!stripped) return [];
+  const likeFull = `%${stripped}%`;
+
+  // 1. Exact match.
+  const exact = await env.DB.prepare(
+    `SELECT video_id, title, series, upload_date, url
+     FROM catalog_videos
+     WHERE has_transcript = 1 AND LOWER(title) = LOWER(?)
+     ORDER BY upload_date DESC LIMIT 3`
+  ).bind(stripped).all();
+  if (exact.results && exact.results.length) return exact.results;
+
+  // 2. Substring match.
+  const substr = await env.DB.prepare(
+    `SELECT video_id, title, series, upload_date, url
+     FROM catalog_videos
+     WHERE has_transcript = 1 AND LOWER(title) LIKE LOWER(?)
+     ORDER BY (series = ?) DESC, upload_date DESC LIMIT 3`
+  ).bind(likeFull, series || "").all();
+  if (substr.results && substr.results.length) return substr.results;
+
+  // 3. Token match — pick the two most distinctive tokens of the title
+  //    (longer, alphanumeric, not series-name tokens).
+  const tokens = stripped
+    .split(/\s+/)
+    .filter((t) => t.length >= 4 && /[a-z0-9]/i.test(t))
+    .filter((t) => !/^(inside|star|citizen|the|and|with|video|episode|alpha|patch|report)$/i.test(t))
+    .slice(0, 3);
+  if (tokens.length) {
+    const likes = tokens.map(() => "LOWER(title) LIKE LOWER(?)").join(" AND ");
+    const params = tokens.map((t) => `%${t}%`);
+    const tok = await env.DB.prepare(
+      `SELECT video_id, title, series, upload_date, url
+       FROM catalog_videos
+       WHERE has_transcript = 1 AND ${likes}
+       ORDER BY (series = ?) DESC, upload_date DESC LIMIT 3`
+    ).bind(...params, series || "").all();
+    if (tok.results && tok.results.length) return tok.results;
+  }
+  return [];
 }
 
 async function fetchAllChunksForPatch(env, query, version, channel) {
   if (!env.VECTORIZE || !version) return [];
   const vector = await embed(env, query);
+  let filtered = [];
   try {
     const filter = { patch_version: version };
     if (channel) filter.channel = channel;
@@ -211,9 +351,29 @@ async function fetchAllChunksForPatch(env, query, version, channel) {
       returnMetadata: "all",
       filter,
     });
-    return result.matches || [];
+    filtered = (result && result.matches) || [];
   } catch (e) {
     console.error("vectorize filter patch", e);
+  }
+  if (filtered.length) return filtered;
+
+  // Fallback: wide search + client-side filter.
+  try {
+    const result = await env.VECTORIZE.query(vector, {
+      topK: 200,
+      returnMetadata: "all",
+    });
+    const out = [];
+    for (const m of (result.matches || [])) {
+      const md = m.metadata || {};
+      if (md.source_type !== "patch_note") continue;
+      if (md.patch_version !== version) continue;
+      if (channel && md.channel !== channel) continue;
+      out.push(m);
+    }
+    return out;
+  } catch (e) {
+    console.error("vectorize unfiltered patch fallback", e);
     return [];
   }
 }

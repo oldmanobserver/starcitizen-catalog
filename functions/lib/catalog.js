@@ -50,6 +50,11 @@ const QUERY_PATTERNS = {
   // "in patch 4.5" / "alpha 4.5.1" / "PTU 4.0"
   patchVersion: /\b(?:alpha[- ]?)?(\d+\.\d+(?:\.\d+)?)\b/i,
   channel: /\b(LIVE|PTU|Evocati)\b/i,
+  // A quoted title in the query: "Inside Star Citizen | Alpha 4.8 Patch Report"
+  // Accepts straight and smart quotes.
+  quotedTitle: /["“”]([^"“”]{8,200})["“”]/,
+  // "in the video X" / "from the video X" / "in the X video"
+  videoMention: /\b(?:in|from|about)\s+(?:the\s+)?(?:video|episode|show|stream)\s+([^?!.\n]{4,200})/i,
 };
 
 const SERIES_LOOKUP = [
@@ -79,7 +84,17 @@ export function classifyIntent(query) {
 
   let series = null;
   for (const [name, re] of SERIES_LOOKUP) {
-    if (re.test(q)) { series = name; break; }
+  const quotedMatch = q.match(QUERY_PATTERNS.quotedTitle);
+  const mentionMatch = q.match(QUERY_PATTERNS.videoMention);
+
+  // A quoted phrase is the strongest signal — almost certainly the title.
+  if (quotedMatch) {
+    return { kind: "title_match", title: quotedMatch[1].trim(), series, patch_version: patchMatch ? patchMatch[1] : null };
+  }
+  // "in the video X" — extract everything after the cue word and try to match it.
+  if (mentionMatch) {
+    return { kind: "title_match", title: mentionMatch[1].trim().replace(/^"|"$/g, ""), series, patch_version: patchMatch ? patchMatch[1] : null };
+  }    if (re.test(q)) { series = name; break; }
   }
 
   const patchMatch = q.match(QUERY_PATTERNS.patchVersion);
@@ -87,6 +102,11 @@ export function classifyIntent(query) {
 
   if (wantsLatest && series) {
     return { kind: "latest_series", series };
+  }
+  // Series + patch version with no quotes: "Inside Star Citizen Alpha 4.8 Patch Report"
+  // -> search that series for a title that mentions the version.
+  if (series && patchMatch) {
+    return { kind: "series_patch", series, patch_version: patchMatch[1] };
   }
   if (series && !wantsLatest) {
     return { kind: "series_any", series };
