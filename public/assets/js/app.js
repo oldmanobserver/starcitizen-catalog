@@ -243,9 +243,39 @@ function appendMessage(m) {
   `;
   const bubble = wrap.querySelector(".bubble");
   bubble.innerHTML = renderMarkdown(m.content || "");
-  if (m.citations && m.citations.length) renderCitations(wrap.querySelector(".citations"), m.citations);
+  applyCitations(wrap, m.content || "", m.citations || []);
   els.messages.appendChild(wrap);
   return wrap;
+}
+
+// Turn inline [#N] spans into anchors using the citations array, and render
+// chips at the bottom for only the refs that actually appear in `text`.
+function applyCitations(wrap, text, citations) {
+  if (!citations || !citations.length) return;
+  const byRef = new Map(citations.map((c) => [Number(c.ref), c]));
+  const bubble = wrap.querySelector(".bubble");
+  bubble.querySelectorAll("span.citation-ref[data-ref]").forEach((span) => {
+    const ref = Number(span.dataset.ref);
+    const c = byRef.get(ref);
+    if (!c || !c.url) return;
+    const a = document.createElement("a");
+    a.className = "citation-ref";
+    a.dataset.ref = String(ref);
+    a.href = c.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = span.textContent;
+    a.title = `${citationLabel(c)} (score ${(c.score || 0).toFixed(3)})`;
+    span.replaceWith(a);
+  });
+
+  // Collect refs actually referenced in the message text.
+  const used = new Set();
+  const re = /\[#(\d+)\]/g;
+  let mm;
+  while ((mm = re.exec(text)) !== null) used.add(Number(mm[1]));
+  const filtered = citations.filter((c) => used.has(Number(c.ref)));
+  renderCitations(wrap.querySelector(".citations"), filtered);
 }
 
 function renderCitations(container, citations) {
@@ -352,16 +382,20 @@ async function onSendMessage(e) {
         }
         if (Array.isArray(evt.data.citations)) {
           assistantMsg.citations = evt.data.citations;
-          renderCitations(assistantEl.querySelector(".citations"), evt.data.citations);
+          // Don't render chips yet — wait until we know which refs the
+          // model actually used. We'll re-apply on each delta.
+          applyCitations(assistantEl, accumulated, assistantMsg.citations);
         }
       } else if (evt.event === "delta") {
         accumulated += evt.data.text || "";
         bubble.innerHTML = renderMarkdown(accumulated);
+        applyCitations(assistantEl, accumulated, assistantMsg.citations);
         scrollToBottom();
       } else if (evt.event === "error") {
         bubble.innerHTML = renderMarkdown(`**Error:** ${evt.data.message || "unknown"}`);
       } else if (evt.event === "done") {
         assistantMsg.content = accumulated;
+        applyCitations(assistantEl, accumulated, assistantMsg.citations);
       }
     }
   } catch (e) {
