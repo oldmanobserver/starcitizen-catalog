@@ -71,8 +71,14 @@ export function renderMarkdown(text) {
     '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
   );
 
-  // Citation refs like [#3] -> linked span (filled in later)
-  s = s.replace(/\[#(\d+)\]/g, '<span class="citation-ref" data-ref="$1">[#$1]</span>');
+  // Citation refs -> linked spans (filled in later).
+  // Handles both single `[#3]` and grouped `[#1, #10, #133]` / `[#1][#5]` forms.
+  s = s.replace(/\[#\d+(?:[\s,]+#?\d+)*\]/g, (group) => {
+    const nums = group.match(/\d+/g) || [];
+    return nums
+      .map((n) => `<span class="citation-ref" data-ref="${n}">[#${n}]</span>`)
+      .join("");
+  });
 
   // Paragraphs
   s = s
