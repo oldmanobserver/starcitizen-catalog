@@ -318,51 +318,70 @@ async function retrieveByIntent(env, query, intent) {
  */
 async function fetchAllChunksForVideos(env, query, videoIds) {
   if (!env.VECTORIZE || !videoIds.length) return [];
-  const vector = await embed(env, query);
+  const wanted = new Set(videoIds);
+  const seen = new Set();
   const all = [];
+
+  // Build a set of probe embeddings. The user query alone often misses chunks
+  // about tangential topics in the same video. Adding the title, a generic
+  // "what is discussed" probe, and the description gives us better coverage
+  // across the document's chunks. Each probe is its own topK=50 query.
+  const probeTexts = [String(query || "").slice(0, 1000)];
+  let titles = [];
+  try {
+    const placeholders = videoIds.map(() => "?").join(", ");
+    const rows = await env.DB.prepare(
+      `SELECT title, description FROM catalog_videos WHERE video_id IN (${placeholders})`
+    ).bind(...videoIds).all();
+    for (const r of (rows.results || [])) {
+      if (r.title) titles.push(r.title);
+      if (r.title) probeTexts.push(r.title);
+      if (r.description) probeTexts.push(String(r.description).slice(0, 600));
+    }
+  } catch (e) {
+    console.error("d1 probe titles", e);
+  }
+  // Add a generic discussion-topics probe to surface any chunk that talks about
+  // things, ships, features, mechanics, etc.
+  probeTexts.push(`${titles.join(", ")} ships vehicles mechanics features discussion summary`);
+
+  const probes = [];
+  for (const t of probeTexts) {
+    if (!t || !t.trim()) continue;
+    try { probes.push(await embed(env, t)); } catch { /* noop */ }
+  }
+  if (!probes.length) return [];
+
   let filterWorked = false;
 
+  // Pass 1: filtered queries per video, per probe. With the metadata index in
+  // place this is the fastest path to "all chunks of this video".
   for (const id of videoIds) {
-    try {
-      const result = await env.VECTORIZE.query(vector, {
-        topK: PER_DOC_TOPK,
-        returnMetadata: "all",
-        filter: { video_id: id },
-      });
-      const hits = (result && result.matches) || [];
-      if (hits.length) {
-        filterWorked = true;
-        for (const m of hits) all.push(m);
+    for (const probe of probes) {
+      try {
+        const result = await env.VECTORIZE.query(probe, {
+          topK: MAX_TOPK,
+          returnMetadata: "all",
+          filter: { video_id: id },
+        });
+        const hits = (result && result.matches) || [];
+        if (hits.length) filterWorked = true;
+        for (const m of hits) {
+          if (seen.has(m.id)) continue;
+          seen.add(m.id);
+          all.push(m);
+        }
+      } catch (e) {
+        // Filter unsupported / no index → break out and use the unfiltered
+        // fallback below.
+        console.error(`vectorize filter video_id=${id}`, e);
+        break;
       }
-    } catch (e) {
-      console.error(`vectorize filter video_id=${id}`, e);
     }
   }
 
-  // Fallback: the metadata index either doesn't exist yet or wasn't populated
-  // when these vectors were inserted. Do a wide unfiltered search and
-  // client-side filter by video_id from the chunk metadata. We're capped at
-  // topK=50 per request, so probe a few different query embeddings to cover
-  // more of the index. The query embedding plus a few keyword embeddings
-  // built from each video title give us decent coverage of that document.
+  // Pass 2 fallback: only used if filtering didn't work at all (no metadata index).
   if (!filterWorked) {
-    const wanted = new Set(videoIds);
-    const seen = new Set();
-    const probes = [vector];
-    // Look up titles in D1 to build extra probes.
-    try {
-      const placeholders = videoIds.map(() => "?").join(", ");
-      const rows = await env.DB.prepare(
-        `SELECT title FROM catalog_videos WHERE video_id IN (${placeholders})`
-      ).bind(...videoIds).all();
-      for (const r of (rows.results || [])) {
-        if (r.title) {
-          try { probes.push(await embed(env, r.title)); } catch { /* noop */ }
-        }
-      }
-    } catch (e) {
-      console.error("d1 probe titles", e);
-    }
     for (const probe of probes) {
       try {
         const result = await env.VECTORIZE.query(probe, {
@@ -380,6 +399,14 @@ async function fetchAllChunksForVideos(env, query, videoIds) {
       }
     }
   }
+
+  // Sort by chunk order within each video so the LLM sees content in narrative
+  // order, not by descending similarity (which jumbles the story).
+  all.sort((a, b) => {
+    const av = (a.metadata && a.metadata.timestamp_seconds) || 0;
+    const bv = (b.metadata && b.metadata.timestamp_seconds) || 0;
+    return av - bv;
+  });
 
   return all;
 }
