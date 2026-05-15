@@ -45,6 +45,12 @@ export function videoUrlWithTimestamp(videoId, seconds) {
 const QUERY_PATTERNS = {
   // "latest" / "most recent" / "newest"
   latest: /\b(latest|most[- ]recent|newest|recent(?:ly)?|last(?: week| month)?|this (?:week|month))\b/i,
+  // "this week" / "this month" / "last week" / "today" / "yesterday" — a stronger
+  // signal that the user wants a date-bounded list, even without "videos".
+  recentWindow: /\b(this (?:week|month)|last (?:week|month)|today|yesterday|new(?:ly)? (?:released|posted|uploaded)|just (?:released|posted|uploaded)|past (?:few )?(?:days|week))\b/i,
+  // mention of "video(s)" — distinguishes "what's new this week (in videos)"
+  // from "what's new in 4.8" (which should hit patch-notes paths instead).
+  videoWord: /\b(videos?|episodes?|streams?|broadcasts?|uploads?)\b/i,
   // explicit episode # or date
   episode: /\b(episode|ep\.?)\s*#?(\d{1,3})\b/i,
   // "in patch 4.5" / "alpha 4.5.1" / "PTU 4.0"
@@ -134,5 +140,23 @@ export function classifyIntent(query) {
       channel: channelMatch[1].toUpperCase().replace(/^EVOCATI$/i, "Evocati"),
     };
   }
+
+  // "What's new this week?", "any new videos?", "what videos came out recently?"
+  // No series, no patch version — the user wants a date-bounded list of recent
+  // videos. Pick a window based on which time word they used.
+  const recentWindow = QUERY_PATTERNS.recentWindow.test(q);
+  const mentionsVideos = QUERY_PATTERNS.videoWord.test(q);
+  // Bare "new videos" / "any new videos" — treat as latest week.
+  const newVideosMention = /\b(new|any new|whats new|what's new)\b.*\b(videos?|episodes?|streams?|uploads?)\b/i.test(q)
+    || /\b(videos?|episodes?|streams?|uploads?)\b.*\bnew\b/i.test(q);
+  if (recentWindow || (wantsLatest && mentionsVideos) || newVideosMention) {
+    let windowDays = 7;
+    if (/\b(this|last|past)\s+month\b/i.test(q)) windowDays = 31;
+    else if (/\btoday\b/i.test(q)) windowDays = 2;
+    else if (/\byesterday\b/i.test(q)) windowDays = 3;
+    else if (/\bpast few days\b/i.test(q)) windowDays = 5;
+    return { kind: "recent_videos", window_days: windowDays };
+  }
+
   return null;
 }

@@ -307,7 +307,70 @@ async function retrieveByIntent(env, query, intent) {
     return { matches, focusDocs };
   }
 
+  if (intent.kind === "recent_videos") {
+    // Anchor the window on the newest upload_date we have in the catalog,
+    // NOT on `new Date()` — the server clock and the data set don't always
+    // agree (and Pages workers don't have access to "today" semantics that
+    // line up with the YYYYMMDD format anyway). This way "this week" always
+    // means "the most recent N days of content we actually have".
+    const newest = await env.DB.prepare(
+      `SELECT MAX(upload_date) AS max_date FROM catalog_videos`
+    ).all();
+    const maxDate = (newest.results && newest.results[0] && newest.results[0].max_date) || null;
+    if (!maxDate) return { matches: [], focusDocs: [] };
+    const cutoff = subtractDaysYYYYMMDD(maxDate, intent.window_days || 7);
+    const rows = await env.DB.prepare(
+      `SELECT video_id, title, series, upload_date, url, has_transcript
+       FROM catalog_videos
+       WHERE upload_date >= ?
+       ORDER BY upload_date DESC, video_id ASC
+       LIMIT 25`
+    ).bind(cutoff).all();
+    const videos = rows.results || [];
+    if (!videos.length) return { matches: [], focusDocs: [] };
+
+    const focusDocs = videos.map((v) => ({
+      kind: "video",
+      video_id: v.video_id,
+      title: v.title,
+      series: v.series,
+      upload_date: v.upload_date,
+      url: v.url,
+      label: v.has_transcript
+        ? `${v.series || "Video"} — ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`
+        : `\u26a0\ufe0f No transcript indexed for: ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`,
+    }));
+
+    // Fetch transcript chunks for the videos that have them, so the model has
+    // actual content to summarize. Cap at 6 videos worth of chunks to keep the
+    // context budget under control.
+    const withTranscripts = videos.filter((v) => v.has_transcript).slice(0, 6).map((v) => v.video_id);
+    let matches = [];
+    if (withTranscripts.length) {
+      matches = await fetchAllChunksForVideos(env, query, withTranscripts);
+    }
+    return { matches, focusDocs };
+  }
+
   return { matches: [], focusDocs: [] };
+}
+
+/**
+ * Subtract N days from a YYYYMMDD string and return YYYYMMDD.
+ * Returns a string strictly comparable with other YYYYMMDD values.
+ */
+function subtractDaysYYYYMMDD(yyyymmdd, days) {
+  const s = String(yyyymmdd);
+  if (s.length !== 8) return s;
+  const y = parseInt(s.slice(0, 4), 10);
+  const m = parseInt(s.slice(4, 6), 10);
+  const d = parseInt(s.slice(6, 8), 10);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  dt.setUTCDate(dt.getUTCDate() - Math.max(0, Number(days) || 0));
+  const yy = dt.getUTCFullYear();
+  const mm = String(dt.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(dt.getUTCDate()).padStart(2, "0");
+  return `${yy}${mm}${dd}`;
 }
 
 /**
@@ -663,6 +726,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     "You answer player questions about Star Citizen ships, patch notes, and community video discussions.",
     "Ground every factual claim in the supplied CONTEXT snippets and cite them inline with their [#n] tag.",
     "If a FOCUS DOCUMENTS entry is marked '⚠️ No transcript indexed', tell the user the transcript isn't available and then ANSWER USING THE OTHER CONTEXT (such as patch notes for the same release). Do not refuse the whole question.",
+    "When the user asks 'what's new this week' or 'recent videos', the FOCUS DOCUMENTS block contains the authoritative list of videos in that window. ALWAYS list every focus-document video that matches the window (title, series, date, and the link from the label) before summarizing; do not say you don't have recent videos when the focus block is populated. If a focus video has no transcript chunks in CONTEXT, list it with a note that no transcript is available rather than omitting it.",
     "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
     "When linking to a video, ALWAYS copy the exact 'Link:' URL shown in the relevant CONTEXT chunk. Each transcript chunk has a 'Link:' line with a ready-to-use https://www.youtube.com/watch?v=...&t=...s URL — use that verbatim. NEVER output the literal placeholders 'VIDEO_ID' or 'SECONDS' — those are not real URLs. NEVER ask the user to fill in the video ID — it is in the chunk header.",
