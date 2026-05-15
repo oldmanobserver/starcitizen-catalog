@@ -352,8 +352,8 @@ async function upsertVectors(vectors) {
 
 async function deleteVectorIds(ids) {
   if (!ids.length) return;
-  // Vectorize delete_by_ids endpoint accepts up to ~1000 at a time.
-  const CHUNK = 500;
+  // Vectorize delete_by_ids endpoint caps each payload at 100 IDs (error 40007).
+  const CHUNK = 100;
   for (let i = 0; i < ids.length; i += CHUNK) {
     const slice = ids.slice(i, i + CHUNK);
     await cf(`/vectorize/v2/indexes/${VECTORIZE_INDEX}/delete_by_ids`, {
