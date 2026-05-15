@@ -6,1065 +6,1065 @@
 
 ## Transcript
 
-Eric Davis (EKD): Hey everybody, and welcome
+[00:04] Eric Davis (EKD): Hey everybody, and welcome
 back to Ten for the Producers! We haven’t
-done these in awhile, so we’re really excited
+[00:14] done these in awhile, so we’re really excited
 to go through these awesome questions. Before
-we get started we’d like to thank the subscribers
+[00:18] we get started we’d like to thank the subscribers
 for allowing us to do this enhanced content.
-It is because of you guys that we can do this
+[00:23] It is because of you guys that we can do this
 and share this information, and it’s really
-cool to be able to share the details and get
+[00:27] cool to be able to share the details and get
 in front of the camera and talk to you as
-much as we possibly can. And to interact with
+[00:32] much as we possibly can. And to interact with
 you on the forums and all the other social
-media that we do, so thank you very much for
+[00:35] media that we do, so thank you very much for
 allowing us to do this.
-So, to get this started, our amazing ten questions,
+[00:38] So, to get this started, our amazing ten questions,
 Darian, I’m not going to introduce who you
-are (Darian laughs, “Apparently”), I’m
+[00:43] are (Darian laughs, “Apparently”), I’m
 just going to start talking. I’m Eric Kieron
-Davis here with …
-Darian Vorlick (DV): I forget who I am, oh,
+[00:45] Davis here with …
+[00:46] Darian Vorlick (DV): I forget who I am, oh,
 Darian Vorlick!
-EKD: Alright, Darian’s going to start us
+[00:48] EKD: Alright, Darian’s going to start us
 off, go ahead!
-DV: Okay, the first one. We’ve got a question
+[00:50] DV: Okay, the first one. We’ve got a question
 from Doc.
-(00:51) Doc asks: As a producer you get to
+[00:53] (00:51) Doc asks: As a producer you get to
 see an in-depth look of the game and how the
-people work on the different systems. Are
+[00:57] people work on the different systems. Are
 there any specific things you always wanted
-to do (or wished you could do) yourself if
+[01:01] to do (or wished you could do) yourself if
 you had the skills for it? What assets would
-be your favourite to work on?
+[01:05] be your favourite to work on?
 DV: This sort of like a bucket dream list,
-like if we could work on other aspects of
+[01:08] like if we could work on other aspects of
 the game, what would we want to do? What would
-yours be?
-EKD: Oh, man, I was thinking about this a
+[01:11] yours be?
+[01:12] EKD: Oh, man, I was thinking about this a
 lot. Well, if you watch the “Get to Know
-the Dev” or whatever it was …
-DV: “Meet the Dev”
-EKD: … I talked about my background is animation,
+[01:17] the Dev” or whatever it was …
+[01:18] DV: “Meet the Dev”
+[01:19] EKD: … I talked about my background is animation,
 so I actually got out of college thinking
-I was going to be an animator.
-DV: [holding up a bottle] Is this yours or
+[01:24] I was going to be an animator.
+[01:25] DV: [holding up a bottle] Is this yours or
 mine?
-EKD: It’s yours. So I spent a lot of time
+[01:26] EKD: It’s yours. So I spent a lot of time
 learning the craft of animation, getting a
-degree in acting, just all the things you
+[01:29] degree in acting, just all the things you
 need for a good solid performance of a character,
-and so that was actually the path I was going
+[01:33] and so that was actually the path I was going
 in. So for me what I would love to do, or
-what I would have loved to have done, what
+[01:38] what I would have loved to have done, what
 I would dig into (probably too much) is the
-animation side: performance and characters
+[01:40] animation side: performance and characters
 and just conveying a story, because I love
-telling stories.
-DV: So this is your leading role as a Senior
+[01:45] telling stories.
+[01:46] DV: So this is your leading role as a Senior
 Producer?
-EKD: Pfft!
-DV: You’ve been cast as Senior Producer,
+[01:48] EKD: Pfft!
+[01:49] DV: You’ve been cast as Senior Producer,
 and this is your script?
-EKD: Yeah and I’m going to act someone out.
+[01:52] EKD: Yeah and I’m going to act someone out.
 So that would be me. What about you?
-DV: Probably the lore or writing aspect. Given
+[01:57] DV: Probably the lore or writing aspect. Given
 that I’ve got a background in publishing
-and writing I would love to be a project managers
+[02:01] and writing I would love to be a project managers
 or just oversee how the writing develops.
-Creating that kind of mythos is incredibly
+[02:11] Creating that kind of mythos is incredibly
 interesting for me. I have a deep seated love
-for traditional printed media. There’s something
+[02:17] for traditional printed media. There’s something
 romantically classy about holding a book in
-your hand and knowing that this is something
+[02:23] your hand and knowing that this is something
 that you had a hand in putting together. But
-I actually like what I’m doing here: being
+[02:30] I actually like what I’m doing here: being
 able to interact with developers on design
-and engineering, it’s different from anything
+[02:32] and engineering, it’s different from anything
 else I’ve ever done. I like new things.
-EKD: So there you go, that’s what we’d
+[02:38] EKD: So there you go, that’s what we’d
 enjoy working on if we weren’t already doing
-what we loved, which is this.
-(2:47) Graxas asks: As a producer you maintain
+[02:42] what we loved, which is this.
+[02:45] (2:47) Graxas asks: As a producer you maintain
 an overview of the project progress and coordinate
-the disciplines (Art, Design, etc) to bring
+[02:53] the disciplines (Art, Design, etc) to bring
 together a final product in the game (ship,
-location, etc), however to maintain the overview
+[02:58] location, etc), however to maintain the overview
 you need to be in the detail of each discipline.
-How do you draw the line between maintaining
+[03:04] How do you draw the line between maintaining
 an overview and going too far down the detail
-rabbit hole? Give us an example.
-DV: I think this is a question we’ve both
+[03:09] rabbit hole? Give us an example.
+[03:10] DV: I think this is a question we’ve both
 been looking for, at least we’ve waiting
-for this question to be able to answer it.
-EKD: It’s very tough. We’re going to get
+[03:15] for this question to be able to answer it.
+[03:18] EKD: It’s very tough. We’re going to get
 to later, I think there’s a question on
-ownership but when we talk about what our
+[03:24] ownership but when we talk about what our
 backgrounds are, what we’re experienced
-in and what we know we’ll tend to spend
+[03:29] in and what we know we’ll tend to spend
 a little bit more time in those. So you hire
-different production with different skillsets
+[03:32] different production with different skillsets
 to provide you different perspectives. So
-if you have a producer that’s very technical
+[03:36] if you have a producer that’s very technical
 they may know a little bit more about the
-detail so they may answer those questions
+[03:39] detail so they may answer those questions
 better. As you said in that post, “know
-enough to be dangerous”, right?
-DV: Yes. I actually got that from Senior Producer
+[03:43] enough to be dangerous”, right?
+[03:44] DV: Yes. I actually got that from Senior Producer
 Jason Hutchins.
-EKD: It’s great, it’s exactly right. So
+[03:47] EKD: It’s great, it’s exactly right. So
 I think the question’s “how do you draw
-the line?” You just got to figure out what
+[03:52] the line?” You just got to figure out what
 you need to dig into. For me, it’s good
-to have an overview of the schedule; to plan
+[03:56] to have an overview of the schedule; to plan
 it; to work with your leads and your team;
-but then sometimes you have to get into the
+[04:00] but then sometimes you have to get into the
 weeds, you have to dig in even further. So
-it’s not necessarily you shouldn’t do
+[04:04] it’s not necessarily you shouldn’t do
 one or the other: it’s more you do each
-at different times.
-DV: That and when I first started here, I’m
+[04:09] at different times.
+[04:10] DV: That and when I first started here, I’m
 not a coder, I’m not a programmer, I’m
-not an engineer, so there was a little bit
+[04:15] not an engineer, so there was a little bit
 of a feeling of displacement when I first
-started because I wasn’t really sure if
+[04:20] started because I wasn’t really sure if
 I would be able to talk at the level that’s
-necessary for the engineers and designers.
+[04:25] necessary for the engineers and designers.
 But just through sheer saturation I feel I
-can at least carry on a semi-decent, intelligent
+[04:29] can at least carry on a semi-decent, intelligent
 conversation that doesn’t rely on just grunts
-and pointing.
-DV: So being able to have a conversation about
+[04:33] and pointing.
+[04:34] DV: So being able to have a conversation about
 the Item system or the Entity Token system
-with developers, like on a phone call this
+[04:40] with developers, like on a phone call this
 morning, I think we should know enough just
-to be able to ask questions on how progress
+[04:44] to be able to ask questions on how progress
 is going and know when someone is bluffing
-us. So we have to be able to read, what’s
+[04:52] us. So we have to be able to read, what’s
 the word I’m looking for, anticipate what
-the needs of that particular discipline are.
+[04:59] the needs of that particular discipline are.
 We don’t need to be experts in it, we just
-need to know enough to be able to converse
+[05:04] need to know enough to be able to converse
 with the developers and be able to manage
-those tasks.
-EKD: Sure. So give us an example. I think
+[05:07] those tasks.
+[05:08] EKD: Sure. So give us an example. I think
 you already started talking about one: the
-Entity Token. Right?
-DV: Yes!
-EKD: So how did you manage that how did you
+[05:10] Entity Token. Right?
+[05:11] DV: Yes!
+[05:12] EKD: So how did you manage that how did you
 draw the line between; how far did you go
-versus “I just need to stay back and help
+[05:15] versus “I just need to stay back and help
 you guys get it done”?
-DV: For reference, this is what we were talking
+[05:17] DV: For reference, this is what we were talking
 about on a Skype call we had this morning
-with our UK office, with one of our programmers
+[05:22] with our UK office, with one of our programmers
 Stephen Humphreys, and he’s in charge of
-our Entity Token which is the sequel to GOST.
+[05:27] our Entity Token which is the sequel to GOST.
 So I am not fluent in FlowGraph in CryEngine
-but with the way the Entity Token system’s
+[05:35] but with the way the Entity Token system’s
 working I know enough about what they are
-trying to accomplish with it to at least know
+[05:39] trying to accomplish with it to at least know
 what the end goal is; what they are trying
-to do to get there; what the voids are; and
+[05:43] to do to get there; what the voids are; and
 if a certain person leaves an aspect of this
-project what more resources do we need to
+[05:49] project what more resources do we need to
 allocate to that.
-DV: And knowing who has what skillset is absolutely
+[05:52] DV: And knowing who has what skillset is absolutely
 necessary knowledge to have in order to be
-able to fulfill that void. So in talking to
+[06:00] able to fulfill that void. So in talking to
 Mr Humphreys we knew that he was making progress
-on certain aspects, certain concepts; I need
+[06:05] on certain aspects, certain concepts; I need
 to be able to ask how far is he; where’s
-he going with it; and i had to be able to
+[06:09] he going with it; and i had to be able to
 converse with him at a level where it showed
-I understood what he was trying to do.
-EKD: I would say lastly I was just re-reading
+[06:14] I understood what he was trying to do.
+[06:16] EKD: I would say lastly I was just re-reading
 this about “how you maintain that overview?”
-That’s kind of the point of production:
+[06:20] That’s kind of the point of production:
 we are the third party perspective; we are
-the outsider; we aren’t in the weeds per
+[06:25] the outsider; we aren’t in the weeds per
 se so we are able to get a large overview.
-So I think, intrinsically, by being Production
+[06:29] So I think, intrinsically, by being Production
 and being required to not know everything
-down to its base level that allows us to keep
+[06:34] down to its base level that allows us to keep
 that overview. Right? So then we chose, as
-producers, where we should learn more information
+[06:39] producers, where we should learn more information
 to help understand that better.
-DV: That becomes a double edged sword because
+[06:42] DV: That becomes a double edged sword because
 the more technical detail you have, where
-does it stop where the producer starts getting
+[06:47] does it stop where the producer starts getting
 more involved with the actual technical, for
-example, if the producer can read code or
+[06:50] example, if the producer can read code or
 write code it doesn’t mean that he’s going
-to start jumping in and changing people’s
+[06:55] to start jumping in and changing people’s
 code when he sees a mistake or he feels something
-should be changed. That should be up to the
+[06:59] should be changed. That should be up to the
 designers and the programmers, and the producer
-should just be there to guide them towards
+[07:03] should just be there to guide them towards
 the specific objective and not interfere with
-what the designer and programmer is doing.
-EKD: Absolutely, great question.
-(07:09) Steve hunter asks: How do you make
+[07:06] what the designer and programmer is doing.
+[07:09] EKD: Absolutely, great question.
+[07:11] (07:09) Steve hunter asks: How do you make
 task duration estimates when situations like
-‘technical blockers’ pop up?
+[07:16] ‘technical blockers’ pop up?
 DV: I don’t think one is necessarily contingent
-upon the other one thing we do is talk developers
+[07:21] upon the other one thing we do is talk developers
 and ask them how long they think it will take
-and this is predacted on their knowledge if
+[07:26] and this is predacted on their knowledge if
 it’s something they’ve already done we
-as producers will have a good idea to taken
+[07:32] as producers will have a good idea to taken
 them in the past. We look at the scale of
-what their doing and we upscale it or downscale
+[07:36] what their doing and we upscale it or downscale
 it based on the project need.
-DV: If situations like technical blockers
+[07:41] DV: If situations like technical blockers
 pop up something we’ve mentioned in previous
-Ten for The Producers videos is every time
+[07:47] Ten for The Producers videos is every time
 we put together a schedule and publish it
-for the team it soon becomes obsolete because
+[07:50] for the team it soon becomes obsolete because
 dates and how long someone takes on a take
-can change from day to day we may need a programmer
+[07:57] can change from day to day we may need a programmer
 on a task pulled off because we’ve got another
-blocker that needs a fix and that may even
+[08:01] blocker that needs a fix and that may even
 become related to what he’s working on.
-Because we are a I wouldn’t say a small
+[08:07] Because we are a I wouldn’t say a small
 office but we have a limited number of resources
-that makes each time how a developer spends
+[08:14] that makes each time how a developer spends
 on a particular project that much more valuable.
-So being able to plot out that time is a very
+[08:22] So being able to plot out that time is a very
 tricky thing to do.
-EKD: It is and how do you plan for that? It
+[08:26] EKD: It is and how do you plan for that? It
 always comes down we’ve never done it before
-the teams never done it before we’ve talked
+[08:31] the teams never done it before we’ve talked
 about this before at the end of it just add
-five ten percent buffer they will take 2 weeks
+[08:36] five ten percent buffer they will take 2 weeks
 so we give them a little bit over two and
-a half weeks and say that’s our coverage.
+[08:41] a half weeks and say that’s our coverage.
 So you’ll tend to see production bloat things
-a little bit more but that’s usually to
+[08:46] a little bit more but that’s usually to
 protect the team. You want to over deliver
-as opposed to the other way around where people
+[08:50] as opposed to the other way around where people
 over promise. Anything that’s part of our
-job as production is to go we’re going to
+[08:57] job as production is to go we’re going to
 add a little bit extra time because even if
-comes down we deliver faster and then we’ll
+[09:00] comes down we deliver faster and then we’ll
 know for the next time as well.
-DV: On top of that let’s say that I ask
+[09:04] DV: On top of that let’s say that I ask
 Mark Abent to do a programming task and he
-gives me an estimate that it takes fives days.
+[09:10] gives me an estimate that it takes fives days.
 Is that five days from now or five days worth
-of work? That’s something we have to be
+[09:14] of work? That’s something we have to be
 concerned with as well what resources does
-he have at his disposal as well?
-EKD: And being a live plus development pre-production
+[09:19] he have at his disposal as well?
+[09:21] EKD: And being a live plus development pre-production
 plus production and you also have to add in
-a certain amount of bugs. It’s a good question
+[09:26] a certain amount of bugs. It’s a good question
 and it does come down to we‘re doing a lot
-of guesstimating and you have to trust the
+[09:32] of guesstimating and you have to trust the
 team the team usually knows the best or if
-they’ve never done it before you just add
+[09:37] they’ve never done it before you just add
 a bonus and go
-(9:45) AragornBH asks: It has already been
+[09:45] (9:45) AragornBH asks: It has already been
 mentioned that CIG is in progress of trying
-to pool their human resources in their various
+[09:51] to pool their human resources in their various
 studios around the world. This puts more people
-with a similar set of skills and focus in
+[09:56] with a similar set of skills and focus in
 the same place, avoiding some of the natural
-roadblocks of working with people in a different
+[09:59] roadblocks of working with people in a different
 timezone. From a producer’s perspective
-could you give any examples of how this organizational
+[10:04] could you give any examples of how this organizational
 change has produced SC content more efficiently.
-Has this affected the speed/quality at which
+[10:09] Has this affected the speed/quality at which
 the Freelancer has been remodeled for instance?
-DV: That’s a very specific question!
-EKD: I’m wondering why he asked this specific
+[10:16] DV: That’s a very specific question!
+[10:18] EKD: I’m wondering why he asked this specific
 question!
-DV: You can use the sound team as an example
+[10:19] DV: You can use the sound team as an example
 on this.
-EKD: So this one is a good question. I know
+[10:23] EKD: So this one is a good question. I know
 a lot of people have wanted to know more after
-Chris sent that email out to inform how this
+[10:30] Chris sent that email out to inform how this
 was going to work. People like to read what
-is said and then what’s between the lines
+[10:39] is said and then what’s between the lines
 and there was no real reading between the
-lines on this one; it was truly just looking
+[10:43] lines on this one; it was truly just looking
 at the business, looking at the project and
-seeing what’s best for us to do it as fast,
+[10:47] seeing what’s best for us to do it as fast,
 as cheap as we can: which we’re always doing!
-Every day we’re doing that! Every hour we’re
+[10:52] Every day we’re doing that! Every hour we’re
 doing that! So you’re going to see changes
-and in normal game development this happens:
+[10:56] and in normal game development this happens:
 you go through and you revamp the team.
-EKD: The previous places I worked we revamped
+[11:01] EKD: The previous places I worked we revamped
 or reorged every year, every six months! It’s
-pretty common because you learn so much more:
+[11:05] pretty common because you learn so much more:
 like I know how to make that ship faster so
-I don’t need so many people, or I need more
+[11:10] I don’t need so many people, or I need more
 people, or whatever the case may be. It’s
-just the nature of business.
-EKD: Have we seen anything? So this is in
+[11:13] just the nature of business.
+[11:14] EKD: Have we seen anything? So this is in
 process of happening right now! We are talking
-about it because it was just announced and
+[11:19] about it because it was just announced and
 these things just don’t happen [snaps fingers]
-over night! But we are moving quickly on them,
+[11:22] over night! But we are moving quickly on them,
 so for instance one of the examples is we
-looked at our amazing audio team, the majority
+[11:27] looked at our amazing audio team, the majority
 of them if not all of them (except for one)
-is out in the UK led by Lee Banyard. It’s
+[11:31] is out in the UK led by Lee Banyard. It’s
 a fantastic team, they deliver quality stuff
-and they are very quick. The turnaround is
+[11:37] and they are very quick. The turnaround is
 very quick and their communication is solid
-and yadda, yadda, yadda: all the things that
+[11:40] and yadda, yadda, yadda: all the things that
 make teams great.
-DV: And their all in one place together.
-EKD: And their all in one place together.
+[11:42] DV: And their all in one place together.
+[11:44] EKD: And their all in one place together.
 And I think that was one of the things that
-when you see “why are they doing so well?”,
+[11:47] when you see “why are they doing so well?”,
 Well they’re all in one place together.
-They’re always together. So when things
+[11:50] They’re always together. So when things
 come up they just turn and they get it fixed
-so they don’t have to wait twenty four hours
+[11:54] so they don’t have to wait twenty four hours
 for an email to come back. So that’s a lot
-of the things we’re doing: just putting
+[11:57] of the things we’re doing: just putting
 little things in place that make sense. So
-we’ll still have our multiple studios because
+[12:01] we’ll still have our multiple studios because
 it still makes sense to have that but we are
-unifying and I think we’ll start seeing
+[12:05] unifying and I think we’ll start seeing
 the knock-on effects of that in the coming
-months.
-DV: Right.
-EKD: Freelancer one specifically? You want
+[12:10] months.
+[12:11] DV: Right.
+[12:12] EKD: Freelancer one specifically? You want
 to speak to that one?
-DV: I got nothing on that one!
-EKD: I got nothing on that one as well. That’s
+[12:15] DV: I got nothing on that one!
+[12:17] EKD: I got nothing on that one as well. That’s
 a great one: we’ll look into that one and
-come back to you!
-(12:20) Fobile asks: As producers I assume
+[12:19] come back to you!
+[12:21] (12:20) Fobile asks: As producers I assume
 you play the role of project managers and
-therefore have a huge role in monitoring the
+[12:27] therefore have a huge role in monitoring the
 developmental progress of the project. At
-what point do you step in and determine that
+[12:32] what point do you step in and determine that
 a person, group or contractor(s) is/are having
-difficult with their assigned task and what
+[12:37] difficult with their assigned task and what
 actions have you taken to remedy the situation?
-Also are your teams comprised of individuals
+[12:41] Also are your teams comprised of individuals
 focused in specific tasks or are most tasks
-down in small teams with a leader/mentor for
+[12:45] down in small teams with a leader/mentor for
 the less experienced members?
-DV: So this is kind of plays into key about
+[12:49] DV: So this is kind of plays into key about
 what Eric was just talking about how we’re
-trying to centralize all of our resources
+[12:55] trying to centralize all of our resources
 in particular offices. Now our team hierarchy,
-we have a lead for each team for example,
+[12:59] we have a lead for each team for example,
 we have a design lead, we have an engineering
-lead, we have an art lead. So these leads
+[13:04] lead, we have an art lead. So these leads
 pretty much head that team, now when we created
-a task for someone, these tasks are generated
+[13:10] a task for someone, these tasks are generated
 in collaboration with those team leads, that
-way the team lead is always aware of what
+[13:16] way the team lead is always aware of what
 their subordinates are working on and we as
-production can see an overall picture on what
+[13:20] production can see an overall picture on what
 work needs to be done.
-DV: So the kind of tasks that get dictated
+[13:24] DV: So the kind of tasks that get dictated
 to us by the leads, we look at let’s say
-what features are coming down for the next
+[13:28] what features are coming down for the next
 patch. We’ll sit down with the design leads,
-what do you need done for this so design lead
+[13:34] what do you need done for this so design lead
 will give us a list of we need this in there
-we need to have that in there, so we look
+[13:38] we need to have that in there, so we look
 at these features, break them down into individual
-tasks and look at which developers are free
+[13:42] tasks and look at which developers are free
 under that particular lead, for example with
-art team, if Elwin we need to have a concept
+[13:48] art team, if Elwin we need to have a concept
 for actually our hangar ready ship, we see
-okay we need to see one of our artists Daniel,
+[13:53] okay we need to see one of our artists Daniel,
 he can do this, Gage can do this, Patrick
-can do this, so us as production it’s our
+[13:57] can do this, so us as production it’s our
 job to kind of make granular on how these
-tasks are broken down
-EKD: And to speak to the other question because
+[14:05] tasks are broken down
+[14:06] EKD: And to speak to the other question because
 I think that was good for the last question,
-the other question is, when someone is having
+[14:10] the other question is, when someone is having
 a difficulty right, that’s I think you touched
-on that a little bit. That’s a great question
+[14:14] on that a little bit. That’s a great question
 and what actions have you taken? Anything,
-everything right? We’ve gone everywhere
+[14:21] everything right? We’ve gone everywhere
 from evaluating maybe the task what incorrectly
-bid out, maybe we said two days and it’s
+[14:25] bid out, maybe we said two days and it’s
 3 months, major mistake right we got to get
-those leads again. Maybe they’ve had computer
+[14:30] those leads again. Maybe they’ve had computer
 issues, maybe we’ve pulled them away too
-much to bugs for live things like we said
+[14:34] much to bugs for live things like we said
 in the last question I haven’t been able
-to get to it.
-EKD: Maybe it just isn’t working with the
+[14:38] to get to it.
+[14:39] EKD: Maybe it just isn’t working with the
 structure so to the last question talking
-about shifting things around, we’ve gone
+[14:43] about shifting things around, we’ve gone
 all the way from having full pipelines move
-to different locations because they had the
+[14:48] to different locations because they had the
 staff for it, it wasn’t necessarily because
-someone was failing and can’t do their job,
+[14:51] someone was failing and can’t do their job,
 get rid of them it was more okay this isn’t
-working out here lets evaluate why, oh, it
+[14:55] working out here lets evaluate why, oh, it
 makes sense here because they have more people,
-they have the right resources or maybe we
+[14:58] they have the right resources or maybe we
 realized there’s one person here that needs
-to be apart of it, the rest are in Frankfurt,
+[15:03] to be apart of it, the rest are in Frankfurt,
 or vice versa, it’s more about again, constantly
-evaluating as we look at our hiring practices,
+[15:08] evaluating as we look at our hiring practices,
 who we bring in, look at our overall tasks
-and then we shift those responsibilities around
+[15:13] and then we shift those responsibilities around
 which is one of the cool thing about having
-as I’ve called it before, “follow the
+[15:17] as I’ve called it before, “follow the
 sun development”. We shut down, UK opens
-up, Frankfurt opens up, Austin right, vice
+[15:21] up, Frankfurt opens up, Austin right, vice
 versa, we kind of keep things moving along
-so we can keep things going as fast as we
+[15:25] so we can keep things going as fast as we
 can. So that’s some of the things we’ve
-done, and we’ll continue to do it.
-(15:30) Masq asks: What are the challenges
+[15:30] done, and we’ll continue to do it.
+[15:33] (15:30) Masq asks: What are the challenges
 that come with staff changes in different
-departments? What are the challenges you face
+[15:37] departments? What are the challenges you face
 when changing producers? Do you need to re-assign
-certain responsibilities? Do you guys share
+[15:41] certain responsibilities? Do you guys share
 all responsibilities, and have similar knowledge/information
-about current tasks, or is it split between
+[15:47] about current tasks, or is it split between
 you? How do you effectively share information?
-Do you ever find it difficult to exchange
+[15:51] Do you ever find it difficult to exchange
 information with other studios due to cultural,
-or language barriers? If the buck knife breaks
+[15:57] or language barriers? If the buck knife breaks
 while defending yourselfs, do to poor workmanship,
-how do you punish the employee you assigned
+[16:02] how do you punish the employee you assigned
 to make it?
-EKD: That’s a lot of fantastic questions.
-DV: We stab them with the stump of the buck
+[16:04] EKD: That’s a lot of fantastic questions.
+[16:06] DV: We stab them with the stump of the buck
 knife.
-EKD: There you go! A lot of those could be
+[16:09] EKD: There you go! A lot of those could be
 answered in different portions…I think that’s
-like 4 of 5 different questions, I think the
+[16:14] like 4 of 5 different questions, I think the
 first one to speak to for sure is staff changes,
-production changes, responsibilities, sharing
+[16:19] production changes, responsibilities, sharing
 knowledge.
-DV: Work still needs to get done.
-EKD: In this industry, in many industries
+[16:22] DV: Work still needs to get done.
+[16:27] EKD: In this industry, in many industries
 of creativity. People move around, it’s
-a very common place. People get another job,
+[16:33] a very common place. People get another job,
 people get a promotion, they change, their
-spouse needs to move around the country, their
+[16:38] spouse needs to move around the country, their
 kids need to go to another school, there’s
-all kinds of reasons people come and go, it’s
+[16:42] all kinds of reasons people come and go, it’s
 a pretty fluid thing it’s just business,
-right? Any company any industry has this,
+[16:46] right? Any company any industry has this,
 this is not new.
-EKD: So for us it’s about building contingency
+[16:48] EKD: So for us it’s about building contingency
 plans and understanding who can own what in
-the current environment. So as somebody ships
+[16:53] the current environment. So as somebody ships
 out, there’s by no means ever an expectation
-that every producer needs to know everything,
+[16:58] that every producer needs to know everything,
 there’s no way we could all do that, at
-the number of production we have at this company
+[17:02] the number of production we have at this company
 alone, it would be an overwhelming amount.
-So yes, we do break it down by responsibilities,
+[17:07] So yes, we do break it down by responsibilities,
 we do try to say alright Darian, you’re
-going to work with the engineering and design
+[17:12] going to work with the engineering and design
 team in Santa Monica, you’re also going
-to work on live releases, you’re also going
+[17:16] to work on live releases, you’re also going
 to do X, Y and Z, that’s what you’re going
-to try and own. You will be likely involved
+[17:20] to try and own. You will be likely involved
 in these three things and you may hear about
-“this” stuff because it’s in your studio,
+[17:25] “this” stuff because it’s in your studio,
 so you should be aware of it but by no means
-he’s required to know it all.
-EKD: In fact, we have to trust each other,
+[17:28] he’s required to know it all.
+[17:29] EKD: In fact, we have to trust each other,
 so yes when someone says hey I got another
-great job, my wife needs to move to this,
+[17:33] great job, my wife needs to move to this,
 my husband this, right, whatever. We go “cool,
-here’s the contingency plan”, we start
+[17:38] here’s the contingency plan”, we start
 to either shift out that work, look at what
-we may need to rehire right? It’s kind of
+[17:42] we may need to rehire right? It’s kind of
 the part of the last question, re-evaluating
-the business needs and then we can filter
+[17:47] the business needs and then we can filter
 that out. So if it makes sense they go okay
-that chunk of work that person was owning,
+[17:51] that chunk of work that person was owning,
 we can probably still cover that here for
-a short period of time until we get support,
+[17:54] a short period of time until we get support,
 we’ll do this this and this and we’ll
-fan it out. But ultimately we’ll have a
+[17:58] fan it out. But ultimately we’ll have a
 longer term plan of okay the job will go up
-on the website or we’ll promote this person
+[18:02] on the website or we’ll promote this person
 and were going to give these responsibilities,
-so we come up with a contingency plan and
+[18:05] so we come up with a contingency plan and
 then we generally have a contingency on back
-of that.
-EKD: We also you know, you may have heard
+[18:09] of that.
+[18:10] EKD: We also you know, you may have heard
 this before, the hit by the bus plan, as vulgar
-as that sounds and how much I hate that because
+[18:14] as that sounds and how much I hate that because
 I never want anyone to get hit by a bus, the
-idea is that would we still be able to function?
+[18:18] idea is that would we still be able to function?
 Yes, we want to make sure that people are,
-they understand enough of what everyone is
+[18:26] they understand enough of what everyone is
 working on so we can step in to help whenever
-possible.
-DV: It’s also a good sign of good management
+[18:30] possible.
+[18:31] DV: It’s also a good sign of good management
 practices that the company doesn’t fall
-apart I mean if you’re someone who’s so
+[18:35] apart I mean if you’re someone who’s so
 central to everything that if you can’t
-leave for a day without things falling apart,
+[18:39] leave for a day without things falling apart,
 that highlights a lot of inefficiencies in
-that management practice, you should be able
+[18:44] that management practice, you should be able
 to step away for weeks on them, because as
-a manager as a project manager or producer,
+[18:47] a manager as a project manager or producer,
 everybody should have an understanding of
-what they’re doing and that if I step away,
+[18:52] what they’re doing and that if I step away,
 those things continue on like clockwork.
-EKD: Yes, that’s right. So there’s some
+[18:55] EKD: Yes, that’s right. So there’s some
 other questions in here. There’s a good
-one in about difficulty exchanging information
+[18:58] one in about difficulty exchanging information
 with cultural barriers, that’s a great question
-and in fact these are two good guys to talk
+[19:02] and in fact these are two good guys to talk
 about it. When we were in our previous place
-expected to work in China for many months
+[19:06] expected to work in China for many months
 to set certain things up, certain operations,
-and that was kind of, for me personally, I
+[19:12] and that was kind of, for me personally, I
 know I’ve travelled but that was my first
-on the business side dealing with cultural
+[19:17] on the business side dealing with cultural
 barriers and so yeah absolutely you work with
-anyone that’s not within 50 miles of yourself
+[19:21] anyone that’s not within 50 miles of yourself
 there are cultural barriers, whether it’s
-phrases you use or the terminologies in an
+[19:26] phrases you use or the terminologies in an
 email or knock on effects. I just use that
-in this thing but that’s apparently a very
+[19:31] in this thing but that’s apparently a very
 large thing you use in the UK, we don’t
-use it here at all. There was also someone
+[19:34] use it here at all. There was also someone
 reference soccer, I’m sorry football, and
-how we should do something and I’m like
+[19:40] how we should do something and I’m like
 I don’t understand that, what are you, use
-basketball terms, or something else.
-DV: Or what they call take out food, or to
+[19:43] basketball terms, or something else.
+[19:44] DV: Or what they call take out food, or to
 go, is take away.
-EKD: Yeah, that’s right, and that’s obviously
+[19:48] EKD: Yeah, that’s right, and that’s obviously
 our silly examples but there definitely are
-on the business side, questions. We do have
+[19:51] on the business side, questions. We do have
 that added element of, ‘oh what does that
-mean or how do we do that or you know’.
+[19:56] mean or how do we do that or you know’.
 It’s not as bad with other english speaking
-cultures, right? But I know our Frankfurt
+[20:00] cultures, right? But I know our Frankfurt
 office, those guys are all very fluent in
-english so it’s worked pretty well,but there
+[20:05] english so it’s worked pretty well,but there
 are definitely challenges.
-DV: It also helps that we have our guys going
+[20:08] DV: It also helps that we have our guys going
 back and forth between offices. We have our
-UK producer Ricky Jutley, we’ve had a few
+[20:12] UK producer Ricky Jutley, we’ve had a few
 of their designers here. We’ve sent a few
-of our guys out there so there is kind of
+[20:16] of our guys out there so there is kind of
 a cultural exchange that goes on and it keeps
-the company more homogenized and unified in
+[20:20] the company more homogenized and unified in
 how we view things.
-EKD: Totally, that is absolutely right, so
+[20:24] EKD: Totally, that is absolutely right, so
 the last question on here about how do you
-punish an employee who is assigned a maggot.
-DV: Have they not seen my lead pipe of project
+[20:29] punish an employee who is assigned a maggot.
+[20:30] DV: Have they not seen my lead pipe of project
 pub scheduling?
-EKD: Yes, yes you have. That’s a good question,
+[20:34] EKD: Yes, yes you have. That’s a good question,
 it’s not always as simple as that. Poor
-workmanship isn’t always that one person
+[20:41] workmanship isn’t always that one person
 failed at one thing, this is a team effort,
-it’s always a team effort and so we want
+[20:46] it’s always a team effort and so we want
 to look at it that way. We do like to find
-where a problem is at the root and fix it
+[20:51] where a problem is at the root and fix it
 for sure but we don’t run around and going
-“oh this is wrong, you did it!” Blame
+[20:56] “oh this is wrong, you did it!” Blame
 games don’t help anyone: they don’t help
-in family, they don’t help in business,
+[20:59] in family, they don’t help in business,
 they don’t help in a team.
-DV: It just created animosity and toxicity.
-EKD: Yes.
-DV: It’s a knee jerk reaction to instantly
+[21:04] DV: It just created animosity and toxicity.
+[21:05] EKD: Yes.
+[21:06] DV: It’s a knee jerk reaction to instantly
 want to point your finger like it’s their
-fault.
-EKD: That’s right. So it’s more about
+[21:08] fault.
+[21:09] EKD: That’s right. So it’s more about
 understanding what the problem was, going
-to the root of it and then going let’s figure
+[21:12] to the root of it and then going let’s figure
 out how to solve that problem on a mass scale
-as opposed to just, you know if somebody is
+[21:16] as opposed to just, you know if somebody is
 a problem, obviously take the correct business
-steps for that but that’s not necessarily
+[21:20] steps for that but that’s not necessarily
 what this conversation is about. But there
-are things you want to fix so you want to
+[21:22] are things you want to fix so you want to
 find the root cause and fix them.
-DV: Yup.
-TH: [In the background] Communicate expectations.
-EKD: Yes, that’s right.
-DV: I think there’s a book Eric has.
-TH: Communicating, making sure that you’re
+[21:32] DV: Yup.
+[21:33] TH: [In the background] Communicate expectations.
+[21:36] EKD: Yes, that’s right.
+[21:38] DV: I think there’s a book Eric has.
+[21:41] TH: Communicating, making sure that you’re
 clearing communicating it because if they
-don’t, maybe the expectations weren’t
+[21:47] don’t, maybe the expectations weren’t
 clearly communicated and by clearly communicating
-it expectations that is the step to you know,
+[21:52] it expectations that is the step to you know,
 because then if they fail again.
-EKD: Mhmm, we set these expectations, what
+[21:56] EKD: Mhmm, we set these expectations, what
 happened?
-DV: So! Number 7.
-(21:53) Cavguy asks: How do you guys manage
+[21:59] DV: So! Number 7.
+[22:01] (21:53) Cavguy asks: How do you guys manage
 the challenge of multiple development streams
-going on at the same time? For example, the
+[22:04] going on at the same time? For example, the
 team is pushing out daily updates to PTU 1.3
-(awesome job by the way) while i’m sure
+[22:09] (awesome job by the way) while i’m sure
 others are still heads down trying to get
-the “Baby PU” up and running soon™
-Crazyprsn asks: We’ve been told that 1.3
+[22:23] the “Baby PU” up and running soon™
+[22:26] Crazyprsn asks: We’ve been told that 1.3
 is the merging of all the development streams
-into one. This makes me that 1.3 is actually
+[22:30] into one. This makes me that 1.3 is actually
 kind of huge in the way of things running
-smoother. Could you spend a few minutes to
+[22:35] smoother. Could you spend a few minutes to
 describe the sort of impact “merging the
-streams” has on the development process,
+[22:38] streams” has on the development process,
 and how better (or worse) it makes your job?
-EKD: I definitely want you to answer the question
+[22:43] EKD: I definitely want you to answer the question
 but there’s a part in there I just wanted
-to chime in on. It’s kind of huge in the
+[22:47] to chime in on. It’s kind of huge in the
 way things run smoother? Absolutely having
-everything condensed into one place means
+[22:52] everything condensed into one place means
 globally as a company we’re looking at the
-same information the same data and we’re
+[22:55] same information the same data and we’re
 all working in the same place.
-EKD: We just merged the stream back that we
+[22:59] EKD: We just merged the stream back that we
 working on the web side and it did make some
-people not that excited and it broke some
+[23:03] people not that excited and it broke some
 things but it got us all looking at the same
-thing. So we got all those streams back a
+[23:06] thing. So we got all those streams back a
 while ago that was definitely a step in the
-right direction so now we wait until the last
+[23:11] right direction so now we wait until the last
 minute right when we’re about to release
-and we break that often we give that to you
+[23:14] and we break that often we give that to you
 guys and then we merge all that back so just
-try and maintain one core sense of development
+[23:18] try and maintain one core sense of development
 so we can all work together and can all speak
-in the same language
-DV: And we always try and keep the emphasis
+[23:21] in the same language
+[23:23] DV: And we always try and keep the emphasis
 on stability and I don’t know if you guys
-noticed but the stability of the systems have
+[23:28] noticed but the stability of the systems have
 been much improved as of late since we’ve
-been doing. So as far as how we manage the
+[23:32] been doing. So as far as how we manage the
 challenge of multiple development streams
-at the same time well.. that’s what we have
+[23:38] at the same time well.. that’s what we have
 the different teams for.
-DV: We may have one person working on one
+[23:42] DV: We may have one person working on one
 stream another person is working on a much
-more public stream so and then some of those
+[23:46] more public stream so and then some of those
 come under as QA. For example the QA team
-may report a bug in the 1.3 stream and we
+[23:52] may report a bug in the 1.3 stream and we
 ask them to go back and test see if it’s
-happening in our main development stream as
+[23:59] happening in our main development stream as
 well just to see it may be happening in the
-1.3 stream it may not be happening in the
+[24:03] 1.3 stream it may not be happening in the
 main development stream. Because whatever’s
-happening in the main development stream may
+[24:08] happening in the main development stream may
 have fixed it already.
-DV: So it’s kind of being cognitive about
+[24:10] DV: So it’s kind of being cognitive about
 what the differences between streams are what’s
-going on in each one. This is where being
+[24:14] going on in each one. This is where being
 able to track product milestones and the fixed
-version in our test bed program Jira come
+[24:20] version in our test bed program Jira come
 in very useful so we do have a way of reporting
-in fact we have a daily dashboard that shows
+[24:25] in fact we have a daily dashboard that shows
 how many bugs we have open in this stream
-and this stream, are they blockers are they
+[24:29] and this stream, are they blockers are they
 critical or are they trivial? We have daily
-conversation with the production staff globally
+[24:34] conversation with the production staff globally
 about what bugs and what tasks need to be
-tackled before the day is over
-EKD: You mentioned how better or worse it
+[24:38] tackled before the day is over
+[24:39] EKD: You mentioned how better or worse it
 makes your job it definitely makes it better
-and how we’re maintaining it is even as
+[24:43] and how we’re maintaining it is even as
 people work in the 1.3 stream that you guys
-are seeing we’re we have an automation process
+[24:47] are seeing we’re we have an automation process
 that we’re immediately grabbing that date
-and trying to bring back into the mainstream
+[24:52] and trying to bring back into the mainstream
 at all times now before we didn’t even have
-that operation running so that’s been wonderful
+[24:57] that operation running so that’s been wonderful
 so that when we are going with 1.3 we’re
-right back working together and we can lop
+[25:01] right back working together and we can lop
 off again for a new stream without going hold
-on we have to stop everything and merge it
+[25:05] on we have to stop everything and merge it
 back now and becomes this big orchestrated
-process.
-We get those emails constantly “Hey we’re
+[25:11] process.
+[25:12] We get those emails constantly “Hey we’re
 blocked someone needs to help us get this
-done”. But it’s better to do it a little
+[25:15] done”. But it’s better to do it a little
 bit at a time it’s like you’re writing
-a book or painting a painting everyday you
+[25:19] a book or painting a painting everyday you
 spend a little time on it because by the time
-you’re done on it it looks prettier. And
+[25:30] you’re done on it it looks prettier. And
 the other part of that question was how do
-you manage multiple streams at a time and
+[26:01] you manage multiple streams at a time and
 I think you just answered that.
-(26:02) TheTick asks: What is done when a
+[26:13] (26:02) TheTick asks: What is done when a
 component becomes too complex or cumbersome
-to be useful in the game. Would it be dialed
+[26:19] to be useful in the game. Would it be dialed
 back or scrapped and start anew?
-Delaron asks: Hey fellas thanks for taking
+[26:23] Delaron asks: Hey fellas thanks for taking
 time to answer questions. What are some of
-the carrot and stick methods you utilize to
+[26:29] the carrot and stick methods you utilize to
 get a task done on time? How do you balance
-positive feedback with critical critiques?
+[26:36] positive feedback with critical critiques?
 What are hard lines you draw for yourself
-and the teams you produce?
+[26:40] and the teams you produce?
 DV: So, on the first one if a component becomes
-too complex or cumbersome…this actually
+[26:46] too complex or cumbersome…this actually
 ties back to that Skype conversation I had
-with Steven Humphreys regarding entity token
+[26:50] with Steven Humphreys regarding entity token
 system. One of the things we talked about
-is anytime a designer uses the flow graph
+[26:53] is anytime a designer uses the flow graph
 system or using flow graph as a designer,
-it pings the network and the more times you
+[26:59] it pings the network and the more times you
 use flow graph to ping the network, that’s
-going to cause more and more bandwidth problems.
-So, one of the things we want to do it is
+[27:04] going to cause more and more bandwidth problems.
+[27:06] So, one of the things we want to do it is
 look at is using flow graph the most effective
-way of doing this design feature on the ship.
+[27:11] way of doing this design feature on the ship.
 So, from that it becomes a conversation between
-the designers, would they rather just hard
+[27:17] the designers, would they rather just hard
 code it, would they rather flow graph or entity
-tokens through flow graph. So, these are things
+[27:21] tokens through flow graph. So, these are things
 that are planned out in advance but there
-is some research and development that goes
+[27:25] is some research and development that goes
 into it, we do some concepts, some proof of
-concepts for prototyping to see which one
+[27:28] concepts for prototyping to see which one
 works better.
-EKD: Yeah, to speak to the next question about
+[27:32] EKD: Yeah, to speak to the next question about
 in terms of carrot and stick methods…I personally
-don’t believe in carrot and stick because
+[27:38] don’t believe in carrot and stick because
 if you see the old adage of carrot and stick,
-it generally means whatever it is you’re
+[27:43] it generally means whatever it is you’re
 pushing for with this carrot is going to get
-tired at some point, right, cause they’re
+[27:47] tired at some point, right, cause they’re
 never achieving that goal. It’s more about
-making something attainable, more about working
+[27:51] making something attainable, more about working
 alongside their leads, it’s more about constant
-and consistent daily motivation. It’s not
+[27:57] and consistent daily motivation. It’s not
 about sticking something out there and going,
-‘All right, let’s go get it, if you don’t
+[28:00] ‘All right, let’s go get it, if you don’t
 get it you’re going to get hit’.
-That’s not going to get anything done and
+[28:03] That’s not going to get anything done and
 we work in a very creative environment, we’re
-making video games, we’re making experiences,
+[28:06] making video games, we’re making experiences,
 we’re making entertainment…we’re not
-building a cog, we’re not building a car,
+[28:10] building a cog, we’re not building a car,
 we’re not building something that’s been
-proven, we’re making stuff up as we go along.
+[28:14] proven, we’re making stuff up as we go along.
 It needs more, I think, finesse than carrot
-and stick, I think that’s using very old
+[28:19] and stick, I think that’s using very old
 production processes….
-DV: Yeah.
-EKD: Production facilities and it just doesn’t
+[28:23] DV: Yeah.
+[28:24] EKD: Production facilities and it just doesn’t
 work in this environment.
-DV: Yeah. I think that’s largely true of
+[28:27] DV: Yeah. I think that’s largely true of
 a lot of game studios where production ruling
-with an iron fist is an antiquated model and
+[28:32] with an iron fist is an antiquated model and
 largely doesn’t work out because so many
-people have valuable voices to add to the
+[28:37] people have valuable voices to add to the
 content of the development of the game. It’s
-a much more collaborative effort, there’s
+[28:42] a much more collaborative effort, there’s
 no single moment where production is, ‘this
-is what we need to have, this is what you’re
+[28:46] is what we need to have, this is what you’re
 going to be working on and absolutely nothing
-else’. So, we have a lot of sit down discussions
+[28:49] else’. So, we have a lot of sit down discussions
 that we’ve mentioned before with our international
-colleagues. We also do daily stand ups with
+[28:54] colleagues. We also do daily stand ups with
 the development team to see where they are
-in every task, what roadblocks they have,
+[28:59] in every task, what roadblocks they have,
 where they’re at, do we need to do anything
-for them to help them get their job done.
-EKD: To use the carrot and stick method generally
+[29:04] for them to help them get their job done.
+[29:07] EKD: To use the carrot and stick method generally
 means the person who’s doing it, you have
-to force them to do something they hate.
-DV: Yes and we don’t want to use coercion.
-EKD: And here everyone is excited to work
+[29:10] to force them to do something they hate.
+[29:12] DV: Yes and we don’t want to use coercion.
+[29:14] EKD: And here everyone is excited to work
 on this. The passion drives all of us to work
-hard everyday, every second we’re at our
+[29:19] hard everyday, every second we’re at our
 desk and if you get distracted, that happens
-but that generally doesn’t need some forceful
+[29:24] but that generally doesn’t need some forceful
 motivation.
-DV: No, no. Usually get distracted by something
+[29:27] DV: No, no. Usually get distracted by something
 else cool in the game.
-EKD: That’s right. Look what this does,
+[29:31] EKD: That’s right. Look what this does,
 isn’t it cool. Then balancing positive feedback
-with critical critiques and hard lines, how
+[29:38] with critical critiques and hard lines, how
 to balance them…you want them both. You
-don’t want everything to be negative and
+[29:45] don’t want everything to be negative and
 constantly down even though in this environment
-we’re trying to make things better so we’re
+[29:49] we’re trying to make things better so we’re
 always looking at things partially with a
-negative eye. So we need to motivate… what’s
+[29:53] negative eye. So we need to motivate… what’s
 good about it, what’s successful, how did
-that go well. Let’s say that last release,
+[29:59] that go well. Let’s say that last release,
 we all want to pick it apart and say how horrible
-it was, we agree with what you’re saying,
+[30:03] it was, we agree with what you’re saying,
 we read the forums and Reddit…yeah, this
-was horrible and that’s stupid and this
+[30:06] was horrible and that’s stupid and this
 sucked but we have to go but we succeeded
-here, here and here and everybody loved it.
+[30:10] here, here and here and everybody loved it.
 Awesome, let’s keep building on top of that
-while fixing the bad things. It’s easier
+[30:14] while fixing the bad things. It’s easier
 for us, we’re all in that critical mind
-set to make things better.
-DV: There are sometimes where we have to put
+[30:18] set to make things better.
+[30:19] DV: There are sometimes where we have to put
 a hard line down and say, ‘no, cannot include
-this into this build’. I know you love it
+[30:23] this into this build’. I know you love it
 and it’s something that you really, really
-want to see fleshed out but we just don’t
+[30:27] want to see fleshed out but we just don’t
 have the resources or the time. If we can
-get it out for the next patch awesome but
+[30:32] get it out for the next patch awesome but
 we would like to see some more testing, some
-more tweaking, some more balance on it and
+[30:36] more tweaking, some more balance on it and
 definitely some more input on whether it’s
-from our QA team or the big man CR himself.
-EKD: That’s right, absolutely.
-(30:42) Sean Ridley asks: How much of your
+[30:39] from our QA team or the big man CR himself.
+[30:43] EKD: That’s right, absolutely.
+[30:44] (30:42) Sean Ridley asks: How much of your
 work is focused on stuff we won’t see for
-many months or longer compared to stuff that
+[30:49] many months or longer compared to stuff that
 goes from concept to delivery very quickly?
-Are we seeing the bleeding edge, or is it
+[30:53] Are we seeing the bleeding edge, or is it
 mostly polished but old content to you? What
-is the project management style, meaning waterfall,
+[30:57] is the project management style, meaning waterfall,
 some flavor of agile or something else? You
-often mention the use of sharp, pointy implements
+[31:02] often mention the use of sharp, pointy implements
 when talking about herding the team. Is the
-work environment more Mad Max or Jurassic
+[31:06] work environment more Mad Max or Jurassic
 Park?
-EKD: [Laughing] That’s awesome.
-DV: So for clarification, if we ever joke
+[31:09] EKD: [Laughing] That’s awesome.
+[31:11] DV: So for clarification, if we ever joke
 about having to prod the team into shape,
-please understand it is always mentioned in
+[31:19] please understand it is always mentioned in
 jest. Very rarely, do we ever need to cajole
-or coerce them into doing something. I think
+[31:25] or coerce them into doing something. I think
 it’s because they know I have a sword hanging
-on my desk that I don’t need to do that
+[31:28] on my desk that I don’t need to do that
 to begin with. (They both laugh). But it is
-an interesting question because a lot of the
+[31:33] an interesting question because a lot of the
 stuff we work on is planned out months in
-advance, however, a lot of stuff during, let’s
+[31:41] advance, however, a lot of stuff during, let’s
 say stuff we are working on towards Citizen
-Con, we’re still plugging away at things
+[31:45] Con, we’re still plugging away at things
 even until the 11th hour.
-So there may be features we’ve been trying
+[31:50] So there may be features we’ve been trying
 to fix, trying to get into the game. We may
-not see it until like a day or two before.
+[31:54] not see it until like a day or two before.
 Or we may only see one aspect of that project,
-and we won’t see the completed or finalized
+[31:58] and we won’t see the completed or finalized
 thing until we are at the event. Because we
-are only working on one facet of it, so being
+[32:04] are only working on one facet of it, so being
 able to see it in completion, the complete
-fruition of all our works, we see it on the
+[32:10] fruition of all our works, we see it on the
 live stream when all you guys see it.
-EKD: Yep.
-DV: I guess like when you have an actor working
+[32:13] EKD: Yep.
+[32:14] DV: I guess like when you have an actor working
 on a film, they only do their lines. They
-don’t see the final film until like a private
+[32:18] don’t see the final film until like a private
 screening or something. So this is very similar,
-we won’t see the final product until either
+[32:22] we won’t see the final product until either
 just days in advance, or during the live stream,
-and that’s why when you see us watching
+[32:28] and that’s why when you see us watching
 the live streams, we are cheering along with
-you guys because this is awesome, we get to
+[32:32] you guys because this is awesome, we get to
 see what we’ve been working on for the last
-two or three months.
-EKD: Yeah, we keep our heads down, and it’s
+[32:36] two or three months.
+[32:37] EKD: Yeah, we keep our heads down, and it’s
 hard to see the whole thing all the time with
-how big we are. It is a bit of both. We do
+[32:40] how big we are. It is a bit of both. We do
 have a master schedule that is laid out, and
-we are constantly feeding into that. The stuff
+[32:45] we are constantly feeding into that. The stuff
 we are showing you, because of the environment
-we are in, we’re showing you the stuff as
+[32:50] we are in, we’re showing you the stuff as
 much as we can as often as we can. So unless
-it’s a big reveal that we want to show off
+[32:54] it’s a big reveal that we want to show off
 to you guys, like we did at (DV: Bishop’s
-speech) Citizen Con, Bishop’s speech, we
+[32:58] speech) Citizen Con, Bishop’s speech, we
 might hold that a little tighter because we
-want to make it cool to get you excited, but
+[33:01] want to make it cool to get you excited, but
 for the most part we are trying to show you
-guys everything we possibly have all the time.
-But we do have a longer term schedule that
+[33:04] guys everything we possibly have all the time.
+[33:06] But we do have a longer term schedule that
 we are feeding into, and we’re delivering
-as much as we possibly can as often as we
+[33:10] as much as we possibly can as often as we
 can that feed into that. Because everything
-you are seeing is still building that large
+[33:13] you are seeing is still building that large
 universe, right, and that’s why Chris built
-this out kind of at the beginning as modules,
+[33:18] this out kind of at the beginning as modules,
 so we can show you here are the pieces that
-make it and here’s exactly what we are doing.
-DV: Even on Around the Verse, the Art Sneak
+[33:21] make it and here’s exactly what we are doing.
+[33:24] DV: Even on Around the Verse, the Art Sneak
 Peek and stuff like that, so they may see
-that piece of art or concept artwork, so knowing
+[33:27] that piece of art or concept artwork, so knowing
 those kinds of concepts are being previewed,
-we’re still working on facets of that concept
+[33:35] we’re still working on facets of that concept
 or that ship, that terrain, whatever we are
-previewing, so that by the time it is released
+[33:41] previewing, so that by the time it is released
 to the Hangar or into Arena Commander, or
-whatever we work on in the Persistent Universe,
+[33:46] whatever we work on in the Persistent Universe,
 that is the culmination of months worth of
-work, but you’ve been kind of seeing the
+[33:51] work, but you’ve been kind of seeing the
 progress all along, because we do like to
-share that transparency with everyone.
-EKD: Yep. Exactly.
-DV: As far as project management methodologies.
-EKD: Yeah, we get this question a lot.
-DV: It’s pretty agile I guess?
-EKD: It is pretty agile, what’s not hardcore
+[33:54] share that transparency with everyone.
+[33:56] EKD: Yep. Exactly.
+[33:57] DV: As far as project management methodologies.
+[33:59] EKD: Yeah, we get this question a lot.
+[34:01] DV: It’s pretty agile I guess?
+[34:02] EKD: It is pretty agile, what’s not hardcore
 100 percent.
-DV: Right
-EKD: We follow more agile, but we take a lot
+[34:05] DV: Right
+[34:06] EKD: We follow more agile, but we take a lot
 from waterfall, right, because we do have
-this large thing we are trying to deliver,
+[34:10] this large thing we are trying to deliver,
 and all these milestones for each of those.
-They are kinda living within each other, because
+[34:13] They are kinda living within each other, because
 agile is more this micro deliveries within
-these larger milestones.
-DV: I’m going to use my brother’s methodology,
+[34:18] these larger milestones.
+[34:19] DV: I’m going to use my brother’s methodology,
 it’s called the DWIT system. Do whatever
-it takes.
-EKD: There you go. Get er’ done!
-DV: DWIT system. Do whatever it takes. Now,
+[34:24] it takes.
+[34:25] EKD: There you go. Get er’ done!
+[34:26] DV: DWIT system. Do whatever it takes. Now,
 as far as Mad Max or Jurassic Park, I’m
-going to photoshop a picture of Eric on Chris
+[34:30] going to photoshop a picture of Eric on Chris
 Pratt’s face from Jurassic World, and different
-designers faces on the velociraptors when
+[34:36] designers faces on the velociraptors when
 he’s standing in the pit kind of like this.
-EKD: That’s a tough question, because it’s,
+[34:41] EKD: That’s a tough question, because it’s,
 I don’t know if you’ve heard, it’s like
-herding cats, right, you have people who are
+[34:46] herding cats, right, you have people who are
 very passionate and know what they have to
-get done, but keeping them all together is
+[34:51] get done, but keeping them all together is
 a challenge, but a good challenge. Okay, last
-question!
-(34:51) TGWS/Bennu asks: Okay, I’ll try
+[34:58] question!
+[34:59] (34:51) TGWS/Bennu asks: Okay, I’ll try
 a more serious question. I’m a programmer
-that works on bespoke business apps and I
+[35:03] that works on bespoke business apps and I
 use Jira at work. How do you guys use Jira?
-Is it the “source of truth” for tracking
+[35:08] Is it the “source of truth” for tracking
 what people are working on and how completely
-they feel it is, what’s assigned to them
+[35:13] they feel it is, what’s assigned to them
 but unstarted, etc. Have you modified the
-workflow and statuses to better represent
+[35:17] workflow and statuses to better represent
 the ship pipeline, for example? Or is it all
-spreadsheets? :)
-While I’d love to hear about this, I can
+[35:21] spreadsheets? :)
+[35:23] While I’d love to hear about this, I can
 see where showing screenshots like cardwalls
-would be great in help explaining but perhaps
+[35:32] would be great in help explaining but perhaps
 more info than we can handle.
-EKD: You already said it, if it’s not in
+[35:36] EKD: You already said it, if it’s not in
 Jira it doesn’t exist, that is definitely
-a methodology that we’re not only adopting
+[35:39] a methodology that we’re not only adopting
 but utilizing more and more everyday. Jira
-definitely is becoming more of our production
+[35:45] definitely is becoming more of our production
 tools and were trying to encourage people
-to keep the statuses up to date because it
+[35:49] to keep the statuses up to date because it
 does help communicate accross studio about
-the status, when things are being delivered
+[35:54] the status, when things are being delivered
 and how much work is left.
-If you’ve ever done any project management
+[35:58] If you’ve ever done any project management
 you know if you can build a backlog as realistic
-and thorough and good bids, the better because
+[36:02] and thorough and good bids, the better because
 you can now go okay it will take me an hour
-to sit down and tell you exactly how thing
+[36:09] to sit down and tell you exactly how thing
 this is going to take to get done. Now that’s
-usually is at like darian said at the beginning,
+[36:14] usually is at like darian said at the beginning,
 when you start off with that it’s usually
-when you got into battle the moment you start
+[36:18] when you got into battle the moment you start
 the project, it all changes and you got to
-keep it up to date, but at least you start
+[36:21] keep it up to date, but at least you start
 with it and you can start getting estimates,
-you can see how long things are going to take,
+[36:23] you can see how long things are going to take,
 you can see the resources you need.
-We are at the start of that with our leads.
+[36:27] We are at the start of that with our leads.
 Our leads go, we get our vision, the leads
-break it down, the producers put that all
+[36:31] break it down, the producers put that all
 together. We look at what that means for us
-and we get the realities together and I think
+[36:35] and we get the realities together and I think
 Jira, the point of Jira is to collect all
-that information as much as you can so when
+[36:40] that information as much as you can so when
 you look at something like 1.3.0, when we
-want to deliver it. We constantly look at
+[36:43] want to deliver it. We constantly look at
 what’s left, what’s the big blockers,
-what’s trivial, what really won’t break
+[36:47] what’s trivial, what really won’t break
 anything, what will keep things moving and
-we can make quick decisions faster.
-DV: So we can bump it to the next version.
-EKD: So on and so forth, So if it’s not
+[36:50] we can make quick decisions faster.
+[36:51] DV: So we can bump it to the next version.
+[36:53] EKD: So on and so forth, So if it’s not
 in Jira it doesn’t exist that’s kind of
-because our Mantra, and we’re doing our
+[36:57] because our Mantra, and we’re doing our
 best to maintain that as our database.
-DV: It also helps with accountability. So
+[37:01] DV: It also helps with accountability. So
 for example if someone starts working on a
-task that’s not in Jira, how do we account
+[37:04] task that’s not in Jira, how do we account
 for how much time was spent on it, is it a
-feature we actually needed in the first place,
+[37:08] feature we actually needed in the first place,
 so by having everyone working through Jira
-on specific tasks,we create a paper trail
+[37:13] on specific tasks,we create a paper trail
 on what’s been worked on, how long people
-have spent on it, how long it’s taken, how
+[37:18] have spent on it, how long it’s taken, how
 much time is left to complete it. It gives
-the production team the roadmap that we can
+[37:22] the production team the roadmap that we can
 provide that information whether it’s to
-you guys on how soon we are presenting something,
+[37:26] you guys on how soon we are presenting something,
 it lets us tell the other team here where
-we’re at where are you guys, okay cool let’s
+[37:31] we’re at where are you guys, okay cool let’s
 work together on this and let’s see what
-we can come up with.
-EKD: Absolutely and any sort of tracking tools.
+[37:34] we can come up with.
+[37:35] EKD: Absolutely and any sort of tracking tools.
 it’s only as good as the people that use
-it, and it’s only as good as the people
+[37:40] it, and it’s only as good as the people
 that keep it up to date. If the goal for someone
-is to say, hey what is calix working on, What
+[37:44] is to say, hey what is calix working on, What
 does it say in Jira, in search oh he’s working
-on this, it says in progress is that right?
+[37:49] on this, it says in progress is that right?
 Yup, Great! Not only have you sped up communication,
-you’ve made it efficient for someone to
+[37:53] you’ve made it efficient for someone to
 go oh Calix can’t work on that because he
-has this this and this or we can say that’s
+[37:57] has this this and this or we can say that’s
 not the priority anymore, we’re shifting
-to this because of a certain release. It makes
+[38:00] to this because of a certain release. It makes
 us, makes decisions quicker.
-DV: Or you know Zane suddenly decided one
+[38:03] DV: Or you know Zane suddenly decided one
 day, “I’m gonna make a 3D environment
-for the capital class ship HUD system” and
+[38:07] for the capital class ship HUD system” and
 that’s not on his task list and we see him
-working on that we’re like zane, were getting
+[38:14] working on that we’re like zane, were getting
 close a deadline here, that’s really awesome
-but let’s get that into the schedule but
+[38:20] but let’s get that into the schedule but
 right now our crunch time because we have
-this this and this, this is what the needs
+[38:23] this this and this, this is what the needs
 of the product are right now. Now as far what
-workflows, we’ve modified and it’s all
+[38:28] workflows, we’ve modified and it’s all
 spreadsheets. I spent a lot of time in Excel,
-I’m an Excel guy, I love using Excel.
-EKD: And I don’t think you’ll ever get
+[38:32] I’m an Excel guy, I love using Excel.
+[38:34] EKD: And I don’t think you’ll ever get
 out of Excel. Excel is a great tool for scenario
-building and planning and you can move things
+[38:39] building and planning and you can move things
 around quicker until you have all the data,
-you can make more assumptions with Excel than
+[38:44] you can make more assumptions with Excel than
 you can with Jira: Jira needs actual data.
-DV: And we’ve been playing around with Microsoft
+[38:47] DV: And we’ve been playing around with Microsoft
 Project.
-EKD: Yup!
-DV: Shotgun!
-EKD: Yup, a lot of good production tools that
+[38:49] EKD: Yup!
+[38:50] DV: Shotgun!
+[38:51] EKD: Yup, a lot of good production tools that
 are all kind of working together.
-OUTRO:
-EKD: Okay, well I think that’s it. We had
+[38:53] OUTRO:
+[38:54] EKD: Okay, well I think that’s it. We had
 a bunch of great questions. Thank you guys
-so much for these, I’m hoping we can do
+[38:58] so much for these, I’m hoping we can do
 another one of these. If we missed anything,
-please continue to submit questions to the
+[39:05] please continue to submit questions to the
 forums, send them to us any way you want.
-DV: Talk to us on Twitter.
-EKD: Anything and everything.
-DV: We love talking to you guys.
-EKD: Again, we want to thank the subscribers
+[39:08] DV: Talk to us on Twitter.
+[39:10] EKD: Anything and everything.
+[39:11] DV: We love talking to you guys.
+[39:13] EKD: Again, we want to thank the subscribers
 for making this possible. We couldn’t do
-this without you guys, so thanks for everything.
+[39:27] this without you guys, so thanks for everything.
 I’m Eric.
-DV: I’m Darian.
-EKD: We’ll see 
+[39:35] DV: I’m Darian.
+[39:36] EKD: We’ll see 
 you next time!

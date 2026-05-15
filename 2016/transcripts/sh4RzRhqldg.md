@@ -6,162 +6,162 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:00] Closed Captioning provided by the Imperial
 News Network.
-Mark Abent: Hey everyone, welcome back to
+[00:01] Mark Abent: Hey everyone, welcome back to
 Bug Smashers.
-As you can see, it didn’t get cancelled
+[00:02] As you can see, it didn’t get cancelled
 yet.
-I was just taking a little rest, some PTO,
+[00:04] I was just taking a little rest, some PTO,
 some vacation, you know, good on the beach.
-Welcome back, so let's get started, fix some
+[00:11] Welcome back, so let's get started, fix some
 bugs and makes some bugs our bitch.
-Okay, hey everyone we’re here in good old
+[00:20] Okay, hey everyone we’re here in good old
 dying star and we have a little fun bug with
-the projectiles where if I strafe a bit you’ll
+[00:34] the projectiles where if I strafe a bit you’ll
 notice they’re not correctly in sync with
-this ship.
-They kind of delay a little bit which seems
+[00:41] this ship.
+[00:43] They kind of delay a little bit which seems
 right, but it’s actually wrong because … yes
-when you drift, you think the projectiles
+[00:53] when you drift, you think the projectiles
 are lagging because the ship moves, but the
-projectiles are actually getting the velocity
+[00:58] projectiles are actually getting the velocity
 of the ship so if I have a constant velocity
-they should move together.
-What’s actually happening is, in our game
+[01:02] they should move together.
+[01:04] What’s actually happening is, in our game
 level update where right here in the middle,
-so the top of the frame is here, middle of
+[01:12] so the top of the frame is here, middle of
 the frames here, below the frame.
-This is where we would do our updates for
+[01:16] This is where we would do our updates for
 the entities and we’re actually creating
-our projectile right here.
-So in the update we create our projectile,
+[01:21] our projectile right here.
+[01:23] So in the update we create our projectile,
 cool, it’s gets the position and all that
-stuff from our weapon and it appears right
+[01:29] stuff from our weapon and it appears right
 in front of our gun, then the frame continues
-and now we’re at the very end where all
+[01:36] and now we’re at the very end where all
 of our animations update so if our gun or
-turret moved it was now over here and it’s
+[01:41] turret moved it was now over here and it’s
 over here.
-So if we shot a projectile this way, I’m
+[01:44] So if we shot a projectile this way, I’m
 just going use this little pen.
-So if I shot a projectile this way and at
+[01:48] So if I shot a projectile this way and at
 creation time it’s like this, but now we
-get our animation update, turrets here, Uh
+[01:53] get our animation update, turrets here, Uh
 oh, or what happens if I have a wing that’s
-way like this, I shoot, but now the wings
+[01:59] way like this, I shoot, but now the wings
 over here and they’re not in sync.
-Then it gets worse, the frame ends, next frame
+[02:05] Then it gets worse, the frame ends, next frame
 happens and our entity system updates and
-it moves our ship from like here to here for
+[02:12] it moves our ship from like here to here for
 flying.
-So our projectile that’s here and that creation
+[02:16] So our projectile that’s here and that creation
 spawn, now is over here, but our projectiles
-over here.
-So then the frame happens all over again and
+[02:23] over here.
+[02:24] So then the frame happens all over again and
 what you basically see is in the first frame
-it’s kind of off center, the next frame
+[02:30] it’s kind of off center, the next frame
 it’s really off center and it just gets
-worse because we’re a frame behind.
-This was a problem that we’ve had since
+[02:34] worse because we’re a frame behind.
+[02:38] This was a problem that we’ve had since
 the stop and we’ve kind of had hacks and
-fixes that we threw in there to kind of line
+[02:42] fixes that we threw in there to kind of line
 it up, but it never worked right.
-An example of this is in the previous patch
+[02:47] An example of this is in the previous patch
 we had the Freelancer with it’s two guns
-in the middle and if you strafed left or right,
+[02:52] in the middle and if you strafed left or right,
 because of the frame syncing issue, the projectile
-could actually end up inside of the entity
+[03:01] could actually end up inside of the entity
 grid of the ship and then the ship moves again
-and then the projectile just flies off.
-So my ships facing this way, it should shoot
+[03:08] and then the projectile just flies off.
+[03:11] So my ships facing this way, it should shoot
 forward, but instead the projectile now shoots
-like this because ... it just gets all messed
+[03:17] like this because ... it just gets all messed
 up.
-So what we have to fix this is a couple of
+[03:21] So what we have to fix this is a couple of
 things.
-We have this new underlying system that the
+[03:26] We have this new underlying system that the
 good old folks in the UK.
-I think it was Steven North and Humphreys,
+[03:30] I think it was Steven North and Humphreys,
 might have been Chris bolte, anyways there’s
-some good guys in the two other studios that
+[03:38] some good guys in the two other studios that
 worked on this they called the “Load Manager”.
-What it is like alright I want to spawn this
+[03:45] What it is like alright I want to spawn this
 entity, but we’re going to wait until all
-the resources are ready so we no longer stall
+[03:50] the resources are ready so we no longer stall
 and we don’t have to preload things all
-in the very beginning of the game, we can
+[03:56] in the very beginning of the game, we can
 preload on demand and once everything has
-been preloaded, we can then spawn the entity
+[04:01] been preloaded, we can then spawn the entity
 more higher up in the frame when physics and
-the entity are in sync.
-So we’re no longer creating the entity down
+[04:08] the entity are in sync.
+[04:10] So we’re no longer creating the entity down
 here, we’re creating it on top.
-Now it can happen a frame or two later, that’s
+[04:13] Now it can happen a frame or two later, that’s
 fine because we had to preload, but we’re
-at the top of the creation where everything
+[04:18] at the top of the creation where everything
 is good.
-Unfortunately while we have synced up physics
+[04:22] Unfortunately while we have synced up physics
 and the entity, here’s our ship and if it
-was here and now it’s here that’s cool,
+[04:31] was here and now it’s here that’s cool,
 however our guns are still over here because
-the animation update is at the end and the
+[04:38] the animation update is at the end and the
 animation actually moves all the attachments
-so that moves our gun.
-So while we are spawning in the correct location
+[04:45] so that moves our gun.
+[04:47] So while we are spawning in the correct location
 we do need this extra bit of code here and
-the fire mode, that goes alright our entity
+[04:53] the fire mode, that goes alright our entity
 position is right, but our guns are wrong,
-but we know where they’re going to be built
+[04:59] but we know where they’re going to be built
 because we have item ports which define how
-the ship gets made and what gets connected
+[05:05] the ship gets made and what gets connected
 to what.
-So we can theoretically just build all the
+[05:09] So we can theoretically just build all the
 transforms, so if I’m on my weapon and I
-know the local transform or how I’m related
+[05:14] know the local transform or how I’m related
 to the turret, I know that little bit I can
-keep doing that up until I get up to the top
+[05:21] keep doing that up until I get up to the top
 crew and then take that transformation and
-apply it to where the ship really is.
-So if we do that bad boy which I just uncommented
+[05:26] apply it to where the ship really is.
+[05:31] So if we do that bad boy which I just uncommented
 that disabled, I’m re enabling it.
-This guy what this guy basically does as it
+[05:37] This guy what this guy basically does as it
 says is I go through each of the ports, I
-build up the local transform and then I finally
+[05:42] build up the local transform and then I finally
 apply it to the entity of world space, I inject
-it into the physics code because we’re now
+[05:48] it into the physics code because we’re now
 in sync and let's see what that gives us.
-There we go, alright recode is finish so let's
+[05:55] There we go, alright recode is finish so let's
 move to the left and as you can see, the projectiles
-are moving with the ship.
-There actually was another bit of code I added
+[06:10] are moving with the ship.
+[06:13] There actually was another bit of code I added
 which also takes into account the acceleration
-of the ship on the current time.
-So as our ships moves with the acceleration
+[06:21] of the ship on the current time.
+[06:23] So as our ships moves with the acceleration
 we now correctly predict and it lines up better,
-but overall you see the projectiles moving
+[06:31] but overall you see the projectiles moving
 with the ship because of that lovely correct
-spawn position and then rebuilding all the
+[06:37] spawn position and then rebuilding all the
 information and the bonus of this is if I
-have a Freelancer, my big guns will now shoot
+[06:44] have a Freelancer, my big guns will now shoot
 off to the correct location even if I’m
-twirling and moving and all that fun stuff.
-The added bonus is we can now enable the ability
+[06:49] twirling and moving and all that fun stuff.
+[06:52] The added bonus is we can now enable the ability
 for the ship to hit itself.
-Before because the projectile could spawn
+[06:58] Before because the projectile could spawn
 anywhere, it could hit anything, now that
-we’re fixing all this stuff up, we could
+[07:03] we’re fixing all this stuff up, we could
 enable ships to hit itself which will add
-to some fun, fun times.
-Well I hope you guys enjoyed this bug, it
+[07:09] to some fun, fun times.
+[07:10] Well I hope you guys enjoyed this bug, it
 was a pretty exciting one.
-Especially since we’re getting all this
+[07:17] Especially since we’re getting all this
 technology that we’ve been building through
-the years finally all coming together and
+[07:21] the years finally all coming together and
 we’re starting to use it now to solve old
-problems like this projectile bug.
-We’re going to keep doing that as we get
+[07:26] problems like this projectile bug.
+[07:28] We’re going to keep doing that as we get
 newer technology and updating our newer systems
-so hopefully I’ll have more stuff to show
+[07:35] so hopefully I’ll have more stuff to show
 you guys, hope you guys enjoyed, see you next
-time.
+[07:55] time.

@@ -6,595 +6,595 @@
 
 ## Transcript
 
-Intro:
-JR: Hey guys welcome to another episode of
+[00:00] Intro:
+[00:03] JR: Hey guys welcome to another episode of
 10 for the producers, texas edition! Yee haa!!
-[Gun sounds]
-JH: Niiiice…
-JR: Yeeah, so welcome to another special episode.
+[00:15] [Gun sounds]
+[00:16] JH: Niiiice…
+[00:17] JR: Yeeah, so welcome to another special episode.
 We would like to thank subscribers first of
-all for making video content like this possible,
+[00:23] all for making video content like this possible,
 we wouldn’t be here making this video if
-it weren’t for you guys so thanks for that.
+[00:28] it weren’t for you guys so thanks for that.
 I’m Jake Ross by the way, associate producer
-of the Persistent Universe.
-JH: I am Jason Hutchins, Senior producer for
+[00:32] of the Persistent Universe.
+[00:33] JH: I am Jason Hutchins, Senior producer for
 Star Citizen.
-JR: And we’re here to answer questions from
+[00:38] JR: And we’re here to answer questions from
 the forums. We got 10 questions here that
-we’ve kind of gone through thanks to those
+[00:44] we’ve kind of gone through thanks to those
 of you who have submitted questions. We can
-only get through 10 of them so apologies in
+[00:48] only get through 10 of them so apologies in
 advance but with that Jason.
-JH: I will take it away!
-JR: Take it away.
-JH: Our first question is from...
-(1:06) Graxas asks:With so many gameplay mechanics
+[00:53] JH: I will take it away!
+[00:54] JR: Take it away.
+[00:55] JH: Our first question is from...
+[00:57] (1:06) Graxas asks:With so many gameplay mechanics
 and system content needing to be developed
-for the PU, how do you make prioritisation
+[01:02] for the PU, how do you make prioritisation
 decisions on what is developed first?
-JR: Yeah I’d say first and foremost, the
+[01:08] JR: Yeah I’d say first and foremost, the
 priorities come from Chris and Tony. Those
-are the guys directing the project so they
+[01:14] are the guys directing the project so they
 pave the way for how we are supposed to prioritise
-our features. So they decide “Okay we have
+[01:20] our features. So they decide “Okay we have
 an upcoming release, what do we want to show?”
-And then once they decide what we want to
+[01:24] And then once they decide what we want to
 show we’ll break those features down into
-critical priority, high priority and moderate
+[01:29] critical priority, high priority and moderate
 priority. And what that really means is that
-a critical feature is something that is an
+[01:34] a critical feature is something that is an
 absolute must-have for that release; a high
-priority feature is a nice-to-have, it’s
+[01:39] priority feature is a nice-to-have, it’s
 something that’s not essential but it’s
-something that we would like to have in the
+[01:44] something that we would like to have in the
 release; and then a moderate is a wishlist
-item, so it’s something if we get to it
+[01:47] item, so it’s something if we get to it
 “great” if not “no sweat”.
-JR: So for example, for the first Social Module
+[01:51] JR: So for example, for the first Social Module
 release we had ArcCorp, the environment itself,
-it was a pretty critical, must-have feature.
+[01:57] it was a pretty critical, must-have feature.
 Without ArcCorp there you wouldn’t have
-had an environment to run around in: so it
+[02:04] had an environment to run around in: so it
 had to be there. That’s a critical feature.
-We also had emote text descriptions, it was
+[02:10] We also had emote text descriptions, it was
 like a high feature. We wanted everyone to
-know when you did your emotes what was happening
+[02:15] know when you did your emotes what was happening
 as you did them so the text would show up
-in the chat box. So that was a nice to have.
+[02:20] in the chat box. So that was a nice to have.
 And then moderate would be the critical, er,
-moderate would be the chat ...
-JH: Opposite of critical!
-JR: Oh so critical! Moderate would be the
+[02:28] moderate would be the chat ...
+[02:29] JH: Opposite of critical!
+[02:30] JR: Oh so critical! Moderate would be the
 chat, additional extraneous chat features
-like the ability to minimise windows, customise
+[02:33] like the ability to minimise windows, customise
 chat just a little bit and that didn’t end
-up making it in.
-JH: Stuff that we want to do eventually but
+[02:39] up making it in.
+[02:40] JH: Stuff that we want to do eventually but
 we don’t have to do right this second for
-this release.
-JR: Exactly, and then those features that
+[02:44] this release.
+[02:45] JR: Exactly, and then those features that
 don’t make it into that release they’ll
-either waterfall into the next release, sometimes
+[02:48] either waterfall into the next release, sometimes
 at higher priority, sometimes not at higher
-priority depending on what Tony and Chris
+[02:53] priority depending on what Tony and Chris
 want to focus on; or they’ll go into a backlog
-for later review.
-JH: A little peak behind the curtain too,
+[02:59] for later review.
+[03:00] JH: A little peak behind the curtain too,
 we’re trying to standardise what we are
-doing on the Production side, as far as using
+[03:04] doing on the Production side, as far as using
 the same kind of nomenclature for features
-that we do for bugs, so we have critical bugs;
+[03:08] that we do for bugs, so we have critical bugs;
 high priority bugs; and moderate bugs. If
-it is a critical bug we’re not going to
+[03:14] it is a critical bug we’re not going to
 ship a patch with it.
-JR: No.
-JH: Just like if it is a critical feature,
+[03:16] JR: No.
+[03:17] JH: Just like if it is a critical feature,
 or how that relates to task, we’re not going
-to ship the patch without that being done.
+[03:21] to ship the patch without that being done.
 Also there is a focus shift to try and prioritise
-features going forward that are needed for
+[03:27] features going forward that are needed for
 both Persistent Universe and Squadron 42 and
-Star Citizen as a whole. So we’re trying
+[03:33] Star Citizen as a whole. So we’re trying
 to look at it holistically rather than being
-split up across various modules.
-(3:39) Foible asks: Chris Roberts has stated
+[03:37] split up across various modules.
+[03:38] (3:39) Foible asks: Chris Roberts has stated
 that it his intention that after the PU launches,
-his vision is to see a continued roll-out
+[03:48] his vision is to see a continued roll-out
 of content, as long as there is interest in
-the game. He sees these releases to be as
+[03:52] the game. He sees these releases to be as
 frequent as a few times per week. Do you envision
-these releases to be a progression of the
+[03:57] these releases to be a progression of the
 story arc or just a technical expansion of
-the universe? In other words, will there be
+[04:01] the universe? In other words, will there be
 a progressive story arc that will unravel
-with time in the PU?
-JH: That’s a really interesting question.
+[04:05] with time in the PU?
+[04:06] JH: That’s a really interesting question.
 The PU is first and foremost an open world
-style first person universe and it’s a sandbox
+[04:13] style first person universe and it’s a sandbox
 really. There will be story yes, but it’s
-the same kind of story you have for settings,
+[04:21] the same kind of story you have for settings,
 like world settings. Rather than a story arc,
-missions will have stories, characters you
+[04:26] missions will have stories, characters you
 run into will have stories. But for big sweeping
-story arcs, you’ll get those with Squadron
+[04:32] story arcs, you’ll get those with Squadron
 42. The PU will support and can live around
-that story and that dovetails nicely with
+[04:38] that story and that dovetails nicely with
 what you’ve got.
-JR: That’s actually a nice segue into this
+[04:43] JR: That’s actually a nice segue into this
 question..
-(4:52) Nahema Darkstar asks: Will there be
+[04:45] (4:52) Nahema Darkstar asks: Will there be
 a storyline in Star Marine to be a little
-like Squadron 42 with some rendered cutscenes?
+[04:51] like Squadron 42 with some rendered cutscenes?
 Or is Star Marine just an FPS like unreal
-tournament, quake wars, etc? And will there
+[04:56] tournament, quake wars, etc? And will there
 be some FPS in Squadron 42 or maybe in the
-next part of the single player game?
-JH: There will be FPS in Squadron 42. The
+[05:02] next part of the single player game?
+[05:04] JH: There will be FPS in Squadron 42. The
 thing I want to talk about here though is;
-Star Marine is a simulation within the first
+[05:10] Star Marine is a simulation within the first
 person universe. Much like Arena Commander
-is a simulation within the first person universe.
+[05:16] is a simulation within the first person universe.
 It’s a game within a game. Star Marine is
-going to be a test bed for new features, new
+[05:21] going to be a test bed for new features, new
 game types, new mission objectives and maps.
-We even plan on rolling out a way to do white
+[05:27] We even plan on rolling out a way to do white
 box testing in the environments that you expect
-to use in the PU or even a part of a level
+[05:32] to use in the PU or even a part of a level
 for Squadron 42. Perhaps maybe we’ll even
-roll out new enemy AI behaviour for certain
+[05:39] roll out new enemy AI behaviour for certain
 monsters or other NPCs out there so we can
-test within that environment and get that
+[05:49] test within that environment and get that
 working right and tweaked, get feedback from
-backers and get that into the game itself
+[05:55] backers and get that into the game itself
 proper.
-The other questions will there be a story?
+[06:00] The other questions will there be a story?
 Yes. Some modes will have a story and again
-it’s like the setting, rather than the story.
+[06:05] it’s like the setting, rather than the story.
 So it’s like pirates are attacking the station.
-Fight them off. That’s a story but it’s
+[06:11] Fight them off. That’s a story but it’s
 not a big story. So it’s not a story like
-you see in Squadron 42 that’s where the
+[06:18] you see in Squadron 42 that’s where the
 big story arcs are going to come from.
-JR: And Star Marine is also used like Arena
+[06:21] JR: And Star Marine is also used like Arena
 Commander is used like a simulation to practice
-your dog fighting skills. This is a simulation
+[06:27] your dog fighting skills. This is a simulation
 to practice your first person shooter skills
-if you don’t want to jump right into the
+[06:31] if you don’t want to jump right into the
 game.
-JH: Yeah. Not only that not only first person
+[06:33] JH: Yeah. Not only that not only first person
 shooter skills. Your first person maneuvering
-skills. Say a place to learn how the character
+[06:40] skills. Say a place to learn how the character
 interacts with the environment.
-(7:00) Mr. Nowak asks: Cheers to the PU team!
+[06:44] (7:00) Mr. Nowak asks: Cheers to the PU team!
 With the recent ongoing restructuring of the
-company what has been the most challenging
+[06:54] company what has been the most challenging
 aspect this has brought to your work as producers?
-How do you cope with the organizational change
+[06:59] How do you cope with the organizational change
 when you have a system in the work place.
-JR: The most challenging part of any kind
+[07:03] JR: The most challenging part of any kind
 of restructuring is just keeping team morale
-up. Nobody likes to see friends leave the
+[07:10] up. Nobody likes to see friends leave the
 company or moved to other parts of the project;
-They like to kind of keep the status quo so
+[07:16] They like to kind of keep the status quo so
 to speak so when that shifts the team morale
-sort of takes a hit. Part of the job of a
+[07:23] sort of takes a hit. Part of the job of a
 producer is the momma bear factor that you
-like to call it. It’s that support and encouragement
+[07:29] like to call it. It’s that support and encouragement
 that the producer can provide. When team morale
-is high, productivity is high and so it’s
+[07:35] is high, productivity is high and so it’s
 really crucial to our job to make sure that
-happens.
-Communicating what the new structure is to
+[07:41] happens.
+[07:43] Communicating what the new structure is to
 the entire team, making sure there are no
-questions if and there are questions, make
+[07:49] questions if and there are questions, make
 ourselves available for those developers who
-have questions about the new structure. Just
+[07:54] have questions about the new structure. Just
 being aware of the feel of the team and interacting
-with them whenever we need to update them
+[08:02] with them whenever we need to update them
 on everything that’s going on.
-JH: Jake and I were also adjusting to our
+[08:07] JH: Jake and I were also adjusting to our
 roles here. There’s a bit of a learning
-curve that we’re in the middle of so really,
+[08:13] curve that we’re in the middle of so really,
 ask us again once when we know what the new
-normal is.
-JR: The normal is always shifting [chuckles]
-JH: The next question is from…
-(8:36) Amontillado asks: What’s one of the
+[08:17] normal is.
+[08:18] JR: The normal is always shifting [chuckles]
+[08:21] JH: The next question is from…
+[08:25] (8:36) Amontillado asks: What’s one of the
 accomplishments that your team has achieved
-thus far, that you’re most proud of?
-JR: It’s a tough one. There’s a couple
+[08:38] thus far, that you’re most proud of?
+[08:40] JR: It’s a tough one. There’s a couple
 of things that stand out. Namely the Social
-Module release in general. The first release
+[08:46] Module release in general. The first release
 was just a huge success story for our team.
-It was one of if not the only Star Citizen
+[08:52] It was one of if not the only Star Citizen
 release that actually hit the deadline that
-we set out to hit. Partnership with Behaviour
+[08:57] we set out to hit. Partnership with Behaviour
 in Austin has been really great so far, and
-that I think has shown with the release of
+[09:04] that I think has shown with the release of
 ArcCorp. The community can now see evidence
-of that partnership. The ArcCorp environment
+[09:08] of that partnership. The ArcCorp environment
 is amazing it’s really beautiful to look
-at even though it’s supposed to be a super
+[09:15] at even though it’s supposed to be a super
 grungy environment. It went through several
-design iterations over the past..I don’t
+[09:19] design iterations over the past..I don’t
 know how long but they’ve been working on
-it for a while. We tried to get it just right
+[09:24] it for a while. We tried to get it just right
 to suit what our gameplay needs were and as
-those needs evolved we had to switch things
+[09:31] those needs evolved we had to switch things
 up so Tony (Zurovec) and Mark Skelton went
-back and forth with Behaviour to make sure
+[09:35] back and forth with Behaviour to make sure
 all those needs were taken of and iterating
-and polishing and that kind of thing.
-The emotes were a fun addition as well getting
+[09:40] and polishing and that kind of thing.
+[09:43] The emotes were a fun addition as well getting
 to see. Some of our animators here in Austin
-actually captured a lot of those emotes with
+[09:48] actually captured a lot of those emotes with
 motion capture. So seeing them work on those,
-get those in the game, to tag team with the
+[09:53] get those in the game, to tag team with the
 designers and stuff. It was cool to see those
-in the communities hands as well
-JH: You know we’ve done so much in the past
+[09:59] in the communities hands as well
+[10:00] JH: You know we’ve done so much in the past
 year, since i’ve been here, that it’s
-hard to choose just one. So i’m not going
+[10:05] hard to choose just one. So i’m not going
 to answer this. This is a Rosemary’s Baby
-kind of question and i’ll have no part of
+[10:10] kind of question and i’ll have no part of
 this!
-(10:25) Drewcifer asks: How much time is spent
+[10:14] (10:25) Drewcifer asks: How much time is spent
 on average by individual functional personnel
-(non-producers/project managers) providing
+[10:27] (non-producers/project managers) providing
 content for all these regular updates? How
-do you all prevent “status updates” from
+[10:33] do you all prevent “status updates” from
 interfering with personnel doing their jobs?
-Most of the status content we’re seeing
+[10:37] Most of the status content we’re seeing
 looks like it takes a while to put together
-and that it would really get in the way of
+[10:40] and that it would really get in the way of
 actually creating the universe. As such when
-I stop seeing something like Around the Verse’s
+[10:44] I stop seeing something like Around the Verse’s
 “Ship Shape” during a given week or several
-weeks straight I’m assuming the personnel
+[10:48] weeks straight I’m assuming the personnel
 are refocusing on actually getting the ships
-out. Accurate or are those folks on vacation?
-JH: Your assumption is correct: they all go
+[10:52] out. Accurate or are those folks on vacation?
+[10:57] JH: Your assumption is correct: they all go
 on holiday until the camera rolls really!
-JR: [chuckles]
-JH: No, they don’t. They do, in fact, get
+[11:04] JR: [chuckles]
+[11:05] JH: No, they don’t. They do, in fact, get
 back to work on their respective pipelines.
-It certainly can be a big distraction. Not
+[11:12] It certainly can be a big distraction. Not
 that we don’t love spending a lot of time
-with Thomas here, or writing letters for the
+[11:17] with Thomas here, or writing letters for the
 community. It’s an important thing though.
-So the community updates that we do, they’re
+[11:23] So the community updates that we do, they’re
 written as a partnership between the senior
-production staff, the developer leads that
+[11:28] production staff, the developer leads that
 they work with closely, and the Community
-team.
-JH: The senior producers are in a position
+[11:33] team.
+[11:34] JH: The senior producers are in a position
 to have a big picture view of the project.
-Which makes them uniquely suited to write
+[11:39] Which makes them uniquely suited to write
 this kind of report. One mantra of Production
-is “protect your team” and that’s protect
+[11:46] is “protect your team” and that’s protect
 your team from distractions; protect your
-team from things that keep them doing their
+[11:50] team from things that keep them doing their
 job. So a good producer will take this to
-heart and keep the impact of these kind of
+[11:57] heart and keep the impact of these kind of
 reports to a minimum. Try to keep it to no
-more than a few minutes per developer per
+[12:02] more than a few minutes per developer per
 week on these kind of reports.
-JH: It’s the collating of the report, and
+[12:06] JH: It’s the collating of the report, and
 the gathering of the necessary materials,
-the writing it down and editing it that really
+[12:09] the writing it down and editing it that really
 takes the time. I’ve personally spent: the
-worst was probably a day and a half total,
+[12:15] worst was probably a day and a half total,
 spread out over a few days, writing some of
-the bigger Star Marine reports that I was
+[12:22] the bigger Star Marine reports that I was
 working on. But I would say that the average
-time for me has worked out at less than four
+[12:26] time for me has worked out at less than four
 hours a week. That’s a chunk of time but
-if I worked a forty hour week, which would
+[12:33] if I worked a forty hour week, which would
 be awesome, it’s less than ten percent of
-my time. So I would say the average time is
+[12:37] my time. So I would say the average time is
 not that great.
-JR: And it’s important for a producer to
+[12:43] JR: And it’s important for a producer to
 know what his or her team is working on at
-any given point. So we have weekly scrums
+[12:52] any given point. So we have weekly scrums
 here, we have leads meetings, we have just
-the day-to-day interaction with developers.
+[12:57] the day-to-day interaction with developers.
 At any point I know what my team is working
-on at any given time. So making these reports,
+[13:02] on at any given time. So making these reports,
 I know you do the Star Marine reports, and
-I’ll chip in on the monthly report you guys
+[13:08] I’ll chip in on the monthly report you guys
 see; but with any of these
-reports it's easy for the producer to take
+[13:18] reports it's easy for the producer to take
 that information from his head and put it
-on paper because he already just knows what
+[13:25] on paper because he already just knows what
 his team is working on. In some instances
-it’s not the case and you actually have
+[13:29] it’s not the case and you actually have
 to reach out and get detailed updates for
-things you don’t have the information on.
+[13:33] things you don’t have the information on.
 But for the most part you should be able to
-pull a lot of that information from your head
+[13:37] pull a lot of that information from your head
 already. So the important thing is, like you
-said, to protect your team from that time
+[13:41] said, to protect your team from that time
 and a good way to do that is just to pull
-it from your own head.
-JH: I should point out we’re not doing the
+[13:46] it from your own head.
+[13:47] JH: I should point out we’re not doing the
 Star Marine reports any more. Our focus has
-shifted so that it’s specifically a report
+[13:54] shifted so that it’s specifically a report
 on the progress of 2.0 and ultimately that
-will be a report on our Star Citizen releases
+[14:00] will be a report on our Star Citizen releases
 in general. I’ve been partnering with Tom
-Johnson in Manchester on those reports now,
+[14:06] Johnson in Manchester on those reports now,
 so we’re splitting the burden which makes
-it both easier and harder for both of us.
-JH: The other thing I wanted to point out
+[14:12] it both easier and harder for both of us.
+[14:16] JH: The other thing I wanted to point out
 is that developers like Zane Bien working
-on the User Interface or Mark Abent who does
+[14:20] on the User Interface or Mark Abent who does
 the Bugsmasher, those guys obviously spend
-more time but I think those are important
+[14:26] more time but I think those are important
 updates. The communication with our backers,
-with you guys, and getting that feedback from
+[14:33] with you guys, and getting that feedback from
 the community really keeps the team going
-and allows us to make course corrections where
+[14:39] and allows us to make course corrections where
 we need to. It’s great and it’s almost
-a unique situation in the industry.
-(14:54) Doc asks: How do you even keep track
+[14:45] a unique situation in the industry.
+[14:47] (14:54) Doc asks: How do you even keep track
 of all the small things up to the big i.e
-the sheer size and difference of things like
+[15:02] the sheer size and difference of things like
 (1) creating modular assets of new designs
-that can be used for new systems/stations/landing
+[15:07] that can be used for new systems/stations/landing
 points, (2) bugfixing and adding important
-content to ArcCorp (e.g. Subsumption update,
+[15:13] content to ArcCorp (e.g. Subsumption update,
 netcode...buggies) and (3) all the as-of-yet
-secret economy systems (simulators, deep designs)
+[15:22] secret economy systems (simulators, deep designs)
 for the far away multi-system PU?! Do you
-prioritize all those things on a daily or
+[15:35] prioritize all those things on a daily or
 weekly basis?
-JR: Yeah, there are a lot of requests that
+[15:38] JR: Yeah, there are a lot of requests that
 come in from Chris and Tony for all kinds
-of things and speaking for Tony...Tony’s
+[15:44] of things and speaking for Tony...Tony’s
 general philosophy he’s told me several
-times is that he really only has a 12 month
+[15:49] times is that he really only has a 12 month
 horizon meaning that he only really cares
-at any given moment about what’s on the
+[15:54] at any given moment about what’s on the
 horizon for the next 12 months, what’s on
-the schedule for that time. It makes things
+[15:58] the schedule for that time. It makes things
 a little easier to manage on my side since
-the amount of content in the game planned
+[16:03] the amount of content in the game planned
 right now takes us well beyond 12 months from
-now. Things that don’t fall in the next
+[16:08] now. Things that don’t fall in the next
 12 months usually fall into a backlog for
-later review, things aren’t falling through
+[16:15] later review, things aren’t falling through
 the cracks or anything, we document everything
-and make sure it goes into a backlog. That
+[16:19] and make sure it goes into a backlog. That
 backlog grows, grows and grows but 12 months
-everytime something gets finished or completed
+[16:26] everytime something gets finished or completed
 we pull something else out. That’s kinda
-how a backlog works.
-JH: There’s never a shortage of good ideas.
-JR: No, never and a lot of those good ideas
+[16:30] how a backlog works.
+[16:31] JH: There’s never a shortage of good ideas.
+[16:34] JR: No, never and a lot of those good ideas
 come from the community so thanks. As far
-as keeping track of the features goes...usually
+[16:39] as keeping track of the features goes...usually
 it’s a matter of just pulling features from
-the backlog, producers gathering estimates
+[16:45] the backlog, producers gathering estimates
 and dependencies for those features from the
-lead. A lot of times it’s a relationship
+[16:51] lead. A lot of times it’s a relationship
 between the producer and the lead talking
-about a feature figuring out what’s required,
+[16:55] about a feature figuring out what’s required,
 how we break this down into individual tasks
-and then taking those tasks and documenting
+[17:00] and then taking those tasks and documenting
 them in our task tracking software. We use
-JIRA here. That’s kind of how that whole
+[17:07] JIRA here. That’s kind of how that whole
 process works for me at least.
-JH: Also, as I mentioned earlier, our new
+[17:13] JH: Also, as I mentioned earlier, our new
 focus will be looking at the backlog to see
-what features are needed for the Persistent
+[17:17] what features are needed for the Persistent
 Universe and Squadron 42 so we can focus on
-Star Citizen as a holistic product. If something
+[17:22] Star Citizen as a holistic product. If something
 is Persistent Universe only, it’ll probably
-go back to the backlog for the year for the
+[17:28] go back to the backlog for the year for the
 next time we review the backlog. We’ll build
-those features for the Persistent Universe
+[17:34] those features for the Persistent Universe
 as we get closer to rolling those features
-out and rolling out different patches for
+[17:38] out and rolling out different patches for
 the Persistent Universe.
-JH: So basically, if Squadron 42 needs something
+[17:42] JH: So basically, if Squadron 42 needs something
 that is also beneficial for the PU, those
-things will get prioritized higher than something
+[17:49] things will get prioritized higher than something
 that’s only beneficial for the PU.
-(18:00) Lock Ostrie asks: How do you plan
+[17:53] (18:00) Lock Ostrie asks: How do you plan
 on building out the Persistent Universe? Are
-you planning on prioritizing the Stanton system
+[18:04] you planning on prioritizing the Stanton system
 and then work out from there or are you planning
-to finish building out systems that already
+[18:09] to finish building out systems that already
 have content for them for things like SQ42
-or is there no real plan set for building
+[18:14] or is there no real plan set for building
 out the PU at this time?
-JR: Our midterm plan is to flesh out an entire
+[18:18] JR: Our midterm plan is to flesh out an entire
 system so almost like a vertical slice of
-what a system in the PU entails. I think we’ll
+[18:26] what a system in the PU entails. I think we’ll
 be focusing mostly on the Stanton system for
-the foreseeable future getting it to a gold
+[18:32] the foreseeable future getting it to a gold
 standard quality we’re focusing on the four
-landing zones in Stanton; ArcCorp’s Area
+[18:37] landing zones in Stanton; ArcCorp’s Area
 18, Hurston, Microtech and Crusader. So getting
-all those landing zones fleshed out getting
+[18:46] all those landing zones fleshed out getting
 it so you can actually visit those landing
-zones, so we’ll be working with other teams
+[18:50] zones, so we’ll be working with other teams
 across the project who are fleshing out the
-space portion, the spaces in-between the landing
+[18:55] space portion, the spaces in-between the landing
 zones starting with Crusader in 2.0. Basically
-getting a gold standard system is going to
+[19:03] getting a gold standard system is going to
 be our near to mid term priority.
-JH: When I first joined the team over a year
+[19:08] JH: When I first joined the team over a year
 ago now the idea was to be designing the first
-five star systems. What we did not know at
+[19:18] five star systems. What we did not know at
 that point was how long did it take us to
-make a single star system or even a single
+[19:23] make a single star system or even a single
 landing zone. Over the course of the year
-we really fleshed out a single landing zone
+[19:30] we really fleshed out a single landing zone
 and we’ve done most of the work needed for
-our second landing zone and just recently
+[19:34] our second landing zone and just recently
 added points of interest around the Stanton
-star system itself. This is teaching us how
+[19:41] star system itself. This is teaching us how
 long it’s going to take us to do it. Even
-though I would say we are not one hundred
+[19:46] though I would say we are not one hundred
 percent complete with the landing zone yet
-once we have that, it will give us an idea
+[19:49] once we have that, it will give us an idea
 how much more we need to do. So we shifted
-our focus from instead of the first five complete
+[19:54] our focus from instead of the first five complete
 star systems to the first five landing zones.
-So we currently have four landing zones in
+[19:59] So we currently have four landing zones in
 Stanton. Those are landing zones, not like
-i’m going out to a space station to make
+[20:07] i’m going out to a space station to make
 a quick repair and getting back on. That’s
-not a landing zone that’s more like a mission.
+[20:11] not a landing zone that’s more like a mission.
 We’re adding those as well. This tell us
-what we need to do. Then from here we’ll
+[20:17] what we need to do. Then from here we’ll
 move on to the next one which is Nyx, the
-Levski landing zone. A much less populated
+[20:23] Levski landing zone. A much less populated
 system. That’s going to need a lot of activity
-in it as well, cause you don’t want a single
+[20:32] in it as well, cause you don’t want a single
 star system with one landing zone and that’s
-it, how are those going to work out? This
+[20:36] it, how are those going to work out? This
 will tell us what a medium sized system takes
-to build, what a very small size system takes
+[20:42] to build, what a very small size system takes
 to build. Then we can look at our processes
-and see how we need to tweak those processes
+[20:46] and see how we need to tweak those processes
 and see how we can go forward making a lot
-of content.
-JR: It will give us actual metrics which is
+[20:50] of content.
+[20:51] JR: It will give us actual metrics which is
 something we don’t have for some of the
-areas of our project. So once we get those
+[20:56] areas of our project. So once we get those
 metrics we can actually calculate ok this
-takes this long. If we want twenty systems
+[21:00] takes this long. If we want twenty systems
 by this time we know it will take this long
-to make. That will give us information like
+[21:05] to make. That will give us information like
 do we need to ramp up more resources or outsource
-a little bit more
-JH: And how we can make changes to the system
+[21:10] a little bit more
+[21:11] JH: And how we can make changes to the system
 to make it better or faster or more procedural
-or what have you.
-(21:26) Zeshio asks: Do you have different
+[21:16] or what have you.
+[21:19] (21:26) Zeshio asks: Do you have different
 team members who are really excited to work
-on certain parts of Star Citizen that aren’t
+[21:27] on certain parts of Star Citizen that aren’t
 in the pipeline yet? For example, maybe a
-team member is dying to work on mineable asteroid
+[21:32] team member is dying to work on mineable asteroid
 fields but the work isn’t there yet. Do
-you have any examples of what team members
+[21:37] you have any examples of what team members
 are excited to work on as we progress into
-2.0 and beyond?
-JR: This is kind of already in the pipelines
+[21:41] 2.0 and beyond?
+[21:43] JR: This is kind of already in the pipelines
 and pre-production phase but I know Mark Skelton
-is super excited to get his hands on the additional
+[21:49] is super excited to get his hands on the additional
 landing zones for Stanton…. So Hurston,
-Microtech and Crusader. We’ve got one landing
+[21:55] Microtech and Crusader. We’ve got one landing
 zone out there and we’ve got another one
-almost finished and Nyx and so moving onto
+[22:00] almost finished and Nyx and so moving onto
 these next three there’s lots of opportunities
-to create new things and new aesthetics that
+[22:07] to create new things and new aesthetics that
 we haven’t seen yet in Star Citizen. Microtech
-is kind of a cold snowy planet and crusader
+[22:14] is kind of a cold snowy planet and crusader
 is kind of a vespen, kind of cloud city.
-JH: Cloud City
-JR: Cloud city. Hurston's a refinery type
+[22:20] JH: Cloud City
+[22:21] JR: Cloud city. Hurston's a refinery type
 atmosphere. I know as an art director that’s
-a lot of things to look forward to. We’re
+[22:28] a lot of things to look forward to. We’re
 already in pre-production phases there and
-as we enter white box phase we’ll get some
+[22:33] as we enter white box phase we’ll get some
 of those white boxes back which is basically
-just the designer taking these 3D objects
+[22:37] just the designer taking these 3D objects
 and building out a space, rudimentary kind
-of space. We’ll get that back and then Mark
+[22:42] of space. We’ll get that back and then Mark
 Skelton will put our concept artists to work
-and do paintovers so it’s actually what
+[22:47] and do paintovers so it’s actually what
 is this space actually going to look like
-and that’s really exciting for him I know.
-I myself am excited to see the first iteration
+[22:51] and that’s really exciting for him I know.
+[22:54] I myself am excited to see the first iteration
 of the character customization because I’m
-one of those guys who spends hours just customizing
+[22:59] one of those guys who spends hours just customizing
 my character and making them just perfect
-before I even start the game so I’m excited
+[23:05] before I even start the game so I’m excited
 about that.
-JH: I don’t even want to talk about how
+[23:07] JH: I don’t even want to talk about how
 much time I spent trying to make my Fallout
-4 character look like Pam Poovy last night…
+[23:11] 4 character look like Pam Poovy last night…
 It’s a little embarrassing. What’s also
-embarrassing is I failed, I didn’t really
+[23:18] embarrassing is I failed, I didn’t really
 get it...
-JR: Awww man that’s a bummer
-JH: I just want to mention that this may seem
+[23:20] JR: Awww man that’s a bummer
+[23:21] JH: I just want to mention that this may seem
 out of character for me because I'm one of
-the leads of kind of the first person gameplay
+[23:25] the leads of kind of the first person gameplay
 but let me just put this out there. I’m
-most excited for the opportunity to work on
+[23:30] most excited for the opportunity to work on
 game systems that don’t involve combat.
-The way you interact with mining or the way
+[23:33] The way you interact with mining or the way
 you can be as Todd Pappy said:” A space
-trucker”. Where you don’t need to shoot
+[23:43] trucker”. Where you don’t need to shoot
 anybody at all and to kind of make it around
-the universe and earn a living like, that’s
+[23:48] the universe and earn a living like, that’s
 interesting to me.
-When I see people play some of the other games,
+[23:52] When I see people play some of the other games,
 especially the MMO’s and try to do it as
-a complete pacifist and the lengths that they
+[23:57] a complete pacifist and the lengths that they
 have to go to kind of earn that as an achievement
-for themselves… we’re making a sandbox
+[24:03] for themselves… we’re making a sandbox
 and that just really geeks me out the fact
-that we're making a sandbox for people to
+[24:08] that we're making a sandbox for people to
 play in. You don’t have to kill anybody
-if you don’t want to. I’m really look
+[24:11] if you don’t want to. I’m really look
 forward to seeing how that shakes out
-JR: Not a lot of games reward the pacifist
+[24:14] JR: Not a lot of games reward the pacifist
 lifestyle so it’s kind of nice.
-Cool I got another question from..
-(24:23) Lock Ostrie asks: In the last monthly
+[24:21] Cool I got another question from..
+[24:22] (24:23) Lock Ostrie asks: In the last monthly
 report, it was said that Casaba Outlet was
-wrapping up in order to get ready for the
+[24:39] wrapping up in order to get ready for the
 shopping release. Does this mean the persistence
-update or at least parts of it has already
+[24:43] update or at least parts of it has already
 been folded into 1.3 and 2.0 or is persistence
-and shopping now part of the same release?
-JH: Persistence in the traditional sense of
+[24:50] and shopping now part of the same release?
+[24:52] JH: Persistence in the traditional sense of
 the word is not folded into 1.3 which is live
-or 2.0 in any kind of meaningful player face
+[25:01] or 2.0 in any kind of meaningful player face
 anyway. Though we are working as we speak
-on the back end required to support player
+[25:08] on the back end required to support player
 persistence. That being said our partners
-at Behaviour and Turbulent are working on
+[25:15] at Behaviour and Turbulent are working on
 some really clever things that allow us to
-be able to customise our character and have
+[25:20] be able to customise our character and have
 that state stick when you’re going from
-one map type to another map type. We’re
+[25:26] one map type to another map type. We’re
 a ways off from having traditional persistence
-and by that I mean an inventory system that
+[25:31] and by that I mean an inventory system that
 allows you to pick up an item, drop an item,
-sell an item, trade an item with a friend
+[25:36] sell an item, trade an item with a friend
 have that thing and have it persist between
-play sessions like if you logout of the session
+[25:41] play sessions like if you logout of the session
 and log back in. We’re going to fake it,
-right now and then we’re going to have real
+[25:46] right now and then we’re going to have real
 persistence coming in. I’m going with soon™
-JR: Last thing i’m going to add to that.
+[25:52] JR: Last thing i’m going to add to that.
 The persistence as with everything will be
-put out. We have iterations, we’ll have
+[26:03] put out. We have iterations, we’ll have
 the first iteration go out to you guys and
-then as we release 2.1, 2.2, we’ll put in
+[26:10] then as we release 2.1, 2.2, we’ll put in
 more functionality surrounding persistence.
-We’ll have hangar storage somewhere in there,
+[26:21] We’ll have hangar storage somewhere in there,
 being able to buy something and send it back
-to your hangar. Potentially even as you have
+[26:26] to your hangar. Potentially even as you have
 clothing in Casaba outlet picking clothing
-and being able to persist that across places
+[26:35] and being able to persist that across places
 as you will. It’s an iterative process as
-it is with everything. Be patient and you’ll
+[26:41] it is with everything. Be patient and you’ll
 get it.
-Outro:
-JH: Thank you all very much for joining us
+[26:44] Outro:
+[26:45] JH: Thank you all very much for joining us
 for this very Texas edition of 10 for the
-Producers.
-JR: Woo
-JH: I forgot to wear my cowboy hat. Yeah,
+[26:51] Producers.
+[26:52] JR: Woo
+[26:53] JH: I forgot to wear my cowboy hat. Yeah,
 sorry. So Jake, thank the backers and subscribers
-for making this possible.
-JR: Thank you so much.
-JH: Good job. Thanks guys.
+[26:59] for making this possible.
+[27:00] JR: Thank you so much.
+[27:04] JH: Good job. Thanks guys.

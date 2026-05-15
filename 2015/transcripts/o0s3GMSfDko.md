@@ -6,856 +6,856 @@
 
 ## Transcript
 
-Intro
-DL: This video made possible by the ICC Stellar
+[00:01] Intro
+[00:02] DL: This video made possible by the ICC Stellar
 Surveyors and Subscribers like you!
-SG: Hey everybody welcome back to Around the
+[00:12] SG: Hey everybody welcome back to Around the
 ‘Verse, I’m Sandi Gardner
-BL: I’m Ben Lesnick.
-SG: This week, in the AtV Interview, part
+[00:32] BL: I’m Ben Lesnick.
+[00:33] SG: This week, in the AtV Interview, part
 two of our sit-down with Tony Zurovec, where
-he talks about 2.1 and beyond.
-BL: And Senior Technical Designer Rob Reineger
+[00:38] he talks about 2.1 and beyond.
+[00:40] BL: And Senior Technical Designer Rob Reineger
 sits down to talk about level design in Star
-Citizen, including an early look at Nyx!
-SG: But first, it’s all about livestreams!
+[00:44] Citizen, including an early look at Nyx!
+[00:46] SG: But first, it’s all about livestreams!
 Livestreams, livestreams, and more livestreams.
-Both: Livestreeeeeeeeaaaaams! *Jazz Hands*
-BL: No, we’ve been streaming day in and
+[00:52] Both: Livestreeeeeeeeaaaaams! *Jazz Hands*
+[00:53] BL: No, we’ve been streaming day in and
 day out for the past week or so. On Friday
-we had RtV, Saturday we did the Wing Commander
+[00:59] we had RtV, Saturday we did the Wing Commander
 25th Anniversary live stream,
-SG: How long did that go for?
-BL: Went on for about ten hours. Secret missions
+[01:04] SG: How long did that go for?
+[01:06] BL: Went on for about ten hours. Secret missions
 one is very, very hard. Chris stopped by to
-say a few words, check it out!
-DL: What do you have against the Vega system?
-CR: Nothing…
-DL: Just noting earlier, if you live in a
+[01:12] say a few words, check it out!
+[01:16] DL: What do you have against the Vega system?
+[01:18] CR: Nothing…
+[01:19] DL: Just noting earlier, if you live in a
 Chris Roberts Universe, don’t buy a house
-in Vega.
-CR: Don’t buy a house in Vega, yeah… it
+[01:24] in Vega.
+[01:25] CR: Don’t buy a house in Vega, yeah… it
 just… happens to be one of the closest systems
-and I think we sort of fictionally put sort
+[01:28] and I think we sort of fictionally put sort
 of a lot of what was happening in Wing Commander
-there, and of course we had to do the same
+[01:35] there, and of course we had to do the same
 for Squadron 42.
-SG: Yay. I was busily cleaning up in the background.
-BL: Yes. It was very impressive seeing Sandi’s
+[01:39] SG: Yay. I was busily cleaning up in the background.
+[01:44] BL: Yes. It was very impressive seeing Sandi’s
 handiwork. And of course we had another livestream
-on Wednesday with the Los Angeles design team,
+[01:50] on Wednesday with the Los Angeles design team,
 answering questions from subscribers, and
-tomorrow we’ll have another RtV! And then
+[01:54] tomorrow we’ll have another RtV! And then
 next week is the big potato, the holiday livestream,
-featuring all sorts of exciting reveals and
+[02:01] featuring all sorts of exciting reveals and
 new information that we are looking forward
-to sharing with you.
-SG: We are shooting AtV today!
-BL: Did you forget where you are?
-SG: I did!
-BL: No, this is, we’re here in studio 42
+[02:05] to sharing with you.
+[02:06] SG: We are shooting AtV today!
+[02:07] BL: Did you forget where you are?
+[02:09] SG: I did!
+[02:10] BL: No, this is, we’re here in studio 42
 in Los Angeles, sets are still under construction
-as you can see around us, they are coming
+[02:16] as you can see around us, they are coming
 together very well and we are looking forward
-to showing them off once they’re done.
-SG: We are. And of course, Star Citizen Alpha
+[02:20] to showing them off once they’re done.
+[02:22] SG: We are. And of course, Star Citizen Alpha
 2.0 continues its testing on the PTU.
-BL: We have had several other iterations on
+[02:27] BL: We have had several other iterations on
 the PTU patch, folks are helping us locate
-and squash bugs, and it’s going very well.
+[02:33] and squash bugs, and it’s going very well.
 We’re hoping to go to live very very soon.
-SG: If anybody would like to crew up with
+[02:37] SG: If anybody would like to crew up with
 me…
-BL: I will crew up with you anytime.
-SG: Yay. And did you see that there are two
+[02:39] BL: I will crew up with you anytime.
+[02:41] SG: Yay. And did you see that there are two
 polls on mmogames.com that Star Citizen is
-a part of?
-BL: I did! It’s that time of year where
+[02:49] a part of?
+[02:50] BL: I did! It’s that time of year where
 everyone picks their best of lists, and mmogames.com
-is running a poll for best MMO, most anticipated
+[02:56] is running a poll for best MMO, most anticipated
 MMO, most anticipated, best crowdfunded game.
-And you can
-*both laugh*
-Please vote for us, let's get the word out.
-SG: With that, let's check in with our studios
+[03:06] And you can
+[03:07] *both laugh*
+[03:09] Please vote for us, let's get the word out.
+[03:13] SG: With that, let's check in with our studios
 around the world for News from Around the
-‘Verse.
+[03:18] ‘Verse.
 News from the Spectrum
-3:29 Santa Monica Los Angeles
-DV: Hey everyone, here we are at Cloud IMperium
+[03:26] 3:29 Santa Monica Los Angeles
+[03:32] DV: Hey everyone, here we are at Cloud IMperium
 Games in Los Angeles. I’m Darian Vorlick…
-EB: And I’m Elwin Bachiller Jr.
-DV: And we are here with this week’s update.
+[03:35] EB: And I’m Elwin Bachiller Jr.
+[03:36] DV: And we are here with this week’s update.
 So, starting with the technical content team,
-we’ve got our guys like Matt Intrieri, Patrick
+[03:39] we’ve got our guys like Matt Intrieri, Patrick
 Solerna, working on fixing up the Constellation,
-giving it its final polishes for 2.0. So we’re
+[03:45] giving it its final polishes for 2.0. So we’re
 kinda doing some final passes, making sure
-everything is nice and shiny and hale on it,
+[03:51] everything is nice and shiny and hale on it,
 so once you guys get it it’s going to look
-pretty awesome. What’ve we got for the art
+[03:55] pretty awesome. What’ve we got for the art
 team?
-EB: On the art team, we’ve got everybody,
+[03:57] EB: On the art team, we’ve got everybody,
 all hands on deck on the Reliant, we’re
-trying to get that hangar ready for our next
+[04:01] trying to get that hangar ready for our next
 release. There’s quite a bit of work going
-into it, we’ve got some areas when you guys
+[04:07] into it, we’ve got some areas when you guys
 finally see it in the hangar, it’ll be clearly
-a work in progress, but it’ll give a really
+[04:12] a work in progress, but it’ll give a really
 good idea of what the final’s going to look
-like.
-DV: And which part are you working on?
-EB: Specifically I’m working on the pilot
+[04:17] like.
+[04:18] DV: And which part are you working on?
+[04:19] EB: Specifically I’m working on the pilot
 chair, so redoing that, but we’ve got Daniel
-Kamensky who did a lot of the interior parts
+[04:22] Kamensky who did a lot of the interior parts
 of it, and Gaige Hallman who also did parts
-of the interior for it, so we’ve got a lot
+[04:28] of the interior for it, so we’ve got a lot
 of people putting an effort to get that done.
-DV: And finally on the tech design front,
+[04:33] DV: And finally on the tech design front,
 we’ve got Calix doing final balance passes
-for 2.0, especially on the EMP, so we’ve
+[04:38] for 2.0, especially on the EMP, so we’ve
 been looking at some of the feedback regarding
-how players have been using it. We see some
+[04:42] how players have been using it. We see some
 tweaks that need to be made, but also we’ve
-started on plotting out what we need to be
+[04:46] started on plotting out what we need to be
 doing for balance on the next patch as well,
-so definitely keep that feedback coming in,
+[04:50] so definitely keep that feedback coming in,
 it is very very useful for us. So I think
-that’s all we’ve got from Los Angeles,
+[04:54] that’s all we’ve got from Los Angeles,
 so once again, I’m Darian Vorlick,
-EB: Elwin Bachiller Jr.
-DV: Have a good one guys.
-5:00 - Austin, TX
-JR : Jake Ross here, associate producer on
+[04:57] EB: Elwin Bachiller Jr.
+[04:58] DV: Have a good one guys.
+[05:00] 5:00 - Austin, TX
+[05:02] JR : Jake Ross here, associate producer on
 the persistent universe, and I’m here this
-week to give you a little update on what we’ve
+[05:05] week to give you a little update on what we’ve
 got going on in the Austin studio. This week,
-we are, and last week, we’re doing animation
+[05:10] we are, and last week, we’re doing animation
 work on various ships and ship weapons. We’ve
-got Jay and Daniel, Jay Brushwood Daniel Craig,
+[05:17] got Jay and Daniel, Jay Brushwood Daniel Craig,
 working on the Vanguard, and the Freelancer,
-and the Xi’An Scout, along with a few others
+[05:25] and the Xi’An Scout, along with a few others
 I won’t mention, but, so they’re working
-hard on getting those various states of hangar
+[05:32] hard on getting those various states of hangar
 ready / flight ready, so those will be coming
-online here pretty soon in different stages.
+[05:38] online here pretty soon in different stages.
 And also some, a couple different ship weapons
-that’ll come out here pretty soon as well,
+[05:44] that’ll come out here pretty soon as well,
 cause weapons need to animate as well.
-We also are iterating on the shopping design,
+[05:50] We also are iterating on the shopping design,
 so we had a pretty good idea for the direction
-we were going, we started it off in that direction,
+[05:57] we were going, we started it off in that direction,
 and we decided that we wanted to add a few
-different things here and there, closer to
+[06:01] different things here and there, closer to
 what Chris is envisioning, so we’re all
-on the same page now over here, so we’re
+[06:08] on the same page now over here, so we’re
 just iterating on the design as, we’re constantly
-doing, making the design bigger and better
+[06:14] doing, making the design bigger and better
 all the time. So we’re now headed off in
-the same direction, just a little bit more
+[06:20] the same direction, just a little bit more
 fine-tuned. So Behaviour will be working on
-the front-end side of that, and we will have
+[06:25] the front-end side of that, and we will have
 that out in a future release. Yeah.
-So another thing that we’re doing is we
+[06:33] So another thing that we’re doing is we
 are establishing our tech content team. Headed
-up by Sean Tracy, so what this is is basically
+[06:40] up by Sean Tracy, so what this is is basically
 just an effort to kind of consolidate our
-tech artists, our tech animators, and our
+[06:46] tech artists, our tech animators, and our
 riggers, into one big team across the company.
-We have various developers in LA, in Austin,
+[06:55] We have various developers in LA, in Austin,
 the UK, and Germany, that all kind of fall
-under that banner, but have always acted as
+[07:02] under that banner, but have always acted as
 islands in their own studios, so Sean Tracy’s
-heading up the new technical content team,
+[07:07] heading up the new technical content team,
 where he will kind of combine, join forces
-with all these guys and kind of give them
+[07:13] with all these guys and kind of give them
 a little bit more trajectory, that kind of
-aligns with everyone else. So they’re not
+[07:18] aligns with everyone else. So they’re not
 just islands, they’re a force that’s moving
-in one direction. So it’s an exciting time,
+[07:23] in one direction. So it’s an exciting time,
 and we’re developing a road map for those
-guys so that everybody’s kind of on the
+[07:28] guys so that everybody’s kind of on the
 same page there. Yeah, I think that’s all
-I got for you this week. Thanks guys, see
+[07:32] I got for you this week. Thanks guys, see
 you around!
-7:35 Foundry 42 UK
-TJ: Hi Guys, Tom (Johnson) here, and this
+[07:34] 7:35 Foundry 42 UK
+[07:37] TJ: Hi Guys, Tom (Johnson) here, and this
 week I’ve got Ricky Jutley with me, he’s
-going to give you guys an update on 2.0.
-RJ: Thanks Tom, with 2.0 right now we’ve
+[07:42] going to give you guys an update on 2.0.
+[07:44] RJ: Thanks Tom, with 2.0 right now we’ve
 been pushing a fair amount of builds to the
-PTU. Been watching a fair amount of your twitch
+[07:51] PTU. Been watching a fair amount of your twitch
 streams, and it’s really good that we’ve
-made some progress on performance, and you
+[07:56] made some progress on performance, and you
 guys’ve kind of highlighted that, so thanks
-very much. We do understand that the game
+[08:01] very much. We do understand that the game
 server issues, the game server crashes, are
-still you know, live and rife in builds at
+[08:05] still you know, live and rife in builds at
 the moment. We’ve actually made a decent
-amount of progress on those with fixes coming
+[08:10] amount of progress on those with fixes coming
 in today, a few guys worked on the physics
-issues, and that’s been tested through QA
+[08:13] issues, and that’s been tested through QA
 right now, so hopefully we get a lot more
-stable build, and you guys can see that soon.
-With the Twitch streams at the moment, we’re
+[08:20] stable build, and you guys can see that soon.
+[08:24] With the Twitch streams at the moment, we’re
 really impressed and really enjoyed a lot
-of the videos that we’ve seen, so you guys
+[08:30] of the videos that we’ve seen, so you guys
 have been using a fair amount of the new mechanics,
-saw guys using the Avenger for instance, and
+[08:35] saw guys using the Avenger for instance, and
 EMP taking out a fair amount of the other
-ships in proximity, and strafing up and absolutely
+[08:41] ships in proximity, and strafing up and absolutely
 obliterating them. And also you guys have
-been showing off some of the multicrew ships,
+[08:46] been showing off some of the multicrew ships,
 so I’ve been watching people demo through
-their crew stations in the Constellation,
+[08:51] their crew stations in the Constellation,
 different turrets, the engineering panels,
-and the Retaliator as well, so it’s been
+[08:58] and the Retaliator as well, so it’s been
 really enjoyable watching those videos, and
-we’ll hope to give you guys a more stable
+[09:02] we’ll hope to give you guys a more stable
 build soon, hope we can go to live soon.
-TJ: Alright, that’s it for this week, thanks
+[09:07] TJ: Alright, that’s it for this week, thanks
 for joining us, and we’ll
-Both: See you in the ‘Verse!
-9:15 - Foundry 42 DE
-BC: Hey everyone I'm Brian Chambers, from
+[09:09] Both: See you in the ‘Verse!
+[09:11] 9:15 - Foundry 42 DE
+[09:13] BC: Hey everyone I'm Brian Chambers, from
 Frankfurt. Let me run through some of the
-main points the guys covered this week. On
+[09:21] main points the guys covered this week. On
 AI front, we had two main areas we were looking
-at. First one was ship AI in specific issues
+[09:28] at. First one was ship AI in specific issues
 that have been reported back for 2.0, we’ve
-tackled most of those, got a really good grasp
+[09:35] tackled most of those, got a really good grasp
 on them, and continue to move forward on them.
-A couple more left to tweak. The second sprint
+[09:40] A couple more left to tweak. The second sprint
 that’s running was the first version of
-FPS AI and counter-communication. Allows AI
+[09:48] FPS AI and counter-communication. Allows AI
 to respond to each other, one spots an enemy
-makes the others aware. Also other detail,
+[09:56] makes the others aware. Also other detail,
 when they hear a fire, you know, hear gunfire
-or something somewhere, they start heading
+[10:02] or something somewhere, they start heading
 out, they know what direction, and so on.
-So it’s pretty good, pretty cool to see
+[10:07] So it’s pretty good, pretty cool to see
 that progress.
-On the design side, continue to work on smuggling
+[10:10] On the design side, continue to work on smuggling
 career, weapon designs, some new ones we’re
-playing with, and pre-fab missions for PU.
+[10:19] playing with, and pre-fab missions for PU.
 The weapon side, Toby’s been finalizing
-work on LOD’s and textures for the S-4 size
+[10:28] work on LOD’s and textures for the S-4 size
 Apocalypse arms gatling gun. That’s always
-a mouthful to say.
-For Cinematics we’re continuing to refine
+[10:35] a mouthful to say.
+[10:37] For Cinematics we’re continuing to refine
 the overall pipeline. Always pushing things
-a little bit more to help improve quality,
+[10:44] a little bit more to help improve quality,
 get things in and out of mobu, maia, and so
-on, and that’s going well. We’re also
+[10:51] on, and that’s going well. We’re also
 starting to tear through the cinematics a
-little bit more now on a granular level, to
+[10:55] little bit more now on a granular level, to
 start lining up dependencies a little bit
-better so we can work more efficiently.
-On the engine side, a lot of focus around
+[10:59] better so we can work more efficiently.
+[11:03] On the engine side, a lot of focus around
 stabilization of 2.0. The new things that
-we’re pulling in and rolling out to you
+[11:08] we’re pulling in and rolling out to you
 guys obviously as you do this, you encounter
-new issues. So we have a good process in place
+[11:13] new issues. So we have a good process in place
 right now with all the testers have been helpful
-for us to build, to go in fairly quickly,
+[11:22] for us to build, to go in fairly quickly,
 identify the issues, and get those addressed
-to get those back out to you. We’ve also
+[11:27] to get those back out to you. We’ve also
 been working on some other core elements that
-you guys will see shortly. Can’t say exactly
+[11:32] you guys will see shortly. Can’t say exactly
 what they are or when, but it’s going to
-be very soon and I think people will dig it.
+[11:39] be very soon and I think people will dig it.
 Overall, as far as the office goes, good amount
-of candidates are coming in. Ton of resumes
+[11:45] of candidates are coming in. Ton of resumes
 are flying in recently in the last week. I
-think last week we had a few on-site interviews,
+[11:51] think last week we had a few on-site interviews,
 so staffing up really to hit the other main
-areas that we need for Frankfurt to be able
+[11:56] areas that we need for Frankfurt to be able
 to take on the responsibility that we’re
-kind of handed.
-So. That’s about it. We’ve got other people
+[12:02] kind of handed.
+[12:03] So. That’s about it. We’ve got other people
 obviously with VFX doing stuff, our environment
-artist doing stuff and so on, and we’ll
+[12:10] artist doing stuff and so on, and we’ll
 go into more detail week after week. But…
-thanks again for all your support, and see
+[12:15] thanks again for all your support, and see
 you next week!
-Tony Zurovec Interview Part II
-Jared Huckaby - JH: Thanks guys. In this week’s
+[12:20] Tony Zurovec Interview Part II
+[12:36] Jared Huckaby - JH: Thanks guys. In this week’s
 AtV interview we’re sitting down with the
-director of the persistent universe Mr Tony
+[13:07] director of the persistent universe Mr Tony
 Zurovec, Tony? How are you doing?
-Tony Zurovec - TZ: Pretty good
-JH: Now when we dropped the Social Module.
+[13:11] Tony Zurovec - TZ: Pretty good
+[13:12] JH: Now when we dropped the Social Module.
 One of things that surprised a lot of folks
-is we gave them a sneak peek of the upcoming
+[13:18] is we gave them a sneak peek of the upcoming
 Nyx slavsky landing zone and that blew a lot
-of people away. It was a great look at what
+[13:24] of people away. It was a great look at what
 was coming next. Is there anything more you
-can tell us about Nyx?
-TZ: Yeah Nyx will likely show up in the milestone
+[13:29] can tell us about Nyx?
+[13:30] TZ: Yeah Nyx will likely show up in the milestone
 immediately after shopping. It’s interesting
-that Nyx has been largely done for quite a
+[13:39] that Nyx has been largely done for quite a
 while. There was one particular area this,
-bazaar area that still had a lot of design,
+[13:45] bazaar area that still had a lot of design,
 details and artistic issues that needed to
-be worked out, but with those now resolved
+[13:50] be worked out, but with those now resolved
 production is proceeding at full speed on
-it and we expect to have that done fairly
+[13:58] it and we expect to have that done fairly
 soon. So we should actually be able spend
-quite a bit of time refining and tweak and
+[14:05] quite a bit of time refining and tweak and
 ensuring that the performance is up to the
-level that we actually want before we do release
+[14:10] level that we actually want before we do release
 it to the community, in other words the actually
-build out of the level is going really really
+[14:14] build out of the level is going really really
 well at this point.
-JH: Very cool. When that time comes, do you
+[14:19] JH: Very cool. When that time comes, do you
 have any thoughts about how people will access
-it, will it be another destination on the
+[14:24] it, will it be another destination on the
 elevator?
-TZ: For the short term we're just going to
+[14:26] TZ: For the short term we're just going to
 cheat and basically you’re going to have
-the magical elevator that you can access from
+[14:30] the magical elevator that you can access from
 Area 18 or from your hangar. Obviously that
-will change as we get a bit farther along
+[14:36] will change as we get a bit farther along
 and gain the ability to go out in space, gain
-the ability to travel to different systems
+[14:40] the ability to travel to different systems
 and stuff, but for the short term we will
-just allow players to go in there and it will
+[14:46] just allow players to go in there and it will
 just be another destination in that elevator.
-Nyx is really interesting from my perspective
+[14:53] Nyx is really interesting from my perspective
 for a variety of different reasons. One of
-which is it actually gives us the ability
+[14:58] which is it actually gives us the ability
 to have three completely distinct functional
-areas. What I mean by that is when you first
+[15:04] areas. What I mean by that is when you first
 land in Nyx and you come out and go through
-customs and you basically go down to the main
+[15:09] customs and you basically go down to the main
 area. There’s law and order, there’s security,
-it’s all well maintained, all the lights
+[15:15] it’s all well maintained, all the lights
 are on; there’s security guards, there’s
-civilians going on about their business and
+[15:21] civilians going on about their business and
 there’s shops in which you can do business
-etc.
-There are hints internally that you’re in
+[15:25] etc.
+[15:26] There are hints internally that you’re in
 an asteroid. You can see that from windows
-that give these beautiful views of the outside.
+[15:33] that give these beautiful views of the outside.
 You can tell because some of the ceilings
-that there was no point to building dedicated
+[15:40] that there was no point to building dedicated
 roofs and ceilings and all that type of stuff
-and so you can actually see big, huge chunks
+[15:45] and so you can actually see big, huge chunks
 of exposed asteroid stone, rock metals, stone,
-etc just hanging throughout various areas.
+[15:54] etc just hanging throughout various areas.
 In general that area actually looks very modern,
-looks very built out, it looks like what it’s
+[16:04] looks very built out, it looks like what it’s
 supposed to be which is an area that people
-did a lot of business. They actually conduct
+[16:08] did a lot of business. They actually conduct
 a lot of business in that area.
-As you start to move down various corridors
+[16:13] As you start to move down various corridors
 and passageways away from that central area.
-You’ll start to encounter what we call,
+[16:19] You’ll start to encounter what we call,
 it’s a more danger zone. Basically it’s
-an area that is no longer utilized by the
+[16:25] an area that is no longer utilized by the
 political and civilian classes of this planet
-and it’s been overtaken by more questionable
+[16:33] and it’s been overtaken by more questionable
 types. There’s much more crime there than
-you would ever see in the central area of
+[16:41] you would ever see in the central area of
 the city, there’s no security to discourage
-it. There are obviously some hard luck cases
+[16:45] it. There are obviously some hard luck cases
 out there. You’ll see stuff that’s fallen
-into disrepair, lights that are flickering
+[16:53] into disrepair, lights that are flickering
 that are not working, control panels that
-no longer operate doors that are stuck half
+[16:58] no longer operate doors that are stuck half
 open. That type thing to where it looks very
-similar conceptually to the central area,
+[17:05] similar conceptually to the central area,
 but it looks like it hasn’t been really
-maintained for a decade.
-Then you if you continue preceding even farther
+[17:11] maintained for a decade.
+[17:13] Then you if you continue preceding even farther
 you’ll get into what we call the excavation
-areas. This is where once upon a time, decades
+[17:18] areas. This is where once upon a time, decades
 earlier when this was an area that they thought
-was going to be a booming mining area. They
+[17:24] was going to be a booming mining area. They
 were clearing out all sorts of new caverns,
-drilling them out etc. The idea was they were
+[17:30] drilling them out etc. The idea was they were
 eventually going to put in these control rooms
-and storage facilities etc. All that construction
+[17:35] and storage facilities etc. All that construction
 stopped very quickly when they decided that
-given the surveys that they were doing, it
+[17:43] given the surveys that they were doing, it
 was going to be way more difficult to extract
-sufficient value to warrant all of the the
+[17:49] sufficient value to warrant all of the the
 investment made. The original inhabitants
-of Nyx took off and all the.
-JH: Construction equipment that was left behind
-TZ: That was all left behind and basically
+[17:54] of Nyx took off and all the.
+[17:56] JH: Construction equipment that was left behind
+[17:59] TZ: That was all left behind and basically
 this more politically oriented population
-gradually moved in and what you wound up with
+[18:05] gradually moved in and what you wound up with
 is a populous that tends to be a little more
-radical in their overall political beliefs
+[18:14] radical in their overall political beliefs
 versus the mainstream and this manifests itself
-in a number different ways. Some of which
+[18:20] in a number different ways. Some of which
 is the fact that they're not willing to basically
-go and try and make a concerted effort to
+[18:29] go and try and make a concerted effort to
 clean out crime in the distant areas of Nyx,
-they’d really rather just cordoned it off
+[18:34] they’d really rather just cordoned it off
 and prevent it and keep it over there and
-so it’s not their problems to solve.
-These back excavated areas are particularly
+[18:39] so it’s not their problems to solve.
+[18:42] These back excavated areas are particularly
 interesting because there’s no infrastructure
-within there at all. There are no ladders,
+[18:49] within there at all. There are no ladders,
 there are no stairs, there are no lights.
-It’s really just you’re going through
+[18:54] It’s really just you’re going through
 caverns, there’s a very organic feel, fungus
-on the walls, dripping water, things of that
+[18:58] on the walls, dripping water, things of that
 sort. One of things I find the most interesting
-about that is as playground where we can put
+[19:03] about that is as playground where we can put
 everything from wanted felons that are hiding
-out, the most nefarious criminals and stuff
+[19:09] out, the most nefarious criminals and stuff
 that would be basically the zone where they
-operate from farthest away from the security
+[19:16] operate from farthest away from the security
 force and things of that sort. This is where
-you’d find a lot of your elcit trading activity
+[19:22] you’d find a lot of your elcit trading activity
 and stuff would be centered back in those
-areas. There’s a lot of potential on Nyx
+[19:29] areas. There’s a lot of potential on Nyx
 for players that don’t want to necessarily
-adhere to the law.
-JH: So when Nyx ships, whenever that is, no
+[19:38] adhere to the law.
+[19:41] JH: So when Nyx ships, whenever that is, no
 dates guys. What else can we expect with that
-ZH: well one of the more interesting features
+[19:49] ZH: well one of the more interesting features
 that will come online most likely with the
-same milestone as Nyx will be the ability
+[19:54] same milestone as Nyx will be the ability
 to route purchases areas other than on your
-person. What I mean by that is kind of what
+[20:02] person. What I mean by that is kind of what
 we were talking about earlier. When I go into
-a shop and I find a T-shirt I like or I go
+[20:06] a shop and I find a T-shirt I like or I go
 to a souvenir shop and I have a list of items,
-what do I do with it? obviously in the case
+[20:12] what do I do with it? obviously in the case
 of clothing you can replace the one you have,
-but what if you want to keep the clothing
+[20:17] but what if you want to keep the clothing
 you have? What if you want to buy a vase but
-you don’t actually want to carry it around,
+[20:23] you don’t actually want to carry it around,
 you don’t want to take the multi minute
-journey back to your ship to stow it away.
-With Nyx we’ll be incorporating featuring
+[20:26] journey back to your ship to stow it away.
+[20:29] With Nyx we’ll be incorporating featuring
 within the user interface so that when you’re
-buying or selling for that matter items, you
+[20:34] buying or selling for that matter items, you
 can specify the source or destination, depending
-on what you’re doing; where you want these
+[20:39] on what you’re doing; where you want these
 items to go or be pulling from. So if I purchase
-something I can basically direct it’s delivery
+[20:44] something I can basically direct it’s delivery
 for a nominal surcharge back to one of my
-uniquely named ships, back to my hangar or
+[20:51] uniquely named ships, back to my hangar or
 back to my million high club and then once
-I’m back there I can decide what I actually
+[20:57] I’m back there I can decide what I actually
 want to do with them.
-JH: We spoke to Rob earlier today. He mentioned
+[21:00] JH: We spoke to Rob earlier today. He mentioned
 there’s a number of shops in Nyx. The names
-escape me at the moment. What can you tell
+[21:06] escape me at the moment. What can you tell
 us about our shopping opportunities in Nyx.
-TZ: Nyx has a really interesting mix of shops
+[21:11] TZ: Nyx has a really interesting mix of shops
 because not only does it have the formal commercial
-shops like you might see on Area 18, the more
+[21:18] shops like you might see on Area 18, the more
 established four walls, ceiling, floor, that
-type of stuff. Lots inventory, clearly a commercial
+[21:24] type of stuff. Lots inventory, clearly a commercial
 vendor with a good number of goods to be sold,
-but it’s also got what we call this bazaar
+[21:33] but it’s also got what we call this bazaar
 area and that’s where much smaller local
-merchants well actually I wouldn’t call
+[21:37] merchants well actually I wouldn’t call
 them local merchants, they’re more nomadic
-merchants. They basically come and sometimes
+[21:42] merchants. They basically come and sometimes
 they’re there for a day, sometimes they’re
-there for a week, sometimes they got a very
+[21:46] there for a week, sometimes they got a very
 specific set of inventory and that’s it.
-These are guys in this one central bazaar
+[21:51] These are guys in this one central bazaar
 area where you can pickup a variety of odds
-and ins that you don’t often see within
+[21:57] and ins that you don’t often see within
 the larger more established stores.
-JH: So what kind of things can you buy in
+[22:04] JH: So what kind of things can you buy in
 this, what was it a bazaar?
-TZ: Yeah
-JH Grand Bazaar?
-TZ: Yeah so in the Grand Bazaar you’ll be
+[22:08] TZ: Yeah
+[22:09] JH Grand Bazaar?
+[22:10] TZ: Yeah so in the Grand Bazaar you’ll be
 able to buy anything from cases of liquor
-to seeds that you can plant assuming you’re
+[22:14] to seeds that you can plant assuming you’re
 a farmer and have an interest in that type
-of them. THere will be all sorts of decorative
+[22:19] of them. THere will be all sorts of decorative
 items, plants that you can place either within
-your Million Mile High Club or within your
+[22:25] your Million Mile High Club or within your
 hangar, things of that sort. There’s going
-to be food for just general consumption. There’s
+[22:29] to be food for just general consumption. There’s
 going to be a variety of souvenirs unique
-to that area and that they’ve imported from
+[22:37] to that area and that they’ve imported from
 other areas that you could pickup. Just a
-wide variety of smaller items of much more
+[22:42] wide variety of smaller items of much more
 limited quantity than what you would typically
-see in the larger more established shops.
-JH: And not just things to customize your
+[22:47] see in the larger more established shops.
+[22:49] JH: And not just things to customize your
 hangar or your shop, but also yourself?
-TZ: Not only that, but I’d go even farther
+[22:55] TZ: Not only that, but I’d go even farther
 and so far as information you can purchase
-that can lead to missions. There’s maps
+[23:02] that can lead to missions. There’s maps
 you can buy and so really anyone that goes
-to Nyx, you really should make the rounds
+[23:07] to Nyx, you really should make the rounds
 through all these guys and they will vary.
-It’s not always going to be the same guy
+[23:12] It’s not always going to be the same guy
 selling the same stuff and see what is actually
-on offer whether it’s of interest to you
+[23:17] on offer whether it’s of interest to you
 on that particular day given what you’re
-currently doing.
-JH: Wow, that’s fantastic. We’ve taken
+[23:21] currently doing.
+[23:22] JH: Wow, that’s fantastic. We’ve taken
 up a lot of your time here and thank you for
-it so much. can you give us one more thing
+[23:27] it so much. can you give us one more thing
 before we let you go? Beyond Nyx, a quick
-top level look. Hurston, the rest of the stanton
+[23:33] top level look. Hurston, the rest of the stanton
 system, what’s down the line for the persistent
-universe.
-TZ: Yeah in general not much has changed in
+[23:41] universe.
+[23:42] TZ: Yeah in general not much has changed in
 regards to the overall order vs what I can
-kind of mentioned on the website two or three
+[23:47] kind of mentioned on the website two or three
 months back which is the next planet after
-Nyx is going to be Hurston. That one was already
+[23:51] Nyx is going to be Hurston. That one was already
 starting to move fairly quickly. Following
-that will likely be Crusader and then Microtech
+[23:59] that will likely be Crusader and then Microtech
 and that’s going to complete all the areas
-that you can visit within the Stanton system.
+[24:05] that you can visit within the Stanton system.
 What this does is it basically gives us the
-reason why we put up to this approach is it
+[24:10] reason why we put up to this approach is it
 gives us a lot of different areas within the
-same system to where we can get the balance
+[24:16] same system to where we can get the balance
 of trade, the trade of combat, the balance
-of missions all of this stuff perfected, refined
+[24:22] of missions all of this stuff perfected, refined
 before we start to expand out to some of these
-other systems.
-It allows us to get the formula narrowed in
+[24:29] other systems.
+[24:31] It allows us to get the formula narrowed in
 enough so that we minimize the amount of wasted
-effort as we basically start to get really
+[24:38] effort as we basically start to get really
 really wide implementation. In addition to
-the landing zones the next big thing post
+[24:45] the landing zones the next big thing post
 the Nyx milestone is going to be AI. AI, they’re
-still going to be a very dedicated discrete
+[24:51] still going to be a very dedicated discrete
 milestone to where you’ll see a quantum
-leap in terms of advancement, but I would
+[24:57] leap in terms of advancement, but I would
 say that I now believe the AI will appear
-in small bits and pieces prior to that and
+[25:06] in small bits and pieces prior to that and
 then you’ll see one big leap.
-We’re not going to wait as we’ve kinda
+[25:10] We’re not going to wait as we’ve kinda
 added additional details to intermediate milestones.
-We don’t want to hold back on all the AI
+[25:16] We don’t want to hold back on all the AI
 just for this so called dedicated AI milestone.
-We’d rather roll out bits and pieces and
+[25:22] We’d rather roll out bits and pieces and
 these will be testing specific things. In
-particular on AI, how many NPC characters
+[25:27] particular on AI, how many NPC characters
 can we actually put within a map without starting
-to affect performance in terms of the pathfinding,
+[25:35] to affect performance in terms of the pathfinding,
 in terms of the collision detection, in terms
-of the logic; how well is the multi-threading,
+[25:39] of the logic; how well is the multi-threading,
 is the AI code actually working?
-So there are a number of technical reasons
+[25:46] So there are a number of technical reasons
 why we want to get out even the earlier versions
-of this and get that working really rock solid
+[25:52] of this and get that working really rock solid
 and then once we go with the full blown AI
-milestone that’s where we would try to show
+[25:59] milestone that’s where we would try to show
 not only what we can do with this system but
-we would like to put eighty, ninety, a hundred
+[26:05] we would like to put eighty, ninety, a hundred
 plus into a single landing zone and still
-have the performance be such that players
+[26:12] have the performance be such that players
 on good if not absolutely state of the art
-machines and still have a completely enjoyable
+[26:19] machines and still have a completely enjoyable
 experience, and that actually brings up one
-other thing. Which is we’ve made loads of
+[26:25] other thing. Which is we’ve made loads of
 progress with regards to some of the problems
-that we were facing a while back and I think
+[26:34] that we were facing a while back and I think
 that very shortly possibly with the Million
-Mile high Club, we’re going to wind up kicking
+[26:40] Mile high Club, we’re going to wind up kicking
 the twenty five player of Area 18 limit up
-to fourty players.
-Right now it’s very close I don’t know
+[26:45] to fourty players.
+[26:46] Right now it’s very close I don’t know
 if we’ll flip that switch for the 2.0 Million
-Mile High Club one, or whether we’ll hold
+[26:53] Mile High Club one, or whether we’ll hold
 that back for shopping. But one of those two
-milestones will include a fairly significant,
+[26:57] milestones will include a fairly significant,
 a 60% increase in the number of players that
-we’re going to allow walking around in those
+[27:04] we’re going to allow walking around in those
 environments. On our side right now it’s
-looking amazingly good in terms of how much
+[27:09] looking amazingly good in terms of how much
 progress has been made in a relatively short
-period of time.
-We’ve got people from all over the different
+[27:17] period of time.
+[27:18] We’ve got people from all over the different
 CIG studios touching different pieces of this
-and it’s really been amazing how quickly
+[27:23] and it’s really been amazing how quickly
 some of these very large scale technological
-changes have come together, to allow us to
+[27:28] changes have come together, to allow us to
 basically start ramping it up. I would expect
-the focus on that to just continue so that
+[27:34] the focus on that to just continue so that
 by Spring by Summer we want to just keep iteratively
-increasing, increasing, increasing the number
+[27:41] increasing, increasing, increasing the number
 of players and NPC’s that you’re going
-to be able to put into one single map.
-JH: It’s exciting there’s no other word
+[27:46] to be able to put into one single map.
+[27:49] JH: It’s exciting there’s no other word
 for it, it’s really exciting. Tony thank
-you so much for taking the time to sit down
+[27:54] you so much for taking the time to sit down
 with us, is there anything else you want fans
-to know before we let you go?
-TZ: Actually the only thing I would say is
+[27:58] to know before we let you go?
+[28:02] TZ: Actually the only thing I would say is
 just I always appreciate all the kinder words
-and the constructive criticism that you see
+[28:06] and the constructive criticism that you see
 within the forums I think i’ve read so many
-emails that are towards somebody stating something
+[28:11] emails that are towards somebody stating something
 along the lines of “I don’t think a developer
-or whoever is going to read this and la da
+[28:16] or whoever is going to read this and la da
 da” I’ve read so many of those and I don’t
-usually respond but I actually, do read a
+[28:20] usually respond but I actually, do read a
 whole lot of them
-JH: Yes. I hear that it’s Chris and Tony
+[28:23] JH: Yes. I hear that it’s Chris and Tony
 and Erin they read the forums, they read the
-Reddit, they read everything, because they
+[28:28] Reddit, they read everything, because they
 send us stuff, i’ll get an email at two
-o’clock in the morning Chris will go “This
+[28:31] o’clock in the morning Chris will go “This
 is a pretty good link”, and i’m like “Chris
-why are you reading the forums at 2 o’clock
+[28:35] why are you reading the forums at 2 o’clock
 in the morning and you’re sending me links”
-So yeah it’s fantastic. I’m certain our
+[28:38] So yeah it’s fantastic. I’m certain our
 community appreciates it
-TZ: I love the constant emboldment of the
+[28:42] TZ: I love the constant emboldment of the
 community and basically at times, it’s funny
-because sometimes you’re doing stuff in
+[28:50] because sometimes you’re doing stuff in
 an intermediate fashion, just because that’s
-the way the technology comes together and
+[28:55] the way the technology comes together and
 so you know that this is just a temporary
-solution and you’ll have people calling
+[28:59] solution and you’ll have people calling
 you on “This is not going to work for this
-reason” it’s like and there’s been so
+[29:02] reason” it’s like and there’s been so
 many times “I agree you just gotta wait
-a little bit longer and we’ll be getting
+[29:07] a little bit longer and we’ll be getting
 there”
-JH: Tony thanks so much, and back to you guys.
-ATV Behind the Scenes: Nyx
-Jared Huckaby: Thanks guys. On 
+[29:09] JH: Tony thanks so much, and back to you guys.
+[29:22] ATV Behind the Scenes: Nyx
+[29:40] Jared Huckaby: Thanks guys. On 
 this week’s ATV Behind the Scenes we sit
-down with Senior Technical Designer Rob Reininger
+[29:55] down with Senior Technical Designer Rob Reininger
 who is going to take us on a brief look at
-the Nyx landing zone. Rob, how are you doing
+[29:59] the Nyx landing zone. Rob, how are you doing
 man?
-Rob Reininger: Good, how are you doing?
-JH: Good. Now you work on a lot of things
+[30:01] Rob Reininger: Good, how are you doing?
+[30:03] JH: Good. Now you work on a lot of things
 for Star Citizen.
-RR: A few yeah
-JH: Just a few. I see your name in my email
+[30:05] RR: A few yeah
+[30:06] JH: Just a few. I see your name in my email
 quite often. But today we’re going to take
-a look at some of the early layout stage,
+[30:11] a look at some of the early layout stage,
 layout planning stages of the next landing
-zone.
-RR: Yeah absolutely.
-JH: So you got the will, take us into it.
-R: So Nyx is obviously a very big place, but
+[30:17] zone.
+[30:18] RR: Yeah absolutely.
+[30:19] JH: So you got the will, take us into it.
+[30:20] R: So Nyx is obviously a very big place, but
 what we’re showing you here is really the
-focal point of the landing zone. Every landing
+[30:26] focal point of the landing zone. Every landing
 zone got a landing pad, got a customs area,
-some of those core elements, but this is what
+[30:35] some of those core elements, but this is what
 you see outside of that right? So we need
-to figure out what all that stuff is, how
+[30:40] to figure out what all that stuff is, how
 it’s laid out, whether or not it’s going
-to feel good before we actually spend millions
+[30:47] to feel good before we actually spend millions
 of dollars actually building it out. So we
-start here in Visio where we kind of create
+[30:53] start here in Visio where we kind of create
 a grid that represents our actual world space,
-so in this case we each square here equals
+[31:00] so in this case we each square here equals
 four metres as you can see. So we just start
-laying out things that we think will be cool.
+[31:07] laying out things that we think will be cool.
 In this case this is kind of like the main
-reveal, every level has this moment where
+[31:13] reveal, every level has this moment where
 you turn a corner and ahh there’s the level
-in all it’s grandeur this is that point
+[31:21] in all it’s grandeur this is that point
 in this level for us.
-For Nyx this is like a multi tier, it was
+[31:28] For Nyx this is like a multi tier, it was
 a hollowed out, place that they used to work
-on, really big machinery here and it’s been
+[31:38] on, really big machinery here and it’s been
 over the years, rusted out and broken down
-and over time people have populated this once
+[31:46] and over time people have populated this once
 abandoned mining station that’s on an asteroid
-out in space. So there’s a lot of remnants
+[31:53] out in space. So there’s a lot of remnants
 of that stuff left in this area and they’ve
-converted into their kind of central hub for
+[31:59] converted into their kind of central hub for
 their shopping, there’re meeting places
-for just general everyday life, that you see
+[32:06] for just general everyday life, that you see
 bustling city this is that part of that.
-So what this area is; down below is going
+[32:14] So what this area is; down below is going
 to be little more of like a flea market kind
-of feel, we call it the bazaar area, just
+[32:21] of feel, we call it the bazaar area, just
 cause there’s a bunch of carts that people
-are kind of manning they’ve, set up shop
+[32:28] are kind of manning they’ve, set up shop
 and they’ve taken their local goods, a lot
-of the stuff is touted as made here locally
+[32:33] of the stuff is touted as made here locally
 and homegrown, or home brewed, or home made
-type things, so they bring, they brought those
+[32:42] type things, so they bring, they brought those
 things to sell to the rest of the people that,
-that need whatever goods and services they
+[32:48] that need whatever goods and services they
 provide
-JH: Somebody here brews their own liquor
-RR: This is true, yeah there’s always the
+[32:50] JH: Somebody here brews their own liquor
+[32:52] RR: This is true, yeah there’s always the
 crazy guy that’s making stuff in his garage.
-There’s definitely a few of those people
+[32:58] There’s definitely a few of those people
 here, but yeah this is kind of as you come
-in see to the lobby here right? You come in
+[33:04] in see to the lobby here right? You come in
 you get this cool little overview, where you’re
-up top and you’re going to be seeing down
+[33:10] up top and you’re going to be seeing down
 into this cool little busy market where lots
-of NPC’s are walking around and buying things,
+[33:16] of NPC’s are walking around and buying things,
 you’ll get the cart salesmans kind of “Hey
-come over here we’ve got the best this or
+[33:23] come over here we’ve got the best this or
 that it’s really fresh” whatever it is
-they’re trying to sell people as they walk
+[33:29] they’re trying to sell people as they walk
 by. We thought it would be a really cool vibe
-and feel to kind of just get this overview
+[33:34] and feel to kind of just get this overview
 of that scene, and how like that in the level
-and then to top off the shops that you have
+[33:42] and then to top off the shops that you have
 down below we have; a lot of our main shops
-will be kind of connected to this area to
+[33:50] will be kind of connected to this area to
 a certain degree.
-Things like: medical facility will have the
+[33:54] Things like: medical facility will have the
 ability to go buy your healing kits and your
-bandages, and your, stimpacks and other medical
+[34:01] bandages, and your, stimpacks and other medical
 supplies. If you res that’s where you’ll
-kind of come, so you dump yourself out rather
+[34:07] kind of come, so you dump yourself out rather
 than into the world here, it’s kind of a
-thing that we try and think about when we’re
+[34:11] thing that we try and think about when we’re
 laying this stuff out. If it’s off in the
-boonies and you have to run for five minutes
+[34:17] boonies and you have to run for five minutes
 to get back to civilisation or kind of get
-back to what you really care about that’s
+[34:22] back to what you really care about that’s
 kind of a bad design we’ll say. It makes
-for an awkward experience right? You’re
+[34:30] for an awkward experience right? You’re
 just like “Oh man I just want to get back
-to playing the game” So those kinds of things
+[34:34] to playing the game” So those kinds of things
 are things we try and consider at this level
-as opposed to building it all out in 3D and
+[34:41] as opposed to building it all out in 3D and
 be like “Oh well that didn’t work, let’s
-move this or that”
-JH: Much easier to do your explorations here
+[34:46] move this or that”
+[34:47] JH: Much easier to do your explorations here
 in Visio than..
-RR: Very much, very much yeah. So another
+[34:51] RR: Very much, very much yeah. So another
 shop on the bottom level is going to be a
-Conscientious Objects which is personal items.
+[34:57] Conscientious Objects which is personal items.
 If you’ve seen Cubby Blast in Area 18 it’s
-similar types of things, maybe not the higher
+[35:05] similar types of things, maybe not the higher
 end, military type tech this will b e more
-refurbished personal type things.
-The Cordry’s is FPS armour, components,
+[35:14] refurbished personal type things.
+[35:18] The Cordry’s is FPS armour, components,
 augmentations, upgrades for your armour suits.
-So you might be able to buy like oxygen extender
+[35:29] So you might be able to buy like oxygen extender
 or a speed mod chip that you can plug into
-your armour, that kind of stuff will be sold
+[35:38] your armour, that kind of stuff will be sold
 up here. Then other than that, outside of
-this area, we’ve got like a maintenance
+[35:44] this area, we’ve got like a maintenance
 place so you come in you need to refuel, get
-your ship repaired all that will be real close
+[35:49] your ship repaired all that will be real close
 to the landing pad, which is unfortunately
-not highlighted in this area, but yes pretty
+[35:54] not highlighted in this area, but yes pretty
 busy!
-JH: So can we take a look inside one of those
+[35:58] JH: So can we take a look inside one of those
 shops?
-RR: Absolutely, absolutely. So this is Cafe
+[36:01] RR: Absolutely, absolutely. So this is Cafe
 Musain. It’s the local bar, it’s kind
-of hollowed out, again a little background.
+[36:08] of hollowed out, again a little background.
 Nyx is on an asteroid so space is kind of
-a premium right? So that if it existed they’re
+[36:17] a premium right? So that if it existed they’re
 going to use, they’re not going to spend
-a lot of time and energy to carve out new
+[36:22] a lot of time and energy to carve out new
 places. This is kind of themed inside, a hollowed
-out cave, little more of a natural pocket
+[36:29] out cave, little more of a natural pocket
 of space, where they’ve thrown up walls
-where they could, little area down here will
+[36:36] where they could, little area down here will
 be in this small little secluded cave area,
-there’s little personal seating back here,
+[36:43] there’s little personal seating back here,
 got an open bar, a couple of lounge areas,
-this back area back here was originally storage
+[36:49] this back area back here was originally storage
 but they, little crime element might be hanging
-out back there kind of owning that space right?
-We get Conscience Objects, so this is entrance
+[36:58] out back there kind of owning that space right?
+[37:02] We get Conscience Objects, so this is entrance
 come in, there’s counters. We’ve got all
-the different weapons, grenades, ammos displayed
+[37:13] the different weapons, grenades, ammos displayed
 around the shop. You see the multi tier elements,
-the stairs here, so you get that height difference
+[37:23] the stairs here, so you get that height difference
 which is another thing we’re trying to incorporate
-into the areas that we make. Flat is boring.
-Cordry’s this was the original design for
+[37:29] into the areas that we make. Flat is boring.
+[37:35] Cordry’s this was the original design for
 it. This is a good example of we revise things
-before we really try and go to 3D with them.
+[37:40] before we really try and go to 3D with them.
 That was the original layout right? I didn’t
-think that was very interesting, so we’ve
+[37:48] think that was very interesting, so we’ve
 come up with a few additional layouts, since
-these are quick and easy to make, we’ve
+[37:54] these are quick and easy to make, we’ve
 come up with some more interesting things
-we think, that will help sell the feel of;
+[37:58] we think, that will help sell the feel of;
 carved out an asteroid thrown together, did
-what they could with what they had, but didn’t
+[38:11] what they could with what they had, but didn’t
 have the all the supplies you would normally
-have on a normal homeworld like Area 18. This
+[38:14] have on a normal homeworld like Area 18. This
 is a good example of where we go when we get
-something that we’re really not happy with.
-The theme of Cordry’s again is the armour
+[38:22] something that we’re really not happy with.
+[38:26] The theme of Cordry’s again is the armour
 shop, the maintenance is you don’t need
-a big place for some guy that basically, tell
+[38:33] a big place for some guy that basically, tell
 him to fish or stuff. You’re not going to
-be putting your ship in here, so they’re
+[38:40] be putting your ship in here, so they’re
 going to go out to your ship and do it, so
-you just need to come and order the thing
+[38:43] you just need to come and order the thing
 so that just needed to be a small little kiosk.
-Right not everything has to be big. Some might
+[38:46] Right not everything has to be big. Some might
 argue with that
-JH: *Laughs*
-RR: Medical facility, you got your back rooms
+[38:51] JH: *Laughs*
+[38:52] RR: Medical facility, you got your back rooms
 where you respawn in, wake up on a bed or
-depending on how you got there. You got your
+[38:59] depending on how you got there. You got your
 front area with the vending machines that
-have all your medical supplies. From here
+[39:04] have all your medical supplies. From here
 we go down, here’s some props that we need
-for the bar. We need the hero prop the booths,
+[39:15] for the bar. We need the hero prop the booths,
 the tables, the dividers for the booths, bar
-stools, the bar top, bar top corner piece.
+[39:22] stools, the bar top, bar top corner piece.
 We try and build things in a modular set,
-where we can kind of mix and match, and match
+[39:29] where we can kind of mix and match, and match
 our Legos together right?
-Just calling out a lot of these things that
+[39:34] Just calling out a lot of these things that
 we think we’ll need and these get paint
-overs once they get white boxed in the actual
+[39:41] overs once they get white boxed in the actual
 engine and a lot of props, barman props get
-called out from those, but this is the stuff
+[39:49] called out from those, but this is the stuff
 that I as a designer care about right? So
-this grows and grows and grows.
-JH: Somebody’s got build all these
-RR: Animations
-JH: Oh the animations!
-RR: Do you need ships? No I don’t. do I
+[39:58] this grows and grows and grows.
+[40:01] JH: Somebody’s got build all these
+[40:02] RR: Animations
+[40:03] JH: Oh the animations!
+[40:05] RR: Do you need ships? No I don’t. do I
 need characters? Yes I do. So it’s just
-a good, it’s a good way to get a really
+[40:11] a good, it’s a good way to get a really
 fine understanding of what you need to make
-this thing work before you actually try and
+[40:18] this thing work before you actually try and
 make it work
-JH: Alright. Well, Rob that’s great thanks
+[40:21] JH: Alright. Well, Rob that’s great thanks
 for taking the time to take us through this.
-Nyx is our next landing zone?
-RR: Yes it is
-JH: After corp 18, or Area 18 rather. No we’re
+[40:27] Nyx is our next landing zone?
+[40:30] RR: Yes it is
+[40:31] JH: After corp 18, or Area 18 rather. No we’re
 not going to tell you when you’re going
-to see it, but it will be there when it’s
+[40:35] to see it, but it will be there when it’s
 ready. Rob thanks for taking the
-time to take us through it. Back to you guys.
-MVP
-SG: But now it’s time for this week’s
+[41:14] time to take us through it. Back to you guys.
+[41:21] MVP
+[41:23] SG: But now it’s time for this week’s
 MVP.
-SG: This week’s MVP is yay! Jim!
+[41:49] SG: This week’s MVP is yay! Jim!
 BL: Hurray Jim! Jim made a fantastic Star
-Citizen commercial for the P-72 Archimedes,
+[42:08] Citizen commercial for the P-72 Archimedes,
 our most recent concept ship. Check it out!
-*MVP video noises*
+[42:16] *MVP video noises*
 SG: And finally here’s your art sneak peek.
-Art Sneak Peek
-[something]
-Outro
-BL: Be sure to
-tune into reverse the verse tomorrow at 11
+[42:28] Art Sneak Peek
+[42:29] [something]
+[42:31] Outro
+[42:32] BL: Be sure to
+[43:18] tune into reverse the verse tomorrow at 11
 A.M. Pacific on Twitch. We will be talking
-about those Freelancer images and more.
+[43:22] about those Freelancer images and more.
 SG: And of course thank you to all our subscribers
-for making this show possible. We will see
+[43:27] for making this show possible. We will see
 you next week on the holiday live stream
-BL: Hurray!
+[43:39] BL: Hurray!
 SG: Yay! streamers and party poppers.
-BL: Woosh! Santa might come...
+[44:01] BL: Woosh! Santa might come...

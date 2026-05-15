@@ -6,151 +6,151 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:09] Closed Captioning provided by the Imperial
 News Network.
-Mark Abent (MA): Hey everyone, welcome to
+[00:10] Mark Abent (MA): Hey everyone, welcome to
 BugSmashers and I got a joke for you.
-So what did the bug say to the code?
-It didn’t, it died …Let's get started!
-[BugSmashers]
-MA: Hey everyone, we’re here in fancy dancy
+[00:13] So what did the bug say to the code?
+[00:15] It didn’t, it died …Let's get started!
+[00:23] [BugSmashers]
+[00:24] MA: Hey everyone, we’re here in fancy dancy
 dying star.
-We’re looking at a fun little multiplayer
+[00:31] We’re looking at a fun little multiplayer
 bug where I have a client on the left and
-a client on the right.
-Now on the left guy, where I’m look at dictates
+[00:36] a client on the right.
+[00:38] Now on the left guy, where I’m look at dictates
 where I’m shooting, but as you can see on
-the right, my projectiles are always in the
+[00:44] the right, my projectiles are always in the
 front.
-So the client sees one thing and the other
+[00:50] So the client sees one thing and the other
 client sees another thing and what is happening
-here?
-Shenanigans with multiplayer.
-As you can see, nothing is getting synced
+[00:56] here?
+[00:57] Shenanigans with multiplayer.
+[01:01] As you can see, nothing is getting synced
 and it’s a little bit of a problem.
-All of our weapons, they all zero in on basically
+[01:06] All of our weapons, they all zero in on basically
 where this origin is on the reticule unless
-it’s fixed, then it goes to the other guy.
-However, none of them are actually aiming
+[01:16] it’s fixed, then it goes to the other guy.
+[01:18] However, none of them are actually aiming
 towards it on the remote client and well they
-can’t because they don’t know where that
+[01:25] can’t because they don’t know where that
 player is looking.
-However we have in the … where is my code,
+[01:28] However we have in the … where is my code,
 here’s my code.
-We have something called a weapon controller
+[01:33] We have something called a weapon controller
 and instead of sending network locations for
-every single one of those guns because we
+[01:39] every single one of those guns because we
 could have 10 to who knows, maybe 15 in the
-future?
-So instead of just sending networks to each
+[01:45] future?
+[01:48] So instead of just sending networks to each
 little guy, we just send where the players
-looking and then that will make all the guns
+[01:53] looking and then that will make all the guns
 look at that location.
-Only problem is, it wasn’t sending the information.
-So in our weapon controller we have a function
+[01:57] Only problem is, it wasn’t sending the information.
+[02:01] So in our weapon controller we have a function
 right here which the visor code or where you’re
-looking at, tells the weapons controller “Hey
+[02:08] looking at, tells the weapons controller “Hey
 look at here” because this is what the players
-looking at, the local player.
-This will call update weapons and this will
+[02:13] looking at, the local player.
+[02:15] This will call update weapons and this will
 basically go through all the weapons, cool!
-Only problem is, it’s not sending the information
+[02:21] Only problem is, it’s not sending the information
 to the clients.
-Now the good news is we have a client aspect.
-Client aspect means we have some information
+[02:25] Now the good news is we have a client aspect.
+[02:32] Client aspect means we have some information
 for the network that’s going to be sent
-out by ‘client owner’, the server dictates
+[02:36] out by ‘client owner’, the server dictates
 who that client is and if that client gets
-the delegation he’ll send his information
+[02:43] the delegation he’ll send his information
 to everyone, if the client doesn’t get the
-delegation then it will be server controlled.
-It is client controlled and we have, where
+[02:47] delegation then it will be server controlled.
+[02:50] It is client controlled and we have, where
 is it, let's check delegation … We should
-have delegation, yup!
-We have delegation and if we go into our weapon
+[03:01] have delegation, yup!
+[03:03] We have delegation and if we go into our weapon
 controller, it is requesting delegation.
-So the guy who uses this thing will get delegation
+[03:10] So the guy who uses this thing will get delegation
 by the server.
-However, it’s not.
-So if we go down here, any time we change
+[03:14] However, it’s not.
+[03:17] So if we go down here, any time we change
 our information we’re gonna have to update
-our network aspect.
-This is saying “hey, yes we have new information
+[03:23] our network aspect.
+[03:25] This is saying “hey, yes we have new information
 to send everyone because well, we’re dirty’.
-So we’ll mark the aspect dirty and it will
+[03:31] So we’ll mark the aspect dirty and it will
 flush all the information to the other clients.
-Now if I were to compile and test this, it
+[03:40] Now if I were to compile and test this, it
 would be broken because there was another
-issue with this other thing that we have called
+[03:46] issue with this other thing that we have called
 the network controller.
-This is a brand new thing that we’re bringing
+[03:52] This is a brand new thing that we’re bringing
 to our components, our items.
-This is going to be a future thing where it
+[03:58] This is going to be a future thing where it
 takes control of all of our aspects, you just
-say: ‘hey, I have some float, or some int,
+[04:03] say: ‘hey, I have some float, or some int,
 worry about the sinking for me, don’t worry
-about setting up aspects or anything crazy,
+[04:07] about setting up aspects or anything crazy,
 this will do it’.
-It’s kind of our replacement for later things
+[04:11] It’s kind of our replacement for later things
 when we get rid of aspects.
-For now, the only thing you have to worry
+[04:19] For now, the only thing you have to worry
 about is since the item can only be controlled
-by one client at the moment because of its
+[04:27] by one client at the moment because of its
 limitation of aspects, which in the future
-we want to get rid of… if someone else has
+[04:32] we want to get rid of… if someone else has
 requested it, that means this client will
-never ever update and unfortunately the energy
+[04:39] never ever update and unfortunately the energy
 pipes are using that network controller to
-request authority only problem is this function
+[04:47] request authority only problem is this function
 gets called on multiple clients so if you’re
-the lucky client over here who gets the information
+[04:57] the lucky client over here who gets the information
 before me.
-You’ll actually get the authority over the
+[05:01] You’ll actually get the authority over the
 weapon control which we don’t want right
-now so that goes goodbye.
-In the future, you’ll be able to have more
+[05:06] now so that goes goodbye.
+[05:09] In the future, you’ll be able to have more
 than one but for now we have to stick with
-our current networking scheme so we get rid
+[05:16] our current networking scheme so we get rid
 of that and make sure this is changed.
-So now we have recoded and unfortunately we
+[05:34] So now we have recoded and unfortunately we
 have to kind of reset the state because it
-gave the delegation to another client so we’re
+[05:41] gave the delegation to another client so we’re
 going to hop out of our seat and then hop
-back in.
-This will call basically reset all of the
+[05:49] back in.
+[05:51] This will call basically reset all of the
 states of the items so when the player actually
-sits down he’ll get the authority, bam.
-Let me hold down my magic ALT key, so if I
+[05:58] sits down he’ll get the authority, bam.
+[06:01] Let me hold down my magic ALT key, so if I
 fire on the bottom you see on the bottom,
-if I fire on the top, you see it on the top,
+[06:09] if I fire on the top, you see it on the top,
 if I fire on the right, you see it on the
-right.
-Everything has network synced, oh my gosh.
-I hope you guys liked that little tid bit,
+[06:14] right.
+[06:16] Everything has network synced, oh my gosh.
+[06:23] I hope you guys liked that little tid bit,
 weee.
-Just blow him up, die!
-That’s how you win.
-Alright everyone, as you saw here we had a
+[06:28] Just blow him up, die!
+[06:36] That’s how you win.
+[06:39] Alright everyone, as you saw here we had a
 little fun networking issue.
-We have a thing called delegation with our
+[06:44] We have a thing called delegation with our
 networking which allows a client to take control
-of an item and say, “Server, here’s some
+[06:50] of an item and say, “Server, here’s some
 information” or maybe send information to
-other clients, cool.
-Only problem is you can only have one of those
+[06:55] other clients, cool.
+[06:56] Only problem is you can only have one of those
 per item and it’s just not scalable and
-we’re working on stuff to allow you to have
+[07:03] we’re working on stuff to allow you to have
 more delegations.
-So, maybe we have a power plant some guy is
+[07:06] So, maybe we have a power plant some guy is
 able to fiddle with these settings while another
-guy is able to turn it on or change some other
+[07:12] guy is able to turn it on or change some other
 stuff.
-For right now, only one client can take control
+[07:16] For right now, only one client can take control
 of it and because of that we were using the
-new scheme on the old system and it just got
+[07:22] new scheme on the old system and it just got
 wonky so we had to make sure only one guy
-can take control and then we had to make sure
+[07:28] can take control and then we had to make sure
 the final thing is if we do have a change
-we flush the network and tell everyone about
+[07:34] we flush the network and tell everyone about
 it.
-Hope you guys enjoyed and until next time.
+[07:37] Hope you guys enjoyed and until next time.

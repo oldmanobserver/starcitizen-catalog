@@ -6,999 +6,999 @@
 
 ## Transcript
 
-This video made possible by the ICC Stellar
+[00:01] This video made possible by the ICC Stellar
 Surveyors and Subscribers like you!
-00:29 – Intro
-SG: Hey everybody and welcome to episode 2.07
+[00:10] 00:29 – Intro
+[00:20] SG: Hey everybody and welcome to episode 2.07
 of Around the Verse: “Gone to Texas”.
-I’m Sandi Gardiner
-BL: And I’m Ben Lesnick!
-SG: This week on Around the Verse we sit down
+[00:32] I’m Sandi Gardiner
+[00:33] BL: And I’m Ben Lesnick!
+[00:34] SG: This week on Around the Verse we sit down
 with Games Support Manager, Will Leverett,
-to find out what really goes into each Star
+[00:54] to find out what really goes into each Star
 Citizen update.
-BL: And then Chris Smith gives us the tour
+[01:32] BL: And then Chris Smith gives us the tour
 of the all new Connie currently being prepped
-for Star Citizen Alpha 2.0.
-SG: Excellent, I’m excited for that because
+[03:47] for Star Citizen Alpha 2.0.
+[05:13] SG: Excellent, I’m excited for that because
 that will help me move the collectors boxes
-along. And here we are visiting with our friends
+[09:58] along. And here we are visiting with our friends
 at Cloud Imperium Games Texas.
-BL: Cloud Imperium Games Texas here in Bee
+[11:56] BL: Cloud Imperium Games Texas here in Bee
 Cave just outside of Austin. The team here
-is responsible for Live Operations, keeping
+[11:59] is responsible for Live Operations, keeping
 the servers running; QA, they’ve been instrumental
-in building the Persistent Universe. And of
+[12:02] in building the Persistent Universe. And of
 course Austin looms large in Star Citizen’s
-history, this is where we kicked this whole
+[12:05] history, this is where we kicked this whole
 project off back at GDC Online in 2012.
-SG: Mm-hmm, and where we first met.
-BL: Yes! I met you for the first time at Richard
+[13:13] SG: Mm-hmm, and where we first met.
+[13:28] BL: Yes! I met you for the first time at Richard
 Garriott’s office, you were, we were rapidly
-redoing the presentation at the last minute.
-SG: That is true. And I think you were impressed
+[13:43] redoing the presentation at the last minute.
+[15:00] SG: That is true. And I think you were impressed
 with my eating skills. Remember that?
-BL: Yes, yes, I do remember that.
-SG: Meanwhile back at the ranch the Santa
+[15:31] BL: Yes, yes, I do remember that.
+[15:32] SG: Meanwhile back at the ranch the Santa
 Monica team is moving to our new headquarters
-this week so ATV will be coming from our new
+[15:35] this week so ATV will be coming from our new
 offices.
-BL: Yes. We can’t wait to show them off.
+[15:37] BL: Yes. We can’t wait to show them off.
 And see them ourselves!
-SG: Mm-hmm, and I am going to get in there
+[15:38] SG: Mm-hmm, and I am going to get in there
 with Tom and somebody he’s organised to
-build us some sets.
-BL: Yep, we have some exciting plans for our
+[15:40] build us some sets.
+[15:41] BL: Yep, we have some exciting plans for our
 shows, they’re going to look better than
-ever. Bear with us while we get that up and
+[16:29] ever. Bear with us while we get that up and
 running. It’s going to be good.
-SG: Sets on wheels!
-BL: Sets on wheels!
-SG: Sets on wheels.
-BL: Meanwhile the team everywhere else is
+[17:05] SG: Sets on wheels!
+[17:06] BL: Sets on wheels!
+[17:07] SG: Sets on wheels.
+[17:09] BL: Meanwhile the team everywhere else is
 busy with Star Citizen Alpha 2.0. We know
-everyone is curious when it’s coming, when
+[18:50] everyone is curious when it’s coming, when
 it’s coming. We can’t say yet because
-it has to go through the testing and then
+[18:53] it has to go through the testing and then
 bug fixing process, but we can say that it
-is now 100% content locked, nothing else can
+[18:55] is now 100% content locked, nothing else can
 be added to the build. So it’s all up to
-QA and the bug smashers to get this thing
+[18:57] QA and the bug smashers to get this thing
 out. And when it’s ready: we’ll tell you!
-SG: So let’s go to the Spectrum and find
+[19:01] SG: So let’s go to the Spectrum and find
 out what the teams have been working on.
-02:45 - News From Around the Verse
-EKD: Hey everybody and welcome back to Santa
+[19:07] 02:45 - News From Around the Verse
+[19:16] EKD: Hey everybody and welcome back to Santa
 Monica. I’m Eric Kieron Davis with …
-DV: Darian Vorlick.
-EKD: And we’ve got an update for you this
+[19:48] DV: Darian Vorlick.
+[19:50] EKD: And we’ve got an update for you this
 week. Darian what have we got?
-DV: So first and foremost you may have heard
+[19:56] DV: So first and foremost you may have heard
 that we are getting ready to move into our
-new building. A much larger facility so we
+[21:42] new building. A much larger facility so we
 can actually expand our staff. The place is
-actually pretty monstrous and we finalising
+[22:28] actually pretty monstrous and we finalising
 and packing up all our stuff. We’re starting
-the beginning of the move pretty soon. So
+[23:54] the beginning of the move pretty soon. So
 hopefully you can start seeing us broadcasting
-from the new place.
-EKD: It’s going to be very exciting. I know
+[23:56] from the new place.
+[23:57] EKD: It’s going to be very exciting. I know
 that everyone upstairs is going to be very
-jazzed and right now we’re just doing the
+[26:52] jazzed and right now we’re just doing the
 best we can to minimise the impact so we can
-keep development rolling. What else?
-DV: Let’s see. Oh, EMP!
-EKD: EMP!
-DV: EMP. So if you guys haven’t read on
+[29:17] keep development rolling. What else?
+[29:48] DV: Let’s see. Oh, EMP!
+[30:19] EKD: EMP!
+[30:31] DV: EMP. So if you guys haven’t read on
 the website there is a large description of
-how the EMP system works. What we’re doing
+[31:07] how the EMP system works. What we’re doing
 right now is actually finalising a lot on
-how the system will disable other components
+[32:19] how the system will disable other components
 such as the radar or the targeter or the identifier
-or even how it affects missiles if you get
+[32:20] or even how it affects missiles if you get
 hit by an EMP shock and how it affects even
-just your own ship. The EMP stuff is new functionality
+[32:21] just your own ship. The EMP stuff is new functionality
 we’re adding into the game, it’s pretty
-exciting and I can’t wait to see what it
+[32:22] exciting and I can’t wait to see what it
 looks like when the VFX guys finally create
-what that effect is going to look like.
-EKD: Yeah. That’s going to be really cool.
+[32:23] what that effect is going to look like.
+[32:25] EKD: Yeah. That’s going to be really cool.
 And we’re also working on, on top of all
-that, we’re concepting … we’re trying
+[32:33] that, we’re concepting … we’re trying
 to get a lot of the style guides put together
-for all the ships. It evolves over time, we’ve
+[32:37] for all the ships. It evolves over time, we’ve
 talked about that in previous all kinds of
-“10 For …” discussions. One of the ones
+[32:38] “10 For …” discussions. One of the ones
 we’re working on right now, Gurmukh has
-been working on, Anvil, alongside Mark Skelton,
+[32:39] been working on, Anvil, alongside Mark Skelton,
 and some of the ships we’re going to be
-debuting very soon.
-DV: So what this style guide is for is essentially
+[32:40] debuting very soon.
+[32:41] DV: So what this style guide is for is essentially
 creating a design standard base for each manufacturer,
-like if you saw the car manufacturer like
+[34:09] like if you saw the car manufacturer like
 Nissan or Honda. All of them has this standard
-uniform appearance to them: we’re trying
+[34:11] uniform appearance to them: we’re trying
 to do the same thing with our spaceships so
-you can recognise and Aegis or an Anvil or
+[34:12] you can recognise and Aegis or an Anvil or
 an RSI ship based on just its stylisation.
-EKD: And there you have it. That’s Santa
+[34:24] EKD: And there you have it. That’s Santa
 Monica. Again I’m Eric.
-DV: I’m Darian
-EKD: See you next week.
-4:43 - Austin TX
-JR: Hey guys Jake Ross here, Associate Producer
+[34:36] DV: I’m Darian
+[34:39] EKD: See you next week.
+[34:44] 4:43 - Austin TX
+[34:47] JR: Hey guys Jake Ross here, Associate Producer
 of the Persistent Universe, coming at you
-in High Definition. We have the Community
+[34:56] in High Definition. We have the Community
 Team out here from LA visiting us here in
-Austin so we have a proper video setup and
+[34:58] Austin so we have a proper video setup and
 actual audio microphone here, so that’s
-nice.
-JR: So I’m here with you today to talk a
+[34:59] nice.
+[35:00] JR: So I’m here with you today to talk a
 little bit about clothing, assets, animation
-and props. So we are working CGBot again on
+[35:01] and props. So we are working CGBot again on
 various things, primarily clothing assets
-for our Casaba Outlet shop which we’ve got
+[35:02] for our Casaba Outlet shop which we’ve got
 coming up here in a release here pretty soon.
-We got our first drop from them recently and
+[35:03] We got our first drop from them recently and
 we’re testing that out in game and its rolling
-really nicely. We have a few more assets in
+[35:04] really nicely. We have a few more assets in
 development with them so hopefully we’ll
-have a little bit more variety when the shop
+[35:05] have a little bit more variety when the shop
 first launches. So that’s pretty cool.
-JR: On the animation side we have Jay Brushwood
+[35:06] JR: On the animation side we have Jay Brushwood
 and Daniel Craig working on the Constellation
-animations basically just a final touch up
+[35:07] animations basically just a final touch up
 polish pass from those guys. They’ve got
-doors opening, little tier three animation
+[35:08] doors opening, little tier three animation
 polish is what we’re calling it. So that
-will be wrapping up here pretty soon, at which
+[35:09] will be wrapping up here pretty soon, at which
 point they’ll move on to the Vanguard animations.
-We’re excited to get them started on that.
-JR: Lastly we are working on designing the
+[35:10] We’re excited to get them started on that.
+[35:11] JR: Lastly we are working on designing the
 props we’re going to have for the Nyx Levski
-landing zone. We have our designers here in
+[35:12] landing zone. We have our designers here in
 house formulating a prop list; figuring out
-what they want to populate the environment
+[35:13] what they want to populate the environment
 with and then we’ll send that list off to
-the Prop Team in the UK and they’ll prioritise,
+[35:14] the Prop Team in the UK and they’ll prioritise,
 or rather provide the resources we need and
-we’ll prioritise they need to work on first.
+[35:15] we’ll prioritise they need to work on first.
 We trying to fill out that space as we near
-completion so that’ll be cool to see as
+[35:16] completion so that’ll be cool to see as
 well.
-JR: That’s all I got for you this week.
+[35:17] JR: That’s all I got for you this week.
 Thanks guys. See you.
-6:35 - Foundry 42, UK
-AT: Hey everybody, my name is Andrew Tidlesley,
+[35:18] 6:35 - Foundry 42, UK
+[35:19] AT: Hey everybody, my name is Andrew Tidlesley,
 I’m a Producer working on Squadron 42 on
-characters, faces and cinematics. And this
+[35:20] characters, faces and cinematics. And this
 is …
-JJ: Jon Jones, Lead Facial Animator.
-AT: Excellent. So we’re just continuing
+[35:21] JJ: Jon Jones, Lead Facial Animator.
+[35:22] AT: Excellent. So we’re just continuing
 from last week when Sian Crewe and Mike Dalston
-were speaking about the facial scanning experience
+[35:23] were speaking about the facial scanning experience
 in Ealing. Just going to bring you right up
-to speed with the facial pipeline. In short
+[35:24] to speed with the facial pipeline. In short
 once the scan is complete in Ealing; the facial
-data is sent across to 3Lateral, a company
+[35:25] data is sent across to 3Lateral, a company
 out in Serbia responsible for building the
-3D rig head. Takes approximately six weeks
+[35:26] 3D rig head. Takes approximately six weeks
 to build.
-JJ: Yep.
-AT: From there, we receive it back, fully
+[35:27] JJ: Yep.
+[35:28] AT: From there, we receive it back, fully
 3D and ready; we prep it for engine using
-Red9 tools; we do a quick polish pass and
+[35:29] Red9 tools; we do a quick polish pass and
 then we send that rig to Cubic Motion.
-JJ: Yeah.
-AT: Outsourcing company in Manchester who
+[35:30] JJ: Yeah.
+[35:31] AT: Outsourcing company in Manchester who
 responsible for facial animations.
-JJ: Yeah, goes to Cubic with all the head
+[35:32] JJ: Yeah, goes to Cubic with all the head
 cam footage which you can see on the screen
-here on this camera. They’ve got sixty days
+[35:33] here on this camera. They’ve got sixty days
 worth of footage from all the actors which
-they remap, pretty much one-to-one, from the
+[35:34] they remap, pretty much one-to-one, from the
 video footage onto the game characters. Looks
-awesome.
-AT: Looks uncomfortable!
-JJ: It is.
-AT: Okay, so from there we receive the facial
+[35:35] awesome.
+[35:36] AT: Looks uncomfortable!
+[35:37] JJ: It is.
+[35:38] AT: Okay, so from there we receive the facial
 animation data back from Cubic Motion; we
-align the body data that comes back from Imaginarium
+[35:39] align the body data that comes back from Imaginarium
 Studios with the face data that comes back
-from, that doesn’t help!
-JJ: Sorry!
-AT: Comes back from Cubic Motion and the audio
+[35:40] from, that doesn’t help!
+[35:41] JJ: Sorry!
+[35:42] AT: Comes back from Cubic Motion and the audio
 data as well; we do a quick polish pass; sync
-everything up
-JJ: Yep!
-AT: And that it. Bob’s your uncle. So the
+[35:43] everything up
+[35:44] JJ: Yep!
+[35:45] AT: And that it. Bob’s your uncle. So the
 first example of the facial pipeline in operation
-was the Bishop’s Speech, right?
-JJ: Yeah, yeah, that was the first big kind
+[35:46] was the Bishop’s Speech, right?
+[35:47] JJ: Yeah, yeah, that was the first big kind
 of stress test of the whole pipeline. Ran
-into a few issues that we got sorted and a
+[35:48] into a few issues that we got sorted and a
 few other bits and bobs which are still ongoing.
-So once they’re sorted it’s going to look
+[35:49] So once they’re sorted it’s going to look
 a whole lot better than what you’ve seen
-so far.
-AT: Excellent. Can’t wait. And that’s
+[35:50] so far.
+[35:51] AT: Excellent. Can’t wait. And that’s
 it from us.Thank’s very much guys.
-8:31 - Fondary 42, DE
-BC: Hey everyone, Brian Chambers from the
+[35:52] 8:31 - Fondary 42, DE
+[35:53] BC: Hey everyone, Brian Chambers from the
 Frankfurt office again. Thanks for watching.
-This week we have Hanness with us, the Director
+[35:54] This week we have Hanness with us, the Director
 of Cinematics, Cinematics Director?
-HA: Whatever.
-BC: Whatever. You’ve seen a lot of his work
+[35:55] HA: Whatever.
+[35:56] BC: Whatever. You’ve seen a lot of his work
 and he’s working hard. I’m glad to be
-able to pull him from his desk so he can come
+[35:57] able to pull him from his desk so he can come
 in and talk about what he’s been working
-on and so on.
-HA: Yeah. We are currently working on, which
+[35:58] on and so on.
+[35:59] HA: Yeah. We are currently working on, which
 is super exciting, on a scene where Mr Hamill
-goes into the cockpit again, so it’s like
+[36:00] goes into the cockpit again, so it’s like
 a return to what he did in several other franchises
-I would say! It’s a really, really nice
+[36:01] I would say! It’s a really, really nice
 scene and we basically… In the Cinematics
-department we are also always the first ones
+[36:02] department we are also always the first ones
 to actually have a look at the scanned heads
-when they come back so we can basically discuss
+[36:03] when they come back so we can basically discuss
 if the hair is good enough for certain close
-up or how the eyes look so we kind of get
+[36:04] up or how the eyes look so we kind of get
 this...
-BC: Yeah, I honestly saw his head for the
+[36:05] BC: Yeah, I honestly saw his head for the
 first time at your desk, I think yesterday
-or the day before. It was pretty, pretty nice.
-HA: And the John Rhys-Davies head is currently
+[36:06] or the day before. It was pretty, pretty nice.
+[36:07] HA: And the John Rhys-Davies head is currently
 prepared and my colleague is working on a
-scene in the UEE Navy Hospital but I don’t
+[36:08] scene in the UEE Navy Hospital but I don’t
 want to be called Mr Spoil-a-lot, so why you
-are in the hospital or if you are in the hospital
+[36:09] are in the hospital or if you are in the hospital
 or when you are in the hospital or something
-like this will not get discussed here. And
+[36:10] like this will not get discussed here. And
 then Frank, my Senior Environment Artist,
-is still working on some awesome skydock for
+[36:11] is still working on some awesome skydock for
 a giant captial ship which is also part of
-the story.
-BC: That’s cool. Yeah, we actually shared
+[36:12] the story.
+[36:13] BC: That’s cool. Yeah, we actually shared
 some of those pictures of the skydock for
-the Monthly Report we just put out.
-HA: The scene is like massive.
-BC: Yeah
-HA: Like, we were floating around to scene:
+[36:14] the Monthly Report we just put out.
+[36:15] HA: The scene is like massive.
+[36:16] BC: Yeah
+[36:17] HA: Like, we were floating around to scene:
 “Can you get closer to the ship” “Yeah,
-but it would like take 10 minutes or something!”
-BC: That’s cool.
-HA: It’s like six kilometers or something.
+[36:18] but it would like take 10 minutes or something!”
+[36:19] BC: That’s cool.
+[36:20] HA: It’s like six kilometers or something.
 Or five.
-BC: How would you say, so far, cinematic production
+[36:21] BC: How would you say, so far, cinematic production
 is going overall? Is it parts falling into
-place or you got bumps, you got issues? How’s
+[36:22] place or you got bumps, you got issues? How’s
 it going?
-HA: We are currently waiting on some of the
+[36:23] HA: We are currently waiting on some of the
 heads to be delivered but some of the main
-heads are already done. The selection process
+[36:24] heads are already done. The selection process
 of all the takes we did during the main shoot
-which we had at Imaginarium is also pretty
+[36:25] which we had at Imaginarium is also pretty
 much done. The shoot itself covered 90% or
-even more of the story material we actually
+[36:26] even more of the story material we actually
 need for the campaign.So in that regard we
-are really good. I think, it will be at one
+[36:27] are really good. I think, it will be at one
 point we might need to have one or two more
-animators in our department seeing the workload
+[36:28] animators in our department seeing the workload
 will be a lot when we finally get crunching
-on the heavier scenes with ten people on the
+[36:29] on the heavier scenes with ten people on the
 bridge or something like that.
-HA: What I like about this production is that
+[36:30] HA: What I like about this production is that
 we had this blueprint from the beginning with
-the script being done, and then there’s
+[36:31] the script being done, and then there’s
 not much edit any more to it, at least from
-a story point of view. Of course some of the
+[36:32] a story point of view. Of course some of the
 gameplay and the mission changes but the story
-is locked which is really nice. Every little
+[36:33] is locked which is really nice. Every little
 sentence is locked which even more.
-BC: It’s funny I’m sitting here smiling
+[36:34] BC: It’s funny I’m sitting here smiling
 because I was at the shoot for a period of
-time, I had my own copy of the script. Once
+[36:35] time, I had my own copy of the script. Once
 that script comes out to everybody and the
-story and all that is revealed: it’s cool!
+[36:36] story and all that is revealed: it’s cool!
 It kind of twists and turns and goes places
-you’re not quite sure where it was going
+[36:37] you’re not quite sure where it was going
 to and its...
-HA: And also, I think, the right amount of
+[36:38] HA: And also, I think, the right amount of
 humour without resorting to poop jokes or
-anything like this and it takes itself serious,
+[36:39] anything like this and it takes itself serious,
 but not too serious, and in moments it is
-really intelligent. I have to say Dave Haddock
+[36:40] really intelligent. I have to say Dave Haddock
 and Will Weisbaum did a nice job.
-BC: That’s cool. Cool. Well thanks again
+[36:41] BC: That’s cool. Cool. Well thanks again
 for watching guys. I could honestly sit here
-and talk with Hanness for another twenty minutes
+[36:42] and talk with Hanness for another twenty minutes
 about this but we try to keep these short
-and sweet like I always say. So thanks for
+[36:43] and sweet like I always say. So thanks for
 watching and we’ll see you next week.
-12:57 - ATV Interview with Will Leverett
-JH: Thanks guys, today we’re sitting down
+[36:44] 12:57 - ATV Interview with Will Leverett
+[36:45] JH: Thanks guys, today we’re sitting down
 with game support manager Will Leverett. Will,
-how you doing man?
-WL: What’s going on? How’s it going? Welcome
+[36:46] how you doing man?
+[36:47] WL: What’s going on? How’s it going? Welcome
 to Austin?
-JH: It’s been great. We just had Argentinian
+[36:48] JH: It’s been great. We just had Argentinian
 food at the cafe Buenos Ares.
-WL: Well you’ve got to get some breakfast
+[36:49] WL: Well you’ve got to get some breakfast
 tacos with us too. Best here in Texas.
-JH: Breakfast tacos, and I’m told we have
+[36:50] JH: Breakfast tacos, and I’m told we have
 to try Amy’s ice cream.
-WL: It’s really good, get that.
-JH: Well, mission accomplished already. So,
+[36:51] WL: It’s really good, get that.
+[36:52] JH: Well, mission accomplished already. So,
 game support manager.
-WL: Yes sir.
-JH: Let's start off by telling folks what
+[36:53] WL: Yes sir.
+[36:54] JH: Let's start off by telling folks what
 that is.
-WL: So, it’s a couple of things. The basic
+[36:55] WL: So, it’s a couple of things. The basic
 part of the job is doing basic technical support
-tickets, and that’s for anyone who has software
+[36:56] tickets, and that’s for anyone who has software
 or hardware problems. We work to troubleshoot,
-get those players back into the game. We used
+[36:57] get those players back into the game. We used
 to do bug reports through game support as
-well, but we’ve now moved that to the issue
+[36:58] well, but we’ve now moved that to the issue
 council, and so as you know we’ve worked
-with QA and Turbulent to get that up and running,
+[36:59] with QA and Turbulent to get that up and running,
 so we’re pretty proud of getting that up.
-The other part that we work with is we’re
+[37:00] The other part that we work with is we’re
 part of the live publish process, and what
-we do is help communicate to players the state
+[37:01] we do is help communicate to players the state
 at the surface, so it’s making sure players
-know downtimes, how long are the servers going
+[37:02] know downtimes, how long are the servers going
 to be down. We help manage PTU playtests,
-and we help make sure that we’re doing our
+[37:03] and we help make sure that we’re doing our
 best to communicate the state of the game
-as it is to players as best as we can.
-JH: And that includes patch notes?
-WL: That includes patch notes. Now, we’re
+[37:04] as it is to players as best as we can.
+[37:05] JH: And that includes patch notes?
+[37:06] WL: That includes patch notes. Now, we’re
 closely working with QA to do that, and we’re
-actually offloaded some of the duties off
+[37:07] actually offloaded some of the duties off
 to QA, so I’d be remiss by saying I do that
-by myself. I’d be kind of stealing, so apologies
+[37:08] by myself. I’d be kind of stealing, so apologies
 to QA. I’m not totally doing it by myself.
-JH: Ah, those QA guys, they just play video
+[37:09] JH: Ah, those QA guys, they just play video
 games all day.
-WL: *pew pew*
-JH: So, you’ve done this kind of work before,
+[37:10] WL: *pew pew*
+[37:11] JH: So, you’ve done this kind of work before,
 I take it. What are the ‘never during development’?
-WL: This has been a big challenge for me personally.
+[37:12] WL: This has been a big challenge for me personally.
 I’ve never done, never treated a game in
-development like a live service, and I think
+[37:13] development like a live service, and I think
 that’s been a challenge for a lot of us.
-There’s a lot of, I don’t want to say
+[37:14] There’s a lot of, I don’t want to say
 broken things, but just unfinished things
-that we put out for players to test, and so
+[37:15] that we put out for players to test, and so
 it’s been an experience trying to make sure
-that people keep their heads cool and understand
+[37:16] that people keep their heads cool and understand
 that yes, we’re in the Alpha phase of Star
-Citizen development, this is not the finished
+[37:17] Citizen development, this is not the finished
 product, and there’s lots more to come,
-and there’s a lot of polish to come.
-JH: In your defence, I don’t think anybody’s
+[37:18] and there’s a lot of polish to come.
+[37:19] JH: In your defence, I don’t think anybody’s
 done live support for a game in development
-of this size.
-WL: That’s true. That’s absolutely true.
+[37:20] of this size.
+[37:21] WL: That’s true. That’s absolutely true.
 But as they say, none of us is as dumb as
-all of us, right? That just popped into my
+[37:22] all of us, right? That just popped into my
 head, I love that.
-JH: I’m going to agree with you provisionally,
+[37:23] JH: I’m going to agree with you provisionally,
 and when we’re done, I’m going to think
-about that one…
-WL: But it is true. This is such a massive
+[37:24] about that one…
+[37:25] WL: But it is true. This is such a massive
 project and to do the game on its own would
-be a challenge on itself, but to do it while
+[37:26] be a challenge on itself, but to do it while
 we have live players testing and playing the
-game is certainly, fortunately we’ve got
+[37:27] game is certainly, fortunately we’ve got
 a lot of good playtesters out there who help
-us and give us fantastic data and feedback
+[37:28] us and give us fantastic data and feedback
 on what’s actually out there, and they’re
-pretty patient with us, we’ve got some pretty
+[37:29] pretty patient with us, we’ve got some pretty
 good people.
-JH: Now what’d you do before this? Where’d
+[37:30] JH: Now what’d you do before this? Where’d
 you come from?
-WL: So, before this I worked at NCsoft, worked
+[37:31] WL: So, before this I worked at NCsoft, worked
 on Guild Wars 2, worked on, we had Aion and
-Wildstar as well. Before that I had worked
+[37:32] Wildstar as well. Before that I had worked
 at Riot games, League of Legends. Before that
-at a previous stop at NCsoft, and I’d worked
+[37:33] at a previous stop at NCsoft, and I’d worked
 at EA for five years before that. 18 years
-in the industry, I feel like an old man here,
+[37:34] in the industry, I feel like an old man here,
 right? We were talking about that earlier.
-Just a couple of old coots now. But I started
+[37:35] Just a couple of old coots now. But I started
 back in 1997, almost on accident, and it’s
-been such a career, really blessed to do it.
-JH: Your game support staff is expanding,
+[37:36] been such a career, really blessed to do it.
+[37:37] JH: Your game support staff is expanding,
 tell us about that.
-WL: We’re doubling in size. I’m very proud
+[37:38] WL: We’re doubling in size. I’m very proud
 to say, we’re very excited to bring on our
-first team member in Manchester. We’re truly
+[37:39] first team member in Manchester. We’re truly
 excited about the first to have a presence
-in that office is going to be very helpful
+[37:40] in that office is going to be very helpful
 for us, in terms of just communication and
-getting information to the Devs over in that
+[37:41] getting information to the Devs over in that
 studio, but also just timezone differences.
-So, we run these playtests, right now I have
+[37:42] So, we run these playtests, right now I have
 to run them at one time, because I’m only
-one man, it’s true, I can only do so much.
+[37:43] one man, it’s true, I can only do so much.
 What we’re hoping to do is expand our playtest
-over a different set of hours so that we can
+[37:44] over a different set of hours so that we can
 better service our European players as well
-as our US players, and ultimately what this’ll
+[37:45] as our US players, and ultimately what this’ll
 allow us to do is get better response times
-so that when you send a ticket, we get back
+[37:46] so that when you send a ticket, we get back
 to you pretty quick.
-JH: So, before we let you go, what’s something
+[37:47] JH: So, before we let you go, what’s something
 that the players can do to help you guys do
-your job?
-WL: What is..
-JH: Besides use the issue council. Use the
+[37:48] your job?
+[37:49] WL: What is..
+[37:50] JH: Besides use the issue council. Use the
 issue council.
-WL: Issue council…
-JH: How can they use the Issue Council more
+[37:51] WL: Issue council…
+[37:52] JH: How can they use the Issue Council more
 effectively?
-WL: So, actually, we’ve actually had surprisingly
+[37:53] WL: So, actually, we’ve actually had surprisingly
 good feedback, and participation, in the Issue
-Council so far. We didn’t really know what
+[37:54] Council so far. We didn’t really know what
 to expect, there aren’t a lot of people
-doing anything like this, and we’re so pleased
+[37:55] doing anything like this, and we’re so pleased
 with it, there’s so many people who go to
-report bugs, for both the launcher and the
+[37:56] report bugs, for both the launcher and the
 game there, and just, if anyone doesn’t
-know how it works, you enter a bug, it gets
+[37:57] know how it works, you enter a bug, it gets
 repeated by other players a certain amount
-of times. At that point, it gets kicked over
+[37:58] of times. At that point, it gets kicked over
 to our QA department, right, who does analyse
-it and see if they try to reproduce it on
+[37:59] it and see if they try to reproduce it on
 their end, and on that point it goes into
-our pipeline, right, and so that is, that’s
+[38:00] our pipeline, right, and so that is, that’s
 amazing, we’ve actually closed the feedback
-loop, it’s what we’ve always wanted in
+[38:01] loop, it’s what we’ve always wanted in
 operations of online video games, and now
-we’re able to present that to players, so
+[38:02] we’re able to present that to players, so
 I think the biggest thing that they can do
-is help participate in the Issue Council,
+[38:03] is help participate in the Issue Council,
 just because they’re actually making the
-game better, which is what we’re all here
+[38:04] game better, which is what we’re all here
 for, so…
-JH: And, finally, before you go, tell us something
+[38:05] JH: And, finally, before you go, tell us something
 fun or interesting about yourself, maybe not
-even necessarily work related.
-WL: Okay, I like explosives, I like storm
+[38:06] even necessarily work related.
+[38:07] WL: Okay, I like explosives, I like storm
 chasing, and I travel the world to go get
-into fights with other soccer fans, and it’s
+[38:08] into fights with other soccer fans, and it’s
 true. All these things are true.
-JH: I could pursue that more, but I’m not
+[38:09] JH: I could pursue that more, but I’m not
 going to. Okay, well, thanks a lot, thanks
-for coming on, back to you guys!
-WL: Thank you, appreciate it.
-20:13 - Ship Shape: The RSI Constellation
-Jared Huckaby - JH: Thanks guys. On this episode
+[38:10] for coming on, back to you guys!
+[38:11] WL: Thank you, appreciate it.
+[38:12] 20:13 - Ship Shape: The RSI Constellation
+[38:13] Jared Huckaby - JH: Thanks guys. On this episode
 of ship shape, were sitting down with principal
-vehicle artist Chris Smith, and Josh Coons
+[38:14] vehicle artist Chris Smith, and Josh Coons
 to discuss the upcoming rework of the constellation.
-Chris, how are you doing?
-Chris Smith - CS: Hey, how’s it going Jared?
-JH: Good! Now, you’ve been working on the
+[38:15] Chris, how are you doing?
+[38:16] Chris Smith - CS: Hey, how’s it going Jared?
+[38:17] JH: Good! Now, you’ve been working on the
 constellation for quite some time now.
-CS: Yeah, we’ve been on it for a little
+[38:18] CS: Yeah, we’ve been on it for a little
 while since february to be exact.
-JH: Mmmkay. Coming up with Alpha 2.0 we’ll
+[38:19] JH: Mmmkay. Coming up with Alpha 2.0 we’ll
 get to see the fruits of your labours
-CS: Right, Finally!
-JH: [Laughs] Finally. Now you’re going to
+[38:20] CS: Right, Finally!
+[38:21] JH: [Laughs] Finally. Now you’re going to
 take us through a tour of the inside of the
-constellation and later on we'll get a Josh
+[38:22] constellation and later on we'll get a Josh
 Coons in here and he’ll take us through
-the external. Now this is still work in progress,
+[38:23] the external. Now this is still work in progress,
 Alpha is not out yet, there still working
-on things, integrating the various builds
+[38:24] on things, integrating the various builds
 and stuff but he was kind enough to offer
-to take us through so let's see what they
+[38:25] to take us through so let's see what they
 got. Chris, I leave it to you!
-CS: Alright. So yes it’s still a work in
+[38:26] CS: Alright. So yes it’s still a work in
 progress but we are very far into it, we’re
-very close to being done with it. I’ll just
+[38:27] very close to being done with it. I’ll just
 swoop into the interior and walk you guys
-through it. Here we have the front bulkhead
+[38:28] through it. Here we have the front bulkhead
 area and so the main difference that we did
-right away when we started rebuilding the
+[38:29] right away when we started rebuilding the
 constellation was to separate it out into
-modular sections so that we have a nose section
+[38:30] modular sections so that we have a nose section
 and a neck section and a body section and
-a tail section.
-That counts for the interiors and as well
+[38:31] a tail section.
+[38:32] That counts for the interiors and as well
 for the exterior and that helps us actually
-in the future for making variances and anything
+[38:33] in the future for making variances and anything
 like that. We can, instead of building a whole
-new ship we can just swap out at piece and
+[38:34] new ship we can just swap out at piece and
 it becomes a new ship. Since most of our variances
-build that way it lends itself very well that.
-Here is the nose bulkhead and the immediate
+[38:35] build that way it lends itself very well that.
+[38:36] Here is the nose bulkhead and the immediate
 change was to add a bulkhead to this area
-which didn’t exist in the previous version.
+[38:37] which didn’t exist in the previous version.
 There was actually no door here and so everything
-was left open and beyond this door there’s
+[38:38] was left open and beyond this door there’s
 an airlock. If someone wanted to EVA out,
-the whole cockpit would be essentially exposed
+[38:39] the whole cockpit would be essentially exposed
 to the environment and potentially space so
-that wasn’t very acceptable so we added
+[38:40] that wasn’t very acceptable so we added
 this bulkhead here which I think adds visually
-and makes it a nice segment and makes it a
+[38:41] and makes it a nice segment and makes it a
 nice cockpit area; really I just want to say
-on the purpose of this ship and the area.
-See here we have the seats, the pilot seat,
+[38:42] on the purpose of this ship and the area.
+[38:43] See here we have the seats, the pilot seat,
 as you can see too we got a lot of small detail
-and brought it up to the same visual standards
+[38:44] and brought it up to the same visual standards
 of the retaliator when it was made so everything
-is super high detail and fidelity compared
+[38:45] is super high detail and fidelity compared
 to the rest of the ships. Whoops, i’m like
-climbing up on the chair now.
-JH: Kids gets down, Get down!
-CS: [Chuckles]. This also represents a first
+[38:46] climbing up on the chair now.
+[38:47] JH: Kids gets down, Get down!
+[38:48] CS: [Chuckles]. This also represents a first
 lighting pass of the interior lighting of
-this ship; as you can see it’s sort got
+[38:49] this ship; as you can see it’s sort got
 a little fog in there and atmosphere and everything.
-It’s still not done yet, there’s still
+[38:50] It’s still not done yet, there’s still
 some work to be done and we'll have another
-pass on the interior lighting but it’s getting
+[38:51] pass on the interior lighting but it’s getting
 there. You know you can see the details like
-the lighting through the grading here which
+[38:52] the lighting through the grading here which
 is cool and stuff like that.
-Another big change to the front was the turret
+[38:53] Another big change to the front was the turret
 entrance and the previous version, the entrance
-was actually on the other side so you essentially
+[38:54] was actually on the other side so you essentially
 had to walk over here and face this way to
-get into the turret but now all you have to
+[38:55] get into the turret but now all you have to
 do is just walk straight and then you can
-already use the turret. So that was a big
+[38:56] already use the turret. So that was a big
 I think, request too by the fans’ over the
-times that we’ve had the old connie out.
+[38:57] times that we’ve had the old connie out.
 There were tons of remodels and remakes done
-by fans, some to great success, we’ve actually
+[38:58] by fans, some to great success, we’ve actually
 adapted a lot of those changes into our own
-change. A lot of those requests were heard
+[38:59] change. A lot of those requests were heard
 and answered in this one.
-JH: I’m gonna throw you a tough question
+[39:00] JH: I’m gonna throw you a tough question
 here. One of those most common requests is
-the inverted bottom turret.
-CS: Yeah
-JH: I noticed we don’t have the inverted
+[39:01] the inverted bottom turret.
+[39:02] CS: Yeah
+[39:03] JH: I noticed we don’t have the inverted
 bottom turret in there. Can you talk about
-why we haven’t done the inverted bottom
+[39:04] why we haven’t done the inverted bottom
 turret.
-CS: So you’re saying a request was actually
+[39:05] CS: So you’re saying a request was actually
 to have it flipped?
-JH: Basically you go down the stairs
-CS: Like the retaliator?
-JH: Exactly like the retaliator so they get
+[39:06] JH: Basically you go down the stairs
+[39:07] CS: Like the retaliator?
+[39:08] JH: Exactly like the retaliator so they get
 the same field of view as the guy up top.
-CS: Well initially were thinking about it
+[39:09] CS: Well initially were thinking about it
 but it was going to take a little more remodel
-that area and to make that facilitate that
+[39:10] that area and to make that facilitate that
 and it was actually going to take too long
-for the time that we had even though we had
+[39:11] for the time that we had even though we had
 a long time to model this. When we spent 8
-months on this ship and in the last 2 months
+[39:12] months on this ship and in the last 2 months
 working really hard just to get it to a point
-and were still not even done so these ships
+[39:13] and were still not even done so these ships
 take a long long time, you need time to add
-new mechanics and stuff like that and adds
+[39:14] new mechanics and stuff like that and adds
 even more time and R&D and all that stuff.
-The Retaliator turret was done; when that
+[39:15] The Retaliator turret was done; when that
 was sort of progress and the whole debate
-about it. We were sort of already sort of
+[39:16] about it. We were sort of already sort of
 past that part, we didn’t want to go back
-and then have to redo it so we kept it the
+[39:17] and then have to redo it so we kept it the
 way it is, in this case. Although I will say
-JH: Field of view is much better than it was
+[39:18] JH: Field of view is much better than it was
 just looking at the CitizenCon demo.
-CS: Yeah what we did was more or less we have
+[39:19] CS: Yeah what we did was more or less we have
 this chair on a swivel, so it kinda swivels
-like a rocking chair backwards so you can
+[39:20] like a rocking chair backwards so you can
 look down as you move it around so that was
-sort of a bit of a compromise to help out
+[39:21] sort of a bit of a compromise to help out
 the visual part. Another thing was we were
-concerned about the playability of the inverted
+[39:22] concerned about the playability of the inverted
 turret. I’m not sure if the fans like the
-inverted turret.
-JH: Everybody talks about lots of things,
+[39:23] inverted turret.
+[39:24] JH: Everybody talks about lots of things,
 But until you get in there and play with it
-you never know whether it will work or not.
-CS: It was a concern you know that it might
+[39:25] you never know whether it will work or not.
+[39:26] CS: It was a concern you know that it might
 even be confusing to have an inverted turret
-so I guess maybe the jury is still out on
+[39:27] so I guess maybe the jury is still out on
 that
-JH: I guess we'll find out with the Retaliator
+[39:28] JH: I guess we'll find out with the Retaliator
 actually.
-CS: [Laughs] That was probably the biggest
+[39:29] CS: [Laughs] That was probably the biggest
 piece recently for keeping a list. Time constraints
-and also I don’t think every turret has
+[39:30] and also I don’t think every turret has
 to be a flip turret.
-JH: No
-CS: It was sort of like, well keep it with
+[39:31] JH: No
+[39:32] CS: It was sort of like, well keep it with
 the original style of the Constellation
-JH: Not all ships are supposed to be all things.
-CS: Yeah you can’t have everything with
+[39:33] JH: Not all ships are supposed to be all things.
+[39:34] CS: Yeah you can’t have everything with
 everything… or can you? Well maybe you can…
-[chuckles]. We’ll see, hey! You know maybe
+[39:35] [chuckles]. We’ll see, hey! You know maybe
 in the future we'll have a flip down turret
-version of the constellation. So here we are
+[39:36] version of the constellation. So here we are
 at the neck component of the ship. This will
-be the living quarters so my intent when I
+[39:37] be the living quarters so my intent when I
 redid the interior of the constellation was
-to really have a distinctive feel when you
+[39:38] to really have a distinctive feel when you
 walk through the ship, front to back.
-You know you’re in a different room so not
+[39:39] You know you’re in a different room so not
 everything looks for the same so I made this
-room very contrast to the front of the room
+[39:40] room very contrast to the front of the room
 so it’s a lot brighter and wider and it’s
-more the living area right so it’s a little
+[39:41] more the living area right so it’s a little
 more friendly and added a lot more brighter
-colours. So right here we have the bench and
+[39:42] colours. So right here we have the bench and
 there’s a retractable table and shelves,
-kitchen area, stuff like that. Fridge and
+[39:43] kitchen area, stuff like that. Fridge and
 here’s the airlock which was in the original
-model which was a big circular airlock. I
+[39:44] model which was a big circular airlock. I
 made it a rectangular shape because actually
-with this ship we can now fit all the crew
+[39:45] with this ship we can now fit all the crew
 members on at once and get them down to the
-bottom so you don’t have do a one by one.
+[39:46] bottom so you don’t have do a one by one.
 The other one was a bit smaller and the shape
-of it didn’t lend it well to getting everyone
+[39:47] of it didn’t lend it well to getting everyone
 on there.
-JH: That’s the beautiful thing about game
+[39:48] JH: That’s the beautiful thing about game
 development, it’s iterative. You try things,
-some things work and some things don’t
-CS: Yeah you found out right? Quickly
-JH: [Laughs]
-CS: And here we have the bathroom which is
+[39:49] some things work and some things don’t
+[39:50] CS: Yeah you found out right? Quickly
+[39:51] JH: [Laughs]
+[39:52] CS: And here we have the bathroom which is
 actually… In the.. I doubt it works at this
-point but I’m not going to risk it.
-JH: Is the bathroom on the Constellation dangerous?
-CS: Oh here we go, it does work. So here I
+[39:53] point but I’m not going to risk it.
+[39:54] JH: Is the bathroom on the Constellation dangerous?
+[39:55] CS: Oh here we go, it does work. So here I
 made it actually a combo so it’s actually
-a shower with a toilet so you can do all of
+[39:56] a shower with a toilet so you can do all of
 it at once if you really want to, if you feel
-so inclined. The idea is that you either go
+[39:57] so inclined. The idea is that you either go
 into brush your teeth or shower or you go
-in for you know, number one of number 2.
-JH: After the starfarer incident I have to
+[39:58] in for you know, number one of number 2.
+[39:59] JH: After the starfarer incident I have to
 ask, where’s the toilet paper?
-CS: Oh… Good question.. In space they don’t
+[40:00] CS: Oh… Good question.. In space they don’t
 use toilet paper..
-JH: Just floats away?
-CS: Do they have toilet paper in the future?
+[40:01] JH: Just floats away?
+[40:02] CS: Do they have toilet paper in the future?
 Maybe it’s an automatic bidet
-JH: There was an old thing with an internal
+[40:03] JH: There was an old thing with an internal
 starfarer concept art that they had the toilet
-paper right under the shower head
-CS: Oh wha.. [Laughs]
-JH: Yeah got a comment about that so the toilet
+[40:04] paper right under the shower head
+[40:05] CS: Oh wha.. [Laughs]
+[40:06] JH: Yeah got a comment about that so the toilet
 paper was obviously going to get wet. But
-you apparently don’t have toilet paper at
+[40:07] you apparently don’t have toilet paper at
 all.
-CS: I don’t have toilet paper at all
-JH: So bring toilet paper with you when you
+[40:08] CS: I don’t have toilet paper at all
+[40:09] JH: So bring toilet paper with you when you
 go into the constellation bathroom
-CS: You know what guys I’ll add that just
+[40:10] CS: You know what guys I’ll add that just
 for you.
-JH: Or the three sea shells…. I can’t
+[40:11] JH: Or the three sea shells…. I can’t
 say it.
-CS: I’ll add some Charmin in there… Alright
+[40:12] CS: I’ll add some Charmin in there… Alright
 so there’s the toilet and here we have lockers
-and then i’ve also added an armory station
+[40:13] and then i’ve also added an armory station
 where machine guns and weapons can be added
-which wasn’t there in the previous connie
+[40:14] which wasn’t there in the previous connie
 which is very important for multi-crew ships.
-That was added, I added it to the living area
+[40:15] That was added, I added it to the living area
 because I thought it made most sense, it was
-close to the front cockpit area and it was
+[40:16] close to the front cockpit area and it was
 centralized and it was in the living quarters
-you know, if they like get an emergency call,
+[40:17] you know, if they like get an emergency call,
 they have to jump out of bed and they’ll
-be right there.
-JH: Makes sense, you don’t want to have
+[40:18] be right there.
+[40:19] JH: Makes sense, you don’t want to have
 to cover the entire length of the ship.
-CS: Here we also have the escape pods and
+[40:20] CS: Here we also have the escape pods and
 beds. Unfortunately I don’t think these
-doors work at the moment, but these doors
+[40:21] doors work at the moment, but these doors
 would kind of split off and open up. So this
-was another big change. In the previous version,
+[40:22] was another big change. In the previous version,
 well actually the previous version we had
-the escape pods already shuttered off and
+[40:23] the escape pods already shuttered off and
 airlocked out. But it looked very primitive,
-I guess, and textures and everything. So I
+[40:24] I guess, and textures and everything. So I
 just spruced it up and put some windows there
-and just made it look better over all. But
+[40:25] and just made it look better over all. But
 the same concept applies, so that way when
-they EVA out nothing gets exposed to the environment.
-CS: Here we get into the main cargo area,
+[40:26] they EVA out nothing gets exposed to the environment.
+[40:27] CS: Here we get into the main cargo area,
 which we call the body module. And this is
-the main part of the ship and the biggest
+[40:28] the main part of the ship and the biggest
 part of the ship. And this actually went somewhat
-relatively unchanged functionality wise. The
+[40:29] relatively unchanged functionality wise. The
 cargo area is the same space as it was before,
-the way it opens and the way jettisons is
+[40:30] the way it opens and the way jettisons is
 the same way too.
-CS: The main thing that I’ve added was a
+[40:31] CS: The main thing that I’ve added was a
 missile reload system. So when you walk over
-here you can actually see it. I took a little
+[40:32] here you can actually see it. I took a little
 visual cue, functionality cue from the Retaliator
-what Nathan did with his cool view, you can
+[40:33] what Nathan did with his cool view, you can
 see the missile bay area, which I thought
-was awesome. I thought it would be cool to
+[40:34] was awesome. I thought it would be cool to
 add something similar to that here. So right
-above this, the missiles go straight up, that’s
+[40:35] above this, the missiles go straight up, that’s
 where the missile launcher for the exteriors
-are. And so they just, all after the top missiles
+[40:36] are. And so they just, all after the top missiles
 get shot off, these guys just kind of slot
-up into the top part of the missile launcher
+[40:37] up into the top part of the missile launcher
 and then they get shot out. If somebody were
-standing there they could see it actually
+[40:38] standing there they could see it actually
 happening with the missiles moving eventually.
-CS: Then here we have the airlock, which is
+[40:39] CS: Then here we have the airlock, which is
 also the docking collar from the side, which
-stayed in the same space as the original Connie.
+[40:40] stayed in the same space as the original Connie.
 Walk through here. Also another big thing
-we’ve added a lot of the components to this
+[40:41] we’ve added a lot of the components to this
 ship so eventually these boxes here will be
-replaced by actual components, avionics, that
+[40:42] replaced by actual components, avionics, that
 you’ll be able to service and repair and
-all that stuff. Right now I made these blocked
+[40:43] all that stuff. Right now I made these blocked
 off boxes but I indicated where they will
-go. Right now they are not serviceable but
+[40:44] go. Right now they are not serviceable but
 they’re there in the game you play.
-CR: And here we get to the tail area intersection
+[40:45] CR: And here we get to the tail area intersection
 which is also where the Merlin is docked.
-Then we come down here. And so here is the
+[40:46] Then we come down here. And so here is the
 Merlin, we made it very simple and so you
-see all you do is walk right up to it and
+[40:47] see all you do is walk right up to it and
 then you may be able to jump in your Merlin.
-Right through the glass!
-JH: In this build there are some animation
+[40:48] Right through the glass!
+[40:49] JH: In this build there are some animation
 issues?
-CS: For sure. What I have here is not the
+[40:50] CS: For sure. What I have here is not the
 final build or anything there’s animations
-that I have missing from this. So don’t
+[40:51] that I have missing from this. So don’t
 get worried.
-JH: We wanted to get this for you today, so
+[40:52] JH: We wanted to get this for you today, so
 we’re working with what we got.
-CS: Yeah this is pretty much it. Josh (Coons)
+[40:53] CS: Yeah this is pretty much it. Josh (Coons)
 should be able to show you the exterior
-JH: We’re going to take a minute and come
+[40:54] JH: We’re going to take a minute and come
 back with Josh Coons. Thanks Chris.
-CS: Later! Thank you
-JH: Now we’re here with 3D artist Josh Coons
+[40:55] CS: Later! Thank you
+[40:56] JH: Now we’re here with 3D artist Josh Coons
 who worked with Chris on the exterior of the
-Connstellation. Josh, how’re you doing man?
-JC: Doing good.
-JH: Now we’ve got a couple minutes left
+[40:57] Connstellation. Josh, how’re you doing man?
+[40:58] JC: Doing good.
+[40:59] JH: Now we’ve got a couple minutes left
 so take us through the exterior and show us
-what you got
-JC: When we got the original mesh for this
+[41:00] what you got
+[41:01] JC: When we got the original mesh for this
 ship it was how we say in the biz “Not optimised”.
-So my main goal, first goal was to go through
+[41:02] So my main goal, first goal was to go through
 and make sure the polygons being used on the
-ship were actually being seen by the player.
+[41:03] ship were actually being seen by the player.
 After deleting all that, I found out I could
-pretty much just do whatever I want on this
+[41:04] pretty much just do whatever I want on this
 ship and just add the crazy detail of the
-place. Which is good! We want that. I did
+[41:05] place. Which is good! We want that. I did
 some overall exterior silhouette tweaks trying
-to make it more angular, we have an evolving
+[41:06] to make it more angular, we have an evolving
 RSI style guide right now and we pushed that
-a little bit as we were making the ship.
-JC: Here we have the new front end. We wanted
+[41:07] a little bit as we were making the ship.
+[41:08] JC: Here we have the new front end. We wanted
 to make it look more framey, more industrial
-and constructed. Show you where the parts
+[41:09] and constructed. Show you where the parts
 are put together. We had a significant pass
-over the maneuvering thrusters and positioning.
+[41:10] over the maneuvering thrusters and positioning.
 I completely redid those as well a little
-bit more detail on to that because they had
+[41:11] bit more detail on to that because they had
 none! Also for the nose section which is what
-we’re currently looking at the turret bay
+[41:12] we’re currently looking at the turret bay
 doors not a lot of detail in here. Went back
-and did some interior goods. Some decals which
+[41:13] and did some interior goods. Some decals which
 may be missing right now no they’re there
-it’s just dark in here! Some LED lighting,
+[41:14] it’s just dark in here! Some LED lighting,
 wanted some lighting states for battle mode
-and you know some real Star Trek influenced
+[41:15] and you know some real Star Trek influenced
 type stuff a little bit more exciting and
-added to the game play. So where the turrets
+[41:16] added to the game play. So where the turrets
 pop out we have the new wing sections as well
-as the new flaps. These are up to my quality
+[41:17] as the new flaps. These are up to my quality
 bar!
-JH: No kidding!
-JC: They were telling me in the beginning
+[41:18] JH: No kidding!
+[41:19] JC: They were telling me in the beginning
 we had this RSI proprietary turbine technology
-which would be located on other ships yet
+[41:20] which would be located on other ships yet
 to be made so i wanted to make sure those
-were super cool in re-use. Once I looked at
+[41:21] were super cool in re-use. Once I looked at
 them they were like a bajillion polys! They
-are not hooked up in the scene right now but
+[41:22] are not hooked up in the scene right now but
 once you guys get your hands on the file aim
-for this part. Blow those doors off you’ll
+[41:23] for this part. Blow those doors off you’ll
 be able to check them out.
-JC: Moving on to the previously mentioned
+[41:24] JC: Moving on to the previously mentioned
 next section we have the new cover caps for;
-this is where you’ll be jettisoning out
+[41:25] this is where you’ll be jettisoning out
 this side and this is a top escape bay. Passenger’s…
-no, it’s driver’s side, well… depends
+[41:26] no, it’s driver’s side, well… depends
 what country you’re in. More details I wanted
-to add in some kind of clues as to how this
+[41:27] to add in some kind of clues as to how this
 works I’ve got some dead-charge packs down
-here. Just make it feel more believable. You
+[41:28] here. Just make it feel more believable. You
 got your top hatch exit. Also on the bottom.
-Chris may have mentioned in the interior walk
+[41:29] Chris may have mentioned in the interior walk
 through, that we made this bigger so now instead
-of one dude going down everybody on the ship
+[41:30] of one dude going down everybody on the ship
 can go down. You can get 5 people on this
-as it goes down. Bottom escape pods but it’s
+[41:31] as it goes down. Bottom escape pods but it’s
 a little dark right now.
-JC: The main body section completely revamped
+[41:32] JC: The main body section completely revamped
 these missile launcher fold outs. I think
-you guys will be more pleased with the shape
+[41:33] you guys will be more pleased with the shape
 they were kind of, they felt kind of flimsy
-so we thickened them up made them more beefy.
+[41:34] so we thickened them up made them more beefy.
 More lights, the side air lock entrance, a
-lot more beefy. There’s still a lot more
+[41:35] lot more beefy. There’s still a lot more
 detail i’d like to do so far as the exterior
-goes. What you’re viewing now is the new
+[41:36] goes. What you’re viewing now is the new
 missile deploy. So on the old Connie, they
-kind of just came out sadly and you couldn’t
+[41:37] kind of just came out sadly and you couldn’t
 really see how they worked, so now they pop
-up at a sweet angle and when these get launched,
+[41:38] up at a sweet angle and when these get launched,
 I figure you’re going to see a cool pattern
-as to how they deploy. For the front main
+[41:39] as to how they deploy. For the front main
 missiles. These got overhauled a lot I went
-back and forth with Chris Roberts on the design
+[41:40] back and forth with Chris Roberts on the design
 of these things, me and him had pretty much
-the same consensus on they were just too noisy
+[41:41] the same consensus on they were just too noisy
 so we dialled those back added some front
-DRL influenced type of landing scheme for
+[41:42] DRL influenced type of landing scheme for
 the front. We now have the deployable countermeasures
-built into the sides.
-JC: This thing was titanic. This is the biggest
+[41:43] built into the sides.
+[41:44] JC: This thing was titanic. This is the biggest
 model I have ever worked on in my life! It’s
-absolutely huge. I wanted to integrate a lot
+[41:45] absolutely huge. I wanted to integrate a lot
 more glass covered tech. Just to make it a
-little bit more complete. I added a little
+[41:46] little bit more complete. I added a little
 Constellation (here) so it’s a little Star
-Trek rip here. I wanted to add that in. Ship
+[41:47] Trek rip here. I wanted to add that in. Ship
 ain’t a ship without a name.
-JC: Moving back to the tail a little plane
+[41:48] JC: Moving back to the tail a little plane
 back here. Now the lighting is not finished
-yet so ignore all the blinky lights because
+[41:49] yet so ignore all the blinky lights because
 they are not set-up right. And here we have
-our new super proud of this got a lot of help
+[41:50] our new super proud of this got a lot of help
 from Elwin on hooking this bad boy up. But
-the new Merlin dock I think the crowd will
+[41:51] the new Merlin dock I think the crowd will
 find a lot more, i’ll just say cool! Backward
-turbine housings and nacelle attach point
+[41:52] turbine housings and nacelle attach point
 to the back. Looks like we may have a smoothing
-error right here. Just trying to get more
+[41:53] error right here. Just trying to get more
 details in there cause there just wasn't enough
-details. New lights new landing gear the jet
+[41:54] details. New lights new landing gear the jet
 skis are gone so no more alpine skiing landing
-gears a lot more beefy, chunky, they form
+[41:55] gears a lot more beefy, chunky, they form
 fit a whole lot better. Overall the shapes
-are a lot better and believe it or not this
+[41:56] are a lot better and believe it or not this
 Constellation is I think half a million less
-polys than the original model and it looks
+[41:57] polys than the original model and it looks
 like twice the polys.
-JH: Yeah looks fantastic
-JC: Thank you
-JH: Folks are going to be stoked that’s
+[41:58] JH: Yeah looks fantastic
+[41:59] JC: Thank you
+[42:00] JH: Folks are going to be stoked that’s
 why I wanted to do this. Wanted to get it
-out cause even with the CitizenCon demo we
+[42:01] out cause even with the CitizenCon demo we
 got to see some of the inside but we never
-really got a real great look at the exterior
+[42:02] really got a real great look at the exterior
 of the ship so I wanted to show that off.
-Alright Josh I think that’s great this is
+[42:03] Alright Josh I think that’s great this is
 easily the longest Ship Shape we’ve ever
-done. So thanks to you and Chris for sitting
+[42:04] done. So thanks to you and Chris for sitting
 down and taking us on a tour of this. Again
-this will come with alpha 2.0 and it will
+[42:05] this will come with alpha 2.0 and it will
 have its lighting and will look even better
-than what you’re seeing here today. So Josh
+[42:06] than what you’re seeing here today. So Josh
 thanks man
-JC: Thank you
-JH: Back to you guys.
-BL: *singing* My Connie lies over the ocean
-SG: Alright, no singing.
-BL: One hundred thousand. How many Aurora
+[42:07] JC: Thank you
+[42:08] JH: Back to you guys.
+[42:09] BL: *singing* My Connie lies over the ocean
+[42:10] SG: Alright, no singing.
+[42:11] BL: One hundred thousand. How many Aurora
 pilots have crashed into asteroids? How many
-times Chris Roberts has answered questions
+[42:12] times Chris Roberts has answered questions
 about whether or not you can own space stations
-in 10 for the Chairman? How many Cheesits
+[42:13] in 10 for the Chairman? How many Cheesits
 have backers have sent to the office?
-SG: It’s how many followers the Star Citizen
+[42:14] SG: It’s how many followers the Star Citizen
 Facebook has! It’s over 100,000.
-BL: Wooo! One hundred thousand!
-SG: So, more would be great. We also have
+[42:15] BL: Wooo! One hundred thousand!
+[42:16] SG: So, more would be great. We also have
 a Squadron 42 Facebook page, that has I think
-three followers, so if you are a Facebook
+[42:17] three followers, so if you are a Facebook
 follower, get out there and follow Squadron
-42. Also we have Squadron 42 on our Instagram,
+[42:18] 42. Also we have Squadron 42 on our Instagram,
 which we’re going to be populating a bit
-more, and also on Twitter.
-BL: Yup, we have kicked off social media for
+[42:19] more, and also on Twitter.
+[42:20] BL: Yup, we have kicked off social media for
 Squadron 42. There’s a Facebook, Twitter,
-and Instagram. If you are a social media fan,
+[42:21] and Instagram. If you are a social media fan,
 check those out, and of course we have those
-active for all of Star Citizen also. So, we
+[42:22] active for all of Star Citizen also. So, we
 push everything from collectible trading cards
-to screenshots to the latest news. It’s
+[42:23] to screenshots to the latest news. It’s
 a great place to hear about Star Citizen!
-SG: And now, it’s time for MvP!
-44:54 - MVP
-SG: Do we have the Envelope?
-BL: Sure, why not! Here’s the envelope…
-SG: The envelope please… Are you serious?
-BL: We forgot to make an envelope
-SG: Okay, great. And the winner is Shane!
-BL: Shane was the person who put together
+[42:24] SG: And now, it’s time for MvP!
+[42:25] 44:54 - MVP
+[42:26] SG: Do we have the Envelope?
+[42:27] BL: Sure, why not! Here’s the envelope…
+[42:28] SG: The envelope please… Are you serious?
+[42:29] BL: We forgot to make an envelope
+[42:30] SG: Okay, great. And the winner is Shane!
+[42:31] BL: Shane was the person who put together
 the fantastic Star Citizen Bar Citizen party
-last night
-SG: Not last night, Sunday night.
-BL: Sunday night, yes, because we didn’t
+[42:32] last night
+[42:33] SG: Not last night, Sunday night.
+[42:34] BL: Sunday night, yes, because we didn’t
 shoot this on Monday at all. So he organized
-an event kind fo spur of the moment for about
+[42:35] an event kind fo spur of the moment for about
 100 people, had to change venues in mid stream
-at the last minute, he handled all that, organized
+[42:36] at the last minute, he handled all that, organized
 it all, and it was such a big help to us,
-it was a cool event too. We got to meet all
+[42:37] it was a cool event too. We got to meet all
 sorts of backers, talk Star Citizen, which
-is pretty much what we like to do, and
-SG: It was a great event, and in two weeks
+[42:38] is pretty much what we like to do, and
+[42:39] SG: It was a great event, and in two weeks
 time we’re looking at having another little
-get together, this time with Chris and Erin
-BL: We’ll post more details about that shortly.
+[42:40] get together, this time with Chris and Erin
+[42:41] BL: We’ll post more details about that shortly.
 And here it is! Your art sneak peek!
-46:00 - Art Sneak Peek
-SG: And what was that?
-BL: We’ll find out…
-SG: Tomorrow!
-BL: We’ll be answering your questions about
+[42:42] 46:00 - Art Sneak Peek
+[42:43] SG: And what was that?
+[42:44] BL: We’ll find out…
+[42:45] SG: Tomorrow!
+[42:46] BL: We’ll be answering your questions about
 that art sneak peek, about Star Citizen in
-general, at the very last Reverse the ‘Verse
+[42:47] general, at the very last Reverse the ‘Verse
 from the old office! Tomorrow at 11am Pacific
-on Twitch, join us to talk Star Citizen!
-SG: And check back later in the week for a
+[42:48] on Twitch, join us to talk Star Citizen!
+[42:49] SG: And check back later in the week for a
 weekly development update on Star Citizen
-Alpha 2.0!
-BL: We’re getting close. we’re all very
+[42:50] Alpha 2.0!
+[42:51] BL: We’re getting close. we’re all very
 excited, ah… you’re going to like this
-one.
-SG: Finally, there’s no Around the ‘Verse
+[42:52] one.
+[42:53] SG: Finally, there’s no Around the ‘Verse
 next week, and Ben was supposed to say that.
-BL: We’ve kind of mixed up who’s saying
+[42:54] BL: We’ve kind of mixed up who’s saying
 what at this point, but we’re just going
-with it.
-SG: Because we’re having a 3 hour livestream
+[42:55] with it.
+[42:56] SG: Because we’re having a 3 hour livestream
 instead. We’re kicking off Star Citizen's
-3rd anniversary party, 11am to 2pm PST, or
+[42:57] 3rd anniversary party, 11am to 2pm PST, or
 PDT…
-BL: I think it’s… I think we’re back
+[42:58] BL: I think it’s… I think we’re back
 to PST
-SG: Alright.
-BL: And we will have Chris and the rest of
+[42:59] SG: Alright.
+[43:00] BL: And we will have Chris and the rest of
 the gang answering your questions and presenting
-some pretty cool stuff they’ve been working
+[43:01] some pretty cool stuff they’ve been working
 on since CitizenCon. I know I say this about
-everything, but you won’t want to miss this
+[43:02] everything, but you won’t want to miss this
 one.
-SG: Mhmm. 11am to 2pm PST. And, as always,
+[43:03] SG: Mhmm. 11am to 2pm PST. And, as always,
 thank you very much to subscribers for making
-this show possible, and all of our other video
+[43:04] this show possible, and all of our other video
 content possible, and allowing us to come
-here to Austin Texas. We will see you next
+[43:05] here to Austin Texas. We will see you next
 week on the livestream!
-BL: The livestream, yes! And the week after,
+[43:06] BL: The livestream, yes! And the week after,
 Around the ‘Verse on our new sets!
-SG: Woohoo
+[43:07] SG: Woohoo

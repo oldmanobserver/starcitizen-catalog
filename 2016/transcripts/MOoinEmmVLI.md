@@ -6,1259 +6,1259 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:01] Closed Captioning provided by the Imperial
 News Network.
-Sandi Gardiner (SG): Hey everybody welcome
+[00:13] Sandi Gardiner (SG): Hey everybody welcome
 back to Around the Verse.
-I’m Sandi Gardiner.
-Ben Lesnick (BL): I’m Ben Lesnick.
-SG: This week in the AtV Interview Jared sits
+[00:31] I’m Sandi Gardiner.
+[00:32] Ben Lesnick (BL): I’m Ben Lesnick.
+[00:34] SG: This week in the AtV Interview Jared sits
 down with US Art Director Mark Skelton to
-discuss his work on Star Citizen.
-BL: And the Star Citizen Flight Team sits
+[00:38] discuss his work on Star Citizen.
+[00:40] BL: And the Star Citizen Flight Team sits
 down in a round table to talk about how they
-created the games flight model, where it came
+[00:45] created the games flight model, where it came
 from, where it’s going and more.
-SG: Yay!
-What about Ship Shape?
-BL: It’s called Ship Shape.
-The segment’s called Ship Shape.
-[both laugh]
-Thomas Hennessy (TH): [off camera] Keep it.
-BL: Keep it!
-TH: [off camera] Keep it!
-SG: But first the 2016 Planning Summit continues
+[00:49] SG: Yay!
+[00:50] What about Ship Shape?
+[00:52] BL: It’s called Ship Shape.
+[00:53] The segment’s called Ship Shape.
+[00:54] [both laugh]
+[00:55] Thomas Hennessy (TH): [off camera] Keep it.
+[00:57] BL: Keep it!
+[00:58] TH: [off camera] Keep it!
+[01:00] SG: But first the 2016 Planning Summit continues
 here in LA.
-Tony Zurovec, Erin Roberts, and members from
+[01:05] Tony Zurovec, Erin Roberts, and members from
 all the studios continue to plot the course
-for Star Citizen’s immediate future.
-BL: It’s great walking by Chris’ office
+[01:09] for Star Citizen’s immediate future.
+[01:11] BL: It’s great walking by Chris’ office
 and seeing them all engaged in some deep conversation.
-SG: Yes and Ben actually found some priceless
+[01:17] SG: Yes and Ben actually found some priceless
 photos.
-We should show them on ATV.
-BL: I think we can’t show these photos but
+[01:20] We should show them on ATV.
+[01:22] BL: I think we can’t show these photos but
 we did find a box of their old, glossy headshots
-they’d taken when they started Digital Anvil
+[01:28] they’d taken when they started Digital Anvil
 many, many years ago after Wing Commander
-and ...
-SG: Why can’t we show the photos?
-BL: We can show some of photos.
-[NO WAY, MAN.
-I LIKE MY JOB.]
-BL: There’s at least one we can’t show.
-SG: That’s true.
-That is true.
-And part of the future is a change to how
+[01:31] and ...
+[01:32] SG: Why can’t we show the photos?
+[01:34] BL: We can show some of photos.
+[01:35] [NO WAY, MAN.
+[01:36] I LIKE MY JOB.]
+[01:37] BL: There’s at least one we can’t show.
+[01:38] SG: That’s true.
+[01:39] That is true.
+[01:40] And part of the future is a change to how
 new players can pledge for Star Citizen and
-Squadron 42.
-BL: Yes we’ve been talking about splitting
+[01:44] Squadron 42.
+[01:45] BL: Yes we’ve been talking about splitting
 up the Star Citizen and Squadron 42 packages
-for quite a while now and it is finally happening.
-We are announcing here officially that it
+[01:51] for quite a while now and it is finally happening.
+[01:53] We are announcing here officially that it
 will be the perfect day to split things up:
-Valentine's Day, February 14th!
-BL: When we kicked this off we essentially
+[01:58] Valentine's Day, February 14th!
+[02:00] BL: When we kicked this off we essentially
 sold everybody two games for the price of
-one: Star Citizen and Squadron 42.
-And our early backers all have the advantage
+[02:04] one: Star Citizen and Squadron 42.
+[02:06] And our early backers all have the advantage
 of the fact that they can get these two games
-for $45.
-And now new folks that come in much later
+[02:10] for $45.
+[02:11] And now new folks that come in much later
 will have to get them separately.
-So if you have not pledged for Star Citizen,
+[02:17] So if you have not pledged for Star Citizen,
 first of all why are you watching Around the
-Verse, but please so before …
-SG: Because they want to watch.
-Jeepers!
-BL: Maybe it’s our sparkling repartee is
+[02:22] Verse, but please so before …
+[02:25] SG: Because they want to watch.
+[02:27] Jeepers!
+[02:28] BL: Maybe it’s our sparkling repartee is
 so good.
-SG: I know, yes.
-We’re just so amazingly awkward that it’s
+[02:30] SG: I know, yes.
+[02:31] We’re just so amazingly awkward that it’s
 endearing.
-BL: So pick up Star Citizen and Squadron 42
+[02:34] BL: So pick up Star Citizen and Squadron 42
 together before Valentine’s Day.
-Makes a great gift for Valentine’s Day too
+[02:41] Makes a great gift for Valentine’s Day too
 if you ...
-SG: We’re going to split up on Valentine’s
+[02:43] SG: We’re going to split up on Valentine’s
 Day?
-BL: Yes we’re splitting up on Valentine’s
+[02:46] BL: Yes we’re splitting up on Valentine’s
 Day.
-SG: Alright.
-It’s very sad.
-Yesterday was the monthly Subscriber Edition
+[02:47] SG: Alright.
+[02:48] It’s very sad.
+[02:49] Yesterday was the monthly Subscriber Edition
 of Reverse the Verse with special guest Sean
-Tracy.
-BL: Which was fantastic because he knows everything,
+[02:53] Tracy.
+[02:54] BL: Which was fantastic because he knows everything,
 talks a lot and we can all just sit back.
-Sort of like when you have a hangover at a
+[02:59] Sort of like when you have a hangover at a
 meeting and you’re just in the corner like
-this [screws up face].
-We didn’t have to do anything.
-It was great!
-SG: Now let’s check in with our studios
+[03:03] this [screws up face].
+[03:04] We didn’t have to do anything.
+[03:05] It was great!
+[03:06] SG: Now let’s check in with our studios
 around the world for News From Around the
-Verse.
-News From Around The ‘Verse
-Los Angeles
-Darian Vorlick (DV): Hey everyone, here we
+[03:10] Verse.
+[03:11] News From Around The ‘Verse
+[03:15] Los Angeles
+[03:17] Darian Vorlick (DV): Hey everyone, here we
 are back actually to sunny southern California
-again.
-The rain has kind of passed.
-Here we are this weeks update out of LA.
-I’m Darian Vorlick
-Eric Kieron Davis (EKD): I’m Eric Kieron
+[03:24] again.
+[03:25] The rain has kind of passed.
+[03:26] Here we are this weeks update out of LA.
+[03:28] I’m Darian Vorlick
+[03:29] Eric Kieron Davis (EKD): I’m Eric Kieron
 Davis.
-DV: So why don’t we start?
-EKD: So we got a few cool things to talk about
+[03:30] DV: So why don’t we start?
+[03:32] EKD: So we got a few cool things to talk about
 on the concepting side.
-Gurmukh, one of our concepters Gurmukh he’s
+[03:36] Gurmukh, one of our concepters Gurmukh he’s
 been working pretty hard the last few days
-on the additional Caterpillar concepts.
-So there was some items as design started
+[03:41] on the additional Caterpillar concepts.
+[03:45] So there was some items as design started
 flushing out they realized we’d like to
-see what that would look like more visually.
-So they asked Gurmukh to do what he does best
+[03:49] see what that would look like more visually.
+[03:51] So they asked Gurmukh to do what he does best
 and show us what it would like like with these
-new ideas.
-That’s what he’s going to be spending
+[03:56] new ideas.
+[03:57] That’s what he’s going to be spending
 a little bit of time on to get that thing
-ready for production.
-DV: If you’ve seen any of his concept art
+[03:59] ready for production.
+[04:00] DV: If you’ve seen any of his concept art
 on our website you can see what kind of quality
-work this guys does.
-I mean this guy is an incredibly talented
+[04:04] work this guys does.
+[04:05] I mean this guy is an incredibly talented
 artist
-EKD: And what it’s great for is it really
+[04:06] EKD: And what it’s great for is it really
 allows not only the 3d Modellers to see, but
-the Designers to see it and that allows Chris
+[04:11] the Designers to see it and that allows Chris
 to see it, everybody kind of gets to see what
-the designees are fleshing out to be at the
+[04:14] the designees are fleshing out to be at the
 beginning before we get everyone involved
-on digging in and getting the the ship ready
+[04:18] on digging in and getting the the ship ready
 to fly.
-Additionally on the concepting side, Jeremiah
+[04:21] Additionally on the concepting side, Jeremiah
 Lee, he’s back to working on a lot of character
-clothing.
-We have a lot of character clothing items,
+[04:24] clothing.
+[04:25] We have a lot of character clothing items,
 Forest and I just talked about that recently
-on 10 for the Developers.
-There’s a lot of clothes that were still
+[04:28] on 10 for the Developers.
+[04:29] There’s a lot of clothes that were still
 fleshing out and a lot of ideas for what these
-clothes look like and there’s a lot of of
+[04:33] clothes look like and there’s a lot of of
 manufactures who are still trying to show
-you what they look like.
-He’s again doing what he does best and fleshing
+[04:38] you what they look like.
+[04:39] He’s again doing what he does best and fleshing
 those out.
-DV: Any scarves?
-EKD: No scarves on these characters just yet,
+[04:40] DV: Any scarves?
+[04:41] EKD: No scarves on these characters just yet,
 maybe later.
-DV: On the engineering side.
-Our Flight Engineer guy who came up with the
+[04:45] DV: On the engineering side.
+[04:46] Our Flight Engineer guy who came up with the
 IFCS system John Pritchett, He’s actually
-been working on the hud for EVA and outer
+[04:51] been working on the hud for EVA and outer
 space.
-Not only is he adding the element on what
+[04:55] Not only is he adding the element on what
 you should be seeing as you're moving around
-outside of your vehicle during extravehicular
+[05:01] outside of your vehicle during extravehicular
 activities.
-Sounds like you don’t have physical education.
-We’re going to do some EVA today.
-He’s coming up with a tactile system on
+[05:04] Sounds like you don’t have physical education.
+[05:06] We’re going to do some EVA today.
+[05:09] He’s coming up with a tactile system on
 how your hud should look, what you should
-be seeing.
-He’s also been doing cleanup on the the
+[05:15] be seeing.
+[05:16] He’s also been doing cleanup on the the
 ships as well so we want to make them pop
-a little more, clean them up a little bit
+[05:22] a little more, clean them up a little bit
 and really give them that extra sparkle.
-EKD: He’s a busy busy man.
-DV: Yes, he’s a very busy guy and a very
+[05:27] EKD: He’s a busy busy man.
+[05:28] DV: Yes, he’s a very busy guy and a very
 intelligent and smart and talented engineer
-as well
-EKD: Well that’s it from LA I’m Eric
-DV: I’m Darian
-EKD: See you next week.
-Austin
-Jake Ross (JR): Hey guys Jake Ross here, Associate
+[05:31] as well
+[05:32] EKD: Well that’s it from LA I’m Eric
+[05:34] DV: I’m Darian
+[05:36] EKD: See you next week.
+[05:37] Austin
+[05:38] Jake Ross (JR): Hey guys Jake Ross here, Associate
 Producer of Persistent Universe.
-I’m here with you this week to talk to you
+[05:42] I’m here with you this week to talk to you
 a little bit about what’s going on here
-in Austin.
-First right off the bat, we just finished
+[05:46] in Austin.
+[05:48] First right off the bat, we just finished
 up the improvements on our end for the party
-system.
-I know that’ll be a welcome news to a lot
+[05:53] system.
+[05:54] I know that’ll be a welcome news to a lot
 of you guys out there.
-The party system was in desperate need of
+[05:58] The party system was in desperate need of
 improvements so we had Tom Sawyer on this
-and doing some backend server work to help
+[06:02] and doing some backend server work to help
 make the party system run a little smoother,
-leaving enough room in a server for allocating
+[06:09] leaving enough room in a server for allocating
 enough space in a server for party members.
-If there’s a server that’s full, allocating
+[06:15] If there’s a server that’s full, allocating
 you to another server with your friends instead
-of splitting you up, that kind of stuff was
+[06:23] of splitting you up, that kind of stuff was
 in the works, always in the plan to do, but
-we didn’t get around to it for the first
+[06:30] we didn’t get around to it for the first
 iteration, but now we have a little bit of
-that in.
-We’re also working with the team at behavior
+[06:33] that in.
+[06:34] We’re also working with the team at behavior
 to improve some of the UI elements in the
-party system, but the next build we’ll have
+[06:39] party system, but the next build we’ll have
 a lot of improvements on the backend so we’re
-excited to throw all those out here pretty
+[06:44] excited to throw all those out here pretty
 soon.
-Next I have on the list is Hurston.
-I’ve talked a few week back about Hurston
+[06:49] Next I have on the list is Hurston.
+[06:52] I’ve talked a few week back about Hurston
 layout being kind of finalized and complete
-so now we’ve expanded that into the shops
+[06:58] so now we’ve expanded that into the shops
 of Hurston.
-So now we’re laying out the shops and whiteboxing
+[07:03] So now we’re laying out the shops and whiteboxing
 those.
-It’s a hero landing zone so it’s going
+[07:08] It’s a hero landing zone so it’s going
 to have a whole lot of new shops to uncover
-and stuff and buy things from.
-So a couple examples is Clears, which is a
+[07:15] and stuff and buy things from.
+[07:16] So a couple examples is Clears, which is a
 clothing shop and being on a Hurston kind
-of mining, blue collar type world we’re
+[07:22] of mining, blue collar type world we’re
 going to have a lot of blue collar type fashion
-to buy from Clears as well as some white collar
+[07:29] to buy from Clears as well as some white collar
 stuff.
-Huston is kind of seperated in between the
+[07:34] Huston is kind of seperated in between the
 blue collar workers and the high class white
-collar types, there will be a little bit of
+[07:41] collar types, there will be a little bit of
 both and nice different flavours in that shop.
-We also have the Huston Dynamic Showcase which
+[07:46] We also have the Huston Dynamic Showcase which
 for those who don’t know, Hurston is a manufacture
-of ship weapons.
-So it’s their speciality and they’ll have
+[07:52] of ship weapons.
+[07:53] So it’s their speciality and they’ll have
 their own Hurston Dynamics shop there on the
-planet where you can buy specialty Hurston
+[08:00] planet where you can buy specialty Hurston
 items, that’ll be pretty cool.
-We’ll probably have a focus in the near
+[08:05] We’ll probably have a focus in the near
 to midterm on churning out some more Hurston
-ship weapons so we can fill that shop when
+[08:11] ship weapons so we can fill that shop when
 it comes online.
-Last thing was Reclamation and Disposal, which
+[08:16] Last thing was Reclamation and Disposal, which
 is not so original name, but it’s for salvage.
-So for those who are interesting in salvaging,
+[08:23] So for those who are interesting in salvaging,
 go out and salvage those all the parts, bring
-it it to Hurston and go to Reclamation and
+[08:27] it it to Hurston and go to Reclamation and
 Disposal and get money for those parts.
-It’s the first kind of salvage type shop
+[08:31] It’s the first kind of salvage type shop
 we’ve worked on so we’re kind of trying
-to get it just right.
-So the Hurston layout is going along really
+[08:37] to get it just right.
+[08:38] So the Hurston layout is going along really
 well and the white box is in progress also.
-Pretty soon we’ll be handing off both the
+[08:44] Pretty soon we’ll be handing off both the
 shops and the city itself to concepts so they
-can do concept paint overs and get that thing
+[08:50] can do concept paint overs and get that thing
 in production.
-Last thing I’ll mention is the scout is
+[08:54] Last thing I’ll mention is the scout is
 well on its way to getting into your hands.
-Emerge has just finished the first lighting
+[08:59] Emerge has just finished the first lighting
 pass on the scout and it’s looking pretty
-beautimous.
-We’re happy with how it’s turning out.
-So yeah that’s all I got this week for you
+[09:04] beautimous.
+[09:05] We’re happy with how it’s turning out.
+[09:08] So yeah that’s all I got this week for you
 guys, thanks, see you around.
-Foundry 42 UK
-Tom Johnson (TJ): Hi everyone, Tom here again.
-We’ve now completed our mini summit of planning
+[09:11] Foundry 42 UK
+[09:13] Tom Johnson (TJ): Hi everyone, Tom here again.
+[09:16] We’ve now completed our mini summit of planning
 for Squadron 42 so now all the USA contingents
-have gone back to their respective studios.
-Yeah it's been a huge help to have them over
+[09:23] have gone back to their respective studios.
+[09:25] Yeah it's been a huge help to have them over
 and really get together to plan this all out
-and now the teams are all going away and driven
+[09:31] and now the teams are all going away and driven
 into their schedules to tighten things up
-and make sure the resources levels for what
+[09:35] and make sure the resources levels for what
 we need to do.
-News on the live team, I’ve just spoken
+[09:38] News on the live team, I’ve just spoken
 to the production team there.
-They’re working on an audio issue which
+[09:44] They’re working on an audio issue which
 they’re hoping to patch out to you guys
-if you can just get on top of that we’ll
+[09:48] if you can just get on top of that we’ll
 be getting a fix in as soon as possible for
-this audio distortion a few of you might be
+[09:52] this audio distortion a few of you might be
 hearing at the moment and obviously we are
-also working towards the goals for 2.2.
-So a bit of news from the animation team that
+[09:57] also working towards the goals for 2.2.
+[09:59] So a bit of news from the animation team that
 you might be interested in.
-There’s obviously the works that’s going
+[10:04] There’s obviously the works that’s going
 on for FPS and we’ve recently implemented
-some stuff on the AI side which you might
+[10:10] some stuff on the AI side which you might
 have seen in to do with cover, but the team
-have a vast amount of shoot data capture last
+[10:13] have a vast amount of shoot data capture last
 year so they’re busily working away at chopping
-through all that stuff, reviewing it, seeing
+[10:19] through all that stuff, reviewing it, seeing
 what bits are required and what we can implement
-and what it is we want and don’t want.
-We’re also looking at tools for ways in
+[10:26] and what it is we want and don’t want.
+[10:29] We’re also looking at tools for ways in
 which we can actually automate a lot of the
-process because it’s very monotonous task
+[10:35] process because it’s very monotonous task
 to constantly to have to manage the data.
-So we are always looking for ways in which
+[10:45] So we are always looking for ways in which
 we can put things together and try and get
-a tool to do a lot of that heavy lifting for
+[10:50] a tool to do a lot of that heavy lifting for
 us.
-We’re always looking for improvements and
+[10:52] We’re always looking for improvements and
 ways we can speed things up to get you guys
-the results faster.
-So that’s about it for this week, that’s
+[10:56] the results faster.
+[10:58] So that’s about it for this week, that’s
 my bit for around the verse and I’ll see
-you guys in the verse!
-Foundry 42 Frankfurt
-Brian Chambers: Hey everyone, Brian Chambers
+[11:03] you guys in the verse!
+[11:10] Foundry 42 Frankfurt
+[11:11] Brian Chambers: Hey everyone, Brian Chambers
 from the Frankfurt office.
-This week a lot of the guys on the team were
+[11:13] This week a lot of the guys on the team were
 still planning, at least on the production
-end, getting through with cinematics, animation
+[11:19] end, getting through with cinematics, animation
 and design and so on.
-On the tech side, one of our guys are working
+[11:22] On the tech side, one of our guys are working
 on, or a few of our guys actually on patching
-improvements.
-Make things easier for players, less data
+[11:30] improvements.
+[11:31] Make things easier for players, less data
 pass through and all that which will be a
-welcome improvement for everybody.
-Been doing some tools work for cinematics,
+[11:37] welcome improvement for everybody.
+[11:38] Been doing some tools work for cinematics,
 pretty important tools that allow guys to
-get in there and do some stuff more efficiently
+[11:45] get in there and do some stuff more efficiently
 so they can pull scenes together easier and
-they’ll be a bit more dynamic tools we’re
+[11:49] they’ll be a bit more dynamic tools we’re
 getting online.
-Continued on procedural planet stuff getting
+[11:55] Continued on procedural planet stuff getting
 into physics work right now which is pretty
-cool.
-Hopefully you guys see that in the coming...in
+[12:00] cool.
+[12:01] Hopefully you guys see that in the coming...in
 the future.
-With me I’ve got Francesco, he’s been
+[12:08] With me I’ve got Francesco, he’s been
 in here before, Francesco Roccucci, lead AI
-programmer.
-Thought I would brings him in and he can tell
+[12:13] programmer.
+[12:14] Thought I would brings him in and he can tell
 you what him and team have been working on.
-Francesco Roccucci: Hi everybody, my team
+[12:19] Francesco Roccucci: Hi everybody, my team
 in general has been working on a lot of interesting
-stuff like mainly during the last week and
+[12:24] stuff like mainly during the last week and
 basically this week, we’re focusing on perception
-factoring, we want to add an a lot more efficient
+[12:30] factoring, we want to add an a lot more efficient
 way to create the perception of our characters,
-especially characters.
-So, we are refactoring the vision using the
+[12:36] especially characters.
+[12:37] So, we are refactoring the vision using the
 basics of the visual map so we have a better
-efficient way to cache information about vision
+[12:44] efficient way to cache information about vision
 and understand what’s around and what we
-are interested in.
-Then we will be moving to audio perception
+[12:49] are interested in.
+[12:50] Then we will be moving to audio perception
 where we’ll concentrate on how perception
-from the audio works in space and not in space.
-So when they is atmosphering areas and we
+[12:56] from the audio works in space and not in space.
+[12:58] So when they is atmosphering areas and we
 have audio...
-sound moving around, so if our player is in
+[13:02] sound moving around, so if our player is in
 no atmosphere, he will not receive audio but
-he’ll receive maybe a radio signal.
-BC: Yeah, I actually read some of those documents
+[13:06] he’ll receive maybe a radio signal.
+[13:07] BC: Yeah, I actually read some of those documents
 on that, on how the sound is going to travel
-based on the environments and how that affects
+[13:16] based on the environments and how that affects
 the AI.
-That’s going to be a trip once that comes
+[13:18] That’s going to be a trip once that comes
 together.
-FR: It’s going to be very cool….
-BC: You can already sense gameplay and using
+[13:20] FR: It’s going to be very cool….
+[13:21] BC: You can already sense gameplay and using
 that to your advantage or disadvantage.
-FR: Basically, all the behaviours will have
+[13:24] FR: Basically, all the behaviours will have
 to react to this, just connected to the perception
-factoring, we are also factoring some of the
+[13:29] factoring, we are also factoring some of the
 way we do behaviours.
-So, we are trying to add a better way to review
+[13:31] So, we are trying to add a better way to review
 our changes and work more people together
-on the behaviours.
-BC: Yeah.
-FR: So, they’re not conflicting each other
+[13:38] on the behaviours.
+[13:39] BC: Yeah.
+[13:40] FR: So, they’re not conflicting each other
 and being sure that all the changes we make
-are consistent with what we want to achieve
+[13:44] are consistent with what we want to achieve
 at the end of the game.
-BC: That’s cool.
-FR: Yeah, then we’re moving to assignments
+[13:47] BC: That’s cool.
+[13:48] FR: Yeah, then we’re moving to assignments
 that is a way for a designer to suggest to
-the AI what they would like to do in specific
+[13:52] the AI what they would like to do in specific
 environments.
-BC: Yeah.
-FR: For mission specific things.
-So if they want to defend some areas or something
+[13:55] BC: Yeah.
+[13:56] FR: For mission specific things.
+[13:57] So if they want to defend some areas or something
 like this.
-BC: Next week the team grows by one.
-FR: Yeah, first of February we have a new
+[14:00] BC: Next week the team grows by one.
+[14:03] FR: Yeah, first of February we have a new
 junior member starting here.
-Very excited, so maybe we’ll introduce him
+[14:12] Very excited, so maybe we’ll introduce him
 to you guys.
-BC: Yeah, we’ll bring him in here.
-He’ll definitely probably be shy but that’ll
+[14:18] BC: Yeah, we’ll bring him in here.
+[14:24] He’ll definitely probably be shy but that’ll
 be cool.
-FR: It’ll be fun.
-BC: Awesome.
-All right, thanks again to all the backers
+[14:35] FR: It’ll be fun.
+[14:40] BC: Awesome.
+[14:42] All right, thanks again to all the backers
 for watching and you’ll hear from us next
-week.
-BC/FR: Cheers.
-ATV Interview with Mark Skelton
-Jared Huckaby: Thanks guys.
-I’m here with U.S. Art Director Mr. Mark
+[15:01] week.
+[15:03] BC/FR: Cheers.
+[15:05] ATV Interview with Mark Skelton
+[15:14] Jared Huckaby: Thanks guys.
+[15:20] I’m here with U.S. Art Director Mr. Mark
 Skelton.
-Mark how you doing?
-You can, you can shake this hand.
-How you doing?
-Mark Skelton: Hey man how are you?
-JH: I’m good.
-Welcome to L.A.
-MS: Have you shown the fans your haircut?
-JH: No
-MS: You haven’t?
-JH: No.
-MS: They didn’t know that you got your haircut?
-Show them your haircut
-JH: No.
-I haven’t revealed it yet
-MS: Ever?
-JH: No, that’s not what this is about.
-MS: You should show them.
-You should show them right now.
-JH: Maybe at the end if you do a good interview.
-If you do a good job I will reward you
-MS: That’s my reward?
-JH: With a look at my cue head
-MS: Alright.
-I’m going to preface it by saying you look
+[15:23] Mark how you doing?
+[15:24] You can, you can shake this hand.
+[15:29] How you doing?
+[15:30] Mark Skelton: Hey man how are you?
+[15:31] JH: I’m good.
+[15:32] Welcome to L.A.
+[15:33] MS: Have you shown the fans your haircut?
+[15:34] JH: No
+[15:35] MS: You haven’t?
+[15:36] JH: No.
+[15:37] MS: They didn’t know that you got your haircut?
+[15:39] Show them your haircut
+[15:40] JH: No.
+[15:41] I haven’t revealed it yet
+[15:42] MS: Ever?
+[15:43] JH: No, that’s not what this is about.
+[15:44] MS: You should show them.
+[15:45] You should show them right now.
+[15:47] JH: Maybe at the end if you do a good interview.
+[15:49] If you do a good job I will reward you
+[15:53] MS: That’s my reward?
+[15:54] JH: With a look at my cue head
+[15:55] MS: Alright.
+[15:56] I’m going to preface it by saying you look
 like an escaped lunatic.
-With your..
-JH: Before the haircut or after the haircut?
-MS: After the haircut.
-JH: Alright.
-MS: Just so you need to, we need to get the
+[15:59] With your..
+[16:00] JH: Before the haircut or after the haircut?
+[16:02] MS: After the haircut.
+[16:03] JH: Alright.
+[16:04] MS: Just so you need to, we need to get the
 hat off.
-JH: U.S. Art Director.
-MS: You’re probably wondering why I have
+[16:08] JH: U.S. Art Director.
+[16:10] MS: You’re probably wondering why I have
 this gun
-JH: No.
-That’s like the one thing i’m not wondering
+[16:14] JH: No.
+[16:15] That’s like the one thing i’m not wondering
 about.
-MS: I’m not either.
-It’s because i’m in L.A.
-JH: Alright here let me see it real quick
-MS: It’s because I come from..Ah see you
+[16:16] MS: I’m not either.
+[16:17] It’s because i’m in L.A.
+[16:18] JH: Alright here let me see it real quick
+[16:19] MS: It’s because I come from..Ah see you
 took my fun toy away.
-Since i’m here in L.A. and I’m from Austin.
-I work in the Austin office.
-Now that i’m in L.A. I get to room with
+[16:24] Since i’m here in L.A. and I’m from Austin.
+[16:27] I work in the Austin office.
+[16:29] Now that i’m in L.A. I get to room with
 the world famous Steve Bender who is our Animation
-Director here at CIG.
-Who is absolutely the most entertaining person
+[16:42] Director here at CIG.
+[16:44] Who is absolutely the most entertaining person
 I think i’ve ever met besides yourself.
-JH: He’s interesting, he’s interesting.
-MS: Yeah, It’s hilarious officing with him
+[16:49] JH: He’s interesting, he’s interesting.
+[16:51] MS: Yeah, It’s hilarious officing with him
 because he will get on Skype calls and he’ll
-have these guns.
-JH: No you have to do the..
-MS: He’ll have these guns
-JH: This is Steve Bender
-MS: Yeah!
-JH: This is Steve Bender on a Skype call standing
+[16:56] have these guns.
+[16:57] JH: No you have to do the..
+[16:58] MS: He’ll have these guns
+[16:59] JH: This is Steve Bender
+[17:00] MS: Yeah!
+[17:01] JH: This is Steve Bender on a Skype call standing
 up “No you have to do it like this.
-You have to do it.
-That’s not what I told you to do.
-You have to do it like this”.
-MS: Yeah or he’ll go “Here’s how to
+[17:04] You have to do it.
+[17:05] That’s not what I told you to do.
+[17:07] You have to do it like this”.
+[17:08] MS: Yeah or he’ll go “Here’s how to
 kill a man.”
-And he’ll look straight at me and i’m
+[17:10] And he’ll look straight at me and i’m
 like “Oh no Bender please!
-Don’t kill me!”.
-But he’s great man, he’s animated.
-He’s got this like space in front of him
+[17:14] Don’t kill me!”.
+[17:15] But he’s great man, he’s animated.
+[17:17] He’s got this like space in front of him
 so he’s constantly like, he’s very animated
-it’s great it’s a lot of fun hanging out
+[17:24] it’s great it’s a lot of fun hanging out
 with him.
-But anyway
-JH: Justin you’re going to be tempted to
+[17:28] But anyway
+[17:29] JH: Justin you’re going to be tempted to
 cut all of this.
-Don’t.
-Thomas Hennessy: I would say it made a much
+[17:30] Don’t.
+[17:31] Thomas Hennessy: I would say it made a much
 better for stage show than anybody on the
-camera because you just got up and moved out
+[17:38] camera because you just got up and moved out
 of your frames!
-MS: Sorry.
-JH: So now we’ve talked about Steve Bender
-MS: Yes.
-JH: U.S. Art Director.
-MS: That’s me.
-Wait that’s not him that’s me
-JH: That’s you.
-What’s the U.S. Art Director?
-MS: Basically what it is, is i’m going to
+[17:44] MS: Sorry.
+[17:45] JH: So now we’ve talked about Steve Bender
+[17:46] MS: Yes.
+[17:47] JH: U.S. Art Director.
+[17:48] MS: That’s me.
+[17:49] Wait that’s not him that’s me
+[17:50] JH: That’s you.
+[17:51] What’s the U.S. Art Director?
+[17:53] MS: Basically what it is, is i’m going to
 be helping the L.A. Art Team a little bit.
-Take a little bit of responsibility off of
+[18:01] Take a little bit of responsibility off of
 Forest.
-Just because the poor dude is just buried.
-Oh my God he’s got so much work on his plate,
+[18:06] Just because the poor dude is just buried.
+[18:08] Oh my God he’s got so much work on his plate,
 and he’s fantastic at what he does he’s
-just very very buried.
-So kind of come out to start helping with
+[18:15] just very very buried.
+[18:18] So kind of come out to start helping with
 that, managing the team a little bit just,
-you know walk around
-JH: You’re splitting your time between L.A.
+[18:24] you know walk around
+[18:25] JH: You’re splitting your time between L.A.
 and Austin
-MS: I am.
-So it’s probably going to be initially probably
+[18:28] MS: I am.
+[18:29] So it’s probably going to be initially probably
 half and half but we’ll see where it goes.
-It just depends on, kind of where my focus
+[18:34] It just depends on, kind of where my focus
 needs to be but currently, gosh i’ve got
-my hands into everything right now.
-JH: Before you were the Persistent Universe
+[18:40] my hands into everything right now.
+[18:43] JH: Before you were the Persistent Universe
 Art director
-MS: Specifically.
-Which I still cover that.
-I mean I guess that’s still my main job
+[18:45] MS: Specifically.
+[18:46] Which I still cover that.
+[18:48] I mean I guess that’s still my main job
 is Persistent Universe but it’s kind of
-expanded a little bit since, again it’s
+[18:55] expanded a little bit since, again it’s
 like L.A. needs a little more art management
-that’s all.
-Because It’s just burying poor Forest man
-JH: Now since the last time we had you for
+[19:02] that’s all.
+[19:03] Because It’s just burying poor Forest man
+[19:06] JH: Now since the last time we had you for
 interview we’ve gained something like four
-hundred or five hundred thousand citizens.
-MS: Pounds?
-Oh, oh citizens, I thought you were talking
+[19:09] hundred or five hundred thousand citizens.
+[19:11] MS: Pounds?
+[19:12] Oh, oh citizens, I thought you were talking
 about my weight.
-JH: So for those of you have never seen you
+[19:17] JH: So for those of you have never seen you
 before, have no idea who you are.
-When did you join Star Citizen?
-MS: Oh geeze man i’ve been here like almost
+[19:22] When did you join Star Citizen?
+[19:24] MS: Oh geeze man i’ve been here like almost
 since the beginning.
-JH: I was going to say it’s pretty early
-MS: Maybe six months after, maybe six months
+[19:28] JH: I was going to say it’s pretty early
+[19:30] MS: Maybe six months after, maybe six months
 after the, the Kickstarter thing.
-JH: Ok and your first position was?
-MS: My first position was Lead Character Artist
+[19:41] JH: Ok and your first position was?
+[19:42] MS: My first position was Lead Character Artist
 actually.
-JH: And the first thing you did was the 300
+[19:46] JH: And the first thing you did was the 300
 commercial?
-MS: Yeah the, specifically the RSI suit that
+[19:49] MS: Yeah the, specifically the RSI suit that
 was in that commercial.
-The red suit.
-JH: That was a cool suit!
-MSL Yeah I liked it
-JH: Is it coming back?
-Is it going to be in stores at some point?
-MS: I hope so.
-I think they are.
-They’ve redone portions of it to make it
+[19:51] The red suit.
+[19:52] JH: That was a cool suit!
+[19:54] MSL Yeah I liked it
+[19:56] JH: Is it coming back?
+[19:57] Is it going to be in stores at some point?
+[20:00] MS: I hope so.
+[20:02] I think they are.
+[20:03] They’ve redone portions of it to make it
 more compliant to the way that we do it now.
-So I wasn’t good enough!
-That hurts me right in the feels
-JH: Hopefully there was a clip of that.
-Of the commercial there while we were talking.
-Ok so what do you work, you started as Character
+[20:10] So I wasn’t good enough!
+[20:12] That hurts me right in the feels
+[20:15] JH: Hopefully there was a clip of that.
+[20:16] Of the commercial there while we were talking.
+[20:18] Ok so what do you work, you started as Character
 Artist and went to Persistent Universe Director
-and now you’re U.S. Art Director
-MS: Yeah, well I so at that point in time
+[20:25] and now you’re U.S. Art Director
+[20:27] MS: Yeah, well I so at that point in time
 Chris Olivia was with us and he was the overall
-Creative Director.
-So basically I stepped up to help him because
+[20:34] Creative Director.
+[20:38] So basically I stepped up to help him because
 he was getting overwhelmed and kind of buried.
-So I stepped up to help him to kind of do
+[20:46] So I stepped up to help him to kind of do
 Art Direct kind of everything but then obviously
-we grew and the project grew and we found
+[20:52] we grew and the project grew and we found
 a need to break down more individual things.
-So I started gravitating towards environments
+[21:03] So I started gravitating towards environments
 because the previous company I had worked
-with I had done quite a few environments with
+[21:09] with I had done quite a few environments with
 them.
-So I brought a lot of ideas about how modularity
+[21:12] So I brought a lot of ideas about how modularity
 should work.
-Because obviously with two hundred plus whatever
+[21:19] Because obviously with two hundred plus whatever
 locations we have.
-We need to think smarter not harder.
-Work smart not harder.
-So I brought that to the table started thinking
+[21:24] We need to think smarter not harder.
+[21:29] Work smart not harder.
+[21:30] So I brought that to the table started thinking
 about it and started pulling people in, that
-had knowledge about that to help me kind of
+[21:36] had knowledge about that to help me kind of
 flesh out the direction of the Persistent
-Universe environments should go.
-It kind of gravitated towards that while I
+[21:42] Universe environments should go.
+[21:44] It kind of gravitated towards that while I
 was doing the ships and the character work
-which again got a little bit overwhelming
+[21:50] which again got a little bit overwhelming
 and then Squadron 42 came online and..Which
-was great because they brought an entire team
+[21:57] was great because they brought an entire team
 with them and had an Art Director and some
-really quality guys.
-So we were able to split up some of the art
+[22:05] really quality guys.
+[22:06] So we were able to split up some of the art
 tasks that way which saved my sanity!
-JH: Ok.
-Now environments.
-We’ve already started showing people ArcCorp,
+[22:13] JH: Ok.
+[22:14] Now environments.
+[22:15] We’ve already started showing people ArcCorp,
 coming up next is Nyx and then..So what can
-you tell us about Nyx right now?
-MS: So Nyx we’re just kind of doing the
+[22:23] you tell us about Nyx right now?
+[22:25] MS: So Nyx we’re just kind of doing the
 final touches on finishing up the art side
-of it.
-Obviously there’s a lot more than just the
+[22:33] of it.
+[22:34] Obviously there’s a lot more than just the
 art side of it.
-There’s quite a few Designer tasks and programming
+[22:37] There’s quite a few Designer tasks and programming
 tasks.
-There’s a lot of optimisation involved right
+[22:43] There’s a lot of optimisation involved right
 now at this point.
-You get right towards the end and you start
+[22:47] You get right towards the end and you start
 looking at your numbers and trying to figure
-how to bring it back to reality ‘cause right
+[22:53] how to bring it back to reality ‘cause right
 now it’s..
-JH: You make it look as good as it can and
+[22:57] JH: You make it look as good as it can and
 then you have to start figuring out…
-MS: Yeah that’s what you do, yeah
-JH: It’s like carving a statue out of marble.
-You have to start with the biggest baddest
+[23:00] MS: Yeah that’s what you do, yeah
+[23:01] JH: It’s like carving a statue out of marble.
+[23:05] You have to start with the biggest baddest
 thing you can and start widdling down
-MS: Or ice cream.
-You start with a big thing of ice cream and
+[23:08] MS: Or ice cream.
+[23:10] You start with a big thing of ice cream and
 then..nah nah, whatever.
-What you said sounds a lot better than what
+[23:17] What you said sounds a lot better than what
 I said.
-So yes marble it’s a good one!
-Yeah.
-JH: After Nyx?
-MS: After Nyx what we’re working on right
+[23:21] So yes marble it’s a good one!
+[23:24] Yeah.
+[23:25] JH: After Nyx?
+[23:26] MS: After Nyx what we’re working on right
 now, actually I just came from a meeting about
-this.
-We have blocked out Hurston Dynamics.
-We are working on that location which is going
+[23:30] this.
+[23:31] We have blocked out Hurston Dynamics.
+[23:38] We are working on that location which is going
 to be really cool.
-I really like the..What really makes an environment
+[23:44] I really like the..What really makes an environment
 interesting and cool is the history like the
-backstory of it.
-That’s like when you go to like England
+[23:52] backstory of it.
+[23:53] That’s like when you go to like England
 or look at like Mayan temples or anything
-like that, that has a bunch of history to
+[23:58] like that, that has a bunch of history to
 it.
-Like the Lord of the Rings, it has a deep
+[24:01] Like the Lord of the Rings, it has a deep
 sense of historical value it always makes
-the visuals a lot more interesting.
-Because you’ve got something to grab on
+[24:09] the visuals a lot more interesting.
+[24:11] Because you’ve got something to grab on
 to and expand on.
-So Hurston is really interesting it’s like
+[24:15] So Hurston is really interesting it’s like
 this…
-I always see it as this 1920’s like, dustbowl
+[24:19] I always see it as this 1920’s like, dustbowl
 type, “Railroad Tycoon” kind of crazy
-cooter.
-JH: When we’re done here i’m going to
+[24:30] cooter.
+[24:31] JH: When we’re done here i’m going to
 ask Tony for footage and if he says “Yes”.
-You’ll be looking at footage while we’re
+[24:35] You’ll be looking at footage while we’re
 talking here.
-And if he doesn’t say yes who knows what
+[24:38] And if he doesn’t say yes who knows what
 you’re going to see.
-MS: Tap dancing cats.
-JH: Tap dancing cats!
-Cat Juggling.
-So going back to Hurston.
-You said modularity, Hurston’s going to
+[24:40] MS: Tap dancing cats.
+[24:42] JH: Tap dancing cats!
+[24:43] Cat Juggling.
+[24:44] So going back to Hurston.
+[24:47] You said modularity, Hurston’s going to
 advantage of some of that modularity.
-MS: Yes it is.
-We are going to be using, reusing previous
+[24:51] MS: Yes it is.
+[24:52] We are going to be using, reusing previous
 pieces that we made and repurpose them for.
-Now repurposing a lot of what that entails
+[25:01] Now repurposing a lot of what that entails
 is swapping out materials, swapping out lighting,
-rearranging the layout obviously, using a
+[25:11] rearranging the layout obviously, using a
 different colour palette completely.
-Usually if you can add some component pieces
+[25:18] Usually if you can add some component pieces
 just to kind of break it up a little bit,
-then you got a whole new set.
-You got something you can use for a whole
+[25:25] then you got a whole new set.
+[25:27] You got something you can use for a whole
 new planetside location with like a quarter
-of the time and effort that it took to get
+[25:33] of the time and effort that it took to get
 those pieces in the first place.
-So the re-use of the pieces are time and money
+[25:38] So the re-use of the pieces are time and money
 saving in the long run, quite a bit.
-JH: Now we’re going to have several tile
+[25:44] JH: Now we’re going to have several tile
 sets.
-MS: Yeah, oh yeah, yeah
-JH: I don’t know if tilesets is the right
+[25:46] MS: Yeah, oh yeah, yeah
+[25:47] JH: I don’t know if tilesets is the right
 word
-MS: Yeah sets that’s pretty much, but modularity
+[25:49] MS: Yeah sets that’s pretty much, but modularity
 sets
-JH: Ok Modular sets.
-So like ArcCorp and Hurston would share a
+[25:54] JH: Ok Modular sets.
+[25:55] So like ArcCorp and Hurston would share a
 set.
-But Nyx would not?
-MS: No
-JH Nyx would be a second set.
-MS: Nyx was always considered our kind of
+[26:00] But Nyx would not?
+[26:01] MS: No
+[26:02] JH Nyx would be a second set.
+[26:03] MS: Nyx was always considered our kind of
 space station set.
-So going forward we’re going to use that
+[26:10] So going forward we’re going to use that
 set quite a bit on space stations or other
-like asteroid stations and stuff like that.
-It lends itself perfectly to that.
-The reason why is ‘cause in that set there’s
+[26:18] like asteroid stations and stuff like that.
+[26:21] It lends itself perfectly to that.
+[26:24] The reason why is ‘cause in that set there’s
 a lot of pieces that reinforce almost like
-mining outfits where you’ve got hydraulics
+[26:32] mining outfits where you’ve got hydraulics
 that hold the ceiling up and big walls that
-are made for cave-ins or preventing cave-ins
+[26:37] are made for cave-ins or preventing cave-ins
 stuff like that.
-That kind of stuff is great for like underground
+[26:43] That kind of stuff is great for like underground
 asteroid cool stuff.
-Like we use some of the pieces actually out
+[26:51] Like we use some of the pieces actually out
 of the asteroid hangar so some of that stuff
-was re-used
-JH: Isn’t the asteroid hangar located on
+[26:56] was re-used
+[26:57] JH: Isn’t the asteroid hangar located on
 Nyx?
-MS: Yes.
-We originally had started with the asteroid
+[27:01] MS: Yes.
+[27:03] We originally had started with the asteroid
 hangar.
-We had done that and then used the pieces
+[27:06] We had done that and then used the pieces
 to kind of, we didn’t use all of the pieces
-but a lot of the pieces we expanded on to
+[27:12] but a lot of the pieces we expanded on to
 start the Nyx site.
-JH: So before we let you go anything you want
+[27:19] JH: So before we let you go anything you want
 tell Star Citizen community anything else
-you want us to know about?
-Hopefully we got some images of Nyx, hopefully
+[27:25] you want us to know about?
+[27:27] Hopefully we got some images of Nyx, hopefully
 we got a video of Hurston if we didn’t I
-apologise for whatever we put in its place.
-MS: Do I want to say anything..I didn’t
+[27:32] apologise for whatever we put in its place.
+[27:34] MS: Do I want to say anything..I didn’t
 do it.
-Whatever it is I didn’t do it.
-Ok?
-Whatever comes up on the internet which i’m
+[27:38] Whatever it is I didn’t do it.
+[27:39] Ok?
+[27:40] Whatever comes up on the internet which i’m
 sure there’s a lot, you guys are going to
-research me,swear to God it wasn’t me, it
+[27:44] research me,swear to God it wasn’t me, it
 was a dude who looked me, it wasn’t me.
-That’s all I have to say
-JH: Used to be me.
-I used to be the guy that looked like you.
-MS: That’s right
-JH: Not anymore though
-MS: We used to get, we used to get mixed up
+[27:48] That’s all I have to say
+[27:50] JH: Used to be me.
+[27:51] I used to be the guy that looked like you.
+[27:52] MS: That’s right
+[27:53] JH: Not anymore though
+[27:54] MS: We used to get, we used to get mixed up
 a lot.
-JH: Do it,do the reveal it
-MS: Oh was the interview that good?
-JH: See?
-We don’t look like each other
-MS: Ta-Da!
-Escaped lunatic.
-No you know who you look like?
-Do you know who Tank Abbot is?
-JH: Mhmm
-MS: That’s who
-JH: I had a mohawk.
-When I shaved I actually had a mohawk for
+[27:57] JH: Do it,do the reveal it
+[27:58] MS: Oh was the interview that good?
+[28:01] JH: See?
+[28:02] We don’t look like each other
+[28:04] MS: Ta-Da!
+[28:05] Escaped lunatic.
+[28:06] No you know who you look like?
+[28:07] Do you know who Tank Abbot is?
+[28:10] JH: Mhmm
+[28:11] MS: That’s who
+[28:12] JH: I had a mohawk.
+[28:13] When I shaved I actually had a mohawk for
 a while.
-I looked a whole lot more like Tank Abbot
-MS: That’s who you look like.
-Maybe I look like an escaped lunatic now?
-JH: Yeah.
-Alright guys thanks for joining us Mark Skelton.
-MS: Thank you.
-I appreciate your time.
-JH: Back to
-MS: Also known as Disco Lando
-JH: Back to you guys.
-Back In The Studio
-BL: Well now you know it’s really open development
+[28:14] I looked a whole lot more like Tank Abbot
+[28:15] MS: That’s who you look like.
+[28:18] Maybe I look like an escaped lunatic now?
+[28:20] JH: Yeah.
+[28:21] Alright guys thanks for joining us Mark Skelton.
+[28:23] MS: Thank you.
+[28:25] I appreciate your time.
+[28:26] JH: Back to
+[28:27] MS: Also known as Disco Lando
+[28:30] JH: Back to you guys.
+[28:32] Back In The Studio
+[28:33] BL: Well now you know it’s really open development
 because we are sharing all the Skeltons in
-our closest
-SG: Oh boy!
-We should show the picture of Mark Skelton
+[28:38] our closest
+[28:39] SG: Oh boy!
+[28:40] We should show the picture of Mark Skelton
 doing Jujitsu.
-Have you seen that one?
-BL: That’s on the Cloud Imperium’s Facebook
+[28:42] Have you seen that one?
+[28:44] BL: That’s on the Cloud Imperium’s Facebook
 page I guess our HR person thought that would
-help convince people to come work here.
-So please check out the Cloud Imperium Games
+[28:49] help convince people to come work here.
+[28:51] So please check out the Cloud Imperium Games
 official Facebook page.
-There’s Mark Skelton doing Jujitsu
-SG: Coming up next Pete Mackay, John Pritchett
+[28:55] There’s Mark Skelton doing Jujitsu
+[28:57] SG: Coming up next Pete Mackay, John Pritchett
 and Calix Reneau sit down to discuss Star
-Citizen’s flight model in this week’s
+[29:03] Citizen’s flight model in this week’s
 ship shape.
-ATV Ship Shape: Flight Model Discussion
-JH: Thanks guys.
-On this week’s ATV Ship Shape we’re sitting
+[29:06] ATV Ship Shape: Flight Model Discussion
+[29:13] JH: Thanks guys.
+[29:17] On this week’s ATV Ship Shape we’re sitting
 down with the Star Citizen Flight Team to
-play a game of Hats vs. No Hats.
-Calix Reneau (CR): I think we’re winning.
-JH: No, ah, we want to sit down with the Star
+[29:22] play a game of Hats vs. No Hats.
+[29:25] Calix Reneau (CR): I think we’re winning.
+[29:27] JH: No, ah, we want to sit down with the Star
 Citizen Flight Team and give an update on
-the flight model, where it’s been, where
+[29:32] the flight model, where it’s been, where
 it is and, hopefully, a little bit about where
-it’s going.
-So with us today is Physics Programmer Mr.
+[29:35] it’s going.
+[29:36] So with us today is Physics Programmer Mr.
 John Pritchett; Designer Pete Mackay; and
-Designer Calix Reneau.
-CR: Hey.
-JH: Hey.
-So let’s do a quick recap from the very
+[29:44] Designer Calix Reneau.
+[29:45] CR: Hey.
+[29:46] JH: Hey.
+[29:47] So let’s do a quick recap from the very
 beginning here for folks who haven’t been
-following the project and whatnot.
-The flight model: what’s IFCS?
-John Pritchett (JP): Okay, well you know our
+[29:52] following the project and whatnot.
+[29:54] The flight model: what’s IFCS?
+[29:56] John Pritchett (JP): Okay, well you know our
 goal from the beginning was to try to create
-a system to help manage flight control for
+[30:02] a system to help manage flight control for
 the ships and not just to do the typical things
-like pitch, roll and yaw but also to have
+[30:11] like pitch, roll and yaw but also to have
 a system that was dynamic enough to deal with
-when thrusters are damaged or blown off and
+[30:16] when thrusters are damaged or blown off and
 things like that.
-So IFCS is a dynamic system that that sort
+[30:20] So IFCS is a dynamic system that that sort
 of learns how to fly the ship from moment
-to moment and corrects in order to give the
+[30:26] to moment and corrects in order to give the
 best flight performance that it can based
-on your equipment.
-JH: Okay, we’re going to use this acronym
+[30:31] on your equipment.
+[30:32] JH: Okay, we’re going to use this acronym
 a few times during this conversation so what
-does IFCS stand for?
-JP: Intelligent Flight Control System.
-JH: Okay, and in the beginning that was paired
+[30:35] does IFCS stand for?
+[30:36] JP: Intelligent Flight Control System.
+[30:38] JH: Okay, and in the beginning that was paired
 with something called ComStab?
-JP: Yes.
-JH: Yep.
-Now I know we’re sort of moving away from
+[30:41] JP: Yes.
+[30:42] JH: Yep.
+[30:43] Now I know we’re sort of moving away from
 ComStab but when we started what was ComStab?
-JP: Okay, well ComStab was just one part of
+[30:49] JP: Okay, well ComStab was just one part of
 many systems under IFCS.
-And the goal of ComStab originally was “command
+[30:54] And the goal of ComStab originally was “command
 level stability” and the idea was that at
-a high level you were controlling the ship
+[31:00] a high level you were controlling the ship
 and you want to have controlled turns and
-controlled maneuvers.
-And so with ComStab on it would make calculations
+[31:04] controlled maneuvers.
+[31:06] And so with ComStab on it would make calculations
 to guarantee that those maneuvers were achieved
-in as well a controlled way as possible.
-CR: It’s functionally similar to GSafe:
+[31:13] in as well a controlled way as possible.
+[31:15] CR: It’s functionally similar to GSafe:
 you are sending IFCS into a mode it looks
-for certain values of what your ship is attempting
+[31:21] for certain values of what your ship is attempting
 to do and sort of shoves it over a little
-bit to make it fit what it’s allowed to
+[31:27] bit to make it fit what it’s allowed to
 do.
-JH: There was a lot of anti-slide back in
+[31:30] JH: There was a lot of anti-slide back in
 the day right?
-JP: Right, well the most obvious example of
+[31:33] JP: Right, well the most obvious example of
 that was it was originally meant to be a controlled
-turn so it’s a nose forward turn, you’re
+[31:38] turn so it’s a nose forward turn, you’re
 always flying tangential to your turn radius.
-As opposed to now if you rotate faster than
+[31:43] As opposed to now if you rotate faster than
 you can fly you’ll just kind of spin around,
-you’ll slide or whatever.
-But that was fairly unpopular early on so
+[31:49] you’ll slide or whatever.
+[31:51] But that was fairly unpopular early on so
 it turned into an anti-slide system so that
-you wouldn’t slide too much.
-JH: It would slow you down to make the turns
+[31:55] you wouldn’t slide too much.
+[31:56] JH: It would slow you down to make the turns
 and stuff.
-JP: Yes.
-Yes.
-So if you are turning at a certain rate then
+[31:59] JP: Yes.
+[32:00] Yes.
+[32:01] So if you are turning at a certain rate then
 there’s a certain velocity that you can
-maintain in order to avoid sliding out.
-JH: Okay.
-CR: At the flight speeds that we were having
+[32:03] maintain in order to avoid sliding out.
+[32:05] JH: Okay.
+[32:06] CR: At the flight speeds that we were having
 it didn’t feel good but basically you can
-see that same system in cruise mode right
+[32:13] see that same system in cruise mode right
 now.
-It’s not exactly the same but it’s pretty
+[32:17] It’s not exactly the same but it’s pretty
 similar to how we were doing it before.
-Your rotation rates are going to scale back
+[32:22] Your rotation rates are going to scale back
 as you start going faster and faster.
-So you’re not going to be able to pitch
+[32:27] So you’re not going to be able to pitch
 or yaw or rotate away from your flight vector
-if you can’t actually go there.
-JH: Now the last time we talked about this,
+[32:33] if you can’t actually go there.
+[32:34] JH: Now the last time we talked about this,
 you mentioned that first flight model was
-basically what we could get done at that time.
-In order to get things started.
-Because we needed to get Arena Commander going.
-We needed to start testing the game and all
+[32:40] basically what we could get done at that time.
+[32:44] In order to get things started.
+[32:45] Because we needed to get Arena Commander going.
+[32:47] We needed to start testing the game and all
 these other systems were waiting.
-So we did the best version, or rather you
+[32:52] So we did the best version, or rather you
 did the version of that flight model you could
-at that time.
-But we always knew we wanted to go back, make
+[32:57] at that time.
+[32:58] But we always knew we wanted to go back, make
 some changes and that eventually lead to Flight
-Model 2.0 or IFCS 2.0.
-JP: Yes.
-JH: What’s IFCS 2.0.
-I’m going to make Pete talk because he hasn’t
+[33:02] Model 2.0 or IFCS 2.0.
+[33:04] JP: Yes.
+[33:05] JH: What’s IFCS 2.0.
+[33:06] I’m going to make Pete talk because he hasn’t
 talked yet!
-Pete Mackay (PM): Well really it was to finish
+[33:08] Pete Mackay (PM): Well really it was to finish
 it off.
-And I think we started on that, when was that,
+[33:14] And I think we started on that, when was that,
 about a year ago probably we had our first
-conversation?
-John and I did, about what we wanted to do
+[33:21] conversation?
+[33:22] John and I did, about what we wanted to do
 with that.
-And at the time it wasn’t just IFCS 2.0
+[33:28] And at the time it wasn’t just IFCS 2.0
 but a whole umbrella of thruster upgrades
-and all of that stuff.
-PM: So we sat down and talked about what we
+[33:36] and all of that stuff.
+[33:37] PM: So we sat down and talked about what we
 wanted and one of the major features that
-came out of that, well there were two major
+[33:43] came out of that, well there were two major
 features that came out for IFCS.
-That was the addition of different flight
+[33:47] That was the addition of different flight
 modes, which have now become precision, SCM,
-and cruise mode.
-And then the concept of what SCM mode is:
+[33:53] and cruise mode.
+[33:56] And then the concept of what SCM mode is:
 which is the dynamic maximum velocity system
-that sets your maximum velocity based on your
+[34:04] that sets your maximum velocity based on your
 capability.
-Whether that’s how heavy, in terms of mass,
+[34:07] Whether that’s how heavy, in terms of mass,
 your ship is or how powerful your thrusters
-are.
-So your maximum velocity could change instead
+[34:14] are.
+[34:15] So your maximum velocity could change instead
 of being as static value that we set in an
-XML somewhere.
-PM: So those were the two major pieces that
+[34:22] XML somewhere.
+[34:23] PM: So those were the two major pieces that
 came out what we wanted to do but then over
-time, as we were working towards implementing
+[34:29] time, as we were working towards implementing
 that, there’s been a whole host of improvements
-to how IFCS works that are, I don’t know
+[34:37] to how IFCS works that are, I don’t know
 that there’s a lot that’s really player
-facing, but there’s been a lot of work that’s
+[34:43] facing, but there’s been a lot of work that’s
 been done under the hood.
-JH: I know a lot of work has been done to
+[34:49] JH: I know a lot of work has been done to
 evaluate thruster placement on some of our
-ships and, you said mass, we changed the way
+[34:53] ships and, you said mass, we changed the way
 boost works a little bit: added afterburner.
-PM: Yes.
-So that was actually just a natural extension
+[35:00] PM: Yes.
+[35:01] So that was actually just a natural extension
 of SCM, because boost always increased your
-acceleration and since SCM was dependant upon
+[35:06] acceleration and since SCM was dependant upon
 your acceleration so if you increase your
-boost or increase your acceleration through
+[35:12] boost or increase your acceleration through
 the use of boost then your maximum velocity
-would naturally increase.
-So that was a nice “freebie”.
-JH: Now this system’s been in since Alpha
+[35:18] would naturally increase.
+[35:20] So that was a nice “freebie”.
+[35:22] JH: Now this system’s been in since Alpha
 2.0.
-We’re now at 2.1 live so we’ve had some
+[35:27] We’re now at 2.1 live so we’ve had some
 time with it.
-What are some of the things you’ve heard
+[35:31] What are some of the things you’ve heard
 fans say.
-CR: Well one of the other things that we’ve
+[35:34] CR: Well one of the other things that we’ve
 put in here is the third order motion.
-Putting in “jerk” and starting to tune
+[35:40] Putting in “jerk” and starting to tune
 those things.
-For the initial pass we were really aiming
+[35:44] For the initial pass we were really aiming
 to recreate the performance we had.
-But in order to do so in a timely manner,
+[35:50] But in order to do so in a timely manner,
 while we were still trying to learn what the
-system meant and all of its consequences,
+[35:57] system meant and all of its consequences,
 we allowed a small amount of “goal time
-slide”.
-That means a lot of our ships are performing
+[36:05] slide”.
+[36:06] That means a lot of our ships are performing
 sometimes as much as a second slower than
-they used to and people are noticing.
-JH: What?
-Are they telling us on the forums?
-CR: They are!
-JH: Really?
-CR: And now it’s a matter of going in and
+[36:12] they used to and people are noticing.
+[36:16] JH: What?
+[36:18] Are they telling us on the forums?
+[36:21] CR: They are!
+[36:22] JH: Really?
+[36:23] CR: And now it’s a matter of going in and
 revisiting the accelerations available to
-our ships so that we can return to having
+[36:30] our ships so that we can return to having
 a lot of maneuverability.
-One of the things that I think has been successful
+[36:38] One of the things that I think has been successful
 is that you don’t see people doing any of
-the button mash strafe.
-It’s not a thing any more.
-A couple of other things got caught up in
+[36:44] the button mash strafe.
+[36:46] It’s not a thing any more.
+[36:49] A couple of other things got caught up in
 removing that and people are not able to do
-the fast and crazy “knife fights” that
+[36:55] the fast and crazy “knife fights” that
 they used to and I think that those are actually
-a healthy staple of our smallest ships.
-CR: We want that in addition to some of the
+[37:03] a healthy staple of our smallest ships.
+[37:08] CR: We want that in addition to some of the
 stuff we’re seeing now: the larger turn
-fights, the chasing using cruise and SCM and
+[37:14] fights, the chasing using cruise and SCM and
 switching between these modes.
-Basically people have been responding to this
+[37:25] Basically people have been responding to this
 and want the maneuverability and they also
-want the host of options: so your ability
+[37:32] want the host of options: so your ability
 to chase, jumping into quantum, disappearing
-and then being able to track that person.
-That’s something that’s exciting and doing
+[37:43] and then being able to track that person.
+[37:45] That’s something that’s exciting and doing
 combat in cruise isn’t particularly supported
-at the moment but the people that have pulled
+[37:53] at the moment but the people that have pulled
 it off: it’s been very interesting.
-It’s actually, even the ones that have pulled
+[37:57] It’s actually, even the ones that have pulled
 it off, have been fairly unsuccessful, usually
-friends shooting at each other but there’s
+[38:03] friends shooting at each other but there’s
 potential here to expand upon the flight and
-combat behaviours that we’ve been seeing.
-CR: And that’s generally what people are
+[38:13] combat behaviours that we’ve been seeing.
+[38:15] CR: And that’s generally what people are
 asking for: to see the maneuverability returned,
-to see … in addition to all these things
+[38:21] to see … in addition to all these things
 we’re updating how we are tracking our ships
-so we have better and deeper numbers and are
+[38:31] so we have better and deeper numbers and are
 able to better get the actual performance
-data of our ships so I can say that this ship
+[38:40] data of our ships so I can say that this ship
 is sliding too much or too little or has too
-much boost or all those things.
-We’re able to track that better or we’re
+[38:48] much boost or all those things.
+[38:51] We’re able to track that better or we’re
 able to compare ships to each other better.
-JH: Are you suggesting that the ships in the
+[38:56] JH: Are you suggesting that the ships in the
 game are not finished?
-CR: I’m afraid that I am suggesting that.
-JH: Ah well, it’s part of being in an alpha.
-CR: Yeah, I regret to inform you.
-[Jared chair sinks on cue]
-CR: I didn’t realise it would deflate you
+[39:00] CR: I’m afraid that I am suggesting that.
+[39:03] JH: Ah well, it’s part of being in an alpha.
+[39:06] CR: Yeah, I regret to inform you.
+[39:10] [Jared chair sinks on cue]
+[39:11] CR: I didn’t realise it would deflate you
 so.
-JH: Finding out the game wasn’t finished
+[39:13] JH: Finding out the game wasn’t finished
 just dropped me on my Saturn.
-Let me just fix, what that did to my framing.
-CR: Another one actually that I was talking
+[39:18] Let me just fix, what that did to my framing.
+[39:21] CR: Another one actually that I was talking
 with John about recently is third order motion
-is the amount of time, or the acceleration
+[39:29] is the amount of time, or the acceleration
 of acceleration.
-And we track it as a singular element of the
+[39:35] And we track it as a singular element of the
 flight performance which means we have symmetrical
-ramp up and ramp down for our third order
+[39:45] ramp up and ramp down for our third order
 motion, for our ‘jerk’.
-And that is beginning to prove problematic
+[39:52] And that is beginning to prove problematic
 in some areas of how the ships feel particularly
-when you are making frequent or small changes
+[39:58] when you are making frequent or small changes
 to what you are doing.
-You’ll do a thing and then you’ll see
+[40:05] You’ll do a thing and then you’ll see
 it continue and overshoot before it reacts
-and so we’re looking at addressing the ramp
+[40:11] and so we’re looking at addressing the ramp
 up and ramp down separately.
-JH: Now we do, right now, we do IFCS for all
+[40:19] JH: Now we do, right now, we do IFCS for all
 but at some point in our development as we
-continue on, we’re going to allow individual
+[40:25] continue on, we’re going to allow individual
 component changes to IFCS.
-PM: Yes.
-JH: Different modules that can actually, the
+[40:30] PM: Yes.
+[40:32] JH: Different modules that can actually, the
 precision mode, the SCM mode...I know it’s
-really early, can we talk a little bit about
+[40:38] really early, can we talk a little bit about
 that.
-PM: Yeah, it’s basically taking a large
+[40:41] PM: Yeah, it’s basically taking a large
 block out, a lot of people have seen our XML,
-it’s really taking a block out of the ship
+[40:50] it’s really taking a block out of the ship
 XML and putting it into an item XML and letting
-that item be swapped out.
-It will track things like the performance
+[40:56] that item be swapped out.
+[40:58] It will track things like the performance
 on a given axis or we can do pretty much anything
-is tuned into the ship XML but on an item
+[41:10] is tuned into the ship XML but on an item
 basis.
-We can offer that as a package, like different
+[41:13] We can offer that as a package, like different
 manufacturers will offer different feature
-sets for the ships.
-We’re talking about even extending it beyond
+[41:17] sets for the ships.
+[41:19] We’re talking about even extending it beyond
 the flight mechanics into some other area
-of the game, which I can’t really talk about
+[41:27] of the game, which I can’t really talk about
 just yet.
-PM: The idea is making all of it modular and
+[41:34] PM: The idea is making all of it modular and
 so you could potentially have 3-4 different
-ones per ship.
-We’re not there yet but it’s a possibility
+[41:43] ones per ship.
+[41:45] We’re not there yet but it’s a possibility
 it could happen, then that door is just open
-that over time we get more and more added.
-JH: It’s exciting to think that when you’re
+[41:50] that over time we get more and more added.
+[41:53] JH: It’s exciting to think that when you’re
 out in the middle of nowhere and you come
-across a Vanguard or something.
-You know how the base model Vanguard may handle
+[41:57] across a Vanguard or something.
+[42:00] You know how the base model Vanguard may handle
 but after this person has changed their Comstab,
-changed their IFCS and what not.
-They’ve affected the mass of their ship,
+[42:06] changed their IFCS and what not.
+[42:09] They’ve affected the mass of their ship,
 they’re using specific thrusters that are
-aftermarket, this ship may not handle anything
+[42:14] aftermarket, this ship may not handle anything
 like what you’d expect.
-CR: When the ship rolls off the lot it’ll
+[42:19] CR: When the ship rolls off the lot it’ll
 fly a certain way but once you spend a lot
-of time with it, it may fly that way anymore.
-It might fly the way you fly it.
-JH: That is one of the I am most excited about
+[42:25] of time with it, it may fly that way anymore.
+[42:26] It might fly the way you fly it.
+[42:27] JH: That is one of the I am most excited about
 in Star Citizen, these ships we are putting
-up, these are the floor models versions and
+[42:32] up, these are the floor models versions and
 then there’s a whole aftermarket for tuning
-them up and tricking them out and changing...I’m
+[42:38] them up and tricking them out and changing...I’m
 not going to say every characteristic but
-quite a robust number of them.
-PM: Yeah, pretty much.
-I mean the support will be there that will
+[42:44] quite a robust number of them.
+[42:46] PM: Yeah, pretty much.
+[42:47] I mean the support will be there that will
 let us behind the scenes change almost anything.
-I mean we can do that now but the difference
+[42:53] I mean we can do that now but the difference
 is now that we can do it in an itemized way
-and do it so that a certain manufacturer might
+[42:58] and do it so that a certain manufacturer might
 make certain types of IFCS modules so you’ll
-tend to see those kinds of setting and features
+[43:05] tend to see those kinds of setting and features
 across their range no matter what ship it’s
-for.
-It really helps with being able to theme it
+[43:11] for.
+[43:12] It really helps with being able to theme it
 too.
-JH: There are main Vanguards but this one
+[43:15] JH: There are main Vanguards but this one
 is mine.
-PM: Right.
-JH: So, besides the itemization of the IFCS
+[43:18] PM: Right.
+[43:19] JH: So, besides the itemization of the IFCS
 and various flight control systems, anything
-else you can tell us about where we’re going
+[43:26] else you can tell us about where we’re going
 with the systems.
-What are the next milestones you want to hit?
-JP: Really a big change that should be coming
+[43:30] What are the next milestones you want to hit?
+[43:35] JP: Really a big change that should be coming
 here pretty quick is going to be introducing
-the lack of precision in thrusters, the idea
+[43:40] the lack of precision in thrusters, the idea
 that you’re not always going to get perfect
-control, even if it’s a perfect ship, you
+[43:49] control, even if it’s a perfect ship, you
 just fly it off the showroom floor.
-Some manufacturers will have more precise
+[43:56] Some manufacturers will have more precise
 thrusters and some will have less.
-JP: Really any motion right now you can really
+[44:01] JP: Really any motion right now you can really
 see, kind of perfection in the way it’s
-achieving that motion.
-So we’re going to introduce some turbulence
+[44:07] achieving that motion.
+[44:09] So we’re going to introduce some turbulence
 and things like that so there’s a range
-of precision.
-CR: We have a small amount of that in it already
+[44:13] of precision.
+[44:14] CR: We have a small amount of that in it already
 where I’ve actually been surprised, I’ll
-make a test level to check something out and
+[44:20] make a test level to check something out and
 I’ll have a ship there.
-I look over at it and just see it hovering…
-JP: Sure, that’s being influenced by landing
+[44:24] I look over at it and just see it hovering…
+[44:28] JP: Sure, that’s being influenced by landing
 turbulence.
-CR: Having that element of slight imprecision,
+[44:31] CR: Having that element of slight imprecision,
 that slight error in thrusters makes things
-behave much more realistically and much more
+[44:39] behave much more realistically and much more
 interestingly.
-JP: More alive.
-CR: Yeah and being able to expand on that
+[44:43] JP: More alive.
+[44:44] CR: Yeah and being able to expand on that
 instability as you take damage, as you induce
-stress possibly from pulling hard G-turns….
-JP: Heat.
-CR: Heat and dealing with some sort of external
+[44:50] stress possibly from pulling hard G-turns….
+[44:53] JP: Heat.
+[44:55] CR: Heat and dealing with some sort of external
 forces.
-Those things are going to change the way that
+[45:02] Those things are going to change the way that
 it flies and give you that turbulence which
-is great because you can feel it, you can
+[45:08] is great because you can feel it, you can
 see it and it’s just a win across the board.
-JH: Or even damaged thrusters.
-CR: Yes.
-JH: Like when we’re in a Constellation and
+[45:14] JH: Or even damaged thrusters.
+[45:15] CR: Yes.
+[45:16] JH: Like when we’re in a Constellation and
 Calix is flying and you can’t move and wondering
-why.
-Were there for 5 minutes before we realized
+[45:22] why.
+[45:23] Were there for 5 minutes before we realized
 we don’t have thrusters on our ship anymore.
-It’s like, ‘oh, that’s why’.
-Now before we go, one of the more popular
+[45:26] It’s like, ‘oh, that’s why’.
+[45:29] Now before we go, one of the more popular
 topics is atmospheric flight, now we’ve
-said this is something that will eventually
+[45:36] said this is something that will eventually
 make it into Star Citizen.
-Something that will probably come...we don’t
+[45:41] Something that will probably come...we don’t
 want to say when but it’s a long term goal,
-kinda like the procedurally generated planets
+[45:46] kinda like the procedurally generated planets
 was and what not.
-JH: As we ramped up, I know we’re starting
+[45:50] JH: As we ramped up, I know we’re starting
 to lay some of the foundation for that, so
-when it comes time, we don’t have to start
+[45:58] when it comes time, we don’t have to start
 from scratch what can you tell us about atmospheric
-flight now?
-Remember it’s not coming tomorrow or anytime
+[46:02] flight now?
+[46:03] Remember it’s not coming tomorrow or anytime
 soon guys.
-Just is there something you can tell us about
+[46:07] Just is there something you can tell us about
 atmospheric flight?
-I know that in Arena Commander the racing
+[46:10] I know that in Arena Commander the racing
 mode that is not atmospheric flight.
-CR: No.
-There is no atmosphere in New Horizons.
-JH: Yeah that’s a video game within a video
+[46:14] CR: No.
+[46:15] There is no atmosphere in New Horizons.
+[46:19] JH: Yeah that’s a video game within a video
 game.
-We strive for perfection, maybe Electronic
+[46:23] We strive for perfection, maybe Electronic
 Access does not
-CR: The thing about atmospheric flight and
+[46:26] CR: The thing about atmospheric flight and
 really everything about IFCS is that it’s
-completely agnostic to the condition of the
+[46:33] completely agnostic to the condition of the
 ship.
-So if you take the ship and you say I want
+[46:36] So if you take the ship and you say I want
 to make a right turn I want to roll, I want
-to yaw, I want to strafe.
-It’s going to attempt to do those things
+[46:44] to yaw, I want to strafe.
+[46:47] It’s going to attempt to do those things
 and then deal with the forces it encounters.
-CR: So if we add forces, inflicting forces
+[46:51] CR: So if we add forces, inflicting forces
 upon the ship by way of atmospheric resistance
-doing any sort of drag or lift calculations
+[46:58] doing any sort of drag or lift calculations
 to apply forces to this ship it’s going
-to work just right out of the box.
-The question that we’re dealing with now
+[47:05] to work just right out of the box.
+[47:07] The question that we’re dealing with now
 is what is the best way to apply those forces
-to these ships?
-JH: What is the best way?
-JP: I really don’t want to get into a lot
+[47:13] to these ships?
+[47:14] JH: What is the best way?
+[47:17] JP: I really don’t want to get into a lot
 of aerodynamics with our ships I kind of like
-to just
-PM: I mean a Constellation’s not very aerodynamic.
-JP: No I mean in the game I don’t to get
+[47:25] to just
+[47:26] PM: I mean a Constellation’s not very aerodynamic.
+[47:28] JP: No I mean in the game I don’t to get
 into aerodynamics for our ships I don’t
-want to have to aerodynamics I want to really
+[47:32] want to have to aerodynamics I want to really
 treat it more as you’re flying a spaceship
-into atmosphere so you got some more turbulence
+[47:37] into atmosphere so you got some more turbulence
 going on, but you’re still flying it with
-your thrusters you’re not dealing with control
+[47:41] your thrusters you’re not dealing with control
 surfaces for turns and things like that.
-If that’s the case then it should work pretty
+[47:46] If that’s the case then it should work pretty
 well as designed.
-It will be interesting having atmospheric
+[47:53] It will be interesting having atmospheric
 drag because then your thrusters are always
-pushing to give you the constant velocity
+[47:56] pushing to give you the constant velocity
 whereas in space once you get there the thrusters
-turn off.
-What we talked about the turbulence from precision
+[48:01] turn off.
+[48:03] What we talked about the turbulence from precision
 from the thrusters you’ll see a lot of turbulence
-just from flying through atmosphere and things
+[48:08] just from flying through atmosphere and things
 like that
-JH: Alright thank you guys.
-This was a nice little refresher on the flight
+[48:10] JH: Alright thank you guys.
+[48:12] This was a nice little refresher on the flight
 model.
-We’ve done one of these before we’ll put
+[48:15] We’ve done one of these before we’ll put
 the link right down here if you want to see
-where this conversation started a couple months
+[48:20] where this conversation started a couple months
 ago.
-John, Pete, Calix thanks so much for taking
+[48:23] John, Pete, Calix thanks so much for taking
 the time to sit down with us.
-Back
-to you guys.
-MVP
-SG: Ben, the envelope please.
-BL: We’re back to envelopes.
-SG: Yay, we have an envelope with some nice
+[48:30] Back
+[48:44] to you guys.
+[48:54] MVP
+[48:59] SG: Ben, the envelope please.
+[49:10] BL: We’re back to envelopes.
+[49:13] SG: Yay, we have an envelope with some nice
 tape on
-the back.
-BL: Fundings going great.
-SG: The winner is … Froogle.
-BL: Froogle did a fantastic learn to fly video
+[50:11] the back.
+[50:13] BL: Fundings going great.
+[50:29] SG: The winner is … Froogle.
+[50:59] BL: Froogle did a fantastic learn to fly video
 about some of the troubles that people have
-when they are first starting out in Star Citizen.
-Troubles that will hopefully be alleviated
+[51:20] when they are first starting out in Star Citizen.
+[51:24] Troubles that will hopefully be alleviated
 by updates to the tutorial in the future but
-for now we got you guys.
-Thank you very much Froogle.
-We just like saying Froogle.
-SG/BL: Froogle.
-SG: At first I thought it said Frogle but
+[51:28] for now we got you guys.
+[51:30] Thank you very much Froogle.
+[51:31] We just like saying Froogle.
+[51:32] SG/BL: Froogle.
+[51:33] SG: At first I thought it said Frogle but
 ...
-BL: No, that’s a different guy.
-SG: Froogle … Frogle.
-Froogle: Assign to the yaw, you can see the
+[51:35] BL: No, that’s a different guy.
+[51:37] SG: Froogle … Frogle.
+[51:38] Froogle: Assign to the yaw, you can see the
 yaw in this is much more responsive than in
-Elite Dangerous and there are G-effects in
+[51:45] Elite Dangerous and there are G-effects in
 this as well so if you go too fast and pull
-too hard a maneuver you can blackout your
+[51:50] too hard a maneuver you can blackout your
 pilot which is realistic.
-The Newtonian physics really comes in when
+[51:54] The Newtonian physics really comes in when
 you have something ...
-SG: And now here is your Art Sneak Peek.
-Sneak peek
-[Apocalypse Arms Rail Gun (aka Scourge).
-Rough Blockout Phase Work-in-Progress]
-BL: Well, I don’t know what that was but
+[51:58] SG: And now here is your Art Sneak Peek.
+[52:00] Sneak peek
+[52:01] [Apocalypse Arms Rail Gun (aka Scourge).
+[52:03] Rough Blockout Phase Work-in-Progress]
+[52:05] BL: Well, I don’t know what that was but
 we can find out and tomorrow on Reverse the
-Verse at 11 am Pacific on Twitch, we’ll
+[52:27] Verse at 11 am Pacific on Twitch, we’ll
 tell you and we’ll answer all your other
-Star Citizen questions so tune in.
-Outro
-SG: Did you have a RockStar today?
-BL: No, we gotta get more RockStar in the
+[52:31] Star Citizen questions so tune in.
+[52:34] Outro
+[52:35] SG: Did you have a RockStar today?
+[52:36] BL: No, we gotta get more RockStar in the
 office.
-SG: Of course, thank you as always to our
+[52:38] SG: Of course, thank you as always to our
 subscribers for making this show possible.
-We will see you next week on Around the Verse.
-BL: Around the Verse.
+[52:42] We will see you next week on Around the Verse.
+[52:48] BL: Around the Verse.

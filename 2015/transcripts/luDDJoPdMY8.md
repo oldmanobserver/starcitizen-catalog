@@ -6,534 +6,534 @@
 
 ## Transcript
 
-Closed Captioning provided by the Imperial
+[00:04] Closed Captioning provided by the Imperial
 News Network.
-Matt Sherman (MS): Hi everyone Technical Designer
+[00:12] Matt Sherman (MS): Hi everyone Technical Designer
 here at the LA office.
-Dave Haddock (DH): I’m Dave Haddock, i’m
+[00:15] Dave Haddock (DH): I’m Dave Haddock, i’m
 the Lead Writer.
-MS: And we’re here with Ten for the Developers.
-Many of you are familiar with our, Ten for
+[00:16] MS: And we’re here with Ten for the Developers.
+[00:19] Many of you are familiar with our, Ten for
 the.. program like Chris Robert’s Ten for
-the Chairman.
-This is a new spin on it where we’re going
+[00:24] the Chairman.
+[00:25] This is a new spin on it where we’re going
 to have a, for today a Designer and a Writer
-together and we’re going to go over how
+[00:29] together and we’re going to go over how
 we have to collaborate and what that leads
-to with the rest of the game.
-DH: We’ve been getting our questions from
+[00:34] to with the rest of the game.
+[00:36] DH: We’ve been getting our questions from
 the subscribers, who if you’re not familiar
-are, contribute a little bit of extra money
+[00:41] are, contribute a little bit of extra money
 every month to allow us to do this community
-based content and keep you guys more informed
+[00:46] based content and keep you guys more informed
 about what’s going on.
-MS: Yeah, thank you to all our subscribers
+[00:52] MS: Yeah, thank you to all our subscribers
 and let’s get into all these questions.
-(0:56) Dazc asks: Hi Dave, are you planning
+[00:58] (0:56) Dazc asks: Hi Dave, are you planning
 to write any fiction to mirror the development
-process.
-Such as being locked to Crusader, flying around
+[01:03] process.
+[01:04] Such as being locked to Crusader, flying around
 Stanton and then finally when we get to jump
-to other systems.
-It would be interesting to hear that the system
+[01:09] to other systems.
+[01:10] It would be interesting to hear that the system
 has been in lockdown due to pirate/Vanduul/spacial
-disturbances or that maintenance repairs /software
+[01:14] disturbances or that maintenance repairs /software
 updates to the jump gates have finally been
-completed.
-DH: That was something we’d talked about,
+[01:20] completed.
+[01:21] DH: That was something we’d talked about,
 I remember in the early days with Area 18,
-the idea that you could go in stores but you
+[01:26] the idea that you could go in stores but you
 couldn’t buy anything.
-We were like “do we want to create some
+[01:28] We were like “do we want to create some
 reasoning behind it so the credit card machine
-are down or the CCB’s offline or something.”
-And then we kind of stopped talking about
+[01:34] are down or the CCB’s offline or something.”
+[01:39] And then we kind of stopped talking about
 it.
-I think part of it was, particularly with
+[01:42] I think part of it was, particularly with
 the PTU that’s coming out, that we’re
-working on, large world, it was supposed to
+[01:48] working on, large world, it was supposed to
 be mostly a test bed so we wanted to be able
-to try stuff and get it in the game and figure
+[01:53] to try stuff and get it in the game and figure
 out what would become the PU would work ultimately.
-I think basically if we started adding fiction
+[02:03] I think basically if we started adding fiction
 to it then we would have to come up with fiction
-as to why things changed and it just felt
+[02:07] as to why things changed and it just felt
 like it would probably be easier to just free
-ourselves from that and be able to iterate
+[02:13] ourselves from that and be able to iterate
 rapidly as new systems come online we can
-start incorporating them and stuff like that.
-MS: Even from the design side, as great as
+[02:18] start incorporating them and stuff like that.
+[02:20] MS: Even from the design side, as great as
 those things would be, not having that overhead
-constraint really lets us make sure that the
+[02:26] constraint really lets us make sure that the
 design and the gameplay can come through.
-But once we get the whole thing up and running
+[02:31] But once we get the whole thing up and running
 and we’ve got the real PU all built out
-do you think think that’s something we can
+[02:37] do you think think that’s something we can
 probably explore then/later?
-DH: I feel like it probably will just because
+[02:40] DH: I feel like it probably will just because
 Chris likes packaging stuff in the fiction
-because it gives you a context that let’s
+[02:47] because it gives you a context that let’s
 you know the parameters of what you’re playing
-with.
-So I think it is definitely possible down
+[02:54] with.
+[02:55] So I think it is definitely possible down
 the line.
-It seems like once we’ve solidified the
+[02:57] It seems like once we’ve solidified the
 foundation more, and the core mechanics, it
-will probably be more likely.
-MS: Cool, cool.
-(3:04) RamsonCole asks: I was wondering about
+[03:02] will probably be more likely.
+[03:05] MS: Cool, cool.
+[03:07] (3:04) RamsonCole asks: I was wondering about
 the addition of belly cameras to the ships
-to facilitate landings.
-It’s awfully hard to land manually when
+[03:12] to facilitate landings.
+[03:13] It’s awfully hard to land manually when
 you can’t see what’s below you.
-I know I could change my view, but that takes
+[03:16] I know I could change my view, but that takes
 away from the immersion aspect for me.
-MS: Definitely a great idea.
-One of the current challenges with that is
+[03:20] MS: Definitely a great idea.
+[03:23] One of the current challenges with that is
 just how CryEngine handles picture-in-picture
-so it may not be the most immediate thing
+[03:28] so it may not be the most immediate thing
 but I can definitely see us almost adding
-a different view where it is than that belly
+[03:33] a different view where it is than that belly
 camera landing view, because a lot of people
-do like the manual control, the manual feel
+[03:39] do like the manual control, the manual feel
 and everything as opposed to the automated
-assist.
-So longer term it is absolutely something
+[03:42] assist.
+[03:43] So longer term it is absolutely something
 we can explore but probably won’t be something
-where you see a panel on your dashboard change
+[03:48] where you see a panel on your dashboard change
 to show …
-DH: Like a live feed or something like that?
-MS: Yeah.
-Most likely won’t take that shape but it’s
+[03:52] DH: Like a live feed or something like that?
+[03:53] MS: Yeah.
+[03:54] Most likely won’t take that shape but it’s
 absolutely something to look into.
-DH: Yeah, particularly because I crash a lot.
-MS: [laughs]
-(4:01) Superflytwo asks: How hard is it to
+[03:58] DH: Yeah, particularly because I crash a lot.
+[04:00] MS: [laughs]
+[04:03] (4:01) Superflytwo asks: How hard is it to
 concept and write about alien races as opposed
-to Humanity?
-DH: That is a good question.
-It’s different, obviously once you get into
+[04:10] to Humanity?
+[04:11] DH: That is a good question.
+[04:16] It’s different, obviously once you get into
 the nuts and bolts of other civilisations
-and stuff like that, it’s always a little
+[04:21] and stuff like that, it’s always a little
 tricky.
-For me it was always the idea that these are
+[04:25] For me it was always the idea that these are
 still characters and though they maybe Xi’an
-or Banu or something like that and they come
+[04:30] or Banu or something like that and they come
 from a different society with different values
-and stuff like that they’re still in a sense
+[04:34] and stuff like that they’re still in a sense
 characters in a narrative, they still have
-wants, they have needs, they have things they
+[04:39] wants, they have needs, they have things they
 don’t like that and that stuff like that.
-Some of that might be coloured by the civilisation
+[04:43] Some of that might be coloured by the civilisation
 that they’re coming from but it’s still
-just looking at them as characters who are
+[04:49] just looking at them as characters who are
 trying to complete a story.
-It’s always been how I look at it.
-MS: Yeah and even also on just some of the
+[04:52] It’s always been how I look at it.
+[04:55] MS: Yeah and even also on just some of the
 gameplay side of that something to keep in
-mind is as, some of our races could possibly
+[05:00] mind is as, some of our races could possibly
 get pretty interesting although right now
-a lot of them have that humanoid form and
+[05:05] a lot of them have that humanoid form and
 lot of that is like, if you imagine an arachnid
-race the kind of crazy culture that would
+[05:11] race the kind of crazy culture that would
 have to associate with it.
-A lot of extra moving parts
-DH: I remember that’s been a popular topic
+[05:17] A lot of extra moving parts
+[05:19] DH: I remember that’s been a popular topic
 in the ask a dev and stuff like that.
-You know like having six foot tall, six legged
+[05:25] You know like having six foot tall, six legged
 things.
-Is that, there was some worry about doing
+[05:29] Is that, there was some worry about doing
 it internally, I don’t know what the deal
-is, is it feasible to do that?
-Is it much harder cause it’s a completely
+[05:34] is, is it feasible to do that?
+[05:36] Is it much harder cause it’s a completely
 unique set of animation or design or?
-MS: I need to check with Bender and Riggs
+[05:40] MS: I need to check with Bender and Riggs
 on the animation side, but I would definitely
-say part of it because how an insectoid thing
+[05:45] say part of it because how an insectoid thing
 would walk, would move, would act would be
-much more based on that thing being an insect
+[05:51] much more based on that thing being an insect
 and not so much being a human, so to have
-a drastically non-humanoid race it does pose
+[05:57] a drastically non-humanoid race it does pose
 a few extra challenges there.
-(6:03) Jmojo asks: Just saw the awesome videos
+[06:04] (6:03) Jmojo asks: Just saw the awesome videos
 and development about cargo.
-Some made me really, really happy.
-But, one question I have is: If we find we
+[06:11] Some made me really, really happy.
+[06:13] But, one question I have is: If we find we
 find a rare item on the scale as fully functioning
-parts to ships, weapons for a ship(bulldogs,
+[06:18] parts to ships, weapons for a ship(bulldogs,
 missiles and a torpedo), hand guns, rifles
-and other items in that family tree.
-Will we be able to store them in the hangar(s)
+[06:23] and other items in that family tree.
+[06:24] Will we be able to store them in the hangar(s)
 we own?
-Like have a corner of our hangar for weapon
+[06:28] Like have a corner of our hangar for weapon
 caches and tank full of rare ore or gas tucked
-away for a rainy day.
-MS: Yeah absolutely.
-If you have salvaged or recovered an item
+[06:32] away for a rainy day.
+[06:34] MS: Yeah absolutely.
+[06:36] If you have salvaged or recovered an item
 off of a ship it would go right into your
-cargo hold and so the next time you land back
+[06:40] cargo hold and so the next time you land back
 in your hanger you can just unload that have
-that in storage and available for use.
-The ability to scavenge and recover those
+[06:44] that in storage and available for use.
+[06:50] The ability to scavenge and recover those
 parts won’t always be a sure thing but it’s
-definitely something that if, you get a stockpile
+[06:54] definitely something that if, you get a stockpile
 of “Ok here’s some spare guns” throw
-them away a little bit more if you don’t
+[06:59] them away a little bit more if you don’t
 want to keep paying repairs on their reconditioned
-stuff
-DH: And so all the stuff would be physicalised
+[07:04] stuff
+[07:05] DH: And so all the stuff would be physicalised
 in your hangar so it would be just like I
-hit a terminal up
-MS: Hangar physicalisation I think is still
+[07:08] hit a terminal up
+[07:10] MS: Hangar physicalisation I think is still
 being sorted because that could lead to something
-where if you’ve got a thousand guns, you
+[07:15] where if you’ve got a thousand guns, you
 got a thousand objects that the game has to
-update and keep rendering but some representation,
+[07:19] update and keep rendering but some representation,
 even if it has to be created up, we should
-definitely be able to get some way where you
+[07:25] definitely be able to get some way where you
 can see the spoils of war.
-(7:31) RufusUltra asks: Is there any chance
+[07:32] (7:31) RufusUltra asks: Is there any chance
 to get a fourth starter ship like the Drake
-Dragonfly?
-DH: I hope so.
-I love that idea.
-That was always one of my favourites.
-It’s not up to me but I think it would be
+[07:40] Dragonfly?
+[07:41] DH: I hope so.
+[07:44] I love that idea.
+[07:45] That was always one of my favourites.
+[07:47] It’s not up to me but I think it would be
 amazing.
-MS: Yeah, I mean it definitely has gotten
+[07:51] MS: Yeah, I mean it definitely has gotten
 a lot of community sentiment because the idea
-of the “space motorcycle” is really cool.
-Long term we absolutely want to have more
+[07:57] of the “space motorcycle” is really cool.
+[08:00] Long term we absolutely want to have more
 starter ships in the game that just the current
-three that we are offering.
-But a lot of it is getting our other ships
+[08:04] three that we are offering.
+[08:07] But a lot of it is getting our other ships
 built out first, that we’ve already sold
-you.
-But I think we have been talking some of the
+[08:11] you.
+[08:12] But I think we have been talking some of the
 concessions and design setup: “Okay, it’s
-the space motorcycle but do we have an open
+[08:19] the space motorcycle but do we have an open
 air pilot, exposed to the vacuum of space?
-Do we let him go into Quantum?”
-DH: Yeah, it’s a very tricky thing because
+[08:24] Do we let him go into Quantum?”
+[08:28] DH: Yeah, it’s a very tricky thing because
 if it’s really small how big are these components
-because you’re heavily involved in the components
+[08:33] because you’re heavily involved in the components
 process.
-A Quantum Drive is not a small thing.
-MS: Yeah.
-It’s like “How small can it actually be?
-How exposed can it be?”
-But things like that, with starter ships in
+[08:36] A Quantum Drive is not a small thing.
+[08:38] MS: Yeah.
+[08:39] It’s like “How small can it actually be?
+[08:41] How exposed can it be?”
+[08:43] But things like that, with starter ships in
 general, we’re definitely going to keep
-exploring stuff down the road but it may take
+[08:47] exploring stuff down the road but it may take
 a little bit longer before something like
-the Dragonfly could happen.
-DH: Cool.
-(8:53) Eschatos asks: “We’ve heard before
+[08:52] the Dragonfly could happen.
+[08:54] DH: Cool.
+[08:56] (8:53) Eschatos asks: “We’ve heard before
 that the dev team collaborates with the writing
-team to make sure the lore is reasonably in
+[09:01] team to make sure the lore is reasonably in
 sync with the game mechanics, with some creative
-license in the fiction.
-Are you actively seeding clues in the lore
+[09:05] license in the fiction.
+[09:07] Are you actively seeding clues in the lore
 that will lead to bigger mysteries or hint
-at secrets hidden for players to discover
+[09:11] at secrets hidden for players to discover
 later?
-Is there room for the possibility that things
+[09:14] Is there room for the possibility that things
 hidden in the universe for explorers or other
-players to find might not be found for years,
+[09:17] players to find might not be found for years,
 or not at all?
-MS: For perceiving things in the lore, so
+[09:22] MS: For perceiving things in the lore, so
 this wouldn’t be so much a hidden mystery
-type thing to discover just how the first
+[09:29] type thing to discover just how the first
 jump drive came about.
-That started in the fiction of; RSI had this
+[09:35] That started in the fiction of; RSI had this
 malfunctioning Quantum Drive and from there
-they were able to use it to tap into jump
+[09:41] they were able to use it to tap into jump
 technology and start travelling through these
-Jump Points.
-I remember a couple of months ago we were
+[09:46] Jump Points.
+[09:49] I remember a couple of months ago we were
 sitting down and we actually were going over
-it’s like “Ok are these two separate things
+[09:52] it’s like “Ok are these two separate things
 or are they all in one?” and that was definitely
-a cool thing, of going through where it was
+[09:59] a cool thing, of going through where it was
 taking the fiction that we have and making
-sure that the gameplay surrounding it all
+[10:03] sure that the gameplay surrounding it all
 gels together
-DH: Yeah and fuel and everything, how to,
+[10:07] DH: Yeah and fuel and everything, how to,
 Quantum Drive vs Jump Drive use and fuels
-and stuff like that, which ultimately lead
+[10:14] and stuff like that, which ultimately lead
 to the fuel docks and what different fuels
-you use and stuff like that.
-The second part of the question; are you actively
+[10:18] you use and stuff like that.
+[10:22] The second part of the question; are you actively
 seeking clues that will lead to a bigger mysteries?
-Yeah, I mean that’s always been sort of
+[10:27] Yeah, I mean that’s always been sort of
 the thing.
-Theoretically ideally we are going to have
+[10:31] Theoretically ideally we are going to have
 a lot of narrative threads out there that
-we could pick up on or maybe no one sees and
+[10:36] we could pick up on or maybe no one sees and
 just nothing comes of it.
-Obviously once we start testing this out and
+[10:44] Obviously once we start testing this out and
 see how it, exactly how hidden this stuff
-is, it’s nice to think people might not
+[10:48] is, it’s nice to think people might not
 discover Jump Points for a while or then they,
-you know find them within twenty minutes!
-(11:00) jlymdal asks: My question about the
+[10:55] you know find them within twenty minutes!
+[10:59] (11:00) jlymdal asks: My question about the
 Narrative/Story in the PU is about playable
-characters inclusion in the universe.
-If a player manages enough of a specific task,
+[11:19] characters inclusion in the universe.
+[11:21] If a player manages enough of a specific task,
 such as exploration, trade, mining or any
-other job, will there be NPC’s that will
+[11:25] other job, will there be NPC’s that will
 mention the player character by name either
-as a reference or as part of a mission?
-Will players eventually be recognized by inhabitants
+[11:29] as a reference or as part of a mission?
+[11:31] Will players eventually be recognized by inhabitants
 of a system for their acts?
-DH: That is a tough one!
-It’s been interesting because that’s one
+[11:36] DH: That is a tough one!
+[11:38] It’s been interesting because that’s one
 of the things that was really fascinating
-about Fallout 4 was I didn’t realise they
+[11:42] about Fallout 4 was I didn’t realise they
 had done the whole “name recording” thing
-and I had ended up picking a name the robot
+[11:47] and I had ended up picking a name the robot
 knew so it actually referred to me by name
-and it totally blew my mind.
-That being said it’s a really, really complicated
+[11:52] and it totally blew my mind.
+[11:55] That being said it’s a really, really complicated
 technical thing to accomplish because invariably
-it feels like you have to do so many voice
+[12:02] it feels like you have to do so many voice
 recordings and so many variables and stuff
-that people will always feel left out because
+[12:08] that people will always feel left out because
 you’re not going to get everyone’s name,
-it’s just not a feasible reality.
-MS: But now more to a player’s actions I
+[12:13] it’s just not a feasible reality.
+[12:15] MS: But now more to a player’s actions I
 can definite see us getting something where,
-at least based on your reputation, you could
+[12:21] at least based on your reputation, you could
 have something where you’re the “Hero
-of the UEE” and when you are walking around
+[12:26] of the UEE” and when you are walking around
 people might, at least, act a little bit better
-towards you.
-DH: Yeah, I guess it becomes a little bit
+[12:31] towards you.
+[12:32] DH: Yeah, I guess it becomes a little bit
 more strategic.
-Or how we frame it.
-The classic example is you are the one who
+[12:35] Or how we frame it.
+[12:36] The classic example is you are the one who
 killed the Dread Pirate Roberts, you might
-be walking down the street someone might go
+[12:41] be walking down the street someone might go
 “oh, that’s … they killed ... that’s
-the one … that’s the guy/girl that killed
+[12:45] the one … that’s the guy/girl that killed
 Dread Pirate Roberts” because then you only
-have two options that you need to record or
+[12:49] have two options that you need to record or
 whatever.
-But then it feels like the universe is dynamically
+[12:54] But then it feels like the universe is dynamically
 reacting to the stuff that you’ve done.
-So, yeah I think so.
-It’s definitely going to be seeded into
+[13:01] So, yeah I think so.
+[13:03] It’s definitely going to be seeded into
 the Reputation system and that’s one of
-the things that’s been a heavily discussed
+[13:07] the things that’s been a heavily discussed
 thing of late, of trying to figure out exactly
-how deep the Reputation system goes and how
+[13:12] how deep the Reputation system goes and how
 it works and stuff like that.
-MS: So seeding your actions into their responses
+[13:16] MS: So seeding your actions into their responses
 that can possibly happen but doing it by character
-name is going to, most likely, be a bit prohibitive.
-DH: Yeah.
-(13:28) kris891 asks: Hey guys, will it be
+[13:24] name is going to, most likely, be a bit prohibitive.
+[13:29] DH: Yeah.
+[13:31] (13:28) kris891 asks: Hey guys, will it be
 possible for organizations to actually have
-ships owned by the organization?
-This would be really good for organizations
+[13:37] ships owned by the organization?
+[13:39] This would be really good for organizations
 that are focused on the corporation style
-or syndicate style of playing.
-This way the organizations can be role played
+[13:42] or syndicate style of playing.
+[13:46] This way the organizations can be role played
 as a real business and the members will always
-have a feeling of contributing even if other
+[13:49] have a feeling of contributing even if other
 members are offline.
-MS: We’re definitely looking at some more
+[13:53] MS: We’re definitely looking at some more
 expanded features and just gameplay for how
-organisations will interact with each other.
-I know for a long time we’ve been building
+[13:59] organisations will interact with each other.
+[14:02] I know for a long time we’ve been building
 that, at least some way that you can share
-ships within your organisation.
-The exact details on how that will structure
+[14:06] ships within your organisation.
+[14:09] The exact details on how that will structure
 out is still being sorted and whether or not
-you’ll have an organisation coffer or the
+[14:14] you’ll have an organisation coffer or the
 organisation saying “Hey we need to buy
-an Idris everyone just chip into this pool”
+[14:19] an Idris everyone just chip into this pool”
 and that goes through, then be a little bit
-in the air because at a certain point someone
+[14:25] in the air because at a certain point someone
 needs to own something so it may just default
-to ownership of the organisation leader but
+[14:30] to ownership of the organisation leader but
 the ability to share out and allow others
-to use your ships in a big group is definitely
+[14:36] to use your ships in a big group is definitely
 a big thing we want to deliver
-DH: Digital keyring, you just dropped keys
+[14:43] DH: Digital keyring, you just dropped keys
 in a bowl!
-(14:46) Grand-Admiral-Kern asks: Will alien
+[14:48] (14:46) Grand-Admiral-Kern asks: Will alien
 tech sometimes be better than UEE tech?(Example:
-Banu- more efficient jump engines, jump scanners,
+[14:57] Banu- more efficient jump engines, jump scanners,
 BIG BAD WEAPONS to hang on the sides of our
-Hulls ;) Will alien tech be useable on UEE
+[15:02] Hulls ;) Will alien tech be useable on UEE
 ships at the same level of effectiveness the
-equipment has on its native vessels?
-DH: We’ve always sort of established a lot
+[15:07] equipment has on its native vessels?
+[15:10] DH: We’ve always sort of established a lot
 of the big alien races/civilizations are roughly
-around the same technological level just because
+[15:20] around the same technological level just because
 it felt like if somebody had a, was far advanced
-than Humanity maybe they would just, if the
+[15:27] than Humanity maybe they would just, if the
 Xi’an were just a super power basically
-compared to Humanity they would just wipe
+[15:32] compared to Humanity they would just wipe
 Humanity out, and just not be much of a war.
-That idea that everybody can hurt everybody
+[15:37] That idea that everybody can hurt everybody
 was important.
-That being said each one will have things
+[15:46] That being said each one will have things
 that we specialise in that they are better
-at.
-We’ve already sort of seen it with some
+[15:51] at.
+[15:52] We’ve already sort of seen it with some
 of the Xi’an ships that they tend to do
-be vertical, they have fewer main thrusters,
+[15:56] be vertical, they have fewer main thrusters,
 more maneuvering thrusters type of stuff,
-trying to give them different feels and flavours
+[16:03] trying to give them different feels and flavours
 and stuff like that
-MS: Even down to the nitty gritty of that
+[16:06] MS: Even down to the nitty gritty of that
 like parts of the components, there can definitely
-be some things for you, Banu make and model,
+[16:11] be some things for you, Banu make and model,
 things like the scanner could have some different
-parameters that a UEE make and model scanner
+[16:17] parameters that a UEE make and model scanner
 wouldn’t have favoured.
-It would always be a give and take, you’re
+[16:21] It would always be a give and take, you’re
 going to equip either Banu or Xi’an tech
-for this purpose and wouldn’t so much be
+[16:27] for this purpose and wouldn’t so much be
 just a general always better type of thing
-DH: Do you think as far as, can I take an
+[16:34] DH: Do you think as far as, can I take an
 RSI ship and put in a Banu scanner?
-MS: I would definitely say so, that’s also
+[16:40] MS: I would definitely say so, that’s also
 why we did some of the component size standardisation
-so that we’ve got the housing and the box
+[16:48] so that we’ve got the housing and the box
 for, this is a volume of a small class power
-plant or a small class radar but what each
+[16:54] plant or a small class radar but what each
 individual race and manufacturer delivers
-for that could look very different while the
+[17:01] for that could look very different while the
 functionality and that interfacing into the
-ship is still very much the same.
-DH: Or it’s converted to do its thing
-MS: Yeah.
-Adapter plates!
-(17:11) Fallunlite asks: Has the idea of terminal
+[17:06] ship is still very much the same.
+[17:07] DH: Or it’s converted to do its thing
+[17:11] MS: Yeah.
+[17:12] Adapter plates!
+[17:14] (17:11) Fallunlite asks: Has the idea of terminal
 illness or genuine disease been discussed?
-For example: Players happen to discover a
+[17:19] For example: Players happen to discover a
 shipwreck and they find some food stuffs/strange
-biological container and possibly try to eat
+[17:26] biological container and possibly try to eat
 the food or sell the container.
-They get sick, possibly only as carriers and
+[17:29] They get sick, possibly only as carriers and
 then you know you have an in-verse pandemic.
-I’m curious if this simple add-in by developers
+[17:34] I’m curious if this simple add-in by developers
 would cause the entire verse to go nuts, both
-‘government’ and player-forced euthanasia,
+[17:40] ‘government’ and player-forced euthanasia,
 extreme traffic control/blockades….that
-sort of thing.
-The point is that player psychology would
+[17:44] sort of thing.
+[17:45] The point is that player psychology would
 be studied for decades by IRL teachers/students
-doing term papers...etc about how in-game
+[17:49] doing term papers...etc about how in-game
 players react to a pandemic, was there blood/did
-they handle it well, how different was it
+[17:53] they handle it well, how different was it
 to a real scenario?
-So devs don’t even need to set up the government,
+[17:56] So devs don’t even need to set up the government,
 let the players do the work and I bet dollars
-to donuts the publicity would go through the
+[18:00] to donuts the publicity would go through the
 roof.
-I will leave you with this link of something
+[18:02] I will leave you with this link of something
 similar that happened in World of Warcraft
-years ago albeit not intended.
-MS: So this is actually an interesting story
+[18:06] years ago albeit not intended.
+[18:07] MS: So this is actually an interesting story
 for both of us because, the link Fallunlite
-mentions at the end, at the time I was actually
+[18:14] mentions at the end, at the time I was actually
 a customer support rep on World of Warcraft
-and you were mentioning that you were actually
+[18:19] and you were mentioning that you were actually
 in-game when this was happening.
-DH: I was playing.
-I logged in when this was happening.
-MS: So just for a little bit of context the
+[18:22] DH: I was playing.
+[18:23] I logged in when this was happening.
+[18:24] MS: So just for a little bit of context the
 incident in question is what was described.
-So a virus got unleashed into a massive populous.
-DH: It was a bug.
-There was a DOT.
-MS: Yes, there was a debuff effect that was
+[18:30] So a virus got unleashed into a massive populous.
+[18:33] DH: It was a bug.
+[18:34] There was a DOT.
+[18:35] MS: Yes, there was a debuff effect that was
 causing this virus and it wasn’t intended
-that it was going to wipe out the world but
+[18:42] that it was going to wipe out the world but
 it did.
-DH: Yeah the timer wouldn’t end.
-And it was contagious.
-MS: Yeah, very contagious.
-So the high-level idea of this, where you
+[18:45] DH: Yeah the timer wouldn’t end.
+[18:46] And it was contagious.
+[18:48] MS: Yeah, very contagious.
+[18:50] So the high-level idea of this, where you
 do have this uncontrollable viral outbreak
-is an insanely cool high-level thing, but
+[18:56] is an insanely cool high-level thing, but
 something to consider with it is just how
-destructive that is.
-In this example it even as it says here players-forced
+[19:04] destructive that is.
+[19:06] In this example it even as it says here players-forced
 euthanasia or government-forced euthanasia.
-That was how that situation had to be contained.
-Entire player, well not player cities, but
+[19:16] That was how that situation had to be contained.
+[19:20] Entire player, well not player cities, but
 like main hubs …
-DH: Ogrimmar
-MS … in the game had to be just wiped out,
+[19:24] DH: Ogrimmar
+[19:25] MS … in the game had to be just wiped out,
 every living thing had to die!
-So to do that for the PU, having some sort
+[19:30] So to do that for the PU, having some sort
 of a viral incident: definitely want to explore
-that.
-Having it be something that could contaminate
+[19:38] that.
+[19:39] Having it be something that could contaminate
 and infect the entire universe is a little
-less likely.
-DH: And that’s a huge content shift.
-MS: Because that would effectively be like
+[19:45] less likely.
+[19:46] DH: And that’s a huge content shift.
+[19:47] MS: Because that would effectively be like
 “cool, let’s just eradicate Terra and
-everyone who lives on there”.
-And it’s not really the friendliest option.
-DH: And also that becomes the story.
-You can’t do “I’m going to pick up three
+[19:53] everyone who lives on there”.
+[19:56] And it’s not really the friendliest option.
+[20:00] DH: And also that becomes the story.
+[20:03] You can’t do “I’m going to pick up three
 tonnes of iron ore and move it to Stanton
-because, oh my god, there’s a pandemic making
+[20:10] because, oh my god, there’s a pandemic making
 people bleed on me”.
-It feels like everything else grinds to a
+[20:17] It feels like everything else grinds to a
 halt.
-That was a thing like I mentioned: I logged
+[20:19] That was a thing like I mentioned: I logged
 in randomly while that event was going on
-and I spawned in Ogrimmar and there were just
+[20:23] and I spawned in Ogrimmar and there were just
 corpses everywhere, and I had no idea what
-was going on so I just took off because I
+[20:28] was going on so I just took off because I
 saw bleeding people and just started running.
-So it’s a great narrative hook, no doubt,
+[20:35] So it’s a great narrative hook, no doubt,
 but it would be dangerous.
-MS: The dangers of it are definitely there.
-Although even on a smaller scale like having
+[20:42] MS: The dangers of it are definitely there.
+[20:46] Although even on a smaller scale like having
 a ship-wide event, that’s probably something
-you could see.
-So you’re doing some research on your Endeavour
+[20:52] you could see.
+[20:53] So you’re doing some research on your Endeavour
 or other science type ship, and something
-goes wrong there, that could definitely be
+[20:58] goes wrong there, that could definitely be
 more of a case where it’s that same kind
-of fear and same kind of panic but in a much
+[21:04] of fear and same kind of panic but in a much
 more controllable scale where billions of
-entities won’t have to die just to get things
+[21:10] entities won’t have to die just to get things
 back to normal.
-DH: There could even be a planet that needs
+[21:15] DH: There could even be a planet that needs
 to be quarantined because they have a thing
-but then again it feels like it’s a very
+[21:19] but then again it feels like it’s a very
 guarded type thing where it’s like “oh
-well they need more resources to maintain
+[21:23] well they need more resources to maintain
 this quarantine” then maybe you can have
-the narrative hook of “oh the quarantine
+[21:28] the narrative hook of “oh the quarantine
 starts to fail”.
-But again that feels more kind of a scripted
+[21:31] But again that feels more kind of a scripted
 thing rather than just creating a virus bug
-and just letting it go and run rampant.
-MS: So it’s definitely something that we
+[21:38] and just letting it go and run rampant.
+[21:41] MS: So it’s definitely something that we
 want to explore but it is making sure that
-we can explore it without being too punishing
+[21:45] we can explore it without being too punishing
 to everyone else who may not find viral outbreaks
-the most valuable use of their gaming hours.
-(22:01) OUTRO:
-DH: Alright, well that’s it.
-MS: That has been this week’s 10 for the
+[21:52] the most valuable use of their gaming hours.
+[21:55] (22:01) OUTRO:
+[21:56] DH: Alright, well that’s it.
+[21:58] MS: That has been this week’s 10 for the
 Developers.
-I really hope you guys enjoyed the new format.
-Sorry for any noise you may have heard in
+[22:01] I really hope you guys enjoyed the new format.
+[22:04] Sorry for any noise you may have heard in
 the background, we’re still getting settled
-here into the new Los Angeles office so there
+[22:08] here into the new Los Angeles office so there
 is a little bit of ongoing construction, but
-I hope all the answers were loud and clear
+[22:13] I hope all the answers were loud and clear
 and thank you again for contributing.
-DH: Thank you.
+[22:26] DH: Thank you.

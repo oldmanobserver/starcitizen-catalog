@@ -6,535 +6,535 @@
 
 ## Transcript
 
-Intro:
-Hello everyone. Welcome to another episode
+[00:00] Intro:
+[00:12] Hello everyone. Welcome to another episode
 of “10 for the Chairman”. For those of
-you who haven’t watched this before this
+[00:16] you who haven’t watched this before this
 is where I take ten questions from the subscribers
-and answer them to the best of my ability.
+[00:21] and answer them to the best of my ability.
 The subscribers are the subset of our community
-that contribute money every month to enable
+[00:26] that contribute money every month to enable
 us to do enhanced community content: this
-show, Around the Verse, Jump Point. Which
+[00:31] show, Around the Verse, Jump Point. Which
 is a 50 to 70 page sometimes longer actually,
-monthly magazine which has deep dives into
+[00:38] monthly magazine which has deep dives into
 how we build the ships, various behind-the-scenes
-design stuff, how we put things together and
+[00:45] design stuff, how we put things together and
 also has some pretty cool and interesting
-fiction and background notes on parts of the
+[00:52] fiction and background notes on parts of the
 Star Citizen universe. It’s a great read
-if you haven’t checked it out; Jump Point.
+[00:56] if you haven’t checked it out; Jump Point.
 But the subscribers allow us to do the enhanced
-amount of community content that I think sets
+[01:03] amount of community content that I think sets
 Star Citizen apart from a lot of other games
-out there, crowd-funded games as well as regular
+[01:09] out there, crowd-funded games as well as regular
 games. So thank you very much subscribers
-and that’s why I answer ten questions every
+[01:13] and that’s why I answer ten questions every
 week.
-So speaking of people that have enabled us
+[01:18] So speaking of people that have enabled us
 to make the game, I have a rather detailed
-and nice letter from, I won’t read his real
+[01:26] and nice letter from, I won’t read his real
 name, but he goes by Vlog, aka Seth Darklight
-on our forums, who wrote an eight page design,
+[01:36] on our forums, who wrote an eight page design,
 feedback, suggestion stuff. It’s good and
-it’s the same as we see on the forums, on
+[01:46] it’s the same as we see on the forums, on
 our own site, Reddit, and stuff like that.
-And it’s one of the things that’s really
+[01:53] And it’s one of the things that’s really
 cool about Star Citizen: the ability to read
-and look, and not necessarily agree with everything,
+[02:00] and look, and not necessarily agree with everything,
 but if there’s good ideas you take it on
-board. The opportunity to do this in a way
+[02:04] board. The opportunity to do this in a way
 you never would in a traditional development
-because you tend to be closed and everything
+[02:08] because you tend to be closed and everything
 tends to … at some point the team can lose
-sight of forest for the trees, so to speak.
+[02:18] sight of forest for the trees, so to speak.
 So it’s good to have the feedback loop we
-have and have it early enough in the process
+[02:28] have and have it early enough in the process
 to affect stuff.
-So we have 2.0 coming out very soon, we have
+[02:31] So we have 2.0 coming out very soon, we have
 a live stream here a little later on this
-week and 2.0 is going to be very close to
+[02:37] week and 2.0 is going to be very close to
 that. Anyway I hope you guys are going to
-enjoy it, it’s going to be a whole other
+[02:48] enjoy it, it’s going to be a whole other
 level of play and interaction compared to
-what you’ve done in the past in Star Citizen
+[02:53] what you’ve done in the past in Star Citizen
 and Arena Commander and ArcCorp. I’m pretty
-interested because there will be a bunch of
+[03:00] interested because there will be a bunch of
 stuff that will come to light and playstyles
-and things that people do that you can’t
+[03:07] and things that people do that you can’t
 really do in the current set up. We’ve put
-a little bit of content in there, but not
+[03:12] a little bit of content in there, but not
 really close to what’s ultimately going
-to be in there but I think it’s a really
+[03:17] to be in there but I think it’s a really
 great foundation. It’s going to be the first
-place where you’re going to have everything
+[03:20] place where you’re going to have everything
 together: the vehicle flying around but also
-moving around EVA, you engaging in FPS, going
+[03:26] moving around EVA, you engaging in FPS, going
 off fighting AI or fighting other players.
-And then we’re just going to build from
+[03:33] And then we’re just going to build from
 there. I’m actually really curious to see
-that because it’s very foundational for
+[03:39] that because it’s very foundational for
 what we’re going to do. The whole team is
-so they’re all working really hard, me myself
+[03:43] so they’re all working really hard, me myself
 included, which is maybe why my eyes are slightly
-tired today because I’m not necessarily
+[03:48] tired today because I’m not necessarily
 getting as much sleep as I would if we weren’t
-trying to get towards getting 2.0 out for
+[03:52] trying to get towards getting 2.0 out for
 you. But we’re all pretty excited for that.
-So anyway, I just wanted to let you know that.
+[03:57] So anyway, I just wanted to let you know that.
 But thank you very much Seth Darklight for
-your suggestions and I think you may have
+[04:03] your suggestions and I think you may have
 sent this [holds up book]. We don’t really
-know, if it wasn’t you then whoever it was
+[04:08] know, if it wasn’t you then whoever it was
 let us know via Customer Service. But thank
-you for the Stephen Hawking novel “A Brief
+[04:12] you for the Stephen Hawking novel “A Brief
 History of Time” that’s very cool. It’s
-two books in one as you can see here on the
+[04:18] two books in one as you can see here on the
 bottom. So thanks but now let me get to the
-questions.
-The first one comes from ....
-@4:25 [127th] Chaos asks:
-Can I swap out my P-52 to a P-72 on the base
+[04:24] questions.
+[04:25] The first one comes from ....
+[04:27] @4:25 [127th] Chaos asks:
+[04:30] Can I swap out my P-52 to a P-72 on the base
 model of the Constellation?
-I haven’t really decided, we’ve just finished
+[04:36] I haven’t really decided, we’ve just finished
 off. Gurmukh who is one of our internal concept
-artists and has done some really great stuff.
+[04:45] artists and has done some really great stuff.
 He did the Vanguard for instance and the Carrack.
-He’s done the P-72 which we’re setting
+[04:49] He’s done the P-72 which we’re setting
 up as a racer. So we may have the ability
-to upgrade it or buy a P-72 separate from
+[04:59] to upgrade it or buy a P-72 separate from
 what you get with your Constellation Phoenix.
-But we haven’t fully made a decision yet
+[05:05] But we haven’t fully made a decision yet
 but they’re all going to be cool and I can’t
-wait to see the Constellation flying out in
+[05:12] wait to see the Constellation flying out in
 space and you have your Merlin or Archimedes
-and you can take it from your Constellation
+[05:22] and you can take it from your Constellation
 and fly around and come back and dock. That’s
-going to be pretty cool it won’t be in 2.0
+[05:29] going to be pretty cool it won’t be in 2.0
 but hopefully will be in 2.1 we just have
-to finish up the final bit of binding one
+[05:34] to finish up the final bit of binding one
 vehicle to another and dealing with the physics
-grid. But when that happens it’s going to
+[05:39] grid. But when that happens it’s going to
 be pretty awesome and it’s a whole other
-level of cool gameplay stuff we’re going
+[05:43] level of cool gameplay stuff we’re going
 to do.
-@5:45 Resk asks:
-Will escape pods be functional in the multi-crew
+[05:46] @5:45 Resk asks:
+[05:48] Will escape pods be functional in the multi-crew
 ships upon the release of Star Citizen Alpha
-2.0? How are they intended to work?
-So the escape pods will not be functional
+[05:53] 2.0? How are they intended to work?
+[05:55] So the escape pods will not be functional
 in 2.0. Longer term they will but probably
-not for 2.1 but I would say after that. The
+[06:02] not for 2.1 but I would say after that. The
 idea will be you should be able to... especially
-for the PU you should be able to get into
+[06:08] for the PU you should be able to get into
 the escape pod, seal it up and get out of
-there which is sort of your escape when the
+[06:12] there which is sort of your escape when the
 ship’s going down. So the bigger multi crew
-ships when they’re about to blow I think
+[06:17] ships when they’re about to blow I think
 we’ve sort of previewed some kind of warning
-and damage states that you got only so many
+[06:22] and damage states that you got only so many
 seconds to get out before the thing blows
-and that will be either getting into your
+[06:27] and that will be either getting into your
 EVA suit and trying to EVA far enough away
-so the explosion won't hurt you or getting
+[06:33] so the explosion won't hurt you or getting
 into an escape pod and escaping away which
-will eject you and probably keep you more
+[06:36] will eject you and probably keep you more
 safe.
-Generally if your ship is about to ready blow
+[06:39] Generally if your ship is about to ready blow
 in the PU especially you would get into your
-escape pod and the escape pod has a tracker
+[06:44] escape pod and the escape pod has a tracker
 or tag on it, so that’s how you would get
-found and respawn and go back to sort of the
+[06:48] found and respawn and go back to sort of the
 last friendly planet you were on. That’s
-how they’re intended to work so if you obviously
+[06:54] how they’re intended to work so if you obviously
 do use the escape pod that’s one of the
-ways to save your lives so to speak otherwise
+[07:02] ways to save your lives so to speak otherwise
 when your ship blows up, then you’ll have
-lost one of your lives and you’ll wake up
+[07:07] lost one of your lives and you’ll wake up
 in the hospital after they found your almost
-dead body and charred and brought you back
+[07:13] dead body and charred and brought you back
 to life, so yes use escape pods when we have
-them working that is.
-Next question comes from
-@7:19 Xneon asks:
-In regards to Personal Amor (FPS). Currently
+[07:19] them working that is.
+[07:20] Next question comes from
+[07:21] @7:19 Xneon asks:
+[07:23] In regards to Personal Amor (FPS). Currently
 we have Light, Medium and Heavy Armors that
-a player can wear and it comes a “suit”
+[07:28] a player can wear and it comes a “suit”
 of armor. Is there any plans to allow us to
-mix and match armor types. If so, how is the
+[07:34] mix and match armor types. If so, how is the
 overall protection value determined or is
-it protection based on hit location and armor
+[07:38] it protection based on hit location and armor
 protecting that particular location?
-For the initial 2.0 and Star Marine we just
+[07:42] For the initial 2.0 and Star Marine we just
 have the light, medium and heavy which are
-full suits of armour. That’s just temporary
+[07:49] full suits of armour. That’s just temporary
 the actual long term plan is actually in the
-process concepting is to have the armours
+[07:55] process concepting is to have the armours
 be very much pieces. Almost like the medium
-armour is heavier pieces on the same base
+[08:02] armour is heavier pieces on the same base
 suit the heavy would go one step beyond that.
-You could mix and match say breast plates
+[08:12] You could mix and match say breast plates
 or shoulder guards or armour padding on the
-legs and that absolutely will be based on
+[08:19] legs and that absolutely will be based on
 physical hit location and the density and
-strength of the material you’re hitter there
+[08:28] strength of the material you’re hitter there
 that will come with the physically based weapon
-damage stuff that we will be working on. It’s
+[08:34] damage stuff that we will be working on. It’s
 not going to be in 2.0 it will come when we
-bring the newer refactored items to the table
+[08:39] bring the newer refactored items to the table
 which is likely to be probably 2.2 I would
-think. Because 2.1 is going to be fairly close
+[08:49] think. Because 2.1 is going to be fairly close
 to 2.0 so we may not have time to get in.
-It’s a pretty big refactor but I think it
+[08:56] It’s a pretty big refactor but I think it
 will give a lot more flexibility and fidelity
-and should be pretty cool when we get proper
+[09:04] and should be pretty cool when we get proper
 physical damage and physical characteristics
-for projectiles.
-@9:14 Draconis asks:
-Have you seen any signs that anyone in the
+[09:12] for projectiles.
+[09:13] @9:14 Draconis asks:
+[09:18] Have you seen any signs that anyone in the
 gaming industry is taking to hear the points
-you made during your presentation at GDC?
+[09:22] you made during your presentation at GDC?
 If so could you provide an example?
-Okay… Just trying to think. Presentation
+[09:28] Okay… Just trying to think. Presentation
 at the game developers conference because
-I don’t think I’ve made a presentation
+[09:33] I don’t think I’ve made a presentation
 at the game developers conference since I
-did one at the sort of GDC online that was
+[09:38] did one at the sort of GDC online that was
 here in LA quite a while ago? But I haven’t
-really done one at GDC. Maybe I did one like
+[09:44] really done one at GDC. Maybe I did one like
 at gamescom not this year but the year before
-I did one and I guess that’s a European
+[09:52] I did one and I guess that’s a European
 GDC? I’m not sure whether.. We definitely
-are doing, I think I made my points fairly
+[10:02] are doing, I think I made my points fairly
 consistently about what we try to engaging
-the community and sharing the work we're doing
+[10:07] the community and sharing the work we're doing
 and by doing that and also having the ability
-to iterate and make things better because
+[10:12] to iterate and make things better because
 you have a community involved and giving you
-feedback on a level that you wouldn’t have
+[10:16] feedback on a level that you wouldn’t have
 with a sort of internal development team or
-internal testing.
-I definitely see people out there that are
+[10:20] internal testing.
+[10:22] I definitely see people out there that are
 sort of taking to heart the more community
-driven development process. We’re not the
+[10:28] driven development process. We’re not the
 only ones that do that by the way. There are
-people who have been community driven in the
+[10:34] people who have been community driven in the
 past as well but I certainly think that the
-fact that we’ve managed to mount a project
+[10:43] fact that we’ve managed to mount a project
 this ambitious with the support of everyone
-out there has opened a lot of eyes because
+[10:50] out there has opened a lot of eyes because
 it’s a totally different way.
-Before people dismissed crowdfunding and doing
+[10:54] Before people dismissed crowdfunding and doing
 things the openway has been a small niche
-thing to do but were not small or niche, were
+[11:00] thing to do but were not small or niche, were
 competing with the biggest projects out there
-and it’s all because of you guys and that’s
+[11:04] and it’s all because of you guys and that’s
 pretty good so I definitely see when I talk
-to people in the industry on the gaming side,
+[11:10] to people in the industry on the gaming side,
 there’s a lot of people that have paid attention
-to that and understand the power of it and
+[11:19] to that and understand the power of it and
 like I said I don’t think we’re the only
-people that have ever done that, it’s not
+[11:23] people that have ever done that, it’s not
 unique to us. I just think we’ve sort of
-committed it wholeheartedly and that’s helped
+[11:28] committed it wholeheartedly and that’s helped
 out. I do think that in some ways we are helping
-sort of change things slowly, crowdfunding
+[11:34] sort of change things slowly, crowdfunding
 has done that as well.
-So, there you go.. I mean it’s kind of hard
+[11:39] So, there you go.. I mean it’s kind of hard
 to say giving an example, you can kind of
-see some other crowdfunding campaigns and
+[11:46] see some other crowdfunding campaigns and
 they do sort of follow a lot the processes
-we started. I definitely know that even in
+[11:51] we started. I definitely know that even in
 the case of Shroud of the Avatar quite a while
-ago I was telling
-Richard: “Hey you should go and crowdfund”
+[11:58] ago I was telling
+[11:59] Richard: “Hey you should go and crowdfund”
 and when they were starting it perhaps Richard
-would tell us. We had some chats and I’m
+[12:03] would tell us. We had some chats and I’m
 like yeah this is kind of what worked for
-us and they’ve been doing an amazing job
+[12:07] us and they’ve been doing an amazing job
 themselves. I’m always impressed how consistent
-they are, how they’re constantly pushing
+[12:13] they are, how they’re constantly pushing
 out new content, how they’re engaging their
-community and there doing a great job and
+[12:17] community and there doing a great job and
 to be honest with you there are a lot of other
-crowdfunding campaigns that are doing a good
+[12:22] crowdfunding campaigns that are doing a good
 job of that too.
-We’ve shouted out a view of them and backed
+[12:24] We’ve shouted out a view of them and backed
 a few and I think you’ll also see longer
-term even publishers sort of embrace the model
+[12:29] term even publishers sort of embrace the model
 of engaging the community early, giving them
-access, giving them an opportunity to feedback
+[12:35] access, giving them an opportunity to feedback
 and make them feel like they’re involved
-with the process.
-Alright, next question comes from …
-@12:39 Leonhard Seppala asks:
-How will landing on Crusader in the Alpha
+[12:36] with the process.
+[12:37] Alright, next question comes from …
+[12:38] @12:39 Leonhard Seppala asks:
+[12:39] How will landing on Crusader in the Alpha
 2.0 release compare to what we saw at CitizenCon
-2014. and how close will that be to your final
+[12:40] 2014. and how close will that be to your final
 vision for planet landing sequences.
-Well CitizenCon 2014 we showed landing in
+[13:13] Well CitizenCon 2014 we showed landing in
 ArcCorp but we’re not going to be landing
-in ArcCorp in 2.0. We don’t have planetary
+[13:14] in ArcCorp in 2.0. We don’t have planetary
 landing we have landings on various space
-stations then we have three main space stations
+[13:15] stations then we have three main space stations
 and six or seven communication satellites
-scattered around the Crusade gas giant. We’re
+[13:17] scattered around the Crusade gas giant. We’re
 not going to have the planetary landings this
-year. It will be next year. It will definitely
+[13:26] year. It will be next year. It will definitely
 be like the CitizenCon we saw in 2014 but
-probably much better.
-We’ve got some pretty cool stuff we’re
+[13:37] probably much better.
+[13:38] We’ve got some pretty cool stuff we’re
 working on. Not ready to show it yet, but
-I think people will be very pleasantly surprised
+[13:43] I think people will be very pleasantly surprised
 when they see what we’re working on cause
-it’s…. Anyway, we’re going to do something
+[13:48] it’s…. Anyway, we’re going to do something
 I didn’t think we were going to be able
-to do for quite a while so i’m quite happy
+[13:49] to do for quite a while so i’m quite happy
 with that but again like I said we’ll wait
-to show you that we got a bunch of stuff to
+[13:50] to show you that we got a bunch of stuff to
 do first, I think there will be more freeform
-from space to planets and than we were originally
+[13:51] from space to planets and than we were originally
 saying and it will all stream and be pretty
-cool. There’s a bunch of tech that’s coming
+[13:52] cool. There’s a bunch of tech that’s coming
 together towards the end of this year/beginning
-of next year that will enable that and we’ll
+[13:53] of next year that will enable that and we’ll
 be showing it to you guys some time early
-next year and hopefully you’ll like it.
-@14:26 MooKids asks:
-In Multi-crew ships, will the ships be capable
+[13:54] next year and hopefully you’ll like it.
+[13:55] @14:26 MooKids asks:
+[13:56] In Multi-crew ships, will the ships be capable
 of performing extreme maneuvers that can cause
-blackout/redout? If so, would that mean people
+[13:57] blackout/redout? If so, would that mean people
 on board not strapped in would be prone to
-be thrown around the interior of the ship
+[13:58] be thrown around the interior of the ship
 as the G-force needed to cause a blackout/redout
-would be too much for an unrestrained occupant
+[13:59] would be too much for an unrestrained occupant
 to stand still?
-Longer term in the multi crew ships I would
+[14:00] Longer term in the multi crew ships I would
 like you to be able to do more violent maneuvers
-and in development even if you’re not strapped
+[14:01] and in development even if you’re not strapped
 into your seat you’re going
-to get kind of thrown around a little bit
+[15:10] to get kind of thrown around a little bit
 just like if you are on a ship or aeroplane
-and if you’re in a violent maneuver you
+[15:11] and if you’re in a violent maneuver you
 get thrown around. That will not be implemented
-in 2.0 it’s actually not particularly that
+[15:12] in 2.0 it’s actually not particularly that
 difficult to implement it’s just we’ve
-got so many things to do there are lot of
+[15:13] got so many things to do there are lot of
 things that are a priority above that. I’m
-not sure we’ll be able to ever have multi
+[15:15] not sure we’ll be able to ever have multi
 crew pull the kind of extreme G-forces that
-a high performance fighter could it’s going
+[15:21] a high performance fighter could it’s going
 to be very similar that a passenger jet airliner
-would be compared to an F-16. An F-16 is built
+[15:27] would be compared to an F-16. An F-16 is built
 for much more aggressive maneuvers than a
-passenger jet liner but you should be able
+[15:35] passenger jet liner but you should be able
 to maneuver your multi crew ship fairly violently
-and throw people around ultimately. Like I
+[15:44] and throw people around ultimately. Like I
 said it won’t be for 2.0 but it’s absolutely
-part of the goals it gives you a reason to
+[15:49] part of the goals it gives you a reason to
 strap in in combat and if you had boost boxes
-they would get moved around and stuff like
+[15:54] they would get moved around and stuff like
 that. Coming but not in 2.0
-@ 16:02 Krash asks:
-If I purchase components, missiles, a shield
+[16:00] @ 16:02 Krash asks:
+[16:03] If I purchase components, missiles, a shield
 generator, weapons, etc. Will they remain
-in my inventory when the PU goes live or are
+[16:08] in my inventory when the PU goes live or are
 these purchases just to support the continuing
-efforts to create the best damned space sim
+[16:12] efforts to create the best damned space sim
 ever and will be deleted when we go live?
-If you actually purchased components using
+[16:17] If you actually purchased components using
 UEC which we’ve given you by default with
-your account and occasionally give additional
+[16:23] your account and occasionally give additional
 ones and you can even buy some UEC. Those
-will all be permanent and will carry across
+[16:30] will all be permanent and will carry across
 into the PU anything you would purchase with
-a temporary currency. We’re debating doing
+[16:37] a temporary currency. We’re debating doing
 a temporary currency for the baby PU that
-we’re working on now that would allow you
+[16:44] we’re working on now that would allow you
 to earn some money. That would obviously be
-wiped and obviously REC which is the rental
+[16:48] wiped and obviously REC which is the rental
 equipment stuff which we may also carry across
-into Crusader the baby PU. It’s obviously
+[16:54] into Crusader the baby PU. It’s obviously
 temporary it runs for a period of time.
-Essentially if you’ve bought some stuff
+[16:59] Essentially if you’ve bought some stuff
 with hard cash then yes you have it in the
-baby PU and you would have it all the way
+[17:07] baby PU and you would have it all the way
 to the proper game works because that wouldn’t
-be very fair if we didn’t let you do that.
+[17:14] be very fair if we didn’t let you do that.
 I will say that it doesn’t mean that some
-of the items and components may not get balanced
+[17:20] of the items and components may not get balanced
 cause obviously as you’ve seen as we put
-out there occasionally stuff needs to be re-tuned
+[17:24] out there occasionally stuff needs to be re-tuned
 or rebalanced based on new features that come
-in or gameplay or maybe we’ve just made
+[17:29] in or gameplay or maybe we’ve just made
 a weapon or a component too powerful and maybe
-we need to adjust it. But if you bought it
+[17:34] we need to adjust it. But if you bought it
 you’ll be able to get it and obviously once
-we get UEC working properly in the game you’ll
+[17:40] we get UEC working properly in the game you’ll
 also be able to earn items and sell them to
-get credits back to get other stuff inside
+[17:47] get credits back to get other stuff inside
 the game system.
-@ 17:53 Dreada asks:
-Are there any changes being made to start-up
+[17:51] @ 17:53 Dreada asks:
+[17:52] Are there any changes being made to start-up
 sequence for large multi-crew ships? I’ve
-noticed in the 2.0 demo that within a few
+[17:58] noticed in the 2.0 demo that within a few
 seconds of the pilot taking controls that
-the ship was airborne and flying off.
-Well I mean you’ll get into the ship, you’ll
+[18:03] the ship was airborne and flying off.
+[18:05] Well I mean you’ll get into the ship, you’ll
 sort of turn it on and you’ll get the HUD
-booted up and then after thrusters have spooled
+[18:10] booted up and then after thrusters have spooled
 up you should be able to fly it. Longer term
-we’re actually working on the stuff that
+[18:15] we’re actually working on the stuff that
 will be a bit more involved. So having an
-interactable cockpit where not just having
+[18:24] interactable cockpit where not just having
 the screen interact with but turn switches
-off and on and so more old school ships you
+[18:30] off and on and so more old school ships you
 may have to click stuff off and on and some
-more modern ones maybe just touchscreens or
+[18:38] more modern ones maybe just touchscreens or
 holograms.
-We’ll probably make some of that more involved
+[18:41] We’ll probably make some of that more involved
 later on; so there’s some new stuff that’s
-coming with our usability and item refactor
+[18:47] coming with our usability and item refactor
 that will allow us to sort of look around
-the cockpit and I think you’ve seen a preview
+[18:52] the cockpit and I think you’ve seen a preview
 of what we're doing with the interactive screens
-but that will all extend to also: “Oh look
+[18:57] but that will all extend to also: “Oh look
 here’s a switch I can turn a switch.”
-So interact with buttons and everything in
+[19:02] So interact with buttons and everything in
 cockpits. So you get in and turn your powerplant
-on and turn your HUD on and those kind of
+[19:06] on and turn your HUD on and those kind of
 things. We will probably add some of that.
-We don’t want to go too crazy on it because
+[19:12] We don’t want to go too crazy on it because
 we want to make this game accessible. We’re
-already fairly… I know some people think
+[19:18] already fairly… I know some people think
 we’re a very simple game but if you compare
-us to say even the past Wing Commanders, I’ve
+[19:26] us to say even the past Wing Commanders, I’ve
 done the Privateers, we’ve got a lot more
-knobs and dials you turn, modes you switch
+[19:30] knobs and dials you turn, modes you switch
 between and I mean just moving between the
-flight modes that’s already four flight
+[19:35] flight modes that’s already four flight
 modes where in Wing Commander there’s just
-one flight mode.
-So we’re adding this extra complexity for
+[19:39] one flight mode.
+[19:40] So we’re adding this extra complexity for
 when you get into the game you can really
-get the most out of it but we also need the
+[19:48] get the most out of it but we also need the
 kind of basic “Oh I’ll get in my basic
-starter ship, it’s an automatic, I don’t
+[19:52] starter ship, it’s an automatic, I don’t
 need to tweak anything and I can just easily
-fly and take off” and then as you get more
+[19:57] fly and take off” and then as you get more
 into it and you want to sort of get better
-performance or more control then you would
+[20:01] performance or more control then you would
 go into a more manual state. So that’s kind
-of like the analogy between having a car that’s
+[20:06] of like the analogy between having a car that’s
 automatic and a car that’s manual. Right
-now our startup sequences will be short to
+[20:12] now our startup sequences will be short to
 allow you to get into the action but longer
-term we will make it more involved for the
+[20:18] term we will make it more involved for the
 bigger ships and make it generally cool.
-Okay, next question comes from …
-@20:26 Saber asks:
-Will there be voice commands to act as shortcuts
+[20:24] Okay, next question comes from …
+[20:25] @20:26 Saber asks:
+[20:29] Will there be voice commands to act as shortcuts
 so if you want to change your shield parameters
-you can say “shields” as a voice command
+[20:34] you can say “shields” as a voice command
 and it will direct you to the shield options?
-So right now I know our community has been
+[20:38] So right now I know our community has been
 pretty active, there’s been a bunch of really
-cool Voice Attack profiles that have been
+[20:43] cool Voice Attack profiles that have been
 put together by people. So you can kind of
-do that on a community side, people have been
+[20:48] do that on a community side, people have been
 sharing their profiles and set up for that.
-Longer term that is absolutely on our audio
+[20:53] Longer term that is absolutely on our audio
 roadmap: so it is one of the things that I
-will have on the audio roadmap is basically
+[20:57] will have on the audio roadmap is basically
 building in voice command into the game itself.
-I mean it’s pretty appropriate, we’re
+[21:05] I mean it’s pretty appropriate, we’re
 a sci-fi game; you already have voice recognition
-engine on Windows which is pretty good, which
+[21:09] engine on Windows which is pretty good, which
 is what Voice Attack uses. So it is one of
-the things that the Audio Department have
+[21:13] the things that the Audio Department have
 on their long term roadmap to implement, but
-of course we’ve got quite a few other things
+[21:19] of course we’ve got quite a few other things
 like the VOIP, the situational voice that
-people could do whether they are behind you
+[21:25] people could do whether they are behind you
 or talking to you over your helmet. Stuff
-like that.
-But long term, yes that’s the plan. Short
+[21:29] like that.
+[21:30] But long term, yes that’s the plan. Short
 term, you can do this right now just by setting
-up Voice Attack and getting some of the profiles
+[21:34] up Voice Attack and getting some of the profiles
 set up by the community.
-@21:39 Sensi asks:
-My org is in the process of choosing its home
+[21:37] @21:39 Sensi asks:
+[21:42] My org is in the process of choosing its home
 planet. We have an in-lore history and we’d
-like to settle on a planet like Yar or Hyperion.
+[21:48] like to settle on a planet like Yar or Hyperion.
 Could you tell us how you envision the PU
-release regarding star systems availability?
+[21:53] release regarding star systems availability?
 Will all star systems be available e.g. at
-the end of beta, or after a gradual provisioning?
-It’s actually too early to make a call on
+[21:58] the end of beta, or after a gradual provisioning?
+[22:02] It’s actually too early to make a call on
 which planets will allow players to start.
-We are going to have a selection of planets
+[22:08] We are going to have a selection of planets
 that people could start on when they start
-the game so we don’t have player crowding
+[22:14] the game so we don’t have player crowding
 in one location. We haven’t made a decision
-on how many there will be and where they will
+[22:20] on how many there will be and where they will
 be located. It probably wouldn’t be all
-the places we have. It probably would be the
+[22:25] the places we have. It probably would be the
 bigger or more likely candidates in UEE space.
-Whether it’s we give an option of four starting
+[22:32] Whether it’s we give an option of four starting
 locations or ten starting locations we haven’t
-determined that yet that will iteratively
+[22:39] determined that yet that will iteratively
 be decided as we grow the universe. Right
-now obviously there’s one starting location
+[22:47] now obviously there’s one starting location
 in Stanton but that’s going to change as
-we add more places with content.
-It’s too early to say we will give you a
+[22:54] we add more places with content.
+[22:56] It’s too early to say we will give you a
 choice and maybe it will be related to some
-of the preferences you want to do. Like if
+[23:03] of the preferences you want to do. Like if
 you’re more keen on being an outlaw or on
-PvP then you probably don’t want to be in
+[23:09] PvP then you probably don’t want to be in
 the heart of UEE space, so things like that
-will also factor in. It’s early days yet
+[23:15] will also factor in. It’s early days yet
 so we haven’t fully decided what that’s
-going to be. There will be multiple choices,
+[23:20] going to be. There will be multiple choices,
 we don’t know how many of them and whether
-we’ll have some small amount at the beginning
+[23:27] we’ll have some small amount at the beginning
 and roll out larger options as we go alone
-which I would suspect would probably be the
+[23:31] which I would suspect would probably be the
 likely route we take.
-@23:35 Outro:
-So there you go! There’s the ten questions
+[23:35] @23:35 Outro:
+[23:36] So there you go! There’s the ten questions
 from Subscribers for this week. I’ll be
-seeing you a little later on, on Thursday,
+[23:40] seeing you a little later on, on Thursday,
 for the livestream.
-And I would just like to thank everyone out
+[23:44] And I would just like to thank everyone out
 there, especially Subscribers, for contributing
-money every month to allow us to do this kind
+[23:51] money every month to allow us to do this kind
 of content; to the community at large for
-backing us and enabling us to make the game
+[23:56] backing us and enabling us to make the game
 of my dreams, and the team’s dreams, and
-I think your guys’ dreams. It’s unprecedented
+[24:04] I think your guys’ dreams. It’s unprecedented
 that we’re building a game of this scope
-and scale; the amount of money we’ve raised
+[24:08] and scale; the amount of money we’ve raised
 is mind-boggling; but it’s as I said, quite
-a while ago, everything we raise goes back
+[24:17] a while ago, everything we raise goes back
 into the game and that’s kind of unique.
-Most people when they make lots of money they
+[24:22] Most people when they make lots of money they
 take it off as profits but as far as I’m
-concerned it just allowing us to build a bigger,
+[24:27] concerned it just allowing us to build a bigger,
 much richer universe and so I thank you all
-for that. I’m going to continue that commitment
+[24:32] for that. I’m going to continue that commitment
 and pledge until we’ve got the game to the
-state that it’s fun. And hopefully we’ll
+[24:37] state that it’s fun. And hopefully we’ll
 just earn enough money to maintain the world
-and add more content to it. It’s great!
+[24:42] and add more content to it. It’s great!
 It’s a lot of work but I’m really excited
-to see it come together: more and more elements
+[24:49] to see it come together: more and more elements
 are dropping in and I think the level of fidelity,
-combined with the scope and goal and ambition
+[24:57] combined with the scope and goal and ambition
 of it, is really what’s going to set it
-apart. So starting with 2.0, you’re going
+[25:01] apart. So starting with 2.0, you’re going
 to start to feel a bit of that and then going
-into next year you’ll definitely be feeling
+[25:05] into next year you’ll definitely be feeling
 and seeing a lot more of that.
-Thank you all and I’ll see you on Thursday.
-Bye!
+[25:09] Thank you all and I’ll see you on Thursday.
+[25:42] Bye!

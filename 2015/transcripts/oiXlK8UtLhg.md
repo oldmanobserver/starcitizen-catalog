@@ -6,547 +6,547 @@
 
 ## Transcript
 
-Intro:
-Hello everyone.
-Welcome to another episode of 10 for the Chairman.
-For those of you who don’t know about this
+[00:11] Intro:
+[00:12] Hello everyone.
+[00:13] Welcome to another episode of 10 for the Chairman.
+[00:14] For those of you who don’t know about this
 show.
-This is where I take 10 questions that have
+[00:18] This is where I take 10 questions that have
 been asked by our subscribers and answer them
-to the best of my ability.
-Our subscribers are the subset of our community
+[00:23] to the best of my ability.
+[00:25] Our subscribers are the subset of our community
 that contribute money every month to enable
-us to do a greater degree of community content.
-It’s one of the things that sets Star Citizen
+[00:30] us to do a greater degree of community content.
+[00:33] It’s one of the things that sets Star Citizen
 apart from pretty much most games out there
-and that we really spend a lot of time and
+[00:37] and that we really spend a lot of time and
 effort on trying to engage and share things
-with all of you out there.
-The subscribers make that possible and so
+[00:43] with all of you out there.
+[00:45] The subscribers make that possible and so
 we can shoot this and shoot Around the ‘Verse
-and BugSmashers, Ship shape and a whole bunch
+[00:52] and BugSmashers, Ship shape and a whole bunch
 of other shows.
-We’ll have some more now that we’re in
+[00:55] We’ll have some more now that we’re in
 our new place and this is actually the last
-10 For the Chairman I will do from here.
-We’re actually going to have out on our
+[01:00] 10 For the Chairman I will do from here.
+[01:02] We’re actually going to have out on our
 little stage and there will be a little set
-to do 10 For the Chairman, just like there
+[01:06] to do 10 For the Chairman, just like there
 will be for Around the ‘Verse and all the
-rest which I think we’re going to be debuting
+[01:10] rest which I think we’re going to be debuting
 this week which will be very cool.
-It’s really nice to sort of have it partitioned
+[01:13] It’s really nice to sort of have it partitioned
 so we can shoot and not have everyone talking
-in the background or distracting people developing
+[01:19] in the background or distracting people developing
 while we’re all doing this.
-It’s all made possible by the subscribers
+[01:23] It’s all made possible by the subscribers
 so thank you very much for that.
-That’s why I try to answer ten questions.
-So speaking of thank you, there’s a really
+[01:27] That’s why I try to answer ten questions.
+[01:29] So speaking of thank you, there’s a really
 nice RSI ballcap that showed up here.
-So, let's see if this works..
-Although it’s probably on the super tight
+[01:35] So, let's see if this works..
+[01:37] Although it’s probably on the super tight
 setting… that’s tight, there you go a
-nice RSI Ballcap and a very nice card, Christmasy
+[01:46] nice RSI Ballcap and a very nice card, Christmasy
 card from dehero over in…
-“Says underground, hampton caught by a trout
+[01:56] “Says underground, hampton caught by a trout
 and..
-Dear Christmas, merry Christmas.
-Enclosed is a present for you not only keeping
+[02:01] Dear Christmas, merry Christmas.
+[02:04] Enclosed is a present for you not only keeping
 in the holiday season, but also for the release
-of Star Citizen 2.0 and most importantly the
+[02:09] of Star Citizen 2.0 and most importantly the
 RSI Constellation Andromeda ready to fly.
-I made two of these hats and I can think of
+[02:14] I made two of these hats and I can think of
 no better person to have one than you.
-May you keep the sun out of your eyes and
+[02:19] May you keep the sun out of your eyes and
 on the tennis court and in space for years
-to come.
-Give my best to Sandi, Ben, Jared, and everyone
+[02:24] to come.
+[02:25] Give my best to Sandi, Ben, Jared, and everyone
 else at CIG this Christmas season.
-Sincerely Brian and Chelsea”.
-Thank you very much Brian and Chelsea.
-This is very appropriate because well I’m
+[02:29] Sincerely Brian and Chelsea”.
+[02:30] Thank you very much Brian and Chelsea.
+[02:32] This is very appropriate because well I’m
 shooting this on Friday, but it will Air on
-monday, but as of today we are deploying as
+[02:37] monday, but as of today we are deploying as
 of live.
-So by the time you’ve watched me or watched
+[02:41] So by the time you’ve watched me or watched
 this, hopefully a bunch of people will have
-been playing 2.0 and it wont of fallen over
+[02:46] been playing 2.0 and it wont of fallen over
 too badly.
-I’m really looking forward to all the videos
+[02:51] I’m really looking forward to all the videos
 of people’s shenanigans and seeing what
-people get up to because there’s already
+[02:55] people get up to because there’s already
 been some really cool stuff i’ve seen on
-the PTU.
-Of course we’ll be constantly improving
+[02:59] the PTU.
+[03:00] Of course we’ll be constantly improving
 and we have one more patch that we’re going
-to do.. 2.1 before the end of the year.
-That will have some new things in it.
-That should be pretty cool and that’s not
+[03:04] to do.. 2.1 before the end of the year.
+[03:06] That will have some new things in it.
+[03:08] That should be pretty cool and that’s not
 really far out because the end of the year
-is pretty close.
-So that’s what we’re deploying live and
+[03:13] is pretty close.
+[03:15] So that’s what we’re deploying live and
 rolling over some of the further optimizations
-we’re working on, some bug fixes and some
+[03:20] we’re working on, some bug fixes and some
 new bits of content are going to go into 2.1
-which everyone will get to experience in the
+[03:25] which everyone will get to experience in the
 next few weeks.
-Definitely before Christmas.
-There you go!
-It’s a good day today and pretty sure, hopefully
+[03:30] Definitely before Christmas.
+[03:32] There you go!
+[03:33] It’s a good day today and pretty sure, hopefully
 it will be a good day on Monday because…
-Anyway… I’m in the future of the past,
+[03:41] Anyway… I’m in the future of the past,
 I can’t remember it…
-Here we go!
-Let's ask the 10 questions.
-(3:15) R0das asks: I recently have stopped
+[03:49] Here we go!
+[03:50] Let's ask the 10 questions.
+[03:52] (3:15) R0das asks: I recently have stopped
 playing an FPS game that uses Cryengine, because
-of the amount of cheats players are using
+[03:56] of the amount of cheats players are using
 (aimbot, for example).
-Are you considering any special cares for
+[03:59] Are you considering any special cares for
 SC against these kind of activities?
-We definitely are aware and have plans to
+[04:07] We definitely are aware and have plans to
 do stuff to crack down on cheating obviously
-we’re at a very early stage, so at these
+[04:16] we’re at a very early stage, so at these
 early days we’re not doing as much as we
-will do long term, because we’re just trying
+[04:20] will do long term, because we’re just trying
 to get the basic fundamentals in there.
-Not sure which CryEngine game you play, if
+[04:25] Not sure which CryEngine game you play, if
 it was an FPS one.
-Depends on whether it was a peer to peer or
+[04:30] Depends on whether it was a peer to peer or
 a server client model.
-Server client model’s a bit easier to validate
+[04:34] Server client model’s a bit easier to validate
 and make sure there isn’t as much cheating
-because you own the server which we would,
+[04:41] because you own the server which we would,
 and that’s, you can always do sanity checking
-against what the client is doing.
-So we definitely plan to have stuff in there
+[04:46] against what the client is doing.
+[04:48] So we definitely plan to have stuff in there
 to try and stop people from cheating by using
-bots and everything.
-There’s always ways that people figure out
+[04:55] bots and everything.
+[04:56] There’s always ways that people figure out
 how to do stuff, but that definitely is on
-our road map to try to make the experience
+[04:59] our road map to try to make the experience
 as good for everyone as possible and I would
-also say it is, Star Citizen isn’t a pure
+[05:05] also say it is, Star Citizen isn’t a pure
 competitive FPS game, it has everything, right,
-that’s part of what you can see in 2.0 there
+[05:11] that’s part of what you can see in 2.0 there
 is FPS stuff, there’s flying the ships around.
-In the big universe there’s going to be
+[05:16] In the big universe there’s going to be
 exploration , visiting places, talking to
-people, doing things like hauling cargo, mining,
+[05:21] people, doing things like hauling cargo, mining,
 so I don’t think it will have the same sort
-of pressure that you see in a straight up
+[05:28] of pressure that you see in a straight up
 FPS arena shooter or something like Team Fortress
-or War Face which is a Crysis based free to
+[05:36] or War Face which is a Crysis based free to
 play shooter.
-So we’ll see, but we definitely are going
+[05:40] So we’ll see, but we definitely are going
 to try our best to make sure that people don’t
-abuse the system and cheat.
-(5:47) krema asks: In the previous 10 for
+[05:45] abuse the system and cheat.
+[05:48] (5:47) krema asks: In the previous 10 for
 the Chairman, you talked about NPC’s being
-useful or not (for instance, when they have
+[05:52] useful or not (for instance, when they have
 to do maintenance or use manned-turret) depending
-on their skill.
-Will they have levels or maybe ranks?
-How will we be able to help them increase
+[05:57] on their skill.
+[05:58] Will they have levels or maybe ranks?
+[06:00] How will we be able to help them increase
 that experience?
-So yes NPCs absolutely will.
-They will be treated much more like you would
+[06:03] So yes NPCs absolutely will.
+[06:05] They will be treated much more like you would
 have a character in a traditional RPG game:
-they’ll have skill levels; they’ll probably
+[06:11] they’ll have skill levels; they’ll probably
 have different traits, whether it’s strength
-or loyalty, dexterity or intelligence; and
+[06:16] or loyalty, dexterity or intelligence; and
 skill with certain things, like skill in being
-gunner or skill in being a pilot.
-We’ll generate them at different levels:
+[06:24] gunner or skill in being a pilot.
+[06:30] We’ll generate them at different levels:
 rookie, starting out not so good is obviously
-much cheaper to hire than the veteran that
+[06:36] much cheaper to hire than the veteran that
 super bad ass at a bunch of stuff, so you
-can also get what you pay for in terms of
+[06:41] can also get what you pay for in terms of
 hiring your NPCs.
-But if you start with someone that isn’t
+[06:44] But if you start with someone that isn’t
 as experienced, the more you take them into
-battles and stuff they’ll level up and they’ll
+[06:49] battles and stuff they’ll level up and they’ll
 get better and more experienced just like
-people do in real life.
-So we do do these stats for the NPCs because
+[06:54] people do in real life.
+[06:56] So we do do these stats for the NPCs because
 we need to track how they get better and everything;
-we’re just not doing it for the player because
+[07:02] we’re just not doing it for the player because
 we want the player to be you doing it and
-your skills, so it’s you getting better
+[07:06] your skills, so it’s you getting better
 playing the game, not necessarily just leveling
-up stuff.
-So that’ll be there.
-You’ll get some access to it.
-I’m not sure we’ll expose the individual
+[07:09] up stuff.
+[07:11] So that’ll be there.
+[07:12] You’ll get some access to it.
+[07:13] I’m not sure we’ll expose the individual
 background stats we track but you’ll get
-an idea of whether they are experienced: veteran
+[07:18] an idea of whether they are experienced: veteran
 or rookie and stuff like that.
-So there you go.
-Alright, next question comes from Degorth,
+[07:24] So there you go.
+[07:26] Alright, next question comes from Degorth,
 who asks ...
-(7:30) Degorth asks: Will ship sensors be
+[07:30] (7:30) Degorth asks: Will ship sensors be
 able to scan an area for evidence of a ship
-having been there recently?
-I.E some kind of thruster trail or reactor
+[07:34] having been there recently?
+[07:36] I.E some kind of thruster trail or reactor
 emissions left behind.
-Could enhanced sensors scan for Quantum Drive
+[07:40] Could enhanced sensors scan for Quantum Drive
 wakes and determine where the ship jumped
-to, possibly even what kind of ship jumped?
-That’s a very good idea I don’t think
+[07:44] to, possibly even what kind of ship jumped?
+[07:47] That’s a very good idea I don’t think
 we have that in our initial plan of scanning
-and functions and stuff.
-But I think longer term that will probably
+[07:55] and functions and stuff.
+[07:56] But I think longer term that will probably
 be something that would be, something we would
-want the basics in there, and could add because
+[08:01] want the basics in there, and could add because
 it would be really good for bounty hunting
-and sleuthing missions where you could show
+[08:05] and sleuthing missions where you could show
 up and get an idea of was this person here
-or not by the IR, residue, or the radiation
+[08:10] or not by the IR, residue, or the radiation
 signature or something like that.
-So not yet but I would say longer term yes.
-(8:28) QuartzBear asks: With the introduction
+[08:17] So not yet but I would say longer term yes.
+[08:22] (8:28) QuartzBear asks: With the introduction
 of the Avenger Warlock, we’ve gotten our
-first glimpse at the prospects for non-lethal
+[08:27] first glimpse at the prospects for non-lethal
 combat options.
-Will it be possible to add such non-lethal
+[08:31] Will it be possible to add such non-lethal
 combat modules to other ships?
-Say an EMP module as defense for a hospital
+[08:34] Say an EMP module as defense for a hospital
 ship?
-Yes it will be possible to add nonlethal combat
+[08:38] Yes it will be possible to add nonlethal combat
 modules for the ships.
-EMP isn’t going to be strictly limited to
+[08:43] EMP isn’t going to be strictly limited to
 the Warlock we actually have some modules
-and plans for some of the other ships.
-Obviously there, normally be the bigger ships
+[08:47] and plans for some of the other ships.
+[08:51] Obviously there, normally be the bigger ships
 that would have them.
-We’re definitely building the game to be
+[08:54] We’re definitely building the game to be
 quite item and component centric and module
-centric.
-So you’ll be able to switch and chop and
+[09:01] centric.
+[09:02] So you’ll be able to switch and chop and
 change how your ships equipped more so than
-you have in the past.
-One of our drawbacks, cause the underlying
+[09:06] you have in the past.
+[09:08] One of our drawbacks, cause the underlying
 system supports this already is just generating
-all the components with the right variety
+[09:13] all the components with the right variety
 of functionality.
-So we have a plan for that it’s just there’s
+[09:16] So we have a plan for that it’s just there’s
 so many things in terms of just getting the
-ships out and other things.
-Even though we have a pretty big team for
+[09:20] ships out and other things.
+[09:23] Even though we have a pretty big team for
 a game of this size with this many options,
-there’s never enough people, but absolutely
+[09:27] there’s never enough people, but absolutely
 we’re planning for you to be able to switch
-out components and customise your ships and
+[09:32] out components and customise your ships and
 one of those things say would be EMP.
-(9:42) lianglonglong asks: Is it possible
+[09:36] (9:42) lianglonglong asks: Is it possible
 to raid a supply shipment , not for piracy,
-but to destroy it to possibly damage a rival
+[09:42] but to destroy it to possibly damage a rival
 orgs cargo thus it’s revenue and operations?
-Yes absolutely.
-That is going to be possible to do it, not
+[09:48] Yes absolutely.
+[09:49] That is going to be possible to do it, not
 only in the world like the NPCs’ supplies
-or goods or equipment or resources that are
+[09:56] or goods or equipment or resources that are
 going between resource nodes or stations or
-planets, but you could definitely do it for
+[10:03] planets, but you could definitely do it for
 orgs as well I would think, player controlled
-ones, depending on what they were moving around
+[10:08] ones, depending on what they were moving around
 for their own stuff.
-But were really going to try to have a game
+[10:11] But were really going to try to have a game
 that’s based around being able to deal with
-logistics.
-So you’re going to need, we’ve mentioned
+[10:18] logistics.
+[10:19] So you’re going to need, we’ve mentioned
 it before, but you’ll need things like fuel;
-certain kinds of ammunition are obviously
+[10:23] certain kinds of ammunition are obviously
 consumable, so ballistics are consumable,
-there’ll be other sorts of consumables that’ll
+[10:28] there’ll be other sorts of consumables that’ll
 happen.
-So if you’re out on the frontier or you’re
+[10:31] So if you’re out on the frontier or you’re
 waging a war there’ll definitely be the
-need to rearm, restock, refuel and you’ll
+[10:36] need to rearm, restock, refuel and you’ll
 have to get those arms and weapons: maybe
-someone can sell them to you; maybe your org
+[10:39] someone can sell them to you; maybe your org
 has someone coming in with a supply ship to
-do that.
-We have a variation of the Crucible that would
+[10:44] do that.
+[10:45] We have a variation of the Crucible that would
 be a restock and supply version that you could
-use in the background to backdrop an offensive
+[10:50] use in the background to backdrop an offensive
 to bring it in.
-We definitely want to make that part of gameplay
+[10:55] We definitely want to make that part of gameplay
 for the bigger organisations team play because
-we think one of the most interesting things
+[11:02] we think one of the most interesting things
 is not just the frontline combat but how people
-work together as a team to achieve things
+[11:06] work together as a team to achieve things
 and obviously the logistics are pretty good
-with that.
-And therefore one of the techniques to degrade
+[11:10] with that.
+[11:11] And therefore one of the techniques to degrade
 your opponent is to go for its supply line.
-So yes that will definitely come out as emergent
+[11:18] So yes that will definitely come out as emergent
 gameplay in the system we are setting up.
-(11:33) Avitus asks: If you own an alien ship,
+[11:25] (11:33) Avitus asks: If you own an alien ship,
 will that race recognize you as one of their
-own, a delayed death until they figure out
+[11:30] own, a delayed death until they figure out
 who you are, or immediate recognition?
-To be honest with you we really haven’t
+[11:37] To be honest with you we really haven’t
 thought about that, you’re not likely in
-the near future to be in the Xi’an scout
+[11:41] the near future to be in the Xi’an scout
 and coming up against Xi’an raiders are
-going to attack you, because the Xi’an are
+[11:47] going to attack you, because the Xi’an are
 more to the edges of the UEE so we’re going
-to be building out some of the interior parts
+[11:51] to be building out some of the interior parts
 first.
-I don’t think they would necessarily recognize
+[11:56] I don’t think they would necessarily recognize
 you as one of their own, they would probably
-know the Xi’an ship you’re flying is the
+[12:00] know the Xi’an ship you’re flying is the
 human modified sale one, what the Scout we’re
-doing is.
-Then if you’re on territory you shouldn’t
+[12:07] doing is.
+[12:08] Then if you’re on territory you shouldn’t
 be then maybe they would do something about
-it.
-They may potentially be a little more friendly
+[12:13] it.
+[12:14] They may potentially be a little more friendly
 or predisposed to you because bought something
-that uses their technology.
-In general, the Xi’an don’t fire on sight
+[12:18] that uses their technology.
+[12:21] In general, the Xi’an don’t fire on sight
 against humans.
-For instance even though there’s a bit of
+[12:24] For instance even though there’s a bit of
 a stand off if you want to think of it a bit
-like China and America, trade together but
+[12:30] like China and America, trade together but
 maybe there’s some idealistic differences
-and they kind of distrust each other but still
+[12:37] and they kind of distrust each other but still
 work together pretty closely.
-I think that would be a good analogy for the
+[12:40] I think that would be a good analogy for the
 Xi’an empire.
-I think if you run across Vanduul flying a
+[12:43] I think if you run across Vanduul flying a
 captured Scythe or a Glaive, generally they
-would know from the scan if you’re Vanduul
+[12:51] would know from the scan if you’re Vanduul
 or not.
-Probably go after you in fairly short order
+[12:54] Probably go after you in fairly short order
 although if you had a captured one that was
-rigged to spoof being part of a Vanduul clan,
+[13:00] rigged to spoof being part of a Vanduul clan,
 then perhaps you may be able to slip through
-or slip by.
-We haven’t really fleshed that out yet.
-(13:15) Twitch asks: I have a dream of being
+[13:08] or slip by.
+[13:09] We haven’t really fleshed that out yet.
+[13:12] (13:15) Twitch asks: I have a dream of being
 a smuggler in the PTU.
-Will I be able to create hidden compartments
+[13:17] Will I be able to create hidden compartments
 in my ship to hide certain items?
-Yes.
-We are absolutely going to have that.
-We’re going to have the ability, we’re
+[13:21] Yes.
+[13:23] We are absolutely going to have that.
+[13:24] We’re going to have the ability, we’re
 trying to think of how to do smuggler caches,
-cause obviously we want to have some creativity
+[13:30] cause obviously we want to have some creativity
 up to the player, so it’s not like “Here’s
-always the secret compartment in the Constellation”
+[13:35] always the secret compartment in the Constellation”
 cause obviously then law enforcement will
-know where to look.
-We still have to finalise the design on that,
+[13:40] know where to look.
+[13:41] We still have to finalise the design on that,
 but the intention is to allow you to buy,
-purchase or install certain items that could
+[13:47] purchase or install certain items that could
 potentially have false bottoms or all that
-kind of stuff to hide some cargo and then
+[13:52] kind of stuff to hide some cargo and then
 maybe if someone’s playing the role of an
-officer or something or an NPC they can come
+[13:59] officer or something or an NPC they can come
 in and board you and they check your ship
-out and give you a pass and you fly on smuggling
+[14:03] out and give you a pass and you fly on smuggling
 that contraband and stuff like that.
-That’s absolutely going to be part of the
+[14:09] That’s absolutely going to be part of the
 gameplay.
-It’s a long term, obviously not happening
+[14:12] It’s a long term, obviously not happening
 in 2.0 cause there’s some more basic gameplay
-like cargo hauling those kinds of things,
+[14:19] like cargo hauling those kinds of things,
 bounty hunting, mercenary escort missions.
-They will probably happen first but smuggling’s
+[14:27] They will probably happen first but smuggling’s
 definitely on the list and it’s kind of
-a fun one involves interaction with other
+[14:32] a fun one involves interaction with other
 NPCs and potentially other players so yes
-you’ll be able to do that.
-(14:41) Irathi asks: Will you be able to use
+[14:37] you’ll be able to do that.
+[14:40] (14:41) Irathi asks: Will you be able to use
 the gravitation of planets/ large objects
-to catapult you, or will it otherwise impact
+[14:45] to catapult you, or will it otherwise impact
 the flight model?
-Probably not going to model gravity in planets
+[14:49] Probably not going to model gravity in planets
 to the level we can do the slingshot stuff
-that NASA does, when it’s trying to figure
+[14:58] that NASA does, when it’s trying to figure
 trajectories or trying to figure how to get
-back to Earth from the Moon and all that sort
+[15:03] back to Earth from the Moon and all that sort
 of stuff.
-We are going to model gravity to a certain
+[15:06] We are going to model gravity to a certain
 extent where there’s a planet you’re landing
-on a planet; well the effect of gravity as
+[15:10] on a planet; well the effect of gravity as
 you get close to the planet is greater right?
-So in the upper atmosphere, the distance out
+[15:18] So in the upper atmosphere, the distance out
 from Earth, nine point eight meters per second
-it’s less than that.
-So we will do that level of it and gravity
+[15:24] it’s less than that.
+[15:26] So we will do that level of it and gravity
 will have some effect on flight, on atmospheric
-flight and all that kind of stuff as well.
-You can actually even now if you fly in the
+[15:32] flight and all that kind of stuff as well.
+[15:38] You can actually even now if you fly in the
 game and go onto some of the landing pads,
-the landing pads themselves have artificial
+[15:42] the landing pads themselves have artificial
 gravity in a certain volume around them and
-in that case the actual flight model compensates
+[15:47] in that case the actual flight model compensates
 for it, so the thrusters and everything produce
-additional thrust to negate the gravity so
+[15:53] additional thrust to negate the gravity so
 it does actually affect the flight model and
-we were anticipating all these when we get
+[15:58] we were anticipating all these when we get
 down and do stuff closer to planets and there’s
-atmosphere and all the rest of the stuff then
+[16:04] atmosphere and all the rest of the stuff then
 there’ll be even more of that.
-(16:12) ChillZilla asks: The climactic chase
+[16:10] (16:12) ChillZilla asks: The climactic chase
 through the claustrophobic tunnels of the
-2nd death star in Return of the Jedi really
+[16:15] 2nd death star in Return of the Jedi really
 highlighted Lando’s skill as a pilot.
-The changing and narrowing tunnels requiring
+[16:19] The changing and narrowing tunnels requiring
 constant re-correction to navigate them safely.
-Similarly, the absolute extreme of this is
+[16:24] Similarly, the absolute extreme of this is
 Niobe’s complete control of the Logos in
-the Matrix Revolutions whilst escaping Sentinels.
-Are we likely to experience environments like
+[16:29] the Matrix Revolutions whilst escaping Sentinels.
+[16:32] Are we likely to experience environments like
 this within the PU (or missions in Squadron
-42) that will equally challenge your piloting
+[16:37] 42) that will equally challenge your piloting
 skill and the true maneuverability of your
-ship?
-I would say yes, definitely.
-I think we’ve mentioned before but jump
+[16:40] ship?
+[16:41] I would say yes, definitely.
+[16:43] I think we’ve mentioned before but jump
 points in some ways are going to be quite
-similar to this, not necessarily going through
+[16:48] similar to this, not necessarily going through
 a death star but they are tunnels that collapse,
-undulate and move around and narrow and the
+[16:54] undulate and move around and narrow and the
 more risky, the more unstable ones are worse
-that way but sometimes the risky, more unstable
+[17:00] that way but sometimes the risky, more unstable
 ones are the best shortcut to get to a location.
-What our plan is that navigating a jump point
+[17:06] What our plan is that navigating a jump point
 potentially if it’s not a safe one could
-require some extreme piloting skills along
+[17:12] require some extreme piloting skills along
 the lines of what was described here.
-Then I’m pretty sure we’ll have some other
+[17:16] Then I’m pretty sure we’ll have some other
 areas where whether it’s flying inside a
-big structure in space or even down planetside,
+[17:24] big structure in space or even down planetside,
 we’ll put some challenges in there that
-are pretty cool.
-Possibilities are endless with the structure
+[17:29] are pretty cool.
+[17:30] Possibilities are endless with the structure
 in the game we’re building, it’s one of
-the reasons it’s taking so long but we are
+[17:33] the reasons it’s taking so long but we are
 engineering it to do some pretty amazing things
-so I think you’ll all appreciate that.
-May have something cool to show in a few days
+[17:38] so I think you’ll all appreciate that.
+[17:43] May have something cool to show in a few days
 to sort of underline that.
-(17:51) Banjo asks: What is your feeling about
+[17:51] (17:51) Banjo asks: What is your feeling about
 the recent Star Citizen 2.0 PTU testing experience?
-Is there any downside to publishing new patches
+[17:58] Is there any downside to publishing new patches
 so frequently?
-Well I think the only downside is that we
+[18:03] Well I think the only downside is that we
 spend a lot of money on CDN costs.
-Every time we push 30 gigs to thousands of
+[18:10] Every time we push 30 gigs to thousands of
 players we’re paying for all that data bandwidth
-getting pushed down from our CDN provider
+[18:18] getting pushed down from our CDN provider
 who is Amazon AWS.
-So that is kind of the down side but the upside
+[18:23] So that is kind of the down side but the upside
 is we get much better turn around and iteration.
-We were looking at the stats and the last
+[18:31] We were looking at the stats and the last
 PTU build, before we went to live, compare
-to the first PTU build was over 100 times
+[18:38] to the first PTU build was over 100 times
 more stable than the first one.
-Which is a pretty massive change in a fairly
+[18:43] Which is a pretty massive change in a fairly
 short period of time.
-And a lot of that was because we had a large
+[18:48] And a lot of that was because we had a large
 group of players stress testing in a way that
-we just can do internally.
-Currently we have 24, 25 QA between the UK
+[18:53] we just can do internally.
+[18:54] Currently we have 24, 25 QA between the UK
 and the US which is not a small amount of
-QA but on a game this big it’s really hard
+[19:02] QA but on a game this big it’s really hard
 to cover all the features and stress test
-it.
-But when we are out on the PTU we can have
+[19:06] it.
+[19:07] But when we are out on the PTU we can have
 1000 people concurrently and that can really
-be pushing what we see, push the engine, have
+[19:12] be pushing what we see, push the engine, have
 cases created that we wouldn’t seen in an
-internal test case, and allow us to see some
+[19:19] internal test case, and allow us to see some
 of the problems.
-And we’re continuing to add, to improve
+[19:22] And we’re continuing to add, to improve
 on stuff, so we’re going crash reporting
-automated stuff built in in some future version
+[19:26] automated stuff built in in some future version
 of the clients we’ll give people so we can
-see, the call stacks and what was going on
+[19:32] see, the call stacks and what was going on
 on the client side as well what we see on
-the server side which we already do.
-I think the 2.0 PTU testing experience was
+[19:37] the server side which we already do.
+[19:39] I think the 2.0 PTU testing experience was
 really great.
-The one that we spend a fair amount of time
+[19:44] The one that we spend a fair amount of time
 on the PTU comparatively to what we’ve done
-before.
-It’s also the build we’re delivering that
+[19:49] before.
+[19:50] It’s also the build we’re delivering that
 probably stresses the engine and the game
-the most we’ve ever done.
-Just the sheer scope and scale of it.
-A lot of features like the Zone System; the
+[19:55] the most we’ve ever done.
+[19:57] Just the sheer scope and scale of it.
+[20:00] A lot of features like the Zone System; the
 Local Physics, Local Grid: they’re all very
-new systems and of course we’ve flown around
+[20:06] new systems and of course we’ve flown around
 on them but we haven’t got all the edge
-cases you get when you’ve got tens of thousands
+[20:11] cases you get when you’ve got tens of thousands
 of people playing it and seeing if it can
-break or not.
-So it was pretty impressive to go from where
+[20:16] break or not.
+[20:17] So it was pretty impressive to go from where
 we started to where we are releasing it live
-and that’s really due to the PTU iterative
+[20:24] and that’s really due to the PTU iterative
 process: getting a new build out; seeing if
-things worked; or even sometimes we put things
+[20:29] things worked; or even sometimes we put things
 in there that may have made the experience
-a little worse, because we actually had some
+[20:33] a little worse, because we actually had some
 extra bug-tracking, memory walking to see
-if there was memory corruption, and stuff
+[20:38] if there was memory corruption, and stuff
 like that.
-So I thought the PTU experience was great
+[20:40] So I thought the PTU experience was great
 so we kind of want to focus on more of that
-where before we do a patch we are on the PTU
+[20:46] where before we do a patch we are on the PTU
 for at least a week or so, so we give it time,
-we get enough people hammering on it, we can
+[20:54] we get enough people hammering on it, we can
 fix some issue and then we go live.
-So that’s going to be our newer model going
+[20:58] So that’s going to be our newer model going
 forward starting next year.
-Outro:
-So anyway it was great and I would like to
+[21:02] Outro:
+[21:03] So anyway it was great and I would like to
 thank everyone that participated in the PTU
-cause we’re delivering 2.0 to everybody
+[21:07] cause we’re delivering 2.0 to everybody
 or have delivered 2.0 to everybody because
-of their dedication and their willing to get
+[21:13] of their dedication and their willing to get
 in the game after it crashes after two minutes
-or three minutes and I think now we’re at
+[21:18] or three minutes and I think now we’re at
 the point people exit the game normally or
-play for hours before they even see it crash.
-Which is pretty good because when you think
+[21:22] play for hours before they even see it crash.
+[21:25] Which is pretty good because when you think
 about the past.
-Arena Commander those are short games they
+[21:28] Arena Commander those are short games they
 don’t last for hours and so in those particular
-cases you may not have even played it long
+[21:34] cases you may not have even played it long
 enough to see the engine start to get into
-troubles because there’s just too many things
+[21:38] troubles because there’s just too many things
 being created and some things have been left
-around.
-So everyone working on the PTU really makes
+[21:43] around.
+[21:44] So everyone working on the PTU really makes
 a big difference and like I said when we build
-some more tools to make that even better,
+[21:47] some more tools to make that even better,
 an iterative process so we really appreciate
-it and I think we’ve got a pretty good production
+[21:52] it and I think we’ve got a pretty good production
 plan for the coming year, that I think will
-be good for all the teams here, and everyone
+[21:57] be good for all the teams here, and everyone
 out there and i’m excited so anyway.
-Thank you PTU testers hopefully people are
+[22:03] Thank you PTU testers hopefully people are
 having a great time on 2.0 live right now
-and thank you to everyone that’s backed
+[22:08] and thank you to everyone that’s backed
 Star Citizen, you make it all possible
-I hope that we’re showing stuff to you every
+[22:13] I hope that we’re showing stuff to you every
 day that makes you feel good about backing
-us we’re trying to do nothing less than
+[22:18] us we’re trying to do nothing less than
 build the best possible game we can that has
-a level of scope, ambition and scale you haven’t
+[22:24] a level of scope, ambition and scale you haven’t
 seen before and I think we’re starting to
-show the bits that make Star Citizen special
+[22:28] show the bits that make Star Citizen special
 compared to other games, you can sort of see
-the beginning of that in 2.0, and thank you
+[22:34] the beginning of that in 2.0, and thank you
 to the subscribers who make this show possible
-and a lot of other things that we do for the
+[22:39] and a lot of other things that we do for the
 general community at large.
-I will see you guys in our livestream in a
+[22:44] I will see you guys in our livestream in a
 few days.
-Alright.
+[23:12] Alright.
