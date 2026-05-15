@@ -5,6 +5,10 @@ import sys
 import time
 import re
 
+# Data lives in youtube/ (parent of scripts/)
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+os.chdir(DATA_DIR)
+
 def sanitize_filename(title):
     """Create a safe filename from a video title."""
     # Remove or replace problematic characters

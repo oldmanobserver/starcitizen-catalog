@@ -5,6 +5,10 @@ import os
 import sys
 import time
 
+# Data lives in youtube/ (parent of scripts/)
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+os.chdir(DATA_DIR)
+
 def fetch_video_list():
     """Fetch all video metadata from the channel."""
     ydl_opts = {

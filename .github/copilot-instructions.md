@@ -4,11 +4,11 @@
 
 This workspace contains Star Citizen YouTube video transcripts. Auto-generated transcripts frequently misspell or mishear ship and vehicle names.
 
-**Always consult `ships.json`** before reporting ship/vehicle names from transcripts. Specifically:
+**Always consult `youtube/ships.json`** before reporting ship/vehicle names from transcripts. Specifically:
 
-1. Check the `transcript_corrections` map in `ships.json` to fix known misheard names (e.g., "Starlancer Attack" → "MISC Starlancer TAC", "Tibberon" → "Aegis Tiburon", "Starlight" → "MISC Starlite").
-2. Use the canonical ship names from the `manufacturers` section of `ships.json` as the authoritative reference.
-3. Also check `ship_nicknames.md` for community nicknames and known aliases.
+1. Check the `transcript_corrections` map in `youtube/ships.json` to fix known misheard names (e.g., "Starlancer Attack" → "MISC Starlancer TAC", "Tibberon" → "Aegis Tiburon", "Starlight" → "MISC Starlite").
+2. Use the canonical ship names from the `manufacturers` section of `youtube/ships.json` as the authoritative reference.
+3. Also check `youtube/ship_nicknames.md` for community nicknames and known aliases.
 4. When listing ships from a transcript, always present the **corrected official name**, and optionally note the transcript's original wording if it differs.
 
 ## Video Linking
@@ -22,17 +22,20 @@ When reporting on transcript content, **always include a clickable YouTube link*
 
 ## Workspace Structure
 
-- `ships.json` — Canonical ship/vehicle list with manufacturers, aliases, and transcript correction mappings
-- `ship_nicknames.md` — Community nicknames and common transcript errors
-- `{year}/videos.md` — Video catalog per year
-- `{year}/transcripts/*.md` — Individual video transcripts (include `**Video:**` URL and `**Date:**` in header)
-- `{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
+- `youtube/` — All YouTube video data and scripts
+  - `youtube/ships.json` — Canonical ship/vehicle list with manufacturers, aliases, and transcript correction mappings
+  - `youtube/ship_nicknames.md` — Community nicknames and common transcript errors
+  - `youtube/{year}/videos.md` — Video catalog per year
+  - `youtube/{year}/transcripts/*.md` — Individual video transcripts (include `**Video:**` URL and `**Date:**` in header)
+  - `youtube/{year}/video_list_{year}.json` — Video metadata (includes `id`, `title`, `upload_date`, `duration`)
+  - `youtube/scripts/build_year_catalog.py`, `youtube/scripts/fetch_year.py`, etc. — Download and catalog scripts
+- `Patch Notes/` — Game patch notes
 
 ## Rate Limiting
 
 **All transcript download scripts MUST wait 2.5 minutes (150 seconds) between each YouTube API request.** Shorter delays will trigger an IP ban. This applies to:
-- `build_year_catalog.py`, `build_2026_catalog.py`, `build_catalog.py`
-- `download_transcripts.py`, `redownload_all.py`
+- `youtube/scripts/build_year_catalog.py`, `youtube/scripts/build_2026_catalog.py`, `youtube/scripts/build_catalog.py`
+- `youtube/scripts/download_transcripts.py`, `youtube/scripts/redownload_all.py`
 - Any new script that fetches transcripts from YouTube
 
 The constant is `DELAY_BETWEEN_REQUESTS = 150`. Never reduce this value.

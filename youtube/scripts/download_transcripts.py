@@ -8,6 +8,9 @@ import time
 import glob
 
 PYTHON = sys.executable
+# Data lives in youtube/ (parent of scripts/)
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+os.chdir(DATA_DIR)
 TRANSCRIPT_DIR = "2026/transcripts"
 VIDEO_LIST = "2026/video_list_raw.json"
 PROGRESS_FILE = os.path.join(TRANSCRIPT_DIR, "_progress.json")

@@ -16,6 +16,10 @@ import re
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api._errors import IpBlocked
 
+# Data lives in youtube/ (parent of scripts/)
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+os.chdir(DATA_DIR)
+
 PROGRESS_FILE = "_redownload_progress.json"
 DELAY_BETWEEN_REQUESTS = 150
 RATE_LIMIT_WAIT = 300

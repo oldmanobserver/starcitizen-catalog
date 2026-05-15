@@ -7,12 +7,16 @@ import sys
 import os
 
 PYTHON = sys.executable
+# Data lives in youtube/ (parent of scripts/)
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(DATA_DIR)
 
 def run_step(label, args):
     print(f"\n{'='*60}")
     print(f"  {label}")
     print(f"{'='*60}\n")
-    result = subprocess.run([PYTHON] + args, cwd=os.path.dirname(os.path.abspath(__file__)))
+    result = subprocess.run([PYTHON] + args, cwd=DATA_DIR)
     if result.returncode != 0:
         print(f"\nWARNING: {label} exited with code {result.returncode}")
     return result.returncode
@@ -31,11 +35,11 @@ def main():
         if os.path.exists(video_file):
             print(f"\nSkipping fetch for {year} — {video_file} already exists")
         else:
-            run_step(f"Fetching {year} video list", ['fetch_year.py', year])
+            run_step(f"Fetching {year} video list", [os.path.join(SCRIPTS_DIR, 'fetch_year.py'), year])
 
     # Step 2: Download transcripts for each year
     for year in years:
-        run_step(f"Building {year} catalog & downloading transcripts", ['build_year_catalog.py', year])
+        run_step(f"Building {year} catalog & downloading transcripts", [os.path.join(SCRIPTS_DIR, 'build_year_catalog.py'), year])
 
     print(f"\n{'='*60}")
     print(f"  ALL DONE — processed years: {', '.join(years)}")
