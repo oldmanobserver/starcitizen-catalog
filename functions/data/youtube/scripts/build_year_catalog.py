@@ -13,7 +13,15 @@ import os
 import sys
 import time
 from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import IpBlocked
+from youtube_transcript_api._errors import (
+    IpBlocked,
+    RequestBlocked,
+    NoTranscriptFound,
+    TranscriptsDisabled,
+    VideoUnavailable,
+    VideoUnplayable,
+    AgeRestricted,
+)
 
 # Data lives in youtube/ (parent of scripts/)
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
@@ -22,6 +30,17 @@ os.chdir(DATA_DIR)
 DELAY_BETWEEN_REQUESTS = 150
 RATE_LIMIT_WAIT = 300
 MAX_RETRIES = 5
+
+# Exceptions that mean "this video will never have a transcript". When we
+# hit one of these we drop a sidecar marker file so future runs skip the
+# video without burning a 150s rate-limit slot on it.
+PERMANENT_NO_TRANSCRIPT = (
+    NoTranscriptFound,
+    TranscriptsDisabled,
+    VideoUnavailable,
+    VideoUnplayable,
+    AgeRestricted,
+)
 
 
 def format_duration(seconds):
@@ -92,9 +111,15 @@ def download_transcripts(videos, transcript_dir):
         vid = v['id']
         title = v['title']
         transcript_path = os.path.join(transcript_dir, f"{vid}.md")
+        no_transcript_marker = os.path.join(transcript_dir, f"{vid}.no_transcript")
 
         if os.path.exists(transcript_path):
             print(f"  [{i}/{len(videos)}] SKIP (exists) - {title}")
+            skipped += 1
+            continue
+
+        if os.path.exists(no_transcript_marker):
+            print(f"  [{i}/{len(videos)}] SKIP (no transcript) - {title}")
             skipped += 1
             continue
 
@@ -132,11 +157,45 @@ def download_transcripts(videos, transcript_dir):
                 print(f"  [{i}/{len(videos)}] RATE LIMITED - waiting {wait}s (attempt {attempt}/{MAX_RETRIES})...")
                 time.sleep(wait)
 
-            except Exception as e:
-                error_msg = str(e)[:100]
+            except PERMANENT_NO_TRANSCRIPT as e:
+                error_msg = type(e).__name__
                 failed += 1
                 failed_list.append({'id': vid, 'title': title, 'error': error_msg})
-                print(f"  [{i}/{len(videos)}] FAIL - {title}: {error_msg[:60]}")
+                try:
+                    with open(no_transcript_marker, 'w', encoding='utf-8') as f:
+                        f.write(f"{error_msg}\n{title}\n")
+                except OSError:
+                    pass
+                print(f"  [{i}/{len(videos)}] FAIL (marked no-transcript) - {title}: {error_msg}")
+                downloaded = True
+                break
+
+            except Exception as e:
+                # Some library versions raise a generic CouldNotRetrieveTranscript
+                # rather than the specific subclasses above. Treat any error whose
+                # message indicates "no transcript / subtitles disabled" as a
+                # permanent failure too, so we don't keep paying the 150s tax.
+                error_msg = str(e)[:200]
+                msg_lower = error_msg.lower()
+                permanent_hint = (
+                    'no transcripts' in msg_lower
+                    or 'subtitles are disabled' in msg_lower
+                    or 'transcripts are disabled' in msg_lower
+                    or 'video is no longer available' in msg_lower
+                    or 'video unavailable' in msg_lower
+                    or 'could not retrieve a transcript' in msg_lower
+                )
+                failed += 1
+                failed_list.append({'id': vid, 'title': title, 'error': error_msg})
+                if permanent_hint:
+                    try:
+                        with open(no_transcript_marker, 'w', encoding='utf-8') as f:
+                            f.write(f"{type(e).__name__}\n{title}\n{error_msg}\n")
+                    except OSError:
+                        pass
+                    print(f"  [{i}/{len(videos)}] FAIL (marked no-transcript) - {title}: {error_msg[:60]}")
+                else:
+                    print(f"  [{i}/{len(videos)}] FAIL - {title}: {error_msg[:60]}")
                 downloaded = True
                 break
 
