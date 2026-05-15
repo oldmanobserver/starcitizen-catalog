@@ -67,25 +67,53 @@ async function probeVideo(env, videoId) {
     return json({ ...out, error: "embed_failed: " + String(e.message || e) });
   }
 
-  // 1) Filtered query (Vectorize caps topK at 50 with returnMetadata:"all")
-  try {
-    const res = await env.VECTORIZE.query(vector, {
-      topK: 50,
-      returnMetadata: "all",
-      filter: { video_id: videoId },
-    });
-    const hits = (res && res.matches) || [];
-    out.metadata_filter.ok = true;
-    out.metadata_filter.count = hits.length;
-    out.metadata_filter.sample = hits.slice(0, 5).map((m) => ({
-      id: m.id,
-      score: m.score,
-      timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
-      text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
-    }));
-  } catch (e) {
-    out.metadata_filter.error = String(e.message || e).slice(0, 300);
+  // 1) Filtered query, multi-probe — same path the chat uses for a video.
+  //    Probes: the title, the description, a generic "topics" probe.
+  const filterProbeTexts = [];
+  if (out.d1_catalog_row && out.d1_catalog_row.title) {
+    filterProbeTexts.push(out.d1_catalog_row.title);
+    filterProbeTexts.push(`${out.d1_catalog_row.title} ships vehicles features mechanics summary`);
   }
+  if (out.d1_catalog_row && out.d1_catalog_row.description) {
+    filterProbeTexts.push(String(out.d1_catalog_row.description).slice(0, 600));
+  }
+  const filterProbes = [vector];
+  for (const t of filterProbeTexts) {
+    try { filterProbes.push(await embed(env, t)); } catch { /* noop */ }
+  }
+  const seenFilter = new Set();
+  const filterHits = [];
+  for (const probe of filterProbes) {
+    try {
+      const res = await env.VECTORIZE.query(probe, {
+        topK: 50,
+        returnMetadata: "all",
+        filter: { video_id: videoId },
+      });
+      const hits = (res && res.matches) || [];
+      out.metadata_filter.ok = true;
+      for (const m of hits) {
+        if (seenFilter.has(m.id)) continue;
+        seenFilter.add(m.id);
+        filterHits.push(m);
+      }
+    } catch (e) {
+      out.metadata_filter.error = String(e.message || e).slice(0, 300);
+    }
+  }
+  filterHits.sort((a, b) => {
+    const av = (a.metadata && a.metadata.timestamp_seconds) || 0;
+    const bv = (b.metadata && b.metadata.timestamp_seconds) || 0;
+    return av - bv;
+  });
+  out.metadata_filter.probes = filterProbes.length;
+  out.metadata_filter.count = filterHits.length;
+  out.metadata_filter.sample = filterHits.slice(0, 8).map((m) => ({
+    id: m.id,
+    score: m.score,
+    timestamp_seconds: m.metadata && m.metadata.timestamp_seconds,
+    text_preview: m.metadata && m.metadata.text ? String(m.metadata.text).slice(0, 160) : null,
+  }));
 
   // 2) Unfiltered wide scan with multiple probes, client-side filter.
   out.unfiltered_scan.topK = 50;
