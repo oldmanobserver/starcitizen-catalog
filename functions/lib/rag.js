@@ -87,17 +87,41 @@ async function retrieveByIntent(env, query, intent) {
     // Try a series of progressively-looser D1 lookups for the title.
     const videos = await searchVideosByTitle(env, intent.title, intent.series);
     if (videos.length) {
-      const focusDocs = videos.map((v) => ({
-        kind: "video",
-        video_id: v.video_id,
-        title: v.title,
-        series: v.series,
-        upload_date: v.upload_date,
-        url: v.url,
-        label: `${v.series || "Video"} — ${v.title} (${fmtDate(v.upload_date)})`,
-      }));
       const matches = await fetchAllChunksForVideos(env, query, videos.map((v) => v.video_id));
-      return { matches, focusDocs };
+      if (matches.length) {
+        const focusDocs = videos.map((v) => ({
+          kind: "video",
+          video_id: v.video_id,
+          title: v.title,
+          series: v.series,
+          upload_date: v.upload_date,
+          url: v.url,
+          label: `${v.series || "Video"} — ${v.title} (${fmtDate(v.upload_date)})`,
+        }));
+        return { matches, focusDocs };
+      }
+      // We identified the video but have no transcript chunks for it — record
+      // that fact for the system prompt and fall through to patch / semantic.
+      const noChunksNote = videos.map((v) => ({
+        kind: "missing_transcript",
+        title: v.title,
+        url: v.url,
+        upload_date: v.upload_date,
+        label: `\u26a0\ufe0f No transcript indexed for: ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`,
+      }));
+      // If a patch version was in the query, prefer that as the next-best source.
+      if (intent.patch_version) {
+        const patchResult = await retrieveByIntent(env, query, {
+          kind: "patch",
+          version: intent.patch_version,
+          channel: null,
+        });
+        return {
+          matches: patchResult.matches,
+          focusDocs: [...noChunksNote, ...patchResult.focusDocs],
+        };
+      }
+      return { matches: [], focusDocs: noChunksNote };
     }
     // No video matched. If a patch version was in the query, fall back to patch retrieval.
     if (intent.patch_version) {
@@ -107,12 +131,14 @@ async function retrieveByIntent(env, query, intent) {
   }
 
   if (intent.kind === "series_patch") {
-    // Look in the named series for an episode whose title mentions the patch version.
-    // We try a couple of common formats: "4.8" and "Alpha 4.8".
     const v = intent.patch_version;
-    const candidates = [`%${v}%`, `%Alpha ${v}%`, `%Alpha-${v}%`];
+    const versionFormats = patchVersionVariants(v);
+    const patterns = [];
+    for (const vf of versionFormats) {
+      patterns.push(`%${vf}%`, `%Alpha ${vf}%`, `%Alpha-${vf}%`);
+    }
     let videos = [];
-    for (const pattern of candidates) {
+    for (const pattern of patterns) {
       const rows = await env.DB.prepare(
         `SELECT video_id, title, upload_date, url, series, has_transcript
          FROM catalog_videos
@@ -123,17 +149,32 @@ async function retrieveByIntent(env, query, intent) {
     }
 
     if (videos.length) {
-      const focusDocs = videos.map((vrow) => ({
-        kind: "video",
-        video_id: vrow.video_id,
-        title: vrow.title,
-        series: vrow.series,
-        upload_date: vrow.upload_date,
-        url: vrow.url,
-        label: `${vrow.series} — ${vrow.title} (${fmtDate(vrow.upload_date)})`,
-      }));
       const matches = await fetchAllChunksForVideos(env, query, videos.map((vrow) => vrow.video_id));
-      return { matches, focusDocs };
+      if (matches.length) {
+        const focusDocs = videos.map((vrow) => ({
+          kind: "video",
+          video_id: vrow.video_id,
+          title: vrow.title,
+          series: vrow.series,
+          upload_date: vrow.upload_date,
+          url: vrow.url,
+          label: `${vrow.series} — ${vrow.title} (${fmtDate(vrow.upload_date)})`,
+        }));
+        return { matches, focusDocs };
+      }
+      // Identified the video but no transcript chunks indexed for it.
+      const noChunksNote = videos.map((vrow) => ({
+        kind: "missing_transcript",
+        title: vrow.title,
+        url: vrow.url,
+        upload_date: vrow.upload_date,
+        label: `\u26a0\ufe0f No transcript indexed for: ${vrow.title} (${fmtDate(vrow.upload_date)}) — ${vrow.url}`,
+      }));
+      const patchResult = await retrieveByIntent(env, query, { kind: "patch", version: v, channel: null });
+      return {
+        matches: patchResult.matches,
+        focusDocs: [...noChunksNote, ...patchResult.focusDocs],
+      };
     }
     // No episode mentions the patch in its title — fall through to a patch-note lookup
     // so the user at least gets the patch notes for that version.
@@ -150,17 +191,28 @@ async function retrieveByIntent(env, query, intent) {
     ).bind(intent.series).all();
     const videos = (rows.results || []);
     if (!videos.length) return { matches: [], focusDocs: [] };
-    const focusDocs = videos.map((v) => ({
-      kind: "video",
-      video_id: v.video_id,
-      title: v.title,
-      series: v.series,
-      upload_date: v.upload_date,
-      url: v.url,
-      label: `${v.series} — ${v.title} (${fmtDate(v.upload_date)})`,
-    }));
     const matches = await fetchAllChunksForVideos(env, query, videos.map((v) => v.video_id));
-    return { matches, focusDocs };
+    if (matches.length) {
+      const focusDocs = videos.map((v) => ({
+        kind: "video",
+        video_id: v.video_id,
+        title: v.title,
+        series: v.series,
+        upload_date: v.upload_date,
+        url: v.url,
+        label: `${v.series} — ${v.title} (${fmtDate(v.upload_date)})`,
+      }));
+      return { matches, focusDocs };
+    }
+    // Identified the video but no chunks indexed — surface that and fall through.
+    const noChunksNote = videos.map((v) => ({
+      kind: "missing_transcript",
+      title: v.title,
+      url: v.url,
+      upload_date: v.upload_date,
+      label: `\u26a0\ufe0f No transcript indexed for: ${v.title} (${fmtDate(v.upload_date)}) — ${v.url}`,
+    }));
+    return { matches: [], focusDocs: noChunksNote };
   }
 
   if (intent.kind === "series_any") {
@@ -187,9 +239,11 @@ async function retrieveByIntent(env, query, intent) {
   }
 
   if (intent.kind === "patch") {
-    // Find patch-note files matching the version (and optionally channel).
-    let sql = `SELECT id, channel, version, title, file_path FROM catalog_patches WHERE version = ?`;
-    const params = [intent.version];
+    // Match the version loosely: "4.8" should find "4.8" and "4.8.0".
+    const variants = patchVersionVariants(intent.version);
+    const placeholders = variants.map(() => "?").join(", ");
+    let sql = `SELECT id, channel, version, title, file_path FROM catalog_patches WHERE version IN (${placeholders})`;
+    const params = [...variants];
     if (intent.channel) {
       sql += ` AND channel = ?`;
       params.push(intent.channel);
@@ -206,7 +260,10 @@ async function retrieveByIntent(env, query, intent) {
       title: p.title,
       label: `Patch ${p.version || ""} ${p.channel}: ${p.title}`,
     }));
-    const matches = await fetchAllChunksForPatch(env, query, intent.version, intent.channel);
+    // Use whichever stored version we actually found; the metadata on the
+    // chunks matches the patch-note files, not the user's typed version.
+    const storedVersion = patches[0].version || intent.version;
+    const matches = await fetchAllChunksForPatch(env, query, storedVersion, intent.channel);
     return { matches, focusDocs };
   }
 
@@ -437,6 +494,23 @@ function fmtDate(d) {
   return `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}`;
 }
 
+/**
+ * Given a user-supplied patch version, return common stored variants.
+ * "4.8" -> ["4.8", "4.8.0"]
+ * "4.8.0" -> ["4.8.0", "4.8"]
+ * "4.8.1" -> ["4.8.1"]
+ */
+function patchVersionVariants(v) {
+  if (!v) return [];
+  const out = new Set([v]);
+  // "X.Y"  -> add "X.Y.0"
+  if (/^\d+\.\d+$/.test(v)) out.add(v + ".0");
+  // "X.Y.0" -> also accept "X.Y"
+  const m = /^(\d+\.\d+)\.0$/.exec(v);
+  if (m) out.add(m[1]);
+  return [...out];
+}
+
 function buildCitationUrl(md) {
   if (md.source_type === "transcript" && md.video_id) {
     const t = md.timestamp_seconds ? `&t=${Math.floor(md.timestamp_seconds)}s` : "";
@@ -463,7 +537,8 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     `You are the Star Citizen Catalog assistant. Today's date is ${today}.`,
     "You answer player questions about Star Citizen ships, patch notes, and community video discussions.",
     "Ground every factual claim in the supplied CONTEXT snippets and cite them inline with their [#n] tag.",
-    "If the CONTEXT does not contain enough information to answer, say so plainly and do not invent details.",
+    "If a FOCUS DOCUMENTS entry is marked '⚠️ No transcript indexed', tell the user the transcript isn't available and then ANSWER USING THE OTHER CONTEXT (such as patch notes for the same release). Do not refuse the whole question.",
+    "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
     "When citing video content, include a clickable timestamp link of the form https://www.youtube.com/watch?v=VIDEO_ID&t=SECONDSs.",
     "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to.",
@@ -471,7 +546,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
   ].join(" ");
 
   const focusBlock = focusDocs && focusDocs.length
-    ? `FOCUS DOCUMENTS (the user is most likely asking about these):\n${focusDocs.map((d, i) => `- ${d.label}`).join("\n")}`
+    ? `FOCUS DOCUMENTS (the user is most likely asking about these):\n${focusDocs.map((d) => `- ${d.label}`).join("\n")}`
     : "";
 
   const correctionsBlock = shipCorrections && Object.keys(shipCorrections).length

@@ -18,6 +18,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     btn.addEventListener("click", () => dispatch(btn.dataset.workflow));
   }
 
+  const diagBtn = document.querySelector("#diag-run");
+  if (diagBtn) {
+    diagBtn.addEventListener("click", runDiag);
+    document.querySelector("#diag-q").addEventListener("keydown", (e) => {
+      if (e.key === "Enter") { e.preventDefault(); runDiag(); }
+    });
+  }
+
   let me;
   try {
     me = await apiJson("/api/auth/me");
@@ -177,4 +185,17 @@ async function dispatch(workflow) {
 async function logout() {
   await fetch("/api/auth/logout", { method: "POST", credentials: "same-origin" });
   location.href = "/";
+}
+
+async function runDiag() {
+  const q = document.querySelector("#diag-q").value.trim();
+  const out = document.querySelector("#diag-output");
+  if (!q) { out.textContent = "(enter a query)"; return; }
+  out.textContent = "Running…";
+  try {
+    const data = await apiJson("/api/admin/diag?q=" + encodeURIComponent(q));
+    out.textContent = JSON.stringify(data, null, 2);
+  } catch (e) {
+    out.textContent = "Error: " + (e.message || e);
+  }
 }
