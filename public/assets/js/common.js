@@ -71,6 +71,14 @@ export function renderMarkdown(text) {
     '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>'
   );
 
+  // Bare http(s) URLs — auto-link them. Only match URLs preceded by
+  // whitespace, '(', or start-of-string so we don't re-wrap URLs that
+  // are already inside an <a href="..."> or its text from the previous step.
+  s = s.replace(
+    /(^|[\s(])(https?:\/\/[^\s<)]+[^\s<).,;:!?'"])/g,
+    '$1<a href="$2" target="_blank" rel="noopener noreferrer">$2</a>'
+  );
+
   // Citation refs -> linked spans (filled in later).
   // Handles both single `[#3]` and grouped `[#1, #10, #133]` / `[#1][#5]` forms.
   s = s.replace(/\[#\d+(?:[\s,]+#?\d+)*\]/g, (group) => {
