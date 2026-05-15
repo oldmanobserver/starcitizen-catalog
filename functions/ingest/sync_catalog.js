@@ -149,7 +149,7 @@ async function collectPatches() {
   const root = path.join(DATA_DIR, "Patch Notes");
   const out = [];
   for await (const { year, dir } of walkYears(root)) {
-    for (const channel of ["LIVE", "PTU", "Evocati"]) {
+    for (const channel of ["LIVE", "PTU"]) {
       const chanDir = path.join(dir, channel);
       if (!(await exists(chanDir))) continue;
       const files = await fs.readdir(chanDir);

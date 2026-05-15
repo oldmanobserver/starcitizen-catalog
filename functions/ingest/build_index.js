@@ -135,7 +135,7 @@ async function* walkPatchNotes() {
   const years = await fs.readdir(root, { withFileTypes: true });
   for (const y of years) {
     if (!y.isDirectory() || !/^\d{4}$/.test(y.name)) continue;
-    for (const channel of ["LIVE", "PTU", "Evocati"]) {
+    for (const channel of ["LIVE", "PTU"]) {
       const dir = path.join(root, y.name, channel);
       if (!(await exists(dir))) continue;
       const files = await fs.readdir(dir);

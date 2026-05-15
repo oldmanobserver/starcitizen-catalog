@@ -24,7 +24,7 @@ CREATE INDEX IF NOT EXISTS idx_videos_year ON catalog_videos(upload_year, upload
 
 CREATE TABLE IF NOT EXISTS catalog_patches (
   id           TEXT PRIMARY KEY,           -- file_path
-  channel      TEXT NOT NULL,              -- 'LIVE' | 'PTU' | 'Evocati'
+  channel      TEXT NOT NULL,              -- 'LIVE' | 'PTU'
   patch_year   INTEGER NOT NULL,
   version      TEXT,                       -- e.g. '4.5.0', extracted from filename when possible
   title        TEXT NOT NULL,              -- first H1 of the file, else filename

@@ -55,7 +55,7 @@ const QUERY_PATTERNS = {
   episode: /\b(episode|ep\.?)\s*#?(\d{1,3})\b/i,
   // "in patch 4.5" / "alpha 4.5.1" / "PTU 4.0"
   patchVersion: /\b(?:alpha[- ]?)?(\d+\.\d+(?:\.\d+)?)\b/i,
-  channel: /\b(LIVE|PTU|Evocati)\b/i,
+  channel: /\b(LIVE|PTU)\b/i,
   // A quoted title in the query: "Inside Star Citizen | Alpha 4.8 Patch Report"
   // Accepts straight and smart quotes.
   quotedTitle: /["“”]([^"“”]{8,200})["“”]/,
@@ -131,13 +131,13 @@ export function classifyIntent(query) {
     return {
       kind: "patch",
       version: patchMatch[1],
-      channel: channelMatch ? channelMatch[1].toUpperCase().replace(/^EVOCATI$/i, "Evocati") : null,
+      channel: channelMatch ? channelMatch[1].toUpperCase() : null,
     };
   }
   if (wantsLatest && channelMatch) {
     return {
       kind: "latest_patch",
-      channel: channelMatch[1].toUpperCase().replace(/^EVOCATI$/i, "Evocati"),
+      channel: channelMatch[1].toUpperCase(),
     };
   }
 

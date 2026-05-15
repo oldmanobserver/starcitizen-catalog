@@ -231,9 +231,9 @@ The `functions/data/` tree is the source of truth for transcripts and patch note
 | --- | --- | --- |
 | `.github/workflows/rebuild-index.yml` | Manual only | Runs `node functions/ingest/build_index.js`. Re-chunks all transcripts + patch notes + ships, embeds via Workers AI, upserts to Vectorize, refreshes the ship-corrections KV blob. |
 | `.github/workflows/fetch-videos.yml` | Manual + weekly cron (Mon 09:00 UTC) | Runs `fetch_year.py` then `build_year_catalog.py` for the chosen year, commits new transcripts to `main`, pushes. Pages auto-redeploys. |
-| `.github/workflows/fetch-patch-notes.yml` | Manual + weekly cron (Mon 09:30 UTC) | Runs `download_patch_notes.py`. Accepts an optional `x-rsi-token` input to pick up Evocati NDA posts. Commits new files to `main`. |
+| `.github/workflows/fetch-patch-notes.yml` | Manual + weekly cron (Mon 09:30 UTC) | Runs `download_patch_notes.py` for public LIVE/PTU threads only. Evocati / ETF NDA threads are skipped — we do not keep NDA content in this repo. Commits new files to `main`. |
 
-The admin **POST /api/admin/jobs** endpoint accepts a sanitized `inputs` object — currently the only allowed inputs are `year` (4-digit) for fetch-videos and `rsi_token` (string) for fetch-patch-notes. Anything else is dropped.
+The admin **POST /api/admin/jobs** endpoint accepts a sanitized `inputs` object — currently the only allowed input is `year` (4-digit) for fetch-videos. Anything else is dropped.
 
 ### Setup checklist (one-time)
 
@@ -271,10 +271,6 @@ wrangler d1 execute starcitizen-catalog --remote --command "UPDATE users SET is_
 ```
 
 The `audit_log` table records every `admin_dispatch` event.
-
-### Heads-up on the `rsi_token` input
-
-The optional Evocati token is passed to the workflow via `workflow_dispatch` inputs and gets shown in the GH Actions log as part of the command line. That's fine for a personal-use admin running it themselves — it's not safe if you ever publish the run logs. Don't paste a token unless you actually need Evocati posts.
 
 ---
 

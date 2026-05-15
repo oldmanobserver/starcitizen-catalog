@@ -171,10 +171,6 @@ async function dispatch(workflow) {
       method: "POST",
       body: { workflow, inputs },
     });
-    // Clear sensitive input after dispatch.
-    if (workflow === "fetch-patch-notes") {
-      document.querySelector("#rsi-token").value = "";
-    }
     // GitHub takes a beat to materialize the run; refresh twice.
     setTimeout(() => refresh(), 1500);
     setTimeout(() => refresh(), 6000);

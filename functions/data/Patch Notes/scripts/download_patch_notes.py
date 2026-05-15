@@ -7,14 +7,12 @@ to Markdown, and saves them organized by year and release stage:
 
     Patch Notes/{year}/LIVE/
     Patch Notes/{year}/PTU/
-    Patch Notes/{year}/Evocati/
+
+Evocati / ETF NDA threads are intentionally skipped — we do not keep
+NDA content in this repository.
 
 Usage:
-    python download_patch_notes.py [--token TOKEN] [--dry-run] [--year YEAR]
-
-The x-rsi-token can be obtained from browser DevTools (Network tab) when
-viewing any Spectrum page. If omitted, the script tries without auth
-(works for public threads but not Evocati NDA posts).
+    python download_patch_notes.py [--dry-run] [--year YEAR]
 """
 
 import argparse
@@ -38,7 +36,11 @@ PROGRESS_FILE = os.path.join(SCRIPT_DIR, "_patch_notes_progress.json")
 
 
 def classify_thread(subject: str) -> str:
-    """Classify a thread as LIVE, PTU, or Evocati based on its title."""
+    """Classify a thread as LIVE, PTU, or Evocati based on its title.
+
+    Evocati is detected so the downloader can skip it; we don't keep NDA
+    content in the repo.
+    """
     s = subject.lower()
     # Evocati / ETF / Evo NDA
     if any(tag in s for tag in ["evocati", "etf nda", "evo nda", "[closed]"]):
@@ -144,7 +146,7 @@ def draftjs_to_markdown(content_blocks: list) -> str:
 
 
 class SpectrumClient:
-    def __init__(self, token=None):
+    def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({
             "Accept": "application/json",
@@ -152,8 +154,6 @@ class SpectrumClient:
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
             "Referer": f"{BASE_URL}/spectrum/community/SC/forum/{CHANNEL_ID}",
         })
-        if token:
-            self.session.headers["x-rsi-token"] = token
 
     def get_threads(self, page=1, sort="new"):
         """Fetch a page of threads from the Patch Notes forum."""
@@ -237,13 +237,12 @@ def save_patch_note(year, category, filename, subject, date_str, url, markdown_c
 
 def main():
     parser = argparse.ArgumentParser(description="Download Star Citizen patch notes from Spectrum")
-    parser.add_argument("--token", help="x-rsi-token from browser (check DevTools Network tab)")
     parser.add_argument("--dry-run", action="store_true", help="List threads without downloading")
     parser.add_argument("--year", type=int, help="Only download threads from this year")
     parser.add_argument("--resume", action="store_true", help="Skip already-downloaded threads")
     args = parser.parse_args()
 
-    client = SpectrumClient(token=args.token)
+    client = SpectrumClient()
     progress = load_progress() if args.resume else {"downloaded": []}
 
     # Step 1: Get all thread listings
@@ -260,7 +259,13 @@ def main():
         t["_year"] = year
         classified[category].append(t)
 
-    print(f"Classification: LIVE={len(classified['LIVE'])}, PTU={len(classified['PTU'])}, Evocati={len(classified['Evocati'])}")
+    print(f"Classification: LIVE={len(classified['LIVE'])}, PTU={len(classified['PTU'])}, Evocati={len(classified['Evocati'])} (skipped)")
+
+    # Drop Evocati threads — NDA content is not kept in this repo.
+    skipped_evocati = len(classified["Evocati"])
+    all_threads = [t for t in all_threads if t["_category"] != "Evocati"]
+    if skipped_evocati:
+        print(f"Skipping {skipped_evocati} Evocati/NDA threads")
 
     # Filter by year if requested
     if args.year:

@@ -32,8 +32,7 @@ When reporting on transcript content, **always include a clickable YouTube link*
 - `functions/data/Patch Notes/` — Game patch notes
   - `functions/data/Patch Notes/{year}/LIVE/*.md` — LIVE release notes and hotfixes
   - `functions/data/Patch Notes/{year}/PTU/*.md` — PTU patch notes (Wave 1/2/3, All Backers, EPTU)
-  - `functions/data/Patch Notes/{year}/Evocati/*.md` — Evocati/ETF NDA patch notes
-  - `functions/data/Patch Notes/scripts/download_patch_notes.py` — Download patch notes from Spectrum forum
+  - `functions/data/Patch Notes/scripts/download_patch_notes.py` — Download patch notes from Spectrum forum (Evocati / NDA threads are intentionally skipped — do not commit any NDA content)
 
 ## Rate Limiting
 
@@ -66,11 +65,10 @@ Notes:
 
 ```powershell
 cd functions/data/Patch Notes/scripts
-python download_patch_notes.py                       # public LIVE/PTU posts
-python download_patch_notes.py --token <x-rsi-token> # also pull Evocati NDA posts
+python download_patch_notes.py    # public LIVE/PTU posts only
 ```
 
-The optional `x-rsi-token` is obtained from the user's browser DevTools (Network tab on any spectrum.robertsspaceindustries.com page). The token expires quickly — do **not** store it anywhere, and never paste it back into chat after capture; have the user paste it directly at the command prompt.
+The script skips Evocati / ETF NDA threads automatically. We deliberately do **not** keep NDA patch notes in this repository, so the old `--token` / `x-rsi-token` flow has been removed. If you ever feel the urge to add it back, don't — ask the user first.
 
 ### After committing new content
 
