@@ -211,6 +211,7 @@ async function loadConversation(id) {
   const data = await apiJson(`/api/conversations/${id}`);
   state.messages = data.messages || [];
   els.title.textContent = data.conversation.title;
+  els.title.title = data.conversation.title;
   renderMessages();
   renderConversations();
 }

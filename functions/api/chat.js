@@ -82,7 +82,7 @@ export async function onRequestPost({ request, env }) {
       env,
       session.user_id,
       conversationId,
-      userText.slice(0, 60)
+      userText.slice(0, 200)
     );
   }
 
@@ -183,7 +183,7 @@ export async function onRequestPost({ request, env }) {
         provider,
         model,
         // refresh title from first user message if it's still the default
-        ...(conv.title === "New conversation" ? { title: userText.slice(0, 60) } : {}),
+        ...(conv.title === "New conversation" ? { title: userText.slice(0, 200) } : {}),
       });
       await audit(env, session.user_id, "chat", { provider, model, status: 200 });
 

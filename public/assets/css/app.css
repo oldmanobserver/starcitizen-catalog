@@ -248,6 +248,13 @@ textarea { resize: vertical; }
   background: var(--bg-elev);
 }
 .chat-toolbar select { width: auto; min-width: 160px; }
+.chat-toolbar #conv-title {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .messages {
   flex: 1;
