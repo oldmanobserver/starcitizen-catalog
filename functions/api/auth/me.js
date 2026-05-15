@@ -18,5 +18,6 @@ export async function onRequestGet({ request, env }) {
     theme: user.theme || "system",
     default_provider: user.default_provider || null,
     default_model: user.default_model || null,
+    is_admin: !!user.is_admin,
   });
 }

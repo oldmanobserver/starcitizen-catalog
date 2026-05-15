@@ -1,0 +1,68 @@
+name: Fetch new patch notes
+
+# Triggers:
+#   - Manual via the admin page or GitHub UI (optionally with an x-rsi-token to fetch Evocati posts)
+#   - Weekly cron (Mondays 09:30 UTC). Cron runs are anonymous (no Evocati access).
+on:
+  workflow_dispatch:
+    inputs:
+      rsi_token:
+        description: "x-rsi-token (only needed for Evocati NDA posts; expires quickly)"
+        required: false
+        type: string
+  schedule:
+    - cron: "30 9 * * 1"
+
+concurrency:
+  group: fetch-patch-notes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: functions/data/Patch Notes/scripts
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper (no token)
+        if: ${{ !inputs.rsi_token }}
+        working-directory: functions/data/Patch Notes/scripts
+        run: |
+          python download_patch_notes.py
+
+      - name: Run scraper (with x-rsi-token)
+        if: ${{ inputs.rsi_token }}
+        working-directory: functions/data/Patch Notes/scripts
+        env:
+          RSI_TOKEN: ${{ inputs.rsi_token }}
+        run: |
+          python download_patch_notes.py --token "$RSI_TOKEN"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "functions/data/Patch Notes/"
+          if git diff --cached --quiet; then
+            echo "No new patch notes."
+            exit 0
+          fi
+          git commit -m "data: fetch new patch notes"
+          git push

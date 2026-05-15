@@ -36,6 +36,10 @@ function renderUser() {
   if (state.user.profile_image_url) {
     document.querySelector("#user-avatar").src = state.user.profile_image_url;
   }
+  if (state.user.is_admin) {
+    const link = document.querySelector("#admin-link");
+    if (link) link.style.display = "";
+  }
 }
 
 function renderTheme() {

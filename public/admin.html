@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack">
+      <img id="user-avatar" class="avatar" alt="">
+      <span class="muted small" id="user-name"></span>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+      <a class="btn ghost small" href="/settings.html">Settings</a>
+      <button class="btn ghost small" id="logout-btn">Log out</button>
+    </div>
+  </header>
+
+  <main class="page" style="max-width: 900px">
+    <h1>Admin jobs</h1>
+    <p class="muted small">
+      Each button kicks off a GitHub Actions workflow on the
+      <code id="repo-label">main</code> branch.
+      Jobs run on GitHub's runners, not on this server — feel free to close the page.
+    </p>
+
+    <div id="error-banner"></div>
+
+    <section class="card" id="job-rebuild-index" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Rebuild vector index</h3>
+          <p class="muted small" style="margin: 0">
+            Re-chunks <code>functions/data/</code> and uploads embeddings to Vectorize.
+            Run after adding new transcripts or patch notes.
+          </p>
+        </div>
+        <button class="btn primary" data-workflow="rebuild-index">Run</button>
+      </div>
+      <div class="runs" data-runs-for="rebuild-index"></div>
+    </section>
+
+    <section class="card" id="job-fetch-videos" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Look for new YouTube videos</h3>
+          <p class="muted small" style="margin: 0">
+            Scans the RSI channel for new videos in the current year,
+            downloads transcripts, and commits them back to this repo.
+            Slow (~150s between transcript downloads). Leave a year empty to use the current year.
+          </p>
+        </div>
+        <div class="h-stack">
+          <input id="videos-year" type="text" inputmode="numeric" pattern="\d{4}"
+                 placeholder="2026" style="width: 90px" maxlength="4">
+          <button class="btn primary" data-workflow="fetch-videos">Run</button>
+        </div>
+      </div>
+      <div class="runs" data-runs-for="fetch-videos"></div>
+    </section>
+
+    <section class="card" id="job-fetch-patch-notes" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Look for new patch notes</h3>
+          <p class="muted small" style="margin: 0">
+            Scrapes the Spectrum patch-notes forum and commits any new entries.
+            Provide an <code>x-rsi-token</code> from your browser's DevTools
+            (Network tab on any spectrum page) to also fetch Evocati NDA posts.
+          </p>
+        </div>
+        <button class="btn primary" data-workflow="fetch-patch-notes">Run</button>
+      </div>
+      <div class="field" style="margin-top: 12px; max-width: 100%">
+        <label for="rsi-token" class="small">RSI token (optional, only stored in this workflow run)</label>
+        <input id="rsi-token" type="password" autocomplete="off" spellcheck="false"
+               placeholder="paste x-rsi-token here">
+      </div>
+      <div class="runs" data-runs-for="fetch-patch-notes"></div>
+    </section>
+
+    <p class="muted small" style="margin-top: 24px">
+      <span id="refresh-info"></span>
+      <button class="btn ghost small" id="refresh-btn">Refresh now</button>
+    </p>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module" src="/assets/js/admin.js"></script>
+</body>
+</html>

@@ -32,6 +32,12 @@ SESSION_COOKIE_NAME = "scc_session"
 SESSION_TTL_SECONDS = "2592000"   # 30 days
 RATE_LIMIT_PER_HOUR = "120"
 
+# Admin job dispatcher targets — these are not secrets, just configuration.
+# The matching PAT lives in the GITHUB_DISPATCH_TOKEN secret.
+GITHUB_OWNER = "oldmanobserver"
+GITHUB_REPO = "starcitizen-catalog"
+GITHUB_DEFAULT_BRANCH = "main"
+
 [[d1_databases]]
 binding = "DB"
 database_name = "starcitizen-catalog"

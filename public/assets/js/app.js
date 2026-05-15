@@ -80,6 +80,7 @@ function renderUser() {
   els.userInfo.innerHTML = `
     ${u.profile_image_url ? `<img class="avatar" src="${escapeHtml(u.profile_image_url)}" alt="">` : ""}
     <span class="muted small">${escapeHtml(u.display_name)}</span>
+    ${u.is_admin ? `<a class="btn ghost small" href="/admin.html">Admin</a>` : ""}
     <a class="btn ghost small" href="/settings.html">Settings</a>
     <button class="btn ghost small" id="logout-btn">Log out</button>
   `;
