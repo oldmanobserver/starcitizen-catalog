@@ -41,7 +41,129 @@ document.addEventListener("DOMContentLoaded", async () => {
   renderProviderSelect();
   renderConversations();
   els.composer.focus();
+
+  // First-run onboarding: if the user has no API keys stored, prompt them to
+  // add one inline so they can start chatting immediately. They can also skip
+  // and head to /settings.html later.
+  if (!state.keys.length) {
+    showOnboardingModal();
+  }
 });
+
+function showOnboardingModal() {
+  const providers = state.providers || [];
+  if (!providers.length) return;
+
+  const backdrop = document.createElement("div");
+  backdrop.className = "modal-backdrop";
+  backdrop.innerHTML = `
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="onb-title">
+      <h3 id="onb-title">Add an LLM provider key</h3>
+      <p class="muted small" style="margin-top:0">
+        This site uses your own LLM provider API key to answer questions about
+        Star Citizen ships, patch notes, and transcripts. Pick a provider and
+        paste a key to get started — you can manage or replace keys later in
+        <a href="/settings.html">Settings</a>.
+      </p>
+      <div class="field">
+        <label for="onb-provider">Provider</label>
+        <select id="onb-provider"></select>
+      </div>
+      <div class="field">
+        <label for="onb-key">API key</label>
+        <input type="password" id="onb-key" placeholder="paste key here"
+               autocomplete="off" spellcheck="false">
+        <span class="hint">
+          Stored encrypted at rest. Only decrypted in-memory when forwarding
+          your prompt to the provider.
+        </span>
+      </div>
+      <div class="hint" id="onb-error" style="color: var(--danger); display:none"></div>
+      <div class="actions">
+        <button class="cancel" type="button">Skip for now</button>
+        <button class="confirm primary" type="button">Save &amp; start chatting</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(backdrop);
+
+  const provSel = backdrop.querySelector("#onb-provider");
+  for (const p of providers) {
+    const opt = document.createElement("option");
+    opt.value = p.id;
+    opt.textContent = p.label;
+    provSel.appendChild(opt);
+  }
+  // Default to user's saved default provider if set, else first.
+  if (state.user && state.user.default_provider &&
+      providers.some((p) => p.id === state.user.default_provider)) {
+    provSel.value = state.user.default_provider;
+  }
+
+  const keyInput = backdrop.querySelector("#onb-key");
+  const errEl = backdrop.querySelector("#onb-error");
+  const confirmBtn = backdrop.querySelector(".confirm");
+  const cancelBtn = backdrop.querySelector(".cancel");
+
+  function close() { backdrop.remove(); }
+
+  cancelBtn.addEventListener("click", close);
+  backdrop.addEventListener("click", (e) => {
+    if (e.target === backdrop) close();
+  });
+  keyInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      confirmBtn.click();
+    }
+  });
+
+  confirmBtn.addEventListener("click", async () => {
+    const provider = provSel.value;
+    const key = keyInput.value.trim();
+    errEl.style.display = "none";
+    errEl.textContent = "";
+    if (!provider) {
+      errEl.textContent = "Please choose a provider.";
+      errEl.style.display = "";
+      return;
+    }
+    if (key.length < 8) {
+      errEl.textContent = "That key looks too short.";
+      errEl.style.display = "";
+      return;
+    }
+    confirmBtn.disabled = true;
+    cancelBtn.disabled = true;
+    confirmBtn.textContent = "Saving…";
+    try {
+      await apiJson("/api/keys", {
+        method: "PUT",
+        body: { provider, key },
+      });
+      // Refresh keys + provider dropdown so the chat UI is immediately usable.
+      const keysData = await apiJson("/api/keys");
+      state.keys = (keysData.keys || []).map((k) => k.provider);
+      renderProviderSelect();
+      // Prefer the provider we just added.
+      if ([...els.providerSelect.options].some((o) => o.value === provider)) {
+        els.providerSelect.value = provider;
+        renderModelSelect();
+      }
+      close();
+      els.composer.focus();
+    } catch (e) {
+      confirmBtn.disabled = false;
+      cancelBtn.disabled = false;
+      confirmBtn.textContent = "Save & start chatting";
+      errEl.textContent = "Failed to save key: " + (e.message || e);
+      errEl.style.display = "";
+    }
+  });
+
+  // Focus the key field after the modal mounts.
+  setTimeout(() => keyInput.focus(), 0);
+}
 
 function cacheEls() {
   els.userInfo = document.querySelector("#user-info");
