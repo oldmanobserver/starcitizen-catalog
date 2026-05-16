@@ -21,7 +21,7 @@ pages_build_output_dir = "public"
 #   TWITCH_CLIENT_SECRET
 #   SESSION_SIGNING_KEY   (32+ random bytes, base64)
 #   MASTER_KEY            (32+ random bytes, base64; envelope encryption root)
-#   TURNSTILE_SECRET_KEY  (optional)
+#   TURNSTILE_SECRET_KEY  (optional; pairs with the public TURNSTILE_SITE_KEY var below)
 # ---------------------------------------------------------------------------
 
 [vars]
@@ -31,6 +31,9 @@ TWITCH_REDIRECT_URI = "https://starcitizencatalog.oldmanobserver.com/api/auth/ca
 SESSION_COOKIE_NAME = "scc_session"
 SESSION_TTL_SECONDS = "2592000"   # 30 days
 RATE_LIMIT_PER_HOUR = "120"
+# Cloudflare Turnstile site key (public — safe to commit). Paired with the
+# TURNSTILE_SECRET_KEY secret. Leave blank to disable the challenge.
+TURNSTILE_SITE_KEY = "0x4AAAAAADQizMxpqErG3clY"
 
 # Admin job dispatcher targets — these are not secrets, just configuration.
 # The matching PAT lives in the GITHUB_DISPATCH_TOKEN secret.

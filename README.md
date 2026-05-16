@@ -137,7 +137,20 @@ wrangler pages secret put MASTER_KEY --project-name=starcitizen-catalog
 # Admin job dispatcher: a GitHub fine-grained PAT scoped to THIS repo with
 # "Actions: Read and write" + "Metadata: Read". See "Admin & data jobs" below.
 wrangler pages secret put GITHUB_DISPATCH_TOKEN --project-name=starcitizen-catalog
+
+# Optional: Cloudflare Turnstile to gate the Twitch login button against bots.
+# Create a widget at https://dash.cloudflare.com → Turnstile → "Add site", then:
+#   - Paste the site key (public) into `TURNSTILE_SITE_KEY` in wrangler.toml
+#     (or set it via Cloudflare dashboard → Variables and Secrets, Type = Plaintext)
+#   - Set the secret key:
+wrangler pages secret put TURNSTILE_SECRET_KEY --project-name=starcitizen-catalog
 ```
+
+> If `TURNSTILE_SECRET_KEY` is unset, the login page falls back to a plain
+> "Sign in with Twitch" button. When the secret is set, the widget is
+> rendered and the backend rejects login POSTs without a valid token, and
+> direct `GET /api/auth/login` requests bounce back to `/` so bots can't
+> bypass the challenge.
 
 > ⚠️ When piping a secret value to `wrangler` from PowerShell (`"value" | wrangler …`), PowerShell appends a newline. For Twitch credentials especially, prefer to run `wrangler pages secret put …` with no value, then paste at the **Enter a secret value:** prompt — or set it via the dashboard.
 
@@ -185,8 +198,9 @@ All endpoints below are mounted under `/api/*`.
 
 | Method | Path | Notes |
 | --- | --- | --- |
-| GET | `/api/auth/login` | Redirects to Twitch authorize URL |
+| GET, POST | `/api/auth/login` | Start Twitch OAuth. POST verifies a Turnstile token when `TURNSTILE_SECRET_KEY` is set. |
 | GET | `/api/auth/callback` | Twitch OAuth return → session cookie |
+| GET | `/api/auth/config` | Public auth config (Turnstile site key, if any) |
 | GET | `/api/auth/me` | Current user incl. `is_admin` (401 if not signed in) |
 | POST | `/api/auth/logout` | Destroys the session |
 | GET | `/api/providers` | Supported providers + known model IDs |

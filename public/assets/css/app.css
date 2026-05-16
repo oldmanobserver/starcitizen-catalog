@@ -454,6 +454,23 @@ span.citation-ref { color: var(--fg-muted); font-size: 0.85em; }
   text-decoration: none;
 }
 .twitch-btn:hover { filter: brightness(1.05); }
+.twitch-btn:disabled,
+.twitch-btn[aria-disabled="true"] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  filter: none;
+}
+.login-form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.turnstile-container {
+  display: flex;
+  justify-content: center;
+  min-height: 65px;
+}
 
 .flash {
   background: rgba(176, 112, 0, 0.12);
