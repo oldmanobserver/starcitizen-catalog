@@ -32,6 +32,10 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+          # Optional: mirror the ship-alias map into KV so the worker can detect
+          # ship-mention intents without a D1 round-trip. The build_index job
+          # already uses this secret for the ingest manifest.
+          API_KEYS_KV_ID: ${{ secrets.API_KEYS_KV_ID }}
           ACTOR: ${{ github.actor }}
         run: |
           node functions/ingest/sync_catalog.js

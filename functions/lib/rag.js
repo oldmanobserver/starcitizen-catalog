@@ -31,9 +31,24 @@ export async function embed(env, text) {
  * about — surfaced to the LLM in the system prompt so it can ground its answer.
  */
 export async function retrieveSmart(env, query) {
-  const intent = classifyIntent(query);
+  let intent = classifyIntent(query);
   const focusDocs = [];
   let matches = [];
+
+  // Lexical ship-mention detection. Runs when the regex-based classifier
+  // didn't already find a strong structured intent (or when it only found a
+  // generic "series_any"), and the query contains a known ship name/alias.
+  // Falls back gracefully if the alias map / D1 table isn't populated yet.
+  if (!intent || intent.kind === "series_any") {
+    try {
+      const hits = await detectShipMentionsInQuery(env, query);
+      if (hits.length) {
+        intent = { kind: "ship_mention", ships: hits, series: intent ? intent.series : null };
+      }
+    } catch (e) {
+      console.error("ship-mention intent detect failed", e);
+    }
+  }
 
   if (intent) {
     try {
@@ -59,6 +74,93 @@ export async function retrieveSmart(env, query) {
   }
 
   return { matches, intent, focusDocs };
+}
+
+// ---------------------------------------------------------------------------
+// Ship-name detection
+// ---------------------------------------------------------------------------
+
+// Module-cached alias list. Loaded lazily from KV; falls back to a D1 query
+// if KV isn't populated. Either way, we cache it for the lifetime of the
+// worker isolate so this is a one-time cost per cold start.
+let SHIP_ALIASES_CACHE = null;        // Array<[alias_lower, canonical]> sorted longest-first
+let SHIP_ALIASES_CACHE_AT = 0;
+const SHIP_ALIASES_TTL_MS = 10 * 60 * 1000;
+
+async function loadShipAliases(env) {
+  const now = Date.now();
+  if (SHIP_ALIASES_CACHE && (now - SHIP_ALIASES_CACHE_AT) < SHIP_ALIASES_TTL_MS) {
+    return SHIP_ALIASES_CACHE;
+  }
+  let aliases = null;
+  try {
+    if (env.API_KEYS) {
+      const raw = await env.API_KEYS.get("system:ship_aliases");
+      if (raw) aliases = JSON.parse(raw);
+    }
+  } catch (e) {
+    console.error("ship_aliases KV load", e);
+  }
+  if (!aliases && env.DB) {
+    try {
+      const res = await env.DB.prepare(
+        `SELECT alias_lower, canonical FROM catalog_ship_aliases ORDER BY alias_len DESC`
+      ).all();
+      aliases = (res.results || []).map((r) => [r.alias_lower, r.canonical]);
+    } catch (e) {
+      // Table may not exist yet (migration not applied).
+      console.error("ship_aliases D1 load", e);
+    }
+  }
+  if (!aliases) aliases = [];
+  // Make sure longest-first ordering is enforced even when loaded from KV.
+  aliases.sort((a, b) => b[0].length - a[0].length);
+  SHIP_ALIASES_CACHE = aliases;
+  SHIP_ALIASES_CACHE_AT = now;
+  return aliases;
+}
+
+/**
+ * Scan the user's query for any known ship alias. Returns an array of
+ * canonical names (deduped, in match order). Longer aliases win over shorter
+ * overlapping ones (e.g. "Origin M80" beats "M80").
+ */
+async function detectShipMentionsInQuery(env, query) {
+  if (!query) return [];
+  const aliases = await loadShipAliases(env);
+  if (!aliases.length) return [];
+  // Work on a lowercased copy with a parallel "consumed" mask so overlapping
+  // shorter aliases don't re-match the same span.
+  const lower = String(query).toLowerCase();
+  const consumed = new Uint8Array(lower.length);
+  const found = [];
+  const seen = new Set();
+  for (const [alias, canonical] of aliases) {
+    if (alias.length < 2) continue;
+    let from = 0;
+    while (from <= lower.length - alias.length) {
+      const idx = lower.indexOf(alias, from);
+      if (idx === -1) break;
+      from = idx + 1;
+      // Word boundary check on both sides.
+      const before = idx === 0 ? "" : lower[idx - 1];
+      const after = idx + alias.length >= lower.length ? "" : lower[idx + alias.length];
+      if (before && /[a-z0-9]/.test(before)) continue;
+      if (after && /[a-z0-9]/.test(after)) continue;
+      // Skip if any character of the span is already consumed.
+      let blocked = false;
+      for (let i = idx; i < idx + alias.length; i++) {
+        if (consumed[i]) { blocked = true; break; }
+      }
+      if (blocked) continue;
+      for (let i = idx; i < idx + alias.length; i++) consumed[i] = 1;
+      if (!seen.has(canonical)) {
+        seen.add(canonical);
+        found.push(canonical);
+      }
+    }
+  }
+  return found;
 }
 
 /**
@@ -87,6 +189,10 @@ export async function retrieve(env, query, topK = SEMANTIC_TOPK) {
 
 async function retrieveByIntent(env, query, intent) {
   if (!env.DB) return { matches: [], focusDocs: [] };
+
+  if (intent.kind === "ship_mention") {
+    return retrieveShipMention(env, query, intent);
+  }
 
   if (intent.kind === "title_match") {
     // Try a series of progressively-looser D1 lookups for the title.
@@ -416,6 +522,117 @@ function subtractDaysYYYYMMDD(yyyymmdd, days) {
   const mm = String(dt.getUTCMonth() + 1).padStart(2, "0");
   const dd = String(dt.getUTCDate()).padStart(2, "0");
   return `${yy}${mm}${dd}`;
+}
+
+/**
+ * Handle a ship-mention intent: look up every video that names the ship(s)
+ * in question via the catalog_ship_mentions lexical index, surface up to
+ * `MAX_SHIP_VIDEOS` of them as focus docs (most recent first, biased toward
+ * higher mention counts), and pull transcript chunks for the top few so the
+ * model has actual quoted context to summarize.
+ */
+const MAX_SHIP_VIDEOS_FOCUS = 25;     // shown to the LLM as focus docs
+const MAX_SHIP_VIDEOS_CHUNKS = 6;     // how many of those we actually pull chunks for
+
+async function retrieveShipMention(env, query, intent) {
+  const ships = intent.ships || [];
+  if (!ships.length) return { matches: [], focusDocs: [] };
+
+  // Pull mention rows for every detected ship, joined to videos for ordering.
+  // We rank by (date DESC, mention_count DESC) so the most recent discussion
+  // surfaces first, but a high-mention older episode still appears.
+  let rows;
+  try {
+    const placeholders = ships.map(() => "?").join(", ");
+    const res = await env.DB.prepare(
+      `SELECT sm.video_id        AS video_id,
+              sm.ship_name       AS ship_name,
+              sm.mention_count   AS mention_count,
+              sm.first_timestamp AS first_timestamp,
+              v.title            AS title,
+              v.series           AS series,
+              v.upload_date      AS upload_date,
+              v.url              AS url,
+              v.has_transcript   AS has_transcript
+       FROM catalog_ship_mentions sm
+       JOIN catalog_videos v ON v.video_id = sm.video_id
+       WHERE sm.ship_name IN (${placeholders})
+       ORDER BY v.upload_date DESC, sm.mention_count DESC
+       LIMIT 100`
+    ).bind(...ships).all();
+    rows = res.results || [];
+  } catch (e) {
+    console.error("retrieveShipMention D1", e);
+    return { matches: [], focusDocs: [] };
+  }
+
+  if (!rows.length) return { matches: [], focusDocs: [] };
+
+  // Dedupe by video_id, keeping the row with the highest mention_count when a
+  // video mentions multiple of the named ships.
+  const byVideo = new Map();
+  for (const r of rows) {
+    const cur = byVideo.get(r.video_id);
+    if (!cur || (r.mention_count || 0) > (cur.mention_count || 0)) {
+      byVideo.set(r.video_id, r);
+    }
+  }
+  const ordered = [...byVideo.values()]
+    .sort((a, b) => {
+      if ((b.upload_date || "") !== (a.upload_date || "")) return (b.upload_date || "").localeCompare(a.upload_date || "");
+      return (b.mention_count || 0) - (a.mention_count || 0);
+    });
+
+  // Optional series narrowing — if the original intent included a series, prefer
+  // those videos but don't exclude others (they might still be valuable).
+  if (intent.series) {
+    ordered.sort((a, b) => (b.series === intent.series ? 1 : 0) - (a.series === intent.series ? 1 : 0));
+  }
+
+  const focusVideos = ordered.slice(0, MAX_SHIP_VIDEOS_FOCUS);
+  const shipsLabel = ships.join(", ");
+  const focusDocs = focusVideos.map((v) => {
+    const tsTag = v.first_timestamp
+      ? ` — first mention @ ${fmtTs(v.first_timestamp)}`
+      : "";
+    const linkBase = v.url || `https://www.youtube.com/watch?v=${v.video_id}`;
+    const link = v.first_timestamp
+      ? `${linkBase}${linkBase.includes("?") ? "&" : "?"}t=${Math.floor(v.first_timestamp)}s`
+      : linkBase;
+    const seriesTag = v.series ? `${v.series} — ` : "";
+    return {
+      kind: "video",
+      video_id: v.video_id,
+      title: v.title,
+      series: v.series,
+      upload_date: v.upload_date,
+      url: link,
+      ship: v.ship_name,
+      mention_count: v.mention_count,
+      label: `${seriesTag}${v.title} (${fmtDate(v.upload_date)}) — mentions ${v.ship_name} ×${v.mention_count}${tsTag} — ${link}`,
+    };
+  });
+
+  // Pull transcript chunks from the top few videos so the model has real text
+  // to quote. We bias the embedding probe toward the ship name + a vehicle
+  // vocabulary so we get the chunk where the ship is actually discussed.
+  const topIds = focusVideos.filter((v) => v.has_transcript).slice(0, MAX_SHIP_VIDEOS_CHUNKS).map((v) => v.video_id);
+  let matches = [];
+  if (topIds.length) {
+    const probe = `${query} ${shipsLabel} ship vehicle manufacturer concept reveal`;
+    matches = await fetchAllChunksForVideos(env, probe, topIds);
+  }
+
+  // Add a header focus doc summarizing the lexical index hit. Useful for the
+  // model so it knows the total number of videos rather than only the slice
+  // we pulled chunks for.
+  const summaryDoc = {
+    kind: "ship_mention_summary",
+    ship: shipsLabel,
+    label: `\u2139\ufe0f Lexical index: ${ordered.length} video(s) mention ${shipsLabel}. Showing the ${focusVideos.length} most recent. List ALL of them in the answer.`,
+  };
+
+  return { matches, focusDocs: [summaryDoc, ...focusDocs] };
 }
 
 /**
@@ -772,6 +989,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     "Ground every factual claim in the supplied CONTEXT snippets and cite them inline with their [#n] tag.",
     "If a FOCUS DOCUMENTS entry is marked '⚠️ No transcript indexed', tell the user the transcript isn't available and then ANSWER USING THE OTHER CONTEXT (such as patch notes for the same release). Do not refuse the whole question.",
     "When the user asks 'what's new this week' or 'recent videos', the FOCUS DOCUMENTS block contains the authoritative list of videos in that window. ALWAYS list every focus-document video that matches the window (title, series, date, and the link from the label) before summarizing; do not say you don't have recent videos when the focus block is populated. If a focus video has no transcript chunks in CONTEXT, list it with a note that no transcript is available rather than omitting it.",
+    "When the user asks 'what videos mention/discuss/talk about <ship>', the FOCUS DOCUMENTS block contains a LEXICAL INDEX of every video that names that ship (sourced from a deterministic scan of the transcripts, not semantic similarity). Treat the focus list as authoritative and comprehensive — list every focus-document video (title, series, date, link) even if the CONTEXT block doesn't include a chunk for it. Order your answer by date (most recent first). If the summary line says 'N videos mention X, showing the most recent K', tell the user the total and present the visible slice; do not pretend fewer videos exist.",
     "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
     "When linking to a video, ALWAYS copy the exact 'Link:' URL shown in the relevant CONTEXT chunk. Each transcript chunk has a 'Link:' line with a ready-to-use https://www.youtube.com/watch?v=...&t=...s URL — use that verbatim. NEVER output the literal placeholders 'VIDEO_ID' or 'SECONDS' — those are not real URLs. NEVER ask the user to fill in the video ID — it is in the chunk header.",
