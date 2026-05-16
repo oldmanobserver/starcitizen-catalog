@@ -153,15 +153,22 @@ export function buildPatchChunks(entry, text) {
     (title.match(/(\d+\.\d+(?:\.\d+)?)/) || [])[1] ||
     null;
 
-  // Strip the preamble (Title / Date / URL metadata + leading --- divider).
-  // The preamble carries the Spectrum forum URL, which we don't want bleeding
-  // into chunk text where the LLM might pick it up as a citation source.
+  // Strip the preamble (Title / Date / URL metadata + leading --- divider +
+  // blank lines). The preamble carries the Spectrum forum URL, which we don't
+  // want bleeding into chunk text where the LLM might pick it up as a
+  // citation source. Advance through any contiguous run of those preamble
+  // line kinds, then stop at the first content line.
   let bodyStart = 0;
   for (let i = 0; i < rawLines.length; i++) {
     const ln = rawLines[i];
-    if (/^\*\*(Title|Date|URL):\*\*/i.test(ln)) continue;
-    if (/^---\s*$/.test(ln)) { bodyStart = i + 1; continue; }
-    if (ln.trim() === "" && bodyStart === i) { bodyStart = i + 1; continue; }
+    if (
+      /^\*\*(Title|Date|URL):\*\*/i.test(ln) ||
+      /^---\s*$/.test(ln) ||
+      ln.trim() === ""
+    ) {
+      bodyStart = i + 1;
+      continue;
+    }
     break;
   }
   const body = rawLines.slice(bodyStart).join("\n");

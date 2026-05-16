@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to get an API key — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <nav class="h-stack">
+      <a class="btn ghost small" href="/settings.html">Settings</a>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>How to get an API key</h1>
+    <p class="muted">
+      This site uses <strong>your own</strong> LLM provider API key to answer questions. You only need a key from
+      <em>one</em> provider to get started — pick whichever one you already have an account with, or the cheapest option
+      for the model you want to try. You can always add more later.
+    </p>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0">Before you start</h2>
+      <ul>
+        <li>You will need to create an account with the provider (free) and add a payment method or buy credits.</li>
+        <li>Most providers charge per-token. A typical chat message here costs a fraction of a cent.</li>
+        <li>Treat your API key like a password — anyone with it can spend on your account. We store it encrypted at rest
+            and only decrypt it in-memory to forward your prompt.</li>
+        <li>If you ever leak a key, return to the provider's dashboard and revoke / rotate it immediately.</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0" id="openai">OpenAI (GPT-4o, GPT-4.1, etc.)</h2>
+      <ol>
+        <li>Go to <a href="https://platform.openai.com/signup" target="_blank" rel="noopener">platform.openai.com</a> and sign in or create an account.</li>
+        <li>Add a payment method or prepaid credits at <a href="https://platform.openai.com/settings/organization/billing/overview" target="_blank" rel="noopener">Billing → Overview</a>.
+            (A new API account is separate from a ChatGPT Plus subscription — Plus does <em>not</em> include API credits.)</li>
+        <li>Open <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener">platform.openai.com/api-keys</a>.</li>
+        <li>Click <strong>Create new secret key</strong>, give it a name like "Star Citizen Catalog", and click <strong>Create</strong>.</li>
+        <li>Copy the key (starts with <code>sk-…</code>). You will only see it once.</li>
+        <li>Paste it into <a href="/settings.html">Settings → API Keys → OpenAI</a>.</li>
+      </ol>
+    </section>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0" id="anthropic">Anthropic (Claude)</h2>
+      <ol>
+        <li>Go to <a href="https://console.anthropic.com/" target="_blank" rel="noopener">console.anthropic.com</a> and sign in or create an account.</li>
+        <li>Add credits under <a href="https://console.anthropic.com/settings/billing" target="_blank" rel="noopener">Settings → Billing</a>.
+            (A Claude.ai subscription does <em>not</em> include API credits.)</li>
+        <li>Open <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">Settings → API Keys</a>.</li>
+        <li>Click <strong>Create Key</strong>, give it a name, and click <strong>Create Key</strong>.</li>
+        <li>Copy the key (starts with <code>sk-ant-…</code>). You will only see it once.</li>
+        <li>Paste it into <a href="/settings.html">Settings → API Keys → Anthropic</a>.</li>
+      </ol>
+    </section>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0" id="google">Google (Gemini)</h2>
+      <ol>
+        <li>Go to <a href="https://aistudio.google.com/" target="_blank" rel="noopener">aistudio.google.com</a> and sign in with a Google account.</li>
+        <li>Open <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">aistudio.google.com/app/apikey</a>.</li>
+        <li>Click <strong>Create API key</strong>. If prompted, create or pick a Google Cloud project — any project is fine.</li>
+        <li>Copy the key (starts with <code>AIza…</code>).</li>
+        <li>Paste it into <a href="/settings.html">Settings → API Keys → Google</a>.</li>
+      </ol>
+      <p class="muted small">
+        Google AI Studio offers a generous free tier for Gemini models, with paid usage available if you enable billing on the Cloud project.
+      </p>
+    </section>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0" id="xai">xAI (Grok)</h2>
+      <ol>
+        <li>Go to <a href="https://console.x.ai/" target="_blank" rel="noopener">console.x.ai</a> and sign in with your X / xAI account.</li>
+        <li>Add credits or a payment method under <strong>Billing</strong>.</li>
+        <li>Open the <a href="https://console.x.ai/team/default/api-keys" target="_blank" rel="noopener">API Keys</a> page.</li>
+        <li>Click <strong>Create API Key</strong>, give it a name, and click <strong>Save</strong>.</li>
+        <li>Copy the key (starts with <code>xai-…</code>). You will only see it once.</li>
+        <li>Paste it into <a href="/settings.html">Settings → API Keys → xAI</a>.</li>
+      </ol>
+    </section>
+
+    <section class="card" style="margin-bottom:16px">
+      <h2 style="margin-top:0" id="openrouter">OpenRouter (one key, many models)</h2>
+      <p class="muted small" style="margin-top:0">
+        OpenRouter is a single account that gives you access to models from many providers (OpenAI, Anthropic, Google, Meta, Mistral, and more).
+        Good choice if you want to experiment with several models without signing up for each one.
+      </p>
+      <ol>
+        <li>Go to <a href="https://openrouter.ai/" target="_blank" rel="noopener">openrouter.ai</a> and sign in (Google / GitHub / email).</li>
+        <li>Add credits under <a href="https://openrouter.ai/settings/credits" target="_blank" rel="noopener">Settings → Credits</a>.</li>
+        <li>Open <a href="https://openrouter.ai/settings/keys" target="_blank" rel="noopener">Settings → Keys</a>.</li>
+        <li>Click <strong>Create Key</strong>, give it a name, and click <strong>Create</strong>.</li>
+        <li>Copy the key (starts with <code>sk-or-…</code>).</li>
+        <li>Paste it into <a href="/settings.html">Settings → API Keys → OpenRouter</a>.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2 style="margin-top:0">Troubleshooting</h2>
+      <ul>
+        <li><strong>"Invalid API key" / 401 errors:</strong> Double-check you copied the full key with no extra spaces, and that you pasted it under the correct provider.</li>
+        <li><strong>"Insufficient quota" / 429 errors:</strong> You need to add credits or a payment method in the provider's dashboard. A free signup is usually not enough.</li>
+        <li><strong>Model not listed:</strong> The provider may have deprecated it or you may not have access. Pick another model from the dropdown.</li>
+        <li><strong>Want to rotate a key?</strong> Revoke the old one in the provider's dashboard, generate a new one, and click <strong>Replace</strong> in <a href="/settings.html">Settings</a>.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module">
+    import { renderFooter } from "/assets/js/common.js";
+    renderFooter("#site-footer");
+  </script>
+</body>
+</html>

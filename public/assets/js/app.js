@@ -76,6 +76,10 @@ function showOnboardingModal() {
         paste a key to get started — you can manage or replace keys later in
         <a href="/settings.html">Settings</a>.
       </p>
+      <p class="small" style="margin-top:0">
+        Don't have a key yet?
+        <a href="/api-keys.html" target="_blank" rel="noopener">How to get an API key →</a>
+      </p>
       <div class="field">
         <label for="onb-provider">Provider</label>
         <select id="onb-provider"></select>
