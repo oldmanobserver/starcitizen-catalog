@@ -12,28 +12,33 @@ const REGISTRY = { openai, anthropic, google, xai, openrouter };
 
 export const DEFAULT_MODELS = {
   openai: [
-    { id: "gpt-4o", label: "GPT-4o" },
-    { id: "gpt-4o-mini", label: "GPT-4o mini" },
-    { id: "gpt-4.1", label: "GPT-4.1" },
-    { id: "gpt-4.1-mini", label: "GPT-4.1 mini" },
+    { id: "gpt-5.5", label: "GPT-5.5" },
+    { id: "gpt-5.4", label: "GPT-5.4" },
+    { id: "gpt-5.4-mini", label: "GPT-5.4 mini" },
+    { id: "gpt-5.4-nano", label: "GPT-5.4 nano" },
   ],
   anthropic: [
-    { id: "claude-opus-4-5", label: "Claude Opus 4.5" },
-    { id: "claude-sonnet-4-5", label: "Claude Sonnet 4.5" },
-    { id: "claude-3-5-haiku-latest", label: "Claude 3.5 Haiku" },
+    { id: "claude-opus-4-7", label: "Claude Opus 4.7" },
+    { id: "claude-sonnet-4-6", label: "Claude Sonnet 4.6" },
+    { id: "claude-haiku-4-5", label: "Claude Haiku 4.5" },
   ],
   google: [
-    { id: "gemini-2.0-flash", label: "Gemini 2.0 Flash" },
-    { id: "gemini-1.5-pro", label: "Gemini 1.5 Pro" },
+    { id: "gemini-3.1-pro-preview", label: "Gemini 3.1 Pro (Preview)" },
+    { id: "gemini-3-flash-preview", label: "Gemini 3 Flash (Preview)" },
+    { id: "gemini-3.1-flash-lite", label: "Gemini 3.1 Flash-Lite" },
+    { id: "gemini-2.5-pro", label: "Gemini 2.5 Pro" },
+    { id: "gemini-2.5-flash", label: "Gemini 2.5 Flash" },
   ],
   xai: [
-    { id: "grok-2-latest", label: "Grok 2" },
-    { id: "grok-beta", label: "Grok Beta" },
+    { id: "grok-4.3", label: "Grok 4.3" },
   ],
   openrouter: [
-    { id: "anthropic/claude-3.5-sonnet", label: "Claude 3.5 Sonnet (via OpenRouter)" },
-    { id: "openai/gpt-4o", label: "GPT-4o (via OpenRouter)" },
-    { id: "google/gemini-pro-1.5", label: "Gemini 1.5 Pro (via OpenRouter)" },
+    { id: "anthropic/claude-opus-4.7", label: "Claude Opus 4.7 (via OpenRouter)" },
+    { id: "anthropic/claude-sonnet-4.6", label: "Claude Sonnet 4.6 (via OpenRouter)" },
+    { id: "openai/gpt-5.5", label: "GPT-5.5 (via OpenRouter)" },
+    { id: "openai/gpt-5.4-mini", label: "GPT-5.4 mini (via OpenRouter)" },
+    { id: "google/gemini-3.1-pro-preview", label: "Gemini 3.1 Pro (via OpenRouter)" },
+    { id: "x-ai/grok-4.3", label: "Grok 4.3 (via OpenRouter)" },
   ],
 };
 
