@@ -175,6 +175,7 @@ function cacheEls() {
   els.composer = document.querySelector("#composer-input");
   els.composerForm = document.querySelector("#composer-form");
   els.sendBtn = document.querySelector("#send-btn");
+  els.stopBtn = document.querySelector("#stop-btn");
   els.newConvBtn = document.querySelector("#new-conv-btn");
   els.collapseBtn = document.querySelector("#collapse-btn");
   els.shell = document.querySelector("#chat-shell");
@@ -190,6 +191,7 @@ function bindUi() {
     }
   });
   els.providerSelect.addEventListener("change", renderModelSelect);
+  els.stopBtn.addEventListener("click", onStopGenerating);
   els.newConvBtn.addEventListener("click", startNewConversation);
   els.collapseBtn.addEventListener("click", () => {
     els.shell.classList.toggle("collapsed");
@@ -476,6 +478,8 @@ async function onSendMessage(e) {
 
   state.streaming = true;
   els.sendBtn.disabled = true;
+  els.sendBtn.hidden = true;
+  els.stopBtn.hidden = false;
   state.abortController = new AbortController();
 
   try {
@@ -522,11 +526,27 @@ async function onSendMessage(e) {
       }
     }
   } catch (e) {
-    bubble.textContent = `Error: ${e.message || e}`;
+    if (e.name === "AbortError") {
+      assistantMsg.content = bubble.textContent === "…" ? "" : (bubble.textContent || "");
+      const note = document.createElement("div");
+      note.className = "muted small";
+      note.textContent = "Stopped.";
+      assistantEl.appendChild(note);
+    } else {
+      bubble.textContent = `Error: ${e.message || e}`;
+    }
   } finally {
     state.streaming = false;
     els.sendBtn.disabled = false;
+    els.sendBtn.hidden = false;
+    els.stopBtn.hidden = true;
     state.abortController = null;
+  }
+}
+
+function onStopGenerating() {
+  if (state.abortController) {
+    state.abortController.abort();
   }
 }
 
