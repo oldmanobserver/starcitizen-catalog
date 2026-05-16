@@ -20,6 +20,10 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { detectSeries, extractPatchVersion } from "../lib/catalog.js";
+import {
+  buildTranscriptChunks,
+  buildPatchChunks,
+} from "./chunkers.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
@@ -349,6 +353,93 @@ async function collectPatches() {
   return out;
 }
 
+// ---- Full-text (FTS5) rows ----------------------------------------------
+
+/**
+ * Walk every transcript + patch-note source and build the rows that get
+ * inserted into the catalog_text_fts virtual table. Chunk indices line up
+ * with the vector IDs produced by build_index.js because both consume the
+ * same shared chunkers (./chunkers.js).
+ *
+ * Each transcript file is matched to its `catalog_videos` row via
+ * `videosByVideoId` so we can store `upload_date` and `series` denormalized
+ * in the FTS row — those are the most common ORDER BY / WHERE columns and
+ * we don't want to join on every query.
+ */
+async function collectFtsRows(videosByVideoId) {
+  const out = [];
+
+  // Transcripts
+  const ytRoot = path.join(DATA_DIR, "youtube");
+  for await (const { year, dir } of walkYears(ytRoot)) {
+    const transcriptDir = path.join(dir, "transcripts");
+    if (!(await exists(transcriptDir))) continue;
+    const files = await fs.readdir(transcriptDir);
+    for (const f of files) {
+      if (!f.endsWith(".md")) continue;
+      const full = path.join(transcriptDir, f);
+      const rel = path.relative(REPO_ROOT, full).replace(/\\/g, "/");
+      const videoId = f.replace(/\.md$/, "");
+      const raw = await fs.readFile(full, "utf8");
+      const entry = { kind: "transcript", key: rel, full, year, video_id: videoId };
+      const chunks = buildTranscriptChunks(entry, raw);
+      const videoRow = videosByVideoId.get(videoId) || null;
+      for (const c of chunks) {
+        out.push({
+          source_type: "transcript",
+          source_key: rel,
+          source_id: videoId,
+          chunk_idx: c.chunk_idx,
+          title: c.metadata.title || "",
+          timestamp_seconds: c.metadata.timestamp_seconds || 0,
+          patch_version: null,
+          channel: null,
+          url: c.metadata.url || `https://www.youtube.com/watch?v=${videoId}`,
+          upload_date: videoRow ? videoRow.upload_date : `${year}0101`,
+          series: c.metadata.series || (videoRow ? videoRow.series : null),
+          text: c.text,
+        });
+      }
+    }
+  }
+
+  // Patch notes
+  const pnRoot = path.join(DATA_DIR, "Patch Notes");
+  for await (const { year, dir } of walkYears(pnRoot)) {
+    for (const channel of ["LIVE", "PTU"]) {
+      const chanDir = path.join(dir, channel);
+      if (!(await exists(chanDir))) continue;
+      const files = await fs.readdir(chanDir);
+      for (const f of files) {
+        if (!f.endsWith(".md")) continue;
+        const full = path.join(chanDir, f);
+        const rel = path.relative(REPO_ROOT, full).replace(/\\/g, "/");
+        const raw = await fs.readFile(full, "utf8");
+        const entry = { kind: "patch_note", key: rel, full, year, channel };
+        const chunks = buildPatchChunks(entry, raw);
+        for (const c of chunks) {
+          out.push({
+            source_type: "patch_note",
+            source_key: rel,
+            source_id: rel,
+            chunk_idx: c.chunk_idx,
+            title: c.metadata.title || "",
+            timestamp_seconds: 0,
+            patch_version: c.metadata.patch_version || null,
+            channel: c.metadata.channel || channel,
+            url: c.metadata.url || null,
+            upload_date: null,
+            series: null,
+            text: c.text,
+          });
+        }
+      }
+    }
+  }
+
+  return out;
+}
+
 // ---- Main ----------------------------------------------------------------
 
 async function main() {
@@ -370,6 +461,11 @@ async function main() {
   const shipMentions = await collectShipMentions(aliasIndex);
   console.log(`  ${shipMentions.length} (video, ship) mentions across ${new Set(shipMentions.map((m) => m.video_id)).size} videos`);
 
+  console.log("- Building FTS rows from transcripts + patch notes...");
+  const videosByVideoId = new Map(videos.map((v) => [v.video_id, v]));
+  const ftsRows = await collectFtsRows(videosByVideoId);
+  console.log(`  ${ftsRows.length} chunk rows`);
+
   console.log("- Upserting to D1...");
   const now = Math.floor(Date.now() / 1000);
 
@@ -389,6 +485,17 @@ async function main() {
       `Apply schema/migrations/004_ship_mentions.sql to enable. (${(e.message || e).toString().slice(0, 200)})`
     );
     shipTablesPresent = false;
+  }
+  // FTS5 virtual table from migration 005; same tolerance.
+  let ftsTablePresent = true;
+  try {
+    await d1Exec("DELETE FROM catalog_text_fts");
+  } catch (e) {
+    console.warn(
+      `! FTS table missing — skipping full-text index. ` +
+      `Apply schema/migrations/005_fts.sql to enable. (${(e.message || e).toString().slice(0, 200)})`
+    );
+    ftsTablePresent = false;
   }
 
   // D1's /query endpoint caps bound parameters at 100 per request. Pick a
@@ -436,6 +543,20 @@ async function main() {
     }
   }
 
+  if (ftsTablePresent && ftsRows.length) {
+    // FTS rows are wide (12 cols including the often-long `text` column). With
+    // D1's 100-param cap per request we can fit 8 rows × 12 cols = 96 params.
+    await chunkedInsert(
+      "INSERT INTO catalog_text_fts (source_type, source_key, source_id, chunk_idx, title, timestamp_seconds, patch_version, channel, url, upload_date, series, text) VALUES",
+      "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      ftsRows.map((r) => [
+        r.source_type, r.source_key, r.source_id, r.chunk_idx, r.title, r.timestamp_seconds,
+        r.patch_version, r.channel, r.url, r.upload_date, r.series, r.text,
+      ]),
+      8   // 8 × 12 = 96 params per request
+    );
+  }
+
   // Mirror the alias map into KV so the worker can detect ship-mention intents
   // without a D1 round-trip on every chat turn. Best-effort; tolerated if KV
   // creds aren't available locally.
@@ -458,7 +579,8 @@ async function main() {
 
   console.log(
     `Done. ${videos.length} videos, ${patches.length} patch notes, ` +
-    `${shipTablesPresent ? shipMentions.length : 0} ship mentions synced.`
+    `${shipTablesPresent ? shipMentions.length : 0} ship mentions, ` +
+    `${ftsTablePresent ? ftsRows.length : 0} FTS chunks synced.`
   );
 }
 

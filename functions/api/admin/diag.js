@@ -173,6 +173,9 @@ async function runDiag(env, q) {
       rank: i + 1,
       score: m.score,
       id: m.id,
+      // Indicates where this hit originated: "lexical" if it came (at least
+      // partly) from the FTS5 index; otherwise assume vector/semantic.
+      provenance: md.lexical ? "lexical" : "semantic",
       source_type: md.source_type,
       title: md.title,
       video_id: md.video_id || null,

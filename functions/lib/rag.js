@@ -33,7 +33,7 @@ export async function embed(env, text) {
 export async function retrieveSmart(env, query) {
   let intent = classifyIntent(query);
   const focusDocs = [];
-  let matches = [];
+  let intentMatches = [];
 
   // Lexical ship-mention detection. Runs when the regex-based classifier
   // didn't already find a strong structured intent (or when it only found a
@@ -53,27 +53,76 @@ export async function retrieveSmart(env, query) {
   if (intent) {
     try {
       const result = await retrieveByIntent(env, query, intent);
-      matches = result.matches;
+      intentMatches = result.matches;
       focusDocs.push(...result.focusDocs);
     } catch (e) {
       console.error("intent retrieval failed", e);
     }
   }
 
-  // If we couldn't find anything via structured lookup, fall back to semantic.
-  if (matches.length === 0) {
-    matches = await retrieveSemantic(env, query, SEMANTIC_TOPK);
-  } else if (matches.length < SEMANTIC_TOPK) {
-    // Top up with semantic results that aren't already in matches.
-    const have = new Set(matches.map((m) => m.id));
-    const extra = await retrieveSemantic(env, query, SEMANTIC_TOPK);
-    for (const m of extra) {
-      if (!have.has(m.id)) matches.push(m);
-      if (matches.length >= SEMANTIC_TOPK + 4) break;
-    }
-  }
+  // Always also run a hybrid semantic + lexical (FTS5) pass against the full
+  // corpus. Even when a structured intent fires, fusing in extra recall from
+  // both layers catches things the intent didn't know to look for (e.g. a
+  // "Constellation" question that also happens to mention "stretch goals").
+  // Both queries run in parallel so the round-trip cost stays bounded.
+  const [semantic, lexical] = await Promise.all([
+    retrieveSemantic(env, query, SEMANTIC_TOPK).catch((e) => {
+      console.error("semantic retrieval failed", e);
+      return [];
+    }),
+    retrieveLexical(env, query, LEXICAL_TOPK).catch((e) => {
+      console.error("lexical retrieval failed", e);
+      return [];
+    }),
+  ]);
 
+  const matches = fuseResults({ intentMatches, semantic, lexical });
   return { matches, intent, focusDocs };
+}
+
+/**
+ * Reciprocal-rank fusion of three result streams:
+ *   - intentMatches: results from a structured-intent handler (highest priority)
+ *   - semantic:      Vectorize semantic neighbours
+ *   - lexical:       FTS5 keyword hits
+ *
+ * Each stream contributes a score of weight / (RRF_K + rank). We then sort by
+ * fused score and return up to RESULT_LIMIT unique matches. Intent matches are
+ * weighted highest because they reflect a confident, query-specific lookup.
+ */
+const RRF_K = 60;
+const LEXICAL_TOPK = 30;
+const RESULT_LIMIT = 30;
+const RRF_WEIGHTS = { intent: 3.0, semantic: 1.0, lexical: 1.2 };
+
+function fuseResults({ intentMatches, semantic, lexical }) {
+  const fused = new Map(); // id -> { match, score }
+  const add = (list, weight) => {
+    list.forEach((m, i) => {
+      if (!m || !m.id) return;
+      const inc = weight / (RRF_K + i + 1);
+      const cur = fused.get(m.id);
+      if (cur) {
+        cur.score += inc;
+        // Prefer to keep whichever copy has richer metadata (vector matches
+        // already include the populated `metadata.text`; FTS rows do too).
+        if (!cur.match.metadata || Object.keys(cur.match.metadata).length < Object.keys(m.metadata || {}).length) {
+          cur.match = m;
+        }
+      } else {
+        fused.set(m.id, { match: { ...m, score: m.score ?? inc }, score: inc });
+      }
+    });
+  };
+  add(intentMatches || [], RRF_WEIGHTS.intent);
+  add(semantic || [], RRF_WEIGHTS.semantic);
+  add(lexical || [], RRF_WEIGHTS.lexical);
+
+  const out = [...fused.values()]
+    .sort((a, b) => b.score - a.score)
+    .slice(0, RESULT_LIMIT)
+    .map((x) => x.match);
+  return out;
 }
 
 // ---------------------------------------------------------------------------
@@ -181,6 +230,176 @@ async function retrieveSemantic(env, query, topK) {
  */
 export async function retrieve(env, query, topK = SEMANTIC_TOPK) {
   return retrieveSemantic(env, query, topK);
+}
+
+// ---------------------------------------------------------------------------
+// Lexical (FTS5) retrieval
+// ---------------------------------------------------------------------------
+
+// FTS5 reserved characters get stripped or escaped before being sent to MATCH.
+// We DON'T want users to be able to type column filters or special operators;
+// the rewriter below converts the raw query into a simple OR'd token list.
+const FTS_STOPWORDS = new Set([
+  "a","an","and","are","as","at","be","but","by","can","could","do","does",
+  "for","from","get","go","had","has","have","he","her","him","his","how",
+  "i","if","in","into","is","it","its","just","like","me","my","no","not",
+  "of","on","one","or","our","s","she","so","some","such","that","the","their",
+  "them","then","there","these","they","this","to","up","us","was","we","were",
+  "what","when","where","which","who","why","will","with","you","your",
+  "any","about","tell","talk","talks","talking","mention","mentions","mentioned",
+  "discuss","discusses","discussed","said","says","video","videos","episode",
+  "episodes","stream","streams","show","shows","please","also","new","newest",
+  "latest","recent","whats","does","doesnt","dont","didnt","cant","won","wont",
+]);
+
+/**
+ * Turn a natural-language query into an FTS5 MATCH expression.
+ *
+ * Strategy:
+ *  - Split on whitespace and punctuation, lower-case, strip stopwords.
+ *  - Tokens are quoted to neutralise any FTS5 syntax inside them.
+ *  - Tokens are OR'd together (FTS5 default operator is AND; we use OR
+ *    so a missing rare word doesn't blank out the whole query).
+ *  - A "*" prefix wildcard is added to longer tokens (>=4 chars and
+ *    purely alphanumeric) so "pledging" matches "pledge", "pledged", etc.
+ *  - Bigrams of consecutive surviving tokens are added as quoted phrase
+ *    queries with a strong boost via NEAR/3 — this rewards exact-phrase
+ *    matches like "stretch goals" or "Idris P".
+ *
+ * Returns null when there's nothing meaningful left to query.
+ */
+function buildFtsExpression(query) {
+  if (!query) return null;
+  const lower = String(query).toLowerCase();
+  // Treat non-alphanumeric (except apostrophes inside words) as token boundaries.
+  const rawTokens = lower
+    .replace(/[^a-z0-9'.\-\s]/g, " ")
+    .split(/\s+/)
+    .map((t) => t.replace(/^[-'.]+|[-'.]+$/g, ""))
+    .filter(Boolean);
+
+  // Preserve version numbers like "4.8" and dotted identifiers, otherwise
+  // drop pure punctuation tokens.
+  const tokens = rawTokens.filter((t) => /[a-z0-9]/.test(t) && !FTS_STOPWORDS.has(t));
+  if (!tokens.length) return null;
+
+  const quote = (t) => `"${t.replace(/"/g, '""')}"`;
+  const parts = [];
+  for (const t of tokens) {
+    if (/^[a-z0-9]{4,}$/.test(t)) {
+      // Prefix wildcard for plain alphanumeric stems. FTS5 prefix syntax
+      // requires the bareword form `stem*` (no quotes around the prefix),
+      // so we emit both the exact-token phrase and the prefix expression.
+      parts.push(`(${quote(t)} OR ${t}*)`);
+    } else {
+      parts.push(quote(t));
+    }
+  }
+  // Phrase bonuses: every adjacent token pair as a NEAR/3 phrase.
+  if (tokens.length >= 2) {
+    for (let i = 0; i < tokens.length - 1; i++) {
+      const a = tokens[i];
+      const b = tokens[i + 1];
+      if (a.length < 2 || b.length < 2) continue;
+      parts.push(`NEAR(${quote(a)} ${quote(b)}, 3)`);
+    }
+  }
+  return parts.join(" OR ");
+}
+
+/**
+ * FTS5 keyword search over catalog_text_fts. Returns Vectorize-shaped match
+ * objects so the existing renderContext()/citation code can consume them
+ * unchanged. The id encodes (source_type, source_id, chunk_idx) so vector
+ * matches and FTS matches dedupe naturally when they cover the same chunk.
+ *
+ *   transcript chunks:  tx-<sha1(rel_path)[:24]>:<chunk_idx>
+ *   patch-note chunks:  pn-<sha1(rel_path)[:24]>:<chunk_idx>
+ *
+ * which is identical to the vector ID scheme — meaning if FTS and Vectorize
+ * both surface the same chunk, the fuser will collapse them.
+ */
+async function retrieveLexical(env, query, topK) {
+  if (!env.DB) return [];
+  const expr = buildFtsExpression(query);
+  if (!expr) return [];
+  const limit = Math.max(1, Math.min(topK || LEXICAL_TOPK, 100));
+  let rows;
+  try {
+    const res = await env.DB.prepare(
+      `SELECT source_type, source_key, source_id, chunk_idx, title, timestamp_seconds,
+              patch_version, channel, url, upload_date, series, text,
+              bm25(catalog_text_fts) AS score
+       FROM catalog_text_fts
+       WHERE catalog_text_fts MATCH ?
+       ORDER BY score
+       LIMIT ?`
+    ).bind(expr, limit).all();
+    rows = res.results || [];
+  } catch (e) {
+    // Table may not exist yet (migration 005 not applied) or the MATCH expr
+    // could be malformed. Either way we just degrade to no lexical results.
+    console.error("retrieveLexical", e);
+    return [];
+  }
+  return Promise.all(rows.map((r) => ftsRowToMatch(r)));
+}
+
+async function ftsRowToMatch(r) {
+  const sourceType = r.source_type;
+  const sourceId = r.source_id;
+  const sourceKey = r.source_key || sourceId;
+  const chunkIdx = r.chunk_idx;
+  // The vector-ID prefix is sha1(repo-relative-path)[:24]. We stored that path
+  // as `source_key`, so the FTS-derived ID matches the vector ID for the
+  // same chunk — letting the fuser collapse semantic + lexical duplicates.
+  const sha = await sha1Hex(sourceKey);
+  const idPrefix =
+    sourceType === "transcript" ? "tx-" + sha.slice(0, 24) :
+    sourceType === "patch_note" ? "pn-" + sha.slice(0, 24) :
+    "lex-" + sha.slice(0, 24);
+  const id = `${idPrefix}:${chunkIdx}`;
+  // BM25 returns negative numbers in SQLite FTS5 (smaller is better). Map to
+  // a positive descending score in roughly the same range as cosine similarity.
+  const rawBm25 = typeof r.score === "number" ? r.score : 0;
+  const normScore = Math.max(0, Math.min(1, 1 / (1 + Math.abs(rawBm25))));
+  const url = r.url || (sourceType === "transcript" && sourceId
+    ? `https://www.youtube.com/watch?v=${sourceId}${r.timestamp_seconds ? `&t=${r.timestamp_seconds}s` : ""}`
+    : null);
+  return {
+    id,
+    score: normScore,
+    metadata: {
+      source_type: sourceType,
+      video_id: sourceType === "transcript" ? sourceId : undefined,
+      title: r.title || null,
+      timestamp_seconds: r.timestamp_seconds || 0,
+      patch_version: r.patch_version || null,
+      channel: r.channel || null,
+      series: r.series || null,
+      upload_date: r.upload_date || null,
+      url,
+      text: r.text || "",
+      lexical: true,
+    },
+  };
+}
+
+// SHA-1 via Web Crypto. Available in both the Cloudflare Workers runtime and
+// Node 16+. We cache the result per (key) because we only ever hash a small
+// set of distinct file paths during a request.
+const SHA1_CACHE = new Map();
+async function sha1Hex(s) {
+  const key = String(s);
+  const cached = SHA1_CACHE.get(key);
+  if (cached) return cached;
+  const bytes = new TextEncoder().encode(key);
+  const buf = await crypto.subtle.digest("SHA-1", bytes);
+  const arr = new Uint8Array(buf);
+  let hex = "";
+  for (let i = 0; i < arr.length; i++) hex += arr[i].toString(16).padStart(2, "0");
+  if (SHA1_CACHE.size < 1024) SHA1_CACHE.set(key, hex);
+  return hex;
 }
 
 // ---------------------------------------------------------------------------
