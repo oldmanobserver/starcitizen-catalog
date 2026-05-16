@@ -12,18 +12,19 @@
   }
   try {
     var saved = localStorage.getItem("scc_theme");
-    apply(saved || "system");
+    apply(saved || "dark");
   } catch (e) {
-    /* localStorage unavailable */
+    /* localStorage unavailable — still default to dark */
+    apply("dark");
   }
 
   window.SCCTheme = {
     apply: function (theme) {
-      try { localStorage.setItem("scc_theme", theme || "system"); } catch (e) {}
+      try { localStorage.setItem("scc_theme", theme || "dark"); } catch (e) {}
       apply(theme);
     },
     current: function () {
-      try { return localStorage.getItem("scc_theme") || "system"; } catch (e) { return "system"; }
+      try { return localStorage.getItem("scc_theme") || "dark"; } catch (e) { return "dark"; }
     },
   };
 })();

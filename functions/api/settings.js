@@ -14,7 +14,7 @@ export async function onRequestGet({ request, env }) {
   const user = await getUser(env, session.user_id);
   if (!user) return error(404, "user_not_found");
   return json({
-    theme: user.theme || "system",
+    theme: user.theme || "dark",
     default_provider: user.default_provider || null,
     default_model: user.default_model || null,
   });

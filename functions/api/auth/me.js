@@ -15,7 +15,7 @@ export async function onRequestGet({ request, env }) {
     login: user.login,
     display_name: user.display_name,
     profile_image_url: user.profile_image_url,
-    theme: user.theme || "system",
+    theme: user.theme || "dark",
     default_provider: user.default_provider || null,
     default_model: user.default_model || null,
     is_admin: !!user.is_admin,
