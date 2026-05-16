@@ -1140,7 +1140,11 @@ function chunkHeader(tag, md) {
   if (md.source_type === "patch_note") {
     const v = md.patch_version || "";
     const c = md.channel || "";
-    return `${tag} (patch_note) Alpha ${v} ${c}${md.title ? ` — ${md.title}` : ""}`;
+    const head = `${tag} (patch_note) Alpha ${v} ${c}${md.title ? ` — ${md.title}` : ""}`;
+    // Surface the official comm-link Patch-Notes URL so the LLM can copy it
+    // verbatim into its answer instead of inventing a Spectrum forum link or
+    // dropping the citation entirely.
+    return md.url ? `${head}\nLink: ${md.url}` : head;
   }
   if (md.source_type === "ship") {
     return `${tag} (ship) ${md.ship || md.title || ""}`;
@@ -1212,7 +1216,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
     "When linking to a video, ALWAYS copy the exact 'Link:' URL shown in the relevant CONTEXT chunk. Each transcript chunk has a 'Link:' line with a ready-to-use https://www.youtube.com/watch?v=...&t=...s URL — use that verbatim. NEVER output the literal placeholders 'VIDEO_ID' or 'SECONDS' — those are not real URLs. NEVER ask the user to fill in the video ID — it is in the chunk header.",
-    "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to.",
+    "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to. If a patch_note CONTEXT chunk has a 'Link:' line, copy that URL verbatim when you want to link to the patch notes — it points to the official robertsspaceindustries.com comm-link Patch-Notes page. NEVER link to robertsspaceindustries.com/spectrum/... URLs (Spectrum forum threads require login and are not the canonical source). If no 'Link:' line is provided for a patch_note chunk, do not invent a URL — just cite the chunk with its [#n] tag.",
     "If asked about 'the latest' or 'most recent' content, prefer entries from the FOCUS DOCUMENTS block below; those have already been selected by date.",
   ].join(" ");
 

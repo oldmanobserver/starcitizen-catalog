@@ -137,16 +137,42 @@ export function buildTranscriptChunks(entry, text) {
  * Chunk a patch-note markdown file. `entry` provides {year, channel, full, key}.
  * Sections are split on H2 boundaries; sections that exceed CHUNK_CHARS are
  * further sliced with the generic chunker.
+ *
+ * We deliberately prefer the official robertsspaceindustries.com comm-link
+ * Patch-Notes URL (e.g. .../comm-link/Patch-Notes/20934-Star-Citizen-Alpha-450)
+ * over the Spectrum forum URL recorded at the top of the file. The Spectrum
+ * forum requires login to render properly and is not the canonical source for
+ * patch-note content, so we never expose it to either the LLM or the user.
  */
 export function buildPatchChunks(entry, text) {
-  const titleLine = text.split("\n").find((l) => l.startsWith("# ")) || path.basename(entry.full);
+  const rawLines = text.split("\n");
+  const titleLine = rawLines.find((l) => l.startsWith("# ")) || path.basename(entry.full);
   const title = titleLine.replace(/^#\s*/, "").trim();
   const patchVersion =
     extractPatchVersion(path.basename(entry.full)) ||
     (title.match(/(\d+\.\d+(?:\.\d+)?)/) || [])[1] ||
     null;
 
-  const sections = text.split(/\n(?=##\s)/);
+  // Strip the preamble (Title / Date / URL metadata + leading --- divider).
+  // The preamble carries the Spectrum forum URL, which we don't want bleeding
+  // into chunk text where the LLM might pick it up as a citation source.
+  let bodyStart = 0;
+  for (let i = 0; i < rawLines.length; i++) {
+    const ln = rawLines[i];
+    if (/^\*\*(Title|Date|URL):\*\*/i.test(ln)) continue;
+    if (/^---\s*$/.test(ln)) { bodyStart = i + 1; continue; }
+    if (ln.trim() === "" && bodyStart === i) { bodyStart = i + 1; continue; }
+    break;
+  }
+  const body = rawLines.slice(bodyStart).join("\n");
+
+  // Prefer the official comm-link Patch-Notes URL embedded in the body
+  // (every modern patch note links to its full release notes page). Fall back
+  // to a generic Patch-Notes URL anywhere in the file. We intentionally do
+  // NOT fall back to the Spectrum forum URL from the preamble.
+  const officialUrl = extractOfficialPatchUrl(text);
+
+  const sections = body.split(/\n(?=##\s)/);
   const idPrefix = "pn-" + sha1(entry.key).slice(0, 24);
   const out = [];
   let chunkIdx = 0;
@@ -165,7 +191,7 @@ export function buildPatchChunks(entry, text) {
           channel: entry.channel,
           title,
           patch_version: patchVersion,
-          url: null,
+          url: officialUrl,
           text: truncate(p, 1800),
         },
       });
@@ -173,4 +199,16 @@ export function buildPatchChunks(entry, text) {
     }
   }
   return out;
+}
+
+/**
+ * Return the first robertsspaceindustries.com Patch-Notes comm-link URL in the
+ * given text, normalised (no trailing punctuation, https scheme). Returns null
+ * if no such URL is present.
+ */
+function extractOfficialPatchUrl(text) {
+  const re = /https?:\/\/(?:www\.)?robertsspaceindustries\.com\/(?:[a-z]{2}\/)?comm-link\/Patch-Notes\/[^\s)\]>"']+/i;
+  const m = text.match(re);
+  if (!m) return null;
+  return m[0].replace(/[.,;:]+$/, "");
 }
