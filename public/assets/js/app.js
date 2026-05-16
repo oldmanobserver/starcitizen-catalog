@@ -1,7 +1,15 @@
 // public/assets/js/app.js
 // Chat page logic.
 
-import { apiJson, api, renderMarkdown, renderFooter, showModal, escapeHtml } from "./common.js";
+import {
+  apiJson,
+  api,
+  renderMarkdown,
+  renderFooter,
+  showModal,
+  showPromptModal,
+  escapeHtml,
+} from "./common.js";
 
 const state = {
   user: null,
@@ -12,6 +20,9 @@ const state = {
   messages: [],
   streaming: false,
   abortController: null,
+  searchQuery: "",
+  searchResults: null, // array when searching; null when not
+  searchTimer: null,
 };
 
 const els = {};
@@ -180,6 +191,10 @@ function cacheEls() {
   els.collapseBtn = document.querySelector("#collapse-btn");
   els.shell = document.querySelector("#chat-shell");
   els.title = document.querySelector("#conv-title");
+  els.renameBtn = document.querySelector("#rename-conv-btn");
+  els.exportBtn = document.querySelector("#export-conv-btn");
+  els.search = document.querySelector("#conv-search");
+  els.searchClear = document.querySelector("#conv-search-clear");
 }
 
 function bindUi() {
@@ -196,6 +211,16 @@ function bindUi() {
   els.collapseBtn.addEventListener("click", () => {
     els.shell.classList.toggle("collapsed");
   });
+  els.renameBtn.addEventListener("click", onRenameActive);
+  els.exportBtn.addEventListener("click", onExportActive);
+  els.search.addEventListener("input", onSearchInput);
+  els.search.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && els.search.value) {
+      e.preventDefault();
+      clearSearch();
+    }
+  });
+  els.searchClear.addEventListener("click", clearSearch);
 }
 
 function renderUser() {
@@ -254,6 +279,20 @@ function renderModelSelect() {
 
 function renderConversations() {
   els.convList.innerHTML = "";
+
+  // Search mode: show a flat result list, no Pinned/Recent grouping.
+  if (state.searchResults) {
+    const results = state.searchResults;
+    const label = document.createElement("div");
+    label.className = "group-label";
+    label.textContent = results.length
+      ? `Results (${results.length})`
+      : "No matches.";
+    els.convList.appendChild(label);
+    for (const c of results) els.convList.appendChild(convItem(c, { search: true }));
+    return;
+  }
+
   const pinned = state.conversations.filter((c) => c.pinned);
   const rest = state.conversations.filter((c) => !c.pinned);
 
@@ -279,18 +318,29 @@ function renderConversations() {
   }
 }
 
-function convItem(c) {
+function convItem(c, opts = {}) {
   const el = document.createElement("div");
   el.className = "conv-item" + (c.id === state.activeId ? " active" : "") + (c.pinned ? " pinned" : "");
   el.dataset.id = c.id;
+  const snippetHtml = opts.search && c.snippet
+    ? `<div class="snippet">${highlightSnippet(c.snippet, state.searchQuery)}</div>`
+    : "";
   el.innerHTML = `
-    <span class="title" title="${escapeHtml(c.title)}">${escapeHtml(c.title)}</span>
-    <span class="actions">
-      <button class="icon-btn pin" title="${c.pinned ? "Unpin" : "Pin"}">${c.pinned ? "📌" : "📍"}</button>
-      <button class="icon-btn del" title="Delete">🗑</button>
-    </span>
+    <div class="conv-row">
+      <span class="title" title="${escapeHtml(c.title)}">${escapeHtml(c.title)}</span>
+      <span class="actions">
+        <button class="icon-btn rename" title="Rename">✎</button>
+        <button class="icon-btn pin" title="${c.pinned ? "Unpin" : "Pin"}">${c.pinned ? "📌" : "📍"}</button>
+        <button class="icon-btn del" title="Delete">🗑</button>
+      </span>
+    </div>
+    ${snippetHtml}
   `;
   el.querySelector(".title").addEventListener("click", () => loadConversation(c.id));
+  el.querySelector(".rename").addEventListener("click", async (e) => {
+    e.stopPropagation();
+    await renameConversation(c);
+  });
   el.querySelector(".pin").addEventListener("click", async (e) => {
     e.stopPropagation();
     await apiJson(`/api/conversations/${c.id}`, {
@@ -298,6 +348,9 @@ function convItem(c) {
       body: { pinned: !c.pinned },
     });
     c.pinned = !c.pinned;
+    // Keep both the main list and any active search result list in sync.
+    const ref = state.conversations.find((x) => x.id === c.id);
+    if (ref) ref.pinned = c.pinned;
     state.conversations.sort(sortConvs);
     renderConversations();
   });
@@ -312,15 +365,46 @@ function convItem(c) {
     if (!ok) return;
     await apiJson(`/api/conversations/${c.id}`, { method: "DELETE" });
     state.conversations = state.conversations.filter((x) => x.id !== c.id);
+    if (state.searchResults) {
+      state.searchResults = state.searchResults.filter((x) => x.id !== c.id);
+    }
     if (state.activeId === c.id) {
       state.activeId = null;
       state.messages = [];
       els.messages.innerHTML = "";
-      els.title.textContent = "New conversation";
+      setActiveTitle("New conversation");
     }
     renderConversations();
   });
   return el;
+}
+
+async function renameConversation(c) {
+  const next = await showPromptModal({
+    title: "Rename conversation",
+    initialValue: c.title || "",
+    placeholder: "Conversation title",
+    confirmLabel: "Save",
+    maxLength: 200,
+  });
+  if (next === null || next === c.title) return;
+  await apiJson(`/api/conversations/${c.id}`, {
+    method: "PATCH",
+    body: { title: next },
+  });
+  c.title = next;
+  const ref = state.conversations.find((x) => x.id === c.id);
+  if (ref) ref.title = next;
+  if (state.activeId === c.id) setActiveTitle(next);
+  renderConversations();
+}
+
+function setActiveTitle(title) {
+  els.title.textContent = title;
+  els.title.title = title;
+  const hasActive = !!state.activeId;
+  els.renameBtn.hidden = !hasActive;
+  els.exportBtn.hidden = !hasActive;
 }
 
 function sortConvs(a, b) {
@@ -333,17 +417,18 @@ function sortConvs(a, b) {
 async function loadConversation(id) {
   state.activeId = id;
   const data = await apiJson(`/api/conversations/${id}`);
+  state.activeConversation = data.conversation;
   state.messages = data.messages || [];
-  els.title.textContent = data.conversation.title;
-  els.title.title = data.conversation.title;
+  setActiveTitle(data.conversation.title);
   renderMessages();
   renderConversations();
 }
 
 function startNewConversation() {
   state.activeId = null;
+  state.activeConversation = null;
   state.messages = [];
-  els.title.textContent = "New conversation";
+  setActiveTitle("New conversation");
   els.messages.innerHTML = "";
   renderConversations();
   els.composer.focus();
@@ -504,6 +589,9 @@ async function onSendMessage(e) {
       if (evt.event === "meta") {
         if (evt.data.conversation_id && !state.activeId) {
           state.activeId = evt.data.conversation_id;
+          // Reveal Rename/Export now that we have a saved conversation.
+          els.renameBtn.hidden = false;
+          els.exportBtn.hidden = false;
           // Reload conversation list to show the new one
           loadConversationsRefresh();
         }
@@ -557,6 +645,172 @@ async function loadConversationsRefresh() {
     renderConversations();
   } catch (e) {
     /* ignore */
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Search
+// ---------------------------------------------------------------------------
+
+function onSearchInput() {
+  const q = els.search.value.trim();
+  els.searchClear.hidden = !q;
+  if (state.searchTimer) {
+    clearTimeout(state.searchTimer);
+    state.searchTimer = null;
+  }
+  if (!q) {
+    state.searchQuery = "";
+    state.searchResults = null;
+    renderConversations();
+    return;
+  }
+  state.searchTimer = setTimeout(() => runSearch(q), 200);
+}
+
+async function runSearch(q) {
+  state.searchQuery = q;
+  try {
+    const data = await apiJson(`/api/conversations?q=${encodeURIComponent(q)}`);
+    // Ignore stale responses if the user kept typing.
+    if (state.searchQuery !== q) return;
+    state.searchResults = data.conversations || [];
+    renderConversations();
+  } catch (e) {
+    console.error("search failed", e);
+  }
+}
+
+function clearSearch() {
+  els.search.value = "";
+  els.searchClear.hidden = true;
+  state.searchQuery = "";
+  state.searchResults = null;
+  if (state.searchTimer) {
+    clearTimeout(state.searchTimer);
+    state.searchTimer = null;
+  }
+  renderConversations();
+  els.search.focus();
+}
+
+function highlightSnippet(snippet, q) {
+  const safe = escapeHtml(snippet);
+  if (!q) return safe;
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return safe.replace(new RegExp(escaped, "gi"), (m) => `<mark>${m}</mark>`);
+}
+
+// ---------------------------------------------------------------------------
+// Rename / Export from the chat toolbar
+// ---------------------------------------------------------------------------
+
+async function onRenameActive() {
+  if (!state.activeId) return;
+  const current = state.conversations.find((c) => c.id === state.activeId);
+  const c = current || { id: state.activeId, title: els.title.textContent || "" };
+  await renameConversation(c);
+}
+
+async function onExportActive() {
+  if (!state.activeId) return;
+  let conversation, messages;
+  // Prefer freshly loaded data so we include the most recent assistant turn.
+  try {
+    const data = await apiJson(`/api/conversations/${state.activeId}`);
+    conversation = data.conversation;
+    messages = data.messages || [];
+  } catch (e) {
+    conversation = { id: state.activeId, title: els.title.textContent || "" };
+    messages = state.messages || [];
+  }
+  const md = buildConversationMarkdown(conversation, messages);
+  const filename = safeFilename(conversation.title || "conversation") + ".md";
+  downloadTextFile(filename, md, "text/markdown;charset=utf-8");
+}
+
+function buildConversationMarkdown(conv, messages) {
+  const lines = [];
+  const title = (conv && conv.title) || "Conversation";
+  lines.push(`# ${title}`);
+  lines.push("");
+  const meta = [];
+  if (conv && conv.id) meta.push(`**ID:** \`${conv.id}\``);
+  if (conv && conv.created_at) meta.push(`**Created:** ${fmtDateTime(conv.created_at)}`);
+  if (conv && conv.updated_at) meta.push(`**Updated:** ${fmtDateTime(conv.updated_at)}`);
+  if (conv && conv.provider) meta.push(`**Provider:** ${conv.provider}`);
+  if (conv && conv.model) meta.push(`**Model:** ${conv.model}`);
+  if (meta.length) {
+    lines.push(meta.join("  \n"));
+    lines.push("");
+  }
+  lines.push("---");
+  lines.push("");
+
+  for (const m of messages) {
+    const who =
+      m.role === "user" ? "You" : m.role === "assistant" ? "Assistant" : m.role;
+    const ts = m.created_at ? ` _(${fmtDateTime(m.created_at)})_` : "";
+    lines.push(`## ${who}${ts}`);
+    lines.push("");
+    lines.push((m.content || "").trim() || "_(empty)_");
+    lines.push("");
+    const cites = Array.isArray(m.citations) ? m.citations : [];
+    if (cites.length) {
+      // Only include citations that actually appear in the message body.
+      const used = new Set();
+      const re = /\[#(\d+)\]/g;
+      let mm;
+      while ((mm = re.exec(m.content || "")) !== null) used.add(Number(mm[1]));
+      const filtered = used.size
+        ? cites.filter((c) => used.has(Number(c.ref)))
+        : cites;
+      if (filtered.length) {
+        lines.push("**Sources:**");
+        lines.push("");
+        for (const c of filtered) {
+          const label = citationLabel(c);
+          const link = c.url ? `[${label}](${c.url})` : label;
+          lines.push(`- [#${c.ref}] ${link}`);
+        }
+        lines.push("");
+      }
+    }
+    lines.push("---");
+    lines.push("");
+  }
+  return lines.join("\n");
+}
+
+function safeFilename(name) {
+  return String(name || "conversation")
+    .replace(/[\\/:*?"<>|\x00-\x1f]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 80) || "conversation";
+}
+
+function downloadTextFile(filename, content, mime) {
+  const blob = new Blob([content], { type: mime || "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => {
+    URL.revokeObjectURL(url);
+    a.remove();
+  }, 0);
+}
+
+function fmtDateTime(secs) {
+  const n = Number(secs);
+  if (!n) return "";
+  try {
+    return new Date(n * 1000).toISOString().replace("T", " ").slice(0, 19) + " UTC";
+  } catch {
+    return "";
   }
 }
 

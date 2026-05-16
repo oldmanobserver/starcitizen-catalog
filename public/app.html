@@ -20,12 +20,22 @@
       <header>
         <button class="primary" id="new-conv-btn">+ New chat</button>
       </header>
+      <div class="sidebar-search">
+        <input type="search" id="conv-search" placeholder="Search conversations…"
+               autocomplete="off" spellcheck="false">
+        <button class="icon-btn" id="conv-search-clear" type="button"
+                title="Clear search" hidden aria-label="Clear search">✕</button>
+      </div>
       <div id="conv-list"></div>
     </aside>
 
     <section class="main">
       <div class="chat-toolbar">
         <strong id="conv-title">New conversation</strong>
+        <button class="btn ghost small" id="rename-conv-btn"
+                title="Rename conversation" hidden>Rename</button>
+        <button class="btn ghost small" id="export-conv-btn"
+                title="Export as Markdown" hidden>Export</button>
         <div class="spacer"></div>
         <label class="muted small">Provider</label>
         <select id="provider-select"></select>

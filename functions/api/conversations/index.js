@@ -4,12 +4,22 @@
 
 import { requireSession } from "../../lib/session.js";
 import { json, error, checkOrigin } from "../../lib/http.js";
-import { listConversations, createConversation } from "../../lib/db.js";
+import {
+  listConversations,
+  searchConversations,
+  createConversation,
+} from "../../lib/db.js";
 import { randomToken } from "../../lib/crypto.js";
 
 export async function onRequestGet({ request, env }) {
   const { session, response } = await requireSession(request, env);
   if (response) return response;
+  const url = new URL(request.url);
+  const q = (url.searchParams.get("q") || "").trim();
+  if (q) {
+    const items = await searchConversations(env, session.user_id, q, 50);
+    return json({ conversations: items, query: q });
+  }
   const items = await listConversations(env, session.user_id);
   return json({ conversations: items });
 }

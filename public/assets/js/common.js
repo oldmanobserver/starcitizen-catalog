@@ -118,6 +118,65 @@ export function renderFooter(target) {
   `;
 }
 
+// Prompt-style modal with a single text input. Resolves to the entered string
+// (trimmed) on confirm, or `null` on cancel.
+export function showPromptModal({
+  title,
+  body,
+  initialValue = "",
+  placeholder = "",
+  confirmLabel = "Save",
+  cancelLabel = "Cancel",
+  maxLength = 200,
+}) {
+  return new Promise((resolve) => {
+    const backdrop = document.createElement("div");
+    backdrop.className = "modal-backdrop";
+    backdrop.innerHTML = `
+      <div class="modal" role="dialog" aria-modal="true">
+        <h3>${escapeHtml(title || "")}</h3>
+        ${body ? `<p class="muted small" style="margin-top:0">${escapeHtml(body)}</p>` : ""}
+        <div class="field">
+          <input type="text" class="prompt-input" maxlength="${Number(maxLength) | 0}"
+                 placeholder="${escapeHtml(placeholder)}">
+        </div>
+        <div class="actions">
+          <button class="cancel">${escapeHtml(cancelLabel)}</button>
+          <button class="confirm primary">${escapeHtml(confirmLabel)}</button>
+        </div>
+      </div>
+    `;
+    const input = backdrop.querySelector(".prompt-input");
+    input.value = initialValue || "";
+    function close(val) {
+      backdrop.remove();
+      resolve(val);
+    }
+    backdrop.querySelector(".cancel").addEventListener("click", () => close(null));
+    backdrop.querySelector(".confirm").addEventListener("click", () => {
+      const v = (input.value || "").trim();
+      close(v ? v : null);
+    });
+    backdrop.addEventListener("click", (e) => {
+      if (e.target === backdrop) close(null);
+    });
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        const v = (input.value || "").trim();
+        close(v ? v : null);
+      } else if (e.key === "Escape") {
+        close(null);
+      }
+    });
+    document.body.appendChild(backdrop);
+    setTimeout(() => {
+      input.focus();
+      input.select();
+    }, 0);
+  });
+}
+
 export function showModal({ title, body, confirmLabel = "OK", danger = false, onConfirm }) {
   return new Promise((resolve) => {
     const backdrop = document.createElement("div");
