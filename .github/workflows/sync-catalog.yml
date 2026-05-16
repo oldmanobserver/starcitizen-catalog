@@ -27,6 +27,16 @@ jobs:
         with:
           node-version: "20"
 
+      # Idempotent: applies any new files under schema/migrations/ that haven't
+      # already been recorded in the schema_migrations tracker table.
+      - name: Apply D1 migrations
+        env:
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          D1_DATABASE_ID: ${{ secrets.D1_DATABASE_ID }}
+        run: |
+          node functions/ingest/apply_migrations.js
+
       - name: Sync D1 catalog
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
