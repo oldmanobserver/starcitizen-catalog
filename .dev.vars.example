@@ -1,0 +1,23 @@
+# Local development secrets for `wrangler pages dev`.
+# Copy this file to `.dev.vars` (gitignored) and fill in real values.
+# These are the same keys you set in production via `wrangler pages secret put`.
+
+# --- Twitch OAuth (https://dev.twitch.tv/console/apps) ---
+TWITCH_CLIENT_ID=
+TWITCH_CLIENT_SECRET=
+
+# --- Session / envelope encryption ---
+# 32+ random bytes, base64. Generate with:
+#   node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
+SESSION_SIGNING_KEY=
+MASTER_KEY=
+
+# --- Admin job dispatcher ---
+# Fine-grained GitHub PAT with Actions: read & write on this repo.
+# Only needed if you're testing the admin job dispatch endpoints locally.
+GITHUB_DISPATCH_TOKEN=
+
+# --- Cloudflare Turnstile (optional) ---
+# Pairs with the public TURNSTILE_SITE_KEY var in wrangler.toml.
+# Leave blank to disable the login challenge during local dev.
+TURNSTILE_SECRET_KEY=
