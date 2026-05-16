@@ -111,7 +111,8 @@ export function renderFooter(target) {
     <div class="links">
       <a href="/terms.html">Terms</a>·
       <a href="/privacy.html">Privacy</a>·
-      <a href="https://oldmanobservers.com" target="_blank" rel="noopener">OldManObservers.com</a>
+      <a href="https://oldmanobservers.com" target="_blank" rel="noopener">OldManObservers.com</a>·
+      <a href="https://github.com/oldmanobserver/starcitizen-catalog" target="_blank" rel="noopener">Source on GitHub</a>
     </div>
     <div class="small" style="margin-top:6px">© ${year} Old Man Observers</div>
   `;
