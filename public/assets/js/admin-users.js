@@ -113,6 +113,11 @@ function renderUsers(data) {
     </table>
   `;
 
+  for (const cell of tableEl.querySelectorAll(".email-cell")) {
+    const btn = cell.querySelector(".email-toggle");
+    btn.addEventListener("click", () => toggleEmail(cell));
+  }
+
   pagerEl.style.display = "flex";
   pageLabel.textContent = `Page ${data.page} of ${data.total_pages}`;
   prevBtn.disabled = data.page <= 1;
@@ -128,11 +133,18 @@ function userRow(u) {
     : "";
   const displayName = escapeHtml(u.display_name || u.login || "");
   const login = u.login ? `<span class="muted small">@${escapeHtml(u.login)}</span>` : "";
+  const emailCell = u.email
+    ? `<span class="email-cell" data-email="${escapeHtml(u.email)}" data-revealed="0" style="display:inline-flex;align-items:center;gap:6px">
+         <span class="email-text" style="font-variant-numeric:tabular-nums">${escapeHtml(maskEmail(u.email))}</span>
+         <button type="button" class="email-toggle btn ghost small" aria-label="Show email" title="Show email"
+                 style="padding:2px 6px;line-height:1">${EYE_OPEN_SVG}</button>
+       </span>`
+    : `<span class="muted small">—</span>`;
   return `
     <tr style="border-top: 1px solid var(--border)">
       <td style="padding: 6px">${avatar}</td>
       <td style="padding: 6px">${displayName}${adminBadge}<br>${login}</td>
-      <td style="padding: 6px">${u.email ? escapeHtml(u.email) : `<span class="muted small">—</span>`}</td>
+      <td style="padding: 6px">${emailCell}</td>
       <td style="padding: 6px; text-align: right">${u.conversation_count}</td>
       <td style="padding: 6px; text-align: right">${u.message_count}</td>
       <td style="padding: 6px">${escapeHtml(fmtDate(u.created_at))}</td>
@@ -140,6 +152,40 @@ function userRow(u) {
     </tr>
   `;
 }
+
+// Masks an email so the local-part and domain lengths are still hinted at
+// but the characters aren't visible. e.g. "alice@example.com" -> "•••••@•••••••••••"
+function maskEmail(email) {
+  const s = String(email || "");
+  const at = s.indexOf("@");
+  if (at < 0) return "•".repeat(Math.min(s.length, 8) || 1);
+  const local = "•".repeat(Math.max(1, at));
+  const domain = "•".repeat(Math.max(1, s.length - at - 1));
+  return `${local}@${domain}`;
+}
+
+function toggleEmail(cell) {
+  const revealed = cell.getAttribute("data-revealed") === "1";
+  const email = cell.getAttribute("data-email") || "";
+  const textEl = cell.querySelector(".email-text");
+  const btn = cell.querySelector(".email-toggle");
+  if (revealed) {
+    textEl.textContent = maskEmail(email);
+    btn.innerHTML = EYE_OPEN_SVG;
+    btn.setAttribute("aria-label", "Show email");
+    btn.setAttribute("title", "Show email");
+    cell.setAttribute("data-revealed", "0");
+  } else {
+    textEl.textContent = email;
+    btn.innerHTML = EYE_OFF_SVG;
+    btn.setAttribute("aria-label", "Hide email");
+    btn.setAttribute("title", "Hide email");
+    cell.setAttribute("data-revealed", "1");
+  }
+}
+
+const EYE_OPEN_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"/><circle cx="12" cy="12" r="3"/></svg>`;
+const EYE_OFF_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.94 10.94 0 0 1 12 20c-7 0-11-8-11-8a19.77 19.77 0 0 1 4.22-5.94"/><path d="M9.9 4.24A10.94 10.94 0 0 1 12 4c7 0 11 8 11 8a19.86 19.86 0 0 1-3.17 4.19"/><path d="M14.12 14.12A3 3 0 1 1 9.88 9.88"/><line x1="1" y1="1" x2="23" y2="23"/></svg>`;
 
 function fmtDate(unixSeconds) {
   if (!unixSeconds) return "";
