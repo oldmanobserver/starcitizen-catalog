@@ -98,6 +98,25 @@
       </div>
       <pre id="diag-output" style="margin-top: 12px; background: var(--code-bg); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; max-height: 480px; white-space: pre-wrap; word-break: break-word"></pre>
     </section>
+
+    <section class="card" style="margin-top: 24px">
+      <h3 style="margin: 0 0 8px">Registered users</h3>
+      <p class="muted small" style="margin: 0 0 12px">
+        Everyone who has signed in via Twitch. Search matches login, display name, or email.
+      </p>
+      <div class="h-stack" style="gap: 8px">
+        <input id="users-q" type="text" placeholder="Search by login, display name, or email" style="flex: 1">
+        <button class="btn primary" id="users-search">Search</button>
+        <button class="btn ghost small" id="users-clear">Clear</button>
+      </div>
+      <div id="users-summary" class="muted small" style="margin-top: 10px"></div>
+      <div id="users-table" style="margin-top: 8px"></div>
+      <div class="h-stack" id="users-pager" style="justify-content: space-between; margin-top: 10px; display: none">
+        <button class="btn ghost small" id="users-prev">&larr; Previous</button>
+        <span class="muted small" id="users-page-label"></span>
+        <button class="btn ghost small" id="users-next">Next &rarr;</button>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer" id="site-footer"></footer>
