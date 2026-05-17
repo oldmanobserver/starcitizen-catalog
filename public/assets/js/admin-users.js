@@ -1,0 +1,157 @@
+// public/assets/js/admin-users.js
+
+import { apiJson, escapeHtml } from "./common.js";
+import { initAdminPage } from "./admin-shell.js";
+
+const state = {
+  q: "",
+  page: 1,
+  pageSize: 25,
+  total: 0,
+  totalPages: 0,
+  loading: false,
+};
+
+document.addEventListener("DOMContentLoaded", async () => {
+  document.querySelector("#users-search").addEventListener("click", () => {
+    state.q = document.querySelector("#users-q").value.trim();
+    state.page = 1;
+    loadUsers();
+  });
+  document.querySelector("#users-q").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      state.q = e.currentTarget.value.trim();
+      state.page = 1;
+      loadUsers();
+    }
+  });
+  document.querySelector("#users-clear").addEventListener("click", () => {
+    document.querySelector("#users-q").value = "";
+    state.q = "";
+    state.page = 1;
+    loadUsers();
+  });
+  document.querySelector("#users-prev").addEventListener("click", () => {
+    if (state.page > 1) { state.page--; loadUsers(); }
+  });
+  document.querySelector("#users-next").addEventListener("click", () => {
+    if (state.page < state.totalPages) { state.page++; loadUsers(); }
+  });
+
+  const me = await initAdminPage();
+  if (!me) return;
+  loadUsers();
+});
+
+async function loadUsers() {
+  if (state.loading) return;
+  state.loading = true;
+  const tableEl = document.querySelector("#users-table");
+  const summaryEl = document.querySelector("#users-summary");
+  const pagerEl = document.querySelector("#users-pager");
+  summaryEl.textContent = "Loading…";
+  tableEl.innerHTML = "";
+  pagerEl.style.display = "none";
+  try {
+    const params = new URLSearchParams({
+      page: String(state.page),
+      page_size: String(state.pageSize),
+    });
+    if (state.q) params.set("q", state.q);
+    const data = await apiJson("/api/admin/users?" + params.toString());
+    state.total = data.total || 0;
+    state.totalPages = data.total_pages || 0;
+    renderUsers(data);
+  } catch (e) {
+    summaryEl.innerHTML = `<span style="color: var(--danger)">Failed to load users: ${escapeHtml(e.message || e)}</span>`;
+  } finally {
+    state.loading = false;
+  }
+}
+
+function renderUsers(data) {
+  const summaryEl = document.querySelector("#users-summary");
+  const tableEl = document.querySelector("#users-table");
+  const pagerEl = document.querySelector("#users-pager");
+  const pageLabel = document.querySelector("#users-page-label");
+  const prevBtn = document.querySelector("#users-prev");
+  const nextBtn = document.querySelector("#users-next");
+
+  const total = data.total || 0;
+  const users = data.users || [];
+  if (!total) {
+    summaryEl.textContent = data.q
+      ? `No users match "${data.q}".`
+      : "No users yet.";
+    tableEl.innerHTML = "";
+    pagerEl.style.display = "none";
+    return;
+  }
+  const start = (data.page - 1) * data.page_size + 1;
+  const end = start + users.length - 1;
+  summaryEl.textContent = data.q
+    ? `Matched ${total} user${total === 1 ? "" : "s"} for "${data.q}". Showing ${start}–${end}.`
+    : `${total} user${total === 1 ? "" : "s"} total. Showing ${start}–${end}.`;
+
+  tableEl.innerHTML = `
+    <table style="width: 100%; border-collapse: collapse; font-size: 13px">
+      <thead>
+        <tr style="text-align: left; color: var(--fg-muted)">
+          <th style="padding: 6px"></th>
+          <th style="padding: 6px">User</th>
+          <th style="padding: 6px">Email</th>
+          <th style="padding: 6px; text-align: right">Convos</th>
+          <th style="padding: 6px; text-align: right">Messages</th>
+          <th style="padding: 6px">Joined</th>
+          <th style="padding: 6px">Last login</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${users.map(userRow).join("")}
+      </tbody>
+    </table>
+  `;
+
+  pagerEl.style.display = "flex";
+  pageLabel.textContent = `Page ${data.page} of ${data.total_pages}`;
+  prevBtn.disabled = data.page <= 1;
+  nextBtn.disabled = data.page >= data.total_pages;
+}
+
+function userRow(u) {
+  const avatar = u.profile_image_url
+    ? `<img src="${escapeHtml(u.profile_image_url)}" alt="" style="width:24px;height:24px;border-radius:50%;display:block">`
+    : "";
+  const adminBadge = u.is_admin
+    ? ` <span style="background:rgba(110,163,255,0.15);color:var(--accent);padding:1px 6px;border-radius:999px;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em">admin</span>`
+    : "";
+  const displayName = escapeHtml(u.display_name || u.login || "");
+  const login = u.login ? `<span class="muted small">@${escapeHtml(u.login)}</span>` : "";
+  return `
+    <tr style="border-top: 1px solid var(--border)">
+      <td style="padding: 6px">${avatar}</td>
+      <td style="padding: 6px">${displayName}${adminBadge}<br>${login}</td>
+      <td style="padding: 6px">${u.email ? escapeHtml(u.email) : `<span class="muted small">—</span>`}</td>
+      <td style="padding: 6px; text-align: right">${u.conversation_count}</td>
+      <td style="padding: 6px; text-align: right">${u.message_count}</td>
+      <td style="padding: 6px">${escapeHtml(fmtDate(u.created_at))}</td>
+      <td style="padding: 6px">${escapeHtml(fmtRelative(u.last_login_at))}</td>
+    </tr>
+  `;
+}
+
+function fmtDate(unixSeconds) {
+  if (!unixSeconds) return "";
+  return new Date(unixSeconds * 1000).toLocaleDateString();
+}
+
+function fmtRelative(unixSeconds) {
+  if (!unixSeconds) return "";
+  const diff = Date.now() / 1000 - unixSeconds;
+  if (diff < 60) return `${Math.round(diff)}s ago`;
+  if (diff < 3600) return `${Math.round(diff / 60)}m ago`;
+  if (diff < 86400) return `${Math.round(diff / 3600)}h ago`;
+  if (diff < 86400 * 30) return `${Math.round(diff / 86400)}d ago`;
+  return new Date(unixSeconds * 1000).toLocaleDateString();
+}

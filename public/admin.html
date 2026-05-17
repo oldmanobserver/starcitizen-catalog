@@ -6,6 +6,25 @@
   <title>Admin — Star Citizen Catalog</title>
   <link rel="stylesheet" href="/assets/css/app.css">
   <script src="/assets/js/theme.js"></script>
+  <style>
+    .admin-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    a.admin-tile {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+      transition: border-color .12s ease, transform .12s ease;
+    }
+    a.admin-tile:hover {
+      border-color: var(--accent);
+      transform: translateY(-1px);
+    }
+    a.admin-tile h3 { margin: 0 0 6px; }
+  </style>
 </head>
 <body>
   <header class="topbar">
@@ -21,105 +40,44 @@
   </header>
 
   <main class="page" style="max-width: 900px">
-    <h1>Admin jobs</h1>
-    <p class="muted small">
-      Each button kicks off a GitHub Actions workflow on the
-      <code id="repo-label">main</code> branch.
-      Jobs run on GitHub's runners, not on this server — feel free to close the page.
+    <h1>Admin</h1>
+    <p class="muted small" style="margin-top: -4px">
+      Tools for managing the catalog backend. Pick a section below.
     </p>
 
-    <div id="error-banner"></div>
+    <div class="admin-grid">
 
-    <section class="card" id="job-sync-catalog" style="margin-bottom: 14px">
-      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
-        <div>
-          <h3 style="margin: 0 0 4px">Sync catalog metadata</h3>
-          <p class="muted small" style="margin: 0">
-            Fast (~30s). Refreshes the D1 catalog tables (video series, dates, patch versions)
-            so questions like "latest Star Citizen Live" find the right document.
-            Does NOT touch the vector index. Run after adding new transcripts or patch notes.
-          </p>
-        </div>
-        <button class="btn primary" data-workflow="sync-catalog">Run</button>
-      </div>
-      <div class="runs" data-runs-for="sync-catalog"></div>
-    </section>
+      <a class="card admin-tile" href="/admin-jobs.html">
+        <h3>Jobs</h3>
+        <p class="muted small" style="margin: 0">
+          Sync the catalog metadata and rebuild the vector index. Triggers
+          GitHub Actions workflows and shows recent run status.
+        </p>
+      </a>
 
-    <section class="card" id="job-rebuild-index" style="margin-bottom: 14px">
-      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
-        <div>
-          <h3 style="margin: 0 0 4px">Rebuild vector index</h3>
-          <p class="muted small" style="margin: 0">
-            <strong>Incremental</strong> (default): seconds to a few minutes — only re-embeds source files whose contents changed since the last run, and deletes vectors for files that were removed.
-            <strong>Full rebuild</strong>: ~30 minutes — re-embeds every chunk. Use only after changing chunking logic or the embedding model.
-          </p>
-        </div>
-        <div class="h-stack">
-          <label class="muted small" style="display: flex; align-items: center; gap: 4px">
-            <input type="checkbox" id="rebuild-full"> Full rebuild
-          </label>
-          <button class="btn primary" data-workflow="rebuild-index">Run</button>
-        </div>
-      </div>
-      <div class="runs" data-runs-for="rebuild-index"></div>
-    </section>
+      <a class="card admin-tile" href="/admin-diag.html">
+        <h3>Retrieval diagnostic</h3>
+        <p class="muted small" style="margin: 0">
+          Run a query through the retriever without invoking an LLM. Inspect
+          intent matching, focus documents, and Vectorize chunk hits.
+        </p>
+      </a>
 
-    <section class="card" id="job-manual-note" style="margin-bottom: 14px; border-color: var(--border)">
-      <h3 style="margin: 0 0 4px">Adding new content</h3>
-      <p class="muted small" style="margin: 0">
-        Fetch new YouTube transcripts and patch notes from your local workspace
-        (the GitHub Actions runners get blocked by YouTube as bots). After
-        committing the new files, click <strong>Sync catalog metadata</strong> then
-        <strong>Rebuild vector index</strong> here. Incremental rebuilds only
-        re-embed what changed, so it finishes in seconds.
-      </p>
-    </section>
+      <a class="card admin-tile" href="/admin-users.html">
+        <h3>Registered users</h3>
+        <p class="muted small" style="margin: 0">
+          Browse and search everyone who has signed in via Twitch, with
+          conversation and message counts.
+        </p>
+      </a>
 
-    <p class="muted small" style="margin-top: 24px">
-      <span id="refresh-info"></span>
-      <button class="btn ghost small" id="refresh-btn">Refresh now</button>
-    </p>
-
-    <section class="card" style="margin-top: 24px">
-      <h3 style="margin: 0 0 8px">Retrieval diagnostic</h3>
-      <p class="muted small" style="margin: 0 0 12px">
-        Type a query to see exactly what the retriever does: which intent was matched,
-        which focus documents (if any), and what chunks Vectorize returned.
-        No LLM is called.
-      </p>
-      <div class="h-stack" style="gap: 8px">
-        <input id="diag-q" type="text" placeholder='e.g. In the video "Inside Star Citizen | Alpha 4.8 Patch Report" what ships are discussed?'
-               style="flex: 1">
-        <button class="btn primary" id="diag-run">Run query</button>
-      </div>
-      <div class="h-stack" style="gap: 8px; margin-top: 8px">
-        <input id="diag-vid" type="text" placeholder='or probe a specific video_id, e.g. SsOtI2dtvBc' style="flex: 1">
-        <button class="btn" id="diag-probe">Probe video</button>
-      </div>
-      <pre id="diag-output" style="margin-top: 12px; background: var(--code-bg); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; max-height: 480px; white-space: pre-wrap; word-break: break-word"></pre>
-    </section>
-
-    <section class="card" style="margin-top: 24px">
-      <h3 style="margin: 0 0 8px">Registered users</h3>
-      <p class="muted small" style="margin: 0 0 12px">
-        Everyone who has signed in via Twitch. Search matches login, display name, or email.
-      </p>
-      <div class="h-stack" style="gap: 8px">
-        <input id="users-q" type="text" placeholder="Search by login, display name, or email" style="flex: 1">
-        <button class="btn primary" id="users-search">Search</button>
-        <button class="btn ghost small" id="users-clear">Clear</button>
-      </div>
-      <div id="users-summary" class="muted small" style="margin-top: 10px"></div>
-      <div id="users-table" style="margin-top: 8px"></div>
-      <div class="h-stack" id="users-pager" style="justify-content: space-between; margin-top: 10px; display: none">
-        <button class="btn ghost small" id="users-prev">&larr; Previous</button>
-        <span class="muted small" id="users-page-label"></span>
-        <button class="btn ghost small" id="users-next">Next &rarr;</button>
-      </div>
-    </section>
+    </div>
   </main>
 
   <footer class="site-footer" id="site-footer"></footer>
-  <script type="module" src="/assets/js/admin.js"></script>
+  <script type="module">
+    import { initAdminPage } from "/assets/js/admin-shell.js";
+    document.addEventListener("DOMContentLoaded", initAdminPage);
+  </script>
 </body>
 </html>

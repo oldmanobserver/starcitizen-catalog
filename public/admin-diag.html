@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin · Retrieval diagnostic — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack">
+      <img id="user-avatar" class="avatar" alt="">
+      <span class="muted small" id="user-name"></span>
+      <a class="btn ghost small" href="/admin.html">&larr; Admin home</a>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+      <button class="btn ghost small" id="logout-btn">Log out</button>
+    </div>
+  </header>
+
+  <main class="page" style="max-width: 900px">
+    <h1>Admin · Retrieval diagnostic</h1>
+    <p class="muted small">
+      Type a query to see exactly what the retriever does: which intent was matched,
+      which focus documents (if any), and what chunks Vectorize returned.
+      No LLM is called.
+    </p>
+
+    <section class="card" style="margin-top: 16px">
+      <div class="h-stack" style="gap: 8px">
+        <input id="diag-q" type="text" placeholder='e.g. In the video "Inside Star Citizen | Alpha 4.8 Patch Report" what ships are discussed?'
+               style="flex: 1">
+        <button class="btn primary" id="diag-run">Run query</button>
+      </div>
+      <div class="h-stack" style="gap: 8px; margin-top: 8px">
+        <input id="diag-vid" type="text" placeholder='or probe a specific video_id, e.g. SsOtI2dtvBc' style="flex: 1">
+        <button class="btn" id="diag-probe">Probe video</button>
+      </div>
+      <pre id="diag-output" style="margin-top: 12px; background: var(--code-bg); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; max-height: 560px; white-space: pre-wrap; word-break: break-word"></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module" src="/assets/js/admin-diag.js"></script>
+</body>
+</html>

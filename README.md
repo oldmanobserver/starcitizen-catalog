@@ -40,7 +40,10 @@ public/                  Static site
   index.html             Landing / login
   app.html               Chat UI
   settings.html          Theme, defaults, API key management, delete-account
-  admin.html             Admin job dashboard (admins only)
+  admin.html             Admin home (admins only) — links to sub-pages
+  admin-jobs.html        Trigger sync-catalog / rebuild-index workflows
+  admin-diag.html        Retrieval diagnostic (no LLM)
+  admin-users.html       Browse / search registered users
   terms.html             Terms of service
   privacy.html           Privacy policy
   assets/css/ assets/js/
@@ -235,7 +238,10 @@ The `functions/data/` tree is the source of truth for transcripts and patch note
 
 ### Admin UI
 
-- `/admin.html` — three cards (Rebuild index / Fetch videos / Fetch patch notes), each with a **Run** button and the 10 most recent workflow runs. Auto-refreshes every 10 seconds.
+- `/admin.html` — home page with links to each admin sub-page.
+- `/admin-jobs.html` — **Sync catalog metadata** and **Rebuild vector index** cards, each with a **Run** button and the 10 most recent workflow runs. Auto-refreshes every 10 seconds.
+- `/admin-diag.html` — retrieval diagnostic. Run a query (or probe a video_id) and inspect intent matching, focus documents, and Vectorize chunk hits. No LLM is called.
+- `/admin-users.html` — search and paginate every user who has signed in via Twitch, with conversation and message counts.
 - Visible only to users with `users.is_admin = 1` in D1.
 - Mobile-friendly so you can kick off jobs from your phone.
 

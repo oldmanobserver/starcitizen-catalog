@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin · Jobs — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack">
+      <img id="user-avatar" class="avatar" alt="">
+      <span class="muted small" id="user-name"></span>
+      <a class="btn ghost small" href="/admin.html">&larr; Admin home</a>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+      <button class="btn ghost small" id="logout-btn">Log out</button>
+    </div>
+  </header>
+
+  <main class="page" style="max-width: 900px">
+    <h1>Admin · Jobs</h1>
+    <p class="muted small">
+      Each button kicks off a GitHub Actions workflow on the
+      <code id="repo-label">main</code> branch.
+      Jobs run on GitHub's runners, not on this server — feel free to close the page.
+    </p>
+
+    <div id="error-banner"></div>
+
+    <section class="card" id="job-sync-catalog" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Sync catalog metadata</h3>
+          <p class="muted small" style="margin: 0">
+            Fast (~30s). Refreshes the D1 catalog tables (video series, dates, patch versions)
+            so questions like "latest Star Citizen Live" find the right document.
+            Does NOT touch the vector index. Run after adding new transcripts or patch notes.
+          </p>
+        </div>
+        <button class="btn primary" data-workflow="sync-catalog">Run</button>
+      </div>
+      <div class="runs" data-runs-for="sync-catalog"></div>
+    </section>
+
+    <section class="card" id="job-rebuild-index" style="margin-bottom: 14px">
+      <div class="h-stack" style="justify-content: space-between; gap: 12px; flex-wrap: wrap">
+        <div>
+          <h3 style="margin: 0 0 4px">Rebuild vector index</h3>
+          <p class="muted small" style="margin: 0">
+            <strong>Incremental</strong> (default): seconds to a few minutes — only re-embeds source files whose contents changed since the last run, and deletes vectors for files that were removed.
+            <strong>Full rebuild</strong>: ~30 minutes — re-embeds every chunk. Use only after changing chunking logic or the embedding model.
+          </p>
+        </div>
+        <div class="h-stack">
+          <label class="muted small" style="display: flex; align-items: center; gap: 4px">
+            <input type="checkbox" id="rebuild-full"> Full rebuild
+          </label>
+          <button class="btn primary" data-workflow="rebuild-index">Run</button>
+        </div>
+      </div>
+      <div class="runs" data-runs-for="rebuild-index"></div>
+    </section>
+
+    <section class="card" id="job-manual-note" style="margin-bottom: 14px; border-color: var(--border)">
+      <h3 style="margin: 0 0 4px">Adding new content</h3>
+      <p class="muted small" style="margin: 0">
+        Fetch new YouTube transcripts and patch notes from your local workspace
+        (the GitHub Actions runners get blocked by YouTube as bots). After
+        committing the new files, click <strong>Sync catalog metadata</strong> then
+        <strong>Rebuild vector index</strong> here. Incremental rebuilds only
+        re-embed what changed, so it finishes in seconds.
+      </p>
+    </section>
+
+    <p class="muted small" style="margin-top: 24px">
+      <span id="refresh-info"></span>
+      <button class="btn ghost small" id="refresh-btn">Refresh now</button>
+    </p>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module" src="/assets/js/admin-jobs.js"></script>
+</body>
+</html>
