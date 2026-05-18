@@ -1110,6 +1110,7 @@ export function renderContext(matches) {
   matches.forEach((m, i) => {
     const md = m.metadata || {};
     const tag = `[#${i + 1}]`;
+    const url = buildCitationUrl(md);
     citations.push({
       ref: i + 1,
       score: m.score,
@@ -1117,7 +1118,8 @@ export function renderContext(matches) {
       title: md.title || null,
       video_id: md.video_id || null,
       timestamp_seconds: md.timestamp_seconds || null,
-      url: buildCitationUrl(md),
+      url,
+      url_kind: classifyUrlKind(md, url),
       patch_version: md.patch_version || null,
       channel: md.channel || null,
       ship: md.ship || null,
@@ -1128,6 +1130,32 @@ export function renderContext(matches) {
     lines.push(`${header}\n${md.text || ""}`);
   });
   return { contextText: lines.join("\n\n"), citations };
+}
+
+/**
+ * Classify a citation URL so the UI can decorate it (e.g. mark Spectrum
+ * forum links as "(Spectrum)" since those require a login to render). The
+ * chunker stamps `url_kind` on freshly-built metadata; for chunks that came
+ * from the catalog/FTS table (which doesn't carry that field) we infer it
+ * from the URL host.
+ */
+function classifyUrlKind(md, url) {
+  if (md && md.url_kind) return md.url_kind;
+  if (!url) return null;
+  try {
+    const u = new URL(url);
+    if (/robertsspaceindustries\.com$/i.test(u.hostname) &&
+        /^\/(?:[a-z]{2}\/)?spectrum\//i.test(u.pathname)) {
+      return "spectrum";
+    }
+    if (/robertsspaceindustries\.com$/i.test(u.hostname) &&
+        /\/comm-link\/Patch-Notes\//i.test(u.pathname)) {
+      return "official";
+    }
+  } catch (e) {
+    // Malformed URL — fall through to null.
+  }
+  return null;
 }
 
 function chunkHeader(tag, md) {
@@ -1141,10 +1169,14 @@ function chunkHeader(tag, md) {
     const v = md.patch_version || "";
     const c = md.channel || "";
     const head = `${tag} (patch_note) Alpha ${v} ${c}${md.title ? ` — ${md.title}` : ""}`;
-    // Surface the official comm-link Patch-Notes URL so the LLM can copy it
-    // verbatim into its answer instead of inventing a Spectrum forum link or
-    // dropping the citation entirely.
-    return md.url ? `${head}\nLink: ${md.url}` : head;
+    // Surface whatever URL the chunker captured — either the official
+    // comm-link Patch-Notes page (preferred) or the Spectrum forum thread
+    // (fallback, requires login). We annotate Spectrum links so the LLM
+    // can mention the caveat instead of pretending the link is canonical.
+    if (!md.url) return head;
+    const kind = classifyUrlKind(md, md.url);
+    const note = kind === "spectrum" ? " (Spectrum forum — login required)" : "";
+    return `${head}\nLink: ${md.url}${note}`;
   }
   if (md.source_type === "ship") {
     return `${tag} (ship) ${md.ship || md.title || ""}`;
@@ -1216,7 +1248,7 @@ export function buildSystemPrompt({ shipCorrections, contextText, focusDocs }) {
     "If neither FOCUS DOCUMENTS nor CONTEXT contains enough information to answer, say so plainly and do not invent details.",
     "When you mention a ship or vehicle, always use the official canonical name from the corrections map below (preserving the manufacturer prefix).",
     "When linking to a video, ALWAYS copy the exact 'Link:' URL shown in the relevant CONTEXT chunk. Each transcript chunk has a 'Link:' line with a ready-to-use https://www.youtube.com/watch?v=...&t=...s URL — use that verbatim. NEVER output the literal placeholders 'VIDEO_ID' or 'SECONDS' — those are not real URLs. NEVER ask the user to fill in the video ID — it is in the chunk header.",
-    "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to. If a patch_note CONTEXT chunk has a 'Link:' line, copy that URL verbatim when you want to link to the patch notes — it points to the official robertsspaceindustries.com comm-link Patch-Notes page. NEVER link to robertsspaceindustries.com/spectrum/... URLs (Spectrum forum threads require login and are not the canonical source). If no 'Link:' line is provided for a patch_note chunk, do not invent a URL — just cite the chunk with its [#n] tag.",
+    "When citing patch notes, mention the patch version (e.g. 'Alpha 4.5 PTU') so the reader knows which release the change applies to. If a patch_note CONTEXT chunk has a 'Link:' line, copy that URL verbatim when you want to link to the patch notes — comm-link/Patch-Notes URLs are the canonical no-login page, while URLs annotated '(Spectrum forum — login required)' are a fallback you should still surface (with that caveat) when no comm-link URL is available. Never invent a URL: if a chunk has no 'Link:' line, just cite it with its [#n] tag.",
     "If asked about 'the latest' or 'most recent' content, prefer entries from the FOCUS DOCUMENTS block below; those have already been selected by date.",
   ].join(" ");
 

@@ -502,7 +502,11 @@ function renderCitations(container, citations) {
     a.href = c.url || "#";
     if (!c.url) a.removeAttribute("href");
     a.textContent = `[#${c.ref}] ${citationLabel(c)}`;
-    a.title = `Score: ${(c.score || 0).toFixed(3)}`;
+    const titleBits = [`Score: ${(c.score || 0).toFixed(3)}`];
+    if (c.url_kind === "spectrum") {
+      titleBits.push("Spectrum forum link — login required to view the thread");
+    }
+    a.title = titleBits.join(" — ");
     container.appendChild(a);
   }
 }
@@ -513,7 +517,11 @@ function citationLabel(c) {
     return `${c.title || "video"}${ts}`;
   }
   if (c.source_type === "patch_note") {
-    return `Patch ${c.patch_version || ""}`.trim();
+    const base = `Patch ${c.patch_version || ""}`.trim();
+    // Spectrum forum links require a login to render — flag the chip so
+    // users aren't surprised when they click through.
+    const suffix = c.url_kind === "spectrum" ? " (Spectrum)" : "";
+    return `${base}${suffix}`;
   }
   if (c.source_type === "ship") {
     return `Ship: ${c.ship || c.title || ""}`;

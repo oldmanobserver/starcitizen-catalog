@@ -138,11 +138,17 @@ export function buildTranscriptChunks(entry, text) {
  * Sections are split on H2 boundaries; sections that exceed CHUNK_CHARS are
  * further sliced with the generic chunker.
  *
- * We deliberately prefer the official robertsspaceindustries.com comm-link
- * Patch-Notes URL (e.g. .../comm-link/Patch-Notes/20934-Star-Citizen-Alpha-450)
- * over the Spectrum forum URL recorded at the top of the file. The Spectrum
- * forum requires login to render properly and is not the canonical source for
- * patch-note content, so we never expose it to either the LLM or the user.
+ * URL preference:
+ *   1. The official robertsspaceindustries.com comm-link Patch-Notes URL
+ *      embedded in the body (e.g. .../comm-link/Patch-Notes/20934-...). This
+ *      is the canonical, no-login page and is what we want to surface.
+ *   2. Fallback: the Spectrum forum URL captured in the preamble (`**URL:**`
+ *      line) when no comm-link URL exists — most PTU notes only have this.
+ *      Spectrum requires a login to render the thread, so we tag the chunk
+ *      with `url_kind: "spectrum"` and the UI marks the chip accordingly.
+ *
+ * In either case the URL is metadata only — the preamble is still stripped
+ * from chunk text so the LLM never sees the raw URL in body content.
  */
 export function buildPatchChunks(entry, text) {
   const rawLines = text.split("\n");
@@ -152,6 +158,10 @@ export function buildPatchChunks(entry, text) {
     extractPatchVersion(path.basename(entry.full)) ||
     (title.match(/(\d+\.\d+(?:\.\d+)?)/) || [])[1] ||
     null;
+
+  // Capture the preamble `**URL:**` value before we strip it, so it can be
+  // used as a fallback citation link when no comm-link URL exists in the body.
+  const preambleUrl = extractPreambleUrl(rawLines);
 
   // Strip the preamble (Title / Date / URL metadata + leading --- divider +
   // blank lines). The preamble carries the Spectrum forum URL, which we don't
@@ -173,11 +183,12 @@ export function buildPatchChunks(entry, text) {
   }
   const body = rawLines.slice(bodyStart).join("\n");
 
-  // Prefer the official comm-link Patch-Notes URL embedded in the body
-  // (every modern patch note links to its full release notes page). Fall back
-  // to a generic Patch-Notes URL anywhere in the file. We intentionally do
-  // NOT fall back to the Spectrum forum URL from the preamble.
+  // Prefer the official comm-link Patch-Notes URL embedded in the body. Fall
+  // back to the preamble URL (typically Spectrum) so the citation chip is at
+  // least clickable. `url_kind` lets the UI distinguish the two.
   const officialUrl = extractOfficialPatchUrl(text);
+  const url = officialUrl || preambleUrl || null;
+  const url_kind = officialUrl ? "official" : (preambleUrl ? "spectrum" : null);
 
   const sections = body.split(/\n(?=##\s)/);
   const idPrefix = "pn-" + sha1(entry.key).slice(0, 24);
@@ -198,7 +209,8 @@ export function buildPatchChunks(entry, text) {
           channel: entry.channel,
           title,
           patch_version: patchVersion,
-          url: officialUrl,
+          url,
+          url_kind,
           text: truncate(p, 1800),
         },
       });
@@ -218,4 +230,19 @@ function extractOfficialPatchUrl(text) {
   const m = text.match(re);
   if (!m) return null;
   return m[0].replace(/[.,;:]+$/, "");
+}
+
+/**
+ * Extract the URL from a `**URL:** <url>` preamble line. Returns null if no
+ * such line exists or the URL is unparseable. Most PTU patch notes only have
+ * a Spectrum forum URL here, but it's still better than no link at all.
+ */
+function extractPreambleUrl(rawLines) {
+  for (const ln of rawLines) {
+    const m = ln.match(/^\*\*URL:\*\*\s*(\S+)/i);
+    if (m) return m[1].replace(/[.,;:]+$/, "");
+    // Stop scanning once we leave the preamble.
+    if (/^#\s/.test(ln) || /^##\s/.test(ln)) break;
+  }
+  return null;
 }
