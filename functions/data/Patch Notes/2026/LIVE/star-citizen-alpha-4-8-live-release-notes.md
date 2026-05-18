@@ -37,6 +37,7 @@
 **► New Flight Suits**
 > **Core Tech & Audio**
 **► Virtual Reality Updates (Experimental)**
+**► Haptic Feedback Support - D-BOX (Experimental)**
 
 
 # **Bug Fixes and Technical Updates**

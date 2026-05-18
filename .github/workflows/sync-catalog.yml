@@ -6,6 +6,18 @@ name: Sync catalog metadata
 
 on:
   workflow_dispatch: {}
+  # Also run automatically when transcripts, patch notes, the ship catalog,
+  # ingest scripts, or schema migrations change on main. Mirrors the trigger
+  # paths used by rebuild-index.yml so both workflows fire on the same pushes.
+  push:
+    branches: [main]
+    paths:
+      - "functions/data/youtube/**/transcripts/**"
+      - "functions/data/Patch Notes/**/*.md"
+      - "functions/data/ships.json"
+      - "functions/ingest/**"
+      - "functions/lib/catalog.js"
+      - "schema/migrations/**"
 
 concurrency:
   group: sync-catalog

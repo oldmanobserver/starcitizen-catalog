@@ -1,4 +1,4 @@
-**Title:** Star Citizen Alpha 4.8 LIVE - Hotfix Central
+**Title:** Star Citizen Alpha 4.8 LIVE - Hotfix Central [Updated 5.18]
 **Date:** 2026-05-14
 **URL:** https://robertsspaceindustries.com/spectrum/community/SC/forum/190048/thread/star-citizen-alpha-4-8-live-hotfix-central
 
@@ -17,15 +17,25 @@ https://robertsspaceindustries.com/en/comm-link/Patch-Notes/21168-Star-Citizen-A
 https://issue-council.robertsspaceindustries.com/projects/STAR-CITIZEN
 -     Status: Hotfix Channel Currently CLOSED
 -     Latest LIVE Client CL: **1825000**
--     Latest LIVE DGS CL: **1825000**
-> **► 5.14.2026: Hotfix testing has begun**
-**We are currently starting up the hotfix testing for 4.8 with the goal of being able to hotfix as soon as we are able**
+-     Latest LIVE DGS CL: **1825000 (11848685 dgs hotfix in testing on select shards)**
+> **► 5.18.2026: Hotfix testing has begun**
+**We are currently starting up the hotfix testing for 4.8 with the goal of being able to hotfix as soon as we are able.**
+**DGS Hotfix 11848685 is on multiple shards for testing the server side only fixes.**
+
 **Fixes in testing include:**
-- **Ships using the command module not able to navigate jump points correctly due to SCM modes switching**
+- **Multiple Client and Server Crash fixes**
+- **Server: Some vehicles not despawning after being stored and retrieved from the ASOP**
+- **Server: Multivehicle - PU - Vehicles - If the player calls Landing Services in the hangar when another vehicle is on the pad the other vehicle will be stored**
+- **Server: Abandoned vehicles are persisting at TSG Locations after the location has been streamed out**
+- **Server: Fix landing area checking obstruction bounds instead of full bounds when deciding to store a vehicle on the pad**
+- **Server: Multivehicle - PU - Vehicles / Landing Services - Ships without ballistic guns are unable to restock missiles and countermeasures through the landing services inside another ship that provides landing services despite having resources on the cargo grid**
+- **Client+Server: Fix for ships colliding with each other during auto-undocking execution**
+- **Client+Server: Ships switch to SCM Master Mode when changing servers**
+- **Client+Server: Contested Zone airlock access not cycling**
+- **Service Hotfix: U - Missions / UI - Mission QT target moving away rapidly through space**
+
+**Known issue that will require a full future build**
 - **mobiGlas - After accepting a mission, the "Accept" button for all other missions will be greyed out until the player cycles the mobiGlas**
-- **Some vehicles not despawning after being stored and retrieved from the ASOP**
-- **TSG locations not cleaning up abandoned vehicles**
-- **Contested Zone airlock access not cycling**
 
 
 
