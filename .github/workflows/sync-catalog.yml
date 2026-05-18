@@ -6,22 +6,19 @@ name: Sync catalog metadata
 
 on:
   workflow_dispatch: {}
-  # Also run automatically when transcripts, patch notes, the ship catalog,
-  # ingest scripts, or schema migrations change on main. Mirrors the trigger
-  # paths used by rebuild-index.yml so both workflows fire on the same pushes.
-  push:
-    branches: [main]
-    paths:
-      - "functions/data/youtube/**/transcripts/**"
-      - "functions/data/Patch Notes/**/*.md"
-      - "functions/data/ships.json"
-      - "functions/ingest/**"
-      - "functions/lib/catalog.js"
-      - "schema/migrations/**"
+  # NOTE: do NOT add a push trigger here. The `rebuild-index.yml` workflow
+  # already runs `functions/ingest/sync_catalog.js` as its first step on
+  # every qualifying push, so adding a push trigger to this workflow causes
+  # both workflows to race on the same DELETE + INSERT statements and the
+  # second one fails with `UNIQUE constraint failed: catalog_videos.video_id`.
+  # Keep this workflow manual-only — use it when you want a catalog refresh
+  # without paying for a full Vectorize rebuild.
 
 concurrency:
-  group: sync-catalog
-  cancel-in-progress: true
+  # Share the rebuild-index group so a manual catalog sync can't race against
+  # the catalog-sync step inside an in-flight rebuild-index run.
+  group: rebuild-index
+  cancel-in-progress: false
 
 permissions:
   contents: read
