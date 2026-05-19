@@ -58,8 +58,8 @@ export function openFeedbackModal(ctx) {
         </label>
         <span class="hint">
           ${hasSnapshot
-            ? "Attaches the most recent question, the assistant's answer, and the sources it cited so an admin can see what you saw."
-            : "No recent question/answer to attach. Ask something first to enable this."}
+            ? "Attaches the selected question, the assistant's answer, and the sources it cited so an admin can see what you saw."
+            : "No question/answer to attach. Ask something first to enable this."}
         </span>
       </div>
 
