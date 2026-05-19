@@ -70,3 +70,25 @@ CREATE TABLE IF NOT EXISTS audit_log (
 );
 
 CREATE INDEX IF NOT EXISTS idx_audit_user ON audit_log(user_id, created_at DESC);
+-- ----------------------------------------------------------------------------
+-- Feedback (bug reports / suggestions; see migrations/006_feedback.sql)
+-- ----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS feedback (
+  id              TEXT PRIMARY KEY,
+  user_id         TEXT NOT NULL,
+  kind            TEXT NOT NULL DEFAULT 'bug',
+  title           TEXT NOT NULL,
+  description     TEXT NOT NULL,
+  conversation_id TEXT,
+  message_id      TEXT,
+  snapshot        TEXT,
+  status          TEXT NOT NULL DEFAULT 'open',
+  close_notes     TEXT,
+  closed_at       INTEGER,
+  closed_by       TEXT,
+  created_at      INTEGER NOT NULL,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_feedback_status ON feedback(status, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_feedback_user ON feedback(user_id, created_at DESC);

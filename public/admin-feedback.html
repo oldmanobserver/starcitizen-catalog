@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin · Feedback — Star Citizen Catalog</title>
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/assets/js/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/app.html">Star Citizen Catalog</a>
+    <div class="spacer"></div>
+    <div class="h-stack">
+      <img id="user-avatar" class="avatar" alt="">
+      <span class="muted small" id="user-name"></span>
+      <a class="btn ghost small" href="/admin.html">&larr; Admin home</a>
+      <a class="btn ghost small" href="/app.html">Back to chat</a>
+      <button class="btn ghost small" id="logout-btn">Log out</button>
+    </div>
+  </header>
+
+  <main class="page" style="max-width: 1000px">
+    <h1>Admin · Feedback</h1>
+    <p class="muted small">
+      Bug reports and suggestions submitted by users. Click a row to see the
+      full report and, if attached, the question and answer the user was
+      looking at when they reported it.
+    </p>
+
+    <section class="card" style="margin-top: 16px">
+      <div class="h-stack" style="gap: 8px; flex-wrap: wrap; align-items: center">
+        <label class="muted small">Status</label>
+        <select id="fb-status" style="width: auto">
+          <option value="open" selected>Open</option>
+          <option value="closed">Closed</option>
+          <option value="all">All</option>
+        </select>
+        <label class="muted small">Type</label>
+        <select id="fb-kind" style="width: auto">
+          <option value="all" selected>All</option>
+          <option value="bug">Bug</option>
+          <option value="suggestion">Suggestion</option>
+        </select>
+        <input id="fb-q" type="text" placeholder="Search title, description, or user" style="flex: 1; min-width: 220px">
+        <button class="btn primary" id="fb-search">Search</button>
+        <button class="btn ghost small" id="fb-clear">Clear</button>
+      </div>
+      <div id="fb-summary" class="muted small" style="margin-top: 10px"></div>
+      <div id="fb-table" style="margin-top: 8px"></div>
+      <div class="h-stack" id="fb-pager" style="justify-content: space-between; margin-top: 10px; display: none">
+        <button class="btn ghost small" id="fb-prev">&larr; Previous</button>
+        <span class="muted small" id="fb-page-label"></span>
+        <button class="btn ghost small" id="fb-next">Next &rarr;</button>
+      </div>
+    </section>
+
+    <section id="fb-detail" class="card" style="margin-top: 16px; display: none"></section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module" src="/assets/js/admin-feedback.js"></script>
+</body>
+</html>

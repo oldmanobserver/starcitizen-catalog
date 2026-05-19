@@ -10,6 +10,7 @@ import {
   showPromptModal,
   escapeHtml,
 } from "./common.js";
+import { openFeedbackModal } from "./feedback.js";
 
 const state = {
   user: null,
@@ -199,6 +200,7 @@ function cacheEls() {
   els.exportBtn = document.querySelector("#export-conv-btn");
   els.search = document.querySelector("#conv-search");
   els.searchClear = document.querySelector("#conv-search-clear");
+  els.feedbackBtn = document.querySelector("#feedback-btn");
 }
 
 function bindUi() {
@@ -225,6 +227,53 @@ function bindUi() {
     }
   });
   els.searchClear.addEventListener("click", clearSearch);
+  if (els.feedbackBtn) {
+    els.feedbackBtn.addEventListener("click", () => {
+      openFeedbackModal({ getSnapshot: buildFeedbackSnapshot });
+    });
+  }
+}
+
+// Build a snapshot of the most recent question + assistant answer so the
+// feedback modal can attach it. Returns null if there's nothing to attach
+// yet (e.g. brand-new conversation with no exchanges, or still streaming).
+function buildFeedbackSnapshot() {
+  if (state.streaming) return null;
+  const msgs = state.messages || [];
+  if (!msgs.length) return null;
+
+  // Walk backwards to find the most recent assistant turn with content.
+  let assistantIdx = -1;
+  for (let i = msgs.length - 1; i >= 0; i--) {
+    if (msgs[i].role === "assistant" && (msgs[i].content || "").trim()) {
+      assistantIdx = i;
+      break;
+    }
+  }
+  // Find the user message that prompted it (closest user turn before).
+  let userIdx = -1;
+  const startFrom = assistantIdx >= 0 ? assistantIdx - 1 : msgs.length - 1;
+  for (let i = startFrom; i >= 0; i--) {
+    if (msgs[i].role === "user") { userIdx = i; break; }
+  }
+  if (userIdx < 0 && assistantIdx < 0) return null;
+
+  const userMsg = userIdx >= 0 ? msgs[userIdx] : null;
+  const assistantMsg = assistantIdx >= 0 ? msgs[assistantIdx] : null;
+  const conv = state.activeConversation || null;
+
+  return {
+    conversation_id: state.activeId || null,
+    message_id: (assistantMsg && assistantMsg.id) || null,
+    conversation_title: (conv && conv.title) || els.title.textContent || null,
+    provider: (conv && conv.provider) || (els.providerSelect && els.providerSelect.value) || null,
+    model: (conv && conv.model) || (els.modelSelect && els.modelSelect.value) || null,
+    user_message: userMsg ? (userMsg.content || "") : "",
+    assistant_message: assistantMsg ? (assistantMsg.content || "") : "",
+    citations: (assistantMsg && Array.isArray(assistantMsg.citations))
+      ? assistantMsg.citations
+      : [],
+  };
 }
 
 function renderUser() {
