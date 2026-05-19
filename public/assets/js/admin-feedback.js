@@ -238,7 +238,7 @@ function renderDetail(fb) {
 
   const snapshotBlock = fb.snapshot
     ? renderSnapshot(fb.snapshot, fb)
-    : `<div class="muted small" style="margin-top: 12px">The user did not include their search with this report.</div>`;
+    : `<div class="muted small" style="margin-top: 12px">The user did not include their conversation with this report.</div>`;
 
   detail.innerHTML = `
     <div class="h-stack" style="gap: 8px; align-items: center; flex-wrap: wrap">
@@ -263,7 +263,7 @@ function renderDetail(fb) {
         : `<button class="btn" id="fb-reopen-btn" type="button">Reopen</button>`}
     </div>
 
-    <h3 style="margin-top: 20px">Search included with report</h3>
+    <h3 style="margin-top: 20px">Conversation included with report</h3>
     ${snapshotBlock}
   `;
 
@@ -280,54 +280,79 @@ function renderDetail(fb) {
 }
 
 function renderSnapshot(snap, fb) {
-  const userMsg = snap.user_message || "";
-  const assistantMsg = snap.assistant_message || "";
-  const citations = Array.isArray(snap.citations) ? snap.citations : [];
+  // Normalize: the snapshot may be either the new multi-turn shape
+  // ({ messages: [...] }) or the legacy single-turn shape
+  // ({ user_message, assistant_message, citations }). Convert the legacy
+  // form into a messages[] array so the rest of the renderer is uniform.
+  let messages = Array.isArray(snap.messages) ? snap.messages.slice() : [];
+  if (!messages.length && (snap.user_message || snap.assistant_message)) {
+    if (snap.user_message) {
+      messages.push({ role: "user", content: snap.user_message, citations: [] });
+    }
+    if (snap.assistant_message) {
+      messages.push({
+        role: "assistant",
+        content: snap.assistant_message,
+        citations: Array.isArray(snap.citations) ? snap.citations : [],
+      });
+    }
+  }
 
   const meta = [];
   if (snap.conversation_title) meta.push(`Title: ${escapeHtml(snap.conversation_title)}`);
   if (snap.provider) meta.push(`Provider: ${escapeHtml(snap.provider)}`);
   if (snap.model) meta.push(`Model: ${escapeHtml(snap.model)}`);
   if (fb.conversation_id) meta.push(`Conversation id: <code>${escapeHtml(fb.conversation_id)}</code>`);
-  const metaLine = meta.length
-    ? `<div class="muted small" style="margin-bottom: 10px">${meta.join(" · ")}</div>`
-    : "";
+  meta.push(`Turns: ${messages.length}`);
+  const metaLine = `<div class="muted small" style="margin-bottom: 10px">${meta.join(" · ")}</div>`;
 
-  // Reproduce the chat layout: a user bubble, then an assistant bubble with
-  // rendered markdown and citation chips, just like /app.html.
-  const userHtml = userMsg
-    ? `
-      <div class="message user">
-        <div class="role">User</div>
-        <div class="bubble">${renderMarkdown(userMsg)}</div>
-      </div>
-    `
-    : "";
+  if (!messages.length) {
+    return `${metaLine}<div class="muted small">(empty snapshot)</div>`;
+  }
 
-  // Build a ref->citation map and replace [#N] in the rendered HTML with
-  // anchor links to the source URL (same behavior as app.js applyCitations).
-  const byRef = new Map(citations.map((c) => [Number(c.ref), c]));
-  let assistantBubbleHtml = renderMarkdown(assistantMsg);
-  // The renderMarkdown helper turns [#N] into <span class="citation-ref" data-ref="N">…</span>;
-  // upgrade to <a> when we have a URL.
-  assistantBubbleHtml = assistantBubbleHtml.replace(
-    /<span class="citation-ref" data-ref="(\d+)">([^<]+)<\/span>/g,
-    (_m, n, label) => {
-      const c = byRef.get(Number(n));
-      if (!c || !c.url) return `<span class="citation-ref" data-ref="${n}">${label}</span>`;
-      return `<a class="citation-ref" data-ref="${n}" href="${escapeHtml(c.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(citationLabel(c))}">${label}</a>`;
-    }
-  );
+  const bubblesHtml = messages.map(renderSnapshotMessage).join("");
 
-  // Citation chips: only those actually referenced in the assistant body.
+  return `
+    ${metaLine}
+    <div class="messages snapshot-messages">
+      ${bubblesHtml}
+    </div>
+  `;
+}
+
+function renderSnapshotMessage(m) {
+  const role = m.role === "assistant" ? "assistant"
+    : m.role === "system" ? "system"
+    : "user";
+  const roleLabel = role === "assistant" ? "Assistant"
+    : role === "system" ? "System"
+    : "User";
+  const content = m.content || "";
+  const citations = Array.isArray(m.citations) ? m.citations : [];
+
+  // Render markdown, then upgrade <span class="citation-ref"> placeholders
+  // to anchor links when we have URLs (matches /app.html behavior).
+  let bubbleHtml = renderMarkdown(content);
+  if (citations.length) {
+    const byRef = new Map(citations.map((c) => [Number(c.ref), c]));
+    bubbleHtml = bubbleHtml.replace(
+      /<span class="citation-ref" data-ref="(\d+)">([^<]+)<\/span>/g,
+      (_m, n, label) => {
+        const c = byRef.get(Number(n));
+        if (!c || !c.url) return `<span class="citation-ref" data-ref="${n}">${label}</span>`;
+        return `<a class="citation-ref" data-ref="${n}" href="${escapeHtml(c.url)}" target="_blank" rel="noopener noreferrer" title="${escapeHtml(citationLabel(c))}">${label}</a>`;
+      }
+    );
+  }
+
+  // Chips: only show citations that are actually referenced in this turn.
   const used = new Set();
   const re = /\[#(\d+)\]/g;
   let mm;
-  while ((mm = re.exec(assistantMsg)) !== null) used.add(Number(mm[1]));
+  while ((mm = re.exec(content)) !== null) used.add(Number(mm[1]));
   const filtered = used.size
     ? citations.filter((c) => used.has(Number(c.ref)))
-    : citations;
-
+    : [];
   const chipsHtml = filtered.length
     ? `<div class="citations">${filtered.map((c) => {
         const label = `[#${c.ref}] ${citationLabel(c)}`;
@@ -337,25 +362,11 @@ function renderSnapshot(snap, fb) {
       }).join("")}</div>`
     : "";
 
-  const assistantHtml = assistantMsg
-    ? `
-      <div class="message assistant">
-        <div class="role">Assistant</div>
-        <div class="bubble">${assistantBubbleHtml}</div>
-        ${chipsHtml}
-      </div>
-    `
-    : "";
-
-  if (!userHtml && !assistantHtml) {
-    return `<div class="muted small">(empty snapshot)</div>`;
-  }
-
   return `
-    ${metaLine}
-    <div class="messages snapshot-messages">
-      ${userHtml}
-      ${assistantHtml}
+    <div class="message ${role}">
+      <div class="role">${roleLabel}</div>
+      <div class="bubble">${bubbleHtml}</div>
+      ${chipsHtml}
     </div>
   `;
 }

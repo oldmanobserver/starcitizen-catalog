@@ -54,12 +54,20 @@ export async function onRequestPost({ request, env }) {
   if (includeSearch && body.snapshot && typeof body.snapshot === "object") {
     // Server-side sanitize: keep a known shape; truncate large fields.
     const snap = sanitizeSnapshot(body.snapshot);
-    const s = JSON.stringify(snap);
+    let s = JSON.stringify(snap);
     if (s.length > MAX_SNAPSHOT_BYTES) {
-      // Truncate the longest text field if oversize.
-      snap.assistant_message = (snap.assistant_message || "").slice(0, 20000);
-      snap.user_message = (snap.user_message || "").slice(0, 4000);
-      snapshotJson = JSON.stringify(snap).slice(0, MAX_SNAPSHOT_BYTES);
+      // Oversize: drop the oldest turns (keep the most recent context) until
+      // we fit within the cap. If a single turn is still too big, hard-cap
+      // the JSON string at MAX_SNAPSHOT_BYTES as a last resort.
+      while (
+        Array.isArray(snap.messages) &&
+        snap.messages.length > 1 &&
+        s.length > MAX_SNAPSHOT_BYTES
+      ) {
+        snap.messages.shift();
+        s = JSON.stringify(snap);
+      }
+      snapshotJson = s.length > MAX_SNAPSHOT_BYTES ? s.slice(0, MAX_SNAPSHOT_BYTES) : s;
     } else {
       snapshotJson = s;
     }
@@ -109,29 +117,34 @@ export async function onRequestGet({ request, env }) {
 
 function sanitizeSnapshot(snap) {
   const out = {};
-  if (typeof snap.user_message === "string") {
-    out.user_message = snap.user_message.slice(0, 8000);
-  }
-  if (typeof snap.assistant_message === "string") {
-    out.assistant_message = snap.assistant_message.slice(0, 40000);
-  }
   if (typeof snap.provider === "string") out.provider = snap.provider.slice(0, 40);
   if (typeof snap.model === "string") out.model = snap.model.slice(0, 80);
   if (typeof snap.conversation_title === "string") {
     out.conversation_title = snap.conversation_title.slice(0, 200);
   }
-  if (Array.isArray(snap.citations)) {
-    out.citations = snap.citations.slice(0, 40).map((c) => ({
-      ref: Number(c.ref) || null,
-      url: typeof c.url === "string" ? c.url.slice(0, 1024) : null,
-      title: typeof c.title === "string" ? c.title.slice(0, 300) : null,
-      source_type: typeof c.source_type === "string" ? c.source_type.slice(0, 40) : null,
-      url_kind: typeof c.url_kind === "string" ? c.url_kind.slice(0, 40) : null,
-      patch_version: typeof c.patch_version === "string" ? c.patch_version.slice(0, 80) : null,
-      ship: typeof c.ship === "string" ? c.ship.slice(0, 200) : null,
-      timestamp_seconds: Number.isFinite(c.timestamp_seconds) ? c.timestamp_seconds : null,
-      score: Number.isFinite(c.score) ? c.score : null,
+  if (Array.isArray(snap.messages)) {
+    out.messages = snap.messages.slice(0, 200).map((m) => ({
+      id: typeof m.id === "string" ? m.id.slice(0, 80) : null,
+      role: m.role === "assistant" || m.role === "system" || m.role === "user"
+        ? m.role
+        : "user",
+      content: typeof m.content === "string" ? m.content.slice(0, 40000) : "",
+      citations: Array.isArray(m.citations) ? sanitizeCitations(m.citations) : [],
     }));
   }
   return out;
+}
+
+function sanitizeCitations(citations) {
+  return citations.slice(0, 40).map((c) => ({
+    ref: Number(c.ref) || null,
+    url: typeof c.url === "string" ? c.url.slice(0, 1024) : null,
+    title: typeof c.title === "string" ? c.title.slice(0, 300) : null,
+    source_type: typeof c.source_type === "string" ? c.source_type.slice(0, 40) : null,
+    url_kind: typeof c.url_kind === "string" ? c.url_kind.slice(0, 40) : null,
+    patch_version: typeof c.patch_version === "string" ? c.patch_version.slice(0, 80) : null,
+    ship: typeof c.ship === "string" ? c.ship.slice(0, 200) : null,
+    timestamp_seconds: Number.isFinite(c.timestamp_seconds) ? c.timestamp_seconds : null,
+    score: Number.isFinite(c.score) ? c.score : null,
+  }));
 }

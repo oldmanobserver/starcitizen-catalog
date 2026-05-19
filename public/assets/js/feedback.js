@@ -1,7 +1,7 @@
 // public/assets/js/feedback.js
 // Feedback modal: report a bug or send a suggestion, optionally including
-// the current search (the most recent user message + assistant response and
-// its citations) so an admin can reproduce the issue.
+// the current conversation (every user/assistant turn and the citations
+// attached to each assistant turn) so an admin can reproduce the issue.
 
 import { apiJson, escapeHtml } from "./common.js";
 
@@ -10,9 +10,9 @@ import { apiJson, escapeHtml } from "./common.js";
  *
  * @param {object} ctx
  * @param {() => object|null} ctx.getSnapshot
- *   Returns the snapshot object to attach when "include current search" is
- *   checked, or null if there's no current search to include. Shape:
- *   { user_message, assistant_message, citations, provider, model,
+ *   Returns the snapshot object to attach when "include current conversation"
+ *   is checked, or null if there's no conversation to include. Shape:
+ *   { messages: [ { id, role, content, citations } ], provider, model,
  *     conversation_id, message_id, conversation_title }
  */
 export function openFeedbackModal(ctx) {
@@ -54,12 +54,12 @@ export function openFeedbackModal(ctx) {
       <div class="field" style="margin-bottom: 8px">
         <label class="checkbox-row" style="font-weight: 600; font-size: 13px">
           <input type="checkbox" id="fb-include" ${hasSnapshot ? "checked" : "disabled"}>
-          <span>Include current search</span>
+          <span>Include current conversation</span>
         </label>
         <span class="hint">
           ${hasSnapshot
-            ? "Attaches the selected question, the assistant's answer, and the sources it cited so an admin can see what you saw."
-            : "No question/answer to attach. Ask something first to enable this."}
+            ? "Attaches every question and answer in this conversation, along with the sources cited, so an admin can see exactly what you saw."
+            : "No conversation to attach. Ask something first to enable this."}
         </span>
       </div>
 
@@ -120,9 +120,7 @@ export function openFeedbackModal(ctx) {
       if (snapshot.conversation_id) payload.conversation_id = snapshot.conversation_id;
       if (snapshot.message_id) payload.message_id = snapshot.message_id;
       payload.snapshot = {
-        user_message: snapshot.user_message || "",
-        assistant_message: snapshot.assistant_message || "",
-        citations: snapshot.citations || [],
+        messages: Array.isArray(snapshot.messages) ? snapshot.messages : [],
         provider: snapshot.provider || null,
         model: snapshot.model || null,
         conversation_title: snapshot.conversation_title || null,
